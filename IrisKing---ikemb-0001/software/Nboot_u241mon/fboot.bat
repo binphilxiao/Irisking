@@ -1,0 +1,1 @@
+sjf2410 /f:.\nboot_data\debugrel\nboot.bin

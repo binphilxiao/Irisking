@@ -1,0 +1,15 @@
+{ Using PSTWRITER 15.7.0 p001Jan-21-2008 at 13:26:02 }
+
+#1 Warning [ALG0016] Part Name "DIODE SCHOTTKY_D2220_SCHOTTKY MBR745" is renamed to "DIODE SCHOTTKY_D2220_SCHOTTKY M".
+#2 Warning [ALG0051] Pin "PGND" is renamed to "PGND#11" after substituting illegal characters in Package TPS54310_0 , U1: SCHEMATIC1, power (16.50, 1.70).
+#3 Warning [ALG0051] Pin "PGND" is renamed to "PGND#12" after substituting illegal characters in Package TPS54310_0 , U1: SCHEMATIC1, power (16.50, 1.70).
+#4 Warning [ALG0051] Pin "PGND" is renamed to "PGND#13" after substituting illegal characters in Package TPS54310_0 , U1: SCHEMATIC1, power (16.50, 1.70).
+#5 Warning [ALG0051] Pin "VIN" is renamed to "VIN#14" after substituting illegal characters in Package TPS54310_0 , U1: SCHEMATIC1, power (16.50, 1.70).
+#6 Warning [ALG0051] Pin "VIN" is renamed to "VIN#15" after substituting illegal characters in Package TPS54310_0 , U1: SCHEMATIC1, power (16.50, 1.70).
+#7 Warning [ALG0051] Pin "VIN" is renamed to "VIN#16" after substituting illegal characters in Package TPS54310_0 , U1: SCHEMATIC1, power (16.50, 1.70).
+Scanning netlist files ...
+Loading... E:\EMB002\project\hardware\POWER\allegro/pstchip.dat
+Loading... E:\EMB002\project\hardware\POWER\allegro/pstchip.dat
+Loading... E:\EMB002\project\hardware\POWER\allegro/pstxprt.dat
+Loading... E:\EMB002\project\hardware\POWER\allegro/pstxnet.dat
+packaging the design view...

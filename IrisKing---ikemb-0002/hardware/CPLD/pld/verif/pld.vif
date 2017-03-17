@@ -1,0 +1,56 @@
+#
+# Synplicity Verification Interface File
+# Generated using Synplify-pro
+#
+# Copyright (c) 1996-2005 Synplicity, Inc.
+# All rights reserved
+#
+
+# Set logfile options
+vif_set_result_file  pld.vlf
+
+# Set technology for TCL script
+vif_set_technology -architecture FPGA -vendor Altera
+
+# RTL and technology files
+vif_add_library -original $env(QUARTUS_ROOTDIR)/eda/fv_lib/verilog
+vif_add_file -original -verilog ../pld.v
+vif_set_top_module -original -top pld
+ 
+vif_add_library -translated $env(QUARTUS_ROOTDIR)/eda/fv_lib/verilog
+vif_add_file -translated -verilog pld.vqm
+vif_set_top_module -translated -top pld 
+# Read FSM encoding
+
+# Memory map points
+
+# SRL map points
+
+# Compiler constant registers
+
+# Compiler constant latches
+
+# Compiler RTL sequential redundancies
+
+# RTL sequential redundancies
+
+# Technology sequential redundancies
+
+# Inversion map points
+vif_set_map_point -register -inverted -original overtime -translated overtime_i_Z
+vif_set_map_point -register -inverted -original wil0 -translated wil0_i_Z
+vif_set_map_point -register -inverted -original wil1 -translated wil1_i_Z
+
+# Port mappping and directions
+
+# Black box mapping
+
+
+# Other sequential cells, including multidimensional arrays
+
+# Constant Registers
+
+# Retimed Registers
+
+# Altera MAC annotations
+

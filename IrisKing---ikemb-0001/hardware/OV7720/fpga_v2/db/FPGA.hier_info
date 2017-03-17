@@ -1,0 +1,36 @@
+|FPGA
+clk => ~NO_FANOUT~
+nReset => nReset_in.PADIO
+vpdin[0] => vpdin_in_0_.PADIO
+vpdin[1] => vpdin_in_1_.PADIO
+vpdin[2] => vpdin_in_2_.PADIO
+vpdin[3] => vpdin_in_3_.PADIO
+vpdin[4] => vpdin_in_4_.PADIO
+vpdin[5] => vpdin_in_5_.PADIO
+vpdin[6] => vpdin_in_6_.PADIO
+vpdin[7] => vpdin_in_7_.PADIO
+vpdin[8] => vpdin_in_8_.PADIO
+vpdin[9] => vpdin_in_9_.PADIO
+vpdout[0] <= vpdout_out_0_.PADIO
+vpdout[1] <= vpdout_out_1_.PADIO
+vpdout[2] <= vpdout_out_2_.PADIO
+vpdout[3] <= vpdout_out_3_.PADIO
+vpdout[4] <= vpdout_out_4_.PADIO
+vpdout[5] <= vpdout_out_5_.PADIO
+vpdout[6] <= vpdout_out_6_.PADIO
+vpdout[7] <= vpdout_out_7_.PADIO
+vpdout[8] <= vpdout_out_8_.PADIO
+vpdout[9] <= vpdout_out_9_.PADIO
+vpctlin[0] => vpctlin_in_0_.PADIO
+vpctlin[1] => vpctlin_in_1_.PADIO
+vpctlin[2] => ~NO_FANOUT~
+vpctlout[0] <= vpctlout_out_0_.PADIO
+vpctlout[1] <= vpctlout_out_1_.PADIO
+vpctlout[2] <= vpctlout_out_2_.PADIO
+vpclkin[0] => vpclkin_in_0_.PADIO
+vpclkin[1] => vpclkin_in_1_.PADIO
+vpclkout[0] <= vpclkout_out_0_.PADIO
+vpclkout[1] <= vpclkout_out_1_.PADIO
+fsinout <= <GND>
+
+

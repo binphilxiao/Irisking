@@ -1,0 +1,33 @@
+|pld
+clk => clk_in.PADIO
+nCPLDCE => nCPLDCE_in.PADIO
+nNANDFWE => ~NO_FANOUT~
+nOE_nFRE => ~NO_FANOUT~
+nHRESET => ~NO_FANOUT~
+wil[0] => wil_in_0_.PADIO
+wil[1] => wil_in_1_.PADIO
+addr[0] => ~NO_FANOUT~
+addr[1] => ~NO_FANOUT~
+addr[2] => ~NO_FANOUT~
+addr[3] => ~NO_FANOUT~
+addr[4] => ~NO_FANOUT~
+addr[5] => ~NO_FANOUT~
+addr[6] => ~NO_FANOUT~
+data[0] => ~NO_FANOUT~
+data[1] => ~NO_FANOUT~
+data[2] => ~NO_FANOUT~
+data[3] => ~NO_FANOUT~
+data[4] => ~NO_FANOUT~
+data[5] => ~NO_FANOUT~
+data[6] => ~NO_FANOUT~
+data[7] => ~NO_FANOUT~
+IRQ4 <= IRQ4_out.PADIO
+AD_CS <= AD_CS_out.PADIO
+AD_CLK <= AD_CLK_out.PADIO
+AD_DOO => ~NO_FANOUT~
+test[0] <= test_out_0_.PADIO
+test[1] <= test_out_1_.PADIO
+test[2] <= test_out_2_.PADIO
+test[3] <= test_out_3_.PADIO
+
+

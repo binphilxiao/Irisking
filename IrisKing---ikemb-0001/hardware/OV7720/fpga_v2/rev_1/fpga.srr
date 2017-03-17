@@ -1,0 +1,279 @@
+$ Start of Compile
+#Thu Apr 28 09:02:27 2011
+
+Synplicity Verilog Compiler, version Compilers 2.8.1, Build 015R, built Sep  2 2004
+Copyright (C) 1994-2004, Synplicity Inc.  All Rights Reserved
+
+@I::"E:\project\IRISking\ikemb-0001\project\hardware\OV7720\fpga_v2\fpga.v"
+Verilog syntax check successful!
+
+Compiler output is up to date.  No re-compile necessary
+
+Selecting top level module FPGA
+Synthesizing module FPGA
+@W:"E:\project\IRISking\ikemb-0001\project\hardware\OV7720\fpga_v2\fpga.v":5:14:5:20|Input port bit <2> of vpctlin[2:0] is unused
+
+@W: CL159 :"E:\project\IRISking\ikemb-0001\project\hardware\OV7720\fpga_v2\fpga.v":2:8:2:10|Input clk is unused
+@END
+Process took 0h:0m:0s realtime, 0h:0m:0s cputime
+###########################################################[
+Synplicity Altera Technology Mapper, version 7.7.0, Build 033R, built Sep  9 2004
+Copyright (C) 1994-2004, Synplicity Inc.  All Rights Reserved
+
+
+@N:"e:\project\irisking\ikemb-0001\project\hardware\ov7720\fpga_v2\fpga.v":49:1:49:6|Found counter in view:work.FPGA(verilog) inst sse_counter[19:0]
+@N:"e:\project\irisking\ikemb-0001\project\hardware\ov7720\fpga_v2\fpga.v":40:1:40:6|Found counter in view:work.FPGA(verilog) inst pix_counter[9:0]
+@N:"e:\project\irisking\ikemb-0001\project\hardware\ov7720\fpga_v2\fpga.v":30:1:30:6|Found counter in view:work.FPGA(verilog) inst frame_counter[7:0]
+
+Writing Analyst data base E:\project\IRISking\ikemb-0001\project\hardware\OV7720\fpga_v2\rev_1\fpga.srm
+Writing Verilog Netlist and constraint files
+Writing .vqm output for Quartus
+Writing Cross reference file for Quartus to E:\project\IRISking\ikemb-0001\project\hardware\OV7720\fpga_v2\rev_1\fpga.xrf
+Writing Verilog Simulation files
+Found clock FPGA|vpclkin[0] with period 1000.00ns 
+@W:"e:\project\irisking\ikemb-0001\project\hardware\ov7720\fpga_v2\fpga.v":28:12:28:49|Net vs_0_a2 appears to be a clock source which was not identified. Assuming default frequency. 
+
+
+##### START OF TIMING REPORT #####[
+# Timing Report written on Thu Apr 28 09:02:28 2011
+#
+
+
+Top view:               FPGA
+Requested Frequency:    1.0 MHz
+Wire load mode:         top
+Paths requested:        5
+Constraint File(s):    
+@N: MT195 |This timing report estimates place and route data. Please look at the place and route timing report for final timing..
+
+@N: MT197 |Clock constraints cover only FF-to-FF paths associated with the clock..
+
+
+
+Performance Summary 
+*******************
+
+
+Worst slack in design: 998.216
+
+                    Requested     Estimated     Requested     Estimated                 Clock        Clock              
+Starting Clock      Frequency     Frequency     Period        Period        Slack       Type         Group              
+------------------------------------------------------------------------------------------------------------------------
+FPGA|vpclkin[0]     1.0 MHz       560.5 MHz     1000.000      1.784         998.216     inferred     Inferred_clkgroup_0
+System              1.0 MHz       560.5 MHz     1000.000      1.784         998.216     system       default_clkgroup   
+========================================================================================================================
+
+
+
+
+
+Clock Relationships
+*******************
+
+Clocks                            |    rise  to  rise     |    fall  to  fall   |    rise  to  fall   |    fall  to  rise 
+--------------------------------------------------------------------------------------------------------------------------
+Starting         Ending           |  constraint  slack    |  constraint  slack  |  constraint  slack  |  constraint  slack
+--------------------------------------------------------------------------------------------------------------------------
+FPGA|vpclkin[0]  FPGA|vpclkin[0]  |  1000.000    998.216  |  No paths    -      |  No paths    -      |  No paths    -    
+==========================================================================================================================
+ Note: 'No paths' indicates there are no paths in the design for that pair of clock edges.
+       'Diff grp' indicates that paths exist but the starting clock and ending clock are in different clock groups.
+
+
+
+Interface Information 
+*********************
+
+		No IO constraint found 
+
+
+
+====================================
+Detailed Report for Clock: FPGA|vpclkin[0]
+====================================
+
+
+
+Starting Points with Worst Slack
+********************************
+
+                   Starting                                                                 Arrival            
+Instance           Reference           Type                   Pin        Net                Time        Slack  
+                   Clock                                                                                       
+---------------------------------------------------------------------------------------------------------------
+pix_counter[0]     FPGA|vpclkin[0]     cycloneii_lcell_ff     regout     pix_counter[0]     0.173       998.216
+pix_counter[1]     FPGA|vpclkin[0]     cycloneii_lcell_ff     regout     pix_counter[1]     0.173       998.216
+pix_counter[2]     FPGA|vpclkin[0]     cycloneii_lcell_ff     regout     pix_counter[2]     0.173       998.216
+pix_counter[3]     FPGA|vpclkin[0]     cycloneii_lcell_ff     regout     pix_counter[3]     0.173       998.216
+pix_counter[4]     FPGA|vpclkin[0]     cycloneii_lcell_ff     regout     pix_counter[4]     0.173       998.216
+pix_counter[5]     FPGA|vpclkin[0]     cycloneii_lcell_ff     regout     pix_counter[5]     0.173       998.216
+pix_counter[6]     FPGA|vpclkin[0]     cycloneii_lcell_ff     regout     pix_counter[6]     0.173       998.216
+pix_counter[7]     FPGA|vpclkin[0]     cycloneii_lcell_ff     regout     pix_counter[7]     0.173       998.216
+pix_counter[8]     FPGA|vpclkin[0]     cycloneii_lcell_ff     regout     pix_counter[8]     0.173       998.216
+pix_counter[9]     FPGA|vpclkin[0]     cycloneii_lcell_ff     regout     pix_counter[9]     0.173       998.216
+===============================================================================================================
+
+
+Ending Points with Worst Slack
+******************************
+
+                   Starting                                                                         Required            
+Instance           Reference           Type                   Pin        Net                        Time         Slack  
+                   Clock                                                                                                
+------------------------------------------------------------------------------------------------------------------------
+pix_counter[0]     FPGA|vpclkin[0]     cycloneii_lcell_ff     datain     pix_counter_c0_combout     999.837      998.216
+pix_counter[1]     FPGA|vpclkin[0]     cycloneii_lcell_ff     datain     pix_counter_c1_combout     999.837      998.216
+pix_counter[2]     FPGA|vpclkin[0]     cycloneii_lcell_ff     datain     pix_counter_c2_combout     999.837      998.216
+pix_counter[3]     FPGA|vpclkin[0]     cycloneii_lcell_ff     datain     pix_counter_c3_combout     999.837      998.216
+pix_counter[4]     FPGA|vpclkin[0]     cycloneii_lcell_ff     datain     pix_counter_c4_combout     999.837      998.216
+pix_counter[5]     FPGA|vpclkin[0]     cycloneii_lcell_ff     datain     pix_counter_c5_combout     999.837      998.216
+pix_counter[6]     FPGA|vpclkin[0]     cycloneii_lcell_ff     datain     pix_counter_c6_combout     999.837      998.216
+pix_counter[7]     FPGA|vpclkin[0]     cycloneii_lcell_ff     datain     pix_counter_c7_combout     999.837      998.216
+pix_counter[8]     FPGA|vpclkin[0]     cycloneii_lcell_ff     datain     pix_counter_c8_combout     999.837      998.216
+pix_counter[9]     FPGA|vpclkin[0]     cycloneii_lcell_ff     datain     pix_counter_c9_combout     999.837      998.216
+========================================================================================================================
+
+
+
+Worst Path Information
+***********************
+
+
+Path information for path number 1: 
+    Requested Period:                        1000.000
+    - Setup time:                            0.163
+    = Required time:                         999.837
+
+    - Propagation time:                      1.621
+    = Slack (critical) :                     998.216
+
+    Number of logic level(s):                1
+    Starting point:                          pix_counter[0] / regout
+    Ending point:                            pix_counter[0] / datain
+    The start point is clocked by            FPGA|vpclkin[0] [rising] on pin clk
+    The end   point is clocked by            FPGA|vpclkin[0] [rising] on pin clk
+
+Instance / Net                                      Pin         Pin               Arrival     No. of    
+Name                       Type                     Name        Dir     Delay     Time        Fan Out(s)
+--------------------------------------------------------------------------------------------------------
+pix_counter[0]             cycloneii_lcell_ff       regout      Out     0.173     0.173       -         
+pix_counter[0]             Net                      -           -       0.548     -           1         
+pix_counter_c0             cycloneii_lcell_comb     dataa       In      -         0.721       -         
+pix_counter_c0             cycloneii_lcell_comb     combout     Out     0.454     1.175       -         
+pix_counter_c0_combout     Net                      -           -       0.446     -           1         
+pix_counter[0]             cycloneii_lcell_ff       datain      In      -         1.621       -         
+========================================================================================================
+Total path delay (propagation time + setup) of 1.784 is 0.790(44.3%) logic and 0.994(55.7%) route.
+
+
+
+
+====================================
+Detailed Report for Clock: System
+====================================
+
+
+
+Starting Points with Worst Slack
+********************************
+
+                     Starting                                                             Arrival            
+Instance             Reference     Type                   Pin        Net                  Time        Slack  
+                     Clock                                                                                   
+-------------------------------------------------------------------------------------------------------------
+frame_counter[0]     System        cycloneii_lcell_ff     regout     frame_counter[0]     0.173       998.216
+frame_counter[1]     System        cycloneii_lcell_ff     regout     frame_counter[1]     0.173       998.216
+frame_counter[2]     System        cycloneii_lcell_ff     regout     frame_counter[2]     0.173       998.216
+frame_counter[3]     System        cycloneii_lcell_ff     regout     frame_counter[3]     0.173       998.216
+frame_counter[4]     System        cycloneii_lcell_ff     regout     frame_counter[4]     0.173       998.216
+frame_counter[5]     System        cycloneii_lcell_ff     regout     frame_counter[5]     0.173       998.216
+frame_counter[6]     System        cycloneii_lcell_ff     regout     frame_counter[6]     0.173       998.216
+frame_counter[7]     System        cycloneii_lcell_ff     regout     frame_counter[7]     0.173       998.216
+=============================================================================================================
+
+
+Ending Points with Worst Slack
+******************************
+
+                     Starting                                                                     Required            
+Instance             Reference     Type                   Pin        Net                          Time         Slack  
+                     Clock                                                                                            
+----------------------------------------------------------------------------------------------------------------------
+frame_counter[0]     System        cycloneii_lcell_ff     datain     frame_counter_c0_combout     999.837      998.216
+frame_counter[1]     System        cycloneii_lcell_ff     datain     frame_counter_c1_combout     999.837      998.216
+frame_counter[2]     System        cycloneii_lcell_ff     datain     frame_counter_c2_combout     999.837      998.216
+frame_counter[3]     System        cycloneii_lcell_ff     datain     frame_counter_c3_combout     999.837      998.216
+frame_counter[4]     System        cycloneii_lcell_ff     datain     frame_counter_c4_combout     999.837      998.216
+frame_counter[5]     System        cycloneii_lcell_ff     datain     frame_counter_c5_combout     999.837      998.216
+frame_counter[6]     System        cycloneii_lcell_ff     datain     frame_counter_c6_combout     999.837      998.216
+frame_counter[7]     System        cycloneii_lcell_ff     datain     frame_counter_c7_combout     999.837      998.216
+======================================================================================================================
+
+
+
+Worst Path Information
+***********************
+
+
+Path information for path number 1: 
+    Requested Period:                        1000.000
+    - Setup time:                            0.163
+    = Required time:                         999.837
+
+    - Propagation time:                      1.621
+    = Slack (critical) :                     998.216
+
+    Number of logic level(s):                1
+    Starting point:                          frame_counter[0] / regout
+    Ending point:                            frame_counter[0] / datain
+    The start point is clocked by            System [rising] on pin clk
+    The end   point is clocked by            System [rising] on pin clk
+
+Instance / Net                                        Pin         Pin               Arrival     No. of    
+Name                         Type                     Name        Dir     Delay     Time        Fan Out(s)
+----------------------------------------------------------------------------------------------------------
+frame_counter[0]             cycloneii_lcell_ff       regout      Out     0.173     0.173       -         
+frame_counter[0]             Net                      -           -       0.548     -           2         
+frame_counter_c0             cycloneii_lcell_comb     dataa       In      -         0.721       -         
+frame_counter_c0             cycloneii_lcell_comb     combout     Out     0.454     1.175       -         
+frame_counter_c0_combout     Net                      -           -       0.446     -           1         
+frame_counter[0]             cycloneii_lcell_ff       datain      In      -         1.621       -         
+==========================================================================================================
+Total path delay (propagation time + setup) of 1.784 is 0.790(44.3%) logic and 0.994(55.7%) route.
+
+
+
+##### END OF TIMING REPORT #####]
+
+
+##### START OF AREA REPORT #####[
+Design view:work.FPGA(verilog)
+Selecting part EP2C5T144C7
+@N: FA174 |The following device usage report estimates place and route data. Please look at the place and route report for final resource usage..
+
+I/O ATOMs:       30
+
+Cyclone II_lcell_comb:  63 ATOMs of 4608 
+Cyclone II_lcell_ff:  38 ATOMs of 4608
+ATOM count by mode:
+  normal:       63
+  arithmetic:   0
+  pure sequential: 38
+
+
+DSP Blocks:     0  (0 nine-bit DSP elements).
+DSP Utilization: 0.00% of available 13 blocks (104 nine-bit).
+ShiftTap:       0  (0 registers)
+Total ESB:      0 bits 
+
+Sequential atoms using regout pin: 38
+  also using enable pin: 0
+ATOMs using combout pin: 63
+Number of Inputs on ATOMs: 0
+Number of Nets:   189
+
+##### END OF AREA REPORT #####]
+
+Mapper successful!
+Process took 0h:0m:0s realtime, 0h:0m:0s cputime
+###########################################################]

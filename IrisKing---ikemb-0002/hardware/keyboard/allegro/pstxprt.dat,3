@@ -1,0 +1,163 @@
+FILE_TYPE = EXPANDEDPARTLIST;
+{ Using PSTWRITER 15.7.0 p001Nov-17-2009 at 10:15:24 }
+DIRECTIVES
+ PST_VERSION='PST_HDL_CENTRIC_VERSION_0';
+ ROOT_DRAWING='KEYBOARD';
+ POST_TIME='May 28 2006 22:05:31';
+ SOURCE_TOOL='CAPTURE_WRITER';
+END_DIRECTIVES;
+
+PART_NAME
+ J57 'CONN RECT 9X2_4_IDC-10_IDC10 -':;
+
+SECTION_NUMBER 1
+ '@KEYBOARD.SCHEMATIC1(SCH_1):INS426@DM642_PCI_V3.CONN RECT 9X2_4.NORMAL(CHIPS)':
+ C_PATH='@keyboard.schematic1(sch_1):ins426@dm642_pci_v3.\conn rect 9x2_4.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ R5 'R_0603_4.7K':;
+
+SECTION_NUMBER 1
+ '@KEYBOARD.SCHEMATIC1(SCH_1):INS2237@DISCRETE.R.NORMAL(CHIPS)':
+ C_PATH='@keyboard.schematic1(sch_1):ins2237@discrete.\r.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ R6 'R_0603_4.7K':;
+
+SECTION_NUMBER 1
+ '@KEYBOARD.SCHEMATIC1(SCH_1):INS2253@DISCRETE.R.NORMAL(CHIPS)':
+ C_PATH='@keyboard.schematic1(sch_1):ins2253@discrete.\r.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ R7 'R_0603_4.7K':;
+
+SECTION_NUMBER 1
+ '@KEYBOARD.SCHEMATIC1(SCH_1):INS2269@DISCRETE.R.NORMAL(CHIPS)':
+ C_PATH='@keyboard.schematic1(sch_1):ins2269@discrete.\r.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ R8 'R_0603_4.7K':;
+
+SECTION_NUMBER 1
+ '@KEYBOARD.SCHEMATIC1(SCH_1):INS2285@DISCRETE.R.NORMAL(CHIPS)':
+ C_PATH='@keyboard.schematic1(sch_1):ins2285@discrete.\r.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ S1 'SW PUSHBUTTON_0_SW_IO_PTS125SM4':;
+
+SECTION_NUMBER 1
+ '@KEYBOARD.SCHEMATIC1(SCH_1):INS1183@LIBRARY1.SW PUSHBUTTON_0.NORMAL(CHIPS)':
+ C_PATH='@keyboard.schematic1(sch_1):ins1183@library1.\sw pushbutton_0.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ S10 'SW PUSHBUTTON_0_SW_IO_PTS125SM4':;
+
+SECTION_NUMBER 1
+ '@KEYBOARD.SCHEMATIC1(SCH_1):INS1469@LIBRARY1.SW PUSHBUTTON_0.NORMAL(CHIPS)':
+ C_PATH='@keyboard.schematic1(sch_1):ins1469@library1.\sw pushbutton_0.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ S11 'SW PUSHBUTTON_0_SW_IO_PTS125SM4':;
+
+SECTION_NUMBER 1
+ '@KEYBOARD.SCHEMATIC1(SCH_1):INS1485@LIBRARY1.SW PUSHBUTTON_0.NORMAL(CHIPS)':
+ C_PATH='@keyboard.schematic1(sch_1):ins1485@library1.\sw pushbutton_0.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ S12 'SW PUSHBUTTON_0_SW_IO_PTS125SM4':;
+
+SECTION_NUMBER 1
+ '@KEYBOARD.SCHEMATIC1(SCH_1):INS1501@LIBRARY1.SW PUSHBUTTON_0.NORMAL(CHIPS)':
+ C_PATH='@keyboard.schematic1(sch_1):ins1501@library1.\sw pushbutton_0.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ S2 'SW PUSHBUTTON_0_SW_IO_PTS125SM4':;
+
+SECTION_NUMBER 1
+ '@KEYBOARD.SCHEMATIC1(SCH_1):INS1078@LIBRARY1.SW PUSHBUTTON_0.NORMAL(CHIPS)':
+ C_PATH='@keyboard.schematic1(sch_1):ins1078@library1.\sw pushbutton_0.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ S3 'SW PUSHBUTTON_0_SW_IO_PTS125SM4':;
+
+SECTION_NUMBER 1
+ '@KEYBOARD.SCHEMATIC1(SCH_1):INS1113@LIBRARY1.SW PUSHBUTTON_0.NORMAL(CHIPS)':
+ C_PATH='@keyboard.schematic1(sch_1):ins1113@library1.\sw pushbutton_0.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ S4 'SW PUSHBUTTON_0_SW_IO_PTS125SM4':;
+
+SECTION_NUMBER 1
+ '@KEYBOARD.SCHEMATIC1(SCH_1):INS1148@LIBRARY1.SW PUSHBUTTON_0.NORMAL(CHIPS)':
+ C_PATH='@keyboard.schematic1(sch_1):ins1148@library1.\sw pushbutton_0.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ S5 'SW PUSHBUTTON_0_SW_IO_PTS125SM4':;
+
+SECTION_NUMBER 1
+ '@KEYBOARD.SCHEMATIC1(SCH_1):INS1218@LIBRARY1.SW PUSHBUTTON_0.NORMAL(CHIPS)':
+ C_PATH='@keyboard.schematic1(sch_1):ins1218@library1.\sw pushbutton_0.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ S6 'SW PUSHBUTTON_0_SW_IO_PTS125SM4':;
+
+SECTION_NUMBER 1
+ '@KEYBOARD.SCHEMATIC1(SCH_1):INS1253@LIBRARY1.SW PUSHBUTTON_0.NORMAL(CHIPS)':
+ C_PATH='@keyboard.schematic1(sch_1):ins1253@library1.\sw pushbutton_0.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ S7 'SW PUSHBUTTON_0_SW_IO_PTS125SM4':;
+
+SECTION_NUMBER 1
+ '@KEYBOARD.SCHEMATIC1(SCH_1):INS1288@LIBRARY1.SW PUSHBUTTON_0.NORMAL(CHIPS)':
+ C_PATH='@keyboard.schematic1(sch_1):ins1288@library1.\sw pushbutton_0.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ S8 'SW PUSHBUTTON_0_SW_IO_PTS125SM4':;
+
+SECTION_NUMBER 1
+ '@KEYBOARD.SCHEMATIC1(SCH_1):INS1323@LIBRARY1.SW PUSHBUTTON_0.NORMAL(CHIPS)':
+ C_PATH='@keyboard.schematic1(sch_1):ins1323@library1.\sw pushbutton_0.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ S9 'SW PUSHBUTTON_0_SW_IO_PTS125SM4':;
+
+SECTION_NUMBER 1
+ '@KEYBOARD.SCHEMATIC1(SCH_1):INS1517@LIBRARY1.SW PUSHBUTTON_0.NORMAL(CHIPS)':
+ C_PATH='@keyboard.schematic1(sch_1):ins1517@library1.\sw pushbutton_0.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+END.

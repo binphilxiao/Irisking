@@ -1,0 +1,73 @@
+FILE_TYPE=LIBRARY_PARTS;
+{ Using PSTWRITER 15.7.0 p001Nov-17-2009 at 10:15:24}
+primitive 'CONN RECT 9X2_4_IDC-10_IDC10 -';
+  pin
+    '10':
+      PIN_NUMBER='(2)';
+      PINUSE='UNSPEC';
+    '11':
+      PIN_NUMBER='(4)';
+      PINUSE='UNSPEC';
+    '12':
+      PIN_NUMBER='(6)';
+      PINUSE='UNSPEC';
+    '13':
+      PIN_NUMBER='(8)';
+      PINUSE='UNSPEC';
+    '14':
+      PIN_NUMBER='(10)';
+      PINUSE='UNSPEC';
+    '1':
+      PIN_NUMBER='(1)';
+      PINUSE='UNSPEC';
+    '2':
+      PIN_NUMBER='(3)';
+      PINUSE='UNSPEC';
+    '3':
+      PIN_NUMBER='(5)';
+      PINUSE='UNSPEC';
+    '4':
+      PIN_NUMBER='(7)';
+      PINUSE='UNSPEC';
+    '5':
+      PIN_NUMBER='(9)';
+      PINUSE='UNSPEC';
+  end_pin;
+  body
+    PART_NAME='CONN RECT 9x2_4';
+    JEDEC_TYPE='IDC-10';
+    VALUE='IDC10 - KEY';
+  end_body;
+end_primitive;
+primitive 'R_0603_4.7K';
+  pin
+    '1':
+      PIN_NUMBER='(1)';
+      PINUSE='UNSPEC';
+    '2':
+      PIN_NUMBER='(2)';
+      PINUSE='UNSPEC';
+  end_pin;
+  body
+    PART_NAME='R';
+    JEDEC_TYPE='0603';
+    VALUE='4.7K';
+  end_body;
+end_primitive;
+primitive 'SW PUSHBUTTON_0_SW_IO_PTS125SM4';
+  pin
+    '1':
+      PIN_NUMBER='(1)';
+      PINUSE='UNSPEC';
+    '2':
+      PIN_NUMBER='(2)';
+      PINUSE='UNSPEC';
+  end_pin;
+  body
+    PART_NAME='SW PUSHBUTTON_0';
+    JEDEC_TYPE='SW';
+    CLASS='IO';
+    VALUE='PTS125SM43_Tact_SW';
+  end_body;
+end_primitive;
+END.

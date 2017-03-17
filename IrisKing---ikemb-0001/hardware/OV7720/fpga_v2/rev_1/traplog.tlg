@@ -1,0 +1,31 @@
+Synthesizing work.top.gen
+Synthesizing work.inc.finc
+Synthesizing work.dwact_bl_fincdec.impl1
+@W: CD280 :"syng0a00220":373:12:373:14|Unbound component INV mapped to black box
+Synthesizing work.dwact_tl_l2xor.impl1
+@W: CD280 :"syng0a00220":211:12:211:15|Unbound component AND3 mapped to black box
+@W: CD280 :"syng0a00220":234:12:234:15|Unbound component XOR2 mapped to black box
+Synthesizing work.xor2.syn_black_box
+Post processing for work.xor2.syn_black_box
+Synthesizing work.and3.syn_black_box
+Post processing for work.and3.syn_black_box
+Post processing for work.dwact_tl_l2xor.impl1
+Synthesizing work.dwact_tl_and3.impl1
+Post processing for work.dwact_tl_and3.impl1
+Synthesizing work.dwact_tl_and2.impl1
+@W: CD280 :"syng0a00220":141:10:141:13|Unbound component AND2 mapped to black box
+Synthesizing work.and2.syn_black_box
+Post processing for work.and2.syn_black_box
+Post processing for work.dwact_tl_and2.impl1
+Synthesizing work.dwact_bl_xor2.impl1
+Post processing for work.dwact_bl_xor2.impl1
+Synthesizing work.inv.syn_black_box
+Post processing for work.inv.syn_black_box
+Synthesizing work.dwact_tl_vcc.impl1
+@W: CD280 :"syng0a00220":72:13:72:15|Unbound component PWR mapped to black box
+Synthesizing work.pwr.syn_black_box
+Post processing for work.pwr.syn_black_box
+Post processing for work.dwact_tl_vcc.impl1
+Post processing for work.dwact_bl_fincdec.impl1
+Post processing for work.inc.finc
+Post processing for work.top.gen

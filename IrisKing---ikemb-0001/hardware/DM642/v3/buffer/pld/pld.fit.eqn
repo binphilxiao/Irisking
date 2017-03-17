@@ -1,0 +1,1255 @@
+-- Copyright (C) 1991-2005 Altera Corporation
+-- Your use of Altera Corporation's design tools, logic functions 
+-- and other software and tools, and its AMPP partner logic 
+-- functions, and any output files any of the foregoing 
+-- (including device programming or simulation files), and any 
+-- associated documentation or information are expressly subject 
+-- to the terms and conditions of the Altera Program License 
+-- Subscription Agreement, Altera MegaCore Function License 
+-- Agreement, or other applicable license agreement, including, 
+-- without limitation, that your use is for the sole purpose of 
+-- programming logic devices manufactured by Altera and sold by 
+-- Altera or its authorized distributors.  Please refer to the 
+-- applicable agreement for further details.
+--A1L61 is clock~2 at LC16
+A1L61_or_out = clock;
+A1L61 = A1L61_or_out;
+
+
+--A1L27 is vp2ctl0~2 at LC6
+A1L27_or_out = vp2ctl0;
+A1L27 = A1L27_or_out;
+
+
+--A1L03 is hpirdy~2 at LC115
+A1L03_or_out = !hpirdy;
+A1L03 = A1L03_or_out;
+
+
+--A1L07 is vp2clk1~2 at LC5
+A1L07_or_out = !vp2clk1;
+A1L07 = A1L07_or_out;
+
+
+--wil0_i_0 is wil0_i_0 at LC2
+wil0_i_0_p1_out = wil[1] & !wil[0];
+wil0_i_0_or_out = wil0_i_0_p1_out;
+wil0_i_0_reg_input = wil0_i_0_or_out;
+wil0_i_0 = DFFE(wil0_i_0_reg_input, GLOBAL(clk), GLOBAL(nReset), , );
+
+
+--wil1_i_0 is wil1_i_0 at LC110
+wil1_i_0_p1_out = !wil[1] & wil[0];
+wil1_i_0_or_out = wil1_i_0_p1_out;
+wil1_i_0_reg_input = wil1_i_0_or_out;
+wil1_i_0 = DFFE(wil1_i_0_reg_input, GLOBAL(clk), GLOBAL(nReset), , );
+
+
+--wil_clk_tmp_i_0 is wil_clk_tmp_i_0 at LC103
+wil_clk_tmp_i_0_or_out = wil[0];
+wil_clk_tmp_i_0_reg_input = wil[1] $ wil_clk_tmp_i_0_or_out;
+wil_clk_tmp_i_0 = DFFE(wil_clk_tmp_i_0_reg_input, GLOBAL(clk), GLOBAL(nReset), , );
+
+
+--wilclk_cnt_0_ is wilclk_cnt_0_ at LC102
+wilclk_cnt_0__p0_out = !wilclk_cnt_0_ & !wil[1] & wil[0];
+wilclk_cnt_0__p1_out = wilclk_cnt_7_ & wilclk_cnt_8_ & wilclk_cnt_9_ & wilclk_cnt_6_ & wilclk_cnt_12_ & !wilclk_cnt_0_;
+wilclk_cnt_0__p2_out = wilclk_cnt_12_ & !wilclk_cnt_0_ & wilclk_cnt_10_;
+wilclk_cnt_0__p3_out = wilclk_cnt_12_ & !wilclk_cnt_0_ & wilclk_cnt_11_;
+wilclk_cnt_0__p4_out = !wilclk_cnt_0_ & wil[1] & !wil[0];
+wilclk_cnt_0__or_out = A1L251 # wilclk_cnt_0__p0_out # wilclk_cnt_0__p1_out # wilclk_cnt_0__p2_out # wilclk_cnt_0__p3_out # wilclk_cnt_0__p4_out;
+wilclk_cnt_0__reg_input = !wilclk_cnt_0__or_out;
+wilclk_cnt_0_ = TFFE(wilclk_cnt_0__reg_input, GLOBAL(clk), GLOBAL(nReset), , );
+
+
+--wil_clk_i_0 is wil_clk_i_0 at LC82
+wil_clk_i_0_or_out = wil_clk_tmp_i_0;
+wil_clk_i_0_reg_input = wil_clk_i_0_or_out;
+wil_clk_i_0 = DFFE(wil_clk_i_0_reg_input, GLOBAL(clk), GLOBAL(nReset), , );
+
+
+--A1L21 is BUFDIR_buf~5 at LC94
+A1L21_p1_out = nFRE & nOE;
+A1L21_or_out = A1L21_p1_out;
+A1L21 = A1L21_or_out;
+
+
+--A1L11 is BUFDIR_1_i~5 at LC93
+A1L11_p1_out = nFRE & nOE;
+A1L11_or_out = A1L11_p1_out;
+A1L11 = A1L11_or_out;
+
+
+--A1L33 is nEXTBUS_0_a3~5 at LC65
+A1L33_p1_out = nFRE & nFCE & nFWE & nGCS[0] & nGCS[1] & nGCS[2] & nGCS[3] & nGCS[4];
+A1L33_or_out = A1L33_p1_out;
+A1L33 = A1L33_or_out;
+
+
+--un1_nGCS_i_0_ is un1_nGCS_i_0_ at LC11
+un1_nGCS_i_0__p1_out = !addr[2] & !nOE & !nGCS[3] & !addr[3] & addr[4] & !addr[5] & !addr[6] & !addr[7] & !addr[8];
+un1_nGCS_i_0__p2_out = addr[2] & !nOE & !nGCS[3] & !addr[4] & !addr[5] & !addr[6] & !addr[7] & !addr[8];
+un1_nGCS_i_0__p3_out = !nOE & !nGCS[3] & addr[3] & !addr[4] & !addr[5] & !addr[6] & !addr[7] & !addr[8];
+un1_nGCS_i_0__or_out = un1_nGCS_i_0__p1_out # un1_nGCS_i_0__p2_out # un1_nGCS_i_0__p3_out;
+un1_nGCS_i_0_ = un1_nGCS_i_0__or_out;
+
+
+--wilclk_cnt_1_ is wilclk_cnt_1_ at LC29
+wilclk_cnt_1__p0_out = wilclk_cnt_0_ & wilclk_cnt_1_;
+wilclk_cnt_1__p1_out = wilclk_cnt_11_ & wilclk_cnt_12_;
+wilclk_cnt_1__p2_out = !wilclk_cnt_0_ & !wilclk_cnt_1_;
+wilclk_cnt_1__p3_out = wil[1] & !wil[0];
+wilclk_cnt_1__p4_out = !wil[1] & wil[0];
+wilclk_cnt_1__or_out = A1L351 # wilclk_cnt_1__p0_out # wilclk_cnt_1__p1_out # wilclk_cnt_1__p2_out # wilclk_cnt_1__p3_out # wilclk_cnt_1__p4_out;
+wilclk_cnt_1__reg_input = !(wilclk_cnt_1__or_out);
+wilclk_cnt_1_ = DFFE(wilclk_cnt_1__reg_input, GLOBAL(clk), GLOBAL(nReset), , );
+
+
+--wilclk_cnt_2_ is wilclk_cnt_2_ at LC27
+wilclk_cnt_2__p0_out = wilclk_cnt_0_ & wilclk_cnt_2_ & wilclk_cnt_1_;
+wilclk_cnt_2__p1_out = wil[1] & !wil[0];
+wilclk_cnt_2__p2_out = !wil[1] & wil[0];
+wilclk_cnt_2__p3_out = !wilclk_cnt_0_ & !wilclk_cnt_2_;
+wilclk_cnt_2__p4_out = !wilclk_cnt_2_ & !wilclk_cnt_1_;
+wilclk_cnt_2__or_out = A1L551 # wilclk_cnt_2__p0_out # wilclk_cnt_2__p1_out # wilclk_cnt_2__p2_out # wilclk_cnt_2__p3_out # wilclk_cnt_2__p4_out;
+wilclk_cnt_2__reg_input = !(wilclk_cnt_2__or_out);
+wilclk_cnt_2_ = DFFE(wilclk_cnt_2__reg_input, GLOBAL(clk), GLOBAL(nReset), , );
+
+
+--A1L651 is wilclk_cnt_n3_m1~5 at LC112
+A1L651_p1_out = wilclk_cnt_2_ & wilclk_cnt_0_ & wilclk_cnt_1_;
+A1L651_or_out = wilclk_cnt_3_;
+A1L651 = A1L651_p1_out $ A1L651_or_out;
+
+
+--wilclk_cnt_3_ is wilclk_cnt_3_ at LC107
+wilclk_cnt_3__p1_out = !un1_wilclk_cntlto12_i & !wil[1] & !wil[0];
+wilclk_cnt_3__p2_out = !wil[1] & !wil[0] & A1L651;
+wilclk_cnt_3__p3_out = !un1_wilclk_cntlto12_i & wil[1] & wil[0];
+wilclk_cnt_3__p4_out = wil[1] & wil[0] & A1L651;
+wilclk_cnt_3__or_out = wilclk_cnt_3__p1_out # wilclk_cnt_3__p2_out # wilclk_cnt_3__p3_out # wilclk_cnt_3__p4_out;
+wilclk_cnt_3__reg_input = wilclk_cnt_3__or_out;
+wilclk_cnt_3_ = DFFE(wilclk_cnt_3__reg_input, GLOBAL(clk), GLOBAL(nReset), , );
+
+
+--wilclk_cnt_4_ is wilclk_cnt_4_ at LC100
+wilclk_cnt_4__p0_out = wilclk_cnt_12_ & wilclk_cnt_7_ & wilclk_cnt_8_ & wilclk_cnt_9_;
+wilclk_cnt_4__p1_out = !wil[1] & wil[0];
+wilclk_cnt_4__p2_out = wil[1] & !wil[0];
+wilclk_cnt_4__p3_out = wilclk_cnt_12_ & wilclk_cnt_11_;
+wilclk_cnt_4__p4_out = wilclk_cnt_12_ & wilclk_cnt_10_;
+wilclk_cnt_4__or_out = A1L751 # wilclk_cnt_4__p0_out # wilclk_cnt_4__p1_out # wilclk_cnt_4__p2_out # wilclk_cnt_4__p3_out # wilclk_cnt_4__p4_out;
+wilclk_cnt_4__reg_input = !(wilclk_cnt_4__or_out);
+wilclk_cnt_4_ = DFFE(wilclk_cnt_4__reg_input, GLOBAL(clk), GLOBAL(nReset), , );
+
+
+--wilclk_cnt_5_ is wilclk_cnt_5_ at LC24
+wilclk_cnt_5__p0_out = wilclk_cnt_12_ & wilclk_cnt_11_;
+wilclk_cnt_5__p1_out = !wil[1] & wil[0];
+wilclk_cnt_5__p2_out = wil[1] & !wil[0];
+wilclk_cnt_5__p3_out = wilclk_cnt_12_ & wilclk_cnt_7_ & wilclk_cnt_8_ & wilclk_cnt_9_;
+wilclk_cnt_5__p4_out = !wilclk_cnt_5_ & !wilclk_cnt_4_;
+wilclk_cnt_5__or_out = A1L951 # wilclk_cnt_5__p0_out # wilclk_cnt_5__p1_out # wilclk_cnt_5__p2_out # wilclk_cnt_5__p3_out # wilclk_cnt_5__p4_out;
+wilclk_cnt_5__reg_input = !(wilclk_cnt_5__or_out);
+wilclk_cnt_5_ = DFFE(wilclk_cnt_5__reg_input, GLOBAL(clk), GLOBAL(nReset), , );
+
+
+--wilclk_cnt_6_ is wilclk_cnt_6_ at LC21
+wilclk_cnt_6__p0_out = !wilclk_cnt_6_ & !wilclk_cnt_4_;
+wilclk_cnt_6__p1_out = !wil[1] & wil[0];
+wilclk_cnt_6__p2_out = wil[1] & !wil[0];
+wilclk_cnt_6__p3_out = wilclk_cnt_12_ & wilclk_cnt_10_;
+wilclk_cnt_6__p4_out = wilclk_cnt_12_ & wilclk_cnt_7_ & wilclk_cnt_8_ & wilclk_cnt_9_;
+wilclk_cnt_6__or_out = A1L161 # wilclk_cnt_6__p0_out # wilclk_cnt_6__p1_out # wilclk_cnt_6__p2_out # wilclk_cnt_6__p3_out # wilclk_cnt_6__p4_out;
+wilclk_cnt_6__reg_input = !(wilclk_cnt_6__or_out);
+wilclk_cnt_6_ = DFFE(wilclk_cnt_6__reg_input, GLOBAL(clk), GLOBAL(nReset), , );
+
+
+--A1L261 is wilclk_cnt_n7_m1~5 at LC111
+A1L261_p1_out = wilclk_cnt_6_ & wilclk_cnt_5_ & wilclk_cnt_4_ & wilclk_cnt_3_ & wilclk_cnt_2_ & wilclk_cnt_0_ & wilclk_cnt_1_;
+A1L261_or_out = wilclk_cnt_7_;
+A1L261 = A1L261_p1_out $ A1L261_or_out;
+
+
+--wilclk_cnt_7_ is wilclk_cnt_7_ at LC106
+wilclk_cnt_7__p1_out = !un1_wilclk_cntlto12_i & !wil[1] & !wil[0];
+wilclk_cnt_7__p2_out = !wil[1] & !wil[0] & A1L261;
+wilclk_cnt_7__p3_out = !un1_wilclk_cntlto12_i & wil[1] & wil[0];
+wilclk_cnt_7__p4_out = wil[1] & wil[0] & A1L261;
+wilclk_cnt_7__or_out = wilclk_cnt_7__p1_out # wilclk_cnt_7__p2_out # wilclk_cnt_7__p3_out # wilclk_cnt_7__p4_out;
+wilclk_cnt_7__reg_input = wilclk_cnt_7__or_out;
+wilclk_cnt_7_ = DFFE(wilclk_cnt_7__reg_input, GLOBAL(clk), GLOBAL(nReset), , );
+
+
+--A1L361 is wilclk_cnt_n8_m1~5 at LC109
+A1L361_p1_out = wilclk_cnt_7_ & wilclk_cnt_6_ & wilclk_cnt_5_ & wilclk_cnt_4_ & wilclk_cnt_3_ & wilclk_cnt_2_ & wilclk_cnt_0_ & wilclk_cnt_1_;
+A1L361_or_out = wilclk_cnt_8_;
+A1L361 = A1L361_p1_out $ A1L361_or_out;
+
+
+--wilclk_cnt_8_ is wilclk_cnt_8_ at LC105
+wilclk_cnt_8__p1_out = !un1_wilclk_cntlto12_i & !wil[1] & !wil[0];
+wilclk_cnt_8__p2_out = !wil[1] & !wil[0] & A1L361;
+wilclk_cnt_8__p3_out = !un1_wilclk_cntlto12_i & wil[1] & wil[0];
+wilclk_cnt_8__p4_out = wil[1] & wil[0] & A1L361;
+wilclk_cnt_8__or_out = wilclk_cnt_8__p1_out # wilclk_cnt_8__p2_out # wilclk_cnt_8__p3_out # wilclk_cnt_8__p4_out;
+wilclk_cnt_8__reg_input = wilclk_cnt_8__or_out;
+wilclk_cnt_8_ = DFFE(wilclk_cnt_8__reg_input, GLOBAL(clk), GLOBAL(nReset), , );
+
+
+--A1L461 is wilclk_cnt_n9_m1~5 at LC32
+A1L461_p1_out = wilclk_cnt_8_ & wilclk_cnt_7_ & wilclk_cnt_6_ & wilclk_cnt_5_ & wilclk_cnt_4_ & wilclk_cnt_3_ & wilclk_cnt_2_ & wilclk_cnt_0_ & wilclk_cnt_1_;
+A1L461_or_out = wilclk_cnt_9_;
+A1L461 = A1L461_p1_out $ A1L461_or_out;
+
+
+--wilclk_cnt_9_ is wilclk_cnt_9_ at LC104
+wilclk_cnt_9__p1_out = !un1_wilclk_cntlto12_i & !wil[1] & !wil[0];
+wilclk_cnt_9__p2_out = !wil[1] & !wil[0] & A1L461;
+wilclk_cnt_9__p3_out = !un1_wilclk_cntlto12_i & wil[1] & wil[0];
+wilclk_cnt_9__p4_out = wil[1] & wil[0] & A1L461;
+wilclk_cnt_9__or_out = wilclk_cnt_9__p1_out # wilclk_cnt_9__p2_out # wilclk_cnt_9__p3_out # wilclk_cnt_9__p4_out;
+wilclk_cnt_9__reg_input = wilclk_cnt_9__or_out;
+wilclk_cnt_9_ = DFFE(wilclk_cnt_9__reg_input, GLOBAL(clk), GLOBAL(nReset), , );
+
+
+--wilclk_cnt_11_ is wilclk_cnt_11_ at LC18
+wilclk_cnt_11__p0_out = wilclk_cnt_12_ & wilclk_cnt_11_;
+wilclk_cnt_11__p1_out = wilclk_cnt_10_ & wilclk_cnt_9_ & wilclk_cnt_8_ & wilclk_cnt_7_ & wilclk_cnt_6_ & wilclk_cnt_5_ & wilclk_cnt_4_ & wilclk_cnt_3_ & wilclk_cnt_2_ & wilclk_cnt_0_ & wilclk_cnt_1_ & !wilclk_cnt_12_ & !wil[0] & !wil[1];
+wilclk_cnt_11__p2_out = wil[0] & !wil[1] & wilclk_cnt_11_;
+wilclk_cnt_11__p3_out = !wil[0] & wil[1] & wilclk_cnt_11_;
+wilclk_cnt_11__p4_out = wilclk_cnt_10_ & wilclk_cnt_9_ & wilclk_cnt_8_ & wilclk_cnt_7_ & wilclk_cnt_6_ & wilclk_cnt_5_ & wilclk_cnt_4_ & wilclk_cnt_3_ & wilclk_cnt_2_ & wilclk_cnt_0_ & wilclk_cnt_1_ & !wilclk_cnt_12_ & wil[0] & wil[1];
+wilclk_cnt_11__or_out = A1L661 # wilclk_cnt_11__p0_out # wilclk_cnt_11__p1_out # wilclk_cnt_11__p2_out # wilclk_cnt_11__p3_out # wilclk_cnt_11__p4_out;
+wilclk_cnt_11__reg_input = wilclk_cnt_11__or_out;
+wilclk_cnt_11_ = TFFE(wilclk_cnt_11__reg_input, GLOBAL(clk), GLOBAL(nReset), , );
+
+
+--wilclk_cnt_10_ is wilclk_cnt_10_ at LC98
+wilclk_cnt_10__p0_out = wilclk_cnt_9_ & wilclk_cnt_8_ & wilclk_cnt_7_ & wilclk_cnt_6_ & wilclk_cnt_5_ & wilclk_cnt_4_ & wilclk_cnt_3_ & wilclk_cnt_2_ & wilclk_cnt_0_ & wilclk_cnt_1_ & wilclk_cnt_10_;
+wilclk_cnt_10__p1_out = !wilclk_cnt_12_ & !wil[0] & !wil[1] & wilclk_cnt_9_ & wilclk_cnt_8_ & wilclk_cnt_7_ & wilclk_cnt_6_ & wilclk_cnt_5_ & wilclk_cnt_4_ & wilclk_cnt_3_ & wilclk_cnt_2_ & wilclk_cnt_0_ & wilclk_cnt_1_;
+wilclk_cnt_10__p2_out = wil[0] & !wil[1] & wilclk_cnt_10_;
+wilclk_cnt_10__p3_out = !wil[0] & wil[1] & wilclk_cnt_10_;
+wilclk_cnt_10__p4_out = !wilclk_cnt_12_ & wil[0] & wil[1] & wilclk_cnt_9_ & wilclk_cnt_8_ & wilclk_cnt_7_ & wilclk_cnt_6_ & wilclk_cnt_5_ & wilclk_cnt_4_ & wilclk_cnt_3_ & wilclk_cnt_2_ & wilclk_cnt_0_ & wilclk_cnt_1_;
+wilclk_cnt_10__or_out = A1L561 # wilclk_cnt_10__p0_out # wilclk_cnt_10__p1_out # wilclk_cnt_10__p2_out # wilclk_cnt_10__p3_out # wilclk_cnt_10__p4_out;
+wilclk_cnt_10__reg_input = wilclk_cnt_10__or_out;
+wilclk_cnt_10_ = TFFE(wilclk_cnt_10__reg_input, GLOBAL(clk), GLOBAL(nReset), , );
+
+
+--wilclk_cnt_12_ is wilclk_cnt_12_ at LC30
+wilclk_cnt_12__p1_out = !wil[1] & !wil[0] & wilclk_cnt_12_;
+wilclk_cnt_12__p2_out = wil[1] & wil[0] & wilclk_cnt_12_;
+wilclk_cnt_12__p3_out = !wil[1] & !wil[0] & wilclk_cnt_10_ & wilclk_cnt_11_ & wilclk_cnt_9_ & wilclk_cnt_8_ & wilclk_cnt_7_ & wilclk_cnt_6_ & wilclk_cnt_5_ & wilclk_cnt_4_ & wilclk_cnt_3_ & wilclk_cnt_2_ & wilclk_cnt_0_ & wilclk_cnt_1_;
+wilclk_cnt_12__p4_out = wil[1] & wil[0] & wilclk_cnt_10_ & wilclk_cnt_11_ & wilclk_cnt_9_ & wilclk_cnt_8_ & wilclk_cnt_7_ & wilclk_cnt_6_ & wilclk_cnt_5_ & wilclk_cnt_4_ & wilclk_cnt_3_ & wilclk_cnt_2_ & wilclk_cnt_0_ & wilclk_cnt_1_;
+wilclk_cnt_12__or_out = wilclk_cnt_12__p1_out # wilclk_cnt_12__p2_out # wilclk_cnt_12__p3_out # wilclk_cnt_12__p4_out;
+wilclk_cnt_12__reg_input = wilclk_cnt_12__or_out;
+wilclk_cnt_12_ = DFFE(wilclk_cnt_12__reg_input, GLOBAL(clk), GLOBAL(nReset), , );
+
+
+--un1_wilclk_cntlto12_i is un1_wilclk_cntlto12_i at LC31
+un1_wilclk_cntlto12_i_p1_out = !wilclk_cnt_3_ & !wilclk_cnt_4_ & !wilclk_cnt_5_ & !wilclk_cnt_6_ & !wilclk_cnt_10_ & !wilclk_cnt_11_;
+un1_wilclk_cntlto12_i_p2_out = !wilclk_cnt_10_ & !wilclk_cnt_11_ & !wilclk_cnt_7_;
+un1_wilclk_cntlto12_i_p3_out = !wilclk_cnt_10_ & !wilclk_cnt_11_ & !wilclk_cnt_8_;
+un1_wilclk_cntlto12_i_p4_out = !wilclk_cnt_10_ & !wilclk_cnt_11_ & !wilclk_cnt_9_;
+un1_wilclk_cntlto12_i_or_out = !wilclk_cnt_12_ # un1_wilclk_cntlto12_i_p1_out # un1_wilclk_cntlto12_i_p2_out # un1_wilclk_cntlto12_i_p3_out # un1_wilclk_cntlto12_i_p4_out;
+un1_wilclk_cntlto12_i = un1_wilclk_cntlto12_i_or_out;
+
+
+--overtime_i_0 is overtime_i_0 at LC108
+overtime_i_0_p1_out = wil[1] & !wil[0];
+overtime_i_0_p2_out = !wil[1] & wil[0];
+overtime_i_0_or_out = overtime_i_0_p1_out # overtime_i_0_p2_out # un1_wilclk_cntlto12_i;
+overtime_i_0_reg_input = !(overtime_i_0_or_out);
+overtime_i_0 = DFFE(overtime_i_0_reg_input, GLOBAL(clk), GLOBAL(nReset), , );
+
+
+--overtime_delay1_i is overtime_delay1_i at LC50
+overtime_delay1_i_or_out = overtime_i_0;
+overtime_delay1_i_reg_input = overtime_delay1_i_or_out;
+overtime_delay1_i = DFFE(overtime_delay1_i_reg_input, GLOBAL(clk), GLOBAL(nReset), , );
+
+
+--overtime_delay2_i_0 is overtime_delay2_i_0 at LC86
+overtime_delay2_i_0_or_out = overtime_delay1_i;
+overtime_delay2_i_0_reg_input = overtime_delay2_i_0_or_out;
+overtime_delay2_i_0 = DFFE(overtime_delay2_i_0_reg_input, GLOBAL(clk), GLOBAL(nReset), , );
+
+
+--overtime_delay3_i_0 is overtime_delay3_i_0 at LC96
+overtime_delay3_i_0_or_out = overtime_delay2_i_0;
+overtime_delay3_i_0_reg_input = overtime_delay3_i_0_or_out;
+overtime_delay3_i_0 = DFFE(overtime_delay3_i_0_reg_input, GLOBAL(clk), GLOBAL(nReset), , );
+
+
+--wigend_bitcnt_1_ is wigend_bitcnt_1_ at LC69
+wigend_bitcnt_1__p0_out = !overtime_delay3_i_0 & !wigend_bitcnt_0_ & wigend_bitcnt_1_ & !wigend_bitcnt_4_;
+wigend_bitcnt_1__p1_out = !overtime_delay3_i_0 & wigend_bitcnt_0_ & !wigend_bitcnt_1_;
+wigend_bitcnt_1__p2_out = !overtime_delay3_i_0 & !wigend_bitcnt_0_ & wigend_bitcnt_1_ & wigend_bitcnt_2_;
+wigend_bitcnt_1__p4_out = !overtime_delay3_i_0 & !wigend_bitcnt_0_ & wigend_bitcnt_1_ & !wigend_bitcnt_3_;
+wigend_bitcnt_1__or_out = wigend_bitcnt_1__p0_out # wigend_bitcnt_1__p1_out # wigend_bitcnt_1__p2_out # wigend_bitcnt_1__p4_out;
+wigend_bitcnt_1__reg_input = wigend_bitcnt_1__or_out;
+wigend_bitcnt_1_ = DFFE(wigend_bitcnt_1__reg_input, wil_clk_i_0, GLOBAL(nReset), , );
+
+
+--wigend_bitcnt_2_ is wigend_bitcnt_2_ at LC67
+wigend_bitcnt_2__p0_out = !overtime_delay3_i_0 & !wigend_bitcnt_0_ & wigend_bitcnt_2_;
+wigend_bitcnt_2__p1_out = wigend_bitcnt_1_ & !wigend_bitcnt_3_ & !overtime_delay3_i_0 & wigend_bitcnt_0_ & !wigend_bitcnt_2_;
+wigend_bitcnt_2__p2_out = wigend_bitcnt_1_ & !overtime_delay3_i_0 & wigend_bitcnt_0_ & !wigend_bitcnt_2_ & !wigend_bitcnt_4_;
+wigend_bitcnt_2__p4_out = !wigend_bitcnt_1_ & !overtime_delay3_i_0 & wigend_bitcnt_2_;
+wigend_bitcnt_2__or_out = wigend_bitcnt_2__p0_out # wigend_bitcnt_2__p1_out # wigend_bitcnt_2__p2_out # wigend_bitcnt_2__p4_out;
+wigend_bitcnt_2__reg_input = wigend_bitcnt_2__or_out;
+wigend_bitcnt_2_ = DFFE(wigend_bitcnt_2__reg_input, wil_clk_i_0, GLOBAL(nReset), , );
+
+
+--wigend_bitcnt_4_ is wigend_bitcnt_4_ at LC76
+wigend_bitcnt_4__p1_out = !overtime_delay3_i_0 & wigend_bitcnt_0_ & wigend_bitcnt_2_ & wigend_bitcnt_3_ & wigend_bitcnt_1_;
+wigend_bitcnt_4__p2_out = overtime_delay3_i_0 & wigend_bitcnt_4_;
+wigend_bitcnt_4__p4_out = !wigend_bitcnt_2_ & wigend_bitcnt_3_ & wigend_bitcnt_1_ & wigend_bitcnt_4_;
+wigend_bitcnt_4__or_out = wigend_bitcnt_4__p1_out # wigend_bitcnt_4__p2_out # wigend_bitcnt_4__p4_out;
+wigend_bitcnt_4__reg_input = wigend_bitcnt_4__or_out;
+wigend_bitcnt_4_ = TFFE(wigend_bitcnt_4__reg_input, wil_clk_i_0, GLOBAL(nReset), , );
+
+
+--wigend_bitcnt_3_ is wigend_bitcnt_3_ at LC78
+wigend_bitcnt_3__p1_out = !overtime_delay3_i_0 & wigend_bitcnt_2_ & wigend_bitcnt_1_ & wigend_bitcnt_0_;
+wigend_bitcnt_3__p2_out = !wigend_bitcnt_2_ & wigend_bitcnt_1_ & wigend_bitcnt_4_ & wigend_bitcnt_3_;
+wigend_bitcnt_3__p4_out = overtime_delay3_i_0 & wigend_bitcnt_3_;
+wigend_bitcnt_3__or_out = wigend_bitcnt_3__p1_out # wigend_bitcnt_3__p2_out # wigend_bitcnt_3__p4_out;
+wigend_bitcnt_3__reg_input = wigend_bitcnt_3__or_out;
+wigend_bitcnt_3_ = TFFE(wigend_bitcnt_3__reg_input, wil_clk_i_0, GLOBAL(nReset), , );
+
+
+--eint11_i is eint11_i at LC75
+eint11_i_p1_out = wigend_bitcnt_3_ & wigend_bitcnt_4_ & wigend_bitcnt_1_ & !wigend_bitcnt_2_;
+eint11_i_p2_out = wigend_bitcnt_3_ & wigend_bitcnt_4_ & wigend_bitcnt_2_ & !eint11_i;
+eint11_i_or_out = eint11_i_p1_out # eint11_i_p2_out;
+eint11_i_reg_input = !(eint11_i_or_out);
+eint11_i = DFFE(eint11_i_reg_input, !wil_clk_i_0, , nReset, );
+
+
+--wigend_bitcnt_0_ is wigend_bitcnt_0_ at LC73
+wigend_bitcnt_0__p1_out = wigend_bitcnt_1_ & !wigend_bitcnt_2_ & wigend_bitcnt_3_ & wigend_bitcnt_4_ & !overtime_delay3_i_0;
+wigend_bitcnt_0__p2_out = !overtime_delay3_i_0 & wigend_bitcnt_0_;
+wigend_bitcnt_0__or_out = wigend_bitcnt_0__p1_out # wigend_bitcnt_0__p2_out;
+wigend_bitcnt_0__reg_input = !(wigend_bitcnt_0__or_out);
+wigend_bitcnt_0_ = DFFE(wigend_bitcnt_0__reg_input, wil_clk_i_0, GLOBAL(nReset), , );
+
+
+--un1_wigend_buf56_i is un1_wigend_buf56_i at LC83
+un1_wigend_buf56_i_p1_out = wil_clk_tmp_i_0 & overtime_delay3_i_0;
+un1_wigend_buf56_i_p2_out = wil_clk_tmp_i_0 & wigend_bitcnt_0_ & !wigend_bitcnt_2_ & wigend_bitcnt_3_ & wigend_bitcnt_4_;
+un1_wigend_buf56_i_or_out = un1_wigend_buf56_i_p1_out # un1_wigend_buf56_i_p2_out;
+un1_wigend_buf56_i = un1_wigend_buf56_i_or_out;
+
+
+--wigend_buf_0_ is wigend_buf_0_ at LC71
+wigend_buf_0__p1_out = !overtime_delay3_i_0 & wigend_bitcnt_0_ & !wigend_bitcnt_2_ & wigend_bitcnt_3_ & wigend_bitcnt_4_ & wil_clk_tmp_i_0;
+wigend_buf_0__p2_out = wil_clk_tmp_i_0 & !wil1_i_0;
+wigend_buf_0__p4_out = !wil_clk_tmp_i_0 & !wigend_buf_0_;
+wigend_buf_0__or_out = wigend_buf_0__p1_out # wigend_buf_0__p2_out # wigend_buf_0__p4_out;
+wigend_buf_0__reg_input = !(wigend_buf_0__or_out);
+wigend_buf_0_ = DFFE(wigend_buf_0__reg_input, wil_clk_i_0, GLOBAL(nReset), , );
+
+
+--wigend_reg_0_ is wigend_reg_0_ at LC1
+wigend_reg_0__p1_out = !overtime_delay3_i_0 & wil1_i_0 & un1_wigend_buf56_i;
+wigend_reg_0__p2_out = !un1_wigend_buf56_i & wigend_reg_0_;
+wigend_reg_0__or_out = wigend_reg_0__p1_out # wigend_reg_0__p2_out;
+wigend_reg_0__reg_input = wigend_reg_0__or_out;
+wigend_reg_0_ = DFFE(wigend_reg_0__reg_input, wil_clk_i_0, GLOBAL(nReset), , );
+
+
+--C1L1 is s_or2:G_61_0|OUT~14 at LC3
+C1L1_p1_out = overtime_delay3_i_0 & wil1_i_0;
+C1L1_p2_out = overtime_delay3_i_0 & wil0_i_0;
+C1L1_or_out = C1L1_p1_out # C1L1_p2_out;
+C1L1 = C1L1_or_out;
+
+
+--wigend_buf_1_ is wigend_buf_1_ at LC74
+wigend_buf_1__p0_out = !wil_clk_tmp_i_0 & !wigend_buf_1_;
+wigend_buf_1__p1_out = !overtime_delay3_i_0 & wigend_bitcnt_0_ & !wigend_bitcnt_2_ & wigend_bitcnt_3_ & wigend_bitcnt_4_ & wil_clk_tmp_i_0;
+wigend_buf_1__p2_out = wil_clk_tmp_i_0 & !wigend_buf_0_;
+wigend_buf_1__p4_out = wil_clk_tmp_i_0 & C1L1;
+wigend_buf_1__or_out = wigend_buf_1__p0_out # wigend_buf_1__p1_out # wigend_buf_1__p2_out # wigend_buf_1__p4_out;
+wigend_buf_1__reg_input = !(wigend_buf_1__or_out);
+wigend_buf_1_ = DFFE(wigend_buf_1__reg_input, wil_clk_i_0, GLOBAL(nReset), , );
+
+
+--wigend_reg_1_ is wigend_reg_1_ at LC66
+wigend_reg_1__p1_out = !overtime_delay3_i_0 & wigend_buf_0_ & un1_wigend_buf56_i;
+wigend_reg_1__p2_out = !un1_wigend_buf56_i & wigend_reg_1_;
+wigend_reg_1__or_out = wigend_reg_1__p1_out # wigend_reg_1__p2_out;
+wigend_reg_1__reg_input = wigend_reg_1__or_out;
+wigend_reg_1_ = DFFE(wigend_reg_1__reg_input, wil_clk_i_0, GLOBAL(nReset), , );
+
+
+--wigend_buf_2_ is wigend_buf_2_ at LC80
+wigend_buf_2__p0_out = !wil_clk_tmp_i_0 & !wigend_buf_2_;
+wigend_buf_2__p1_out = !overtime_delay3_i_0 & wigend_bitcnt_0_ & !wigend_bitcnt_2_ & wigend_bitcnt_3_ & wigend_bitcnt_4_ & wil_clk_tmp_i_0;
+wigend_buf_2__p2_out = wil_clk_tmp_i_0 & !wigend_buf_1_;
+wigend_buf_2__p4_out = wil_clk_tmp_i_0 & C1L1;
+wigend_buf_2__or_out = wigend_buf_2__p0_out # wigend_buf_2__p1_out # wigend_buf_2__p2_out # wigend_buf_2__p4_out;
+wigend_buf_2__reg_input = !(wigend_buf_2__or_out);
+wigend_buf_2_ = DFFE(wigend_buf_2__reg_input, wil_clk_i_0, GLOBAL(nReset), , );
+
+
+--wigend_reg_2_ is wigend_reg_2_ at LC79
+wigend_reg_2__p1_out = !overtime_delay3_i_0 & wigend_buf_1_ & un1_wigend_buf56_i;
+wigend_reg_2__p2_out = !un1_wigend_buf56_i & wigend_reg_2_;
+wigend_reg_2__or_out = wigend_reg_2__p1_out # wigend_reg_2__p2_out;
+wigend_reg_2__reg_input = wigend_reg_2__or_out;
+wigend_reg_2_ = DFFE(wigend_reg_2__reg_input, wil_clk_i_0, GLOBAL(nReset), , );
+
+
+--wigend_buf_3_ is wigend_buf_3_ at LC91
+wigend_buf_3__p0_out = !wil_clk_tmp_i_0 & !wigend_buf_3_;
+wigend_buf_3__p1_out = !overtime_delay3_i_0 & wigend_bitcnt_0_ & !wigend_bitcnt_2_ & wigend_bitcnt_3_ & wigend_bitcnt_4_ & wil_clk_tmp_i_0;
+wigend_buf_3__p2_out = wil_clk_tmp_i_0 & !wigend_buf_2_;
+wigend_buf_3__p4_out = wil_clk_tmp_i_0 & C1L1;
+wigend_buf_3__or_out = wigend_buf_3__p0_out # wigend_buf_3__p1_out # wigend_buf_3__p2_out # wigend_buf_3__p4_out;
+wigend_buf_3__reg_input = !(wigend_buf_3__or_out);
+wigend_buf_3_ = DFFE(wigend_buf_3__reg_input, wil_clk_i_0, GLOBAL(nReset), , );
+
+
+--wigend_reg_3_ is wigend_reg_3_ at LC81
+wigend_reg_3__p1_out = !overtime_delay3_i_0 & wigend_buf_2_ & un1_wigend_buf56_i;
+wigend_reg_3__p2_out = !un1_wigend_buf56_i & wigend_reg_3_;
+wigend_reg_3__or_out = wigend_reg_3__p1_out # wigend_reg_3__p2_out;
+wigend_reg_3__reg_input = wigend_reg_3__or_out;
+wigend_reg_3_ = DFFE(wigend_reg_3__reg_input, wil_clk_i_0, GLOBAL(nReset), , );
+
+
+--wigend_buf_4_ is wigend_buf_4_ at LC70
+wigend_buf_4__p0_out = !wil_clk_tmp_i_0 & !wigend_buf_4_;
+wigend_buf_4__p1_out = !overtime_delay3_i_0 & wigend_bitcnt_0_ & !wigend_bitcnt_2_ & wigend_bitcnt_3_ & wigend_bitcnt_4_ & wil_clk_tmp_i_0;
+wigend_buf_4__p2_out = wil_clk_tmp_i_0 & !wigend_buf_3_;
+wigend_buf_4__p4_out = wil_clk_tmp_i_0 & C1L1;
+wigend_buf_4__or_out = wigend_buf_4__p0_out # wigend_buf_4__p1_out # wigend_buf_4__p2_out # wigend_buf_4__p4_out;
+wigend_buf_4__reg_input = !(wigend_buf_4__or_out);
+wigend_buf_4_ = DFFE(wigend_buf_4__reg_input, wil_clk_i_0, GLOBAL(nReset), , );
+
+
+--wigend_reg_4_ is wigend_reg_4_ at LC89
+wigend_reg_4__p1_out = !overtime_delay3_i_0 & wigend_buf_3_ & un1_wigend_buf56_i;
+wigend_reg_4__p2_out = !un1_wigend_buf56_i & wigend_reg_4_;
+wigend_reg_4__or_out = wigend_reg_4__p1_out # wigend_reg_4__p2_out;
+wigend_reg_4__reg_input = wigend_reg_4__or_out;
+wigend_reg_4_ = DFFE(wigend_reg_4__reg_input, wil_clk_i_0, GLOBAL(nReset), , );
+
+
+--wigend_buf_5_ is wigend_buf_5_ at LC68
+wigend_buf_5__p0_out = !wil_clk_tmp_i_0 & !wigend_buf_5_;
+wigend_buf_5__p1_out = !overtime_delay3_i_0 & wigend_bitcnt_0_ & !wigend_bitcnt_2_ & wigend_bitcnt_3_ & wigend_bitcnt_4_ & wil_clk_tmp_i_0;
+wigend_buf_5__p2_out = wil_clk_tmp_i_0 & !wigend_buf_4_;
+wigend_buf_5__p4_out = wil_clk_tmp_i_0 & C1L1;
+wigend_buf_5__or_out = wigend_buf_5__p0_out # wigend_buf_5__p1_out # wigend_buf_5__p2_out # wigend_buf_5__p4_out;
+wigend_buf_5__reg_input = !(wigend_buf_5__or_out);
+wigend_buf_5_ = DFFE(wigend_buf_5__reg_input, wil_clk_i_0, GLOBAL(nReset), , );
+
+
+--wigend_reg_5_ is wigend_reg_5_ at LC72
+wigend_reg_5__p1_out = !overtime_delay3_i_0 & wigend_buf_4_ & un1_wigend_buf56_i;
+wigend_reg_5__p2_out = !un1_wigend_buf56_i & wigend_reg_5_;
+wigend_reg_5__or_out = wigend_reg_5__p1_out # wigend_reg_5__p2_out;
+wigend_reg_5__reg_input = wigend_reg_5__or_out;
+wigend_reg_5_ = DFFE(wigend_reg_5__reg_input, wil_clk_i_0, GLOBAL(nReset), , );
+
+
+--wigend_buf_6_ is wigend_buf_6_ at LC42
+wigend_buf_6__p0_out = !wil_clk_tmp_i_0 & !wigend_buf_6_;
+wigend_buf_6__p1_out = !overtime_delay3_i_0 & wigend_bitcnt_0_ & !wigend_bitcnt_2_ & wigend_bitcnt_3_ & wigend_bitcnt_4_ & wil_clk_tmp_i_0;
+wigend_buf_6__p2_out = wil_clk_tmp_i_0 & !wigend_buf_5_;
+wigend_buf_6__p4_out = wil_clk_tmp_i_0 & C1L1;
+wigend_buf_6__or_out = wigend_buf_6__p0_out # wigend_buf_6__p1_out # wigend_buf_6__p2_out # wigend_buf_6__p4_out;
+wigend_buf_6__reg_input = !(wigend_buf_6__or_out);
+wigend_buf_6_ = DFFE(wigend_buf_6__reg_input, wil_clk_i_0, GLOBAL(nReset), , );
+
+
+--wigend_reg_6_ is wigend_reg_6_ at LC77
+wigend_reg_6__p1_out = !overtime_delay3_i_0 & wigend_buf_5_ & un1_wigend_buf56_i;
+wigend_reg_6__p2_out = !un1_wigend_buf56_i & wigend_reg_6_;
+wigend_reg_6__or_out = wigend_reg_6__p1_out # wigend_reg_6__p2_out;
+wigend_reg_6__reg_input = wigend_reg_6__or_out;
+wigend_reg_6_ = DFFE(wigend_reg_6__reg_input, wil_clk_i_0, GLOBAL(nReset), , );
+
+
+--wigend_buf_7_ is wigend_buf_7_ at LC38
+wigend_buf_7__p0_out = !wil_clk_tmp_i_0 & !wigend_buf_7_;
+wigend_buf_7__p1_out = !overtime_delay3_i_0 & wigend_bitcnt_0_ & !wigend_bitcnt_2_ & wigend_bitcnt_3_ & wigend_bitcnt_4_ & wil_clk_tmp_i_0;
+wigend_buf_7__p2_out = wil_clk_tmp_i_0 & !wigend_buf_6_;
+wigend_buf_7__p4_out = wil_clk_tmp_i_0 & C1L1;
+wigend_buf_7__or_out = wigend_buf_7__p0_out # wigend_buf_7__p1_out # wigend_buf_7__p2_out # wigend_buf_7__p4_out;
+wigend_buf_7__reg_input = !(wigend_buf_7__or_out);
+wigend_buf_7_ = DFFE(wigend_buf_7__reg_input, wil_clk_i_0, GLOBAL(nReset), , );
+
+
+--wigend_reg_7_ is wigend_reg_7_ at LC9
+wigend_reg_7__p1_out = !overtime_delay3_i_0 & wigend_buf_6_ & un1_wigend_buf56_i;
+wigend_reg_7__p2_out = !un1_wigend_buf56_i & wigend_reg_7_;
+wigend_reg_7__or_out = wigend_reg_7__p1_out # wigend_reg_7__p2_out;
+wigend_reg_7__reg_input = wigend_reg_7__or_out;
+wigend_reg_7_ = DFFE(wigend_reg_7__reg_input, wil_clk_i_0, GLOBAL(nReset), , );
+
+
+--wigend_buf_8_ is wigend_buf_8_ at LC48
+wigend_buf_8__p0_out = !wil_clk_tmp_i_0 & !wigend_buf_8_;
+wigend_buf_8__p1_out = !overtime_delay3_i_0 & wigend_bitcnt_0_ & !wigend_bitcnt_2_ & wigend_bitcnt_3_ & wigend_bitcnt_4_ & wil_clk_tmp_i_0;
+wigend_buf_8__p2_out = wil_clk_tmp_i_0 & !wigend_buf_7_;
+wigend_buf_8__p4_out = wil_clk_tmp_i_0 & C1L1;
+wigend_buf_8__or_out = wigend_buf_8__p0_out # wigend_buf_8__p1_out # wigend_buf_8__p2_out # wigend_buf_8__p4_out;
+wigend_buf_8__reg_input = !(wigend_buf_8__or_out);
+wigend_buf_8_ = DFFE(wigend_buf_8__reg_input, wil_clk_i_0, GLOBAL(nReset), , );
+
+
+--wigend_reg_8_ is wigend_reg_8_ at LC41
+wigend_reg_8__p1_out = !overtime_delay3_i_0 & wigend_buf_7_ & un1_wigend_buf56_i;
+wigend_reg_8__p2_out = !un1_wigend_buf56_i & wigend_reg_8_;
+wigend_reg_8__or_out = wigend_reg_8__p1_out # wigend_reg_8__p2_out;
+wigend_reg_8__reg_input = wigend_reg_8__or_out;
+wigend_reg_8_ = DFFE(wigend_reg_8__reg_input, wil_clk_i_0, GLOBAL(nReset), , );
+
+
+--wigend_buf_9_ is wigend_buf_9_ at LC40
+wigend_buf_9__p0_out = !wil_clk_tmp_i_0 & !wigend_buf_9_;
+wigend_buf_9__p1_out = !overtime_delay3_i_0 & wigend_bitcnt_0_ & !wigend_bitcnt_2_ & wigend_bitcnt_3_ & wigend_bitcnt_4_ & wil_clk_tmp_i_0;
+wigend_buf_9__p2_out = wil_clk_tmp_i_0 & !wigend_buf_8_;
+wigend_buf_9__p4_out = wil_clk_tmp_i_0 & C1L1;
+wigend_buf_9__or_out = wigend_buf_9__p0_out # wigend_buf_9__p1_out # wigend_buf_9__p2_out # wigend_buf_9__p4_out;
+wigend_buf_9__reg_input = !(wigend_buf_9__or_out);
+wigend_buf_9_ = DFFE(wigend_buf_9__reg_input, wil_clk_i_0, GLOBAL(nReset), , );
+
+
+--wigend_reg_9_ is wigend_reg_9_ at LC34
+wigend_reg_9__p1_out = !overtime_delay3_i_0 & wigend_buf_8_ & un1_wigend_buf56_i;
+wigend_reg_9__p2_out = !un1_wigend_buf56_i & wigend_reg_9_;
+wigend_reg_9__or_out = wigend_reg_9__p1_out # wigend_reg_9__p2_out;
+wigend_reg_9__reg_input = wigend_reg_9__or_out;
+wigend_reg_9_ = DFFE(wigend_reg_9__reg_input, wil_clk_i_0, GLOBAL(nReset), , );
+
+
+--wigend_buf_10_ is wigend_buf_10_ at LC36
+wigend_buf_10__p0_out = !wil_clk_tmp_i_0 & !wigend_buf_10_;
+wigend_buf_10__p1_out = !overtime_delay3_i_0 & wigend_bitcnt_0_ & !wigend_bitcnt_2_ & wigend_bitcnt_3_ & wigend_bitcnt_4_ & wil_clk_tmp_i_0;
+wigend_buf_10__p2_out = wil_clk_tmp_i_0 & !wigend_buf_9_;
+wigend_buf_10__p4_out = wil_clk_tmp_i_0 & C1L1;
+wigend_buf_10__or_out = wigend_buf_10__p0_out # wigend_buf_10__p1_out # wigend_buf_10__p2_out # wigend_buf_10__p4_out;
+wigend_buf_10__reg_input = !(wigend_buf_10__or_out);
+wigend_buf_10_ = DFFE(wigend_buf_10__reg_input, wil_clk_i_0, GLOBAL(nReset), , );
+
+
+--wigend_reg_10_ is wigend_reg_10_ at LC45
+wigend_reg_10__p1_out = !overtime_delay3_i_0 & wigend_buf_9_ & un1_wigend_buf56_i;
+wigend_reg_10__p2_out = !un1_wigend_buf56_i & wigend_reg_10_;
+wigend_reg_10__or_out = wigend_reg_10__p1_out # wigend_reg_10__p2_out;
+wigend_reg_10__reg_input = wigend_reg_10__or_out;
+wigend_reg_10_ = DFFE(wigend_reg_10__reg_input, wil_clk_i_0, GLOBAL(nReset), , );
+
+
+--wigend_buf_11_ is wigend_buf_11_ at LC46
+wigend_buf_11__p0_out = !wil_clk_tmp_i_0 & !wigend_buf_11_;
+wigend_buf_11__p1_out = !overtime_delay3_i_0 & wigend_bitcnt_0_ & !wigend_bitcnt_2_ & wigend_bitcnt_3_ & wigend_bitcnt_4_ & wil_clk_tmp_i_0;
+wigend_buf_11__p2_out = wil_clk_tmp_i_0 & !wigend_buf_10_;
+wigend_buf_11__p4_out = wil_clk_tmp_i_0 & C1L1;
+wigend_buf_11__or_out = wigend_buf_11__p0_out # wigend_buf_11__p1_out # wigend_buf_11__p2_out # wigend_buf_11__p4_out;
+wigend_buf_11__reg_input = !(wigend_buf_11__or_out);
+wigend_buf_11_ = DFFE(wigend_buf_11__reg_input, wil_clk_i_0, GLOBAL(nReset), , );
+
+
+--wigend_reg_11_ is wigend_reg_11_ at LC37
+wigend_reg_11__p1_out = !overtime_delay3_i_0 & wigend_buf_10_ & un1_wigend_buf56_i;
+wigend_reg_11__p2_out = !un1_wigend_buf56_i & wigend_reg_11_;
+wigend_reg_11__or_out = wigend_reg_11__p1_out # wigend_reg_11__p2_out;
+wigend_reg_11__reg_input = wigend_reg_11__or_out;
+wigend_reg_11_ = DFFE(wigend_reg_11__reg_input, wil_clk_i_0, GLOBAL(nReset), , );
+
+
+--wigend_buf_12_ is wigend_buf_12_ at LC35
+wigend_buf_12__p0_out = !wil_clk_tmp_i_0 & !wigend_buf_12_;
+wigend_buf_12__p1_out = !overtime_delay3_i_0 & wigend_bitcnt_0_ & !wigend_bitcnt_2_ & wigend_bitcnt_3_ & wigend_bitcnt_4_ & wil_clk_tmp_i_0;
+wigend_buf_12__p2_out = wil_clk_tmp_i_0 & !wigend_buf_11_;
+wigend_buf_12__p4_out = wil_clk_tmp_i_0 & C1L1;
+wigend_buf_12__or_out = wigend_buf_12__p0_out # wigend_buf_12__p1_out # wigend_buf_12__p2_out # wigend_buf_12__p4_out;
+wigend_buf_12__reg_input = !(wigend_buf_12__or_out);
+wigend_buf_12_ = DFFE(wigend_buf_12__reg_input, wil_clk_i_0, GLOBAL(nReset), , );
+
+
+--wigend_reg_12_ is wigend_reg_12_ at LC44
+wigend_reg_12__p1_out = !overtime_delay3_i_0 & wigend_buf_11_ & un1_wigend_buf56_i;
+wigend_reg_12__p2_out = !un1_wigend_buf56_i & wigend_reg_12_;
+wigend_reg_12__or_out = wigend_reg_12__p1_out # wigend_reg_12__p2_out;
+wigend_reg_12__reg_input = wigend_reg_12__or_out;
+wigend_reg_12_ = DFFE(wigend_reg_12__reg_input, wil_clk_i_0, GLOBAL(nReset), , );
+
+
+--wigend_buf_13_ is wigend_buf_13_ at LC47
+wigend_buf_13__p0_out = !wil_clk_tmp_i_0 & !wigend_buf_13_;
+wigend_buf_13__p1_out = !overtime_delay3_i_0 & wigend_bitcnt_0_ & !wigend_bitcnt_2_ & wigend_bitcnt_3_ & wigend_bitcnt_4_ & wil_clk_tmp_i_0;
+wigend_buf_13__p2_out = wil_clk_tmp_i_0 & !wigend_buf_12_;
+wigend_buf_13__p4_out = wil_clk_tmp_i_0 & C1L1;
+wigend_buf_13__or_out = wigend_buf_13__p0_out # wigend_buf_13__p1_out # wigend_buf_13__p2_out # wigend_buf_13__p4_out;
+wigend_buf_13__reg_input = !(wigend_buf_13__or_out);
+wigend_buf_13_ = DFFE(wigend_buf_13__reg_input, wil_clk_i_0, GLOBAL(nReset), , );
+
+
+--wigend_reg_13_ is wigend_reg_13_ at LC43
+wigend_reg_13__p1_out = !overtime_delay3_i_0 & wigend_buf_12_ & un1_wigend_buf56_i;
+wigend_reg_13__p2_out = !un1_wigend_buf56_i & wigend_reg_13_;
+wigend_reg_13__or_out = wigend_reg_13__p1_out # wigend_reg_13__p2_out;
+wigend_reg_13__reg_input = wigend_reg_13__or_out;
+wigend_reg_13_ = DFFE(wigend_reg_13__reg_input, wil_clk_i_0, GLOBAL(nReset), , );
+
+
+--wigend_buf_14_ is wigend_buf_14_ at LC124
+wigend_buf_14__p0_out = !wil_clk_tmp_i_0 & !wigend_buf_14_;
+wigend_buf_14__p1_out = !overtime_delay3_i_0 & wigend_bitcnt_0_ & !wigend_bitcnt_2_ & wigend_bitcnt_3_ & wigend_bitcnt_4_ & wil_clk_tmp_i_0;
+wigend_buf_14__p2_out = wil_clk_tmp_i_0 & !wigend_buf_13_;
+wigend_buf_14__p4_out = wil_clk_tmp_i_0 & C1L1;
+wigend_buf_14__or_out = wigend_buf_14__p0_out # wigend_buf_14__p1_out # wigend_buf_14__p2_out # wigend_buf_14__p4_out;
+wigend_buf_14__reg_input = !(wigend_buf_14__or_out);
+wigend_buf_14_ = DFFE(wigend_buf_14__reg_input, wil_clk_i_0, GLOBAL(nReset), , );
+
+
+--wigend_reg_14_ is wigend_reg_14_ at LC39
+wigend_reg_14__p1_out = !overtime_delay3_i_0 & wigend_buf_13_ & un1_wigend_buf56_i;
+wigend_reg_14__p2_out = !un1_wigend_buf56_i & wigend_reg_14_;
+wigend_reg_14__or_out = wigend_reg_14__p1_out # wigend_reg_14__p2_out;
+wigend_reg_14__reg_input = wigend_reg_14__or_out;
+wigend_reg_14_ = DFFE(wigend_reg_14__reg_input, wil_clk_i_0, GLOBAL(nReset), , );
+
+
+--wigend_buf_15_ is wigend_buf_15_ at LC127
+wigend_buf_15__p0_out = !wil_clk_tmp_i_0 & !wigend_buf_15_;
+wigend_buf_15__p1_out = !overtime_delay3_i_0 & wigend_bitcnt_0_ & !wigend_bitcnt_2_ & wigend_bitcnt_3_ & wigend_bitcnt_4_ & wil_clk_tmp_i_0;
+wigend_buf_15__p2_out = wil_clk_tmp_i_0 & !wigend_buf_14_;
+wigend_buf_15__p4_out = wil_clk_tmp_i_0 & C1L1;
+wigend_buf_15__or_out = wigend_buf_15__p0_out # wigend_buf_15__p1_out # wigend_buf_15__p2_out # wigend_buf_15__p4_out;
+wigend_buf_15__reg_input = !(wigend_buf_15__or_out);
+wigend_buf_15_ = DFFE(wigend_buf_15__reg_input, wil_clk_i_0, GLOBAL(nReset), , );
+
+
+--wigend_reg_15_ is wigend_reg_15_ at LC125
+wigend_reg_15__p1_out = !overtime_delay3_i_0 & wigend_buf_14_ & un1_wigend_buf56_i;
+wigend_reg_15__p2_out = !un1_wigend_buf56_i & wigend_reg_15_;
+wigend_reg_15__or_out = wigend_reg_15__p1_out # wigend_reg_15__p2_out;
+wigend_reg_15__reg_input = wigend_reg_15__or_out;
+wigend_reg_15_ = DFFE(wigend_reg_15__reg_input, wil_clk_i_0, GLOBAL(nReset), , );
+
+
+--wigend_buf_16_ is wigend_buf_16_ at LC114
+wigend_buf_16__p0_out = !wil_clk_tmp_i_0 & !wigend_buf_16_;
+wigend_buf_16__p1_out = !overtime_delay3_i_0 & wigend_bitcnt_0_ & !wigend_bitcnt_2_ & wigend_bitcnt_3_ & wigend_bitcnt_4_ & wil_clk_tmp_i_0;
+wigend_buf_16__p2_out = wil_clk_tmp_i_0 & !wigend_buf_15_;
+wigend_buf_16__p4_out = wil_clk_tmp_i_0 & C1L1;
+wigend_buf_16__or_out = wigend_buf_16__p0_out # wigend_buf_16__p1_out # wigend_buf_16__p2_out # wigend_buf_16__p4_out;
+wigend_buf_16__reg_input = !(wigend_buf_16__or_out);
+wigend_buf_16_ = DFFE(wigend_buf_16__reg_input, wil_clk_i_0, GLOBAL(nReset), , );
+
+
+--wigend_reg_16_ is wigend_reg_16_ at LC128
+wigend_reg_16__p1_out = !overtime_delay3_i_0 & wigend_buf_15_ & un1_wigend_buf56_i;
+wigend_reg_16__p2_out = !un1_wigend_buf56_i & wigend_reg_16_;
+wigend_reg_16__or_out = wigend_reg_16__p1_out # wigend_reg_16__p2_out;
+wigend_reg_16__reg_input = wigend_reg_16__or_out;
+wigend_reg_16_ = DFFE(wigend_reg_16__reg_input, wil_clk_i_0, GLOBAL(nReset), , );
+
+
+--wigend_buf_17_ is wigend_buf_17_ at LC119
+wigend_buf_17__p0_out = !wil_clk_tmp_i_0 & !wigend_buf_17_;
+wigend_buf_17__p1_out = !overtime_delay3_i_0 & wigend_bitcnt_0_ & !wigend_bitcnt_2_ & wigend_bitcnt_3_ & wigend_bitcnt_4_ & wil_clk_tmp_i_0;
+wigend_buf_17__p2_out = wil_clk_tmp_i_0 & !wigend_buf_16_;
+wigend_buf_17__p4_out = wil_clk_tmp_i_0 & C1L1;
+wigend_buf_17__or_out = wigend_buf_17__p0_out # wigend_buf_17__p1_out # wigend_buf_17__p2_out # wigend_buf_17__p4_out;
+wigend_buf_17__reg_input = !(wigend_buf_17__or_out);
+wigend_buf_17_ = DFFE(wigend_buf_17__reg_input, wil_clk_i_0, GLOBAL(nReset), , );
+
+
+--wigend_reg_17_ is wigend_reg_17_ at LC122
+wigend_reg_17__p1_out = !overtime_delay3_i_0 & wigend_buf_16_ & un1_wigend_buf56_i;
+wigend_reg_17__p2_out = !un1_wigend_buf56_i & wigend_reg_17_;
+wigend_reg_17__or_out = wigend_reg_17__p1_out # wigend_reg_17__p2_out;
+wigend_reg_17__reg_input = wigend_reg_17__or_out;
+wigend_reg_17_ = DFFE(wigend_reg_17__reg_input, wil_clk_i_0, GLOBAL(nReset), , );
+
+
+--wigend_buf_18_ is wigend_buf_18_ at LC123
+wigend_buf_18__p0_out = !wil_clk_tmp_i_0 & !wigend_buf_18_;
+wigend_buf_18__p1_out = !overtime_delay3_i_0 & wigend_bitcnt_0_ & !wigend_bitcnt_2_ & wigend_bitcnt_3_ & wigend_bitcnt_4_ & wil_clk_tmp_i_0;
+wigend_buf_18__p2_out = wil_clk_tmp_i_0 & !wigend_buf_17_;
+wigend_buf_18__p4_out = wil_clk_tmp_i_0 & C1L1;
+wigend_buf_18__or_out = wigend_buf_18__p0_out # wigend_buf_18__p1_out # wigend_buf_18__p2_out # wigend_buf_18__p4_out;
+wigend_buf_18__reg_input = !(wigend_buf_18__or_out);
+wigend_buf_18_ = DFFE(wigend_buf_18__reg_input, wil_clk_i_0, GLOBAL(nReset), , );
+
+
+--wigend_reg_18_ is wigend_reg_18_ at LC118
+wigend_reg_18__p1_out = !overtime_delay3_i_0 & wigend_buf_17_ & un1_wigend_buf56_i;
+wigend_reg_18__p2_out = !un1_wigend_buf56_i & wigend_reg_18_;
+wigend_reg_18__or_out = wigend_reg_18__p1_out # wigend_reg_18__p2_out;
+wigend_reg_18__reg_input = wigend_reg_18__or_out;
+wigend_reg_18_ = DFFE(wigend_reg_18__reg_input, wil_clk_i_0, GLOBAL(nReset), , );
+
+
+--wigend_buf_19_ is wigend_buf_19_ at LC121
+wigend_buf_19__p0_out = !wil_clk_tmp_i_0 & !wigend_buf_19_;
+wigend_buf_19__p1_out = !overtime_delay3_i_0 & wigend_bitcnt_0_ & !wigend_bitcnt_2_ & wigend_bitcnt_3_ & wigend_bitcnt_4_ & wil_clk_tmp_i_0;
+wigend_buf_19__p2_out = wil_clk_tmp_i_0 & !wigend_buf_18_;
+wigend_buf_19__p4_out = wil_clk_tmp_i_0 & C1L1;
+wigend_buf_19__or_out = wigend_buf_19__p0_out # wigend_buf_19__p1_out # wigend_buf_19__p2_out # wigend_buf_19__p4_out;
+wigend_buf_19__reg_input = !(wigend_buf_19__or_out);
+wigend_buf_19_ = DFFE(wigend_buf_19__reg_input, wil_clk_i_0, GLOBAL(nReset), , );
+
+
+--wigend_reg_19_ is wigend_reg_19_ at LC116
+wigend_reg_19__p1_out = !overtime_delay3_i_0 & wigend_buf_18_ & un1_wigend_buf56_i;
+wigend_reg_19__p2_out = !un1_wigend_buf56_i & wigend_reg_19_;
+wigend_reg_19__or_out = wigend_reg_19__p1_out # wigend_reg_19__p2_out;
+wigend_reg_19__reg_input = wigend_reg_19__or_out;
+wigend_reg_19_ = DFFE(wigend_reg_19__reg_input, wil_clk_i_0, GLOBAL(nReset), , );
+
+
+--A1L36 is un1_wigend_reg_3_i_i_5_~9 at LC61
+A1L36_p1_out = wigend_reg_10_ & !addr[4] & !addr[2];
+A1L36_p2_out = !addr[4] & addr[2] & !addr[3] & wigend_reg_2_;
+A1L36_p3_out = !addr[4] & addr[2] & addr[3] & wigend_reg_18_;
+A1L36_or_out = A1L36_p1_out # A1L36_p2_out # A1L36_p3_out;
+A1L36 = A1L36_or_out;
+
+
+--wigend_buf_20_ is wigend_buf_20_ at LC120
+wigend_buf_20__p0_out = !wil_clk_tmp_i_0 & !wigend_buf_20_;
+wigend_buf_20__p1_out = !overtime_delay3_i_0 & wigend_bitcnt_0_ & !wigend_bitcnt_2_ & wigend_bitcnt_3_ & wigend_bitcnt_4_ & wil_clk_tmp_i_0;
+wigend_buf_20__p2_out = wil_clk_tmp_i_0 & !wigend_buf_19_;
+wigend_buf_20__p4_out = wil_clk_tmp_i_0 & C1L1;
+wigend_buf_20__or_out = wigend_buf_20__p0_out # wigend_buf_20__p1_out # wigend_buf_20__p2_out # wigend_buf_20__p4_out;
+wigend_buf_20__reg_input = !(wigend_buf_20__or_out);
+wigend_buf_20_ = DFFE(wigend_buf_20__reg_input, wil_clk_i_0, GLOBAL(nReset), , );
+
+
+--wigend_reg_20_ is wigend_reg_20_ at LC126
+wigend_reg_20__p1_out = !overtime_delay3_i_0 & wigend_buf_19_ & un1_wigend_buf56_i;
+wigend_reg_20__p2_out = !un1_wigend_buf56_i & wigend_reg_20_;
+wigend_reg_20__or_out = wigend_reg_20__p1_out # wigend_reg_20__p2_out;
+wigend_reg_20__reg_input = wigend_reg_20__or_out;
+wigend_reg_20_ = DFFE(wigend_reg_20__reg_input, wil_clk_i_0, GLOBAL(nReset), , );
+
+
+--A1L26 is un1_wigend_reg_3_i_i_4_~9 at LC59
+A1L26_p1_out = addr[2] & !addr[3] & !addr[4] & wigend_reg_3_;
+A1L26_p2_out = addr[2] & addr[3] & !addr[4] & wigend_reg_19_;
+A1L26_p3_out = !addr[2] & !addr[4] & wigend_reg_11_;
+A1L26_or_out = A1L26_p1_out # A1L26_p2_out # A1L26_p3_out;
+A1L26 = A1L26_or_out;
+
+
+--wigend_buf_21_ is wigend_buf_21_ at LC113
+wigend_buf_21__p0_out = !wil_clk_tmp_i_0 & !wigend_buf_21_;
+wigend_buf_21__p1_out = !overtime_delay3_i_0 & wigend_bitcnt_0_ & !wigend_bitcnt_2_ & wigend_bitcnt_3_ & wigend_bitcnt_4_ & wil_clk_tmp_i_0;
+wigend_buf_21__p2_out = wil_clk_tmp_i_0 & !wigend_buf_20_;
+wigend_buf_21__p4_out = wil_clk_tmp_i_0 & C1L1;
+wigend_buf_21__or_out = wigend_buf_21__p0_out # wigend_buf_21__p1_out # wigend_buf_21__p2_out # wigend_buf_21__p4_out;
+wigend_buf_21__reg_input = !(wigend_buf_21__or_out);
+wigend_buf_21_ = DFFE(wigend_buf_21__reg_input, wil_clk_i_0, GLOBAL(nReset), , );
+
+
+--wigend_reg_21_ is wigend_reg_21_ at LC117
+wigend_reg_21__p1_out = !overtime_delay3_i_0 & wigend_buf_20_ & un1_wigend_buf56_i;
+wigend_reg_21__p2_out = !un1_wigend_buf56_i & wigend_reg_21_;
+wigend_reg_21__or_out = wigend_reg_21__p1_out # wigend_reg_21__p2_out;
+wigend_reg_21__reg_input = wigend_reg_21__or_out;
+wigend_reg_21_ = DFFE(wigend_reg_21__reg_input, wil_clk_i_0, GLOBAL(nReset), , );
+
+
+--A1L16 is un1_wigend_reg_3_i_i_3_~9 at LC57
+A1L16_p1_out = addr[2] & !addr[3] & !addr[4] & wigend_reg_4_;
+A1L16_p2_out = addr[2] & addr[3] & !addr[4] & wigend_reg_20_;
+A1L16_p3_out = !addr[2] & !addr[4] & wigend_reg_12_;
+A1L16_or_out = A1L16_p1_out # A1L16_p2_out # A1L16_p3_out;
+A1L16 = A1L16_or_out;
+
+
+--wigend_buf_22_ is wigend_buf_22_ at LC90
+wigend_buf_22__p0_out = !wil_clk_tmp_i_0 & !wigend_buf_22_;
+wigend_buf_22__p1_out = !overtime_delay3_i_0 & wigend_bitcnt_0_ & !wigend_bitcnt_2_ & wigend_bitcnt_3_ & wigend_bitcnt_4_ & wil_clk_tmp_i_0;
+wigend_buf_22__p2_out = wil_clk_tmp_i_0 & !wigend_buf_21_;
+wigend_buf_22__p4_out = wil_clk_tmp_i_0 & C1L1;
+wigend_buf_22__or_out = wigend_buf_22__p0_out # wigend_buf_22__p1_out # wigend_buf_22__p2_out # wigend_buf_22__p4_out;
+wigend_buf_22__reg_input = !(wigend_buf_22__or_out);
+wigend_buf_22_ = DFFE(wigend_buf_22__reg_input, wil_clk_i_0, GLOBAL(nReset), , );
+
+
+--wigend_reg_22_ is wigend_reg_22_ at LC92
+wigend_reg_22__p1_out = !overtime_delay3_i_0 & wigend_buf_21_ & un1_wigend_buf56_i;
+wigend_reg_22__p2_out = !un1_wigend_buf56_i & wigend_reg_22_;
+wigend_reg_22__or_out = wigend_reg_22__p1_out # wigend_reg_22__p2_out;
+wigend_reg_22__reg_input = wigend_reg_22__or_out;
+wigend_reg_22_ = DFFE(wigend_reg_22__reg_input, wil_clk_i_0, GLOBAL(nReset), , );
+
+
+--A1L06 is un1_wigend_reg_3_i_i_2_~9 at LC56
+A1L06_p1_out = addr[2] & !addr[3] & !addr[4] & wigend_reg_5_;
+A1L06_p2_out = addr[2] & addr[3] & !addr[4] & wigend_reg_21_;
+A1L06_p3_out = !addr[2] & !addr[4] & wigend_reg_13_;
+A1L06_or_out = A1L06_p1_out # A1L06_p2_out # A1L06_p3_out;
+A1L06 = A1L06_or_out;
+
+
+--wigend_buf_23_ is wigend_buf_23_ at LC95
+wigend_buf_23__p0_out = !wil_clk_tmp_i_0 & !wigend_buf_23_;
+wigend_buf_23__p1_out = !overtime_delay3_i_0 & wigend_bitcnt_0_ & !wigend_bitcnt_2_ & wigend_bitcnt_3_ & wigend_bitcnt_4_ & wil_clk_tmp_i_0;
+wigend_buf_23__p2_out = wil_clk_tmp_i_0 & !wigend_buf_22_;
+wigend_buf_23__p4_out = wil_clk_tmp_i_0 & C1L1;
+wigend_buf_23__or_out = wigend_buf_23__p0_out # wigend_buf_23__p1_out # wigend_buf_23__p2_out # wigend_buf_23__p4_out;
+wigend_buf_23__reg_input = !(wigend_buf_23__or_out);
+wigend_buf_23_ = DFFE(wigend_buf_23__reg_input, wil_clk_i_0, GLOBAL(nReset), , );
+
+
+--wigend_reg_23_ is wigend_reg_23_ at LC87
+wigend_reg_23__p1_out = !overtime_delay3_i_0 & wigend_buf_22_ & un1_wigend_buf56_i;
+wigend_reg_23__p2_out = !un1_wigend_buf56_i & wigend_reg_23_;
+wigend_reg_23__or_out = wigend_reg_23__p1_out # wigend_reg_23__p2_out;
+wigend_reg_23__reg_input = wigend_reg_23__or_out;
+wigend_reg_23_ = DFFE(wigend_reg_23__reg_input, wil_clk_i_0, GLOBAL(nReset), , );
+
+
+--A1L95 is un1_wigend_reg_3_i_i_1_~9 at LC54
+A1L95_p1_out = addr[2] & !addr[3] & !addr[4] & wigend_reg_6_;
+A1L95_p2_out = addr[2] & addr[3] & !addr[4] & wigend_reg_22_;
+A1L95_p3_out = !addr[2] & !addr[4] & wigend_reg_14_;
+A1L95_or_out = A1L95_p1_out # A1L95_p2_out # A1L95_p3_out;
+A1L95 = A1L95_or_out;
+
+
+--wigend_buf_24_ is wigend_buf_24_ at LC88
+wigend_buf_24__p0_out = !wil_clk_tmp_i_0 & !wigend_buf_24_;
+wigend_buf_24__p1_out = !overtime_delay3_i_0 & wigend_bitcnt_0_ & !wigend_bitcnt_2_ & wigend_bitcnt_3_ & wigend_bitcnt_4_ & wil_clk_tmp_i_0;
+wigend_buf_24__p2_out = wil_clk_tmp_i_0 & !wigend_buf_23_;
+wigend_buf_24__p4_out = wil_clk_tmp_i_0 & C1L1;
+wigend_buf_24__or_out = wigend_buf_24__p0_out # wigend_buf_24__p1_out # wigend_buf_24__p2_out # wigend_buf_24__p4_out;
+wigend_buf_24__reg_input = !(wigend_buf_24__or_out);
+wigend_buf_24_ = DFFE(wigend_buf_24__reg_input, wil_clk_i_0, GLOBAL(nReset), , );
+
+
+--wigend_reg_24_ is wigend_reg_24_ at LC84
+wigend_reg_24__p1_out = !overtime_delay3_i_0 & wigend_buf_23_ & un1_wigend_buf56_i;
+wigend_reg_24__p2_out = !un1_wigend_buf56_i & wigend_reg_24_;
+wigend_reg_24__or_out = wigend_reg_24__p1_out # wigend_reg_24__p2_out;
+wigend_reg_24__reg_input = wigend_reg_24__or_out;
+wigend_reg_24_ = DFFE(wigend_reg_24__reg_input, wil_clk_i_0, GLOBAL(nReset), , );
+
+
+--A1L85 is un1_wigend_reg_3_i_i_0_~9 at LC53
+A1L85_p1_out = addr[2] & !addr[3] & !addr[4] & wigend_reg_7_;
+A1L85_p2_out = addr[2] & addr[3] & !addr[4] & wigend_reg_23_;
+A1L85_p3_out = !addr[2] & !addr[4] & wigend_reg_15_;
+A1L85_or_out = A1L85_p1_out # A1L85_p2_out # A1L85_p3_out;
+A1L85 = A1L85_or_out;
+
+
+--wigend_reg_25_ is wigend_reg_25_ at LC85
+wigend_reg_25__p1_out = !overtime_delay3_i_0 & wigend_buf_24_ & un1_wigend_buf56_i;
+wigend_reg_25__p2_out = !un1_wigend_buf56_i & wigend_reg_25_;
+wigend_reg_25__or_out = wigend_reg_25__p1_out # wigend_reg_25__p2_out;
+wigend_reg_25__reg_input = wigend_reg_25__or_out;
+wigend_reg_25_ = DFFE(wigend_reg_25__reg_input, wil_clk_i_0, GLOBAL(nReset), , );
+
+
+--A1L56 is un1_wigend_reg_3_i_i_7_~11 at LC64
+A1L56_p1_out = !addr[4] & addr[2] & !addr[3] & wigend_reg_0_;
+A1L56_p2_out = !addr[4] & addr[2] & addr[3] & wigend_reg_16_;
+A1L56_p3_out = !addr[4] & !addr[2] & wigend_reg_8_;
+A1L56_p4_out = addr[4] & wigend_reg_24_;
+A1L56_or_out = A1L56_p1_out # A1L56_p2_out # A1L56_p3_out # A1L56_p4_out;
+A1L56 = A1L56_or_out;
+
+
+--A1L46 is un1_wigend_reg_3_i_i_6_~11 at LC62
+A1L46_p1_out = !addr[4] & addr[2] & !addr[3] & wigend_reg_1_;
+A1L46_p2_out = !addr[4] & addr[2] & addr[3] & wigend_reg_17_;
+A1L46_p3_out = !addr[4] & !addr[2] & wigend_reg_9_;
+A1L46_p4_out = addr[4] & wigend_reg_25_;
+A1L46_or_out = A1L46_p1_out # A1L46_p2_out # A1L46_p3_out # A1L46_p4_out;
+A1L46 = A1L46_or_out;
+
+
+--A1L251 is wilclk_cnt_n0_lin~16 at LC101
+A1L251_p1_out = wilclk_cnt_3_ & wilclk_cnt_7_ & wilclk_cnt_8_ & wilclk_cnt_9_ & wilclk_cnt_12_ & !wilclk_cnt_0_;
+A1L251_p2_out = wilclk_cnt_7_ & wilclk_cnt_8_ & wilclk_cnt_9_ & wilclk_cnt_12_ & !wilclk_cnt_0_ & wilclk_cnt_4_;
+A1L251_p3_out = wilclk_cnt_7_ & wilclk_cnt_8_ & wilclk_cnt_9_ & wilclk_cnt_12_ & !wilclk_cnt_0_ & wilclk_cnt_5_;
+A1L251 = A1L251_p1_out # A1L251_p2_out # A1L251_p3_out;
+
+
+--A1L351 is wilclk_cnt_n1_lin~49 at LC28
+A1L351_p0_out = wilclk_cnt_12_ & wilclk_cnt_10_;
+A1L351_p1_out = wilclk_cnt_3_ & wilclk_cnt_9_ & wilclk_cnt_8_ & wilclk_cnt_7_ & wilclk_cnt_12_;
+A1L351_p2_out = wilclk_cnt_9_ & wilclk_cnt_8_ & wilclk_cnt_7_ & wilclk_cnt_12_ & wilclk_cnt_4_;
+A1L351_p3_out = wilclk_cnt_9_ & wilclk_cnt_8_ & wilclk_cnt_7_ & wilclk_cnt_12_ & wilclk_cnt_5_;
+A1L351_p4_out = wilclk_cnt_9_ & wilclk_cnt_8_ & wilclk_cnt_7_ & wilclk_cnt_12_ & wilclk_cnt_6_;
+A1L351 = A1L351_p0_out # A1L351_p1_out # A1L351_p2_out # A1L351_p3_out # A1L351_p4_out;
+
+
+--A1L451 is wilclk_cnt_n2_lin~38 at LC25
+A1L451_p1_out = wilclk_cnt_12_ & wilclk_cnt_7_ & wilclk_cnt_8_ & wilclk_cnt_9_ & wilclk_cnt_3_;
+A1L451 = A1L451_p1_out;
+
+
+--A1L551 is wilclk_cnt_n2_lin~40 at LC26
+A1L551_p0_out = wilclk_cnt_12_ & wilclk_cnt_11_;
+A1L551_p1_out = wilclk_cnt_12_ & wilclk_cnt_7_ & wilclk_cnt_8_ & wilclk_cnt_9_ & wilclk_cnt_4_;
+A1L551_p2_out = wilclk_cnt_12_ & wilclk_cnt_7_ & wilclk_cnt_8_ & wilclk_cnt_9_ & wilclk_cnt_5_;
+A1L551_p3_out = wilclk_cnt_12_ & wilclk_cnt_7_ & wilclk_cnt_8_ & wilclk_cnt_9_ & wilclk_cnt_6_;
+A1L551_p4_out = wilclk_cnt_12_ & wilclk_cnt_10_;
+A1L551 = A1L451 # A1L551_p0_out # A1L551_p1_out # A1L551_p2_out # A1L551_p3_out # A1L551_p4_out;
+
+
+--A1L751 is wilclk_cnt_n4_lin~28 at LC99
+A1L751_p0_out = !wilclk_cnt_3_ & !wilclk_cnt_4_;
+A1L751_p1_out = wilclk_cnt_3_ & wilclk_cnt_2_ & wilclk_cnt_0_ & wilclk_cnt_1_ & wilclk_cnt_4_;
+A1L751_p2_out = !wilclk_cnt_1_ & !wilclk_cnt_4_;
+A1L751_p3_out = !wilclk_cnt_0_ & !wilclk_cnt_4_;
+A1L751_p4_out = !wilclk_cnt_2_ & !wilclk_cnt_4_;
+A1L751 = A1L751_p0_out # A1L751_p1_out # A1L751_p2_out # A1L751_p3_out # A1L751_p4_out;
+
+
+--A1L851 is wilclk_cnt_n5_lin~40 at LC22
+A1L851_p1_out = !wilclk_cnt_3_ & !wilclk_cnt_5_;
+A1L851 = A1L851_p1_out;
+
+
+--A1L951 is wilclk_cnt_n5_lin~42 at LC23
+A1L951_p0_out = !wilclk_cnt_5_ & !wilclk_cnt_2_;
+A1L951_p1_out = wilclk_cnt_12_ & wilclk_cnt_10_;
+A1L951_p2_out = wilclk_cnt_4_ & wilclk_cnt_5_ & wilclk_cnt_3_ & wilclk_cnt_2_ & wilclk_cnt_0_ & wilclk_cnt_1_;
+A1L951_p3_out = !wilclk_cnt_5_ & !wilclk_cnt_1_;
+A1L951_p4_out = !wilclk_cnt_5_ & !wilclk_cnt_0_;
+A1L951 = A1L851 # A1L951_p0_out # A1L951_p1_out # A1L951_p2_out # A1L951_p3_out # A1L951_p4_out;
+
+
+--A1L061 is wilclk_cnt_n6_lin~42 at LC19
+A1L061_p1_out = !wilclk_cnt_2_ & !wilclk_cnt_6_;
+A1L061_p2_out = !wilclk_cnt_6_ & !wilclk_cnt_3_;
+A1L061 = A1L061_p1_out # A1L061_p2_out;
+
+
+--A1L161 is wilclk_cnt_n6_lin~45 at LC20
+A1L161_p0_out = !wilclk_cnt_6_ & !wilclk_cnt_0_;
+A1L161_p1_out = !wilclk_cnt_5_ & !wilclk_cnt_6_;
+A1L161_p2_out = wilclk_cnt_12_ & wilclk_cnt_11_;
+A1L161_p3_out = wilclk_cnt_5_ & wilclk_cnt_6_ & wilclk_cnt_4_ & wilclk_cnt_3_ & wilclk_cnt_2_ & wilclk_cnt_0_ & wilclk_cnt_1_;
+A1L161_p4_out = !wilclk_cnt_6_ & !wilclk_cnt_1_;
+A1L161 = A1L061 # A1L161_p0_out # A1L161_p1_out # A1L161_p2_out # A1L161_p3_out # A1L161_p4_out;
+
+
+--A1L661 is wilclk_cnt_n11_lin~27 at LC17
+A1L661_p1_out = wilclk_cnt_10_ & wilclk_cnt_9_ & wilclk_cnt_8_ & wilclk_cnt_7_ & wilclk_cnt_6_ & wilclk_cnt_5_ & wilclk_cnt_4_ & wilclk_cnt_3_ & wilclk_cnt_2_ & wilclk_cnt_0_ & wilclk_cnt_1_ & wilclk_cnt_11_;
+A1L661 = A1L661_p1_out;
+
+
+--A1L561 is wilclk_cnt_n10_lin~49 at LC97
+A1L561_p1_out = wilclk_cnt_12_ & wilclk_cnt_10_;
+A1L561 = A1L561_p1_out;
+
+
+--~VCC~0 is ~VCC~0 at LC8
+~VCC~0_or_out = GND;
+~VCC~0 = !(~VCC~0_or_out);
+
+
+--~VCC~1 is ~VCC~1 at LC33
+~VCC~1_or_out = GND;
+~VCC~1 = !(~VCC~1_or_out);
+
+
+--addr[2] is addr[2] at PIN_58
+--operation mode is input
+
+addr[2] = INPUT();
+
+
+--addr[3] is addr[3] at PIN_57
+--operation mode is input
+
+addr[3] = INPUT();
+
+
+--addr[4] is addr[4] at PIN_56
+--operation mode is input
+
+addr[4] = INPUT();
+
+
+--addr[5] is addr[5] at PIN_55
+--operation mode is input
+
+addr[5] = INPUT();
+
+
+--addr[6] is addr[6] at PIN_54
+--operation mode is input
+
+addr[6] = INPUT();
+
+
+--addr[7] is addr[7] at PIN_53
+--operation mode is input
+
+addr[7] = INPUT();
+
+
+--addr[8] is addr[8] at PIN_52
+--operation mode is input
+
+addr[8] = INPUT();
+
+
+--clk is clk at PIN_90
+--operation mode is input
+
+clk = INPUT();
+
+
+--clock is clock at PIN_87
+--operation mode is input
+
+clock = INPUT();
+
+
+--hpirdy is hpirdy at PIN_78
+--operation mode is input
+
+hpirdy = INPUT();
+
+
+--nFCE is nFCE at PIN_67
+--operation mode is input
+
+nFCE = INPUT();
+
+
+--nFRE is nFRE at PIN_64
+--operation mode is input
+
+nFRE = INPUT();
+
+
+--nFWE is nFWE at PIN_65
+--operation mode is input
+
+nFWE = INPUT();
+
+
+--nGCS[0] is nGCS[0] at PIN_75
+--operation mode is input
+
+nGCS[0] = INPUT();
+
+
+--nGCS[1] is nGCS[1] at PIN_72
+--operation mode is input
+
+nGCS[1] = INPUT();
+
+
+--nGCS[2] is nGCS[2] at PIN_71
+--operation mode is input
+
+nGCS[2] = INPUT();
+
+
+--nGCS[3] is nGCS[3] at PIN_70
+--operation mode is input
+
+nGCS[3] = INPUT();
+
+
+--nGCS[4] is nGCS[4] at PIN_69
+--operation mode is input
+
+nGCS[4] = INPUT();
+
+
+--nGCS[5] is nGCS[5] at PIN_68
+--operation mode is input
+
+nGCS[5] = INPUT();
+
+
+--nOE is nOE at PIN_49
+--operation mode is input
+
+nOE = INPUT();
+
+
+--nReset is nReset at PIN_89
+--operation mode is input
+
+nReset = INPUT();
+
+
+--nWE is nWE at PIN_50
+--operation mode is input
+
+nWE = INPUT();
+
+
+--vp2clk0 is vp2clk0 at PIN_84
+--operation mode is input
+
+vp2clk0 = INPUT();
+
+
+--vp2clk1 is vp2clk1 at PIN_83
+--operation mode is input
+
+vp2clk1 = INPUT();
+
+
+--vp2ctl0 is vp2ctl0 at PIN_81
+--operation mode is input
+
+vp2ctl0 = INPUT();
+
+
+--vp2ctl1 is vp2ctl1 at PIN_80
+--operation mode is input
+
+vp2ctl1 = INPUT();
+
+
+--vp2ctl2 is vp2ctl2 at PIN_79
+--operation mode is input
+
+vp2ctl2 = INPUT();
+
+
+--wil[0] is wil[0] at PIN_45
+--operation mode is input
+
+wil[0] = INPUT();
+
+
+--wil[1] is wil[1] at PIN_46
+--operation mode is input
+
+wil[1] = INPUT();
+
+
+--Hs is Hs at PIN_98
+--operation mode is output
+
+Hs = OUTPUT(~VCC~0);
+
+
+--Vs is Vs at PIN_25
+--operation mode is output
+
+Vs = OUTPUT(~VCC~1);
+
+
+--clkout is clkout at PIN_92
+--operation mode is output
+
+clkout = OUTPUT(A1L61);
+
+
+--De is De at PIN_99
+--operation mode is output
+
+De = OUTPUT(A1L27);
+
+
+--nWAIT is nWAIT at PIN_76
+--operation mode is output
+
+nWAIT = OUTPUT(A1L03);
+
+
+--vCLK is vCLK at PIN_100
+--operation mode is output
+
+vCLK = OUTPUT(A1L07);
+
+
+--BUFDIR is BUFDIR at PIN_61
+--operation mode is output
+
+BUFDIR = OUTPUT(A1L21);
+
+
+--BUFDIR1 is BUFDIR1 at PIN_60
+--operation mode is output
+
+BUFDIR1 = OUTPUT(A1L11);
+
+
+--nEXTBUS is nEXTBUS at PIN_40
+--operation mode is output
+
+nEXTBUS = OUTPUT(A1L33);
+
+
+--eint11 is eint11 at PIN_47
+--operation mode is output
+
+eint11 = OUTPUT(eint11_i);
+
+
+--data[2] is data[2] at PIN_29
+--operation mode is output
+
+data[2]_tri_out = TRI(A1L36, un1_nGCS_i_0_);
+data[2] = OUTPUT(data[2]_tri_out);
+
+
+--data[3] is data[3] at PIN_30
+--operation mode is output
+
+data[3]_tri_out = TRI(A1L26, un1_nGCS_i_0_);
+data[3] = OUTPUT(data[3]_tri_out);
+
+
+--data[4] is data[4] at PIN_31
+--operation mode is output
+
+data[4]_tri_out = TRI(A1L16, un1_nGCS_i_0_);
+data[4] = OUTPUT(data[4]_tri_out);
+
+
+--data[5] is data[5] at PIN_32
+--operation mode is output
+
+data[5]_tri_out = TRI(A1L06, un1_nGCS_i_0_);
+data[5] = OUTPUT(data[5]_tri_out);
+
+
+--data[6] is data[6] at PIN_33
+--operation mode is output
+
+data[6]_tri_out = TRI(A1L95, un1_nGCS_i_0_);
+data[6] = OUTPUT(data[6]_tri_out);
+
+
+--data[7] is data[7] at PIN_35
+--operation mode is output
+
+data[7]_tri_out = TRI(A1L85, un1_nGCS_i_0_);
+data[7] = OUTPUT(data[7]_tri_out);
+
+
+--data[0] is data[0] at PIN_27
+--operation mode is output
+
+data[0]_tri_out = TRI(A1L56, un1_nGCS_i_0_);
+data[0] = OUTPUT(data[0]_tri_out);
+
+
+--data[1] is data[1] at PIN_28
+--operation mode is output
+
+data[1]_tri_out = TRI(A1L46, un1_nGCS_i_0_);
+data[1] = OUTPUT(data[1]_tri_out);
+
+
+
+
+
+

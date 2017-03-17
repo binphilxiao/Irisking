@@ -1,0 +1,6729 @@
+//
+// Written by Synplify
+// Synplify 7.7.0, Build 033R.
+// Thu Nov 03 12:47:00 2011
+//
+// Source file index table:
+// Object locations will have the form <file>:<line>
+// file 0 "noname"
+// file 1 "\e:\project\irisking\ikemb-0001\project\hardware\dm642\v4\fpga_v2\buffer\buffer.v "
+// file 2 "\e:\project\irisking\ikemb-0001\project\hardware\dm642\v4\fpga_v2\buffer\wigend_in.v "
+// file 3 "\e:\project\irisking\ikemb-0001\project\hardware\dm642\v4\fpga_v2\buffer\wigend_out.v "
+
+`timescale 100 ps/100 ps
+module SYNLPM_LATRS1 (
+  Q,
+  DATA,
+  GATE,
+  ASET,
+  ACLR
+);
+output [0:0] Q ;
+input [0:0] DATA ;
+input GATE ;
+input ASET ;
+input ACLR ;
+wire GATE ;
+wire ASET ;
+wire ACLR ;
+wire GND ;
+wire VCC ;
+tri1 tridevclrn;
+tri1 tridevpor;
+tri0 tridevoe;
+//@1:85
+  assign #(1) Q[0] = ACLR ? 1'b0 : (ASET ? 1'b1 : (GATE ? DATA[0] : Q[0] )); // latrs
+  assign GND = 1'b0;
+  assign VCC = 1'b1;
+endmodule /* SYNLPM_LATRS1 */
+
+module SYNLPM_LATR1 (
+  Q,
+  DATA,
+  GATE,
+  ACLR
+);
+output [0:0] Q ;
+input [0:0] DATA ;
+input GATE ;
+input ACLR ;
+wire GATE ;
+wire ACLR ;
+wire GND ;
+wire VCC ;
+tri1 tridevclrn;
+tri1 tridevpor;
+tri0 tridevoe;
+//@1:85
+  assign #(1) Q[0] = ACLR ? 1'b0 : (GATE ? DATA[0] : Q[0] ); // latr
+  assign GND = 1'b0;
+  assign VCC = 1'b1;
+endmodule /* SYNLPM_LATR1 */
+
+module Wigend_In (
+  wil_in_c_0,
+  wil_in_c_1,
+  wigend_bitcnt_1,
+  wigend_bitcnt_2,
+  wigend_bitcnt_3,
+  wigend_bitcnt_4,
+  un1_wil_in_irq_flag11_1_0_0_a,
+  int_1_0_a2_0,
+  nReset_c,
+  clk_c
+);
+input wil_in_c_0 ;
+input wil_in_c_1 ;
+output wigend_bitcnt_1 ;
+output wigend_bitcnt_2 ;
+output wigend_bitcnt_3 ;
+output wigend_bitcnt_4 ;
+input un1_wil_in_irq_flag11_1_0_0_a ;
+output int_1_0_a2_0 ;
+input nReset_c ;
+input clk_c ;
+wire wil_in_c_0 ;
+wire wil_in_c_1 ;
+wire wigend_bitcnt_1 ;
+wire wigend_bitcnt_2 ;
+wire wigend_bitcnt_3 ;
+wire wigend_bitcnt_4 ;
+wire un1_wil_in_irq_flag11_1_0_0_a ;
+wire int_1_0_a2_0 ;
+wire nReset_c ;
+wire clk_c ;
+wire [12:0] wilclk_cnt;
+wire [4:1] wigend_bitcnt_7_i;
+wire [0:0] wigend_bitcnt;
+wire [0:0] wigend_bitcnt_7_f0_i;
+wire [4:2] wigend_bitcnt_7_i_a;
+wire \wigend_in.wil_clk  ;
+wire wilclk_cnt_c0_combout ;
+wire un1_wilclk_cnt_2 ;
+wire GND ;
+wire wilclk_cnt_c1_combout ;
+wire wilclk_cnt_c2_combout ;
+wire wilclk_cnt_c3_combout ;
+wire un1_wigend_9_i_x ;
+wire wilclk_cnt_c4_combout ;
+wire wilclk_cnt_c5_combout ;
+wire wilclk_cnt_c6_combout ;
+wire wilclk_cnt_c7_combout ;
+wire wilclk_cnt_c8_combout ;
+wire wilclk_cnt_c9_combout ;
+wire wilclk_cnt_c10_combout ;
+wire wilclk_cnt_c11_combout ;
+wire wilclk_cnt_c12_combout ;
+wire wil_clk_i_0 ;
+wire overtime_i ;
+wire un1_wigend_10 ;
+wire wil_clk_i ;
+wire wil_clk_tmp_i_0 ;
+wire un1_wigend_9_x ;
+wire overtime_delay2_i ;
+wire overtime_delay1_i_0 ;
+wire overtime_delay3_i ;
+wire wilclk_cnt_c0_cout ;
+wire VCC ;
+wire wilclk_cnt_c1_cout ;
+wire wilclk_cnt_c2_cout ;
+wire wilclk_cnt_c3_cout ;
+wire wilclk_cnt_c4_cout ;
+wire wilclk_cnt_c5_cout ;
+wire wilclk_cnt_c6_cout ;
+wire wilclk_cnt_c7_cout ;
+wire wilclk_cnt_c8_cout ;
+wire wilclk_cnt_c9_cout ;
+wire wilclk_cnt_c10_cout ;
+wire wilclk_cnt_c11_cout ;
+wire un1_wilclk_cntlto11_0 ;
+wire un1_wilclk_cntlto9_a ;
+wire un1_wilclk_cntlto9 ;
+wire N_492 ;
+wire N_491 ;
+wire N_490 ;
+wire N_489 ;
+wire N_488 ;
+wire N_487 ;
+wire N_486 ;
+wire N_485 ;
+wire N_484 ;
+wire N_483 ;
+wire N_482 ;
+wire N_481 ;
+wire N_480 ;
+wire N_479 ;
+wire N_478 ;
+wire N_477 ;
+wire N_476 ;
+wire N_475 ;
+wire N_474 ;
+wire N_473 ;
+wire N_472 ;
+wire N_471 ;
+wire N_470 ;
+wire N_469 ;
+wire N_468 ;
+wire N_467 ;
+wire N_466 ;
+wire N_465 ;
+wire N_464 ;
+wire N_463 ;
+wire N_462 ;
+wire N_461 ;
+wire N_460 ;
+wire N_459 ;
+wire N_458 ;
+wire N_457 ;
+wire N_456 ;
+wire N_455 ;
+wire N_454 ;
+wire N_453 ;
+wire N_452 ;
+wire N_451 ;
+wire N_450 ;
+wire N_449 ;
+wire N_448 ;
+wire N_447 ;
+wire N_446 ;
+wire N_445 ;
+wire N_444 ;
+wire N_443 ;
+wire N_442 ;
+wire N_441 ;
+wire N_440 ;
+tri1 tridevclrn;
+tri1 tridevpor;
+tri0 tridevoe;
+// @2:61
+  cycloneii_lcell_ff wilclk_cnt_0__Z (
+	.devpor(tridevpor),
+	.devclrn(tridevclrn),
+	.regout(wilclk_cnt[0]),
+	.datain(wilclk_cnt_c0_combout),
+	.clk(clk_c),
+	.aclr(~nReset_c),
+	.sclr(GND),
+	.sload(~un1_wilclk_cnt_2),
+	.sdata(GND),
+	.ena(VCC)
+);
+// @2:61
+  cycloneii_lcell_ff wilclk_cnt_1__Z (
+	.devpor(tridevpor),
+	.devclrn(tridevclrn),
+	.regout(wilclk_cnt[1]),
+	.datain(wilclk_cnt_c1_combout),
+	.clk(clk_c),
+	.aclr(~nReset_c),
+	.sclr(GND),
+	.sload(~un1_wilclk_cnt_2),
+	.sdata(GND),
+	.ena(VCC)
+);
+// @2:61
+  cycloneii_lcell_ff wilclk_cnt_2__Z (
+	.devpor(tridevpor),
+	.devclrn(tridevclrn),
+	.regout(wilclk_cnt[2]),
+	.datain(wilclk_cnt_c2_combout),
+	.clk(clk_c),
+	.aclr(~nReset_c),
+	.sclr(GND),
+	.sload(~un1_wilclk_cnt_2),
+	.sdata(GND),
+	.ena(VCC)
+);
+// @2:61
+  cycloneii_lcell_ff wilclk_cnt_3__Z (
+	.devpor(tridevpor),
+	.devclrn(tridevclrn),
+	.regout(wilclk_cnt[3]),
+	.datain(wilclk_cnt_c3_combout),
+	.clk(clk_c),
+	.aclr(~nReset_c),
+	.sclr(GND),
+	.sload(~un1_wilclk_cnt_2),
+	.sdata(un1_wigend_9_i_x),
+	.ena(VCC)
+);
+// @2:61
+  cycloneii_lcell_ff wilclk_cnt_4__Z (
+	.devpor(tridevpor),
+	.devclrn(tridevclrn),
+	.regout(wilclk_cnt[4]),
+	.datain(wilclk_cnt_c4_combout),
+	.clk(clk_c),
+	.aclr(~nReset_c),
+	.sclr(GND),
+	.sload(~un1_wilclk_cnt_2),
+	.sdata(GND),
+	.ena(VCC)
+);
+// @2:61
+  cycloneii_lcell_ff wilclk_cnt_5__Z (
+	.devpor(tridevpor),
+	.devclrn(tridevclrn),
+	.regout(wilclk_cnt[5]),
+	.datain(wilclk_cnt_c5_combout),
+	.clk(clk_c),
+	.aclr(~nReset_c),
+	.sclr(GND),
+	.sload(~un1_wilclk_cnt_2),
+	.sdata(GND),
+	.ena(VCC)
+);
+// @2:61
+  cycloneii_lcell_ff wilclk_cnt_6__Z (
+	.devpor(tridevpor),
+	.devclrn(tridevclrn),
+	.regout(wilclk_cnt[6]),
+	.datain(wilclk_cnt_c6_combout),
+	.clk(clk_c),
+	.aclr(~nReset_c),
+	.sclr(GND),
+	.sload(~un1_wilclk_cnt_2),
+	.sdata(GND),
+	.ena(VCC)
+);
+// @2:61
+  cycloneii_lcell_ff wilclk_cnt_7__Z (
+	.devpor(tridevpor),
+	.devclrn(tridevclrn),
+	.regout(wilclk_cnt[7]),
+	.datain(wilclk_cnt_c7_combout),
+	.clk(clk_c),
+	.aclr(~nReset_c),
+	.sclr(GND),
+	.sload(~un1_wilclk_cnt_2),
+	.sdata(un1_wigend_9_i_x),
+	.ena(VCC)
+);
+// @2:61
+  cycloneii_lcell_ff wilclk_cnt_8__Z (
+	.devpor(tridevpor),
+	.devclrn(tridevclrn),
+	.regout(wilclk_cnt[8]),
+	.datain(wilclk_cnt_c8_combout),
+	.clk(clk_c),
+	.aclr(~nReset_c),
+	.sclr(GND),
+	.sload(~un1_wilclk_cnt_2),
+	.sdata(un1_wigend_9_i_x),
+	.ena(VCC)
+);
+// @2:61
+  cycloneii_lcell_ff wilclk_cnt_9__Z (
+	.devpor(tridevpor),
+	.devclrn(tridevclrn),
+	.regout(wilclk_cnt[9]),
+	.datain(wilclk_cnt_c9_combout),
+	.clk(clk_c),
+	.aclr(~nReset_c),
+	.sclr(GND),
+	.sload(~un1_wilclk_cnt_2),
+	.sdata(un1_wigend_9_i_x),
+	.ena(VCC)
+);
+// @2:61
+  cycloneii_lcell_ff wilclk_cnt_10__Z (
+	.devpor(tridevpor),
+	.devclrn(tridevclrn),
+	.regout(wilclk_cnt[10]),
+	.datain(wilclk_cnt_c10_combout),
+	.clk(clk_c),
+	.aclr(~nReset_c),
+	.sclr(GND),
+	.sload(~un1_wilclk_cnt_2),
+	.sdata(GND),
+	.ena(VCC)
+);
+// @2:61
+  cycloneii_lcell_ff wilclk_cnt_11__Z (
+	.devpor(tridevpor),
+	.devclrn(tridevclrn),
+	.regout(wilclk_cnt[11]),
+	.datain(wilclk_cnt_c11_combout),
+	.clk(clk_c),
+	.aclr(~nReset_c),
+	.sclr(GND),
+	.sload(~un1_wilclk_cnt_2),
+	.sdata(GND),
+	.ena(VCC)
+);
+// @2:61
+  cycloneii_lcell_ff wilclk_cnt_12__Z (
+	.devpor(tridevpor),
+	.devclrn(tridevclrn),
+	.regout(wilclk_cnt[12]),
+	.datain(wilclk_cnt_c12_combout),
+	.clk(clk_c),
+	.aclr(~nReset_c),
+	.sclr(GND),
+	.sload(~un1_wilclk_cnt_2),
+	.sdata(un1_wigend_9_i_x),
+	.ena(VCC)
+);
+// @2:101
+  cycloneii_lcell_ff wigend_bitcnt_4__Z (
+	.devpor(tridevpor),
+	.devclrn(tridevclrn),
+	.regout(wigend_bitcnt_4),
+	.datain(wigend_bitcnt_7_i[4]),
+	.clk(wil_clk_i_0),
+	.aclr(~nReset_c),
+	.sclr(GND),
+	.sload(GND),
+	.sdata(GND),
+	.ena(VCC)
+);
+// @2:101
+  cycloneii_lcell_ff wigend_bitcnt_3__Z (
+	.devpor(tridevpor),
+	.devclrn(tridevclrn),
+	.regout(wigend_bitcnt_3),
+	.datain(wigend_bitcnt_7_i[3]),
+	.clk(wil_clk_i_0),
+	.aclr(~nReset_c),
+	.sclr(GND),
+	.sload(GND),
+	.sdata(GND),
+	.ena(VCC)
+);
+// @2:101
+  cycloneii_lcell_ff wigend_bitcnt_2__Z (
+	.devpor(tridevpor),
+	.devclrn(tridevclrn),
+	.regout(wigend_bitcnt_2),
+	.datain(wigend_bitcnt_7_i[2]),
+	.clk(wil_clk_i_0),
+	.aclr(~nReset_c),
+	.sclr(GND),
+	.sload(GND),
+	.sdata(GND),
+	.ena(VCC)
+);
+// @2:101
+  cycloneii_lcell_ff wigend_bitcnt_1__Z (
+	.devpor(tridevpor),
+	.devclrn(tridevclrn),
+	.regout(wigend_bitcnt_1),
+	.datain(wigend_bitcnt_7_i[1]),
+	.clk(wil_clk_i_0),
+	.aclr(~nReset_c),
+	.sclr(GND),
+	.sload(GND),
+	.sdata(GND),
+	.ena(VCC)
+);
+// @2:101
+  cycloneii_lcell_ff wigend_bitcnt_0__Z (
+	.devpor(tridevpor),
+	.devclrn(tridevclrn),
+	.regout(wigend_bitcnt[0]),
+	.datain(wigend_bitcnt_7_f0_i[0]),
+	.clk(wil_clk_i_0),
+	.aclr(~nReset_c),
+	.sclr(GND),
+	.sload(GND),
+	.sdata(GND),
+	.ena(VCC)
+);
+// @2:61
+  cycloneii_lcell_ff overtime_i_Z (
+	.devpor(tridevpor),
+	.devclrn(tridevclrn),
+	.regout(overtime_i),
+	.datain(un1_wigend_10),
+	.clk(clk_c),
+	.aclr(~nReset_c),
+	.sclr(GND),
+	.sload(GND),
+	.sdata(GND),
+	.ena(VCC)
+);
+// @2:35
+  cycloneii_lcell_ff wil_clk_i_0_Z (
+	.devpor(tridevpor),
+	.devclrn(tridevclrn),
+	.regout(wil_clk_i),
+	.datain(wil_clk_tmp_i_0),
+	.clk(clk_c),
+	.aclr(~nReset_c),
+	.sclr(GND),
+	.sload(GND),
+	.sdata(GND),
+	.ena(VCC)
+);
+// @2:35
+  cycloneii_lcell_ff wil_clk_tmp_i_0_Z (
+	.devpor(tridevpor),
+	.devclrn(tridevclrn),
+	.regout(wil_clk_tmp_i_0),
+	.datain(un1_wigend_9_x),
+	.clk(clk_c),
+	.aclr(~nReset_c),
+	.sclr(GND),
+	.sload(GND),
+	.sdata(GND),
+	.ena(VCC)
+);
+// @2:85
+  cycloneii_lcell_ff overtime_delay2_i_Z (
+	.devpor(tridevpor),
+	.devclrn(tridevclrn),
+	.regout(overtime_delay2_i),
+	.datain(overtime_delay1_i_0),
+	.clk(clk_c),
+	.aclr(~nReset_c),
+	.sclr(GND),
+	.sload(GND),
+	.sdata(GND),
+	.ena(VCC)
+);
+// @2:85
+  cycloneii_lcell_ff overtime_delay3_i_Z (
+	.devpor(tridevpor),
+	.devclrn(tridevclrn),
+	.regout(overtime_delay3_i),
+	.datain(overtime_delay2_i),
+	.clk(clk_c),
+	.aclr(~nReset_c),
+	.sclr(GND),
+	.sload(GND),
+	.sdata(GND),
+	.ena(VCC)
+);
+// @2:85
+  cycloneii_lcell_ff overtime_delay1_i_0_Z (
+	.devpor(tridevpor),
+	.devclrn(tridevclrn),
+	.regout(overtime_delay1_i_0),
+	.datain(overtime_i),
+	.clk(clk_c),
+	.aclr(~nReset_c),
+	.sclr(GND),
+	.sload(GND),
+	.sdata(GND),
+	.ena(VCC)
+);
+  assign  \wigend_in.wil_clk  = ~ wil_clk_i;
+// @2:61
+  cycloneii_lcell_comb wilclk_cnt_c0 (
+	.combout(wilclk_cnt_c0_combout),
+	.cout(wilclk_cnt_c0_cout),
+	.dataa(wilclk_cnt[0]),
+	.datab(VCC),
+	.datac(VCC),
+	.datad(VCC),
+	.cin(GND)
+);
+defparam wilclk_cnt_c0.lut_mask=16'h6688;
+defparam wilclk_cnt_c0.sum_lutc_input="cin";
+// @2:61
+  cycloneii_lcell_comb wilclk_cnt_c1 (
+	.combout(wilclk_cnt_c1_combout),
+	.cout(wilclk_cnt_c1_cout),
+	.dataa(wilclk_cnt[1]),
+	.datab(VCC),
+	.datac(VCC),
+	.datad(VCC),
+	.cin(wilclk_cnt_c0_cout)
+);
+defparam wilclk_cnt_c1.lut_mask=16'h5aa0;
+defparam wilclk_cnt_c1.sum_lutc_input="cin";
+// @2:61
+  cycloneii_lcell_comb wilclk_cnt_c2 (
+	.combout(wilclk_cnt_c2_combout),
+	.cout(wilclk_cnt_c2_cout),
+	.dataa(wilclk_cnt[2]),
+	.datab(VCC),
+	.datac(VCC),
+	.datad(VCC),
+	.cin(wilclk_cnt_c1_cout)
+);
+defparam wilclk_cnt_c2.lut_mask=16'h5aa0;
+defparam wilclk_cnt_c2.sum_lutc_input="cin";
+// @2:61
+  cycloneii_lcell_comb wilclk_cnt_c3 (
+	.combout(wilclk_cnt_c3_combout),
+	.cout(wilclk_cnt_c3_cout),
+	.dataa(wilclk_cnt[3]),
+	.datab(VCC),
+	.datac(VCC),
+	.datad(VCC),
+	.cin(wilclk_cnt_c2_cout)
+);
+defparam wilclk_cnt_c3.lut_mask=16'h5aa0;
+defparam wilclk_cnt_c3.sum_lutc_input="cin";
+// @2:61
+  cycloneii_lcell_comb wilclk_cnt_c4 (
+	.combout(wilclk_cnt_c4_combout),
+	.cout(wilclk_cnt_c4_cout),
+	.dataa(wilclk_cnt[4]),
+	.datab(VCC),
+	.datac(VCC),
+	.datad(VCC),
+	.cin(wilclk_cnt_c3_cout)
+);
+defparam wilclk_cnt_c4.lut_mask=16'h5aa0;
+defparam wilclk_cnt_c4.sum_lutc_input="cin";
+// @2:61
+  cycloneii_lcell_comb wilclk_cnt_c5 (
+	.combout(wilclk_cnt_c5_combout),
+	.cout(wilclk_cnt_c5_cout),
+	.dataa(wilclk_cnt[5]),
+	.datab(VCC),
+	.datac(VCC),
+	.datad(VCC),
+	.cin(wilclk_cnt_c4_cout)
+);
+defparam wilclk_cnt_c5.lut_mask=16'h5aa0;
+defparam wilclk_cnt_c5.sum_lutc_input="cin";
+// @2:61
+  cycloneii_lcell_comb wilclk_cnt_c6 (
+	.combout(wilclk_cnt_c6_combout),
+	.cout(wilclk_cnt_c6_cout),
+	.dataa(wilclk_cnt[6]),
+	.datab(VCC),
+	.datac(VCC),
+	.datad(VCC),
+	.cin(wilclk_cnt_c5_cout)
+);
+defparam wilclk_cnt_c6.lut_mask=16'h5aa0;
+defparam wilclk_cnt_c6.sum_lutc_input="cin";
+// @2:61
+  cycloneii_lcell_comb wilclk_cnt_c7 (
+	.combout(wilclk_cnt_c7_combout),
+	.cout(wilclk_cnt_c7_cout),
+	.dataa(wilclk_cnt[7]),
+	.datab(VCC),
+	.datac(VCC),
+	.datad(VCC),
+	.cin(wilclk_cnt_c6_cout)
+);
+defparam wilclk_cnt_c7.lut_mask=16'h5aa0;
+defparam wilclk_cnt_c7.sum_lutc_input="cin";
+// @2:61
+  cycloneii_lcell_comb wilclk_cnt_c8 (
+	.combout(wilclk_cnt_c8_combout),
+	.cout(wilclk_cnt_c8_cout),
+	.dataa(wilclk_cnt[8]),
+	.datab(VCC),
+	.datac(VCC),
+	.datad(VCC),
+	.cin(wilclk_cnt_c7_cout)
+);
+defparam wilclk_cnt_c8.lut_mask=16'h5aa0;
+defparam wilclk_cnt_c8.sum_lutc_input="cin";
+// @2:61
+  cycloneii_lcell_comb wilclk_cnt_c9 (
+	.combout(wilclk_cnt_c9_combout),
+	.cout(wilclk_cnt_c9_cout),
+	.dataa(wilclk_cnt[9]),
+	.datab(VCC),
+	.datac(VCC),
+	.datad(VCC),
+	.cin(wilclk_cnt_c8_cout)
+);
+defparam wilclk_cnt_c9.lut_mask=16'h5aa0;
+defparam wilclk_cnt_c9.sum_lutc_input="cin";
+// @2:61
+  cycloneii_lcell_comb wilclk_cnt_c10 (
+	.combout(wilclk_cnt_c10_combout),
+	.cout(wilclk_cnt_c10_cout),
+	.dataa(wilclk_cnt[10]),
+	.datab(VCC),
+	.datac(VCC),
+	.datad(VCC),
+	.cin(wilclk_cnt_c9_cout)
+);
+defparam wilclk_cnt_c10.lut_mask=16'h5aa0;
+defparam wilclk_cnt_c10.sum_lutc_input="cin";
+// @2:61
+  cycloneii_lcell_comb wilclk_cnt_c11 (
+	.combout(wilclk_cnt_c11_combout),
+	.cout(wilclk_cnt_c11_cout),
+	.dataa(wilclk_cnt[11]),
+	.datab(VCC),
+	.datac(VCC),
+	.datad(VCC),
+	.cin(wilclk_cnt_c10_cout)
+);
+defparam wilclk_cnt_c11.lut_mask=16'h5aa0;
+defparam wilclk_cnt_c11.sum_lutc_input="cin";
+// @2:61
+  cycloneii_lcell_comb wilclk_cnt_c12 (
+	.combout(wilclk_cnt_c12_combout),
+	.cout(),
+	.dataa(wilclk_cnt[12]),
+	.datab(VCC),
+	.datac(VCC),
+	.datad(VCC),
+	.cin(wilclk_cnt_c11_cout)
+);
+defparam wilclk_cnt_c12.lut_mask=16'h5a5a;
+defparam wilclk_cnt_c12.sum_lutc_input="cin";
+// @2:33
+  cycloneii_lcell_comb int_1_0_a2_0_0 (
+	.combout(int_1_0_a2_0),
+	.cout(),
+	.dataa(wigend_bitcnt_4),
+	.datab(wigend_bitcnt_2),
+	.datac(VCC),
+	.datad(VCC),
+	.cin(GND)
+);
+defparam int_1_0_a2_0_0.lut_mask=16'h2222;
+defparam int_1_0_a2_0_0.sum_lutc_input="datac";
+// @2:73
+  cycloneii_lcell_comb un1_wilclk_cntlto11_0_cZ (
+	.combout(un1_wilclk_cntlto11_0),
+	.cout(),
+	.dataa(wilclk_cnt[10]),
+	.datab(wilclk_cnt[11]),
+	.datac(VCC),
+	.datad(VCC),
+	.cin(GND)
+);
+defparam un1_wilclk_cntlto11_0_cZ.lut_mask=16'h1111;
+defparam un1_wilclk_cntlto11_0_cZ.sum_lutc_input="datac";
+// @2:73
+  cycloneii_lcell_comb un1_wilclk_cntlto9_a_cZ (
+	.combout(un1_wilclk_cntlto9_a),
+	.cout(),
+	.dataa(wilclk_cnt[6]),
+	.datab(wilclk_cnt[3]),
+	.datac(wilclk_cnt[5]),
+	.datad(wilclk_cnt[4]),
+	.cin(GND)
+);
+defparam un1_wilclk_cntlto9_a_cZ.lut_mask=16'h0001;
+defparam un1_wilclk_cntlto9_a_cZ.sum_lutc_input="datac";
+// @2:73
+  cycloneii_lcell_comb un1_wilclk_cntlto9_cZ (
+	.combout(un1_wilclk_cntlto9),
+	.cout(),
+	.dataa(un1_wilclk_cntlto9_a),
+	.datab(wilclk_cnt[8]),
+	.datac(wilclk_cnt[9]),
+	.datad(wilclk_cnt[7]),
+	.cin(GND)
+);
+defparam un1_wilclk_cntlto9_cZ.lut_mask=16'h4000;
+defparam un1_wilclk_cntlto9_cZ.sum_lutc_input="datac";
+// @2:103
+  cycloneii_lcell_comb wigend_bitcnt_7_f0_i_0_ (
+	.combout(wigend_bitcnt_7_f0_i[0]),
+	.cout(),
+	.dataa(un1_wil_in_irq_flag11_1_0_0_a),
+	.datab(wigend_bitcnt[0]),
+	.datac(wigend_bitcnt_1),
+	.datad(overtime_delay3_i),
+	.cin(GND)
+);
+defparam wigend_bitcnt_7_f0_i_0_.lut_mask=16'hff13;
+defparam wigend_bitcnt_7_f0_i_0_.sum_lutc_input="datac";
+// @2:107
+  cycloneii_lcell_comb wigend_bitcnt_7_i_a_4_ (
+	.combout(wigend_bitcnt_7_i_a[4]),
+	.cout(),
+	.dataa(wigend_bitcnt_4),
+	.datab(wigend_bitcnt_3),
+	.datac(wigend_bitcnt_2),
+	.datad(wigend_bitcnt[0]),
+	.cin(GND)
+);
+defparam wigend_bitcnt_7_i_a_4_.lut_mask=16'h37f7;
+defparam wigend_bitcnt_7_i_a_4_.sum_lutc_input="datac";
+// @2:107
+  cycloneii_lcell_comb wigend_bitcnt_7_i_4_ (
+	.combout(wigend_bitcnt_7_i[4]),
+	.cout(),
+	.dataa(wigend_bitcnt_7_i_a[4]),
+	.datab(wigend_bitcnt_1),
+	.datac(wigend_bitcnt_4),
+	.datad(overtime_delay3_i),
+	.cin(GND)
+);
+defparam wigend_bitcnt_7_i_4_.lut_mask=16'h00b4;
+defparam wigend_bitcnt_7_i_4_.sum_lutc_input="datac";
+// @2:107
+  cycloneii_lcell_comb wigend_bitcnt_7_i_a_3_ (
+	.combout(wigend_bitcnt_7_i_a[3]),
+	.cout(),
+	.dataa(wigend_bitcnt_3),
+	.datab(wigend_bitcnt_2),
+	.datac(wigend_bitcnt[0]),
+	.datad(wigend_bitcnt_4),
+	.cin(GND)
+);
+defparam wigend_bitcnt_7_i_a_3_.lut_mask=16'h1d3f;
+defparam wigend_bitcnt_7_i_a_3_.sum_lutc_input="datac";
+// @2:107
+  cycloneii_lcell_comb wigend_bitcnt_7_i_3_ (
+	.combout(wigend_bitcnt_7_i[3]),
+	.cout(),
+	.dataa(wigend_bitcnt_7_i_a[3]),
+	.datab(wigend_bitcnt_1),
+	.datac(wigend_bitcnt_3),
+	.datad(overtime_delay3_i),
+	.cin(GND)
+);
+defparam wigend_bitcnt_7_i_3_.lut_mask=16'h00b4;
+defparam wigend_bitcnt_7_i_3_.sum_lutc_input="datac";
+// @2:107
+  cycloneii_lcell_comb wigend_bitcnt_7_i_a_2_ (
+	.combout(wigend_bitcnt_7_i_a[2]),
+	.cout(),
+	.dataa(wigend_bitcnt_2),
+	.datab(wigend_bitcnt[0]),
+	.datac(wigend_bitcnt_3),
+	.datad(wigend_bitcnt_4),
+	.cin(GND)
+);
+defparam wigend_bitcnt_7_i_a_2_.lut_mask=16'h2666;
+defparam wigend_bitcnt_7_i_a_2_.sum_lutc_input="datac";
+// @2:107
+  cycloneii_lcell_comb wigend_bitcnt_7_i_2_ (
+	.combout(wigend_bitcnt_7_i[2]),
+	.cout(),
+	.dataa(wigend_bitcnt_7_i_a[2]),
+	.datab(wigend_bitcnt_1),
+	.datac(wigend_bitcnt_2),
+	.datad(overtime_delay3_i),
+	.cin(GND)
+);
+defparam wigend_bitcnt_7_i_2_.lut_mask=16'h00b8;
+defparam wigend_bitcnt_7_i_2_.sum_lutc_input="datac";
+// @2:107
+  cycloneii_lcell_comb wigend_bitcnt_7_i_1_ (
+	.combout(wigend_bitcnt_7_i[1]),
+	.cout(),
+	.dataa(un1_wil_in_irq_flag11_1_0_0_a),
+	.datab(wigend_bitcnt_1),
+	.datac(wigend_bitcnt[0]),
+	.datad(overtime_delay3_i),
+	.cin(GND)
+);
+defparam wigend_bitcnt_7_i_1_.lut_mask=16'h0034;
+defparam wigend_bitcnt_7_i_1_.sum_lutc_input="datac";
+// @2:33
+  cycloneii_lcell_comb un1_wilclk_cnt_2_cZ (
+	.combout(un1_wilclk_cnt_2),
+	.cout(),
+	.dataa(un1_wilclk_cntlto9),
+	.datab(un1_wilclk_cntlto11_0),
+	.datac(wilclk_cnt[12]),
+	.datad(un1_wigend_9_x),
+	.cin(GND)
+);
+defparam un1_wilclk_cnt_2_cZ.lut_mask=16'h004f;
+defparam un1_wilclk_cnt_2_cZ.sum_lutc_input="datac";
+// @2:44
+  cycloneii_lcell_comb un1_wigend_10_cZ (
+	.combout(un1_wigend_10),
+	.cout(),
+	.dataa(un1_wilclk_cntlto9),
+	.datab(un1_wilclk_cntlto11_0),
+	.datac(wilclk_cnt[12]),
+	.datad(un1_wigend_9_x),
+	.cin(GND)
+);
+defparam un1_wigend_10_cZ.lut_mask=16'h00b0;
+defparam un1_wigend_10_cZ.sum_lutc_input="datac";
+  cycloneii_lcell_comb un1_wigend_9_i_x_cZ (
+	.combout(un1_wigend_9_i_x),
+	.cout(),
+	.dataa(wil_in_c_1),
+	.datab(wil_in_c_0),
+	.datac(VCC),
+	.datad(VCC),
+	.cin(GND)
+);
+defparam un1_wigend_9_i_x_cZ.lut_mask=16'h9999;
+defparam un1_wigend_9_i_x_cZ.sum_lutc_input="datac";
+// @2:44
+  cycloneii_lcell_comb un1_wigend_9_x_cZ (
+	.combout(un1_wigend_9_x),
+	.cout(),
+	.dataa(wil_in_c_0),
+	.datab(wil_in_c_1),
+	.datac(VCC),
+	.datad(VCC),
+	.cin(GND)
+);
+defparam un1_wigend_9_x_cZ.lut_mask=16'h6666;
+defparam un1_wigend_9_x_cZ.sum_lutc_input="datac";
+  assign  wil_clk_i_0 = ~ \wigend_in.wil_clk ;
+//@2:35
+//@2:35
+//@2:121
+//@2:121
+//@2:121
+//@2:121
+//@2:121
+//@2:121
+//@2:121
+//@2:121
+//@2:121
+//@2:121
+//@2:121
+//@2:121
+//@2:121
+//@2:121
+//@2:121
+//@2:121
+//@2:121
+//@2:121
+//@2:121
+//@2:121
+//@2:121
+//@2:121
+//@2:121
+//@2:121
+//@2:121
+//@2:121
+//@2:121
+//@2:121
+//@2:121
+//@2:121
+//@2:121
+//@2:121
+//@2:121
+//@2:121
+//@2:121
+//@2:121
+//@2:121
+//@2:121
+//@2:121
+//@2:121
+//@2:121
+//@2:121
+//@2:121
+//@2:121
+//@2:121
+//@2:121
+//@2:121
+//@2:121
+//@2:121
+//@2:121
+//@2:121
+//@1:1
+  assign GND = 1'b0;
+//@1:1
+  assign VCC = 1'b1;
+endmodule /* Wigend_In */
+
+module Wigend_Out (
+  wigend_reg_out_22,
+  wigend_reg_out_23,
+  wigend_reg_out_24,
+  wigend_reg_out_25,
+  wigend_reg_out_7,
+  wigend_reg_out_17,
+  wigend_reg_out_3,
+  wigend_reg_out_16,
+  wigend_reg_out_21,
+  wigend_reg_out_11,
+  wigend_reg_out_0,
+  wigend_reg_out_4,
+  wigend_reg_out_6,
+  wigend_reg_out_12,
+  wigend_reg_out_18,
+  wigend_reg_out_19,
+  wigend_reg_out_10,
+  wigend_reg_out_2,
+  wigend_reg_out_5,
+  wigend_reg_out_1,
+  wigend_reg_out_20,
+  wigend_reg_out_9,
+  wigend_reg_out_15,
+  wigend_reg_out_13,
+  wigend_reg_out_8,
+  wigend_reg_out_14,
+  wigend_0,
+  wigend_1,
+  N_776_i,
+  wil_out_en,
+  N_776_i_0,
+  nReset_c,
+  clk_c
+);
+input wigend_reg_out_22 ;
+input wigend_reg_out_23 ;
+input wigend_reg_out_24 ;
+input wigend_reg_out_25 ;
+input wigend_reg_out_7 ;
+input wigend_reg_out_17 ;
+input wigend_reg_out_3 ;
+input wigend_reg_out_16 ;
+input wigend_reg_out_21 ;
+input wigend_reg_out_11 ;
+input wigend_reg_out_0 ;
+input wigend_reg_out_4 ;
+input wigend_reg_out_6 ;
+input wigend_reg_out_12 ;
+input wigend_reg_out_18 ;
+input wigend_reg_out_19 ;
+input wigend_reg_out_10 ;
+input wigend_reg_out_2 ;
+input wigend_reg_out_5 ;
+input wigend_reg_out_1 ;
+input wigend_reg_out_20 ;
+input wigend_reg_out_9 ;
+input wigend_reg_out_15 ;
+input wigend_reg_out_13 ;
+input wigend_reg_out_8 ;
+input wigend_reg_out_14 ;
+output wigend_0 ;
+output wigend_1 ;
+output N_776_i ;
+input wil_out_en ;
+output N_776_i_0 ;
+input nReset_c ;
+input clk_c ;
+wire wigend_reg_out_22 ;
+wire wigend_reg_out_23 ;
+wire wigend_reg_out_24 ;
+wire wigend_reg_out_25 ;
+wire wigend_reg_out_7 ;
+wire wigend_reg_out_17 ;
+wire wigend_reg_out_3 ;
+wire wigend_reg_out_16 ;
+wire wigend_reg_out_21 ;
+wire wigend_reg_out_11 ;
+wire wigend_reg_out_0 ;
+wire wigend_reg_out_4 ;
+wire wigend_reg_out_6 ;
+wire wigend_reg_out_12 ;
+wire wigend_reg_out_18 ;
+wire wigend_reg_out_19 ;
+wire wigend_reg_out_10 ;
+wire wigend_reg_out_2 ;
+wire wigend_reg_out_5 ;
+wire wigend_reg_out_1 ;
+wire wigend_reg_out_20 ;
+wire wigend_reg_out_9 ;
+wire wigend_reg_out_15 ;
+wire wigend_reg_out_13 ;
+wire wigend_reg_out_8 ;
+wire wigend_reg_out_14 ;
+wire wigend_0 ;
+wire wigend_1 ;
+wire N_776_i ;
+wire wil_out_en ;
+wire N_776_i_0 ;
+wire nReset_c ;
+wire clk_c ;
+wire [16:0] counter;
+wire [1:1] wigend_59_iv_i_i_0;
+wire [0:0] wigend_59_iv_0;
+wire [1:1] wigend_59_iv_i_i_0_o2_2;
+wire [0:0] wigend_59_iv_0_o3_3_4_i_o2_i_o14_1;
+wire [1:1] wigend_59_iv_i_i_0_a2_15_0;
+wire [0:0] wigend_59_iv_0_o3_3_4_i_o2_i_a14_10_0;
+wire [1:1] wigend_59_iv_i_i_0_a2_27;
+wire [1:1] wigend_59_iv_i_i_0_o2_4;
+wire [1:1] wigend_59_iv_i_i_0_o3_35;
+wire [1:1] wigend_59_iv_i_i_0_o2_1;
+wire [1:1] wigend_59_iv_i_i_0_a2_35;
+wire [1:1] wigend_59_iv_i_i_0_a2_12;
+wire [1:1] wigend_59_iv_i_i_0_a2_11;
+wire [1:1] wigend_59_iv_i_i_0_a3_20;
+wire [1:1] wigend_59_iv_i_i_0_a3_27_0;
+wire [1:1] wigend_59_iv_i_i_0_a2_10;
+wire [0:0] wigend_59_iv_0_a2_0;
+wire [1:1] wigend_59_iv_i_i_0_a2_33;
+wire [1:1] wigend_59_iv_i_i_0_a2_34;
+wire [1:1] wigend_59_iv_i_i_0_o3_47_a;
+wire [1:1] wigend_59_iv_i_i_0_o3_47;
+wire [1:1] wigend_59_iv_i_i_0_o2_16_a;
+wire [1:1] wigend_59_iv_i_i_0_o2_16;
+wire [0:0] wigend_59_iv_0_o3_3_4_i_o2_i_o14_6;
+wire [1:1] wigend_59_iv_i_i_0_o3_33_a;
+wire [1:1] wigend_59_iv_i_i_0_a3_28_a;
+wire [1:1] wigend_59_iv_i_i_0_a3_28;
+wire [1:1] wigend_59_iv_i_i_0_a2_17_a;
+wire [1:1] wigend_59_iv_i_i_0_a2_17;
+wire [0:0] wigend_59_iv_0_a2_5_a;
+wire [0:0] wigend_59_iv_0_a2_5;
+wire [1:1] wigend_59_iv_i_i_0_a3_39_a;
+wire [1:1] wigend_59_iv_i_i_0_a3_39;
+wire [0:0] wigend_59_iv_0_o3_3_4_i_o2_i_a14_7_2;
+wire [1:1] wigend_59_iv_i_i_0_a3_53_1_a;
+wire [1:1] wigend_59_iv_i_i_0_a3_53_1;
+wire [1:1] wigend_59_iv_i_i_0_a3_21_1_a;
+wire [1:1] wigend_59_iv_i_i_0_a3_21_1;
+wire [1:1] wigend_59_iv_i_i_0_o3_33;
+wire [0:0] wigend_59_iv_0_a3_21_1_a;
+wire [0:0] wigend_59_iv_0_a3_21_1;
+wire [1:1] wigend_59_iv_i_i_0_o3_52;
+wire [1:1] wigend_59_iv_i_i_0_o2_15_a;
+wire [1:1] wigend_59_iv_i_i_0_o2_15;
+wire [1:1] wigend_59_iv_i_i_0_o3_51;
+wire [1:1] wigend_59_iv_i_i_0_o3_55_a;
+wire [1:1] wigend_59_iv_i_i_0_o3_43_a;
+wire [1:1] wigend_59_iv_i_i_0_o3_43;
+wire [1:1] wigend_59_iv_i_i_0_o2_12_a;
+wire [1:1] wigend_59_iv_i_i_0_o2_12;
+wire [1:1] wigend_59_iv_i_i_0_o3_41_a;
+wire [1:1] wigend_59_iv_i_i_0_o3_41;
+wire [1:1] wigend_59_iv_i_i_0_a3_51_a;
+wire [1:1] wigend_59_iv_i_i_0_a3_51;
+wire [0:0] wigend_59_iv_0_o3_3_4_i_o2_i_a14_5_a;
+wire [0:0] wigend_59_iv_0_o3_3_4_i_o2_i_a14_5;
+wire [0:0] wigend_59_iv_0_o3_3_4_i_o2_i_a14_2_a;
+wire [0:0] wigend_59_iv_0_o3_3_4_i_o2_i_a14_2;
+wire [0:0] wigend_59_iv_0_o3_3_4_i_o2_i_a14_6_a;
+wire [0:0] wigend_59_iv_0_o3_3_4_i_o2_i_a14_6;
+wire [0:0] wigend_59_iv_0_a2_1;
+wire [1:1] wigend_59_iv_i_i_0_a3_35_a;
+wire [1:1] wigend_59_iv_i_i_0_a3_35;
+wire [1:1] wigend_59_iv_i_i_0_a3_37_a;
+wire [1:1] wigend_59_iv_i_i_0_a3_37;
+wire [1:1] wigend_59_iv_i_i_0_o2_14_a;
+wire [1:1] wigend_59_iv_i_i_0_o2_14;
+wire [1:1] wigend_59_iv_i_i_0_a2_25_a;
+wire [1:1] wigend_59_iv_i_i_0_a2_25;
+wire [1:1] wigend_59_iv_i_i_0_a3_64_0_a;
+wire [1:1] wigend_59_iv_i_i_0_a3_64_0;
+wire [1:1] wigend_59_iv_i_i_0_o3_3_1_1_a;
+wire [1:1] wigend_59_iv_i_i_0_o3_3_1_1;
+wire [1:1] wigend_59_iv_i_i_0_o3_3_1_2_a;
+wire [1:1] wigend_59_iv_i_i_0_o3_3_1_2;
+wire [1:1] wigend_59_iv_i_i_0_o3_3_1_3_a;
+wire [1:1] wigend_59_iv_i_i_0_o3_3_1_3;
+wire [1:1] wigend_59_iv_i_i_0_o3_3_1_4_a;
+wire [1:1] wigend_59_iv_i_i_0_o3_3_1_4;
+wire [1:1] wigend_59_iv_i_i_0_a3_55_a;
+wire [1:1] wigend_59_iv_i_i_0_a3_55;
+wire [1:1] wigend_59_iv_i_i_0_o3_55;
+wire [1:1] wigend_59_iv_i_i_0_o3_11_a;
+wire [1:1] wigend_59_iv_i_i_0_o3_11;
+wire [1:1] wigend_59_iv_i_i_0_o2_13_a;
+wire [1:1] wigend_59_iv_i_i_0_o2_13;
+wire [1:1] wigend_59_iv_i_i_0_a3_48_a;
+wire [1:1] wigend_59_iv_i_i_0_a3_48;
+wire [1:1] wigend_59_iv_i_i_0_a3_47;
+wire [1:1] wigend_59_iv_i_i_0_a3_40_a;
+wire [1:1] wigend_59_iv_i_i_0_a3_40;
+wire [1:1] wigend_59_iv_i_i_0_a3_38;
+wire [1:1] wigend_59_iv_i_i_0_a3_31_a;
+wire [1:1] wigend_59_iv_i_i_0_a2_18_a;
+wire [1:1] wigend_59_iv_i_i_0_a2_18;
+wire [1:1] wigend_59_iv_i_i_0_o3_56_a;
+wire [1:1] wigend_59_iv_i_i_0_o3_56;
+wire [0:0] wigend_59_iv_0_a3_21;
+wire [1:1] wigend_59_iv_i_i_0_a3_25_a;
+wire [1:1] wigend_59_iv_i_i_0_a3_25;
+wire [1:1] wigend_59_iv_i_i_0_a3_64;
+wire [1:1] wigend_59_iv_i_i_0_a3_31;
+wire [1:1] wigend_59_iv_i_i_0_a3_19;
+wire [1:1] wigend_59_iv_i_i_0_a2_2_1_a;
+wire [1:1] wigend_59_iv_i_i_0_a2_2_1;
+wire [1:1] wigend_59_iv_i_i_0_a3_21;
+wire [1:1] wigend_59_iv_i_i_0_o3_3_1_6_a;
+wire [1:1] wigend_59_iv_i_i_0_o3_3_1_6;
+wire [1:1] wigend_59_iv_i_i_0_o3_22;
+wire [1:1] wigend_59_iv_i_i_0_o3_7;
+wire [1:1] wigend_59_iv_i_i_0_a3_7;
+wire [0:0] wigend_59_iv_0_a3_9_a;
+wire [0:0] wigend_59_iv_0_a3_9;
+wire [1:1] wigend_59_iv_i_i_0_o3_60;
+wire [1:1] wigend_59_iv_i_i_0_o3_10;
+wire [0:0] wigend_59_iv_0_o3_7_0_a;
+wire [0:0] wigend_59_iv_0_o3_7_0;
+wire [1:1] wigend_59_iv_i_i_0_o3_25_0;
+wire [1:1] wigend_59_iv_i_i_0_o3_3_1_8;
+wire [0:0] wigend_59_iv_0_a3_20;
+wire [1:1] wigend_59_iv_i_i_0_a3_18_a;
+wire [0:0] wigend_59_iv_0_a3_23;
+wire [1:1] wigend_59_iv_i_i_0_a2_0_a;
+wire [1:1] wigend_59_iv_i_i_0_o3_24;
+wire [0:0] wigend_59_iv_0_a3_7_1;
+wire [1:1] wigend_59_iv_i_i_0_a3_18;
+wire [1:1] wigend_59_iv_i_i_0_a2_0;
+wire [0:0] wigend_59_iv_0_a3_12;
+wire [1:1] wigend_59_iv_i_i_0_a3_10;
+wire [1:1] wigend_59_iv_i_i_0_a3_2_1;
+wire [1:1] wigend_59_iv_i_i_0_o3_23;
+wire [0:0] wigend_59_iv_0_a2_3_a;
+wire [0:0] wigend_59_iv_0_a2_3;
+wire [1:1] wigend_59_iv_i_i_0_o3_25;
+wire [1:1] wigend_59_iv_i_i_0_o3_3_1_12;
+wire [0:0] wigend_59_iv_0_a3_24_1;
+wire [0:0] wigend_59_iv_0_a3_19_1_a;
+wire [0:0] wigend_59_iv_0_a3_19_1;
+wire [0:0] wigend_59_iv_0_a3_8;
+wire [1:1] wigend_59_iv_i_i_0_a3_6_a;
+wire [1:1] wigend_59_iv_i_i_0_a3_13;
+wire [0:0] wigend_59_iv_0_a3_15_a;
+wire [1:1] wigend_59_iv_i_i_0_a3_1;
+wire [0:0] wigend_59_iv_0_a3_3_a;
+wire [1:1] wigend_59_iv_i_i_0_a3_6;
+wire [0:0] wigend_59_iv_0_a3_3;
+wire [0:0] wigend_59_iv_0_a3_14;
+wire [0:0] wigend_59_iv_0_a3_15;
+wire [0:0] wigend_59_iv_0_o3_9;
+wire [1:1] wigend_59_iv_i_i_0_o3_3_1;
+wire [0:0] wigend_59_iv_0_o3_1_0;
+wire [1:1] wigend_59_iv_i_i_0_o3_1_0;
+wire [0:0] wigend_59_iv_0_a3_10_1_a;
+wire [0:0] wigend_59_iv_0_a3_10_1;
+wire [0:0] wigend_59_iv_0_o3_0_0;
+wire [1:1] wigend_59_iv_i_i_0_o3_0_0;
+wire [1:1] wigend_59_iv_i_i_0_o3_4_1;
+wire [0:0] wigend_59_iv_0_o3_4_1;
+wire [1:1] wigend_59_iv_i_i_0_o3_0_2;
+wire [0:0] wigend_59_iv_0_o3_0_2;
+wire [0:0] wigend_59_iv_0_o3_2_0;
+wire [1:1] wigend_59_iv_i_i_0_o3_2_0_a;
+wire [1:1] wigend_59_iv_i_i_0_o3_2_0;
+wire [0:0] wigend_59_iv_0_o3_4;
+wire [1:1] wigend_59_iv_i_i_0_o3_4;
+wire [1:1] wigend_59_iv_i_i_0_o3_0;
+wire [0:0] wigend_59_iv_0_o3_5_0;
+wire [1:1] wigend_59_iv_i_i_0_o3_29_0;
+wire [0:0] wigend_59_iv_0_m2_a;
+wire [0:0] wigend_59_iv_0_m2;
+wire [1:1] wigend_59_iv_i_i_0_m3;
+wire [1:1] wigend_59_iv_i_i_0_o3;
+wire [0:0] wigend_59_iv_0_o3_5;
+wire [0:0] wigend_59_iv_0_o3_1;
+wire [1:1] wigend_59_iv_i_i_0_o3_29;
+wire [1:1] wigend_59_iv_i_i_0_o3_1;
+wire [0:0] wigend_59_iv_0_o3;
+wire [0:0] wigend_59_iv_0_m2_0;
+wire [1:1] wigend_59_iv_i_i_0_a7_1_a;
+wire [1:1] wigend_59_iv_i_i_0_a7_1;
+wire [1:1] wigend_59_iv_i_i_0_a7_0_a;
+wire [1:1] wigend_59_iv_i_i_0_a7_0;
+wire [1:1] wigend_59_iv_i_i_0_o3_2;
+wire [0:0] wigend_59_iv_0_o3_2;
+wire [0:0] wigend_59_iv_0_m2_1;
+wire [1:1] wigend_59_iv_i_i_0_m2_1;
+wire [0:0] wigend_59_iv_0_0_a;
+wire [0:0] wigend_59_iv_0_0;
+wire [1:1] wigend_59_iv_i_i_0_0;
+wire [1:1] wigend_59_iv_i_i_0_m3_c;
+wire counter_c0_combout ;
+wire N_870_i ;
+wire GND ;
+wire counter_c1_combout ;
+wire counter_c2_combout ;
+wire counter_c3_combout ;
+wire counter_c4_combout ;
+wire counter_c5_combout ;
+wire counter_c6_combout ;
+wire counter_c7_combout ;
+wire counter_c8_combout ;
+wire counter_c9_combout ;
+wire counter_c10_combout ;
+wire counter_c11_combout ;
+wire counter_c12_combout ;
+wire counter_c13_combout ;
+wire counter_c14_combout ;
+wire counter_c15_combout ;
+wire counter_c16_combout ;
+wire int_1_i_0_i_0_a ;
+wire int_1_i_0_i_0_o3_0 ;
+wire int_1_i_0_i_0_a7_3_2 ;
+wire int_1_i_0_i_0_2 ;
+wire counter_c0_cout ;
+wire VCC ;
+wire counter_c1_cout ;
+wire counter_c2_cout ;
+wire counter_c3_cout ;
+wire counter_c4_cout ;
+wire counter_c5_cout ;
+wire counter_c6_cout ;
+wire counter_c7_cout ;
+wire counter_c8_cout ;
+wire counter_c9_cout ;
+wire counter_c10_cout ;
+wire counter_c11_cout ;
+wire counter_c12_cout ;
+wire counter_c13_cout ;
+wire counter_c14_cout ;
+wire counter_c15_cout ;
+wire int_1_i_0_i_0_a3 ;
+wire int_1_i_0_i_0_o3_1 ;
+wire int_1_i_0_i_0_a7_1_0 ;
+wire int_1_i_0_i_0_a3_4 ;
+wire un1_en_i_0_0_a7_4_a ;
+wire un1_en_i_0_0_a7_4 ;
+wire int_1_i_0_i_0_a7_3_2_a ;
+wire un1_en_i_0_0_a7_5 ;
+wire int_1_i_0_i_0_o3_2_a ;
+wire int_1_i_0_i_0_o3_2 ;
+wire int_1_i_0_i_0_2_a ;
+wire int_1_i_0_i_0_a3_1 ;
+wire un1_en_i_0_0_a7_8_a ;
+wire un1_en_i_0_0_a7_8 ;
+tri1 tridevclrn;
+tri1 tridevpor;
+tri0 tridevoe;
+// @3:23
+  cycloneii_lcell_ff counter_0__Z (
+	.devpor(tridevpor),
+	.devclrn(tridevclrn),
+	.regout(counter[0]),
+	.datain(counter_c0_combout),
+	.clk(clk_c),
+	.aclr(~nReset_c),
+	.sclr(GND),
+	.sload(~N_870_i),
+	.sdata(GND),
+	.ena(VCC)
+);
+// @3:23
+  cycloneii_lcell_ff counter_1__Z (
+	.devpor(tridevpor),
+	.devclrn(tridevclrn),
+	.regout(counter[1]),
+	.datain(counter_c1_combout),
+	.clk(clk_c),
+	.aclr(~nReset_c),
+	.sclr(GND),
+	.sload(~N_870_i),
+	.sdata(GND),
+	.ena(VCC)
+);
+// @3:23
+  cycloneii_lcell_ff counter_2__Z (
+	.devpor(tridevpor),
+	.devclrn(tridevclrn),
+	.regout(counter[2]),
+	.datain(counter_c2_combout),
+	.clk(clk_c),
+	.aclr(~nReset_c),
+	.sclr(GND),
+	.sload(~N_870_i),
+	.sdata(GND),
+	.ena(VCC)
+);
+// @3:23
+  cycloneii_lcell_ff counter_3__Z (
+	.devpor(tridevpor),
+	.devclrn(tridevclrn),
+	.regout(counter[3]),
+	.datain(counter_c3_combout),
+	.clk(clk_c),
+	.aclr(~nReset_c),
+	.sclr(GND),
+	.sload(~N_870_i),
+	.sdata(GND),
+	.ena(VCC)
+);
+// @3:23
+  cycloneii_lcell_ff counter_4__Z (
+	.devpor(tridevpor),
+	.devclrn(tridevclrn),
+	.regout(counter[4]),
+	.datain(counter_c4_combout),
+	.clk(clk_c),
+	.aclr(~nReset_c),
+	.sclr(GND),
+	.sload(~N_870_i),
+	.sdata(GND),
+	.ena(VCC)
+);
+// @3:23
+  cycloneii_lcell_ff counter_5__Z (
+	.devpor(tridevpor),
+	.devclrn(tridevclrn),
+	.regout(counter[5]),
+	.datain(counter_c5_combout),
+	.clk(clk_c),
+	.aclr(~nReset_c),
+	.sclr(GND),
+	.sload(~N_870_i),
+	.sdata(GND),
+	.ena(VCC)
+);
+// @3:23
+  cycloneii_lcell_ff counter_6__Z (
+	.devpor(tridevpor),
+	.devclrn(tridevclrn),
+	.regout(counter[6]),
+	.datain(counter_c6_combout),
+	.clk(clk_c),
+	.aclr(~nReset_c),
+	.sclr(GND),
+	.sload(~N_870_i),
+	.sdata(GND),
+	.ena(VCC)
+);
+// @3:23
+  cycloneii_lcell_ff counter_7__Z (
+	.devpor(tridevpor),
+	.devclrn(tridevclrn),
+	.regout(counter[7]),
+	.datain(counter_c7_combout),
+	.clk(clk_c),
+	.aclr(~nReset_c),
+	.sclr(GND),
+	.sload(~N_870_i),
+	.sdata(GND),
+	.ena(VCC)
+);
+// @3:23
+  cycloneii_lcell_ff counter_8__Z (
+	.devpor(tridevpor),
+	.devclrn(tridevclrn),
+	.regout(counter[8]),
+	.datain(counter_c8_combout),
+	.clk(clk_c),
+	.aclr(~nReset_c),
+	.sclr(GND),
+	.sload(~N_870_i),
+	.sdata(GND),
+	.ena(VCC)
+);
+// @3:23
+  cycloneii_lcell_ff counter_9__Z (
+	.devpor(tridevpor),
+	.devclrn(tridevclrn),
+	.regout(counter[9]),
+	.datain(counter_c9_combout),
+	.clk(clk_c),
+	.aclr(~nReset_c),
+	.sclr(GND),
+	.sload(~N_870_i),
+	.sdata(GND),
+	.ena(VCC)
+);
+// @3:23
+  cycloneii_lcell_ff counter_10__Z (
+	.devpor(tridevpor),
+	.devclrn(tridevclrn),
+	.regout(counter[10]),
+	.datain(counter_c10_combout),
+	.clk(clk_c),
+	.aclr(~nReset_c),
+	.sclr(GND),
+	.sload(~N_870_i),
+	.sdata(GND),
+	.ena(VCC)
+);
+// @3:23
+  cycloneii_lcell_ff counter_11__Z (
+	.devpor(tridevpor),
+	.devclrn(tridevclrn),
+	.regout(counter[11]),
+	.datain(counter_c11_combout),
+	.clk(clk_c),
+	.aclr(~nReset_c),
+	.sclr(GND),
+	.sload(~N_870_i),
+	.sdata(GND),
+	.ena(VCC)
+);
+// @3:23
+  cycloneii_lcell_ff counter_12__Z (
+	.devpor(tridevpor),
+	.devclrn(tridevclrn),
+	.regout(counter[12]),
+	.datain(counter_c12_combout),
+	.clk(clk_c),
+	.aclr(~nReset_c),
+	.sclr(GND),
+	.sload(~N_870_i),
+	.sdata(GND),
+	.ena(VCC)
+);
+// @3:23
+  cycloneii_lcell_ff counter_13__Z (
+	.devpor(tridevpor),
+	.devclrn(tridevclrn),
+	.regout(counter[13]),
+	.datain(counter_c13_combout),
+	.clk(clk_c),
+	.aclr(~nReset_c),
+	.sclr(GND),
+	.sload(~N_870_i),
+	.sdata(GND),
+	.ena(VCC)
+);
+// @3:23
+  cycloneii_lcell_ff counter_14__Z (
+	.devpor(tridevpor),
+	.devclrn(tridevclrn),
+	.regout(counter[14]),
+	.datain(counter_c14_combout),
+	.clk(clk_c),
+	.aclr(~nReset_c),
+	.sclr(GND),
+	.sload(~N_870_i),
+	.sdata(GND),
+	.ena(VCC)
+);
+// @3:23
+  cycloneii_lcell_ff counter_15__Z (
+	.devpor(tridevpor),
+	.devclrn(tridevclrn),
+	.regout(counter[15]),
+	.datain(counter_c15_combout),
+	.clk(clk_c),
+	.aclr(~nReset_c),
+	.sclr(GND),
+	.sload(~N_870_i),
+	.sdata(GND),
+	.ena(VCC)
+);
+// @3:23
+  cycloneii_lcell_ff counter_16__Z (
+	.devpor(tridevpor),
+	.devclrn(tridevclrn),
+	.regout(counter[16]),
+	.datain(counter_c16_combout),
+	.clk(clk_c),
+	.aclr(~nReset_c),
+	.sclr(GND),
+	.sload(~N_870_i),
+	.sdata(GND),
+	.ena(VCC)
+);
+// @3:38
+  cycloneii_lcell_ff wigend_1__Z (
+	.devpor(tridevpor),
+	.devclrn(tridevclrn),
+	.regout(wigend_1),
+	.datain(wigend_59_iv_i_i_0[1]),
+	.clk(clk_c),
+	.aclr(~nReset_c),
+	.sclr(GND),
+	.sload(GND),
+	.sdata(GND),
+	.ena(VCC)
+);
+// @3:38
+  cycloneii_lcell_ff wigend_0__Z (
+	.devpor(tridevpor),
+	.devclrn(tridevclrn),
+	.regout(wigend_0),
+	.datain(wigend_59_iv_0[0]),
+	.clk(clk_c),
+	.aclr(~nReset_c),
+	.sclr(GND),
+	.sload(GND),
+	.sdata(GND),
+	.ena(VCC)
+);
+// @3:21
+  cycloneii_lcell_comb int_1_i_0_i (
+	.combout(N_776_i_0),
+	.cout(),
+	.dataa(int_1_i_0_i_0_a),
+	.datab(int_1_i_0_i_0_o3_0),
+	.datac(int_1_i_0_i_0_a7_3_2),
+	.datad(int_1_i_0_i_0_2),
+	.cin(GND)
+);
+defparam int_1_i_0_i.lut_mask=16'hd5ff;
+defparam int_1_i_0_i.sum_lutc_input="datac";
+// @3:23
+  cycloneii_lcell_comb counter_c0 (
+	.combout(counter_c0_combout),
+	.cout(counter_c0_cout),
+	.dataa(counter[0]),
+	.datab(VCC),
+	.datac(VCC),
+	.datad(VCC),
+	.cin(GND)
+);
+defparam counter_c0.lut_mask=16'h6688;
+defparam counter_c0.sum_lutc_input="cin";
+// @3:23
+  cycloneii_lcell_comb counter_c1 (
+	.combout(counter_c1_combout),
+	.cout(counter_c1_cout),
+	.dataa(counter[1]),
+	.datab(VCC),
+	.datac(VCC),
+	.datad(VCC),
+	.cin(counter_c0_cout)
+);
+defparam counter_c1.lut_mask=16'h5aa0;
+defparam counter_c1.sum_lutc_input="cin";
+// @3:23
+  cycloneii_lcell_comb counter_c2 (
+	.combout(counter_c2_combout),
+	.cout(counter_c2_cout),
+	.dataa(counter[2]),
+	.datab(VCC),
+	.datac(VCC),
+	.datad(VCC),
+	.cin(counter_c1_cout)
+);
+defparam counter_c2.lut_mask=16'h5aa0;
+defparam counter_c2.sum_lutc_input="cin";
+// @3:23
+  cycloneii_lcell_comb counter_c3 (
+	.combout(counter_c3_combout),
+	.cout(counter_c3_cout),
+	.dataa(counter[3]),
+	.datab(VCC),
+	.datac(VCC),
+	.datad(VCC),
+	.cin(counter_c2_cout)
+);
+defparam counter_c3.lut_mask=16'h5aa0;
+defparam counter_c3.sum_lutc_input="cin";
+// @3:23
+  cycloneii_lcell_comb counter_c4 (
+	.combout(counter_c4_combout),
+	.cout(counter_c4_cout),
+	.dataa(counter[4]),
+	.datab(VCC),
+	.datac(VCC),
+	.datad(VCC),
+	.cin(counter_c3_cout)
+);
+defparam counter_c4.lut_mask=16'h5aa0;
+defparam counter_c4.sum_lutc_input="cin";
+// @3:23
+  cycloneii_lcell_comb counter_c5 (
+	.combout(counter_c5_combout),
+	.cout(counter_c5_cout),
+	.dataa(counter[5]),
+	.datab(VCC),
+	.datac(VCC),
+	.datad(VCC),
+	.cin(counter_c4_cout)
+);
+defparam counter_c5.lut_mask=16'h5aa0;
+defparam counter_c5.sum_lutc_input="cin";
+// @3:23
+  cycloneii_lcell_comb counter_c6 (
+	.combout(counter_c6_combout),
+	.cout(counter_c6_cout),
+	.dataa(counter[6]),
+	.datab(VCC),
+	.datac(VCC),
+	.datad(VCC),
+	.cin(counter_c5_cout)
+);
+defparam counter_c6.lut_mask=16'h5aa0;
+defparam counter_c6.sum_lutc_input="cin";
+// @3:23
+  cycloneii_lcell_comb counter_c7 (
+	.combout(counter_c7_combout),
+	.cout(counter_c7_cout),
+	.dataa(counter[7]),
+	.datab(VCC),
+	.datac(VCC),
+	.datad(VCC),
+	.cin(counter_c6_cout)
+);
+defparam counter_c7.lut_mask=16'h5aa0;
+defparam counter_c7.sum_lutc_input="cin";
+// @3:23
+  cycloneii_lcell_comb counter_c8 (
+	.combout(counter_c8_combout),
+	.cout(counter_c8_cout),
+	.dataa(counter[8]),
+	.datab(VCC),
+	.datac(VCC),
+	.datad(VCC),
+	.cin(counter_c7_cout)
+);
+defparam counter_c8.lut_mask=16'h5aa0;
+defparam counter_c8.sum_lutc_input="cin";
+// @3:23
+  cycloneii_lcell_comb counter_c9 (
+	.combout(counter_c9_combout),
+	.cout(counter_c9_cout),
+	.dataa(counter[9]),
+	.datab(VCC),
+	.datac(VCC),
+	.datad(VCC),
+	.cin(counter_c8_cout)
+);
+defparam counter_c9.lut_mask=16'h5aa0;
+defparam counter_c9.sum_lutc_input="cin";
+// @3:23
+  cycloneii_lcell_comb counter_c10 (
+	.combout(counter_c10_combout),
+	.cout(counter_c10_cout),
+	.dataa(counter[10]),
+	.datab(VCC),
+	.datac(VCC),
+	.datad(VCC),
+	.cin(counter_c9_cout)
+);
+defparam counter_c10.lut_mask=16'h5aa0;
+defparam counter_c10.sum_lutc_input="cin";
+// @3:23
+  cycloneii_lcell_comb counter_c11 (
+	.combout(counter_c11_combout),
+	.cout(counter_c11_cout),
+	.dataa(counter[11]),
+	.datab(VCC),
+	.datac(VCC),
+	.datad(VCC),
+	.cin(counter_c10_cout)
+);
+defparam counter_c11.lut_mask=16'h5aa0;
+defparam counter_c11.sum_lutc_input="cin";
+// @3:23
+  cycloneii_lcell_comb counter_c12 (
+	.combout(counter_c12_combout),
+	.cout(counter_c12_cout),
+	.dataa(counter[12]),
+	.datab(VCC),
+	.datac(VCC),
+	.datad(VCC),
+	.cin(counter_c11_cout)
+);
+defparam counter_c12.lut_mask=16'h5aa0;
+defparam counter_c12.sum_lutc_input="cin";
+// @3:23
+  cycloneii_lcell_comb counter_c13 (
+	.combout(counter_c13_combout),
+	.cout(counter_c13_cout),
+	.dataa(counter[13]),
+	.datab(VCC),
+	.datac(VCC),
+	.datad(VCC),
+	.cin(counter_c12_cout)
+);
+defparam counter_c13.lut_mask=16'h5aa0;
+defparam counter_c13.sum_lutc_input="cin";
+// @3:23
+  cycloneii_lcell_comb counter_c14 (
+	.combout(counter_c14_combout),
+	.cout(counter_c14_cout),
+	.dataa(counter[14]),
+	.datab(VCC),
+	.datac(VCC),
+	.datad(VCC),
+	.cin(counter_c13_cout)
+);
+defparam counter_c14.lut_mask=16'h5aa0;
+defparam counter_c14.sum_lutc_input="cin";
+// @3:23
+  cycloneii_lcell_comb counter_c15 (
+	.combout(counter_c15_combout),
+	.cout(counter_c15_cout),
+	.dataa(counter[15]),
+	.datab(VCC),
+	.datac(VCC),
+	.datad(VCC),
+	.cin(counter_c14_cout)
+);
+defparam counter_c15.lut_mask=16'h5aa0;
+defparam counter_c15.sum_lutc_input="cin";
+// @3:23
+  cycloneii_lcell_comb counter_c16 (
+	.combout(counter_c16_combout),
+	.cout(),
+	.dataa(counter[16]),
+	.datab(VCC),
+	.datac(VCC),
+	.datad(VCC),
+	.cin(counter_c15_cout)
+);
+defparam counter_c16.lut_mask=16'h5a5a;
+defparam counter_c16.sum_lutc_input="cin";
+// @3:21
+  cycloneii_lcell_comb int_1_i_0_i_0_a3_cZ (
+	.combout(int_1_i_0_i_0_a3),
+	.cout(),
+	.dataa(counter[9]),
+	.datab(counter[10]),
+	.datac(VCC),
+	.datad(VCC),
+	.cin(GND)
+);
+defparam int_1_i_0_i_0_a3_cZ.lut_mask=16'h8888;
+defparam int_1_i_0_i_0_a3_cZ.sum_lutc_input="datac";
+// @3:40
+  cycloneii_lcell_comb wigend_59_iv_i_i_0_o2_2_1_ (
+	.combout(wigend_59_iv_i_i_0_o2_2[1]),
+	.cout(),
+	.dataa(counter[5]),
+	.datab(counter[6]),
+	.datac(VCC),
+	.datad(VCC),
+	.cin(GND)
+);
+defparam wigend_59_iv_i_i_0_o2_2_1_.lut_mask=16'h8888;
+defparam wigend_59_iv_i_i_0_o2_2_1_.sum_lutc_input="datac";
+// @3:40
+  cycloneii_lcell_comb wigend_59_iv_0_o3_3_4_i_o2_i_o14_1_0_ (
+	.combout(wigend_59_iv_0_o3_3_4_i_o2_i_o14_1[0]),
+	.cout(),
+	.dataa(counter[6]),
+	.datab(counter[7]),
+	.datac(VCC),
+	.datad(VCC),
+	.cin(GND)
+);
+defparam wigend_59_iv_0_o3_3_4_i_o2_i_o14_1_0_.lut_mask=16'h8888;
+defparam wigend_59_iv_0_o3_3_4_i_o2_i_o14_1_0_.sum_lutc_input="datac";
+// @3:40
+  cycloneii_lcell_comb wigend_59_iv_i_i_0_a2_15_0_1_ (
+	.combout(wigend_59_iv_i_i_0_a2_15_0[1]),
+	.cout(),
+	.dataa(counter[5]),
+	.datab(counter[4]),
+	.datac(VCC),
+	.datad(VCC),
+	.cin(GND)
+);
+defparam wigend_59_iv_i_i_0_a2_15_0_1_.lut_mask=16'h8888;
+defparam wigend_59_iv_i_i_0_a2_15_0_1_.sum_lutc_input="datac";
+// @3:40
+  cycloneii_lcell_comb wigend_59_iv_0_o3_3_4_i_o2_i_a14_10_0_0_ (
+	.combout(wigend_59_iv_0_o3_3_4_i_o2_i_a14_10_0[0]),
+	.cout(),
+	.dataa(counter[8]),
+	.datab(counter[7]),
+	.datac(VCC),
+	.datad(VCC),
+	.cin(GND)
+);
+defparam wigend_59_iv_0_o3_3_4_i_o2_i_a14_10_0_0_.lut_mask=16'h1111;
+defparam wigend_59_iv_0_o3_3_4_i_o2_i_a14_10_0_0_.sum_lutc_input="datac";
+// @3:40
+  cycloneii_lcell_comb wigend_59_iv_i_i_0_a2_27_1_ (
+	.combout(wigend_59_iv_i_i_0_a2_27[1]),
+	.cout(),
+	.dataa(counter[5]),
+	.datab(counter[6]),
+	.datac(counter[4]),
+	.datad(counter[3]),
+	.cin(GND)
+);
+defparam wigend_59_iv_i_i_0_a2_27_1_.lut_mask=16'h8000;
+defparam wigend_59_iv_i_i_0_a2_27_1_.sum_lutc_input="datac";
+// @3:40
+  cycloneii_lcell_comb wigend_59_iv_i_i_0_o2_4_1_ (
+	.combout(wigend_59_iv_i_i_0_o2_4[1]),
+	.cout(),
+	.dataa(counter[5]),
+	.datab(counter[6]),
+	.datac(counter[4]),
+	.datad(counter[3]),
+	.cin(GND)
+);
+defparam wigend_59_iv_i_i_0_o2_4_1_.lut_mask=16'h0001;
+defparam wigend_59_iv_i_i_0_o2_4_1_.sum_lutc_input="datac";
+// @3:40
+  cycloneii_lcell_comb wigend_59_iv_i_i_0_o3_35_1_ (
+	.combout(wigend_59_iv_i_i_0_o3_35[1]),
+	.cout(),
+	.dataa(counter[8]),
+	.datab(counter[5]),
+	.datac(counter[6]),
+	.datad(counter[7]),
+	.cin(GND)
+);
+defparam wigend_59_iv_i_i_0_o3_35_1_.lut_mask=16'h0015;
+defparam wigend_59_iv_i_i_0_o3_35_1_.sum_lutc_input="datac";
+// @3:21
+  cycloneii_lcell_comb int_1_i_0_i_0_o3_1_cZ (
+	.combout(int_1_i_0_i_0_o3_1),
+	.cout(),
+	.dataa(counter[5]),
+	.datab(counter[6]),
+	.datac(counter[7]),
+	.datad(VCC),
+	.cin(GND)
+);
+defparam int_1_i_0_i_0_o3_1_cZ.lut_mask=16'h8080;
+defparam int_1_i_0_i_0_o3_1_cZ.sum_lutc_input="datac";
+// @3:40
+  cycloneii_lcell_comb wigend_59_iv_i_i_0_o2_1_1_ (
+	.combout(wigend_59_iv_i_i_0_o2_1[1]),
+	.cout(),
+	.dataa(counter[4]),
+	.datab(counter[2]),
+	.datac(counter[3]),
+	.datad(VCC),
+	.cin(GND)
+);
+defparam wigend_59_iv_i_i_0_o2_1_1_.lut_mask=16'ha8a8;
+defparam wigend_59_iv_i_i_0_o2_1_1_.sum_lutc_input="datac";
+// @3:40
+  cycloneii_lcell_comb wigend_59_iv_i_i_0_a2_35_1_ (
+	.combout(wigend_59_iv_i_i_0_a2_35[1]),
+	.cout(),
+	.dataa(counter[12]),
+	.datab(counter[10]),
+	.datac(counter[9]),
+	.datad(counter[11]),
+	.cin(GND)
+);
+defparam wigend_59_iv_i_i_0_a2_35_1_.lut_mask=16'h0001;
+defparam wigend_59_iv_i_i_0_a2_35_1_.sum_lutc_input="datac";
+// @3:40
+  cycloneii_lcell_comb wigend_59_iv_i_i_0_a2_12_1_ (
+	.combout(wigend_59_iv_i_i_0_a2_12[1]),
+	.cout(),
+	.dataa(counter[12]),
+	.datab(counter[9]),
+	.datac(counter[10]),
+	.datad(counter[11]),
+	.cin(GND)
+);
+defparam wigend_59_iv_i_i_0_a2_12_1_.lut_mask=16'h0010;
+defparam wigend_59_iv_i_i_0_a2_12_1_.sum_lutc_input="datac";
+// @3:40
+  cycloneii_lcell_comb wigend_59_iv_i_i_0_a2_11_1_ (
+	.combout(wigend_59_iv_i_i_0_a2_11[1]),
+	.cout(),
+	.dataa(counter[12]),
+	.datab(counter[9]),
+	.datac(counter[10]),
+	.datad(counter[11]),
+	.cin(GND)
+);
+defparam wigend_59_iv_i_i_0_a2_11_1_.lut_mask=16'h0020;
+defparam wigend_59_iv_i_i_0_a2_11_1_.sum_lutc_input="datac";
+// @3:40
+  cycloneii_lcell_comb wigend_59_iv_i_i_0_a3_20_1_ (
+	.combout(wigend_59_iv_i_i_0_a3_20[1]),
+	.cout(),
+	.dataa(counter[12]),
+	.datab(counter[9]),
+	.datac(counter[11]),
+	.datad(VCC),
+	.cin(GND)
+);
+defparam wigend_59_iv_i_i_0_a3_20_1_.lut_mask=16'h0404;
+defparam wigend_59_iv_i_i_0_a3_20_1_.sum_lutc_input="datac";
+// @3:40
+  cycloneii_lcell_comb wigend_59_iv_i_i_0_a3_27_0_1_ (
+	.combout(wigend_59_iv_i_i_0_a3_27_0[1]),
+	.cout(),
+	.dataa(counter[12]),
+	.datab(counter[10]),
+	.datac(counter[9]),
+	.datad(counter[11]),
+	.cin(GND)
+);
+defparam wigend_59_iv_i_i_0_a3_27_0_1_.lut_mask=16'h0002;
+defparam wigend_59_iv_i_i_0_a3_27_0_1_.sum_lutc_input="datac";
+// @3:21
+  cycloneii_lcell_comb int_1_i_0_i_0_a7_1_0_cZ (
+	.combout(int_1_i_0_i_0_a7_1_0),
+	.cout(),
+	.dataa(counter[15]),
+	.datab(counter[13]),
+	.datac(counter[16]),
+	.datad(VCC),
+	.cin(GND)
+);
+defparam int_1_i_0_i_0_a7_1_0_cZ.lut_mask=16'h0202;
+defparam int_1_i_0_i_0_a7_1_0_cZ.sum_lutc_input="datac";
+// @3:40
+  cycloneii_lcell_comb wigend_59_iv_i_i_0_a2_10_1_ (
+	.combout(wigend_59_iv_i_i_0_a2_10[1]),
+	.cout(),
+	.dataa(wigend_59_iv_0_o3_3_4_i_o2_i_o14_1[0]),
+	.datab(counter[5]),
+	.datac(counter[4]),
+	.datad(counter[3]),
+	.cin(GND)
+);
+defparam wigend_59_iv_i_i_0_a2_10_1_.lut_mask=16'ha888;
+defparam wigend_59_iv_i_i_0_a2_10_1_.sum_lutc_input="datac";
+// @3:40
+  cycloneii_lcell_comb wigend_59_iv_0_a2_0_0_ (
+	.combout(wigend_59_iv_0_a2_0[0]),
+	.cout(),
+	.dataa(counter[8]),
+	.datab(counter[10]),
+	.datac(counter[9]),
+	.datad(counter[7]),
+	.cin(GND)
+);
+defparam wigend_59_iv_0_a2_0_0_.lut_mask=16'h4840;
+defparam wigend_59_iv_0_a2_0_0_.sum_lutc_input="datac";
+// @3:40
+  cycloneii_lcell_comb wigend_59_iv_i_i_0_a2_33_1_ (
+	.combout(wigend_59_iv_i_i_0_a2_33[1]),
+	.cout(),
+	.dataa(counter[12]),
+	.datab(counter[10]),
+	.datac(counter[9]),
+	.datad(counter[11]),
+	.cin(GND)
+);
+defparam wigend_59_iv_i_i_0_a2_33_1_.lut_mask=16'h0080;
+defparam wigend_59_iv_i_i_0_a2_33_1_.sum_lutc_input="datac";
+// @3:40
+  cycloneii_lcell_comb wigend_59_iv_i_i_0_a2_34_1_ (
+	.combout(wigend_59_iv_i_i_0_a2_34[1]),
+	.cout(),
+	.dataa(counter[12]),
+	.datab(counter[10]),
+	.datac(counter[9]),
+	.datad(counter[11]),
+	.cin(GND)
+);
+defparam wigend_59_iv_i_i_0_a2_34_1_.lut_mask=16'h0010;
+defparam wigend_59_iv_i_i_0_a2_34_1_.sum_lutc_input="datac";
+// @3:40
+  cycloneii_lcell_comb wigend_59_iv_i_i_0_o3_47_a_1_ (
+	.combout(wigend_59_iv_i_i_0_o3_47_a[1]),
+	.cout(),
+	.dataa(counter[4]),
+	.datab(counter[7]),
+	.datac(counter[3]),
+	.datad(VCC),
+	.cin(GND)
+);
+defparam wigend_59_iv_i_i_0_o3_47_a_1_.lut_mask=16'h1313;
+defparam wigend_59_iv_i_i_0_o3_47_a_1_.sum_lutc_input="datac";
+// @3:40
+  cycloneii_lcell_comb wigend_59_iv_i_i_0_o3_47_1_ (
+	.combout(wigend_59_iv_i_i_0_o3_47[1]),
+	.cout(),
+	.dataa(wigend_59_iv_i_i_0_o3_47_a[1]),
+	.datab(counter[8]),
+	.datac(counter[5]),
+	.datad(counter[6]),
+	.cin(GND)
+);
+defparam wigend_59_iv_i_i_0_o3_47_1_.lut_mask=16'h0002;
+defparam wigend_59_iv_i_i_0_o3_47_1_.sum_lutc_input="datac";
+// @3:40
+  cycloneii_lcell_comb wigend_59_iv_i_i_0_o2_16_a_1_ (
+	.combout(wigend_59_iv_i_i_0_o2_16_a[1]),
+	.cout(),
+	.dataa(counter[6]),
+	.datab(counter[4]),
+	.datac(counter[7]),
+	.datad(VCC),
+	.cin(GND)
+);
+defparam wigend_59_iv_i_i_0_o2_16_a_1_.lut_mask=16'h0707;
+defparam wigend_59_iv_i_i_0_o2_16_a_1_.sum_lutc_input="datac";
+// @3:40
+  cycloneii_lcell_comb wigend_59_iv_i_i_0_o2_16_1_ (
+	.combout(wigend_59_iv_i_i_0_o2_16[1]),
+	.cout(),
+	.dataa(wigend_59_iv_i_i_0_o2_16_a[1]),
+	.datab(counter[8]),
+	.datac(counter[5]),
+	.datad(counter[6]),
+	.cin(GND)
+);
+defparam wigend_59_iv_i_i_0_o2_16_1_.lut_mask=16'h0222;
+defparam wigend_59_iv_i_i_0_o2_16_1_.sum_lutc_input="datac";
+// @3:21
+  cycloneii_lcell_comb int_1_i_0_i_0_o3_0_cZ (
+	.combout(int_1_i_0_i_0_o3_0),
+	.cout(),
+	.dataa(counter[8]),
+	.datab(counter[5]),
+	.datac(counter[6]),
+	.datad(counter[7]),
+	.cin(GND)
+);
+defparam int_1_i_0_i_0_o3_0_cZ.lut_mask=16'h8000;
+defparam int_1_i_0_i_0_o3_0_cZ.sum_lutc_input="datac";
+// @3:21
+  cycloneii_lcell_comb int_1_i_0_i_0_a3_4_cZ (
+	.combout(int_1_i_0_i_0_a3_4),
+	.cout(),
+	.dataa(counter[5]),
+	.datab(counter[4]),
+	.datac(counter[2]),
+	.datad(counter[3]),
+	.cin(GND)
+);
+defparam int_1_i_0_i_0_a3_4_cZ.lut_mask=16'h0111;
+defparam int_1_i_0_i_0_a3_4_cZ.sum_lutc_input="datac";
+// @3:40
+  cycloneii_lcell_comb wigend_59_iv_0_o3_3_4_i_o2_i_o14_6_0_ (
+	.combout(wigend_59_iv_0_o3_3_4_i_o2_i_o14_6[0]),
+	.cout(),
+	.dataa(wigend_59_iv_i_i_0_o3_33_a[1]),
+	.datab(counter[5]),
+	.datac(counter[6]),
+	.datad(counter[7]),
+	.cin(GND)
+);
+defparam wigend_59_iv_0_o3_3_4_i_o2_i_o14_6_0_.lut_mask=16'h000b;
+defparam wigend_59_iv_0_o3_3_4_i_o2_i_o14_6_0_.sum_lutc_input="datac";
+// @3:40
+  cycloneii_lcell_comb wigend_59_iv_i_i_0_a3_28_a_1_ (
+	.combout(wigend_59_iv_i_i_0_a3_28_a[1]),
+	.cout(),
+	.dataa(counter[12]),
+	.datab(counter[10]),
+	.datac(counter[9]),
+	.datad(counter[11]),
+	.cin(GND)
+);
+defparam wigend_59_iv_i_i_0_a3_28_a_1_.lut_mask=16'h4000;
+defparam wigend_59_iv_i_i_0_a3_28_a_1_.sum_lutc_input="datac";
+// @3:40
+  cycloneii_lcell_comb wigend_59_iv_i_i_0_a3_28_1_ (
+	.combout(wigend_59_iv_i_i_0_a3_28[1]),
+	.cout(),
+	.dataa(wigend_59_iv_i_i_0_a3_28_a[1]),
+	.datab(counter[8]),
+	.datac(counter[6]),
+	.datad(counter[7]),
+	.cin(GND)
+);
+defparam wigend_59_iv_i_i_0_a3_28_1_.lut_mask=16'haaa8;
+defparam wigend_59_iv_i_i_0_a3_28_1_.sum_lutc_input="datac";
+// @3:40
+  cycloneii_lcell_comb wigend_59_iv_i_i_0_a2_17_a_1_ (
+	.combout(wigend_59_iv_i_i_0_a2_17_a[1]),
+	.cout(),
+	.dataa(counter[2]),
+	.datab(counter[3]),
+	.datac(VCC),
+	.datad(VCC),
+	.cin(GND)
+);
+defparam wigend_59_iv_i_i_0_a2_17_a_1_.lut_mask=16'h7777;
+defparam wigend_59_iv_i_i_0_a2_17_a_1_.sum_lutc_input="datac";
+// @3:40
+  cycloneii_lcell_comb wigend_59_iv_i_i_0_a2_17_1_ (
+	.combout(wigend_59_iv_i_i_0_a2_17[1]),
+	.cout(),
+	.dataa(counter[8]),
+	.datab(wigend_59_iv_i_i_0_a2_17_a[1]),
+	.datac(counter[5]),
+	.datad(counter[4]),
+	.cin(GND)
+);
+defparam wigend_59_iv_i_i_0_a2_17_1_.lut_mask=16'h0405;
+defparam wigend_59_iv_i_i_0_a2_17_1_.sum_lutc_input="datac";
+// @3:40
+  cycloneii_lcell_comb wigend_59_iv_0_a2_5_a_0_ (
+	.combout(wigend_59_iv_0_a2_5_a[0]),
+	.cout(),
+	.dataa(counter[5]),
+	.datab(counter[10]),
+	.datac(counter[4]),
+	.datad(counter[3]),
+	.cin(GND)
+);
+defparam wigend_59_iv_0_a2_5_a_0_.lut_mask=16'h3777;
+defparam wigend_59_iv_0_a2_5_a_0_.sum_lutc_input="datac";
+// @3:40
+  cycloneii_lcell_comb wigend_59_iv_0_a2_5_0_ (
+	.combout(wigend_59_iv_0_a2_5[0]),
+	.cout(),
+	.dataa(wigend_59_iv_0_a2_5_a[0]),
+	.datab(counter[8]),
+	.datac(counter[9]),
+	.datad(counter[6]),
+	.cin(GND)
+);
+defparam wigend_59_iv_0_a2_5_0_.lut_mask=16'h0400;
+defparam wigend_59_iv_0_a2_5_0_.sum_lutc_input="datac";
+// @3:40
+  cycloneii_lcell_comb wigend_59_iv_i_i_0_a3_39_a_1_ (
+	.combout(wigend_59_iv_i_i_0_a3_39_a[1]),
+	.cout(),
+	.dataa(counter[5]),
+	.datab(counter[4]),
+	.datac(counter[6]),
+	.datad(VCC),
+	.cin(GND)
+);
+defparam wigend_59_iv_i_i_0_a3_39_a_1_.lut_mask=16'h0101;
+defparam wigend_59_iv_i_i_0_a3_39_a_1_.sum_lutc_input="datac";
+// @3:40
+  cycloneii_lcell_comb wigend_59_iv_i_i_0_a3_39_1_ (
+	.combout(wigend_59_iv_i_i_0_a3_39[1]),
+	.cout(),
+	.dataa(wigend_59_iv_i_i_0_a3_39_a[1]),
+	.datab(counter[8]),
+	.datac(counter[10]),
+	.datad(counter[9]),
+	.cin(GND)
+);
+defparam wigend_59_iv_i_i_0_a3_39_1_.lut_mask=16'h0040;
+defparam wigend_59_iv_i_i_0_a3_39_1_.sum_lutc_input="datac";
+// @3:40
+  cycloneii_lcell_comb wigend_59_iv_0_o3_3_4_i_o2_i_a14_7_2_0_ (
+	.combout(wigend_59_iv_0_o3_3_4_i_o2_i_a14_7_2[0]),
+	.cout(),
+	.dataa(counter[8]),
+	.datab(wigend_59_iv_i_i_0_o3_33_a[1]),
+	.datac(counter[12]),
+	.datad(counter[11]),
+	.cin(GND)
+);
+defparam wigend_59_iv_0_o3_3_4_i_o2_i_a14_7_2_0_.lut_mask=16'h0002;
+defparam wigend_59_iv_0_o3_3_4_i_o2_i_a14_7_2_0_.sum_lutc_input="datac";
+// @3:29
+  cycloneii_lcell_comb un1_en_i_0_0_a7_4_a_cZ (
+	.combout(un1_en_i_0_0_a7_4_a),
+	.cout(),
+	.dataa(counter[16]),
+	.datab(counter[14]),
+	.datac(counter[1]),
+	.datad(VCC),
+	.cin(GND)
+);
+defparam un1_en_i_0_0_a7_4_a_cZ.lut_mask=16'h0202;
+defparam un1_en_i_0_0_a7_4_a_cZ.sum_lutc_input="datac";
+// @3:29
+  cycloneii_lcell_comb un1_en_i_0_0_a7_4_cZ (
+	.combout(un1_en_i_0_0_a7_4),
+	.cout(),
+	.dataa(un1_en_i_0_0_a7_4_a),
+	.datab(counter[4]),
+	.datac(counter[15]),
+	.datad(counter[13]),
+	.cin(GND)
+);
+defparam un1_en_i_0_0_a7_4_cZ.lut_mask=16'h0800;
+defparam un1_en_i_0_0_a7_4_cZ.sum_lutc_input="datac";
+// @3:40
+  cycloneii_lcell_comb wigend_59_iv_i_i_0_a3_53_1_a_1_ (
+	.combout(wigend_59_iv_i_i_0_a3_53_1_a[1]),
+	.cout(),
+	.dataa(counter[6]),
+	.datab(counter[7]),
+	.datac(counter[2]),
+	.datad(counter[3]),
+	.cin(GND)
+);
+defparam wigend_59_iv_i_i_0_a3_53_1_a_1_.lut_mask=16'h0111;
+defparam wigend_59_iv_i_i_0_a3_53_1_a_1_.sum_lutc_input="datac";
+// @3:40
+  cycloneii_lcell_comb wigend_59_iv_i_i_0_a3_53_1_1_ (
+	.combout(wigend_59_iv_i_i_0_a3_53_1[1]),
+	.cout(),
+	.dataa(wigend_59_iv_i_i_0_a3_53_1_a[1]),
+	.datab(counter[8]),
+	.datac(counter[5]),
+	.datad(counter[4]),
+	.cin(GND)
+);
+defparam wigend_59_iv_i_i_0_a3_53_1_1_.lut_mask=16'h0002;
+defparam wigend_59_iv_i_i_0_a3_53_1_1_.sum_lutc_input="datac";
+// @3:40
+  cycloneii_lcell_comb wigend_59_iv_i_i_0_a3_21_1_a_1_ (
+	.combout(wigend_59_iv_i_i_0_a3_21_1_a[1]),
+	.cout(),
+	.dataa(counter[1]),
+	.datab(counter[0]),
+	.datac(VCC),
+	.datad(VCC),
+	.cin(GND)
+);
+defparam wigend_59_iv_i_i_0_a3_21_1_a_1_.lut_mask=16'h1111;
+defparam wigend_59_iv_i_i_0_a3_21_1_a_1_.sum_lutc_input="datac";
+// @3:40
+  cycloneii_lcell_comb wigend_59_iv_i_i_0_a3_21_1_1_ (
+	.combout(wigend_59_iv_i_i_0_a3_21_1[1]),
+	.cout(),
+	.dataa(wigend_59_iv_i_i_0_a3_21_1_a[1]),
+	.datab(counter[12]),
+	.datac(counter[2]),
+	.datad(counter[11]),
+	.cin(GND)
+);
+defparam wigend_59_iv_i_i_0_a3_21_1_1_.lut_mask=16'h0002;
+defparam wigend_59_iv_i_i_0_a3_21_1_1_.sum_lutc_input="datac";
+// @3:21
+  cycloneii_lcell_comb int_1_i_0_i_0_a7_3_2_a_cZ (
+	.combout(int_1_i_0_i_0_a7_3_2_a),
+	.cout(),
+	.dataa(counter[4]),
+	.datab(counter[16]),
+	.datac(counter[14]),
+	.datad(VCC),
+	.cin(GND)
+);
+defparam int_1_i_0_i_0_a7_3_2_a_cZ.lut_mask=16'h2020;
+defparam int_1_i_0_i_0_a7_3_2_a_cZ.sum_lutc_input="datac";
+// @3:21
+  cycloneii_lcell_comb int_1_i_0_i_0_a7_3_2_cZ (
+	.combout(int_1_i_0_i_0_a7_3_2),
+	.cout(),
+	.dataa(int_1_i_0_i_0_a7_3_2_a),
+	.datab(counter[12]),
+	.datac(counter[10]),
+	.datad(counter[15]),
+	.cin(GND)
+);
+defparam int_1_i_0_i_0_a7_3_2_cZ.lut_mask=16'h0080;
+defparam int_1_i_0_i_0_a7_3_2_cZ.sum_lutc_input="datac";
+// @3:40
+  cycloneii_lcell_comb wigend_59_iv_i_i_0_o3_33_a_1_ (
+	.combout(wigend_59_iv_i_i_0_o3_33_a[1]),
+	.cout(),
+	.dataa(counter[2]),
+	.datab(counter[3]),
+	.datac(VCC),
+	.datad(VCC),
+	.cin(GND)
+);
+defparam wigend_59_iv_i_i_0_o3_33_a_1_.lut_mask=16'h1111;
+defparam wigend_59_iv_i_i_0_o3_33_a_1_.sum_lutc_input="datac";
+// @3:40
+  cycloneii_lcell_comb wigend_59_iv_i_i_0_o3_33_1_ (
+	.combout(wigend_59_iv_i_i_0_o3_33[1]),
+	.cout(),
+	.dataa(wigend_59_iv_i_i_0_o3_33_a[1]),
+	.datab(counter[5]),
+	.datac(counter[4]),
+	.datad(counter[6]),
+	.cin(GND)
+);
+defparam wigend_59_iv_i_i_0_o3_33_1_.lut_mask=16'hff40;
+defparam wigend_59_iv_i_i_0_o3_33_1_.sum_lutc_input="datac";
+// @3:40
+  cycloneii_lcell_comb wigend_59_iv_0_a3_21_1_a_0_ (
+	.combout(wigend_59_iv_0_a3_21_1_a[0]),
+	.cout(),
+	.dataa(counter[6]),
+	.datab(counter[4]),
+	.datac(counter[2]),
+	.datad(counter[3]),
+	.cin(GND)
+);
+defparam wigend_59_iv_0_a3_21_1_a_0_.lut_mask=16'h7fff;
+defparam wigend_59_iv_0_a3_21_1_a_0_.sum_lutc_input="datac";
+// @3:40
+  cycloneii_lcell_comb wigend_59_iv_0_a3_21_1_0_ (
+	.combout(wigend_59_iv_0_a3_21_1[0]),
+	.cout(),
+	.dataa(wigend_59_iv_0_a3_21_1_a[0]),
+	.datab(counter[8]),
+	.datac(counter[5]),
+	.datad(counter[7]),
+	.cin(GND)
+);
+defparam wigend_59_iv_0_a3_21_1_0_.lut_mask=16'h0023;
+defparam wigend_59_iv_0_a3_21_1_0_.sum_lutc_input="datac";
+// @3:40
+  cycloneii_lcell_comb wigend_59_iv_i_i_0_o3_52_1_ (
+	.combout(wigend_59_iv_i_i_0_o3_52[1]),
+	.cout(),
+	.dataa(int_1_i_0_i_0_o3_1),
+	.datab(counter[8]),
+	.datac(counter[4]),
+	.datad(counter[3]),
+	.cin(GND)
+);
+defparam wigend_59_iv_i_i_0_o3_52_1_.lut_mask=16'h1333;
+defparam wigend_59_iv_i_i_0_o3_52_1_.sum_lutc_input="datac";
+// @3:40
+  cycloneii_lcell_comb wigend_59_iv_i_i_0_o2_15_a_1_ (
+	.combout(wigend_59_iv_i_i_0_o2_15_a[1]),
+	.cout(),
+	.dataa(counter[4]),
+	.datab(counter[6]),
+	.datac(counter[2]),
+	.datad(counter[3]),
+	.cin(GND)
+);
+defparam wigend_59_iv_i_i_0_o2_15_a_1_.lut_mask=16'h1113;
+defparam wigend_59_iv_i_i_0_o2_15_a_1_.sum_lutc_input="datac";
+// @3:40
+  cycloneii_lcell_comb wigend_59_iv_i_i_0_o2_15_1_ (
+	.combout(wigend_59_iv_i_i_0_o2_15[1]),
+	.cout(),
+	.dataa(wigend_59_iv_i_i_0_o2_15_a[1]),
+	.datab(counter[8]),
+	.datac(counter[5]),
+	.datad(counter[7]),
+	.cin(GND)
+);
+defparam wigend_59_iv_i_i_0_o2_15_1_.lut_mask=16'hccc4;
+defparam wigend_59_iv_i_i_0_o2_15_1_.sum_lutc_input="datac";
+// @3:40
+  cycloneii_lcell_comb wigend_59_iv_i_i_0_o3_51_1_ (
+	.combout(wigend_59_iv_i_i_0_o3_51[1]),
+	.cout(),
+	.dataa(wigend_59_iv_i_i_0_o3_55_a[1]),
+	.datab(counter[8]),
+	.datac(counter[6]),
+	.datad(counter[7]),
+	.cin(GND)
+);
+defparam wigend_59_iv_i_i_0_o3_51_1_.lut_mask=16'h4000;
+defparam wigend_59_iv_i_i_0_o3_51_1_.sum_lutc_input="datac";
+// @3:40
+  cycloneii_lcell_comb wigend_59_iv_i_i_0_o3_43_a_1_ (
+	.combout(wigend_59_iv_i_i_0_o3_43_a[1]),
+	.cout(),
+	.dataa(counter[6]),
+	.datab(counter[4]),
+	.datac(counter[7]),
+	.datad(counter[3]),
+	.cin(GND)
+);
+defparam wigend_59_iv_i_i_0_o3_43_a_1_.lut_mask=16'h0507;
+defparam wigend_59_iv_i_i_0_o3_43_a_1_.sum_lutc_input="datac";
+// @3:40
+  cycloneii_lcell_comb wigend_59_iv_i_i_0_o3_43_1_ (
+	.combout(wigend_59_iv_i_i_0_o3_43[1]),
+	.cout(),
+	.dataa(wigend_59_iv_i_i_0_o3_43_a[1]),
+	.datab(counter[8]),
+	.datac(counter[5]),
+	.datad(counter[6]),
+	.cin(GND)
+);
+defparam wigend_59_iv_i_i_0_o3_43_1_.lut_mask=16'h3bbb;
+defparam wigend_59_iv_i_i_0_o3_43_1_.sum_lutc_input="datac";
+// @3:40
+  cycloneii_lcell_comb wigend_59_iv_i_i_0_o2_12_a_1_ (
+	.combout(wigend_59_iv_i_i_0_o2_12_a[1]),
+	.cout(),
+	.dataa(counter[6]),
+	.datab(counter[4]),
+	.datac(counter[7]),
+	.datad(counter[3]),
+	.cin(GND)
+);
+defparam wigend_59_iv_i_i_0_o2_12_a_1_.lut_mask=16'h1f5f;
+defparam wigend_59_iv_i_i_0_o2_12_a_1_.sum_lutc_input="datac";
+// @3:40
+  cycloneii_lcell_comb wigend_59_iv_i_i_0_o2_12_1_ (
+	.combout(wigend_59_iv_i_i_0_o2_12[1]),
+	.cout(),
+	.dataa(wigend_59_iv_i_i_0_o2_12_a[1]),
+	.datab(counter[8]),
+	.datac(counter[5]),
+	.datad(counter[6]),
+	.cin(GND)
+);
+defparam wigend_59_iv_i_i_0_o2_12_1_.lut_mask=16'hbbbf;
+defparam wigend_59_iv_i_i_0_o2_12_1_.sum_lutc_input="datac";
+// @3:40
+  cycloneii_lcell_comb wigend_59_iv_i_i_0_o3_41_a_1_ (
+	.combout(wigend_59_iv_i_i_0_o3_41_a[1]),
+	.cout(),
+	.dataa(counter[6]),
+	.datab(counter[4]),
+	.datac(counter[2]),
+	.datad(counter[3]),
+	.cin(GND)
+);
+defparam wigend_59_iv_i_i_0_o3_41_a_1_.lut_mask=16'h1555;
+defparam wigend_59_iv_i_i_0_o3_41_a_1_.sum_lutc_input="datac";
+// @3:40
+  cycloneii_lcell_comb wigend_59_iv_i_i_0_o3_41_1_ (
+	.combout(wigend_59_iv_i_i_0_o3_41[1]),
+	.cout(),
+	.dataa(wigend_59_iv_i_i_0_o3_41_a[1]),
+	.datab(counter[8]),
+	.datac(counter[5]),
+	.datad(counter[7]),
+	.cin(GND)
+);
+defparam wigend_59_iv_i_i_0_o3_41_1_.lut_mask=16'hc400;
+defparam wigend_59_iv_i_i_0_o3_41_1_.sum_lutc_input="datac";
+// @3:40
+  cycloneii_lcell_comb wigend_59_iv_i_i_0_a3_51_a_1_ (
+	.combout(wigend_59_iv_i_i_0_a3_51_a[1]),
+	.cout(),
+	.dataa(counter[5]),
+	.datab(counter[4]),
+	.datac(counter[6]),
+	.datad(counter[7]),
+	.cin(GND)
+);
+defparam wigend_59_iv_i_i_0_a3_51_a_1_.lut_mask=16'h07ff;
+defparam wigend_59_iv_i_i_0_a3_51_a_1_.sum_lutc_input="datac";
+// @3:40
+  cycloneii_lcell_comb wigend_59_iv_i_i_0_a3_51_1_ (
+	.combout(wigend_59_iv_i_i_0_a3_51[1]),
+	.cout(),
+	.dataa(wigend_59_iv_i_i_0_a3_51_a[1]),
+	.datab(counter[8]),
+	.datac(counter[9]),
+	.datad(counter[10]),
+	.cin(GND)
+);
+defparam wigend_59_iv_i_i_0_a3_51_1_.lut_mask=16'h00d0;
+defparam wigend_59_iv_i_i_0_a3_51_1_.sum_lutc_input="datac";
+// @3:40
+  cycloneii_lcell_comb wigend_59_iv_0_o3_3_4_i_o2_i_a14_5_a_0_ (
+	.combout(wigend_59_iv_0_o3_3_4_i_o2_i_a14_5_a[0]),
+	.cout(),
+	.dataa(counter[12]),
+	.datab(counter[9]),
+	.datac(counter[5]),
+	.datad(counter[4]),
+	.cin(GND)
+);
+defparam wigend_59_iv_0_o3_3_4_i_o2_i_a14_5_a_0_.lut_mask=16'h3bbb;
+defparam wigend_59_iv_0_o3_3_4_i_o2_i_a14_5_a_0_.sum_lutc_input="datac";
+// @3:40
+  cycloneii_lcell_comb wigend_59_iv_0_o3_3_4_i_o2_i_a14_5_0_ (
+	.combout(wigend_59_iv_0_o3_3_4_i_o2_i_a14_5[0]),
+	.cout(),
+	.dataa(wigend_59_iv_0_o3_3_4_i_o2_i_a14_5_a[0]),
+	.datab(counter[8]),
+	.datac(counter[12]),
+	.datad(counter[11]),
+	.cin(GND)
+);
+defparam wigend_59_iv_0_o3_3_4_i_o2_i_a14_5_0_.lut_mask=16'h0045;
+defparam wigend_59_iv_0_o3_3_4_i_o2_i_a14_5_0_.sum_lutc_input="datac";
+// @3:40
+  cycloneii_lcell_comb wigend_59_iv_0_o3_3_4_i_o2_i_a14_2_a_0_ (
+	.combout(wigend_59_iv_0_o3_3_4_i_o2_i_a14_2_a[0]),
+	.cout(),
+	.dataa(counter[6]),
+	.datab(counter[4]),
+	.datac(counter[11]),
+	.datad(counter[3]),
+	.cin(GND)
+);
+defparam wigend_59_iv_0_o3_3_4_i_o2_i_a14_2_a_0_.lut_mask=16'h1050;
+defparam wigend_59_iv_0_o3_3_4_i_o2_i_a14_2_a_0_.sum_lutc_input="datac";
+// @3:40
+  cycloneii_lcell_comb wigend_59_iv_0_o3_3_4_i_o2_i_a14_2_0_ (
+	.combout(wigend_59_iv_0_o3_3_4_i_o2_i_a14_2[0]),
+	.cout(),
+	.dataa(wigend_59_iv_0_o3_3_4_i_o2_i_a14_2_a[0]),
+	.datab(counter[8]),
+	.datac(counter[9]),
+	.datad(counter[5]),
+	.cin(GND)
+);
+defparam wigend_59_iv_0_o3_3_4_i_o2_i_a14_2_0_.lut_mask=16'h0002;
+defparam wigend_59_iv_0_o3_3_4_i_o2_i_a14_2_0_.sum_lutc_input="datac";
+// @3:40
+  cycloneii_lcell_comb wigend_59_iv_0_o3_3_4_i_o2_i_a14_6_a_0_ (
+	.combout(wigend_59_iv_0_o3_3_4_i_o2_i_a14_6_a[0]),
+	.cout(),
+	.dataa(counter[9]),
+	.datab(counter[7]),
+	.datac(counter[2]),
+	.datad(counter[3]),
+	.cin(GND)
+);
+defparam wigend_59_iv_0_o3_3_4_i_o2_i_a14_6_a_0_.lut_mask=16'h7fff;
+defparam wigend_59_iv_0_o3_3_4_i_o2_i_a14_6_a_0_.sum_lutc_input="datac";
+// @3:40
+  cycloneii_lcell_comb wigend_59_iv_0_o3_3_4_i_o2_i_a14_6_0_ (
+	.combout(wigend_59_iv_0_o3_3_4_i_o2_i_a14_6[0]),
+	.cout(),
+	.dataa(wigend_59_iv_i_i_0_a2_15_0[1]),
+	.datab(wigend_59_iv_0_o3_3_4_i_o2_i_a14_6_a[0]),
+	.datac(counter[8]),
+	.datad(counter[12]),
+	.cin(GND)
+);
+defparam wigend_59_iv_0_o3_3_4_i_o2_i_a14_6_0_.lut_mask=16'h2033;
+defparam wigend_59_iv_0_o3_3_4_i_o2_i_a14_6_0_.sum_lutc_input="datac";
+// @3:40
+  cycloneii_lcell_comb wigend_59_iv_0_a2_1_0_ (
+	.combout(wigend_59_iv_0_a2_1[0]),
+	.cout(),
+	.dataa(wigend_59_iv_i_i_0_a2_11[1]),
+	.datab(int_1_i_0_i_0_o3_1),
+	.datac(counter[8]),
+	.datad(counter[4]),
+	.cin(GND)
+);
+defparam wigend_59_iv_0_a2_1_0_.lut_mask=16'h8000;
+defparam wigend_59_iv_0_a2_1_0_.sum_lutc_input="datac";
+// @3:40
+  cycloneii_lcell_comb wigend_59_iv_i_i_0_a3_35_a_1_ (
+	.combout(wigend_59_iv_i_i_0_a3_35_a[1]),
+	.cout(),
+	.dataa(int_1_i_0_i_0_o3_1),
+	.datab(counter[4]),
+	.datac(counter[2]),
+	.datad(counter[3]),
+	.cin(GND)
+);
+defparam wigend_59_iv_i_i_0_a3_35_a_1_.lut_mask=16'h5777;
+defparam wigend_59_iv_i_i_0_a3_35_a_1_.sum_lutc_input="datac";
+// @3:40
+  cycloneii_lcell_comb wigend_59_iv_i_i_0_a3_35_1_ (
+	.combout(wigend_59_iv_i_i_0_a3_35[1]),
+	.cout(),
+	.dataa(wigend_59_iv_i_i_0_a3_35_a[1]),
+	.datab(counter[8]),
+	.datac(counter[10]),
+	.datad(counter[9]),
+	.cin(GND)
+);
+defparam wigend_59_iv_i_i_0_a3_35_1_.lut_mask=16'h0020;
+defparam wigend_59_iv_i_i_0_a3_35_1_.sum_lutc_input="datac";
+// @3:40
+  cycloneii_lcell_comb wigend_59_iv_i_i_0_a3_37_a_1_ (
+	.combout(wigend_59_iv_i_i_0_a3_37_a[1]),
+	.cout(),
+	.dataa(counter[5]),
+	.datab(counter[4]),
+	.datac(counter[2]),
+	.datad(counter[3]),
+	.cin(GND)
+);
+defparam wigend_59_iv_i_i_0_a3_37_a_1_.lut_mask=16'h1555;
+defparam wigend_59_iv_i_i_0_a3_37_a_1_.sum_lutc_input="datac";
+// @3:40
+  cycloneii_lcell_comb wigend_59_iv_i_i_0_a3_37_1_ (
+	.combout(wigend_59_iv_i_i_0_a3_37[1]),
+	.cout(),
+	.dataa(wigend_59_iv_0_o3_3_4_i_o2_i_a14_10_0[0]),
+	.datab(int_1_i_0_i_0_a3),
+	.datac(wigend_59_iv_i_i_0_a3_37_a[1]),
+	.datad(counter[6]),
+	.cin(GND)
+);
+defparam wigend_59_iv_i_i_0_a3_37_1_.lut_mask=16'h0080;
+defparam wigend_59_iv_i_i_0_a3_37_1_.sum_lutc_input="datac";
+// @3:40
+  cycloneii_lcell_comb wigend_59_iv_i_i_0_o2_14_a_1_ (
+	.combout(wigend_59_iv_i_i_0_o2_14_a[1]),
+	.cout(),
+	.dataa(counter[5]),
+	.datab(counter[4]),
+	.datac(counter[2]),
+	.datad(counter[3]),
+	.cin(GND)
+);
+defparam wigend_59_iv_i_i_0_o2_14_a_1_.lut_mask=16'h5777;
+defparam wigend_59_iv_i_i_0_o2_14_a_1_.sum_lutc_input="datac";
+// @3:40
+  cycloneii_lcell_comb wigend_59_iv_i_i_0_o2_14_1_ (
+	.combout(wigend_59_iv_i_i_0_o2_14[1]),
+	.cout(),
+	.dataa(wigend_59_iv_i_i_0_o2_14_a[1]),
+	.datab(counter[8]),
+	.datac(counter[6]),
+	.datad(counter[7]),
+	.cin(GND)
+);
+defparam wigend_59_iv_i_i_0_o2_14_1_.lut_mask=16'hc400;
+defparam wigend_59_iv_i_i_0_o2_14_1_.sum_lutc_input="datac";
+// @3:40
+  cycloneii_lcell_comb wigend_59_iv_i_i_0_a2_25_a_1_ (
+	.combout(wigend_59_iv_i_i_0_a2_25_a[1]),
+	.cout(),
+	.dataa(counter[5]),
+	.datab(counter[6]),
+	.datac(counter[7]),
+	.datad(VCC),
+	.cin(GND)
+);
+defparam wigend_59_iv_i_i_0_a2_25_a_1_.lut_mask=16'h0101;
+defparam wigend_59_iv_i_i_0_a2_25_a_1_.sum_lutc_input="datac";
+// @3:40
+  cycloneii_lcell_comb wigend_59_iv_i_i_0_a2_25_1_ (
+	.combout(wigend_59_iv_i_i_0_a2_25[1]),
+	.cout(),
+	.dataa(wigend_59_iv_i_i_0_a2_25_a[1]),
+	.datab(wigend_59_iv_i_i_0_a3_20[1]),
+	.datac(counter[8]),
+	.datad(counter[10]),
+	.cin(GND)
+);
+defparam wigend_59_iv_i_i_0_a2_25_1_.lut_mask=16'h4000;
+defparam wigend_59_iv_i_i_0_a2_25_1_.sum_lutc_input="datac";
+// @3:29
+  cycloneii_lcell_comb un1_en_i_0_0_a7_5_cZ (
+	.combout(un1_en_i_0_0_a7_5),
+	.cout(),
+	.dataa(un1_en_i_0_0_a7_4),
+	.datab(counter[2]),
+	.datac(counter[3]),
+	.datad(VCC),
+	.cin(GND)
+);
+defparam un1_en_i_0_0_a7_5_cZ.lut_mask=16'h0202;
+defparam un1_en_i_0_0_a7_5_cZ.sum_lutc_input="datac";
+// @3:40
+  cycloneii_lcell_comb wigend_59_iv_i_i_0_a3_64_0_a_1_ (
+	.combout(wigend_59_iv_i_i_0_a3_64_0_a[1]),
+	.cout(),
+	.dataa(counter[10]),
+	.datab(counter[9]),
+	.datac(counter[11]),
+	.datad(VCC),
+	.cin(GND)
+);
+defparam wigend_59_iv_i_i_0_a3_64_0_a_1_.lut_mask=16'h0404;
+defparam wigend_59_iv_i_i_0_a3_64_0_a_1_.sum_lutc_input="datac";
+// @3:40
+  cycloneii_lcell_comb wigend_59_iv_i_i_0_a3_64_0_1_ (
+	.combout(wigend_59_iv_i_i_0_a3_64_0[1]),
+	.cout(),
+	.dataa(wigend_59_iv_i_i_0_a3_64_0_a[1]),
+	.datab(counter[8]),
+	.datac(counter[12]),
+	.datad(counter[7]),
+	.cin(GND)
+);
+defparam wigend_59_iv_i_i_0_a3_64_0_1_.lut_mask=16'h8000;
+defparam wigend_59_iv_i_i_0_a3_64_0_1_.sum_lutc_input="datac";
+// @3:40
+  cycloneii_lcell_comb wigend_59_iv_i_i_0_o3_3_1_1_a_1_ (
+	.combout(wigend_59_iv_i_i_0_o3_3_1_1_a[1]),
+	.cout(),
+	.dataa(counter[12]),
+	.datab(counter[9]),
+	.datac(counter[7]),
+	.datad(counter[11]),
+	.cin(GND)
+);
+defparam wigend_59_iv_i_i_0_o3_3_1_1_a_1_.lut_mask=16'h4744;
+defparam wigend_59_iv_i_i_0_o3_3_1_1_a_1_.sum_lutc_input="datac";
+// @3:40
+  cycloneii_lcell_comb wigend_59_iv_i_i_0_o3_3_1_1_1_ (
+	.combout(wigend_59_iv_i_i_0_o3_3_1_1[1]),
+	.cout(),
+	.dataa(wigend_59_iv_i_i_0_o3_3_1_1_a[1]),
+	.datab(counter[8]),
+	.datac(counter[9]),
+	.datad(counter[10]),
+	.cin(GND)
+);
+defparam wigend_59_iv_i_i_0_o3_3_1_1_1_.lut_mask=16'h007d;
+defparam wigend_59_iv_i_i_0_o3_3_1_1_1_.sum_lutc_input="datac";
+// @3:40
+  cycloneii_lcell_comb wigend_59_iv_i_i_0_o3_3_1_2_a_1_ (
+	.combout(wigend_59_iv_i_i_0_o3_3_1_2_a[1]),
+	.cout(),
+	.dataa(counter[5]),
+	.datab(counter[4]),
+	.datac(counter[6]),
+	.datad(counter[7]),
+	.cin(GND)
+);
+defparam wigend_59_iv_i_i_0_o3_3_1_2_a_1_.lut_mask=16'h1107;
+defparam wigend_59_iv_i_i_0_o3_3_1_2_a_1_.sum_lutc_input="datac";
+// @3:40
+  cycloneii_lcell_comb wigend_59_iv_i_i_0_o3_3_1_2_1_ (
+	.combout(wigend_59_iv_i_i_0_o3_3_1_2[1]),
+	.cout(),
+	.dataa(wigend_59_iv_i_i_0_o3_3_1_2_a[1]),
+	.datab(counter[12]),
+	.datac(counter[9]),
+	.datad(counter[7]),
+	.cin(GND)
+);
+defparam wigend_59_iv_i_i_0_o3_3_1_2_1_.lut_mask=16'heff7;
+defparam wigend_59_iv_i_i_0_o3_3_1_2_1_.sum_lutc_input="datac";
+// @3:40
+  cycloneii_lcell_comb wigend_59_iv_i_i_0_o3_3_1_3_a_1_ (
+	.combout(wigend_59_iv_i_i_0_o3_3_1_3_a[1]),
+	.cout(),
+	.dataa(counter[5]),
+	.datab(counter[4]),
+	.datac(counter[11]),
+	.datad(counter[3]),
+	.cin(GND)
+);
+defparam wigend_59_iv_i_i_0_o3_3_1_3_a_1_.lut_mask=16'h0010;
+defparam wigend_59_iv_i_i_0_o3_3_1_3_a_1_.sum_lutc_input="datac";
+// @3:40
+  cycloneii_lcell_comb wigend_59_iv_i_i_0_o3_3_1_3_1_ (
+	.combout(wigend_59_iv_i_i_0_o3_3_1_3[1]),
+	.cout(),
+	.dataa(wigend_59_iv_i_i_0_o3_3_1_3_a[1]),
+	.datab(counter[8]),
+	.datac(counter[12]),
+	.datad(counter[9]),
+	.cin(GND)
+);
+defparam wigend_59_iv_i_i_0_o3_3_1_3_1_.lut_mask=16'hff4f;
+defparam wigend_59_iv_i_i_0_o3_3_1_3_1_.sum_lutc_input="datac";
+// @3:40
+  cycloneii_lcell_comb wigend_59_iv_i_i_0_o3_3_1_4_a_1_ (
+	.combout(wigend_59_iv_i_i_0_o3_3_1_4_a[1]),
+	.cout(),
+	.dataa(counter[9]),
+	.datab(counter[6]),
+	.datac(counter[7]),
+	.datad(counter[11]),
+	.cin(GND)
+);
+defparam wigend_59_iv_i_i_0_o3_3_1_4_a_1_.lut_mask=16'h3f2a;
+defparam wigend_59_iv_i_i_0_o3_3_1_4_a_1_.sum_lutc_input="datac";
+// @3:40
+  cycloneii_lcell_comb wigend_59_iv_i_i_0_o3_3_1_4_1_ (
+	.combout(wigend_59_iv_i_i_0_o3_3_1_4[1]),
+	.cout(),
+	.dataa(wigend_59_iv_i_i_0_o3_3_1_4_a[1]),
+	.datab(counter[8]),
+	.datac(counter[12]),
+	.datad(counter[9]),
+	.cin(GND)
+);
+defparam wigend_59_iv_i_i_0_o3_3_1_4_1_.lut_mask=16'hba5f;
+defparam wigend_59_iv_i_i_0_o3_3_1_4_1_.sum_lutc_input="datac";
+// @3:40
+  cycloneii_lcell_comb wigend_59_iv_i_i_0_a3_55_a_1_ (
+	.combout(wigend_59_iv_i_i_0_a3_55_a[1]),
+	.cout(),
+	.dataa(wigend_59_iv_i_i_0_o2_2[1]),
+	.datab(counter[4]),
+	.datac(counter[2]),
+	.datad(counter[3]),
+	.cin(GND)
+);
+defparam wigend_59_iv_i_i_0_a3_55_a_1_.lut_mask=16'h5777;
+defparam wigend_59_iv_i_i_0_a3_55_a_1_.sum_lutc_input="datac";
+// @3:40
+  cycloneii_lcell_comb wigend_59_iv_i_i_0_a3_55_1_ (
+	.combout(wigend_59_iv_i_i_0_a3_55[1]),
+	.cout(),
+	.dataa(wigend_59_iv_i_i_0_a3_55_a[1]),
+	.datab(wigend_59_iv_i_i_0_a2_33[1]),
+	.datac(counter[8]),
+	.datad(counter[7]),
+	.cin(GND)
+);
+defparam wigend_59_iv_i_i_0_a3_55_1_.lut_mask=16'h0008;
+defparam wigend_59_iv_i_i_0_a3_55_1_.sum_lutc_input="datac";
+// @3:40
+  cycloneii_lcell_comb wigend_59_iv_i_i_0_o3_55_a_1_ (
+	.combout(wigend_59_iv_i_i_0_o3_55_a[1]),
+	.cout(),
+	.dataa(counter[5]),
+	.datab(counter[4]),
+	.datac(counter[2]),
+	.datad(counter[3]),
+	.cin(GND)
+);
+defparam wigend_59_iv_i_i_0_o3_55_a_1_.lut_mask=16'h1115;
+defparam wigend_59_iv_i_i_0_o3_55_a_1_.sum_lutc_input="datac";
+// @3:40
+  cycloneii_lcell_comb wigend_59_iv_i_i_0_o3_55_1_ (
+	.combout(wigend_59_iv_i_i_0_o3_55[1]),
+	.cout(),
+	.dataa(wigend_59_iv_i_i_0_o3_55_a[1]),
+	.datab(counter[8]),
+	.datac(counter[6]),
+	.datad(counter[7]),
+	.cin(GND)
+);
+defparam wigend_59_iv_i_i_0_o3_55_1_.lut_mask=16'hffdc;
+defparam wigend_59_iv_i_i_0_o3_55_1_.sum_lutc_input="datac";
+// @3:21
+  cycloneii_lcell_comb int_1_i_0_i_0_o3_2_a_cZ (
+	.combout(int_1_i_0_i_0_o3_2_a),
+	.cout(),
+	.dataa(counter[5]),
+	.datab(counter[4]),
+	.datac(counter[1]),
+	.datad(counter[0]),
+	.cin(GND)
+);
+defparam int_1_i_0_i_0_o3_2_a_cZ.lut_mask=16'h0001;
+defparam int_1_i_0_i_0_o3_2_a_cZ.sum_lutc_input="datac";
+// @3:21
+  cycloneii_lcell_comb int_1_i_0_i_0_o3_2_cZ (
+	.combout(int_1_i_0_i_0_o3_2),
+	.cout(),
+	.dataa(int_1_i_0_i_0_a3_4),
+	.datab(int_1_i_0_i_0_o3_2_a),
+	.datac(counter[6]),
+	.datad(counter[7]),
+	.cin(GND)
+);
+defparam int_1_i_0_i_0_o3_2_cZ.lut_mask=16'h1000;
+defparam int_1_i_0_i_0_o3_2_cZ.sum_lutc_input="datac";
+// @3:40
+  cycloneii_lcell_comb wigend_59_iv_i_i_0_o3_11_a_1_ (
+	.combout(wigend_59_iv_i_i_0_o3_11_a[1]),
+	.cout(),
+	.dataa(wigend_59_iv_i_i_0_o2_2[1]),
+	.datab(wigend_59_iv_i_i_0_o2_1[1]),
+	.datac(counter[8]),
+	.datad(counter[7]),
+	.cin(GND)
+);
+defparam wigend_59_iv_i_i_0_o3_11_a_1_.lut_mask=16'h0f7f;
+defparam wigend_59_iv_i_i_0_o3_11_a_1_.sum_lutc_input="datac";
+// @3:40
+  cycloneii_lcell_comb wigend_59_iv_i_i_0_o3_11_1_ (
+	.combout(wigend_59_iv_i_i_0_o3_11[1]),
+	.cout(),
+	.dataa(wigend_59_iv_i_i_0_o3_11_a[1]),
+	.datab(counter[9]),
+	.datac(counter[10]),
+	.datad(counter[7]),
+	.cin(GND)
+);
+defparam wigend_59_iv_i_i_0_o3_11_1_.lut_mask=16'hf6f7;
+defparam wigend_59_iv_i_i_0_o3_11_1_.sum_lutc_input="datac";
+// @3:40
+  cycloneii_lcell_comb wigend_59_iv_i_i_0_o2_13_a_1_ (
+	.combout(wigend_59_iv_i_i_0_o2_13_a[1]),
+	.cout(),
+	.dataa(counter[5]),
+	.datab(counter[4]),
+	.datac(counter[2]),
+	.datad(counter[3]),
+	.cin(GND)
+);
+defparam wigend_59_iv_i_i_0_o2_13_a_1_.lut_mask=16'h0001;
+defparam wigend_59_iv_i_i_0_o2_13_a_1_.sum_lutc_input="datac";
+// @3:40
+  cycloneii_lcell_comb wigend_59_iv_i_i_0_o2_13_1_ (
+	.combout(wigend_59_iv_i_i_0_o2_13[1]),
+	.cout(),
+	.dataa(wigend_59_iv_i_i_0_o2_13_a[1]),
+	.datab(counter[8]),
+	.datac(counter[6]),
+	.datad(counter[7]),
+	.cin(GND)
+);
+defparam wigend_59_iv_i_i_0_o2_13_1_.lut_mask=16'hffdc;
+defparam wigend_59_iv_i_i_0_o2_13_1_.sum_lutc_input="datac";
+// @3:40
+  cycloneii_lcell_comb wigend_59_iv_i_i_0_a3_48_a_1_ (
+	.combout(wigend_59_iv_i_i_0_a3_48_a[1]),
+	.cout(),
+	.dataa(counter[4]),
+	.datab(counter[6]),
+	.datac(counter[7]),
+	.datad(counter[3]),
+	.cin(GND)
+);
+defparam wigend_59_iv_i_i_0_a3_48_a_1_.lut_mask=16'h3f7f;
+defparam wigend_59_iv_i_i_0_a3_48_a_1_.sum_lutc_input="datac";
+// @3:40
+  cycloneii_lcell_comb wigend_59_iv_i_i_0_a3_48_1_ (
+	.combout(wigend_59_iv_i_i_0_a3_48[1]),
+	.cout(),
+	.dataa(wigend_59_iv_i_i_0_a2_35[1]),
+	.datab(wigend_59_iv_i_i_0_a3_48_a[1]),
+	.datac(counter[8]),
+	.datad(counter[5]),
+	.cin(GND)
+);
+defparam wigend_59_iv_i_i_0_a3_48_1_.lut_mask=16'ha2a0;
+defparam wigend_59_iv_i_i_0_a3_48_1_.sum_lutc_input="datac";
+// @3:40
+  cycloneii_lcell_comb wigend_59_iv_i_i_0_a3_47_1_ (
+	.combout(wigend_59_iv_i_i_0_a3_47[1]),
+	.cout(),
+	.dataa(wigend_59_iv_0_o3_3_4_i_o2_i_o14_1[0]),
+	.datab(wigend_59_iv_i_i_0_a2_34[1]),
+	.datac(wigend_59_iv_i_i_0_a2_17[1]),
+	.datad(counter[8]),
+	.cin(GND)
+);
+defparam wigend_59_iv_i_i_0_a3_47_1_.lut_mask=16'hc0c4;
+defparam wigend_59_iv_i_i_0_a3_47_1_.sum_lutc_input="datac";
+// @3:40
+  cycloneii_lcell_comb wigend_59_iv_i_i_0_a3_40_a_1_ (
+	.combout(wigend_59_iv_i_i_0_a3_40_a[1]),
+	.cout(),
+	.dataa(wigend_59_iv_i_i_0_o2_4[1]),
+	.datab(counter[9]),
+	.datac(counter[7]),
+	.datad(counter[2]),
+	.cin(GND)
+);
+defparam wigend_59_iv_i_i_0_a3_40_a_1_.lut_mask=16'h030b;
+defparam wigend_59_iv_i_i_0_a3_40_a_1_.sum_lutc_input="datac";
+// @3:40
+  cycloneii_lcell_comb wigend_59_iv_i_i_0_a3_40_1_ (
+	.combout(wigend_59_iv_i_i_0_a3_40[1]),
+	.cout(),
+	.dataa(wigend_59_iv_i_i_0_a3_40_a[1]),
+	.datab(counter[8]),
+	.datac(counter[9]),
+	.datad(counter[10]),
+	.cin(GND)
+);
+defparam wigend_59_iv_i_i_0_a3_40_1_.lut_mask=16'hb400;
+defparam wigend_59_iv_i_i_0_a3_40_1_.sum_lutc_input="datac";
+// @3:40
+  cycloneii_lcell_comb wigend_59_iv_i_i_0_a3_38_1_ (
+	.combout(wigend_59_iv_i_i_0_a3_38[1]),
+	.cout(),
+	.dataa(wigend_59_iv_0_o3_3_4_i_o2_i_a14_10_0[0]),
+	.datab(wigend_59_iv_i_i_0_a3_31_a[1]),
+	.datac(counter[10]),
+	.datad(counter[9]),
+	.cin(GND)
+);
+defparam wigend_59_iv_i_i_0_a3_38_1_.lut_mask=16'h0070;
+defparam wigend_59_iv_i_i_0_a3_38_1_.sum_lutc_input="datac";
+// @3:40
+  cycloneii_lcell_comb wigend_59_iv_i_i_0_a2_18_a_1_ (
+	.combout(wigend_59_iv_i_i_0_a2_18_a[1]),
+	.cout(),
+	.dataa(counter[4]),
+	.datab(counter[2]),
+	.datac(counter[3]),
+	.datad(VCC),
+	.cin(GND)
+);
+defparam wigend_59_iv_i_i_0_a2_18_a_1_.lut_mask=16'h0101;
+defparam wigend_59_iv_i_i_0_a2_18_a_1_.sum_lutc_input="datac";
+// @3:40
+  cycloneii_lcell_comb wigend_59_iv_i_i_0_a2_18_1_ (
+	.combout(wigend_59_iv_i_i_0_a2_18[1]),
+	.cout(),
+	.dataa(wigend_59_iv_i_i_0_a2_18_a[1]),
+	.datab(counter[8]),
+	.datac(counter[5]),
+	.datad(counter[6]),
+	.cin(GND)
+);
+defparam wigend_59_iv_i_i_0_a2_18_1_.lut_mask=16'h0023;
+defparam wigend_59_iv_i_i_0_a2_18_1_.sum_lutc_input="datac";
+// @3:40
+  cycloneii_lcell_comb wigend_59_iv_i_i_0_o3_56_a_1_ (
+	.combout(wigend_59_iv_i_i_0_o3_56_a[1]),
+	.cout(),
+	.dataa(counter[5]),
+	.datab(counter[4]),
+	.datac(counter[2]),
+	.datad(counter[3]),
+	.cin(GND)
+);
+defparam wigend_59_iv_i_i_0_o3_56_a_1_.lut_mask=16'h7fff;
+defparam wigend_59_iv_i_i_0_o3_56_a_1_.sum_lutc_input="datac";
+// @3:40
+  cycloneii_lcell_comb wigend_59_iv_i_i_0_o3_56_1_ (
+	.combout(wigend_59_iv_i_i_0_o3_56[1]),
+	.cout(),
+	.dataa(wigend_59_iv_i_i_0_o3_56_a[1]),
+	.datab(counter[8]),
+	.datac(counter[6]),
+	.datad(counter[7]),
+	.cin(GND)
+);
+defparam wigend_59_iv_i_i_0_o3_56_1_.lut_mask=16'hccc4;
+defparam wigend_59_iv_i_i_0_o3_56_1_.sum_lutc_input="datac";
+// @3:40
+  cycloneii_lcell_comb wigend_59_iv_0_a3_21_0_ (
+	.combout(wigend_59_iv_0_a3_21[0]),
+	.cout(),
+	.dataa(wigend_59_iv_0_a3_21_1[0]),
+	.datab(wigend_59_iv_i_i_0_a2_35[1]),
+	.datac(wigend_reg_out_14),
+	.datad(VCC),
+	.cin(GND)
+);
+defparam wigend_59_iv_0_a3_21_0_.lut_mask=16'h0808;
+defparam wigend_59_iv_0_a3_21_0_.sum_lutc_input="datac";
+// @3:40
+  cycloneii_lcell_comb wigend_59_iv_i_i_0_a3_25_a_1_ (
+	.combout(wigend_59_iv_i_i_0_a3_25_a[1]),
+	.cout(),
+	.dataa(counter[12]),
+	.datab(counter[10]),
+	.datac(counter[9]),
+	.datad(counter[11]),
+	.cin(GND)
+);
+defparam wigend_59_iv_i_i_0_a3_25_a_1_.lut_mask=16'h0200;
+defparam wigend_59_iv_i_i_0_a3_25_a_1_.sum_lutc_input="datac";
+// @3:40
+  cycloneii_lcell_comb wigend_59_iv_i_i_0_a3_25_1_ (
+	.combout(wigend_59_iv_i_i_0_a3_25[1]),
+	.cout(),
+	.dataa(wigend_59_iv_0_o3_3_4_i_o2_i_o14_1[0]),
+	.datab(int_1_i_0_i_0_a3_4),
+	.datac(wigend_59_iv_i_i_0_a3_25_a[1]),
+	.datad(counter[8]),
+	.cin(GND)
+);
+defparam wigend_59_iv_i_i_0_a3_25_1_.lut_mask=16'h00d0;
+defparam wigend_59_iv_i_i_0_a3_25_1_.sum_lutc_input="datac";
+// @3:40
+  cycloneii_lcell_comb wigend_59_iv_i_i_0_a3_64_1_ (
+	.combout(wigend_59_iv_i_i_0_a3_64[1]),
+	.cout(),
+	.dataa(wigend_59_iv_i_i_0_a3_64_0[1]),
+	.datab(counter[5]),
+	.datac(counter[4]),
+	.datad(counter[6]),
+	.cin(GND)
+);
+defparam wigend_59_iv_i_i_0_a3_64_1_.lut_mask=16'haaa8;
+defparam wigend_59_iv_i_i_0_a3_64_1_.sum_lutc_input="datac";
+// @3:40
+  cycloneii_lcell_comb wigend_59_iv_i_i_0_a3_31_a_1_ (
+	.combout(wigend_59_iv_i_i_0_a3_31_a[1]),
+	.cout(),
+	.dataa(counter[5]),
+	.datab(counter[6]),
+	.datac(counter[4]),
+	.datad(counter[3]),
+	.cin(GND)
+);
+defparam wigend_59_iv_i_i_0_a3_31_a_1_.lut_mask=16'h1113;
+defparam wigend_59_iv_i_i_0_a3_31_a_1_.sum_lutc_input="datac";
+// @3:40
+  cycloneii_lcell_comb wigend_59_iv_i_i_0_a3_31_1_ (
+	.combout(wigend_59_iv_i_i_0_a3_31[1]),
+	.cout(),
+	.dataa(wigend_59_iv_i_i_0_a2_12[1]),
+	.datab(wigend_59_iv_i_i_0_a3_31_a[1]),
+	.datac(counter[8]),
+	.datad(counter[7]),
+	.cin(GND)
+);
+defparam wigend_59_iv_i_i_0_a3_31_1_.lut_mask=16'h2000;
+defparam wigend_59_iv_i_i_0_a3_31_1_.sum_lutc_input="datac";
+// @3:40
+  cycloneii_lcell_comb wigend_59_iv_i_i_0_a3_19_1_ (
+	.combout(wigend_59_iv_i_i_0_a3_19[1]),
+	.cout(),
+	.dataa(wigend_59_iv_0_a3_21_1[0]),
+	.datab(wigend_59_iv_i_i_0_a2_35[1]),
+	.datac(wigend_reg_out_14),
+	.datad(VCC),
+	.cin(GND)
+);
+defparam wigend_59_iv_i_i_0_a3_19_1_.lut_mask=16'h8080;
+defparam wigend_59_iv_i_i_0_a3_19_1_.sum_lutc_input="datac";
+// @3:40
+  cycloneii_lcell_comb wigend_59_iv_i_i_0_a2_2_1_a_1_ (
+	.combout(wigend_59_iv_i_i_0_a2_2_1_a[1]),
+	.cout(),
+	.dataa(counter[12]),
+	.datab(counter[10]),
+	.datac(counter[9]),
+	.datad(counter[11]),
+	.cin(GND)
+);
+defparam wigend_59_iv_i_i_0_a2_2_1_a_1_.lut_mask=16'h7fff;
+defparam wigend_59_iv_i_i_0_a2_2_1_a_1_.sum_lutc_input="datac";
+// @3:40
+  cycloneii_lcell_comb wigend_59_iv_i_i_0_a2_2_1_1_ (
+	.combout(wigend_59_iv_i_i_0_a2_2_1[1]),
+	.cout(),
+	.dataa(wigend_59_iv_i_i_0_o2_4[1]),
+	.datab(wigend_59_iv_i_i_0_a2_2_1_a[1]),
+	.datac(counter[8]),
+	.datad(counter[7]),
+	.cin(GND)
+);
+defparam wigend_59_iv_i_i_0_a2_2_1_1_.lut_mask=16'h3130;
+defparam wigend_59_iv_i_i_0_a2_2_1_1_.sum_lutc_input="datac";
+// @3:40
+  cycloneii_lcell_comb wigend_59_iv_i_i_0_a3_21_1_ (
+	.combout(wigend_59_iv_i_i_0_a3_21[1]),
+	.cout(),
+	.dataa(wigend_59_iv_i_i_0_o2_4[1]),
+	.datab(wigend_59_iv_i_i_0_a3_21_1[1]),
+	.datac(counter[8]),
+	.datad(counter[7]),
+	.cin(GND)
+);
+defparam wigend_59_iv_i_i_0_a3_21_1_.lut_mask=16'h0008;
+defparam wigend_59_iv_i_i_0_a3_21_1_.sum_lutc_input="datac";
+// @3:40
+  cycloneii_lcell_comb wigend_59_iv_i_i_0_o3_3_1_6_a_1_ (
+	.combout(wigend_59_iv_i_i_0_o3_3_1_6_a[1]),
+	.cout(),
+	.dataa(wigend_59_iv_0_o3_3_4_i_o2_i_o14_6[0]),
+	.datab(counter[8]),
+	.datac(counter[9]),
+	.datad(counter[11]),
+	.cin(GND)
+);
+defparam wigend_59_iv_i_i_0_o3_3_1_6_a_1_.lut_mask=16'h0040;
+defparam wigend_59_iv_i_i_0_o3_3_1_6_a_1_.sum_lutc_input="datac";
+// @3:40
+  cycloneii_lcell_comb wigend_59_iv_i_i_0_o3_3_1_6_1_ (
+	.combout(wigend_59_iv_i_i_0_o3_3_1_6[1]),
+	.cout(),
+	.dataa(wigend_59_iv_i_i_0_o3_3_1_6_a[1]),
+	.datab(wigend_59_iv_0_o3_3_4_i_o2_i_o14_1[0]),
+	.datac(wigend_59_iv_0_o3_3_4_i_o2_i_a14_7_2[0]),
+	.datad(wigend_59_iv_i_i_0_a2_15_0[1]),
+	.cin(GND)
+);
+defparam wigend_59_iv_i_i_0_o3_3_1_6_1_.lut_mask=16'h1555;
+defparam wigend_59_iv_i_i_0_o3_3_1_6_1_.sum_lutc_input="datac";
+// @3:21
+  cycloneii_lcell_comb int_1_i_0_i_0_2_a_cZ (
+	.combout(int_1_i_0_i_0_2_a),
+	.cout(),
+	.dataa(int_1_i_0_i_0_a3),
+	.datab(counter[12]),
+	.datac(counter[13]),
+	.datad(counter[11]),
+	.cin(GND)
+);
+defparam int_1_i_0_i_0_2_a_cZ.lut_mask=16'h0307;
+defparam int_1_i_0_i_0_2_a_cZ.sum_lutc_input="datac";
+// @3:21
+  cycloneii_lcell_comb int_1_i_0_i_0_2_cZ (
+	.combout(int_1_i_0_i_0_2),
+	.cout(),
+	.dataa(int_1_i_0_i_0_2_a),
+	.datab(counter[15]),
+	.datac(counter[14]),
+	.datad(counter[16]),
+	.cin(GND)
+);
+defparam int_1_i_0_i_0_2_cZ.lut_mask=16'hffe3;
+defparam int_1_i_0_i_0_2_cZ.sum_lutc_input="datac";
+// @3:40
+  cycloneii_lcell_comb wigend_59_iv_i_i_0_o3_22_1_ (
+	.combout(wigend_59_iv_i_i_0_o3_22[1]),
+	.cout(),
+	.dataa(wigend_59_iv_0_o3_3_4_i_o2_i_a14_10_0[0]),
+	.datab(wigend_59_iv_i_i_0_a3_55[1]),
+	.datac(wigend_59_iv_i_i_0_a2_11[1]),
+	.datad(wigend_59_iv_i_i_0_a2_27[1]),
+	.cin(GND)
+);
+defparam wigend_59_iv_i_i_0_o3_22_1_.lut_mask=16'h0323;
+defparam wigend_59_iv_i_i_0_o3_22_1_.sum_lutc_input="datac";
+// @3:40
+  cycloneii_lcell_comb wigend_59_iv_i_i_0_o3_7_1_ (
+	.combout(wigend_59_iv_i_i_0_o3_7[1]),
+	.cout(),
+	.dataa(wigend_59_iv_i_i_0_a3_25[1]),
+	.datab(wigend_59_iv_i_i_0_a2_10[1]),
+	.datac(wigend_59_iv_i_i_0_a2_33[1]),
+	.datad(counter[8]),
+	.cin(GND)
+);
+defparam wigend_59_iv_i_i_0_o3_7_1_.lut_mask=16'h0515;
+defparam wigend_59_iv_i_i_0_o3_7_1_.sum_lutc_input="datac";
+// @3:40
+  cycloneii_lcell_comb wigend_59_iv_i_i_0_a3_7_1_ (
+	.combout(wigend_59_iv_i_i_0_a3_7[1]),
+	.cout(),
+	.dataa(wigend_59_iv_0_a3_9_a[0]),
+	.datab(counter[12]),
+	.datac(counter[11]),
+	.datad(wigend_reg_out_8),
+	.cin(GND)
+);
+defparam wigend_59_iv_i_i_0_a3_7_1_.lut_mask=16'h0800;
+defparam wigend_59_iv_i_i_0_a3_7_1_.sum_lutc_input="datac";
+// @3:40
+  cycloneii_lcell_comb wigend_59_iv_0_a3_9_a_0_ (
+	.combout(wigend_59_iv_0_a3_9_a[0]),
+	.cout(),
+	.dataa(wigend_59_iv_i_i_0_o3_47[1]),
+	.datab(wigend_59_iv_i_i_0_a3_53_1[1]),
+	.datac(counter[10]),
+	.datad(counter[9]),
+	.cin(GND)
+);
+defparam wigend_59_iv_0_a3_9_a_0_.lut_mask=16'h05c0;
+defparam wigend_59_iv_0_a3_9_a_0_.sum_lutc_input="datac";
+// @3:40
+  cycloneii_lcell_comb wigend_59_iv_0_a3_9_0_ (
+	.combout(wigend_59_iv_0_a3_9[0]),
+	.cout(),
+	.dataa(wigend_59_iv_0_a3_9_a[0]),
+	.datab(counter[12]),
+	.datac(counter[11]),
+	.datad(wigend_reg_out_8),
+	.cin(GND)
+);
+defparam wigend_59_iv_0_a3_9_0_.lut_mask=16'h0008;
+defparam wigend_59_iv_0_a3_9_0_.sum_lutc_input="datac";
+// @3:40
+  cycloneii_lcell_comb wigend_59_iv_i_i_0_o3_60_1_ (
+	.combout(wigend_59_iv_i_i_0_o3_60[1]),
+	.cout(),
+	.dataa(wigend_59_iv_i_i_0_o2_12[1]),
+	.datab(wigend_59_iv_i_i_0_o2_14[1]),
+	.datac(wigend_59_iv_i_i_0_a3_28_a[1]),
+	.datad(wigend_59_iv_i_i_0_a3_27_0[1]),
+	.cin(GND)
+);
+defparam wigend_59_iv_i_i_0_o3_60_1_.lut_mask=16'h8caf;
+defparam wigend_59_iv_i_i_0_o3_60_1_.sum_lutc_input="datac";
+// @3:40
+  cycloneii_lcell_comb wigend_59_iv_i_i_0_o3_10_1_ (
+	.combout(wigend_59_iv_i_i_0_o3_10[1]),
+	.cout(),
+	.dataa(wigend_59_iv_i_i_0_a3_31[1]),
+	.datab(wigend_59_iv_i_i_0_o3_41[1]),
+	.datac(wigend_59_iv_i_i_0_a3_20[1]),
+	.datad(counter[10]),
+	.cin(GND)
+);
+defparam wigend_59_iv_i_i_0_o3_10_1_.lut_mask=16'h4555;
+defparam wigend_59_iv_i_i_0_o3_10_1_.sum_lutc_input="datac";
+// @3:21
+  cycloneii_lcell_comb int_1_i_0_i_0_a3_1_cZ (
+	.combout(int_1_i_0_i_0_a3_1),
+	.cout(),
+	.dataa(int_1_i_0_i_0_o3_2),
+	.datab(counter[8]),
+	.datac(counter[10]),
+	.datad(counter[9]),
+	.cin(GND)
+);
+defparam int_1_i_0_i_0_a3_1_cZ.lut_mask=16'h0001;
+defparam int_1_i_0_i_0_a3_1_cZ.sum_lutc_input="datac";
+// @3:29
+  cycloneii_lcell_comb un1_en_i_0_0_a7_8_a_cZ (
+	.combout(un1_en_i_0_0_a7_8_a),
+	.cout(),
+	.dataa(counter[9]),
+	.datab(counter[10]),
+	.datac(counter[5]),
+	.datad(counter[6]),
+	.cin(GND)
+);
+defparam un1_en_i_0_0_a7_8_a_cZ.lut_mask=16'h0004;
+defparam un1_en_i_0_0_a7_8_a_cZ.sum_lutc_input="datac";
+// @3:29
+  cycloneii_lcell_comb un1_en_i_0_0_a7_8_cZ (
+	.combout(un1_en_i_0_0_a7_8),
+	.cout(),
+	.dataa(un1_en_i_0_0_a7_5),
+	.datab(un1_en_i_0_0_a7_8_a),
+	.datac(counter[12]),
+	.datad(counter[11]),
+	.cin(GND)
+);
+defparam un1_en_i_0_0_a7_8_cZ.lut_mask=16'h0800;
+defparam un1_en_i_0_0_a7_8_cZ.sum_lutc_input="datac";
+// @3:40
+  cycloneii_lcell_comb wigend_59_iv_0_o3_7_0_a_0_ (
+	.combout(wigend_59_iv_0_o3_7_0_a[0]),
+	.cout(),
+	.dataa(counter[10]),
+	.datab(counter[9]),
+	.datac(counter[7]),
+	.datad(VCC),
+	.cin(GND)
+);
+defparam wigend_59_iv_0_o3_7_0_a_0_.lut_mask=16'h0808;
+defparam wigend_59_iv_0_o3_7_0_a_0_.sum_lutc_input="datac";
+// @3:40
+  cycloneii_lcell_comb wigend_59_iv_0_o3_7_0_0_ (
+	.combout(wigend_59_iv_0_o3_7_0[0]),
+	.cout(),
+	.dataa(wigend_59_iv_0_a2_5[0]),
+	.datab(int_1_i_0_i_0_a3_4),
+	.datac(wigend_59_iv_0_o3_7_0_a[0]),
+	.datad(counter[6]),
+	.cin(GND)
+);
+defparam wigend_59_iv_0_o3_7_0_0_.lut_mask=16'h1505;
+defparam wigend_59_iv_0_o3_7_0_0_.sum_lutc_input="datac";
+// @3:40
+  cycloneii_lcell_comb wigend_59_iv_i_i_0_o3_25_0_1_ (
+	.combout(wigend_59_iv_i_i_0_o3_25_0[1]),
+	.cout(),
+	.dataa(wigend_59_iv_i_i_0_a3_64[1]),
+	.datab(wigend_59_iv_i_i_0_a2_11[1]),
+	.datac(counter[8]),
+	.datad(counter[7]),
+	.cin(GND)
+);
+defparam wigend_59_iv_i_i_0_o3_25_0_1_.lut_mask=16'h5111;
+defparam wigend_59_iv_i_i_0_o3_25_0_1_.sum_lutc_input="datac";
+// @3:40
+  cycloneii_lcell_comb wigend_59_iv_i_i_0_o3_3_1_8_1_ (
+	.combout(wigend_59_iv_i_i_0_o3_3_1_8[1]),
+	.cout(),
+	.dataa(wigend_59_iv_0_o3_3_4_i_o2_i_a14_2[0]),
+	.datab(wigend_59_iv_i_i_0_o3_3_1_1[1]),
+	.datac(wigend_59_iv_i_i_0_o3_3_1_2[1]),
+	.datad(VCC),
+	.cin(GND)
+);
+defparam wigend_59_iv_i_i_0_o3_3_1_8_1_.lut_mask=16'h4040;
+defparam wigend_59_iv_i_i_0_o3_3_1_8_1_.sum_lutc_input="datac";
+// @3:40
+  cycloneii_lcell_comb wigend_59_iv_0_a3_20_0_ (
+	.combout(wigend_59_iv_0_a3_20[0]),
+	.cout(),
+	.dataa(wigend_59_iv_i_i_0_a2_25[1]),
+	.datab(wigend_59_iv_i_i_0_o2_15[1]),
+	.datac(wigend_59_iv_i_i_0_a3_18_a[1]),
+	.datad(wigend_reg_out_13),
+	.cin(GND)
+);
+defparam wigend_59_iv_0_a3_20_0_.lut_mask=16'h00ba;
+defparam wigend_59_iv_0_a3_20_0_.sum_lutc_input="datac";
+// @3:40
+  cycloneii_lcell_comb wigend_59_iv_0_a3_23_0_ (
+	.combout(wigend_59_iv_0_a3_23[0]),
+	.cout(),
+	.dataa(wigend_59_iv_i_i_0_a2_0_a[1]),
+	.datab(wigend_59_iv_0_a2_1[0]),
+	.datac(wigend_59_iv_i_i_0_a2_33[1]),
+	.datad(wigend_reg_out_15),
+	.cin(GND)
+);
+defparam wigend_59_iv_0_a3_23_0_.lut_mask=16'h00ec;
+defparam wigend_59_iv_0_a3_23_0_.sum_lutc_input="datac";
+// @3:40
+  cycloneii_lcell_comb wigend_59_iv_i_i_0_o3_24_1_ (
+	.combout(wigend_59_iv_i_i_0_o3_24[1]),
+	.cout(),
+	.dataa(wigend_59_iv_i_i_0_o3_35[1]),
+	.datab(wigend_59_iv_i_i_0_a2_12[1]),
+	.datac(wigend_59_iv_i_i_0_o3_55[1]),
+	.datad(wigend_59_iv_i_i_0_a2_34[1]),
+	.cin(GND)
+);
+defparam wigend_59_iv_i_i_0_o3_24_1_.lut_mask=16'ha2f3;
+defparam wigend_59_iv_i_i_0_o3_24_1_.sum_lutc_input="datac";
+// @3:40
+  cycloneii_lcell_comb wigend_59_iv_0_a3_7_1_0_ (
+	.combout(wigend_59_iv_0_a3_7_1[0]),
+	.cout(),
+	.dataa(wigend_59_iv_i_i_0_a3_38[1]),
+	.datab(wigend_59_iv_i_i_0_a3_37[1]),
+	.datac(counter[12]),
+	.datad(counter[11]),
+	.cin(GND)
+);
+defparam wigend_59_iv_0_a3_7_1_0_.lut_mask=16'he000;
+defparam wigend_59_iv_0_a3_7_1_0_.sum_lutc_input="datac";
+// @3:40
+  cycloneii_lcell_comb wigend_59_iv_i_i_0_a3_18_a_1_ (
+	.combout(wigend_59_iv_i_i_0_a3_18_a[1]),
+	.cout(),
+	.dataa(counter[12]),
+	.datab(counter[10]),
+	.datac(counter[9]),
+	.datad(counter[11]),
+	.cin(GND)
+);
+defparam wigend_59_iv_i_i_0_a3_18_a_1_.lut_mask=16'h0100;
+defparam wigend_59_iv_i_i_0_a3_18_a_1_.sum_lutc_input="datac";
+// @3:40
+  cycloneii_lcell_comb wigend_59_iv_i_i_0_a3_18_1_ (
+	.combout(wigend_59_iv_i_i_0_a3_18[1]),
+	.cout(),
+	.dataa(wigend_59_iv_i_i_0_a2_25[1]),
+	.datab(wigend_59_iv_i_i_0_o2_15[1]),
+	.datac(wigend_59_iv_i_i_0_a3_18_a[1]),
+	.datad(wigend_reg_out_13),
+	.cin(GND)
+);
+defparam wigend_59_iv_i_i_0_a3_18_1_.lut_mask=16'hba00;
+defparam wigend_59_iv_i_i_0_a3_18_1_.sum_lutc_input="datac";
+// @3:40
+  cycloneii_lcell_comb wigend_59_iv_i_i_0_a2_0_a_1_ (
+	.combout(wigend_59_iv_i_i_0_a2_0_a[1]),
+	.cout(),
+	.dataa(int_1_i_0_i_0_o3_0),
+	.datab(counter[4]),
+	.datac(counter[2]),
+	.datad(counter[3]),
+	.cin(GND)
+);
+defparam wigend_59_iv_i_i_0_a2_0_a_1_.lut_mask=16'h5557;
+defparam wigend_59_iv_i_i_0_a2_0_a_1_.sum_lutc_input="datac";
+// @3:40
+  cycloneii_lcell_comb wigend_59_iv_i_i_0_a2_0_1_ (
+	.combout(wigend_59_iv_i_i_0_a2_0[1]),
+	.cout(),
+	.dataa(wigend_59_iv_i_i_0_a2_0_a[1]),
+	.datab(wigend_59_iv_0_a2_1[0]),
+	.datac(wigend_59_iv_i_i_0_a2_33[1]),
+	.datad(wigend_reg_out_15),
+	.cin(GND)
+);
+defparam wigend_59_iv_i_i_0_a2_0_1_.lut_mask=16'hec00;
+defparam wigend_59_iv_i_i_0_a2_0_1_.sum_lutc_input="datac";
+// @3:40
+  cycloneii_lcell_comb wigend_59_iv_0_a3_12_0_ (
+	.combout(wigend_59_iv_0_a3_12[0]),
+	.cout(),
+	.dataa(wigend_59_iv_i_i_0_o3_11[1]),
+	.datab(counter[12]),
+	.datac(counter[11]),
+	.datad(wigend_reg_out_9),
+	.cin(GND)
+);
+defparam wigend_59_iv_0_a3_12_0_.lut_mask=16'h0010;
+defparam wigend_59_iv_0_a3_12_0_.sum_lutc_input="datac";
+// @3:40
+  cycloneii_lcell_comb wigend_59_iv_i_i_0_a3_10_1_ (
+	.combout(wigend_59_iv_i_i_0_a3_10[1]),
+	.cout(),
+	.dataa(wigend_59_iv_i_i_0_o3_11[1]),
+	.datab(counter[12]),
+	.datac(counter[11]),
+	.datad(wigend_reg_out_9),
+	.cin(GND)
+);
+defparam wigend_59_iv_i_i_0_a3_10_1_.lut_mask=16'h1000;
+defparam wigend_59_iv_i_i_0_a3_10_1_.sum_lutc_input="datac";
+// @3:40
+  cycloneii_lcell_comb wigend_59_iv_i_i_0_a3_2_1_1_ (
+	.combout(wigend_59_iv_i_i_0_a3_2_1[1]),
+	.cout(),
+	.dataa(wigend_59_iv_i_i_0_a3_40[1]),
+	.datab(wigend_59_iv_i_i_0_a3_39[1]),
+	.datac(counter[12]),
+	.datad(counter[11]),
+	.cin(GND)
+);
+defparam wigend_59_iv_i_i_0_a3_2_1_1_.lut_mask=16'he000;
+defparam wigend_59_iv_i_i_0_a3_2_1_1_.sum_lutc_input="datac";
+// @3:40
+  cycloneii_lcell_comb wigend_59_iv_i_i_0_o3_23_1_ (
+	.combout(wigend_59_iv_i_i_0_o3_23[1]),
+	.cout(),
+	.dataa(wigend_59_iv_i_i_0_a2_12[1]),
+	.datab(wigend_59_iv_i_i_0_o3_43[1]),
+	.datac(wigend_59_iv_i_i_0_o3_56[1]),
+	.datad(wigend_59_iv_i_i_0_a2_34[1]),
+	.cin(GND)
+);
+defparam wigend_59_iv_i_i_0_o3_23_1_.lut_mask=16'hc4f5;
+defparam wigend_59_iv_i_i_0_o3_23_1_.sum_lutc_input="datac";
+// @3:40
+  cycloneii_lcell_comb wigend_59_iv_0_a2_3_a_0_ (
+	.combout(wigend_59_iv_0_a2_3_a[0]),
+	.cout(),
+	.dataa(wigend_59_iv_i_i_0_o2_1[1]),
+	.datab(counter[5]),
+	.datac(counter[6]),
+	.datad(counter[7]),
+	.cin(GND)
+);
+defparam wigend_59_iv_0_a2_3_a_0_.lut_mask=16'h07ff;
+defparam wigend_59_iv_0_a2_3_a_0_.sum_lutc_input="datac";
+// @3:40
+  cycloneii_lcell_comb wigend_59_iv_0_a2_3_0_ (
+	.combout(wigend_59_iv_0_a2_3[0]),
+	.cout(),
+	.dataa(wigend_59_iv_0_a2_3_a[0]),
+	.datab(wigend_59_iv_i_i_0_a3_20[1]),
+	.datac(counter[8]),
+	.datad(counter[10]),
+	.cin(GND)
+);
+defparam wigend_59_iv_0_a2_3_0_.lut_mask=16'h0800;
+defparam wigend_59_iv_0_a2_3_0_.sum_lutc_input="datac";
+// @3:40
+  cycloneii_lcell_comb wigend_59_iv_i_i_0_o3_25_1_ (
+	.combout(wigend_59_iv_i_i_0_o3_25[1]),
+	.cout(),
+	.dataa(wigend_59_iv_i_i_0_o3_25_0[1]),
+	.datab(wigend_59_iv_i_i_0_a2_11[1]),
+	.datac(wigend_59_iv_i_i_0_o2_4[1]),
+	.datad(counter[2]),
+	.cin(GND)
+);
+defparam wigend_59_iv_i_i_0_o3_25_1_.lut_mask=16'haa2a;
+defparam wigend_59_iv_i_i_0_o3_25_1_.sum_lutc_input="datac";
+// @3:40
+  cycloneii_lcell_comb wigend_59_iv_i_i_0_o3_3_1_12_1_ (
+	.combout(wigend_59_iv_i_i_0_o3_3_1_12[1]),
+	.cout(),
+	.dataa(wigend_59_iv_i_i_0_a3_21[1]),
+	.datab(wigend_59_iv_0_o3_3_4_i_o2_i_a14_5[0]),
+	.datac(wigend_59_iv_i_i_0_o3_3_1_4[1]),
+	.datad(wigend_59_iv_i_i_0_o3_3_1_3[1]),
+	.cin(GND)
+);
+defparam wigend_59_iv_i_i_0_o3_3_1_12_1_.lut_mask=16'h1000;
+defparam wigend_59_iv_i_i_0_o3_3_1_12_1_.sum_lutc_input="datac";
+// @3:40
+  cycloneii_lcell_comb wigend_59_iv_0_a3_24_1_0_ (
+	.combout(wigend_59_iv_0_a3_24_1[0]),
+	.cout(),
+	.dataa(wigend_59_iv_0_o3_7_0[0]),
+	.datab(wigend_59_iv_0_a2_0[0]),
+	.datac(counter[12]),
+	.datad(counter[11]),
+	.cin(GND)
+);
+defparam wigend_59_iv_0_a3_24_1_0_.lut_mask=16'h0d00;
+defparam wigend_59_iv_0_a3_24_1_0_.sum_lutc_input="datac";
+// @3:40
+  cycloneii_lcell_comb wigend_59_iv_0_a3_19_1_a_0_ (
+	.combout(wigend_59_iv_0_a3_19_1_a[0]),
+	.cout(),
+	.dataa(counter[12]),
+	.datab(counter[10]),
+	.datac(counter[11]),
+	.datad(VCC),
+	.cin(GND)
+);
+defparam wigend_59_iv_0_a3_19_1_a_0_.lut_mask=16'h2020;
+defparam wigend_59_iv_0_a3_19_1_a_0_.sum_lutc_input="datac";
+// @3:40
+  cycloneii_lcell_comb wigend_59_iv_0_a3_19_1_0_ (
+	.combout(wigend_59_iv_0_a3_19_1[0]),
+	.cout(),
+	.dataa(wigend_59_iv_i_i_0_o2_13[1]),
+	.datab(wigend_59_iv_i_i_0_o2_16[1]),
+	.datac(wigend_59_iv_0_a3_19_1_a[0]),
+	.datad(counter[9]),
+	.cin(GND)
+);
+defparam wigend_59_iv_0_a3_19_1_0_.lut_mask=16'h5030;
+defparam wigend_59_iv_0_a3_19_1_0_.sum_lutc_input="datac";
+// @3:40
+  cycloneii_lcell_comb wigend_59_iv_0_a3_8_0_ (
+	.combout(wigend_59_iv_0_a3_8[0]),
+	.cout(),
+	.dataa(wigend_59_iv_i_i_0_a3_6_a[1]),
+	.datab(counter[12]),
+	.datac(counter[11]),
+	.datad(wigend_reg_out_20),
+	.cin(GND)
+);
+defparam wigend_59_iv_0_a3_8_0_.lut_mask=16'h0010;
+defparam wigend_59_iv_0_a3_8_0_.sum_lutc_input="datac";
+// @3:40
+  cycloneii_lcell_comb wigend_59_iv_i_i_0_a3_13_1_ (
+	.combout(wigend_59_iv_i_i_0_a3_13[1]),
+	.cout(),
+	.dataa(wigend_59_iv_0_a3_15_a[0]),
+	.datab(wigend_59_iv_i_i_0_a3_28[1]),
+	.datac(counter[15]),
+	.datad(wigend_reg_out_1),
+	.cin(GND)
+);
+defparam wigend_59_iv_i_i_0_a3_13_1_.lut_mask=16'he000;
+defparam wigend_59_iv_i_i_0_a3_13_1_.sum_lutc_input="datac";
+// @3:40
+  cycloneii_lcell_comb wigend_59_iv_i_i_0_a3_1_1_ (
+	.combout(wigend_59_iv_i_i_0_a3_1[1]),
+	.cout(),
+	.dataa(wigend_59_iv_0_a3_3_a[0]),
+	.datab(counter[12]),
+	.datac(counter[11]),
+	.datad(wigend_reg_out_5),
+	.cin(GND)
+);
+defparam wigend_59_iv_i_i_0_a3_1_1_.lut_mask=16'h2000;
+defparam wigend_59_iv_i_i_0_a3_1_1_.sum_lutc_input="datac";
+// @3:40
+  cycloneii_lcell_comb wigend_59_iv_i_i_0_a3_6_a_1_ (
+	.combout(wigend_59_iv_i_i_0_a3_6_a[1]),
+	.cout(),
+	.dataa(wigend_59_iv_i_i_0_o3_52[1]),
+	.datab(wigend_59_iv_i_i_0_a3_35[1]),
+	.datac(counter[10]),
+	.datad(counter[9]),
+	.cin(GND)
+);
+defparam wigend_59_iv_i_i_0_a3_6_a_1_.lut_mask=16'h3233;
+defparam wigend_59_iv_i_i_0_a3_6_a_1_.sum_lutc_input="datac";
+// @3:40
+  cycloneii_lcell_comb wigend_59_iv_i_i_0_a3_6_1_ (
+	.combout(wigend_59_iv_i_i_0_a3_6[1]),
+	.cout(),
+	.dataa(wigend_59_iv_i_i_0_a3_6_a[1]),
+	.datab(counter[12]),
+	.datac(counter[11]),
+	.datad(wigend_reg_out_20),
+	.cin(GND)
+);
+defparam wigend_59_iv_i_i_0_a3_6_1_.lut_mask=16'h1000;
+defparam wigend_59_iv_i_i_0_a3_6_1_.sum_lutc_input="datac";
+// @3:40
+  cycloneii_lcell_comb wigend_59_iv_0_a3_3_a_0_ (
+	.combout(wigend_59_iv_0_a3_3_a[0]),
+	.cout(),
+	.dataa(int_1_i_0_i_0_o3_0),
+	.datab(wigend_59_iv_i_i_0_o3_51[1]),
+	.datac(counter[9]),
+	.datad(counter[10]),
+	.cin(GND)
+);
+defparam wigend_59_iv_0_a3_3_a_0_.lut_mask=16'h03a0;
+defparam wigend_59_iv_0_a3_3_a_0_.sum_lutc_input="datac";
+// @3:40
+  cycloneii_lcell_comb wigend_59_iv_0_a3_3_0_ (
+	.combout(wigend_59_iv_0_a3_3[0]),
+	.cout(),
+	.dataa(wigend_59_iv_0_a3_3_a[0]),
+	.datab(counter[12]),
+	.datac(counter[11]),
+	.datad(wigend_reg_out_5),
+	.cin(GND)
+);
+defparam wigend_59_iv_0_a3_3_0_.lut_mask=16'h0020;
+defparam wigend_59_iv_0_a3_3_0_.sum_lutc_input="datac";
+// @3:40
+  cycloneii_lcell_comb wigend_59_iv_0_a3_14_0_ (
+	.combout(wigend_59_iv_0_a3_14[0]),
+	.cout(),
+	.dataa(wigend_59_iv_i_i_0_o3_10[1]),
+	.datab(counter[15]),
+	.datac(wigend_reg_out_2),
+	.datad(VCC),
+	.cin(GND)
+);
+defparam wigend_59_iv_0_a3_14_0_.lut_mask=16'h0404;
+defparam wigend_59_iv_0_a3_14_0_.sum_lutc_input="datac";
+// @3:40
+  cycloneii_lcell_comb wigend_59_iv_0_a3_15_a_0_ (
+	.combout(wigend_59_iv_0_a3_15_a[0]),
+	.cout(),
+	.dataa(wigend_59_iv_i_i_0_o3_33[1]),
+	.datab(wigend_59_iv_i_i_0_a3_27_0[1]),
+	.datac(counter[8]),
+	.datad(counter[7]),
+	.cin(GND)
+);
+defparam wigend_59_iv_0_a3_15_a_0_.lut_mask=16'h0004;
+defparam wigend_59_iv_0_a3_15_a_0_.sum_lutc_input="datac";
+// @3:40
+  cycloneii_lcell_comb wigend_59_iv_0_a3_15_0_ (
+	.combout(wigend_59_iv_0_a3_15[0]),
+	.cout(),
+	.dataa(wigend_59_iv_0_a3_15_a[0]),
+	.datab(wigend_59_iv_i_i_0_a3_28[1]),
+	.datac(counter[15]),
+	.datad(wigend_reg_out_1),
+	.cin(GND)
+);
+defparam wigend_59_iv_0_a3_15_0_.lut_mask=16'h00e0;
+defparam wigend_59_iv_0_a3_15_0_.sum_lutc_input="datac";
+// @3:40
+  cycloneii_lcell_comb wigend_59_iv_0_o3_9_0_ (
+	.combout(wigend_59_iv_0_o3_9[0]),
+	.cout(),
+	.dataa(wigend_59_iv_0_a2_3[0]),
+	.datab(wigend_59_iv_0_o3_3_4_i_o2_i_o14_1[0]),
+	.datac(wigend_59_iv_i_i_0_a2_12[1]),
+	.datad(counter[8]),
+	.cin(GND)
+);
+defparam wigend_59_iv_0_o3_9_0_.lut_mask=16'h0515;
+defparam wigend_59_iv_0_o3_9_0_.sum_lutc_input="datac";
+// @3:29
+  cycloneii_lcell_comb un1_en_i_0_0 (
+	.combout(N_870_i),
+	.cout(),
+	.dataa(un1_en_i_0_0_a7_8),
+	.datab(counter[8]),
+	.datac(counter[7]),
+	.datad(wil_out_en),
+	.cin(GND)
+);
+defparam un1_en_i_0_0.lut_mask=16'h7f00;
+defparam un1_en_i_0_0.sum_lutc_input="datac";
+// @3:40
+  cycloneii_lcell_comb wigend_59_iv_i_i_0_o3_3_1_1_ (
+	.combout(wigend_59_iv_i_i_0_o3_3_1[1]),
+	.cout(),
+	.dataa(wigend_59_iv_i_i_0_o3_3_1_12[1]),
+	.datab(wigend_59_iv_i_i_0_o3_3_1_6[1]),
+	.datac(wigend_59_iv_i_i_0_o3_3_1_8[1]),
+	.datad(wigend_59_iv_0_o3_3_4_i_o2_i_a14_6[0]),
+	.cin(GND)
+);
+defparam wigend_59_iv_i_i_0_o3_3_1_1_.lut_mask=16'h0080;
+defparam wigend_59_iv_i_i_0_o3_3_1_1_.sum_lutc_input="datac";
+// @3:40
+  cycloneii_lcell_comb wigend_59_iv_0_o3_1_0_0_ (
+	.combout(wigend_59_iv_0_o3_1_0[0]),
+	.cout(),
+	.dataa(wigend_59_iv_i_i_0_a3_47[1]),
+	.datab(wigend_59_iv_i_i_0_a3_48[1]),
+	.datac(wigend_59_iv_0_a3_9[0]),
+	.datad(wigend_reg_out_10),
+	.cin(GND)
+);
+defparam wigend_59_iv_0_o3_1_0_0_.lut_mask=16'h0f01;
+defparam wigend_59_iv_0_o3_1_0_0_.sum_lutc_input="datac";
+// @3:40
+  cycloneii_lcell_comb wigend_59_iv_i_i_0_o3_1_0_1_ (
+	.combout(wigend_59_iv_i_i_0_o3_1_0[1]),
+	.cout(),
+	.dataa(wigend_59_iv_i_i_0_a3_47[1]),
+	.datab(wigend_59_iv_i_i_0_a3_48[1]),
+	.datac(wigend_59_iv_i_i_0_a3_7[1]),
+	.datad(wigend_reg_out_10),
+	.cin(GND)
+);
+defparam wigend_59_iv_i_i_0_o3_1_0_1_.lut_mask=16'h010f;
+defparam wigend_59_iv_i_i_0_o3_1_0_1_.sum_lutc_input="datac";
+// @3:40
+  cycloneii_lcell_comb wigend_59_iv_0_a3_10_1_a_0_ (
+	.combout(wigend_59_iv_0_a3_10_1_a[0]),
+	.cout(),
+	.dataa(wigend_59_iv_0_o3_3_4_i_o2_i_a14_10_0[0]),
+	.datab(wigend_59_iv_i_i_0_a2_18[1]),
+	.datac(counter[9]),
+	.datad(counter[10]),
+	.cin(GND)
+);
+defparam wigend_59_iv_0_a3_10_1_a_0_.lut_mask=16'h0e00;
+defparam wigend_59_iv_0_a3_10_1_a_0_.sum_lutc_input="datac";
+// @3:40
+  cycloneii_lcell_comb wigend_59_iv_0_a3_10_1_0_ (
+	.combout(wigend_59_iv_0_a3_10_1[0]),
+	.cout(),
+	.dataa(wigend_59_iv_0_a3_10_1_a[0]),
+	.datab(wigend_59_iv_i_i_0_a3_51[1]),
+	.datac(counter[12]),
+	.datad(counter[11]),
+	.cin(GND)
+);
+defparam wigend_59_iv_0_a3_10_1_0_.lut_mask=16'he000;
+defparam wigend_59_iv_0_a3_10_1_0_.sum_lutc_input="datac";
+// @3:21
+  cycloneii_lcell_comb int_1_i_0_i_0_a_cZ (
+	.combout(int_1_i_0_i_0_a),
+	.cout(),
+	.dataa(int_1_i_0_i_0_a3_1),
+	.datab(int_1_i_0_i_0_a7_1_0),
+	.datac(counter[12]),
+	.datad(counter[11]),
+	.cin(GND)
+);
+defparam int_1_i_0_i_0_a_cZ.lut_mask=16'h7333;
+defparam int_1_i_0_i_0_a_cZ.sum_lutc_input="datac";
+// @3:21
+  cycloneii_lcell_comb int_1_i_0_i_0 (
+	.combout(N_776_i),
+	.cout(),
+	.dataa(int_1_i_0_i_0_a),
+	.datab(int_1_i_0_i_0_o3_0),
+	.datac(int_1_i_0_i_0_a7_3_2),
+	.datad(int_1_i_0_i_0_2),
+	.cin(GND)
+);
+defparam int_1_i_0_i_0.lut_mask=16'hd5ff;
+defparam int_1_i_0_i_0.sum_lutc_input="datac";
+// @3:40
+  cycloneii_lcell_comb wigend_59_iv_0_o3_0_0_0_ (
+	.combout(wigend_59_iv_0_o3_0_0[0]),
+	.cout(),
+	.dataa(wigend_59_iv_0_a3_7_1[0]),
+	.datab(wigend_59_iv_i_i_0_o3_25[1]),
+	.datac(wigend_reg_out_19),
+	.datad(wigend_reg_out_18),
+	.cin(GND)
+);
+defparam wigend_59_iv_0_o3_0_0_0_.lut_mask=16'hfc54;
+defparam wigend_59_iv_0_o3_0_0_0_.sum_lutc_input="datac";
+// @3:40
+  cycloneii_lcell_comb wigend_59_iv_i_i_0_o3_0_0_1_ (
+	.combout(wigend_59_iv_i_i_0_o3_0_0[1]),
+	.cout(),
+	.dataa(wigend_59_iv_0_a3_7_1[0]),
+	.datab(wigend_59_iv_i_i_0_o3_25[1]),
+	.datac(wigend_reg_out_19),
+	.datad(wigend_reg_out_18),
+	.cin(GND)
+);
+defparam wigend_59_iv_i_i_0_o3_0_0_1_.lut_mask=16'h45cf;
+defparam wigend_59_iv_i_i_0_o3_0_0_1_.sum_lutc_input="datac";
+// @3:40
+  cycloneii_lcell_comb wigend_59_iv_i_i_0_o3_4_1_1_ (
+	.combout(wigend_59_iv_i_i_0_o3_4_1[1]),
+	.cout(),
+	.dataa(wigend_59_iv_i_i_0_o3_60[1]),
+	.datab(wigend_59_iv_i_i_0_a3_18[1]),
+	.datac(wigend_59_iv_i_i_0_a3_19[1]),
+	.datad(wigend_reg_out_12),
+	.cin(GND)
+);
+defparam wigend_59_iv_i_i_0_o3_4_1_1_.lut_mask=16'h0203;
+defparam wigend_59_iv_i_i_0_o3_4_1_1_.sum_lutc_input="datac";
+// @3:40
+  cycloneii_lcell_comb wigend_59_iv_0_o3_4_1_0_ (
+	.combout(wigend_59_iv_0_o3_4_1[0]),
+	.cout(),
+	.dataa(wigend_59_iv_i_i_0_o3_60[1]),
+	.datab(wigend_59_iv_0_a3_20[0]),
+	.datac(wigend_59_iv_0_a3_21[0]),
+	.datad(wigend_reg_out_12),
+	.cin(GND)
+);
+defparam wigend_59_iv_0_o3_4_1_0_.lut_mask=16'h0302;
+defparam wigend_59_iv_0_o3_4_1_0_.sum_lutc_input="datac";
+// @3:40
+  cycloneii_lcell_comb wigend_59_iv_i_i_0_o3_0_2_1_ (
+	.combout(wigend_59_iv_i_i_0_o3_0_2[1]),
+	.cout(),
+	.dataa(wigend_59_iv_i_i_0_o3_22[1]),
+	.datab(wigend_59_iv_i_i_0_o3_23[1]),
+	.datac(wigend_reg_out_6),
+	.datad(wigend_reg_out_4),
+	.cin(GND)
+);
+defparam wigend_59_iv_i_i_0_o3_0_2_1_.lut_mask=16'h8acf;
+defparam wigend_59_iv_i_i_0_o3_0_2_1_.sum_lutc_input="datac";
+// @3:40
+  cycloneii_lcell_comb wigend_59_iv_0_o3_0_2_0_ (
+	.combout(wigend_59_iv_0_o3_0_2[0]),
+	.cout(),
+	.dataa(wigend_59_iv_i_i_0_o3_22[1]),
+	.datab(wigend_59_iv_i_i_0_o3_23[1]),
+	.datac(wigend_reg_out_6),
+	.datad(wigend_reg_out_4),
+	.cin(GND)
+);
+defparam wigend_59_iv_0_o3_0_2_0_.lut_mask=16'hfca8;
+defparam wigend_59_iv_0_o3_0_2_0_.sum_lutc_input="datac";
+// @3:40
+  cycloneii_lcell_comb wigend_59_iv_0_o3_2_0_0_ (
+	.combout(wigend_59_iv_0_o3_2_0[0]),
+	.cout(),
+	.dataa(wigend_59_iv_0_a3_14[0]),
+	.datab(wigend_59_iv_i_i_0_o3_7[1]),
+	.datac(counter[15]),
+	.datad(wigend_reg_out_0),
+	.cin(GND)
+);
+defparam wigend_59_iv_0_o3_2_0_0_.lut_mask=16'h5545;
+defparam wigend_59_iv_0_o3_2_0_0_.sum_lutc_input="datac";
+// @3:40
+  cycloneii_lcell_comb wigend_59_iv_i_i_0_o3_2_0_a_1_ (
+	.combout(wigend_59_iv_i_i_0_o3_2_0_a[1]),
+	.cout(),
+	.dataa(wigend_59_iv_i_i_0_o3_10[1]),
+	.datab(wigend_reg_out_2),
+	.datac(VCC),
+	.datad(VCC),
+	.cin(GND)
+);
+defparam wigend_59_iv_i_i_0_o3_2_0_a_1_.lut_mask=16'h4444;
+defparam wigend_59_iv_i_i_0_o3_2_0_a_1_.sum_lutc_input="datac";
+// @3:40
+  cycloneii_lcell_comb wigend_59_iv_i_i_0_o3_2_0_1_ (
+	.combout(wigend_59_iv_i_i_0_o3_2_0[1]),
+	.cout(),
+	.dataa(wigend_59_iv_i_i_0_o3_2_0_a[1]),
+	.datab(wigend_59_iv_i_i_0_o3_7[1]),
+	.datac(counter[15]),
+	.datad(wigend_reg_out_0),
+	.cin(GND)
+);
+defparam wigend_59_iv_i_i_0_o3_2_0_1_.lut_mask=16'h4f5f;
+defparam wigend_59_iv_i_i_0_o3_2_0_1_.sum_lutc_input="datac";
+// @3:40
+  cycloneii_lcell_comb wigend_59_iv_0_o3_4_0_ (
+	.combout(wigend_59_iv_0_o3_4[0]),
+	.cout(),
+	.dataa(wigend_59_iv_0_o3_4_1[0]),
+	.datab(wigend_59_iv_0_a3_19_1[0]),
+	.datac(wigend_reg_out_11),
+	.datad(VCC),
+	.cin(GND)
+);
+defparam wigend_59_iv_0_o3_4_0_.lut_mask=16'ha2a2;
+defparam wigend_59_iv_0_o3_4_0_.sum_lutc_input="datac";
+// @3:40
+  cycloneii_lcell_comb wigend_59_iv_i_i_0_o3_4_1_ (
+	.combout(wigend_59_iv_i_i_0_o3_4[1]),
+	.cout(),
+	.dataa(wigend_59_iv_i_i_0_o3_4_1[1]),
+	.datab(wigend_59_iv_0_a3_19_1[0]),
+	.datac(wigend_reg_out_11),
+	.datad(VCC),
+	.cin(GND)
+);
+defparam wigend_59_iv_i_i_0_o3_4_1_.lut_mask=16'h2a2a;
+defparam wigend_59_iv_i_i_0_o3_4_1_.sum_lutc_input="datac";
+// @3:40
+  cycloneii_lcell_comb wigend_59_iv_i_i_0_o3_0_1_ (
+	.combout(wigend_59_iv_i_i_0_o3_0[1]),
+	.cout(),
+	.dataa(wigend_59_iv_i_i_0_o3_0_0[1]),
+	.datab(wigend_59_iv_i_i_0_o3_24[1]),
+	.datac(wigend_59_iv_i_i_0_a3_6[1]),
+	.datad(wigend_reg_out_21),
+	.cin(GND)
+);
+defparam wigend_59_iv_i_i_0_o3_0_1_.lut_mask=16'h080a;
+defparam wigend_59_iv_i_i_0_o3_0_1_.sum_lutc_input="datac";
+// @3:40
+  cycloneii_lcell_comb wigend_59_iv_0_o3_5_0_0_ (
+	.combout(wigend_59_iv_0_o3_5_0[0]),
+	.cout(),
+	.dataa(wigend_59_iv_0_a3_24_1[0]),
+	.datab(wigend_59_iv_i_i_0_a2_2_1[1]),
+	.datac(wigend_reg_out_16),
+	.datad(wigend_reg_out_14),
+	.cin(GND)
+);
+defparam wigend_59_iv_0_o3_5_0_0_.lut_mask=16'hf531;
+defparam wigend_59_iv_0_o3_5_0_0_.sum_lutc_input="datac";
+// @3:40
+  cycloneii_lcell_comb wigend_59_iv_i_i_0_o3_29_0_1_ (
+	.combout(wigend_59_iv_i_i_0_o3_29_0[1]),
+	.cout(),
+	.dataa(wigend_59_iv_0_a3_24_1[0]),
+	.datab(wigend_59_iv_i_i_0_a2_2_1[1]),
+	.datac(wigend_reg_out_16),
+	.datad(wigend_reg_out_14),
+	.cin(GND)
+);
+defparam wigend_59_iv_i_i_0_o3_29_0_1_.lut_mask=16'h135f;
+defparam wigend_59_iv_i_i_0_o3_29_0_1_.sum_lutc_input="datac";
+// @3:40
+  cycloneii_lcell_comb wigend_59_iv_0_m2_a_0_ (
+	.combout(wigend_59_iv_0_m2_a[0]),
+	.cout(),
+	.dataa(wigend_59_iv_0_o3_0_0[0]),
+	.datab(wigend_59_iv_i_i_0_o3_24[1]),
+	.datac(wigend_59_iv_0_a3_8[0]),
+	.datad(wigend_reg_out_21),
+	.cin(GND)
+);
+defparam wigend_59_iv_0_m2_a_0_.lut_mask=16'h0a08;
+defparam wigend_59_iv_0_m2_a_0_.sum_lutc_input="datac";
+// @3:40
+  cycloneii_lcell_comb wigend_59_iv_0_m2_0_ (
+	.combout(wigend_59_iv_0_m2[0]),
+	.cout(),
+	.dataa(wigend_59_iv_0_m2_a[0]),
+	.datab(wigend_59_iv_i_i_0_o3_3_1[1]),
+	.datac(wigend_59_iv_i_i_0_m3[1]),
+	.datad(counter[13]),
+	.cin(GND)
+);
+defparam wigend_59_iv_0_m2_0_.lut_mask=16'h55c0;
+defparam wigend_59_iv_0_m2_0_.sum_lutc_input="datac";
+// @3:40
+  cycloneii_lcell_comb wigend_59_iv_i_i_0_o3_1_ (
+	.combout(wigend_59_iv_i_i_0_o3[1]),
+	.cout(),
+	.dataa(wigend_59_iv_i_i_0_o3_0_2[1]),
+	.datab(wigend_59_iv_i_i_0_a3_2_1[1]),
+	.datac(wigend_59_iv_i_i_0_a3_1[1]),
+	.datad(wigend_reg_out_3),
+	.cin(GND)
+);
+defparam wigend_59_iv_i_i_0_o3_1_.lut_mask=16'h020a;
+defparam wigend_59_iv_i_i_0_o3_1_.sum_lutc_input="datac";
+// @3:40
+  cycloneii_lcell_comb wigend_59_iv_0_o3_5_0_ (
+	.combout(wigend_59_iv_0_o3_5[0]),
+	.cout(),
+	.dataa(wigend_59_iv_0_o3_5_0[0]),
+	.datab(wigend_59_iv_0_a3_23[0]),
+	.datac(wigend_59_iv_0_o3_9[0]),
+	.datad(wigend_reg_out_17),
+	.cin(GND)
+);
+defparam wigend_59_iv_0_o3_5_0_.lut_mask=16'h2220;
+defparam wigend_59_iv_0_o3_5_0_.sum_lutc_input="datac";
+// @3:40
+  cycloneii_lcell_comb wigend_59_iv_0_o3_1_0_ (
+	.combout(wigend_59_iv_0_o3_1[0]),
+	.cout(),
+	.dataa(wigend_59_iv_0_o3_1_0[0]),
+	.datab(wigend_59_iv_0_a3_10_1[0]),
+	.datac(wigend_59_iv_0_a3_12[0]),
+	.datad(wigend_reg_out_7),
+	.cin(GND)
+);
+defparam wigend_59_iv_0_o3_1_0_.lut_mask=16'h0a02;
+defparam wigend_59_iv_0_o3_1_0_.sum_lutc_input="datac";
+// @3:40
+  cycloneii_lcell_comb wigend_59_iv_i_i_0_o3_29_1_ (
+	.combout(wigend_59_iv_i_i_0_o3_29[1]),
+	.cout(),
+	.dataa(wigend_59_iv_i_i_0_o3_29_0[1]),
+	.datab(wigend_59_iv_i_i_0_a2_0[1]),
+	.datac(wigend_59_iv_0_o3_9[0]),
+	.datad(wigend_reg_out_17),
+	.cin(GND)
+);
+defparam wigend_59_iv_i_i_0_o3_29_1_.lut_mask=16'h2022;
+defparam wigend_59_iv_i_i_0_o3_29_1_.sum_lutc_input="datac";
+// @3:40
+  cycloneii_lcell_comb wigend_59_iv_i_i_0_o3_1_1_ (
+	.combout(wigend_59_iv_i_i_0_o3_1[1]),
+	.cout(),
+	.dataa(wigend_59_iv_i_i_0_o3_1_0[1]),
+	.datab(wigend_59_iv_0_a3_10_1[0]),
+	.datac(wigend_59_iv_i_i_0_a3_10[1]),
+	.datad(wigend_reg_out_7),
+	.cin(GND)
+);
+defparam wigend_59_iv_i_i_0_o3_1_1_.lut_mask=16'h020a;
+defparam wigend_59_iv_i_i_0_o3_1_1_.sum_lutc_input="datac";
+// @3:40
+  cycloneii_lcell_comb wigend_59_iv_0_o3_0_ (
+	.combout(wigend_59_iv_0_o3[0]),
+	.cout(),
+	.dataa(wigend_59_iv_0_o3_0_2[0]),
+	.datab(wigend_59_iv_i_i_0_a3_2_1[1]),
+	.datac(wigend_59_iv_0_a3_3[0]),
+	.datad(wigend_reg_out_3),
+	.cin(GND)
+);
+defparam wigend_59_iv_0_o3_0_.lut_mask=16'h0a02;
+defparam wigend_59_iv_0_o3_0_.sum_lutc_input="datac";
+// @3:40
+  cycloneii_lcell_comb wigend_59_iv_0_m2_0_0_ (
+	.combout(wigend_59_iv_0_m2_0[0]),
+	.cout(),
+	.dataa(wigend_59_iv_0_o3[0]),
+	.datab(wigend_59_iv_0_o3_1[0]),
+	.datac(counter[13]),
+	.datad(VCC),
+	.cin(GND)
+);
+defparam wigend_59_iv_0_m2_0_0_.lut_mask=16'h5353;
+defparam wigend_59_iv_0_m2_0_0_.sum_lutc_input="datac";
+// @3:40
+  cycloneii_lcell_comb wigend_59_iv_i_i_0_a7_1_a_1_ (
+	.combout(wigend_59_iv_i_i_0_a7_1_a[1]),
+	.cout(),
+	.dataa(wigend_59_iv_i_i_0_o3_0[1]),
+	.datab(wigend_59_iv_i_i_0_o3_3_1[1]),
+	.datac(wigend_59_iv_i_i_0_m3[1]),
+	.datad(counter[13]),
+	.cin(GND)
+);
+defparam wigend_59_iv_i_i_0_a7_1_a_1_.lut_mask=16'h550c;
+defparam wigend_59_iv_i_i_0_a7_1_a_1_.sum_lutc_input="datac";
+// @3:40
+  cycloneii_lcell_comb wigend_59_iv_i_i_0_a7_1_1_ (
+	.combout(wigend_59_iv_i_i_0_a7_1[1]),
+	.cout(),
+	.dataa(wigend_59_iv_i_i_0_a7_1_a[1]),
+	.datab(counter[15]),
+	.datac(counter[14]),
+	.datad(counter[16]),
+	.cin(GND)
+);
+defparam wigend_59_iv_i_i_0_a7_1_1_.lut_mask=16'h0002;
+defparam wigend_59_iv_i_i_0_a7_1_1_.sum_lutc_input="datac";
+// @3:40
+  cycloneii_lcell_comb wigend_59_iv_i_i_0_a7_0_a_1_ (
+	.combout(wigend_59_iv_i_i_0_a7_0_a[1]),
+	.cout(),
+	.dataa(counter[15]),
+	.datab(counter[16]),
+	.datac(counter[14]),
+	.datad(VCC),
+	.cin(GND)
+);
+defparam wigend_59_iv_i_i_0_a7_0_a_1_.lut_mask=16'h0202;
+defparam wigend_59_iv_i_i_0_a7_0_a_1_.sum_lutc_input="datac";
+// @3:40
+  cycloneii_lcell_comb wigend_59_iv_i_i_0_a7_0_1_ (
+	.combout(wigend_59_iv_i_i_0_a7_0[1]),
+	.cout(),
+	.dataa(wigend_59_iv_i_i_0_o3[1]),
+	.datab(wigend_59_iv_i_i_0_o3_1[1]),
+	.datac(wigend_59_iv_i_i_0_a7_0_a[1]),
+	.datad(counter[13]),
+	.cin(GND)
+);
+defparam wigend_59_iv_i_i_0_a7_0_1_.lut_mask=16'h5030;
+defparam wigend_59_iv_i_i_0_a7_0_1_.sum_lutc_input="datac";
+// @3:40
+  cycloneii_lcell_comb wigend_59_iv_i_i_0_o3_2_1_ (
+	.combout(wigend_59_iv_i_i_0_o3_2[1]),
+	.cout(),
+	.dataa(wigend_59_iv_i_i_0_o3_29[1]),
+	.datab(wigend_59_iv_i_i_0_o3_2_0[1]),
+	.datac(wigend_59_iv_i_i_0_a3_13[1]),
+	.datad(counter[15]),
+	.cin(GND)
+);
+defparam wigend_59_iv_i_i_0_o3_2_1_.lut_mask=16'h0c08;
+defparam wigend_59_iv_i_i_0_o3_2_1_.sum_lutc_input="datac";
+// @3:40
+  cycloneii_lcell_comb wigend_59_iv_0_o3_2_0_ (
+	.combout(wigend_59_iv_0_o3_2[0]),
+	.cout(),
+	.dataa(wigend_59_iv_0_o3_5[0]),
+	.datab(wigend_59_iv_0_o3_2_0[0]),
+	.datac(wigend_59_iv_0_a3_15[0]),
+	.datad(counter[15]),
+	.cin(GND)
+);
+defparam wigend_59_iv_0_o3_2_0_.lut_mask=16'h0c08;
+defparam wigend_59_iv_0_o3_2_0_.sum_lutc_input="datac";
+// @3:40
+  cycloneii_lcell_comb wigend_59_iv_0_m2_1_0_ (
+	.combout(wigend_59_iv_0_m2_1[0]),
+	.cout(),
+	.dataa(wigend_59_iv_0_o3_2[0]),
+	.datab(wigend_59_iv_0_o3_4[0]),
+	.datac(counter[15]),
+	.datad(counter[13]),
+	.cin(GND)
+);
+defparam wigend_59_iv_0_m2_1_0_.lut_mask=16'h0355;
+defparam wigend_59_iv_0_m2_1_0_.sum_lutc_input="datac";
+// @3:40
+  cycloneii_lcell_comb wigend_59_iv_i_i_0_m2_1_1_ (
+	.combout(wigend_59_iv_i_i_0_m2_1[1]),
+	.cout(),
+	.dataa(wigend_59_iv_i_i_0_o3_2[1]),
+	.datab(wigend_59_iv_i_i_0_o3_4[1]),
+	.datac(counter[15]),
+	.datad(counter[13]),
+	.cin(GND)
+);
+defparam wigend_59_iv_i_i_0_m2_1_1_.lut_mask=16'h0355;
+defparam wigend_59_iv_i_i_0_m2_1_1_.sum_lutc_input="datac";
+// @3:40
+  cycloneii_lcell_comb wigend_59_iv_0_0_a_0_ (
+	.combout(wigend_59_iv_0_0_a[0]),
+	.cout(),
+	.dataa(counter[16]),
+	.datab(counter[14]),
+	.datac(VCC),
+	.datad(VCC),
+	.cin(GND)
+);
+defparam wigend_59_iv_0_0_a_0_.lut_mask=16'h1111;
+defparam wigend_59_iv_0_0_a_0_.sum_lutc_input="datac";
+// @3:40
+  cycloneii_lcell_comb wigend_59_iv_0_0_0_ (
+	.combout(wigend_59_iv_0_0[0]),
+	.cout(),
+	.dataa(wigend_59_iv_0_m2_0[0]),
+	.datab(wigend_59_iv_0_m2[0]),
+	.datac(wigend_59_iv_0_0_a[0]),
+	.datad(counter[15]),
+	.cin(GND)
+);
+defparam wigend_59_iv_0_0_0_.lut_mask=16'h5f3f;
+defparam wigend_59_iv_0_0_0_.sum_lutc_input="datac";
+// @3:40
+  cycloneii_lcell_comb wigend_59_iv_i_i_0_0_1_ (
+	.combout(wigend_59_iv_i_i_0_0[1]),
+	.cout(),
+	.dataa(wigend_59_iv_i_i_0_a7_0[1]),
+	.datab(wigend_59_iv_i_i_0_a7_1[1]),
+	.datac(VCC),
+	.datad(VCC),
+	.cin(GND)
+);
+defparam wigend_59_iv_i_i_0_0_1_.lut_mask=16'h1111;
+defparam wigend_59_iv_i_i_0_0_1_.sum_lutc_input="datac";
+// @3:40
+  cycloneii_lcell_comb wigend_59_iv_i_i_0_1_ (
+	.combout(wigend_59_iv_i_i_0[1]),
+	.cout(),
+	.dataa(wigend_59_iv_i_i_0_0[1]),
+	.datab(wigend_59_iv_i_i_0_m2_1[1]),
+	.datac(counter[16]),
+	.datad(counter[14]),
+	.cin(GND)
+);
+defparam wigend_59_iv_i_i_0_1_.lut_mask=16'h5d55;
+defparam wigend_59_iv_i_i_0_1_.sum_lutc_input="datac";
+// @3:40
+  cycloneii_lcell_comb wigend_59_iv_0_0_ (
+	.combout(wigend_59_iv_0[0]),
+	.cout(),
+	.dataa(wigend_59_iv_0_0[0]),
+	.datab(wigend_59_iv_0_m2_1[0]),
+	.datac(counter[16]),
+	.datad(counter[14]),
+	.cin(GND)
+);
+defparam wigend_59_iv_0_0_.lut_mask=16'h5d55;
+defparam wigend_59_iv_0_0_.sum_lutc_input="datac";
+  cycloneii_lcell_comb wigend_59_iv_i_i_0_m3_c_1_ (
+	.combout(wigend_59_iv_i_i_0_m3_c[1]),
+	.cout(),
+	.dataa(wigend_reg_out_25),
+	.datab(wigend_reg_out_24),
+	.datac(counter[11]),
+	.datad(counter[12]),
+	.cin(GND)
+);
+defparam wigend_59_iv_i_i_0_m3_c_1_.lut_mask=16'hf035;
+defparam wigend_59_iv_i_i_0_m3_c_1_.sum_lutc_input="datac";
+  cycloneii_lcell_comb wigend_59_iv_i_i_0_m3_1_ (
+	.combout(wigend_59_iv_i_i_0_m3[1]),
+	.cout(),
+	.dataa(wigend_59_iv_i_i_0_m3_c[1]),
+	.datab(wigend_reg_out_23),
+	.datac(wigend_reg_out_22),
+	.datad(counter[12]),
+	.cin(GND)
+);
+defparam wigend_59_iv_i_i_0_m3_1_.lut_mask=16'h1baa;
+defparam wigend_59_iv_i_i_0_m3_1_.sum_lutc_input="datac";
+//@1:1
+  assign GND = 1'b0;
+//@1:1
+  assign VCC = 1'b1;
+endmodule /* Wigend_Out */
+
+module buffer (
+  clk,
+  nReset,
+  nEXTBUS,
+  BUFDIR,
+  BUFDIR1,
+  nFCE,
+  nOE,
+  nWE,
+  nGCS,
+  nFWE,
+  nFRE,
+  addr,
+  data,
+  eint0,
+  eint1,
+  eint2,
+  eint3,
+  eint11,
+  wil_in,
+  wil_out,
+  G5V_IO,
+  FPGA_IO,
+  test
+);
+input clk ;
+input nReset ;
+output nEXTBUS /* synthesis syn_tristate = 1 */;
+output BUFDIR /* synthesis syn_tristate = 1 */;
+output BUFDIR1 /* synthesis syn_tristate = 1 */;
+input nFCE ;
+input nOE ;
+input nWE ;
+input [5:0] nGCS ;
+input nFWE ;
+input nFRE ;
+input [8:0] addr ;
+inout [7:0] data /* synthesis syn_tristate = 1 */;
+input eint0 ;
+output eint1 /* synthesis syn_tristate = 1 */;
+output eint2 ;
+input eint3 ;
+output eint11 ;
+input [1:0] wil_in ;
+output [1:0] wil_out /* synthesis syn_tristate = 1 */;
+output G5V_IO /* synthesis syn_tristate = 1 */;
+output FPGA_IO /* synthesis syn_tristate = 1 */;
+output [3:0] test ;
+wire clk ;
+wire nReset ;
+wire nEXTBUS ;
+wire BUFDIR ;
+wire BUFDIR1 ;
+wire nFCE ;
+wire nOE ;
+wire nWE ;
+wire nFWE ;
+wire nFRE ;
+wire eint0 ;
+wire eint1 ;
+wire eint2 ;
+wire eint3 ;
+wire eint11 ;
+wire G5V_IO ;
+wire FPGA_IO ;
+wire [7:0] wdata;
+wire [7:1] wdata_1_i_0;
+wire [4:4] wdata_1_i_0_0;
+wire [0:0] wdata_1_i_0_x;
+wire [25:0] wigend_reg_out;
+wire [7:0] data_c;
+wire [4:4] wdata_i_i_n;
+wire [5:1] nGCS_c;
+wire [8:0] addr_c;
+wire [3:3] wdata_1_i_0_a2_2;
+wire [4:4] wdata_1_i_0_0_a2_4;
+wire [4:4] wdata_1_i_0_0_a2_2;
+wire [3:0] wdata_1_i_0_3;
+wire [1:1] wdata_1_i_0_1_a_x;
+wire [1:1] wdata_1_i_0_1;
+wire [4:4] wdata_1_i_0_0_1_a;
+wire [4:1] \wigend_in.wigend_bitcnt ;
+wire [7:2] wdata_1_i_0_a;
+wire [2:2] wdata_1_i_0_a2_2_x;
+wire [0:0] wdata_1_i_0_a2_8_x;
+wire [0:0] wdata_1_i_0_1_a;
+wire [3:3] wdata_1_i_0_3_a;
+wire [1:1] wdata_1_i_0_2_a;
+wire [1:1] wdata_1_i_0_2;
+wire [4:4] wdata_1_i_0_0_a;
+wire [4:4] wdata_1_i_0_0_1_x;
+wire [0:0] wdata_1_i_0_4_a;
+wire [0:0] wdata_1_i_0_4_x;
+wire [0:0] wdata_1_i_0_1_x;
+wire [1:0] wil_in_c;
+wire [1:0] \wigend_out.wigend ;
+wire VCC ;
+wire G_404 ;
+wire GND ;
+wire un1_wdata35_1_x ;
+wire wdata42 ;
+wire un1_nGCS_5_combout ;
+wire un1_nGCS_7_combout ;
+wire un1_wdata35_2 ;
+wire un1_nGCS_4_combout ;
+wire un1_wdata37 ;
+wire un1_nGCS_6_combout ;
+wire wdata39_x ;
+wire un1_wdata35_3 ;
+wire un1_nGCS_3_combout ;
+wire nWE_i ;
+wire wigend_reg_out70_0_a2_0_a2_x ;
+wire wigend_reg_out51_0_a2_1_a2 ;
+wire wigend_reg_out31_0_a2_2_a2 ;
+wire wigend_reg_out12_0_a2_3_a2_x ;
+wire wil_out_en ;
+wire N_776_i_0 ;
+wire wil_out_en7_0_a2_0_a2_x ;
+wire G5V_IOz ;
+wire G5V_IO7_0_a2_1_a2 ;
+wire FPGA_IOz ;
+wire wil_in_irq_flag ;
+wire wil_in_irq_flag_7_i_a2_0_a2_x ;
+wire clk_c ;
+wire N_931_i ;
+wire wil_out_irq_flag ;
+wire wil_out_irq_flag_7_i_a2_0_a2_x ;
+wire N_930_i ;
+wire un1_nGCS_3_3 ;
+wire nWE_c ;
+wire nOE_c ;
+wire wdata42_7 ;
+wire wdata42_8 ;
+wire un1_nGCS_8_0_0_a2_3_x ;
+wire wigend_reg_out12_0_a2_3_a2_0_x ;
+wire wdata42_a_x ;
+wire G5V_IO7_0_a2_1_a2_a_x ;
+wire nEXTBUS_0_a2_0_a2 ;
+wire nEXTBUS_0_a2_0_a2_a_x ;
+wire nFCE_c ;
+wire wigend_reg_out12_0_a2_3_a2_1 ;
+wire wigend_reg_out12_0_a2_3_a2_1_a_x ;
+wire un1_wil_in_irq_flag11_1_0_0_a ;
+wire un1_wil_in_irq_flag11_0_0_a2_0_x ;
+wire wdata39_1 ;
+wire wdata39_1_a_x ;
+wire un1_addr_28_0_0_a ;
+wire un1_addr_28_0_0 ;
+wire un1_nGCS_4_a ;
+wire un1_addr_26_0_0_a ;
+wire un1_addr_26_0_0 ;
+wire un1_addr_27_0_0_a ;
+wire un1_addr_27_0_0 ;
+wire un1_nGCS_3_a ;
+wire un1_wdata35_1_a ;
+wire eint1_0_a2_i ;
+wire N_776_i ;
+wire \wigend_in.int_1_0_a2_0  ;
+wire un1_wdata37_a ;
+wire un1_nGCS_8_0_0_a2_2_0_x ;
+wire un1_wdata35_3_a_x ;
+wire G5V_IO7_0_a2_1_a2_0_x ;
+wire N_814_i ;
+wire eint3_c ;
+wire eint0_c ;
+wire BUFDIR_1_0_a2_0_a2_x ;
+wire nFRE_c ;
+wire wdata35_2_0_a2_0_a2_x ;
+tri1 tridevclrn;
+tri1 tridevpor;
+tri0 tridevoe;
+//@1:1
+  assign VCC = 1'b1;
+//@1:1
+  assign GND = 1'b0;
+// @1:85
+  SYNLPM_LATRS1 wdata_2__Z (
+	.Q(wdata[2]),
+	.DATA(wdata_1_i_0[2]),
+	.GATE(un1_wdata35_1_x),
+	.ASET(wdata42),
+	.ACLR(un1_nGCS_5_combout)
+);
+// @1:85
+  SYNLPM_LATR1 wdata_7__Z (
+	.Q(wdata[7]),
+	.DATA(wdata_1_i_0[7]),
+	.GATE(un1_wdata35_1_x),
+	.ACLR(un1_nGCS_7_combout)
+);
+// @1:85
+  SYNLPM_LATR1 wdata_1__Z (
+	.Q(wdata[1]),
+	.DATA(wdata_1_i_0[1]),
+	.GATE(un1_wdata35_2),
+	.ACLR(un1_nGCS_4_combout)
+);
+// @1:85
+  SYNLPM_LATR1 wdata_3__Z (
+	.Q(wdata[3]),
+	.DATA(wdata_1_i_0[3]),
+	.GATE(un1_wdata37),
+	.ACLR(un1_nGCS_6_combout)
+);
+// @1:85
+  SYNLPM_LATRS1 wdata_4__Z (
+	.Q(wdata[4]),
+	.DATA(wdata_1_i_0_0[4]),
+	.GATE(un1_wdata37),
+	.ASET(wdata39_x),
+	.ACLR(wdata42)
+);
+// @1:85
+  SYNLPM_LATR1 wdata_0__Z (
+	.Q(wdata[0]),
+	.DATA(wdata_1_i_0_x[0]),
+	.GATE(un1_wdata35_3),
+	.ACLR(un1_nGCS_3_combout)
+);
+// @1:85
+  SYNLPM_LATRS1 wdata_5__Z (
+	.Q(wdata[5]),
+	.DATA(wdata_1_i_0[5]),
+	.GATE(un1_wdata35_1_x),
+	.ASET(wdata42),
+	.ACLR(un1_nGCS_5_combout)
+);
+// @1:85
+  SYNLPM_LATRS1 wdata_6__Z (
+	.Q(wdata[6]),
+	.DATA(wdata_1_i_0[6]),
+	.GATE(un1_wdata35_1_x),
+	.ASET(wdata42),
+	.ACLR(un1_nGCS_5_combout)
+);
+// @1:129
+  cycloneii_lcell_ff wigend_reg_out_25__Z (
+	.devpor(tridevpor),
+	.devclrn(tridevclrn),
+	.regout(wigend_reg_out[25]),
+	.datain(data_c[1]),
+	.clk(nWE_i),
+	.aclr(~G_404),
+	.sclr(GND),
+	.sload(GND),
+	.sdata(GND),
+	.ena(wigend_reg_out70_0_a2_0_a2_x)
+);
+// @1:129
+  cycloneii_lcell_ff wigend_reg_out_24__Z (
+	.devpor(tridevpor),
+	.devclrn(tridevclrn),
+	.regout(wigend_reg_out[24]),
+	.datain(data_c[0]),
+	.clk(nWE_i),
+	.aclr(~G_404),
+	.sclr(GND),
+	.sload(GND),
+	.sdata(GND),
+	.ena(wigend_reg_out70_0_a2_0_a2_x)
+);
+// @1:121
+  cycloneii_lcell_ff wigend_reg_out_23__Z (
+	.devpor(tridevpor),
+	.devclrn(tridevclrn),
+	.regout(wigend_reg_out[23]),
+	.datain(data_c[7]),
+	.clk(nWE_i),
+	.aclr(~G_404),
+	.sclr(GND),
+	.sload(GND),
+	.sdata(GND),
+	.ena(wigend_reg_out51_0_a2_1_a2)
+);
+// @1:121
+  cycloneii_lcell_ff wigend_reg_out_22__Z (
+	.devpor(tridevpor),
+	.devclrn(tridevclrn),
+	.regout(wigend_reg_out[22]),
+	.datain(data_c[6]),
+	.clk(nWE_i),
+	.aclr(~G_404),
+	.sclr(GND),
+	.sload(GND),
+	.sdata(GND),
+	.ena(wigend_reg_out51_0_a2_1_a2)
+);
+// @1:121
+  cycloneii_lcell_ff wigend_reg_out_21__Z (
+	.devpor(tridevpor),
+	.devclrn(tridevclrn),
+	.regout(wigend_reg_out[21]),
+	.datain(data_c[5]),
+	.clk(nWE_i),
+	.aclr(~G_404),
+	.sclr(GND),
+	.sload(GND),
+	.sdata(GND),
+	.ena(wigend_reg_out51_0_a2_1_a2)
+);
+// @1:121
+  cycloneii_lcell_ff wigend_reg_out_20__Z (
+	.devpor(tridevpor),
+	.devclrn(tridevclrn),
+	.regout(wigend_reg_out[20]),
+	.datain(data_c[4]),
+	.clk(nWE_i),
+	.aclr(~G_404),
+	.sclr(GND),
+	.sload(GND),
+	.sdata(GND),
+	.ena(wigend_reg_out51_0_a2_1_a2)
+);
+// @1:121
+  cycloneii_lcell_ff wigend_reg_out_19__Z (
+	.devpor(tridevpor),
+	.devclrn(tridevclrn),
+	.regout(wigend_reg_out[19]),
+	.datain(data_c[3]),
+	.clk(nWE_i),
+	.aclr(~G_404),
+	.sclr(GND),
+	.sload(GND),
+	.sdata(GND),
+	.ena(wigend_reg_out51_0_a2_1_a2)
+);
+// @1:121
+  cycloneii_lcell_ff wigend_reg_out_18__Z (
+	.devpor(tridevpor),
+	.devclrn(tridevclrn),
+	.regout(wigend_reg_out[18]),
+	.datain(data_c[2]),
+	.clk(nWE_i),
+	.aclr(~G_404),
+	.sclr(GND),
+	.sload(GND),
+	.sdata(GND),
+	.ena(wigend_reg_out51_0_a2_1_a2)
+);
+// @1:121
+  cycloneii_lcell_ff wigend_reg_out_17__Z (
+	.devpor(tridevpor),
+	.devclrn(tridevclrn),
+	.regout(wigend_reg_out[17]),
+	.datain(data_c[1]),
+	.clk(nWE_i),
+	.aclr(~G_404),
+	.sclr(GND),
+	.sload(GND),
+	.sdata(GND),
+	.ena(wigend_reg_out51_0_a2_1_a2)
+);
+// @1:121
+  cycloneii_lcell_ff wigend_reg_out_16__Z (
+	.devpor(tridevpor),
+	.devclrn(tridevclrn),
+	.regout(wigend_reg_out[16]),
+	.datain(data_c[0]),
+	.clk(nWE_i),
+	.aclr(~G_404),
+	.sclr(GND),
+	.sload(GND),
+	.sdata(GND),
+	.ena(wigend_reg_out51_0_a2_1_a2)
+);
+// @1:113
+  cycloneii_lcell_ff wigend_reg_out_15__Z (
+	.devpor(tridevpor),
+	.devclrn(tridevclrn),
+	.regout(wigend_reg_out[15]),
+	.datain(data_c[7]),
+	.clk(nWE_i),
+	.aclr(~G_404),
+	.sclr(GND),
+	.sload(GND),
+	.sdata(GND),
+	.ena(wigend_reg_out31_0_a2_2_a2)
+);
+// @1:113
+  cycloneii_lcell_ff wigend_reg_out_14__Z (
+	.devpor(tridevpor),
+	.devclrn(tridevclrn),
+	.regout(wigend_reg_out[14]),
+	.datain(data_c[6]),
+	.clk(nWE_i),
+	.aclr(~G_404),
+	.sclr(GND),
+	.sload(GND),
+	.sdata(GND),
+	.ena(wigend_reg_out31_0_a2_2_a2)
+);
+// @1:113
+  cycloneii_lcell_ff wigend_reg_out_13__Z (
+	.devpor(tridevpor),
+	.devclrn(tridevclrn),
+	.regout(wigend_reg_out[13]),
+	.datain(data_c[5]),
+	.clk(nWE_i),
+	.aclr(~G_404),
+	.sclr(GND),
+	.sload(GND),
+	.sdata(GND),
+	.ena(wigend_reg_out31_0_a2_2_a2)
+);
+// @1:113
+  cycloneii_lcell_ff wigend_reg_out_12__Z (
+	.devpor(tridevpor),
+	.devclrn(tridevclrn),
+	.regout(wigend_reg_out[12]),
+	.datain(data_c[4]),
+	.clk(nWE_i),
+	.aclr(~G_404),
+	.sclr(GND),
+	.sload(GND),
+	.sdata(GND),
+	.ena(wigend_reg_out31_0_a2_2_a2)
+);
+// @1:113
+  cycloneii_lcell_ff wigend_reg_out_11__Z (
+	.devpor(tridevpor),
+	.devclrn(tridevclrn),
+	.regout(wigend_reg_out[11]),
+	.datain(data_c[3]),
+	.clk(nWE_i),
+	.aclr(~G_404),
+	.sclr(GND),
+	.sload(GND),
+	.sdata(GND),
+	.ena(wigend_reg_out31_0_a2_2_a2)
+);
+// @1:113
+  cycloneii_lcell_ff wigend_reg_out_10__Z (
+	.devpor(tridevpor),
+	.devclrn(tridevclrn),
+	.regout(wigend_reg_out[10]),
+	.datain(data_c[2]),
+	.clk(nWE_i),
+	.aclr(~G_404),
+	.sclr(GND),
+	.sload(GND),
+	.sdata(GND),
+	.ena(wigend_reg_out31_0_a2_2_a2)
+);
+// @1:113
+  cycloneii_lcell_ff wigend_reg_out_9__Z (
+	.devpor(tridevpor),
+	.devclrn(tridevclrn),
+	.regout(wigend_reg_out[9]),
+	.datain(data_c[1]),
+	.clk(nWE_i),
+	.aclr(~G_404),
+	.sclr(GND),
+	.sload(GND),
+	.sdata(GND),
+	.ena(wigend_reg_out31_0_a2_2_a2)
+);
+// @1:113
+  cycloneii_lcell_ff wigend_reg_out_8__Z (
+	.devpor(tridevpor),
+	.devclrn(tridevclrn),
+	.regout(wigend_reg_out[8]),
+	.datain(data_c[0]),
+	.clk(nWE_i),
+	.aclr(~G_404),
+	.sclr(GND),
+	.sload(GND),
+	.sdata(GND),
+	.ena(wigend_reg_out31_0_a2_2_a2)
+);
+// @1:105
+  cycloneii_lcell_ff wigend_reg_out_7__Z (
+	.devpor(tridevpor),
+	.devclrn(tridevclrn),
+	.regout(wigend_reg_out[7]),
+	.datain(data_c[7]),
+	.clk(nWE_i),
+	.aclr(~G_404),
+	.sclr(GND),
+	.sload(GND),
+	.sdata(GND),
+	.ena(wigend_reg_out12_0_a2_3_a2_x)
+);
+// @1:105
+  cycloneii_lcell_ff wigend_reg_out_6__Z (
+	.devpor(tridevpor),
+	.devclrn(tridevclrn),
+	.regout(wigend_reg_out[6]),
+	.datain(data_c[6]),
+	.clk(nWE_i),
+	.aclr(~G_404),
+	.sclr(GND),
+	.sload(GND),
+	.sdata(GND),
+	.ena(wigend_reg_out12_0_a2_3_a2_x)
+);
+// @1:105
+  cycloneii_lcell_ff wigend_reg_out_5__Z (
+	.devpor(tridevpor),
+	.devclrn(tridevclrn),
+	.regout(wigend_reg_out[5]),
+	.datain(data_c[5]),
+	.clk(nWE_i),
+	.aclr(~G_404),
+	.sclr(GND),
+	.sload(GND),
+	.sdata(GND),
+	.ena(wigend_reg_out12_0_a2_3_a2_x)
+);
+// @1:105
+  cycloneii_lcell_ff wigend_reg_out_4__Z (
+	.devpor(tridevpor),
+	.devclrn(tridevclrn),
+	.regout(wigend_reg_out[4]),
+	.datain(data_c[4]),
+	.clk(nWE_i),
+	.aclr(~G_404),
+	.sclr(GND),
+	.sload(GND),
+	.sdata(GND),
+	.ena(wigend_reg_out12_0_a2_3_a2_x)
+);
+// @1:105
+  cycloneii_lcell_ff wigend_reg_out_3__Z (
+	.devpor(tridevpor),
+	.devclrn(tridevclrn),
+	.regout(wigend_reg_out[3]),
+	.datain(data_c[3]),
+	.clk(nWE_i),
+	.aclr(~G_404),
+	.sclr(GND),
+	.sload(GND),
+	.sdata(GND),
+	.ena(wigend_reg_out12_0_a2_3_a2_x)
+);
+// @1:105
+  cycloneii_lcell_ff wigend_reg_out_2__Z (
+	.devpor(tridevpor),
+	.devclrn(tridevclrn),
+	.regout(wigend_reg_out[2]),
+	.datain(data_c[2]),
+	.clk(nWE_i),
+	.aclr(~G_404),
+	.sclr(GND),
+	.sload(GND),
+	.sdata(GND),
+	.ena(wigend_reg_out12_0_a2_3_a2_x)
+);
+// @1:105
+  cycloneii_lcell_ff wigend_reg_out_1__Z (
+	.devpor(tridevpor),
+	.devclrn(tridevclrn),
+	.regout(wigend_reg_out[1]),
+	.datain(data_c[1]),
+	.clk(nWE_i),
+	.aclr(~G_404),
+	.sclr(GND),
+	.sload(GND),
+	.sdata(GND),
+	.ena(wigend_reg_out12_0_a2_3_a2_x)
+);
+// @1:105
+  cycloneii_lcell_ff wigend_reg_out_0__Z (
+	.devpor(tridevpor),
+	.devclrn(tridevclrn),
+	.regout(wigend_reg_out[0]),
+	.datain(data_c[0]),
+	.clk(nWE_i),
+	.aclr(~G_404),
+	.sclr(GND),
+	.sload(GND),
+	.sdata(GND),
+	.ena(wigend_reg_out12_0_a2_3_a2_x)
+);
+// @1:149
+  cycloneii_lcell_ff wil_out_en_Z (
+	.devpor(tridevpor),
+	.devclrn(tridevclrn),
+	.regout(wil_out_en),
+	.datain(data_c[3]),
+	.clk(nWE_i),
+	.aclr(N_776_i_0),
+	.sclr(GND),
+	.sload(GND),
+	.sdata(GND),
+	.ena(wil_out_en7_0_a2_0_a2_x)
+);
+// @1:176
+  cycloneii_lcell_ff G5V_IO_0_Z (
+	.devpor(tridevpor),
+	.devclrn(tridevclrn),
+	.regout(G5V_IOz),
+	.datain(data_c[4]),
+	.clk(nWE_i),
+	.aclr(~G_404),
+	.sclr(GND),
+	.sload(GND),
+	.sdata(GND),
+	.ena(G5V_IO7_0_a2_1_a2)
+);
+// @1:184
+  cycloneii_lcell_ff FPGA_IO_0_Z (
+	.devpor(tridevpor),
+	.devclrn(tridevclrn),
+	.regout(FPGA_IOz),
+	.datain(data_c[5]),
+	.clk(nWE_i),
+	.aclr(~G_404),
+	.sclr(GND),
+	.sload(GND),
+	.sdata(GND),
+	.ena(G5V_IO7_0_a2_1_a2)
+);
+// @1:139
+  cycloneii_lcell_ff wil_in_irq_flag_Z (
+	.devpor(tridevpor),
+	.devclrn(tridevclrn),
+	.regout(wil_in_irq_flag),
+	.datain(wil_in_irq_flag_7_i_a2_0_a2_x),
+	.clk(clk_c),
+	.aclr(~G_404),
+	.sclr(GND),
+	.sload(GND),
+	.sdata(GND),
+	.ena(N_931_i)
+);
+// @1:157
+  cycloneii_lcell_ff wil_out_irq_flag_Z (
+	.devpor(tridevpor),
+	.devclrn(tridevclrn),
+	.regout(wil_out_irq_flag),
+	.datain(wil_out_irq_flag_7_i_a2_0_a2_x),
+	.clk(clk_c),
+	.aclr(~G_404),
+	.sclr(GND),
+	.sload(GND),
+	.sdata(GND),
+	.ena(N_930_i)
+);
+  assign  wdata_i_i_n[4] = ~ wdata[4];
+// @1:85
+  cycloneii_lcell_comb un1_nGCS_3_3_cZ (
+	.combout(un1_nGCS_3_3),
+	.cout(),
+	.dataa(nGCS_c[3]),
+	.datab(addr_c[0]),
+	.datac(nWE_c),
+	.datad(nOE_c),
+	.cin(GND)
+);
+defparam un1_nGCS_3_3_cZ.lut_mask=16'h0040;
+defparam un1_nGCS_3_3_cZ.sum_lutc_input="datac";
+// @1:85
+  cycloneii_lcell_comb wdata42_7_cZ (
+	.combout(wdata42_7),
+	.cout(),
+	.dataa(addr_c[1]),
+	.datab(addr_c[0]),
+	.datac(addr_c[3]),
+	.datad(addr_c[2]),
+	.cin(GND)
+);
+defparam wdata42_7_cZ.lut_mask=16'h8000;
+defparam wdata42_7_cZ.sum_lutc_input="datac";
+// @1:85
+  cycloneii_lcell_comb wdata42_8_cZ (
+	.combout(wdata42_8),
+	.cout(),
+	.dataa(addr_c[5]),
+	.datab(addr_c[4]),
+	.datac(addr_c[7]),
+	.datad(addr_c[6]),
+	.cin(GND)
+);
+defparam wdata42_8_cZ.lut_mask=16'h0001;
+defparam wdata42_8_cZ.sum_lutc_input="datac";
+// @1:85
+  cycloneii_lcell_comb wdata_1_i_0_a2_2_3_ (
+	.combout(wdata_1_i_0_a2_2[3]),
+	.cout(),
+	.dataa(G5V_IOz),
+	.datab(addr_c[2]),
+	.datac(addr_c[3]),
+	.datad(addr_c[1]),
+	.cin(GND)
+);
+defparam wdata_1_i_0_a2_2_3_.lut_mask=16'h0004;
+defparam wdata_1_i_0_a2_2_3_.sum_lutc_input="datac";
+// @1:85
+  cycloneii_lcell_comb wdata_1_i_0_0_a2_4_4_ (
+	.combout(wdata_1_i_0_0_a2_4[4]),
+	.cout(),
+	.dataa(FPGA_IOz),
+	.datab(addr_c[2]),
+	.datac(addr_c[3]),
+	.datad(addr_c[1]),
+	.cin(GND)
+);
+defparam wdata_1_i_0_0_a2_4_4_.lut_mask=16'h0004;
+defparam wdata_1_i_0_0_a2_4_4_.sum_lutc_input="datac";
+// @1:85
+  cycloneii_lcell_comb wdata_1_i_0_0_a2_2_4_ (
+	.combout(wdata_1_i_0_0_a2_2[4]),
+	.cout(),
+	.dataa(wigend_reg_out[4]),
+	.datab(addr_c[2]),
+	.datac(addr_c[1]),
+	.datad(addr_c[0]),
+	.cin(GND)
+);
+defparam wdata_1_i_0_0_a2_2_4_.lut_mask=16'h0100;
+defparam wdata_1_i_0_0_a2_2_4_.sum_lutc_input="datac";
+// @1:117
+  cycloneii_lcell_comb wigend_reg_out31_0_a2_2_a2_cZ (
+	.combout(wigend_reg_out31_0_a2_2_a2),
+	.cout(),
+	.dataa(un1_nGCS_8_0_0_a2_3_x),
+	.datab(wigend_reg_out12_0_a2_3_a2_0_x),
+	.datac(addr_c[0]),
+	.datad(addr_c[1]),
+	.cin(GND)
+);
+defparam wigend_reg_out31_0_a2_2_a2_cZ.lut_mask=16'h0800;
+defparam wigend_reg_out31_0_a2_2_a2_cZ.sum_lutc_input="datac";
+// @1:125
+  cycloneii_lcell_comb wigend_reg_out51_0_a2_1_a2_cZ (
+	.combout(wigend_reg_out51_0_a2_1_a2),
+	.cout(),
+	.dataa(un1_nGCS_8_0_0_a2_3_x),
+	.datab(wigend_reg_out12_0_a2_3_a2_0_x),
+	.datac(addr_c[1]),
+	.datad(addr_c[0]),
+	.cin(GND)
+);
+defparam wigend_reg_out51_0_a2_1_a2_cZ.lut_mask=16'h8000;
+defparam wigend_reg_out51_0_a2_1_a2_cZ.sum_lutc_input="datac";
+// @1:85
+  cycloneii_lcell_comb wdata42_cZ (
+	.combout(wdata42),
+	.cout(),
+	.dataa(wdata42_a_x),
+	.datab(wdata42_7),
+	.datac(wdata42_8),
+	.datad(nWE_c),
+	.cin(GND)
+);
+defparam wdata42_cZ.lut_mask=16'h8000;
+defparam wdata42_cZ.sum_lutc_input="datac";
+// @1:180
+  cycloneii_lcell_comb G5V_IO7_0_a2_1_a2_cZ (
+	.combout(G5V_IO7_0_a2_1_a2),
+	.cout(),
+	.dataa(G5V_IO7_0_a2_1_a2_a_x),
+	.datab(wigend_reg_out12_0_a2_3_a2_0_x),
+	.datac(addr_c[2]),
+	.datad(addr_c[3]),
+	.cin(GND)
+);
+defparam G5V_IO7_0_a2_1_a2_cZ.lut_mask=16'h0080;
+defparam G5V_IO7_0_a2_1_a2_cZ.sum_lutc_input="datac";
+// @1:74
+  cycloneii_lcell_comb nEXTBUS_0_a2_0_a2_cZ (
+	.combout(nEXTBUS_0_a2_0_a2),
+	.cout(),
+	.dataa(nEXTBUS_0_a2_0_a2_a_x),
+	.datab(nGCS_c[1]),
+	.datac(nFCE_c),
+	.datad(nGCS_c[3]),
+	.cin(GND)
+);
+defparam nEXTBUS_0_a2_0_a2_cZ.lut_mask=16'h4000;
+defparam nEXTBUS_0_a2_0_a2_cZ.sum_lutc_input="datac";
+// @1:85
+  cycloneii_lcell_comb wdata_1_i_0_3_0_ (
+	.combout(wdata_1_i_0_3[0]),
+	.cout(),
+	.dataa(wigend_reg_out[24]),
+	.datab(wigend_reg_out[8]),
+	.datac(wdata_1_i_0_1_a_x[1]),
+	.datad(addr_c[1]),
+	.cin(GND)
+);
+defparam wdata_1_i_0_3_0_.lut_mask=16'hcfaf;
+defparam wdata_1_i_0_3_0_.sum_lutc_input="datac";
+// @1:85
+  cycloneii_lcell_comb wdata_1_i_0_1_1_ (
+	.combout(wdata_1_i_0_1[1]),
+	.cout(),
+	.dataa(wigend_reg_out[25]),
+	.datab(wigend_reg_out[9]),
+	.datac(wdata_1_i_0_1_a_x[1]),
+	.datad(addr_c[1]),
+	.cin(GND)
+);
+defparam wdata_1_i_0_1_1_.lut_mask=16'hcfaf;
+defparam wdata_1_i_0_1_1_.sum_lutc_input="datac";
+// @1:85
+  cycloneii_lcell_comb wdata_1_i_0_0_1_a_4_ (
+	.combout(wdata_1_i_0_0_1_a[4]),
+	.cout(),
+	.dataa(wil_out_irq_flag),
+	.datab(addr_c[0]),
+	.datac(addr_c[3]),
+	.datad(addr_c[2]),
+	.cin(GND)
+);
+defparam wdata_1_i_0_0_1_a_4_.lut_mask=16'h5313;
+defparam wdata_1_i_0_0_1_a_4_.sum_lutc_input="datac";
+// @1:109
+  cycloneii_lcell_comb wigend_reg_out12_0_a2_3_a2_1_cZ (
+	.combout(wigend_reg_out12_0_a2_3_a2_1),
+	.cout(),
+	.dataa(wigend_reg_out12_0_a2_3_a2_1_a_x),
+	.datab(addr_c[8]),
+	.datac(addr_c[6]),
+	.datad(nGCS_c[3]),
+	.cin(GND)
+);
+defparam wigend_reg_out12_0_a2_3_a2_1_cZ.lut_mask=16'h0002;
+defparam wigend_reg_out12_0_a2_3_a2_1_cZ.sum_lutc_input="datac";
+// @1:143
+  cycloneii_lcell_comb un1_wil_in_irq_flag11_1_0_0_a_cZ (
+	.combout(un1_wil_in_irq_flag11_1_0_0_a),
+	.cout(),
+	.dataa(\wigend_in.wigend_bitcnt [3]),
+	.datab(\wigend_in.wigend_bitcnt [2]),
+	.datac(\wigend_in.wigend_bitcnt [4]),
+	.datad(VCC),
+	.cin(GND)
+);
+defparam un1_wil_in_irq_flag11_1_0_0_a_cZ.lut_mask=16'h2020;
+defparam un1_wil_in_irq_flag11_1_0_0_a_cZ.sum_lutc_input="datac";
+// @1:143
+  cycloneii_lcell_comb un1_wil_in_irq_flag11_1_0_0 (
+	.combout(N_931_i),
+	.cout(),
+	.dataa(un1_wil_in_irq_flag11_1_0_0_a),
+	.datab(\wigend_in.wigend_bitcnt [1]),
+	.datac(un1_wil_in_irq_flag11_0_0_a2_0_x),
+	.datad(nWE_c),
+	.cin(GND)
+);
+defparam un1_wil_in_irq_flag11_1_0_0.lut_mask=16'h22f2;
+defparam un1_wil_in_irq_flag11_1_0_0.sum_lutc_input="datac";
+// @1:85
+  cycloneii_lcell_comb wdata_1_i_0_a_7_ (
+	.combout(wdata_1_i_0_a[7]),
+	.cout(),
+	.dataa(wigend_reg_out[15]),
+	.datab(wigend_reg_out[23]),
+	.datac(addr_c[0]),
+	.datad(addr_c[1]),
+	.cin(GND)
+);
+defparam wdata_1_i_0_a_7_.lut_mask=16'h3500;
+defparam wdata_1_i_0_a_7_.sum_lutc_input="datac";
+// @1:85
+  cycloneii_lcell_comb wdata_1_i_0_7_ (
+	.combout(wdata_1_i_0[7]),
+	.cout(),
+	.dataa(wdata_1_i_0_a[7]),
+	.datab(wigend_reg_out[7]),
+	.datac(wdata_1_i_0_a2_2_x[2]),
+	.datad(wdata_1_i_0_a2_8_x[0]),
+	.cin(GND)
+);
+defparam wdata_1_i_0_7_.lut_mask=16'h0405;
+defparam wdata_1_i_0_7_.sum_lutc_input="datac";
+// @1:85
+  cycloneii_lcell_comb wdata_1_i_0_a_2_ (
+	.combout(wdata_1_i_0_a[2]),
+	.cout(),
+	.dataa(wigend_reg_out[10]),
+	.datab(wigend_reg_out[18]),
+	.datac(addr_c[0]),
+	.datad(addr_c[1]),
+	.cin(GND)
+);
+defparam wdata_1_i_0_a_2_.lut_mask=16'h3500;
+defparam wdata_1_i_0_a_2_.sum_lutc_input="datac";
+// @1:85
+  cycloneii_lcell_comb wdata_1_i_0_2_ (
+	.combout(wdata_1_i_0[2]),
+	.cout(),
+	.dataa(wdata_1_i_0_a[2]),
+	.datab(wigend_reg_out[2]),
+	.datac(wdata_1_i_0_a2_2_x[2]),
+	.datad(wdata_1_i_0_a2_8_x[0]),
+	.cin(GND)
+);
+defparam wdata_1_i_0_2_.lut_mask=16'h0405;
+defparam wdata_1_i_0_2_.sum_lutc_input="datac";
+// @1:85
+  cycloneii_lcell_comb wdata_1_i_0_a_5_ (
+	.combout(wdata_1_i_0_a[5]),
+	.cout(),
+	.dataa(wigend_reg_out[13]),
+	.datab(wigend_reg_out[21]),
+	.datac(addr_c[0]),
+	.datad(addr_c[1]),
+	.cin(GND)
+);
+defparam wdata_1_i_0_a_5_.lut_mask=16'h3500;
+defparam wdata_1_i_0_a_5_.sum_lutc_input="datac";
+// @1:85
+  cycloneii_lcell_comb wdata_1_i_0_5_ (
+	.combout(wdata_1_i_0[5]),
+	.cout(),
+	.dataa(wdata_1_i_0_a[5]),
+	.datab(wigend_reg_out[5]),
+	.datac(wdata_1_i_0_a2_2_x[2]),
+	.datad(wdata_1_i_0_a2_8_x[0]),
+	.cin(GND)
+);
+defparam wdata_1_i_0_5_.lut_mask=16'h0405;
+defparam wdata_1_i_0_5_.sum_lutc_input="datac";
+// @1:85
+  cycloneii_lcell_comb wdata_1_i_0_a_6_ (
+	.combout(wdata_1_i_0_a[6]),
+	.cout(),
+	.dataa(wigend_reg_out[14]),
+	.datab(wigend_reg_out[22]),
+	.datac(addr_c[0]),
+	.datad(addr_c[1]),
+	.cin(GND)
+);
+defparam wdata_1_i_0_a_6_.lut_mask=16'h3500;
+defparam wdata_1_i_0_a_6_.sum_lutc_input="datac";
+// @1:85
+  cycloneii_lcell_comb wdata_1_i_0_6_ (
+	.combout(wdata_1_i_0[6]),
+	.cout(),
+	.dataa(wdata_1_i_0_a[6]),
+	.datab(wigend_reg_out[6]),
+	.datac(wdata_1_i_0_a2_2_x[2]),
+	.datad(wdata_1_i_0_a2_8_x[0]),
+	.cin(GND)
+);
+defparam wdata_1_i_0_6_.lut_mask=16'h0405;
+defparam wdata_1_i_0_6_.sum_lutc_input="datac";
+// @1:85
+  cycloneii_lcell_comb wdata_1_i_0_1_a_0_ (
+	.combout(wdata_1_i_0_1_a[0]),
+	.cout(),
+	.dataa(addr_c[2]),
+	.datab(addr_c[0]),
+	.datac(wil_in_irq_flag),
+	.datad(addr_c[3]),
+	.cin(GND)
+);
+defparam wdata_1_i_0_1_a_0_.lut_mask=16'h0b11;
+defparam wdata_1_i_0_1_a_0_.sum_lutc_input="datac";
+// @1:85
+  cycloneii_lcell_comb wdata_1_i_0_3_a_3_ (
+	.combout(wdata_1_i_0_3_a[3]),
+	.cout(),
+	.dataa(wigend_reg_out[11]),
+	.datab(wigend_reg_out[19]),
+	.datac(addr_c[0]),
+	.datad(addr_c[1]),
+	.cin(GND)
+);
+defparam wdata_1_i_0_3_a_3_.lut_mask=16'h3500;
+defparam wdata_1_i_0_3_a_3_.sum_lutc_input="datac";
+// @1:85
+  cycloneii_lcell_comb wdata_1_i_0_3_3_ (
+	.combout(wdata_1_i_0_3[3]),
+	.cout(),
+	.dataa(wdata_1_i_0_3_a[3]),
+	.datab(wil_out_en),
+	.datac(wdata_1_i_0_a2_2_x[2]),
+	.datad(addr_c[2]),
+	.cin(GND)
+);
+defparam wdata_1_i_0_3_3_.lut_mask=16'h0545;
+defparam wdata_1_i_0_3_3_.sum_lutc_input="datac";
+// @1:85
+  cycloneii_lcell_comb wdata_1_i_0_2_a_1_ (
+	.combout(wdata_1_i_0_2_a[1]),
+	.cout(),
+	.dataa(wigend_reg_out[1]),
+	.datab(wdata_1_i_0_a2_2_x[2]),
+	.datac(wdata_1_i_0_a2_8_x[0]),
+	.datad(addr_c[2]),
+	.cin(GND)
+);
+defparam wdata_1_i_0_2_a_1_.lut_mask=16'h50dc;
+defparam wdata_1_i_0_2_a_1_.sum_lutc_input="datac";
+// @1:85
+  cycloneii_lcell_comb wdata_1_i_0_2_1_ (
+	.combout(wdata_1_i_0_2[1]),
+	.cout(),
+	.dataa(wdata_1_i_0_2_a[1]),
+	.datab(wigend_reg_out[17]),
+	.datac(addr_c[0]),
+	.datad(addr_c[1]),
+	.cin(GND)
+);
+defparam wdata_1_i_0_2_1_.lut_mask=16'h4555;
+defparam wdata_1_i_0_2_1_.sum_lutc_input="datac";
+// @1:85
+  cycloneii_lcell_comb wdata39_1_cZ (
+	.combout(wdata39_1),
+	.cout(),
+	.dataa(wdata_1_i_0_a2_2_x[2]),
+	.datab(wdata39_1_a_x),
+	.datac(addr_c[2]),
+	.datad(nGCS_c[3]),
+	.cin(GND)
+);
+defparam wdata39_1_cZ.lut_mask=16'h0080;
+defparam wdata39_1_cZ.sum_lutc_input="datac";
+// @1:85
+  cycloneii_lcell_comb un1_addr_28_0_0_a_cZ (
+	.combout(un1_addr_28_0_0_a),
+	.cout(),
+	.dataa(addr_c[3]),
+	.datab(addr_c[1]),
+	.datac(addr_c[8]),
+	.datad(addr_c[0]),
+	.cin(GND)
+);
+defparam un1_addr_28_0_0_a_cZ.lut_mask=16'h0301;
+defparam un1_addr_28_0_0_a_cZ.sum_lutc_input="datac";
+// @1:85
+  cycloneii_lcell_comb un1_addr_28_0_0_cZ (
+	.combout(un1_addr_28_0_0),
+	.cout(),
+	.dataa(un1_addr_28_0_0_a),
+	.datab(wigend_reg_out12_0_a2_3_a2_1_a_x),
+	.datac(addr_c[6]),
+	.datad(addr_c[2]),
+	.cin(GND)
+);
+defparam un1_addr_28_0_0_cZ.lut_mask=16'hf7ff;
+defparam un1_addr_28_0_0_cZ.sum_lutc_input="datac";
+// @1:85
+  cycloneii_lcell_comb wdata_1_i_0_1_ (
+	.combout(wdata_1_i_0[1]),
+	.cout(),
+	.dataa(wdata_1_i_0_1[1]),
+	.datab(wdata_1_i_0_2[1]),
+	.datac(VCC),
+	.datad(VCC),
+	.cin(GND)
+);
+defparam wdata_1_i_0_1_.lut_mask=16'h8888;
+defparam wdata_1_i_0_1_.sum_lutc_input="datac";
+// @1:85
+  cycloneii_lcell_comb wdata_1_i_0_3_ (
+	.combout(wdata_1_i_0[3]),
+	.cout(),
+	.dataa(wdata_1_i_0_3[3]),
+	.datab(wdata_1_i_0_a2_2[3]),
+	.datac(wigend_reg_out[3]),
+	.datad(wdata_1_i_0_a2_8_x[0]),
+	.cin(GND)
+);
+defparam wdata_1_i_0_3_.lut_mask=16'h2022;
+defparam wdata_1_i_0_3_.sum_lutc_input="datac";
+// @1:85
+  cycloneii_lcell_comb un1_nGCS_4_a_cZ (
+	.combout(un1_nGCS_4_a),
+	.cout(),
+	.dataa(addr_c[3]),
+	.datab(addr_c[6]),
+	.datac(addr_c[8]),
+	.datad(addr_c[1]),
+	.cin(GND)
+);
+defparam un1_nGCS_4_a_cZ.lut_mask=16'h0203;
+defparam un1_nGCS_4_a_cZ.sum_lutc_input="datac";
+// @1:85
+  cycloneii_lcell_comb un1_nGCS_4 (
+	.combout(un1_nGCS_4_combout),
+	.cout(),
+	.dataa(un1_nGCS_4_a),
+	.datab(wigend_reg_out12_0_a2_3_a2_1_a_x),
+	.datac(un1_nGCS_3_3),
+	.datad(addr_c[2]),
+	.cin(GND)
+);
+defparam un1_nGCS_4.lut_mask=16'h8000;
+defparam un1_nGCS_4.sum_lutc_input="datac";
+// @1:85
+  cycloneii_lcell_comb un1_addr_26_0_0_a_cZ (
+	.combout(un1_addr_26_0_0_a),
+	.cout(),
+	.dataa(addr_c[0]),
+	.datab(addr_c[3]),
+	.datac(addr_c[1]),
+	.datad(addr_c[8]),
+	.cin(GND)
+);
+defparam un1_addr_26_0_0_a_cZ.lut_mask=16'h008b;
+defparam un1_addr_26_0_0_a_cZ.sum_lutc_input="datac";
+// @1:85
+  cycloneii_lcell_comb un1_addr_26_0_0_cZ (
+	.combout(un1_addr_26_0_0),
+	.cout(),
+	.dataa(un1_addr_26_0_0_a),
+	.datab(wigend_reg_out12_0_a2_3_a2_1_a_x),
+	.datac(addr_c[6]),
+	.datad(addr_c[2]),
+	.cin(GND)
+);
+defparam un1_addr_26_0_0_cZ.lut_mask=16'hf7ff;
+defparam un1_addr_26_0_0_cZ.sum_lutc_input="datac";
+// @1:85
+  cycloneii_lcell_comb un1_addr_27_0_0_a_cZ (
+	.combout(un1_addr_27_0_0_a),
+	.cout(),
+	.dataa(addr_c[0]),
+	.datab(addr_c[3]),
+	.datac(addr_c[8]),
+	.datad(addr_c[1]),
+	.cin(GND)
+);
+defparam un1_addr_27_0_0_a_cZ.lut_mask=16'h0809;
+defparam un1_addr_27_0_0_a_cZ.sum_lutc_input="datac";
+// @1:85
+  cycloneii_lcell_comb un1_addr_27_0_0_cZ (
+	.combout(un1_addr_27_0_0),
+	.cout(),
+	.dataa(un1_addr_27_0_0_a),
+	.datab(wigend_reg_out12_0_a2_3_a2_1_a_x),
+	.datac(addr_c[6]),
+	.datad(addr_c[2]),
+	.cin(GND)
+);
+defparam un1_addr_27_0_0_cZ.lut_mask=16'hf7ff;
+defparam un1_addr_27_0_0_cZ.sum_lutc_input="datac";
+// @1:85
+  cycloneii_lcell_comb wdata_1_i_0_0_a_4_ (
+	.combout(wdata_1_i_0_0_a[4]),
+	.cout(),
+	.dataa(wigend_reg_out[12]),
+	.datab(wigend_reg_out[20]),
+	.datac(addr_c[0]),
+	.datad(addr_c[1]),
+	.cin(GND)
+);
+defparam wdata_1_i_0_0_a_4_.lut_mask=16'h3500;
+defparam wdata_1_i_0_0_a_4_.sum_lutc_input="datac";
+// @1:85
+  cycloneii_lcell_comb wdata_1_i_0_0_4_ (
+	.combout(wdata_1_i_0_0[4]),
+	.cout(),
+	.dataa(wdata_1_i_0_0_a[4]),
+	.datab(wdata_1_i_0_0_a2_2[4]),
+	.datac(wdata_1_i_0_0_a2_4[4]),
+	.datad(wdata_1_i_0_0_1_x[4]),
+	.cin(GND)
+);
+defparam wdata_1_i_0_0_4_.lut_mask=16'hfeff;
+defparam wdata_1_i_0_0_4_.sum_lutc_input="datac";
+// @1:85
+  cycloneii_lcell_comb wdata_1_i_0_4_a_0_ (
+	.combout(wdata_1_i_0_4_a[0]),
+	.cout(),
+	.dataa(wigend_reg_out[16]),
+	.datab(wigend_reg_out[0]),
+	.datac(addr_c[1]),
+	.datad(addr_c[2]),
+	.cin(GND)
+);
+defparam wdata_1_i_0_4_a_0_.lut_mask=16'h5053;
+defparam wdata_1_i_0_4_a_0_.sum_lutc_input="datac";
+// @1:85
+  cycloneii_lcell_comb un1_nGCS_5 (
+	.combout(un1_nGCS_5_combout),
+	.cout(),
+	.dataa(un1_addr_28_0_0),
+	.datab(nOE_c),
+	.datac(nGCS_c[3]),
+	.datad(nWE_c),
+	.cin(GND)
+);
+defparam un1_nGCS_5.lut_mask=16'h0100;
+defparam un1_nGCS_5.sum_lutc_input="datac";
+// @1:85
+  cycloneii_lcell_comb un1_nGCS_3_a_cZ (
+	.combout(un1_nGCS_3_a),
+	.cout(),
+	.dataa(addr_c[1]),
+	.datab(addr_c[6]),
+	.datac(addr_c[3]),
+	.datad(addr_c[8]),
+	.cin(GND)
+);
+defparam un1_nGCS_3_a_cZ.lut_mask=16'h0021;
+defparam un1_nGCS_3_a_cZ.sum_lutc_input="datac";
+// @1:85
+  cycloneii_lcell_comb un1_nGCS_3 (
+	.combout(un1_nGCS_3_combout),
+	.cout(),
+	.dataa(un1_nGCS_3_a),
+	.datab(wigend_reg_out12_0_a2_3_a2_1_a_x),
+	.datac(un1_nGCS_3_3),
+	.datad(addr_c[2]),
+	.cin(GND)
+);
+defparam un1_nGCS_3.lut_mask=16'h8000;
+defparam un1_nGCS_3.sum_lutc_input="datac";
+// @1:85
+  cycloneii_lcell_comb un1_nGCS_7 (
+	.combout(un1_nGCS_7_combout),
+	.cout(),
+	.dataa(un1_addr_26_0_0),
+	.datab(nOE_c),
+	.datac(nGCS_c[3]),
+	.datad(nWE_c),
+	.cin(GND)
+);
+defparam un1_nGCS_7.lut_mask=16'h0100;
+defparam un1_nGCS_7.sum_lutc_input="datac";
+// @1:85
+  cycloneii_lcell_comb un1_nGCS_6 (
+	.combout(un1_nGCS_6_combout),
+	.cout(),
+	.dataa(un1_addr_27_0_0),
+	.datab(nOE_c),
+	.datac(nGCS_c[3]),
+	.datad(nWE_c),
+	.cin(GND)
+);
+defparam un1_nGCS_6.lut_mask=16'h0100;
+defparam un1_nGCS_6.sum_lutc_input="datac";
+// @1:85
+  cycloneii_lcell_comb un1_wdata35_1_a_cZ (
+	.combout(un1_wdata35_1_a),
+	.cout(),
+	.dataa(nWE_c),
+	.datab(addr_c[2]),
+	.datac(addr_c[3]),
+	.datad(nOE_c),
+	.cin(GND)
+);
+defparam un1_wdata35_1_a_cZ.lut_mask=16'hfffd;
+defparam un1_wdata35_1_a_cZ.sum_lutc_input="datac";
+// @1:34
+  cycloneii_lcell_comb eint1_0_a2_i_cZ (
+	.combout(eint1_0_a2_i),
+	.cout(),
+	.dataa(N_776_i),
+	.datab(\wigend_in.int_1_0_a2_0 ),
+	.datac(\wigend_in.wigend_bitcnt [1]),
+	.datad(\wigend_in.wigend_bitcnt [3]),
+	.cin(GND)
+);
+defparam eint1_0_a2_i_cZ.lut_mask=16'h5155;
+defparam eint1_0_a2_i_cZ.sum_lutc_input="datac";
+// @1:85
+  cycloneii_lcell_comb un1_wdata35_2_cZ (
+	.combout(un1_wdata35_2),
+	.cout(),
+	.dataa(wdata39_1),
+	.datab(un1_wdata35_1_x),
+	.datac(nWE_c),
+	.datad(nOE_c),
+	.cin(GND)
+);
+defparam un1_wdata35_2_cZ.lut_mask=16'hccec;
+defparam un1_wdata35_2_cZ.sum_lutc_input="datac";
+// @1:85
+  cycloneii_lcell_comb un1_wdata37_a_cZ (
+	.combout(un1_wdata37_a),
+	.cout(),
+	.dataa(addr_c[2]),
+	.datab(addr_c[3]),
+	.datac(addr_c[0]),
+	.datad(addr_c[1]),
+	.cin(GND)
+);
+defparam un1_wdata37_a_cZ.lut_mask=16'h11b1;
+defparam un1_wdata37_a_cZ.sum_lutc_input="datac";
+// @1:85
+  cycloneii_lcell_comb un1_wdata37_cZ (
+	.combout(un1_wdata37),
+	.cout(),
+	.dataa(wigend_reg_out12_0_a2_3_a2_1),
+	.datab(un1_wdata37_a),
+	.datac(nOE_c),
+	.datad(nWE_c),
+	.cin(GND)
+);
+defparam un1_wdata37_cZ.lut_mask=16'h0800;
+defparam un1_wdata37_cZ.sum_lutc_input="datac";
+// @1:85
+  cycloneii_lcell_comb un1_wdata35_3_cZ (
+	.combout(un1_wdata35_3),
+	.cout(),
+	.dataa(un1_wdata35_2),
+	.datab(un1_nGCS_8_0_0_a2_2_0_x),
+	.datac(un1_wdata35_3_a_x),
+	.datad(nWE_c),
+	.cin(GND)
+);
+defparam un1_wdata35_3_cZ.lut_mask=16'heaaa;
+defparam un1_wdata35_3_cZ.sum_lutc_input="datac";
+// @1:85
+  cycloneii_lcell_comb un1_wdata35_3_a_x_cZ (
+	.combout(un1_wdata35_3_a_x),
+	.cout(),
+	.dataa(addr_c[2]),
+	.datab(addr_c[1]),
+	.datac(addr_c[0]),
+	.datad(VCC),
+	.cin(GND)
+);
+defparam un1_wdata35_3_a_x_cZ.lut_mask=16'h2020;
+defparam un1_wdata35_3_a_x_cZ.sum_lutc_input="datac";
+// @1:143
+  cycloneii_lcell_comb un1_wil_in_irq_flag11_0_0_x (
+	.combout(N_930_i),
+	.cout(),
+	.dataa(N_776_i),
+	.datab(un1_wil_in_irq_flag11_0_0_a2_0_x),
+	.datac(nWE_c),
+	.datad(VCC),
+	.cin(GND)
+);
+defparam un1_wil_in_irq_flag11_0_0_x.lut_mask=16'haeae;
+defparam un1_wil_in_irq_flag11_0_0_x.sum_lutc_input="datac";
+// @1:85
+  cycloneii_lcell_comb un1_wdata35_1_x_cZ (
+	.combout(un1_wdata35_1_x),
+	.cout(),
+	.dataa(wigend_reg_out12_0_a2_3_a2_1),
+	.datab(un1_wdata35_1_a),
+	.datac(VCC),
+	.datad(VCC),
+	.cin(GND)
+);
+defparam un1_wdata35_1_x_cZ.lut_mask=16'h2222;
+defparam un1_wdata35_1_x_cZ.sum_lutc_input="datac";
+// @1:85
+  cycloneii_lcell_comb wdata_1_i_0_x_0_ (
+	.combout(wdata_1_i_0_x[0]),
+	.cout(),
+	.dataa(wdata_1_i_0_3[0]),
+	.datab(wdata_1_i_0_4_x[0]),
+	.datac(VCC),
+	.datad(VCC),
+	.cin(GND)
+);
+defparam wdata_1_i_0_x_0_.lut_mask=16'h8888;
+defparam wdata_1_i_0_x_0_.sum_lutc_input="datac";
+// @1:85
+  cycloneii_lcell_comb wdata_1_i_0_4_x_0_ (
+	.combout(wdata_1_i_0_4_x[0]),
+	.cout(),
+	.dataa(wdata_1_i_0_4_a[0]),
+	.datab(wdata_1_i_0_1_x[0]),
+	.datac(addr_c[0]),
+	.datad(VCC),
+	.cin(GND)
+);
+defparam wdata_1_i_0_4_x_0_.lut_mask=16'h4c4c;
+defparam wdata_1_i_0_4_x_0_.sum_lutc_input="datac";
+// @1:85
+  cycloneii_lcell_comb wdata39_x_cZ (
+	.combout(wdata39_x),
+	.cout(),
+	.dataa(wdata39_1),
+	.datab(nWE_c),
+	.datac(nOE_c),
+	.datad(VCC),
+	.cin(GND)
+);
+defparam wdata39_x_cZ.lut_mask=16'h0808;
+defparam wdata39_x_cZ.sum_lutc_input="datac";
+// @1:85
+  cycloneii_lcell_comb un1_nGCS_8_0_0_a2_2_0_x_cZ (
+	.combout(un1_nGCS_8_0_0_a2_2_0_x),
+	.cout(),
+	.dataa(wigend_reg_out12_0_a2_3_a2_1),
+	.datab(nOE_c),
+	.datac(VCC),
+	.datad(VCC),
+	.cin(GND)
+);
+defparam un1_nGCS_8_0_0_a2_2_0_x_cZ.lut_mask=16'h2222;
+defparam un1_nGCS_8_0_0_a2_2_0_x_cZ.sum_lutc_input="datac";
+// @1:109
+  cycloneii_lcell_comb wigend_reg_out12_0_a2_3_a2_0_x_cZ (
+	.combout(wigend_reg_out12_0_a2_3_a2_0_x),
+	.cout(),
+	.dataa(wigend_reg_out12_0_a2_3_a2_1),
+	.datab(nOE_c),
+	.datac(VCC),
+	.datad(VCC),
+	.cin(GND)
+);
+defparam wigend_reg_out12_0_a2_3_a2_0_x_cZ.lut_mask=16'h8888;
+defparam wigend_reg_out12_0_a2_3_a2_0_x_cZ.sum_lutc_input="datac";
+// @1:85
+  cycloneii_lcell_comb wdata39_1_a_x_cZ (
+	.combout(wdata39_1_a_x),
+	.cout(),
+	.dataa(wigend_reg_out12_0_a2_3_a2_1_a_x),
+	.datab(addr_c[6]),
+	.datac(addr_c[8]),
+	.datad(VCC),
+	.cin(GND)
+);
+defparam wdata39_1_a_x_cZ.lut_mask=16'h0202;
+defparam wdata39_1_a_x_cZ.sum_lutc_input="datac";
+// @1:85
+  cycloneii_lcell_comb wdata_1_i_0_1_x_0_ (
+	.combout(wdata_1_i_0_1_x[0]),
+	.cout(),
+	.dataa(wdata_1_i_0_1_a[0]),
+	.datab(addr_c[1]),
+	.datac(VCC),
+	.datad(VCC),
+	.cin(GND)
+);
+defparam wdata_1_i_0_1_x_0_.lut_mask=16'hdddd;
+defparam wdata_1_i_0_1_x_0_.sum_lutc_input="datac";
+// @1:141
+  cycloneii_lcell_comb wil_in_irq_flag_7_i_a2_0_a2_x_cZ (
+	.combout(wil_in_irq_flag_7_i_a2_0_a2_x),
+	.cout(),
+	.dataa(un1_wil_in_irq_flag11_0_0_a2_0_x),
+	.datab(data_c[0]),
+	.datac(nWE_c),
+	.datad(VCC),
+	.cin(GND)
+);
+defparam wil_in_irq_flag_7_i_a2_0_a2_x_cZ.lut_mask=16'hfdfd;
+defparam wil_in_irq_flag_7_i_a2_0_a2_x_cZ.sum_lutc_input="datac";
+// @1:159
+  cycloneii_lcell_comb wil_out_irq_flag_7_i_a2_0_a2_x_cZ (
+	.combout(wil_out_irq_flag_7_i_a2_0_a2_x),
+	.cout(),
+	.dataa(un1_wil_in_irq_flag11_0_0_a2_0_x),
+	.datab(data_c[4]),
+	.datac(nWE_c),
+	.datad(VCC),
+	.cin(GND)
+);
+defparam wil_out_irq_flag_7_i_a2_0_a2_x_cZ.lut_mask=16'hfdfd;
+defparam wil_out_irq_flag_7_i_a2_0_a2_x_cZ.sum_lutc_input="datac";
+// @1:109
+  cycloneii_lcell_comb wigend_reg_out12_0_a2_3_a2_1_a_x_cZ (
+	.combout(wigend_reg_out12_0_a2_3_a2_1_a_x),
+	.cout(),
+	.dataa(addr_c[5]),
+	.datab(addr_c[7]),
+	.datac(addr_c[4]),
+	.datad(VCC),
+	.cin(GND)
+);
+defparam wigend_reg_out12_0_a2_3_a2_1_a_x_cZ.lut_mask=16'h0101;
+defparam wigend_reg_out12_0_a2_3_a2_1_a_x_cZ.sum_lutc_input="datac";
+// @1:85
+  cycloneii_lcell_comb wdata_1_i_0_0_1_x_4_ (
+	.combout(wdata_1_i_0_0_1_x[4]),
+	.cout(),
+	.dataa(wdata_1_i_0_0_1_a[4]),
+	.datab(addr_c[1]),
+	.datac(VCC),
+	.datad(VCC),
+	.cin(GND)
+);
+defparam wdata_1_i_0_0_1_x_4_.lut_mask=16'hdddd;
+defparam wdata_1_i_0_0_1_x_4_.sum_lutc_input="datac";
+// @1:85
+  cycloneii_lcell_comb wdata_1_i_0_1_a_x_1_ (
+	.combout(wdata_1_i_0_1_a_x[1]),
+	.cout(),
+	.dataa(addr_c[0]),
+	.datab(addr_c[1]),
+	.datac(addr_c[3]),
+	.datad(VCC),
+	.cin(GND)
+);
+defparam wdata_1_i_0_1_a_x_1_.lut_mask=16'h4545;
+defparam wdata_1_i_0_1_a_x_1_.sum_lutc_input="datac";
+// @1:74
+  cycloneii_lcell_comb nEXTBUS_0_a2_0_a2_a_x_cZ (
+	.combout(nEXTBUS_0_a2_0_a2_a_x),
+	.cout(),
+	.dataa(nGCS_c[4]),
+	.datab(nGCS_c[2]),
+	.datac(VCC),
+	.datad(VCC),
+	.cin(GND)
+);
+defparam nEXTBUS_0_a2_0_a2_a_x_cZ.lut_mask=16'h7777;
+defparam nEXTBUS_0_a2_0_a2_a_x_cZ.sum_lutc_input="datac";
+// @1:109
+  cycloneii_lcell_comb wigend_reg_out12_0_a2_3_a2_x_cZ (
+	.combout(wigend_reg_out12_0_a2_3_a2_x),
+	.cout(),
+	.dataa(wdata_1_i_0_a2_8_x[0]),
+	.datab(addr_c[3]),
+	.datac(wigend_reg_out12_0_a2_3_a2_0_x),
+	.datad(VCC),
+	.cin(GND)
+);
+defparam wigend_reg_out12_0_a2_3_a2_x_cZ.lut_mask=16'h2020;
+defparam wigend_reg_out12_0_a2_3_a2_x_cZ.sum_lutc_input="datac";
+// @1:180
+  cycloneii_lcell_comb G5V_IO7_0_a2_1_a2_a_x_cZ (
+	.combout(G5V_IO7_0_a2_1_a2_a_x),
+	.cout(),
+	.dataa(addr_c[1]),
+	.datab(addr_c[0]),
+	.datac(VCC),
+	.datad(VCC),
+	.cin(GND)
+);
+defparam G5V_IO7_0_a2_1_a2_a_x_cZ.lut_mask=16'h4444;
+defparam G5V_IO7_0_a2_1_a2_a_x_cZ.sum_lutc_input="datac";
+// @1:153
+  cycloneii_lcell_comb wil_out_en7_0_a2_0_a2_x_cZ (
+	.combout(wil_out_en7_0_a2_0_a2_x),
+	.cout(),
+	.dataa(wdata_1_i_0_a2_2_x[2]),
+	.datab(wigend_reg_out12_0_a2_3_a2_0_x),
+	.datac(addr_c[2]),
+	.datad(VCC),
+	.cin(GND)
+);
+defparam wil_out_en7_0_a2_0_a2_x_cZ.lut_mask=16'h0808;
+defparam wil_out_en7_0_a2_0_a2_x_cZ.sum_lutc_input="datac";
+// @1:133
+  cycloneii_lcell_comb wigend_reg_out70_0_a2_0_a2_x_cZ (
+	.combout(wigend_reg_out70_0_a2_0_a2_x),
+	.cout(),
+	.dataa(wdata_1_i_0_a2_2_x[2]),
+	.datab(wigend_reg_out12_0_a2_3_a2_0_x),
+	.datac(addr_c[2]),
+	.datad(VCC),
+	.cin(GND)
+);
+defparam wigend_reg_out70_0_a2_0_a2_x_cZ.lut_mask=16'h8080;
+defparam wigend_reg_out70_0_a2_0_a2_x_cZ.sum_lutc_input="datac";
+// @1:85
+  cycloneii_lcell_comb wdata42_a_x_cZ (
+	.combout(wdata42_a_x),
+	.cout(),
+	.dataa(nOE_c),
+	.datab(nGCS_c[3]),
+	.datac(addr_c[8]),
+	.datad(VCC),
+	.cin(GND)
+);
+defparam wdata42_a_x_cZ.lut_mask=16'h0101;
+defparam wdata42_a_x_cZ.sum_lutc_input="datac";
+// @1:143
+  cycloneii_lcell_comb un1_wil_in_irq_flag11_0_0_a2_0_x_cZ (
+	.combout(un1_wil_in_irq_flag11_0_0_a2_0_x),
+	.cout(),
+	.dataa(G5V_IO7_0_a2_1_a2_0_x),
+	.datab(addr_c[3]),
+	.datac(addr_c[2]),
+	.datad(VCC),
+	.cin(GND)
+);
+defparam un1_wil_in_irq_flag11_0_0_a2_0_x_cZ.lut_mask=16'h8080;
+defparam un1_wil_in_irq_flag11_0_0_a2_0_x_cZ.sum_lutc_input="datac";
+// @1:197
+  cycloneii_lcell_comb test_1_x_1_ (
+	.combout(N_814_i),
+	.cout(),
+	.dataa(nGCS_c[5]),
+	.datab(eint3_c),
+	.datac(eint0_c),
+	.datad(VCC),
+	.cin(GND)
+);
+defparam test_1_x_1_.lut_mask=16'hfefe;
+defparam test_1_x_1_.sum_lutc_input="datac";
+// @1:180
+  cycloneii_lcell_comb G5V_IO7_0_a2_1_a2_0_x_cZ (
+	.combout(G5V_IO7_0_a2_1_a2_0_x),
+	.cout(),
+	.dataa(wigend_reg_out12_0_a2_3_a2_0_x),
+	.datab(addr_c[1]),
+	.datac(addr_c[0]),
+	.datad(VCC),
+	.cin(GND)
+);
+defparam G5V_IO7_0_a2_1_a2_0_x_cZ.lut_mask=16'h2020;
+defparam G5V_IO7_0_a2_1_a2_0_x_cZ.sum_lutc_input="datac";
+// @1:85
+  cycloneii_lcell_comb wdata_1_i_0_a2_8_x_0_ (
+	.combout(wdata_1_i_0_a2_8_x[0]),
+	.cout(),
+	.dataa(addr_c[2]),
+	.datab(addr_c[1]),
+	.datac(addr_c[0]),
+	.datad(VCC),
+	.cin(GND)
+);
+defparam wdata_1_i_0_a2_8_x_0_.lut_mask=16'h1010;
+defparam wdata_1_i_0_a2_8_x_0_.sum_lutc_input="datac";
+// @1:85
+  cycloneii_lcell_comb wdata_1_i_0_a2_2_x_2_ (
+	.combout(wdata_1_i_0_a2_2_x[2]),
+	.cout(),
+	.dataa(addr_c[0]),
+	.datab(addr_c[3]),
+	.datac(addr_c[1]),
+	.datad(VCC),
+	.cin(GND)
+);
+defparam wdata_1_i_0_a2_2_x_2_.lut_mask=16'h0101;
+defparam wdata_1_i_0_a2_2_x_2_.sum_lutc_input="datac";
+// @1:75
+  cycloneii_lcell_comb BUFDIR_1_0_a2_0_a2_x_cZ (
+	.combout(BUFDIR_1_0_a2_0_a2_x),
+	.cout(),
+	.dataa(nFRE_c),
+	.datab(nOE_c),
+	.datac(VCC),
+	.datad(VCC),
+	.cin(GND)
+);
+defparam BUFDIR_1_0_a2_0_a2_x_cZ.lut_mask=16'h8888;
+defparam BUFDIR_1_0_a2_0_a2_x_cZ.sum_lutc_input="datac";
+// @1:85
+  cycloneii_lcell_comb wdata35_2_0_a2_0_a2_x_cZ (
+	.combout(wdata35_2_0_a2_0_a2_x),
+	.cout(),
+	.dataa(nGCS_c[3]),
+	.datab(nOE_c),
+	.datac(VCC),
+	.datad(VCC),
+	.cin(GND)
+);
+defparam wdata35_2_0_a2_0_a2_x_cZ.lut_mask=16'h1111;
+defparam wdata35_2_0_a2_0_a2_x_cZ.sum_lutc_input="datac";
+// @1:85
+  cycloneii_lcell_comb un1_nGCS_8_0_0_a2_3_x_cZ (
+	.combout(un1_nGCS_8_0_0_a2_3_x),
+	.cout(),
+	.dataa(addr_c[2]),
+	.datab(addr_c[3]),
+	.datac(VCC),
+	.datad(VCC),
+	.cin(GND)
+);
+defparam un1_nGCS_8_0_0_a2_3_x_cZ.lut_mask=16'h1111;
+defparam un1_nGCS_8_0_0_a2_3_x_cZ.sum_lutc_input="datac";
+// @1:9
+  cycloneii_io wil_in_in_1_ (
+	.devpor(tridevpor),
+	.devclrn(tridevclrn),
+	.devoe(tridevoe),
+	.padio(wil_in[1]),
+	.regout(),
+	.combout(wil_in_c[1]),
+	.datain(),
+	.oe(GND),
+	.outclk(),
+	.outclkena(VCC),
+	.inclk(),
+	.inclkena(VCC),
+	.areset(GND),
+	.sreset(GND)
+);
+defparam wil_in_in_1_.operation_mode = "input";
+// @1:9
+  cycloneii_io wil_in_in_0_ (
+	.devpor(tridevpor),
+	.devclrn(tridevclrn),
+	.devoe(tridevoe),
+	.padio(wil_in[0]),
+	.regout(),
+	.combout(wil_in_c[0]),
+	.datain(),
+	.oe(GND),
+	.outclk(),
+	.outclkena(VCC),
+	.inclk(),
+	.inclkena(VCC),
+	.areset(GND),
+	.sreset(GND)
+);
+defparam wil_in_in_0_.operation_mode = "input";
+// @1:30
+  cycloneii_io eint3_in (
+	.devpor(tridevpor),
+	.devclrn(tridevclrn),
+	.devoe(tridevoe),
+	.padio(eint3),
+	.regout(),
+	.combout(eint3_c),
+	.datain(),
+	.oe(GND),
+	.outclk(),
+	.outclkena(VCC),
+	.inclk(),
+	.inclkena(VCC),
+	.areset(GND),
+	.sreset(GND)
+);
+defparam eint3_in.operation_mode = "input";
+// @1:30
+  cycloneii_io eint0_in (
+	.devpor(tridevpor),
+	.devclrn(tridevclrn),
+	.devoe(tridevoe),
+	.padio(eint0),
+	.regout(),
+	.combout(eint0_c),
+	.datain(),
+	.oe(GND),
+	.outclk(),
+	.outclkena(VCC),
+	.inclk(),
+	.inclkena(VCC),
+	.areset(GND),
+	.sreset(GND)
+);
+defparam eint0_in.operation_mode = "input";
+// @1:60
+  cycloneii_io addr_in_8_ (
+	.devpor(tridevpor),
+	.devclrn(tridevclrn),
+	.devoe(tridevoe),
+	.padio(addr[8]),
+	.regout(),
+	.combout(addr_c[8]),
+	.datain(),
+	.oe(GND),
+	.outclk(),
+	.outclkena(VCC),
+	.inclk(),
+	.inclkena(VCC),
+	.areset(GND),
+	.sreset(GND)
+);
+defparam addr_in_8_.operation_mode = "input";
+// @1:60
+  cycloneii_io addr_in_7_ (
+	.devpor(tridevpor),
+	.devclrn(tridevclrn),
+	.devoe(tridevoe),
+	.padio(addr[7]),
+	.regout(),
+	.combout(addr_c[7]),
+	.datain(),
+	.oe(GND),
+	.outclk(),
+	.outclkena(VCC),
+	.inclk(),
+	.inclkena(VCC),
+	.areset(GND),
+	.sreset(GND)
+);
+defparam addr_in_7_.operation_mode = "input";
+// @1:60
+  cycloneii_io addr_in_6_ (
+	.devpor(tridevpor),
+	.devclrn(tridevclrn),
+	.devoe(tridevoe),
+	.padio(addr[6]),
+	.regout(),
+	.combout(addr_c[6]),
+	.datain(),
+	.oe(GND),
+	.outclk(),
+	.outclkena(VCC),
+	.inclk(),
+	.inclkena(VCC),
+	.areset(GND),
+	.sreset(GND)
+);
+defparam addr_in_6_.operation_mode = "input";
+// @1:60
+  cycloneii_io addr_in_5_ (
+	.devpor(tridevpor),
+	.devclrn(tridevclrn),
+	.devoe(tridevoe),
+	.padio(addr[5]),
+	.regout(),
+	.combout(addr_c[5]),
+	.datain(),
+	.oe(GND),
+	.outclk(),
+	.outclkena(VCC),
+	.inclk(),
+	.inclkena(VCC),
+	.areset(GND),
+	.sreset(GND)
+);
+defparam addr_in_5_.operation_mode = "input";
+// @1:60
+  cycloneii_io addr_in_4_ (
+	.devpor(tridevpor),
+	.devclrn(tridevclrn),
+	.devoe(tridevoe),
+	.padio(addr[4]),
+	.regout(),
+	.combout(addr_c[4]),
+	.datain(),
+	.oe(GND),
+	.outclk(),
+	.outclkena(VCC),
+	.inclk(),
+	.inclkena(VCC),
+	.areset(GND),
+	.sreset(GND)
+);
+defparam addr_in_4_.operation_mode = "input";
+// @1:60
+  cycloneii_io addr_in_3_ (
+	.devpor(tridevpor),
+	.devclrn(tridevclrn),
+	.devoe(tridevoe),
+	.padio(addr[3]),
+	.regout(),
+	.combout(addr_c[3]),
+	.datain(),
+	.oe(GND),
+	.outclk(),
+	.outclkena(VCC),
+	.inclk(),
+	.inclkena(VCC),
+	.areset(GND),
+	.sreset(GND)
+);
+defparam addr_in_3_.operation_mode = "input";
+// @1:60
+  cycloneii_io addr_in_2_ (
+	.devpor(tridevpor),
+	.devclrn(tridevclrn),
+	.devoe(tridevoe),
+	.padio(addr[2]),
+	.regout(),
+	.combout(addr_c[2]),
+	.datain(),
+	.oe(GND),
+	.outclk(),
+	.outclkena(VCC),
+	.inclk(),
+	.inclkena(VCC),
+	.areset(GND),
+	.sreset(GND)
+);
+defparam addr_in_2_.operation_mode = "input";
+// @1:60
+  cycloneii_io addr_in_1_ (
+	.devpor(tridevpor),
+	.devclrn(tridevclrn),
+	.devoe(tridevoe),
+	.padio(addr[1]),
+	.regout(),
+	.combout(addr_c[1]),
+	.datain(),
+	.oe(GND),
+	.outclk(),
+	.outclkena(VCC),
+	.inclk(),
+	.inclkena(VCC),
+	.areset(GND),
+	.sreset(GND)
+);
+defparam addr_in_1_.operation_mode = "input";
+// @1:60
+  cycloneii_io addr_in_0_ (
+	.devpor(tridevpor),
+	.devclrn(tridevclrn),
+	.devoe(tridevoe),
+	.padio(addr[0]),
+	.regout(),
+	.combout(addr_c[0]),
+	.datain(),
+	.oe(GND),
+	.outclk(),
+	.outclkena(VCC),
+	.inclk(),
+	.inclkena(VCC),
+	.areset(GND),
+	.sreset(GND)
+);
+defparam addr_in_0_.operation_mode = "input";
+// @1:63
+  cycloneii_io nFRE_in (
+	.devpor(tridevpor),
+	.devclrn(tridevclrn),
+	.devoe(tridevoe),
+	.padio(nFRE),
+	.regout(),
+	.combout(nFRE_c),
+	.datain(),
+	.oe(GND),
+	.outclk(),
+	.outclkena(VCC),
+	.inclk(),
+	.inclkena(VCC),
+	.areset(GND),
+	.sreset(GND)
+);
+defparam nFRE_in.operation_mode = "input";
+// @1:62
+  cycloneii_io nGCS_in_5_ (
+	.devpor(tridevpor),
+	.devclrn(tridevclrn),
+	.devoe(tridevoe),
+	.padio(nGCS[5]),
+	.regout(),
+	.combout(nGCS_c[5]),
+	.datain(),
+	.oe(GND),
+	.outclk(),
+	.outclkena(VCC),
+	.inclk(),
+	.inclkena(VCC),
+	.areset(GND),
+	.sreset(GND)
+);
+defparam nGCS_in_5_.operation_mode = "input";
+// @1:62
+  cycloneii_io nGCS_in_4_ (
+	.devpor(tridevpor),
+	.devclrn(tridevclrn),
+	.devoe(tridevoe),
+	.padio(nGCS[4]),
+	.regout(),
+	.combout(nGCS_c[4]),
+	.datain(),
+	.oe(GND),
+	.outclk(),
+	.outclkena(VCC),
+	.inclk(),
+	.inclkena(VCC),
+	.areset(GND),
+	.sreset(GND)
+);
+defparam nGCS_in_4_.operation_mode = "input";
+// @1:62
+  cycloneii_io nGCS_in_3_ (
+	.devpor(tridevpor),
+	.devclrn(tridevclrn),
+	.devoe(tridevoe),
+	.padio(nGCS[3]),
+	.regout(),
+	.combout(nGCS_c[3]),
+	.datain(),
+	.oe(GND),
+	.outclk(),
+	.outclkena(VCC),
+	.inclk(),
+	.inclkena(VCC),
+	.areset(GND),
+	.sreset(GND)
+);
+defparam nGCS_in_3_.operation_mode = "input";
+// @1:62
+  cycloneii_io nGCS_in_2_ (
+	.devpor(tridevpor),
+	.devclrn(tridevclrn),
+	.devoe(tridevoe),
+	.padio(nGCS[2]),
+	.regout(),
+	.combout(nGCS_c[2]),
+	.datain(),
+	.oe(GND),
+	.outclk(),
+	.outclkena(VCC),
+	.inclk(),
+	.inclkena(VCC),
+	.areset(GND),
+	.sreset(GND)
+);
+defparam nGCS_in_2_.operation_mode = "input";
+// @1:62
+  cycloneii_io nGCS_in_1_ (
+	.devpor(tridevpor),
+	.devclrn(tridevclrn),
+	.devoe(tridevoe),
+	.padio(nGCS[1]),
+	.regout(),
+	.combout(nGCS_c[1]),
+	.datain(),
+	.oe(GND),
+	.outclk(),
+	.outclkena(VCC),
+	.inclk(),
+	.inclkena(VCC),
+	.areset(GND),
+	.sreset(GND)
+);
+defparam nGCS_in_1_.operation_mode = "input";
+// @1:63
+  cycloneii_io nWE_in (
+	.devpor(tridevpor),
+	.devclrn(tridevclrn),
+	.devoe(tridevoe),
+	.padio(nWE),
+	.regout(),
+	.combout(nWE_c),
+	.datain(),
+	.oe(GND),
+	.outclk(),
+	.outclkena(VCC),
+	.inclk(),
+	.inclkena(VCC),
+	.areset(GND),
+	.sreset(GND)
+);
+defparam nWE_in.operation_mode = "input";
+// @1:63
+  cycloneii_io nOE_in (
+	.devpor(tridevpor),
+	.devclrn(tridevclrn),
+	.devoe(tridevoe),
+	.padio(nOE),
+	.regout(),
+	.combout(nOE_c),
+	.datain(),
+	.oe(GND),
+	.outclk(),
+	.outclkena(VCC),
+	.inclk(),
+	.inclkena(VCC),
+	.areset(GND),
+	.sreset(GND)
+);
+defparam nOE_in.operation_mode = "input";
+// @1:63
+  cycloneii_io nFCE_in (
+	.devpor(tridevpor),
+	.devclrn(tridevclrn),
+	.devoe(tridevoe),
+	.padio(nFCE),
+	.regout(),
+	.combout(nFCE_c),
+	.datain(),
+	.oe(GND),
+	.outclk(),
+	.outclkena(VCC),
+	.inclk(),
+	.inclkena(VCC),
+	.areset(GND),
+	.sreset(GND)
+);
+defparam nFCE_in.operation_mode = "input";
+// @1:2
+  cycloneii_io nReset_in (
+	.devpor(tridevpor),
+	.devclrn(tridevclrn),
+	.devoe(tridevoe),
+	.padio(nReset),
+	.regout(),
+	.combout(G_404),
+	.datain(),
+	.oe(GND),
+	.outclk(),
+	.outclkena(VCC),
+	.inclk(),
+	.inclkena(VCC),
+	.areset(GND),
+	.sreset(GND)
+);
+defparam nReset_in.operation_mode = "input";
+// @1:2
+  cycloneii_io clk_in (
+	.devpor(tridevpor),
+	.devclrn(tridevclrn),
+	.devoe(tridevoe),
+	.padio(clk),
+	.regout(),
+	.combout(clk_c),
+	.datain(),
+	.oe(GND),
+	.outclk(),
+	.outclkena(VCC),
+	.inclk(),
+	.inclkena(VCC),
+	.areset(GND),
+	.sreset(GND)
+);
+defparam clk_in.operation_mode = "input";
+// @1:3
+  cycloneii_io test_out_3_ (
+	.devpor(tridevpor),
+	.devclrn(tridevclrn),
+	.devoe(tridevoe),
+	.padio(test[3]),
+	.regout(),
+	.combout(),
+	.datain(wil_out_en),
+	.oe(VCC),
+	.outclk(),
+	.outclkena(VCC),
+	.inclk(),
+	.inclkena(VCC),
+	.areset(GND),
+	.sreset(GND)
+);
+defparam test_out_3_.operation_mode = "output";
+// @1:3
+  cycloneii_io test_out_2_ (
+	.devpor(tridevpor),
+	.devclrn(tridevclrn),
+	.devoe(tridevoe),
+	.padio(test[2]),
+	.regout(),
+	.combout(),
+	.datain(G_404),
+	.oe(VCC),
+	.outclk(),
+	.outclkena(VCC),
+	.inclk(),
+	.inclkena(VCC),
+	.areset(GND),
+	.sreset(GND)
+);
+defparam test_out_2_.operation_mode = "output";
+// @1:3
+  cycloneii_io test_out_1_ (
+	.devpor(tridevpor),
+	.devclrn(tridevclrn),
+	.devoe(tridevoe),
+	.padio(test[1]),
+	.regout(),
+	.combout(),
+	.datain(N_814_i),
+	.oe(VCC),
+	.outclk(),
+	.outclkena(VCC),
+	.inclk(),
+	.inclkena(VCC),
+	.areset(GND),
+	.sreset(GND)
+);
+defparam test_out_1_.operation_mode = "output";
+// @1:173
+  cycloneii_io FPGA_IO_out (
+	.devpor(tridevpor),
+	.devclrn(tridevclrn),
+	.devoe(tridevoe),
+	.padio(FPGA_IO),
+	.regout(),
+	.combout(),
+	.datain(FPGA_IOz),
+	.oe(VCC),
+	.outclk(),
+	.outclkena(VCC),
+	.inclk(),
+	.inclkena(VCC),
+	.areset(GND),
+	.sreset(GND)
+);
+defparam FPGA_IO_out.operation_mode = "output";
+// @1:173
+  cycloneii_io G5V_IO_out (
+	.devpor(tridevpor),
+	.devclrn(tridevclrn),
+	.devoe(tridevoe),
+	.padio(G5V_IO),
+	.regout(),
+	.combout(),
+	.datain(G5V_IOz),
+	.oe(VCC),
+	.outclk(),
+	.outclkena(VCC),
+	.inclk(),
+	.inclkena(VCC),
+	.areset(GND),
+	.sreset(GND)
+);
+defparam G5V_IO_out.operation_mode = "output";
+// @1:19
+  cycloneii_io wil_out_out_1_ (
+	.devpor(tridevpor),
+	.devclrn(tridevclrn),
+	.devoe(tridevoe),
+	.padio(wil_out[1]),
+	.regout(),
+	.combout(),
+	.datain(\wigend_out.wigend [1]),
+	.oe(VCC),
+	.outclk(),
+	.outclkena(VCC),
+	.inclk(),
+	.inclkena(VCC),
+	.areset(GND),
+	.sreset(GND)
+);
+defparam wil_out_out_1_.operation_mode = "output";
+// @1:19
+  cycloneii_io wil_out_out_0_ (
+	.devpor(tridevpor),
+	.devclrn(tridevclrn),
+	.devoe(tridevoe),
+	.padio(wil_out[0]),
+	.regout(),
+	.combout(),
+	.datain(\wigend_out.wigend [0]),
+	.oe(VCC),
+	.outclk(),
+	.outclkena(VCC),
+	.inclk(),
+	.inclkena(VCC),
+	.areset(GND),
+	.sreset(GND)
+);
+defparam wil_out_out_0_.operation_mode = "output";
+// @1:31
+  cycloneii_io eint1_out (
+	.devpor(tridevpor),
+	.devclrn(tridevclrn),
+	.devoe(tridevoe),
+	.padio(eint1),
+	.regout(),
+	.combout(),
+	.datain(eint1_0_a2_i),
+	.oe(VCC),
+	.outclk(),
+	.outclkena(VCC),
+	.inclk(),
+	.inclkena(VCC),
+	.areset(GND),
+	.sreset(GND)
+);
+defparam eint1_out.operation_mode = "output";
+// @1:66
+  cycloneii_io BUFDIR1_out (
+	.devpor(tridevpor),
+	.devclrn(tridevclrn),
+	.devoe(tridevoe),
+	.padio(BUFDIR1),
+	.regout(),
+	.combout(),
+	.datain(BUFDIR_1_0_a2_0_a2_x),
+	.oe(VCC),
+	.outclk(),
+	.outclkena(VCC),
+	.inclk(),
+	.inclkena(VCC),
+	.areset(GND),
+	.sreset(GND)
+);
+defparam BUFDIR1_out.operation_mode = "output";
+// @1:65
+  cycloneii_io BUFDIR_out (
+	.devpor(tridevpor),
+	.devclrn(tridevclrn),
+	.devoe(tridevoe),
+	.padio(BUFDIR),
+	.regout(),
+	.combout(),
+	.datain(BUFDIR_1_0_a2_0_a2_x),
+	.oe(VCC),
+	.outclk(),
+	.outclkena(VCC),
+	.inclk(),
+	.inclkena(VCC),
+	.areset(GND),
+	.sreset(GND)
+);
+defparam BUFDIR_out.operation_mode = "output";
+// @1:64
+  cycloneii_io nEXTBUS_out (
+	.devpor(tridevpor),
+	.devclrn(tridevclrn),
+	.devoe(tridevoe),
+	.padio(nEXTBUS),
+	.regout(),
+	.combout(),
+	.datain(nEXTBUS_0_a2_0_a2),
+	.oe(VCC),
+	.outclk(),
+	.outclkena(VCC),
+	.inclk(),
+	.inclkena(VCC),
+	.areset(GND),
+	.sreset(GND)
+);
+defparam nEXTBUS_out.operation_mode = "output";
+// @1:61
+  cycloneii_io data_tri_7_ (
+	.devpor(tridevpor),
+	.devclrn(tridevclrn),
+	.devoe(tridevoe),
+	.padio(data[7]),
+	.regout(),
+	.combout(data_c[7]),
+	.datain(wdata[7]),
+	.oe(wdata35_2_0_a2_0_a2_x),
+	.outclk(),
+	.outclkena(VCC),
+	.inclk(),
+	.inclkena(VCC),
+	.areset(GND),
+	.sreset(GND)
+);
+defparam data_tri_7_.operation_mode = "bidir";
+// @1:61
+  cycloneii_io data_tri_6_ (
+	.devpor(tridevpor),
+	.devclrn(tridevclrn),
+	.devoe(tridevoe),
+	.padio(data[6]),
+	.regout(),
+	.combout(data_c[6]),
+	.datain(wdata[6]),
+	.oe(wdata35_2_0_a2_0_a2_x),
+	.outclk(),
+	.outclkena(VCC),
+	.inclk(),
+	.inclkena(VCC),
+	.areset(GND),
+	.sreset(GND)
+);
+defparam data_tri_6_.operation_mode = "bidir";
+// @1:61
+  cycloneii_io data_tri_5_ (
+	.devpor(tridevpor),
+	.devclrn(tridevclrn),
+	.devoe(tridevoe),
+	.padio(data[5]),
+	.regout(),
+	.combout(data_c[5]),
+	.datain(wdata[5]),
+	.oe(wdata35_2_0_a2_0_a2_x),
+	.outclk(),
+	.outclkena(VCC),
+	.inclk(),
+	.inclkena(VCC),
+	.areset(GND),
+	.sreset(GND)
+);
+defparam data_tri_5_.operation_mode = "bidir";
+// @1:61
+  cycloneii_io data_tri_4_ (
+	.devpor(tridevpor),
+	.devclrn(tridevclrn),
+	.devoe(tridevoe),
+	.padio(data[4]),
+	.regout(),
+	.combout(data_c[4]),
+	.datain(wdata_i_i_n[4]),
+	.oe(wdata35_2_0_a2_0_a2_x),
+	.outclk(),
+	.outclkena(VCC),
+	.inclk(),
+	.inclkena(VCC),
+	.areset(GND),
+	.sreset(GND)
+);
+defparam data_tri_4_.operation_mode = "bidir";
+// @1:61
+  cycloneii_io data_tri_3_ (
+	.devpor(tridevpor),
+	.devclrn(tridevclrn),
+	.devoe(tridevoe),
+	.padio(data[3]),
+	.regout(),
+	.combout(data_c[3]),
+	.datain(wdata[3]),
+	.oe(wdata35_2_0_a2_0_a2_x),
+	.outclk(),
+	.outclkena(VCC),
+	.inclk(),
+	.inclkena(VCC),
+	.areset(GND),
+	.sreset(GND)
+);
+defparam data_tri_3_.operation_mode = "bidir";
+// @1:61
+  cycloneii_io data_tri_2_ (
+	.devpor(tridevpor),
+	.devclrn(tridevclrn),
+	.devoe(tridevoe),
+	.padio(data[2]),
+	.regout(),
+	.combout(data_c[2]),
+	.datain(wdata[2]),
+	.oe(wdata35_2_0_a2_0_a2_x),
+	.outclk(),
+	.outclkena(VCC),
+	.inclk(),
+	.inclkena(VCC),
+	.areset(GND),
+	.sreset(GND)
+);
+defparam data_tri_2_.operation_mode = "bidir";
+// @1:61
+  cycloneii_io data_tri_1_ (
+	.devpor(tridevpor),
+	.devclrn(tridevclrn),
+	.devoe(tridevoe),
+	.padio(data[1]),
+	.regout(),
+	.combout(data_c[1]),
+	.datain(wdata[1]),
+	.oe(wdata35_2_0_a2_0_a2_x),
+	.outclk(),
+	.outclkena(VCC),
+	.inclk(),
+	.inclkena(VCC),
+	.areset(GND),
+	.sreset(GND)
+);
+defparam data_tri_1_.operation_mode = "bidir";
+// @1:61
+  cycloneii_io data_tri_0_ (
+	.devpor(tridevpor),
+	.devclrn(tridevclrn),
+	.devoe(tridevoe),
+	.padio(data[0]),
+	.regout(),
+	.combout(data_c[0]),
+	.datain(wdata[0]),
+	.oe(wdata35_2_0_a2_0_a2_x),
+	.outclk(),
+	.outclkena(VCC),
+	.inclk(),
+	.inclkena(VCC),
+	.areset(GND),
+	.sreset(GND)
+);
+defparam data_tri_0_.operation_mode = "bidir";
+  assign  nWE_i = ~ nWE_c;
+// @1:13
+  Wigend_In wigend_in (
+	.wil_in_c_0(wil_in_c[0]),
+	.wil_in_c_1(wil_in_c[1]),
+	.wigend_bitcnt_1(\wigend_in.wigend_bitcnt [1]),
+	.wigend_bitcnt_2(\wigend_in.wigend_bitcnt [2]),
+	.wigend_bitcnt_3(\wigend_in.wigend_bitcnt [3]),
+	.wigend_bitcnt_4(\wigend_in.wigend_bitcnt [4]),
+	.un1_wil_in_irq_flag11_1_0_0_a(un1_wil_in_irq_flag11_1_0_0_a),
+	.int_1_0_a2_0(\wigend_in.int_1_0_a2_0 ),
+	.nReset_c(G_404),
+	.clk_c(clk_c)
+);
+// @1:24
+  Wigend_Out wigend_out (
+	.wigend_reg_out_22(wigend_reg_out[22]),
+	.wigend_reg_out_23(wigend_reg_out[23]),
+	.wigend_reg_out_24(wigend_reg_out[24]),
+	.wigend_reg_out_25(wigend_reg_out[25]),
+	.wigend_reg_out_7(wigend_reg_out[7]),
+	.wigend_reg_out_17(wigend_reg_out[17]),
+	.wigend_reg_out_3(wigend_reg_out[3]),
+	.wigend_reg_out_16(wigend_reg_out[16]),
+	.wigend_reg_out_21(wigend_reg_out[21]),
+	.wigend_reg_out_11(wigend_reg_out[11]),
+	.wigend_reg_out_0(wigend_reg_out[0]),
+	.wigend_reg_out_4(wigend_reg_out[4]),
+	.wigend_reg_out_6(wigend_reg_out[6]),
+	.wigend_reg_out_12(wigend_reg_out[12]),
+	.wigend_reg_out_18(wigend_reg_out[18]),
+	.wigend_reg_out_19(wigend_reg_out[19]),
+	.wigend_reg_out_10(wigend_reg_out[10]),
+	.wigend_reg_out_2(wigend_reg_out[2]),
+	.wigend_reg_out_5(wigend_reg_out[5]),
+	.wigend_reg_out_1(wigend_reg_out[1]),
+	.wigend_reg_out_20(wigend_reg_out[20]),
+	.wigend_reg_out_9(wigend_reg_out[9]),
+	.wigend_reg_out_15(wigend_reg_out[15]),
+	.wigend_reg_out_13(wigend_reg_out[13]),
+	.wigend_reg_out_8(wigend_reg_out[8]),
+	.wigend_reg_out_14(wigend_reg_out[14]),
+	.wigend_0(\wigend_out.wigend [0]),
+	.wigend_1(\wigend_out.wigend [1]),
+	.N_776_i(N_776_i),
+	.wil_out_en(wil_out_en),
+	.N_776_i_0(N_776_i_0),
+	.nReset_c(G_404),
+	.clk_c(clk_c)
+);
+assign eint2 = VCC;
+assign eint11 = VCC;
+assign test[0] = VCC;
+endmodule /* buffer */
+

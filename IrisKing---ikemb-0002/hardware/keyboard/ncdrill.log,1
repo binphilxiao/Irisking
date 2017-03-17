@@ -1,0 +1,56 @@
+(------------------------------------------------------------)
+(                                                            )
+(                    NC DRILL LOG FILE                       )
+(                                                            )
+(        Drawing    : keyboard.brd                           )
+(        Date/Time  : Tue Nov 17 11:00:42 2009               )
+(                                                            )
+(------------------------------------------------------------)
+
+
+
+ Processing NC Parameters file ...
+
+ NC PARAMETERS
+ -------------
+
+ FORMAT   		2.3
+ MACHINE-OFFSET		x:0.000000	y:0.000000
+ FEEDRATE		1
+ COORDINATES		ABSOLUTE
+ OUTPUT-UNITS		ENGLISH
+ TOOL-ORDER		INCREASING
+ REPEAT-CODES		YES
+ SUPPRESS-LEAD-ZEROES	NO
+ SUPPRESS-TRAIL-ZEROES	NO
+ SUPPRESS-EQUAL		NO
+ TOOL-SELECT		NO
+ HEADER			none
+ LEADER			12
+ CODE			ASCII
+ SEPARATE		NO
+ OPTIMIZE_DRILLING	NO
+ ENHANCED_EXCELLON	NO
+ SCALE			1.000000
+
+ WARNING: Switching units system when generating drill output file data.
+
+
+ Drill files being output to directory '' ...
+
+
+
+     'keyboard-1-2.drl' created for holes connecting TOP and BOTTOM
+     --------------------------------------------------------------
+
+           Num     Size      +/- Tolerance     Plating   Quantity
+
+            1.  13.0000    0.0000/  0.0000      PLATED         20
+            2.  35.0000    0.0000/  0.0000      PLATED         10
+            3.  90.0000    0.0000/  0.0000      PLATED          3
+            4. 126.0000    0.0000/  0.0000      PLATED          4
+
+     ---- Total holes:                                         37
+
+     ---- Total head travel:              2.01 feet (0.61 meters)
+

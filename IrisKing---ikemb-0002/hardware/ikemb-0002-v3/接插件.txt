@@ -1,0 +1,32 @@
+
+金黄色 : 1.27mm, 2Pin
+AUDIO : 2.54mm, 2Pin
+一键复位&防撬开关 : 1.27mm，3Pin
+CCD：2.54mm，3Pin
+USB : 1.27mm，4Pin
+IIC : 1.27mm，5Pin
+WIG : 1.27mm，5Pin
+PPC_GPIO : 1.27mm, 6Pin
+SPI : 1.27mm, 7Pin
+WIG & RS485 : 1.27mm, 8Pin
+FPGA_IO： 1.27mm, 8Pin
+
+
+键盘接口：双排10Pin，2.54mm
+封闭腔：双排26Pin，2.54mm（AD、CCD三组、LED4组）
+
+
+
+
+无极性电容
+0402：1uF
+0603：10uF
+0805：10uF
+1206：47uF
+
+电阻0402
+5%的基本都有零售
+1%需要整盘订货
+
+电感
+0402：100nH

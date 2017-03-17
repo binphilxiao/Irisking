@@ -1,0 +1,203 @@
+Version 6.0 Build 178 04/27/2006 SJ Full Version
+11
+708
+OFF
+OFF
+OFF
+OFF
+OFF
+FV_OFF
+Level2
+0
+0
+VRSM_ON
+VHSM_ON
+0
+-- Start Partition --
+-- End Partition --
+-- Start Library Paths --
+-- End Library Paths --
+-- Start VHDL Libraries --
+-- End VHDL Libraries --
+# entity
+buffer
+# storage
+db|buffer.(0).cnf
+db|buffer.(0).cnf
+# case_insensitive
+# source_file
+buffer.edf
+d6d550ed9a1a5b4124e3896e186c2310
+8
+# end
+# entity
+lpm_latch
+# storage
+db|buffer.(3).cnf
+db|buffer.(3).cnf
+# case_insensitive
+# source_file
+c:|altera|quartus60|libraries|megafunctions|lpm_latch.tdf
+8e2a79ecfd3516dfc620e22a1ed33d61
+6
+# user_parameter {
+LPM_WIDTH
+1
+PARAMETER_UNKNOWN
+USR
+LPM_AVALUE
+UNUSED
+PARAMETER_UNKNOWN
+DEF
+}
+# used_port {
+q
+-1
+3
+gate
+-1
+3
+data
+-1
+3
+aset
+-1
+3
+aclr
+-1
+3
+}
+# include_file {
+c:|altera|quartus60|libraries|megafunctions|lpm_constant.inc
+dcde44eee59335c1e2fe75d574f9646
+}
+# hierarchies {
+SYNLPM_LATRS1:wdata_2__Z|lpm_latch:U1
+SYNLPM_LATRS1:wdata_4__Z|lpm_latch:U1
+SYNLPM_LATRS1:wdata_5__Z|lpm_latch:U1
+SYNLPM_LATRS1:wdata_6__Z|lpm_latch:U1
+}
+# end
+# entity
+lpm_latch
+# storage
+db|buffer.(5).cnf
+db|buffer.(5).cnf
+# case_insensitive
+# source_file
+c:|altera|quartus60|libraries|megafunctions|lpm_latch.tdf
+8e2a79ecfd3516dfc620e22a1ed33d61
+6
+# user_parameter {
+LPM_WIDTH
+1
+PARAMETER_UNKNOWN
+USR
+LPM_AVALUE
+UNUSED
+PARAMETER_UNKNOWN
+DEF
+}
+# used_port {
+q
+-1
+3
+gate
+-1
+3
+data
+-1
+3
+aclr
+-1
+3
+}
+# include_file {
+c:|altera|quartus60|libraries|megafunctions|lpm_constant.inc
+dcde44eee59335c1e2fe75d574f9646
+}
+# hierarchies {
+SYNLPM_LATR1:wdata_3__Z|lpm_latch:U1
+SYNLPM_LATR1:wdata_1__Z|lpm_latch:U1
+SYNLPM_LATR1:wdata_7__Z|lpm_latch:U1
+SYNLPM_LATR1:wdata_0__Z|lpm_latch:U1
+}
+# end
+# entity
+buffer
+# storage
+db|buffer.(1).cnf
+db|buffer.(1).cnf
+# case_sensitive
+# source_file
+buffer.vqm
+572fd321fd8dd415c22ebaf9697e07b
+26
+# hierarchies {
+|
+}
+# end
+# entity
+SYNLPM_LATR1
+# storage
+db|buffer.(2).cnf
+db|buffer.(2).cnf
+# case_sensitive
+# source_file
+buffer.vqm
+572fd321fd8dd415c22ebaf9697e07b
+26
+# hierarchies {
+SYNLPM_LATR1:wdata_3__Z
+SYNLPM_LATR1:wdata_1__Z
+SYNLPM_LATR1:wdata_7__Z
+SYNLPM_LATR1:wdata_0__Z
+}
+# end
+# entity
+SYNLPM_LATRS1
+# storage
+db|buffer.(4).cnf
+db|buffer.(4).cnf
+# case_sensitive
+# source_file
+buffer.vqm
+572fd321fd8dd415c22ebaf9697e07b
+26
+# hierarchies {
+SYNLPM_LATRS1:wdata_2__Z
+SYNLPM_LATRS1:wdata_4__Z
+SYNLPM_LATRS1:wdata_5__Z
+SYNLPM_LATRS1:wdata_6__Z
+}
+# end
+# entity
+Wigend_In
+# storage
+db|buffer.(6).cnf
+db|buffer.(6).cnf
+# case_sensitive
+# source_file
+buffer.vqm
+572fd321fd8dd415c22ebaf9697e07b
+26
+# hierarchies {
+Wigend_In:wigend_in
+}
+# end
+# entity
+Wigend_Out
+# storage
+db|buffer.(7).cnf
+db|buffer.(7).cnf
+# case_sensitive
+# source_file
+buffer.vqm
+572fd321fd8dd415c22ebaf9697e07b
+26
+# hierarchies {
+Wigend_Out:wigend_out
+}
+# end
+# complete
+

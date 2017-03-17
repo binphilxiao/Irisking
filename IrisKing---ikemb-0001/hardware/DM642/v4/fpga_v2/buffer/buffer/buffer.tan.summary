@@ -1,0 +1,76 @@
+--------------------------------------------------------------------------------------
+Timing Analyzer Summary
+--------------------------------------------------------------------------------------
+
+Type           : Worst-case tsu
+Slack          : N/A
+Required Time  : None
+Actual Time    : 12.502 ns
+From           : addr[6]
+To             : wil_out_irq_flag
+From Clock     : --
+To Clock       : clk
+Failed Paths   : 0
+
+Type           : Worst-case tco
+Slack          : N/A
+Required Time  : None
+Actual Time    : 19.219 ns
+From           : wigend_reg_out[6]
+To             : data[6]
+From Clock     : nWE
+To Clock       : --
+Failed Paths   : 0
+
+Type           : Worst-case tpd
+Slack          : N/A
+Required Time  : None
+Actual Time    : 20.458 ns
+From           : addr[6]
+To             : data[5]
+From Clock     : --
+To Clock       : --
+Failed Paths   : 0
+
+Type           : Worst-case th
+Slack          : N/A
+Required Time  : None
+Actual Time    : 0.210 ns
+From           : data[5]
+To             : FPGA_IOz
+From Clock     : --
+To Clock       : nWE
+Failed Paths   : 0
+
+Type           : Clock Setup: 'clk'
+Slack          : N/A
+Required Time  : None
+Actual Time    : 110.08 MHz ( period = 9.084 ns )
+From           : Wigend_Out:wigend_out|counter[7]
+To             : Wigend_Out:wigend_out|wigend_0
+From Clock     : clk
+To Clock       : clk
+Failed Paths   : 0
+
+Type           : Clock Hold: 'clk'
+Slack          : Not operational: Clock Skew > Data Delay
+Required Time  : None
+Actual Time    : N/A
+From           : Wigend_In:wigend_in|overtime_delay3_i
+To             : Wigend_In:wigend_in|wigend_bitcnt_2
+From Clock     : clk
+To Clock       : clk
+Failed Paths   : 5
+
+Type           : Total number of failed paths
+Slack          : 
+Required Time  : 
+Actual Time    : 
+From           : 
+To             : 
+From Clock     : 
+To Clock       : 
+Failed Paths   : 5
+
+--------------------------------------------------------------------------------------
+

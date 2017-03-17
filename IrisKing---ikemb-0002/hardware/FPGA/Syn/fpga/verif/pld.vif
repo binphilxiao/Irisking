@@ -1,0 +1,91 @@
+#
+# Synplicity Verification Interface File
+# Generated using Synplify-pro
+#
+# Copyright (c) 1996-2004 Synplicity, Inc.
+# All rights reserved
+#
+
+global env
+# Set logfile options
+vif_set_result_file  pld.vlf
+
+# RTL and technology files
+vif_add_library -original $env(QUARTUS_ROOTDIR)/eda/fv_lib/verilog
+vif_add_file -original  -verilog ../../Keyboard.v
+vif_add_file -original  -verilog ../../pld.v
+vif_add_file -original  -verilog ../../Wigend_in.v
+vif_add_file -original  -verilog ../../wigend_out.v
+vif_add_file -original  -verilog ../../adc.v
+vif_add_file -original  -verilog ../../button.v
+vif_set_top_module -original -top pld
+ 
+vif_add_library -translated $env(QUARTUS_ROOTDIR)/eda/fv_lib/verilog
+vif_add_file -translated -verilog pld.vqm
+vif_set_top_module -translated -top pld 
+
+
+# Read FSM encoding
+vif_set_fsm -fsm fsm_0
+vif_set_fsmreg -original -fsm fsm_0 Keyboard0/Keyboard_out[3:0]
+vif_set_fsmreg -translated -fsm  fsm_0 Keyboard0/Keyboard_out_1[1:0]
+vif_set_state_map -fsm fsm_0 -original "0001" -translated "00"
+vif_set_state_map -fsm fsm_0 -original "0010" -translated "01"
+vif_set_state_map -fsm fsm_0 -original "0100" -translated "10"
+vif_set_state_map -fsm fsm_0 -original "1000" -translated "11"
+
+
+# Memory map points
+# Memory redundancies
+
+
+# SRL redundancies
+# SRL map points
+
+# Compiler merged registers
+
+# Compiler pruned constant registers
+
+
+# RTL sequential redundancies
+
+# Technology sequential redundancies
+vif_set_equiv -translated wigend_in1/wil_clk_tmp_i_0_Z wigend_in1/wil_clk_tmp_i_Z
+vif_set_equiv -translated wigend_in2/wil_clk_tmp_i_0_Z wigend_in2/wil_clk_tmp_i_Z
+vif_set_equiv -translated wigend_in3/wil_clk_tmp_i_0_Z wigend_in3/wil_clk_tmp_i_Z
+
+# Inverted map points
+vif_set_map_point -register -inverted -original wigend_in1/overtime_delay1 -translated wigend_in1/overtime_delay1_i_0_Z
+vif_set_map_point -register -inverted -original wigend_in1/overtime_delay3 -translated wigend_in1/overtime_delay3_i_0_Z
+vif_set_map_point -register -inverted -original wigend_in1/overtime_delay2 -translated wigend_in1/overtime_delay2_i_Z
+vif_set_map_point -register -inverted -original wigend_in1/wil0 -translated wigend_in1/wil0_i_0_Z
+vif_set_map_point -register -inverted -original wigend_in1/wil1 -translated wigend_in1/wil1_i_0_Z
+vif_set_map_point -register -inverted -original wigend_in1/wil_clk_tmp -translated wigend_in1/wil_clk_tmp_i_0_Z
+vif_set_map_point -register -inverted -original wigend_in1/wil_clk -translated wigend_in1/wil_clk_i_0_Z
+vif_set_map_point -register -inverted -original wigend_in1/overtime -translated wigend_in1/overtime_i_Z
+vif_set_map_point -register -inverted -original wigend_in2/overtime_delay1 -translated wigend_in2/overtime_delay1_i_0_Z
+vif_set_map_point -register -inverted -original wigend_in2/overtime_delay3 -translated wigend_in2/overtime_delay3_i_0_Z
+vif_set_map_point -register -inverted -original wigend_in2/overtime_delay2 -translated wigend_in2/overtime_delay2_i_Z
+vif_set_map_point -register -inverted -original wigend_in2/wil0 -translated wigend_in2/wil0_i_0_Z
+vif_set_map_point -register -inverted -original wigend_in2/wil1 -translated wigend_in2/wil1_i_0_Z
+vif_set_map_point -register -inverted -original wigend_in2/wil_clk_tmp -translated wigend_in2/wil_clk_tmp_i_0_Z
+vif_set_map_point -register -inverted -original wigend_in2/wil_clk -translated wigend_in2/wil_clk_i_0_Z
+vif_set_map_point -register -inverted -original wigend_in2/overtime -translated wigend_in2/overtime_i_Z
+vif_set_map_point -register -inverted -original wigend_in3/overtime_delay1 -translated wigend_in3/overtime_delay1_i_0_Z
+vif_set_map_point -register -inverted -original wigend_in3/overtime_delay3 -translated wigend_in3/overtime_delay3_i_0_Z
+vif_set_map_point -register -inverted -original wigend_in3/overtime_delay2 -translated wigend_in3/overtime_delay2_i_Z
+vif_set_map_point -register -inverted -original wigend_in3/wil0 -translated wigend_in3/wil0_i_0_Z
+vif_set_map_point -register -inverted -original wigend_in3/wil1 -translated wigend_in3/wil1_i_0_Z
+vif_set_map_point -register -inverted -original wigend_in3/wil_clk_tmp -translated wigend_in3/wil_clk_tmp_i_0_Z
+vif_set_map_point -register -inverted -original wigend_in3/wil_clk -translated wigend_in3/wil_clk_i_0_Z
+vif_set_map_point -register -inverted -original wigend_in3/overtime -translated wigend_in3/overtime_i_Z
+
+# Port directions
+
+# Black box mapping
+
+
+# Register pruning
+
+vif_set_map_point -register -original Keyboard0/Keyboard_out[0] -translated Keyboard0/Keyboard_out_1_0__Z
+vif_set_map_point -register -original Keyboard0/Keyboard_out[1] -translated Keyboard0/Keyboard_out_1_1__Z

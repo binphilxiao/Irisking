@@ -1,0 +1,81 @@
+; Code Composer Project File, Version 2.0 (do not modify or remove this line)
+
+[Project Settings]
+ProjectName="driver_test"
+ProjectDir="D:\aqiu\MyDSPProject\CMOSTesting\dsp-v4-cmostest02\framework\"
+ProjectType=Executable
+CPUFamily=TMS320C64XX
+Tool="Compiler"
+Tool="CustomBuilder"
+Tool="DspBiosBuilder"
+Tool="Linker"
+Config="Debug"
+Config="Release"
+
+[Project Dependencies]
+Source="..\vport-v2\vport.pjt"
+
+["..\vport-v2\vport.pjt" Settings]
+MatchConfigName=true
+
+["..\vport-v2\vport.pjt" Settings: "Debug"]
+ExcludeFromBuild=true
+
+["..\vport-v2\vport.pjt" Settings: "Release"]
+ExcludeFromBuild=true
+
+[Source Files]
+Source="..\lib\vport1.l64"
+Source="..\vport-v2\vport.pjt"
+Source="framework.cdb"
+Source="src\_iic.c"
+Source="src\alg_test_v2.c"
+Source="src\algProcFlg.c"
+Source="src\dm642init.c"
+Source="src\main.c"
+Source="src\myProcImg.c"
+Source="src\myTSKAlg.c"
+Source="src\ov7725.c"
+Source="src\proc_result_v2.c"
+Source="src\util.c"
+Source="src\vcapparams_CMOS.c"
+Source="src\vdisparams_fb.c"
+Source="src\VideoInput2.c"
+Source="src\VideoOutput.c"
+Source="framework.cmd"
+
+[Generated Files]
+Source="frameworkcfg.cmd"
+Source="frameworkcfg.s62"
+Source="frameworkcfg_c.c"
+
+["Compiler" Settings: "Debug"]
+Options=-g -q -fr"$(Proj_dir)\Debug" -fs"$(Proj_dir)\Debug" -ft"$(Proj_dir)\Debug" -fb"$(Proj_dir)\Debug" -ff"$(Proj_dir)\Debug" -i"$(Install_dir)\C6xCSL\include" -i"$(Install_dir)\boards\evmdm642\include" -i"$(Install_dir)\ddk\include\" -i"..\..\include" -d"_NDEBUG" -d"CHIP_DM642=1" -d"C6000" -d"ALG_V2" -ms2 -mv6400 --mem_model:data=far
+
+["Compiler" Settings: "Release"]
+Options=-g -q -fr"$(Proj_dir)\Release" -fs"$(Proj_dir)\Debug" -ft"$(Proj_dir)\Debug" -fb"$(Proj_dir)\Debug" -ff"$(Proj_dir)\Debug" -i"$(Install_dir)\C6xCSL\include" -i"$(Install_dir)\boards\evmdm642\include" -i"$(Install_dir)\ddk\include\" -i"..\..\include" -d"_DEBUG" -d"CHIP_DM642=1" -d"C6000" -mv6400 --mem_model:data=far
+
+["Linker" Settings: "Debug"]
+Options=-a -c -heap0x200000 -m".\Debug\framework.map" -o".\Debug\framework.out" -stack0x200000 -w -i"$(Install_dir)\C6xCSL\lib_3x"
+
+["Linker" Settings: "Release"]
+Options=-a -c -heap0x200000 -m".\Release\framework.map" -o".\Release\framework.out" -stack0x200000 -w -i"$(Install_dir)\C6xCSL\lib_3x"
+
+["..\vport-v2\vport.pjt" Settings: "Debug"]
+ExcludeFromBuild=true
+
+["..\vport-v2\vport.pjt" Settings: "Release"]
+ExcludeFromBuild=true
+
+["frameworkcfg.cmd" Settings: "Debug"]
+LinkOrder=2
+
+["frameworkcfg.cmd" Settings: "Release"]
+LinkOrder=2
+
+["framework.cmd" Settings: "Debug"]
+LinkOrder=1
+
+["framework.cmd" Settings: "Release"]
+LinkOrder=1
+

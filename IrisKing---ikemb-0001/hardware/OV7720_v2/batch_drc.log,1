@@ -1,0 +1,26 @@
+(------------------------------------------------------------)
+(                                                            )
+(        Batch DRC Update                                    )
+(                                                            )
+(        Drawing          : ov7720_V2.brd                    )
+(        Software Version : 16.0p005                         )
+(        Date/Time        : Thu Feb 24 10:33:52 2011         )
+(                                                            )
+(------------------------------------------------------------)
+
+
+ ========= check shapes                       Thu Feb 24 10:33:52 2011
+ ========= check standalone pins              Thu Feb 24 10:33:52 2011
+ ========= check symbols (pins,lines,text)    Thu Feb 24 10:33:52 2011
+ ========= check nets                         Thu Feb 24 10:33:52 2011
+ ========= check standalone branches          Thu Feb 24 10:33:52 2011
+ ========= check standalone filled rectangles Thu Feb 24 10:33:52 2011
+ ========= check standalone lines             Thu Feb 24 10:33:52 2011
+ ========= check standalone text              Thu Feb 24 10:33:52 2011
+ ========= check standalone rectangles        Thu Feb 24 10:33:52 2011
+
+ ..... Total number of DRC errors  1
+
+ ..... end batch DRC at                       Thu Feb 24 10:33:52 2011
+ *************************************************************************
+

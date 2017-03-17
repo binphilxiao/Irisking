@@ -1,0 +1,17 @@
+@P:  Part : EPM240TC100-5
+@P:  Worst Slack : 995.411
+@P:  pld|clk - Estimated Frequency : 241.2 MHz
+@P:  pld|clk - Requested Frequency : 1.0 MHz
+@P:  pld|clk - Estimated Period : 4.146
+@P:  pld|clk - Requested Period : 1000.000
+@P:  pld|clk - Slack : 995.854
+@P:  System - Estimated Frequency : 217.9 MHz
+@P:  System - Requested Frequency : 1.0 MHz
+@P:  System - Estimated Period : 4.589
+@P:  System - Requested Period : 1000.000
+@P:  System - Slack : 995.411
+@P: pld Part : epm240tc100-5
+@P: pld I/O ATOMs : 11
+@P: pld Total LUTs: : 46 of 240 (19%)
+@P: pld Logic resources : 46 ATOMs of 240 (19%)
+@P:  CPU Time : 0h:00m:00s

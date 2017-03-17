@@ -1,0 +1,78 @@
+# Copyright (C) 1991-2005 Altera Corporation
+# Your use of Altera Corporation's design tools, logic functions 
+# and other software and tools, and its AMPP partner logic       
+# functions, and any output files any of the foregoing           
+# (including device programming or simulation files), and any    
+# associated documentation or information are expressly subject  
+# to the terms and conditions of the Altera Program License      
+# Subscription Agreement, Altera MegaCore Function License       
+# Agreement, or other applicable license agreement, including,   
+# without limitation, that your use is for the sole purpose of   
+# programming logic devices manufactured by Altera and sold by   
+# Altera or its authorized distributors.  Please refer to the    
+# applicable agreement for further details.
+
+
+# The default values for assignments are stored in the file
+#		pld_assignment_defaults.qdf
+# If this file doesn't exist, and for assignments not listed, see file
+#		assignment_defaults.qdf
+
+# Altera recommends that you do not modify this file. This
+# file is updated automatically by the Quartus II software
+# and any changes you make may be lost or overwritten.
+
+
+# Project-Wide Assignments
+# ========================
+set_global_assignment -name ORIGINAL_QUARTUS_VERSION "5.0 SP2"
+set_global_assignment -name PROJECT_CREATION_TIME_DATE "11:12:05  JANUARY 28, 2008"
+set_global_assignment -name LAST_QUARTUS_VERSION "5.0 SP2"
+set_global_assignment -name VQM_FILE pld.vqm
+
+# Pin & Location Assignments
+# ==========================
+set_location_assignment LC_X2_Y4_N0 -to wilclk_cnt125_x
+set_location_assignment PIN_61 -to AD_CLK
+set_location_assignment PIN_55 -to AD_CS
+set_location_assignment PIN_57 -to AD_DOO
+set_location_assignment PIN_34 -to IRQ4
+set_location_assignment PIN_1 -to addr[0]
+set_location_assignment PIN_2 -to addr[1]
+set_location_assignment PIN_3 -to addr[2]
+set_location_assignment PIN_4 -to addr[3]
+set_location_assignment PIN_5 -to addr[4]
+set_location_assignment PIN_6 -to addr[5]
+set_location_assignment PIN_7 -to addr[6]
+set_location_assignment PIN_62 -to clk
+set_location_assignment PIN_16 -to data[0]
+set_location_assignment PIN_17 -to data[1]
+set_location_assignment PIN_18 -to data[2]
+set_location_assignment PIN_19 -to data[3]
+set_location_assignment PIN_20 -to data[4]
+set_location_assignment PIN_21 -to data[5]
+set_location_assignment PIN_26 -to data[6]
+set_location_assignment PIN_27 -to data[7]
+set_location_assignment PIN_15 -to nCPLDCE
+set_location_assignment PIN_64 -to nNANDFWE
+set_location_assignment PIN_43 -to nOE_nFRE
+set_location_assignment PIN_37 -to test[0]
+set_location_assignment PIN_39 -to test[1]
+set_location_assignment PIN_88 -to test[2]
+set_location_assignment PIN_90 -to test[3]
+set_location_assignment PIN_36 -to wil[0]
+set_location_assignment PIN_35 -to wil[1]
+set_location_assignment PIN_44 -to nHRESET
+
+# Analysis & Synthesis Assignments
+# ================================
+set_global_assignment -name DEVICE_FILTER_PACKAGE TQFP
+set_global_assignment -name DEVICE_FILTER_PIN_COUNT 100
+set_global_assignment -name DEVICE_FILTER_SPEED_GRADE 5
+set_global_assignment -name FAMILY "MAX II"
+set_global_assignment -name TOP_LEVEL_ENTITY pld
+
+# Fitter Assignments
+# ==================
+set_global_assignment -name DEVICE EPM240T100C5
+set_global_assignment -name ERROR_CHECK_FREQUENCY_DIVISOR 1

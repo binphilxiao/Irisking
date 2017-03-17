@@ -1,0 +1,62 @@
+#### START OF AREA REPORT #####[
+
+Part:			EP2C5TC144-7 (Altera)
+
+-------------------------------------------------------------------------
+########   Utilization report for  Top level view:   Wigend_In   ########
+=========================================================================
+
+SEQUENTIAL ATOMS
+****************
+
+Name          Total elements     Utilization     Notes
+------------------------------------------------------
+REGISTERS     79                 100 %                
+======================================================
+Total SEQUENTIAL ATOMS in the block Wigend_In:	79 (39.11 % Utilization)
+
+
+COMBINATIONAL ATOMS
+*******************
+
+Name                Total elements     Utilization     Notes
+------------------------------------------------------------
+ATOMS               73                 100 %                
+ARITHMETIC MODE     0                  0.0 %                
+============================================================
+Total COMBINATIONAL ATOMS in the block Wigend_In:	73 (36.14 % Utilization)
+
+
+RAMS
+****
+
+Name          Total elements     Number of bits     Utilization     Notes
+-------------------------------------------------------------------------
+SYNC RAMS     0                  0                  0.0 %                
+LPMs          0                  0                  0.0 %                
+=========================================================================
+Total RAMS in the block Wigend_In:	0 (0.00 % Utilization)
+
+
+DSPs
+****
+
+Name     Total elements     Utilization     Notes
+-------------------------------------------------
+MACs     0                  0.0 %                
+=================================================
+Total DSPs in the block Wigend_In:	0 (0.00 % Utilization)
+
+
+Black Boxes
+***********
+
+Name            Total elements     Utilization     Notes
+--------------------------------------------------------
+BLACK BOXES     0                  0.0 %                
+========================================================
+Total Black Boxes in the block Wigend_In:	0 (0.00 % Utilization)
+
+
+##### END OF AREA REPORT #####]
+

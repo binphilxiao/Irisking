@@ -1,0 +1,124 @@
+# Copyright (C) 1991-2005 Altera Corporation
+# Your use of Altera Corporation's design tools, logic functions 
+# and other software and tools, and its AMPP partner logic       
+# functions, and any output files any of the foregoing           
+# (including device programming or simulation files), and any    
+# associated documentation or information are expressly subject  
+# to the terms and conditions of the Altera Program License      
+# Subscription Agreement, Altera MegaCore Function License       
+# Agreement, or other applicable license agreement, including,   
+# without limitation, that your use is for the sole purpose of   
+# programming logic devices manufactured by Altera and sold by   
+# Altera or its authorized distributors.  Please refer to the    
+# applicable agreement for further details.
+
+
+# The default values for assignments are stored in the file
+#		pld_assignment_defaults.qdf
+# If this file doesn't exist, and for assignments not listed, see file
+#		assignment_defaults.qdf
+
+# Altera recommends that you do not modify this file. This
+# file is updated automatically by the Quartus II software
+# and any changes you make may be lost or overwritten.
+
+
+# Project-Wide Assignments
+# ========================
+set_global_assignment -name ORIGINAL_QUARTUS_VERSION "5.0 SP2"
+set_global_assignment -name PROJECT_CREATION_TIME_DATE "11:29:35  JUNE 04, 2009"
+set_global_assignment -name LAST_QUARTUS_VERSION "5.0 SP2"
+set_global_assignment -name VQM_FILE ../Syn/fpga/pld.vqm
+
+# Pin & Location Assignments
+# ==========================
+set_location_assignment PIN_79 -to AD_CS
+set_location_assignment PIN_74 -to AD_DO
+set_location_assignment PIN_57 -to DSP_LED1
+set_location_assignment PIN_55 -to DSP_LED2
+set_location_assignment PIN_64 -to EXP_LED1
+set_location_assignment PIN_63 -to EXP_LED2
+set_location_assignment PIN_60 -to EXP_LED3
+set_location_assignment PIN_59 -to EXP_LED4
+set_location_assignment PIN_125 -to FQ
+set_location_assignment PIN_126 -to FW
+set_location_assignment PIN_47 -to GPIO20
+set_location_assignment PIN_45 -to GPIO21
+set_location_assignment PIN_44 -to GPIO22
+set_location_assignment PIN_43 -to GPIO23
+set_location_assignment PIN_42 -to GPIO26
+set_location_assignment PIN_41 -to GPIO27
+set_location_assignment PIN_27 -to IRQ
+set_location_assignment PIN_71 -to SW_CCD1
+set_location_assignment PIN_72 -to SW_CCD2
+set_location_assignment PIN_73 -to SW_CCD3
+set_location_assignment PIN_32 -to SW_LCD
+set_location_assignment PIN_67 -to WIL_IN[0]
+set_location_assignment PIN_65 -to WIL_IN[1]
+set_location_assignment PIN_53 -to WIL_IN_A[0]
+set_location_assignment PIN_52 -to WIL_IN_A[1]
+set_location_assignment PIN_51 -to WIL_IN_B[0]
+set_location_assignment PIN_48 -to WIL_IN_B[1]
+set_location_assignment PIN_70 -to WIL_OUT[0]
+set_location_assignment PIN_69 -to WIL_OUT[1]
+set_location_assignment PIN_31 -to addr[0]
+set_location_assignment PIN_30 -to addr[1]
+set_location_assignment PIN_28 -to addr[2]
+set_location_assignment PIN_25 -to addr[3]
+set_location_assignment PIN_24 -to addr[4]
+set_location_assignment PIN_9 -to addr[5]
+set_location_assignment PIN_8 -to addr[6]
+set_location_assignment PIN_7 -to addr[7]
+set_location_assignment PIN_144 -to data[0]
+set_location_assignment PIN_143 -to data[1]
+set_location_assignment PIN_141 -to data[2]
+set_location_assignment PIN_139 -to data[3]
+set_location_assignment PIN_137 -to data[4]
+set_location_assignment PIN_136 -to data[5]
+set_location_assignment PIN_135 -to data[6]
+set_location_assignment PIN_134 -to data[7]
+set_location_assignment PIN_40 -to nOE
+set_location_assignment PIN_58 -to test[0]
+set_location_assignment PIN_80 -to test[1]
+set_location_assignment PIN_121 -to KEYin[0]
+set_location_assignment PIN_120 -to KEYin[1]
+set_location_assignment PIN_119 -to KEYin[2]
+set_location_assignment PIN_118 -to KEYin[3]
+set_location_assignment PIN_112 -to KEYout[0]
+set_location_assignment PIN_113 -to KEYout[1]
+set_location_assignment PIN_114 -to KEYout[2]
+set_location_assignment PIN_115 -to KEYout[3]
+set_location_assignment PIN_91 -to clk
+set_location_assignment PIN_129 -to nWAIT
+set_location_assignment PIN_142 -to rst
+set_location_assignment PIN_132 -to nWE
+set_location_assignment PIN_75 -to AD_CLK
+set_location_assignment PIN_97 -to GIO1
+set_location_assignment PIN_96 -to GIO2
+set_location_assignment PIN_87 -to GIO3
+set_location_assignment PIN_86 -to GIO4
+set_location_assignment PIN_133 -to nCE
+
+# Analysis & Synthesis Assignments
+# ================================
+set_global_assignment -name DEVICE_FILTER_PACKAGE TQFP
+set_global_assignment -name DEVICE_FILTER_PIN_COUNT 144
+set_global_assignment -name FAMILY "Cyclone II"
+set_global_assignment -name TOP_LEVEL_ENTITY pld
+
+# Fitter Assignments
+# ==================
+set_global_assignment -name DEVICE EP2C5T144C8
+set_global_assignment -name RESERVE_ASDO_AFTER_CONFIGURATION "AS OUTPUT DRIVING AN UNSPECIFIED SIGNAL"
+set_global_assignment -name ERROR_CHECK_FREQUENCY_DIVISOR 1
+set_global_assignment -name STRATIX_DEVICE_IO_STANDARD LVTTL
+
+# Assembler Assignments
+# =====================
+set_global_assignment -name ON_CHIP_BITSTREAM_DECOMPRESSION ON
+set_global_assignment -name STRATIX_CONFIGURATION_DEVICE EPCS1
+
+# Programmer Assignments
+# ======================
+set_global_assignment -name GENERATE_JAM_FILE OFF
+set_global_assignment -name GENERATE_JBC_FILE OFF

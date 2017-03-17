@@ -1,0 +1,13 @@
+#-- Synplicity, Inc.
+#-- Version Synplify 8.6.2
+#-- Project file E:\EMB002\project\hardware\CPLD\pld.prd
+#-- Written on Wed Mar 19 15:50:03 2008
+
+#
+### Watch Implementation type ###
+#
+watch_impl -all
+#
+### Watch Implementation properties ###
+#
+watch_prop -clear

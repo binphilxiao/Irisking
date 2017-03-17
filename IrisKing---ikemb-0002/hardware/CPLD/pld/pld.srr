@@ -1,0 +1,435 @@
+#Build: Synplify 8.6.2, Build 013R, Jun  5 2006
+#install: C:\Program Files\Synplicity\fpga_862
+#OS: Windows XP 5.1
+#Hostname: 03DB3BD03BCE4A5
+
+#Fri Mar 21 15:49:01 2008
+
+$ Start of Compile
+#Fri Mar 21 15:49:01 2008
+
+Synplicity Verilog Compiler, version 3.6t, Build 206R, built Aug  8 2006
+Copyright (C) 1994-2006, Synplicity Inc.  All Rights Reserved
+
+@I::"C:\Program Files\Synplicity\fpga_862\lib\altera\altera.v"
+@I::"E:\EMB002\project\hardware\CPLD\pld.v"
+Verilog syntax check successful!
+File E:\EMB002\project\hardware\CPLD\pld.v changed - recompiling
+Selecting top level module pld
+@N: CG364 :"E:\EMB002\project\hardware\CPLD\pld.v":1:7:1:9|Synthesizing module pld
+
+@W: CG133 :"E:\EMB002\project\hardware\CPLD\pld.v":28:10:28:14|No assignment to wdata
+@W: CG133 :"E:\EMB002\project\hardware\CPLD\pld.v":29:10:29:18|No assignment to configure
+@W: CL169 :"E:\EMB002\project\hardware\CPLD\pld.v":211:0:211:5|Pruning Register ADdata_6[7:0] 
+
+@W: CL169 :"E:\EMB002\project\hardware\CPLD\pld.v":199:0:199:5|Pruning Register ADO_7[7:0] 
+
+@W: CL169 :"E:\EMB002\project\hardware\CPLD\pld.v":68:0:68:5|Pruning Register wilclk_cnt_8[12:0] 
+
+@W: CL170 :"E:\EMB002\project\hardware\CPLD\pld.v":101:0:101:5|Pruning bit <25> of wigend_reg_8[25:0] - not in use ...
+
+@W: CL170 :"E:\EMB002\project\hardware\CPLD\pld.v":101:0:101:5|Pruning bit <24> of wigend_reg_8[25:0] - not in use ...
+
+@W: CL170 :"E:\EMB002\project\hardware\CPLD\pld.v":101:0:101:5|Pruning bit <23> of wigend_reg_8[25:0] - not in use ...
+
+@W: CL170 :"E:\EMB002\project\hardware\CPLD\pld.v":101:0:101:5|Pruning bit <22> of wigend_reg_8[25:0] - not in use ...
+
+@W: CL170 :"E:\EMB002\project\hardware\CPLD\pld.v":101:0:101:5|Pruning bit <21> of wigend_reg_8[25:0] - not in use ...
+
+@W: CL170 :"E:\EMB002\project\hardware\CPLD\pld.v":101:0:101:5|Pruning bit <20> of wigend_reg_8[25:0] - not in use ...
+
+@W: CL170 :"E:\EMB002\project\hardware\CPLD\pld.v":101:0:101:5|Pruning bit <19> of wigend_reg_8[25:0] - not in use ...
+
+@W: CL170 :"E:\EMB002\project\hardware\CPLD\pld.v":101:0:101:5|Pruning bit <18> of wigend_reg_8[25:0] - not in use ...
+
+@W: CL170 :"E:\EMB002\project\hardware\CPLD\pld.v":101:0:101:5|Pruning bit <17> of wigend_reg_8[25:0] - not in use ...
+
+@W: CL170 :"E:\EMB002\project\hardware\CPLD\pld.v":101:0:101:5|Pruning bit <16> of wigend_reg_8[25:0] - not in use ...
+
+@W: CL170 :"E:\EMB002\project\hardware\CPLD\pld.v":101:0:101:5|Pruning bit <15> of wigend_reg_8[25:0] - not in use ...
+
+@W: CL170 :"E:\EMB002\project\hardware\CPLD\pld.v":101:0:101:5|Pruning bit <14> of wigend_reg_8[25:0] - not in use ...
+
+@W: CL170 :"E:\EMB002\project\hardware\CPLD\pld.v":101:0:101:5|Pruning bit <13> of wigend_reg_8[25:0] - not in use ...
+
+@W: CL170 :"E:\EMB002\project\hardware\CPLD\pld.v":101:0:101:5|Pruning bit <12> of wigend_reg_8[25:0] - not in use ...
+
+@W: CL170 :"E:\EMB002\project\hardware\CPLD\pld.v":101:0:101:5|Pruning bit <11> of wigend_reg_8[25:0] - not in use ...
+
+@W: CL170 :"E:\EMB002\project\hardware\CPLD\pld.v":101:0:101:5|Pruning bit <10> of wigend_reg_8[25:0] - not in use ...
+
+@W: CL170 :"E:\EMB002\project\hardware\CPLD\pld.v":101:0:101:5|Pruning bit <9> of wigend_reg_8[25:0] - not in use ...
+
+@W: CL170 :"E:\EMB002\project\hardware\CPLD\pld.v":101:0:101:5|Pruning bit <8> of wigend_reg_8[25:0] - not in use ...
+
+@W: CL170 :"E:\EMB002\project\hardware\CPLD\pld.v":101:0:101:5|Pruning bit <7> of wigend_reg_8[25:0] - not in use ...
+
+@W: CL170 :"E:\EMB002\project\hardware\CPLD\pld.v":101:0:101:5|Pruning bit <6> of wigend_reg_8[25:0] - not in use ...
+
+@W: CL170 :"E:\EMB002\project\hardware\CPLD\pld.v":101:0:101:5|Pruning bit <5> of wigend_reg_8[25:0] - not in use ...
+
+@W: CL170 :"E:\EMB002\project\hardware\CPLD\pld.v":101:0:101:5|Pruning bit <4> of wigend_reg_8[25:0] - not in use ...
+
+@W: CL170 :"E:\EMB002\project\hardware\CPLD\pld.v":101:0:101:5|Pruning bit <25> of wigend_buf_12[25:0] - not in use ...
+
+@W: CL170 :"E:\EMB002\project\hardware\CPLD\pld.v":101:0:101:5|Pruning bit <24> of wigend_buf_12[25:0] - not in use ...
+
+@W: CL170 :"E:\EMB002\project\hardware\CPLD\pld.v":101:0:101:5|Pruning bit <23> of wigend_buf_12[25:0] - not in use ...
+
+@W: CL170 :"E:\EMB002\project\hardware\CPLD\pld.v":101:0:101:5|Pruning bit <22> of wigend_buf_12[25:0] - not in use ...
+
+@W: CL170 :"E:\EMB002\project\hardware\CPLD\pld.v":101:0:101:5|Pruning bit <21> of wigend_buf_12[25:0] - not in use ...
+
+@W: CL170 :"E:\EMB002\project\hardware\CPLD\pld.v":101:0:101:5|Pruning bit <20> of wigend_buf_12[25:0] - not in use ...
+
+@W: CL170 :"E:\EMB002\project\hardware\CPLD\pld.v":101:0:101:5|Pruning bit <19> of wigend_buf_12[25:0] - not in use ...
+
+@W: CL170 :"E:\EMB002\project\hardware\CPLD\pld.v":101:0:101:5|Pruning bit <18> of wigend_buf_12[25:0] - not in use ...
+
+@W: CL170 :"E:\EMB002\project\hardware\CPLD\pld.v":101:0:101:5|Pruning bit <17> of wigend_buf_12[25:0] - not in use ...
+
+@W: CL170 :"E:\EMB002\project\hardware\CPLD\pld.v":101:0:101:5|Pruning bit <16> of wigend_buf_12[25:0] - not in use ...
+
+@W: CL170 :"E:\EMB002\project\hardware\CPLD\pld.v":101:0:101:5|Pruning bit <15> of wigend_buf_12[25:0] - not in use ...
+
+@W: CL170 :"E:\EMB002\project\hardware\CPLD\pld.v":101:0:101:5|Pruning bit <14> of wigend_buf_12[25:0] - not in use ...
+
+@W: CL170 :"E:\EMB002\project\hardware\CPLD\pld.v":101:0:101:5|Pruning bit <13> of wigend_buf_12[25:0] - not in use ...
+
+@W: CL170 :"E:\EMB002\project\hardware\CPLD\pld.v":101:0:101:5|Pruning bit <12> of wigend_buf_12[25:0] - not in use ...
+
+@W: CL170 :"E:\EMB002\project\hardware\CPLD\pld.v":101:0:101:5|Pruning bit <11> of wigend_buf_12[25:0] - not in use ...
+
+@W: CL170 :"E:\EMB002\project\hardware\CPLD\pld.v":101:0:101:5|Pruning bit <10> of wigend_buf_12[25:0] - not in use ...
+
+@W: CL170 :"E:\EMB002\project\hardware\CPLD\pld.v":101:0:101:5|Pruning bit <9> of wigend_buf_12[25:0] - not in use ...
+
+@W: CL170 :"E:\EMB002\project\hardware\CPLD\pld.v":101:0:101:5|Pruning bit <8> of wigend_buf_12[25:0] - not in use ...
+
+@W: CL170 :"E:\EMB002\project\hardware\CPLD\pld.v":101:0:101:5|Pruning bit <7> of wigend_buf_12[25:0] - not in use ...
+
+@W: CL170 :"E:\EMB002\project\hardware\CPLD\pld.v":101:0:101:5|Pruning bit <6> of wigend_buf_12[25:0] - not in use ...
+
+@W: CL170 :"E:\EMB002\project\hardware\CPLD\pld.v":101:0:101:5|Pruning bit <5> of wigend_buf_12[25:0] - not in use ...
+
+@W: CL170 :"E:\EMB002\project\hardware\CPLD\pld.v":101:0:101:5|Pruning bit <4> of wigend_buf_12[25:0] - not in use ...
+
+@W: CL170 :"E:\EMB002\project\hardware\CPLD\pld.v":101:0:101:5|Pruning bit <3> of wigend_buf_12[25:0] - not in use ...
+
+@W: CL159 :"E:\EMB002\project\hardware\CPLD\pld.v":4:6:4:13|Input nNANDFWE is unused
+@W: CL159 :"E:\EMB002\project\hardware\CPLD\pld.v":6:6:6:13|Input nOE_nFRE is unused
+@W: CL159 :"E:\EMB002\project\hardware\CPLD\pld.v":7:6:7:12|Input nHRESET is unused
+@W: CL159 :"E:\EMB002\project\hardware\CPLD\pld.v":13:12:13:15|Input addr is unused
+@W: CL159 :"E:\EMB002\project\hardware\CPLD\pld.v":14:12:14:15|Input data is unused
+@W: CL159 :"E:\EMB002\project\hardware\CPLD\pld.v":10:6:10:11|Input AD_DOO is unused
+@END
+Process took 0h:00m:01s realtime, 0h:00m:01s cputime
+# Fri Mar 21 15:49:01 2008
+
+###########################################################]
+###########################################################[
+Synplicity Altera Technology Mapper, Version 8.6.2, Build 027R, Built Aug 11 2006
+Copyright (C) 1994-2006, Synplicity Inc.  All Rights Reserved
+Version 8.6.2
+@N: MF249 |Running in 32-bit mode.
+@N: MF258 |Gated clock conversion disabled 
+
+
+RTL optimization done.
+
+Finished RTL optimizations (Time elapsed 0h:00m:00s; Memory used current: 21MB peak: 22MB)
+@N:"e:\emb002\project\hardware\cpld\pld.v":68:0:68:5|Found counter in view:work.pld(verilog) inst wilclk_cnt1[12:0]
+@N:"e:\emb002\project\hardware\cpld\pld.v":185:0:185:5|Found counter in view:work.pld(verilog) inst ADcnt[4:0]
+@N:"e:\emb002\project\hardware\cpld\pld.v":101:0:101:5|Found counter in view:work.pld(verilog) inst wigend_bitcnt[4:0]
+
+Starting Early Timing Optimization (Time elapsed 0h:00m:00s; Memory used current: 21MB peak: 22MB)
+
+Finished Early Timing Optimization (Time elapsed 0h:00m:00s; Memory used current: 21MB peak: 22MB)
+
+Finished factoring (Time elapsed 0h:00m:00s; Memory used current: 21MB peak: 22MB)
+
+Finished gated-clock and generated-clock conversion (Time elapsed 0h:00m:00s; Memory used current: 21MB peak: 22MB)
+
+Finished generic timing optimizations - Pass 1 (Time elapsed 0h:00m:00s; Memory used current: 21MB peak: 22MB)
+
+Starting Early Timing Optimization (Time elapsed 0h:00m:00s; Memory used current: 21MB peak: 22MB)
+
+Finished Early Timing Optimization (Time elapsed 0h:00m:00s; Memory used current: 21MB peak: 22MB)
+
+Finished generic timing optimizations - Pass 2 (Time elapsed 0h:00m:00s; Memory used current: 21MB peak: 22MB)
+
+Starting Early Timing Optimization (Time elapsed 0h:00m:00s; Memory used current: 21MB peak: 22MB)
+
+Finished Early Timing Optimization (Time elapsed 0h:00m:00s; Memory used current: 21MB peak: 22MB)
+
+Finished preparing to map (Time elapsed 0h:00m:00s; Memory used current: 21MB peak: 22MB)
+
+Finished technology mapping (Time elapsed 0h:00m:00s; Memory used current: 21MB peak: 22MB)
+
+Finished technology timing optimizations and critical path resynthesis (Time elapsed 0h:00m:00s; Memory used current: 22MB peak: 22MB)
+
+Finished restoring hierarchy (Time elapsed 0h:00m:00s; Memory used current: 22MB peak: 22MB)
+@N: BN191 |Writing property annotation file E:\EMB002\project\hardware\CPLD\pld\pld.tap.
+
+Writing Analyst data base E:\EMB002\project\hardware\CPLD\pld\pld.srm
+@N: BN225 |Writing default property annotation file E:\EMB002\project\hardware\CPLD\pld\pld.map.
+Writing Verilog Netlist and constraint files
+Writing .vqm output for Quartus
+Writing Cross reference file for Quartus to E:\EMB002\project\hardware\CPLD\pld\pld.xrf
+Writing Verilog Simulation files
+Found clock pld|clk with period 1000.00ns 
+@W:"e:\emb002\project\hardware\cpld\pld.v":35:15:35:24|Net wil_clk_x_i appears to be a clock source which was not identified. Assuming default frequency. 
+
+
+##### START OF TIMING REPORT #####[
+# Timing Report written on Fri Mar 21 15:49:04 2008
+#
+
+
+Top view:               pld
+Requested Frequency:    1.0 MHz
+Wire load mode:         top
+Paths requested:        5
+Constraint File(s):    
+@N: MT195 |This timing report estimates place and route data. Please look at the place and route timing report for final timing..
+
+@N: MT197 |Clock constraints cover only FF-to-FF paths associated with the clock..
+
+
+
+Performance Summary 
+*******************
+
+
+Worst slack in design: 995.411
+
+                   Requested     Estimated     Requested     Estimated                 Clock        Clock              
+Starting Clock     Frequency     Frequency     Period        Period        Slack       Type         Group              
+-----------------------------------------------------------------------------------------------------------------------
+pld|clk            1.0 MHz       241.2 MHz     1000.000      4.146         995.854     inferred     Inferred_clkgroup_0
+System             1.0 MHz       217.9 MHz     1000.000      4.589         995.411     system       default_clkgroup   
+=======================================================================================================================
+
+
+
+
+
+Clock Relationships
+*******************
+
+Clocks             |    rise  to  rise     |    fall  to  fall     |    rise  to  fall   |    fall  to  rise 
+-------------------------------------------------------------------------------------------------------------
+Starting  Ending   |  constraint  slack    |  constraint  slack    |  constraint  slack  |  constraint  slack
+-------------------------------------------------------------------------------------------------------------
+pld|clk   pld|clk  |  1000.000    995.854  |  1000.000    996.672  |  No paths    -      |  No paths    -    
+=============================================================================================================
+ Note: 'No paths' indicates there are no paths in the design for that pair of clock edges.
+       'Diff grp' indicates that paths exist but the starting clock and ending clock are in different clock groups.
+
+
+
+Interface Information 
+*********************
+
+		No IO constraint found 
+
+
+
+====================================
+Detailed Report for Clock: pld|clk
+====================================
+
+
+
+Starting Points with Worst Slack
+********************************
+
+                    Starting                                                        Arrival            
+Instance            Reference     Type               Pin        Net                 Time        Slack  
+                    Clock                                                                              
+-------------------------------------------------------------------------------------------------------
+wilclk_cnt1[2]      pld|clk       maxii_lcell_ff     regout     wilclk_cnt1[2]      0.224       995.854
+wilclk_cnt1[4]      pld|clk       maxii_lcell_ff     regout     wilclk_cnt1[4]      0.224       996.002
+wilclk_cnt1[10]     pld|clk       maxii_lcell_ff     regout     wilclk_cnt1[10]     0.224       996.004
+wilclk_cnt1[11]     pld|clk       maxii_lcell_ff     regout     wilclk_cnt1[11]     0.224       996.152
+wilclk_cnt1[12]     pld|clk       maxii_lcell_ff     regout     wilclk_cnt1[12]     0.224       996.152
+wilclk_cnt1[3]      pld|clk       maxii_lcell_ff     regout     wilclk_cnt1[3]      0.224       996.182
+wilclk_cnt1[5]      pld|clk       maxii_lcell_ff     regout     wilclk_cnt1[5]      0.224       996.302
+wilclk_cnt1[1]      pld|clk       maxii_lcell_ff     regout     wilclk_cnt1[1]      0.224       996.330
+wilclk_cnt1[7]      pld|clk       maxii_lcell_ff     regout     wilclk_cnt1[7]      0.224       996.330
+wilclk_cnt1[0]      pld|clk       maxii_lcell_ff     regout     wilclk_cnt1[0]      0.224       996.434
+=======================================================================================================
+
+
+Ending Points with Worst Slack
+******************************
+
+                   Starting                                                          Required            
+Instance           Reference     Type               Pin      Net                     Time         Slack  
+                   Clock                                                                                 
+---------------------------------------------------------------------------------------------------------
+wilclk_cnt1[0]     pld|clk       maxii_lcell_ff     sclr     un1_wilclk_cnt124_i     998.851      995.854
+wilclk_cnt1[1]     pld|clk       maxii_lcell_ff     sclr     un1_wilclk_cnt124_i     998.851      995.854
+wilclk_cnt1[2]     pld|clk       maxii_lcell_ff     sclr     un1_wilclk_cnt124_i     998.851      995.854
+wilclk_cnt1[3]     pld|clk       maxii_lcell_ff     sclr     un1_wilclk_cnt124_i     998.851      995.854
+wilclk_cnt1[4]     pld|clk       maxii_lcell_ff     sclr     un1_wilclk_cnt124_i     998.851      995.854
+wilclk_cnt1[5]     pld|clk       maxii_lcell_ff     sclr     un1_wilclk_cnt124_i     998.851      995.854
+wilclk_cnt1[6]     pld|clk       maxii_lcell_ff     sclr     un1_wilclk_cnt124_i     998.851      995.854
+wilclk_cnt1[7]     pld|clk       maxii_lcell_ff     sclr     un1_wilclk_cnt124_i     998.851      995.854
+wilclk_cnt1[8]     pld|clk       maxii_lcell_ff     sclr     un1_wilclk_cnt124_i     998.851      995.854
+wilclk_cnt1[9]     pld|clk       maxii_lcell_ff     sclr     un1_wilclk_cnt124_i     998.851      995.854
+=========================================================================================================
+
+
+
+Worst Path Information
+***********************
+
+
+Path information for path number 1: 
+    Requested Period:                        1000.000
+    - Setup time:                            1.149
+    = Required time:                         998.851
+
+    - Propagation time:                      2.997
+    = Slack (non-critical) :                 995.854
+
+    Number of logic level(s):                2
+    Starting point:                          wilclk_cnt1[2] / regout
+    Ending point:                            wilclk_cnt1[0] / sclr
+    The start point is clocked by            pld|clk [rising] on pin clk
+    The end   point is clocked by            pld|clk [rising] on pin clk
+
+Instance / Net                             Pin         Pin               Arrival     No. of    
+Name                    Type               Name        Dir     Delay     Time        Fan Out(s)
+-----------------------------------------------------------------------------------------------
+wilclk_cnt1[2]          maxii_lcell_ff     regout      Out     0.224     0.224       -         
+wilclk_cnt1[2]          Net                -           -       1.021     -           2         
+un1_wilclk_cnt1_1_6     maxii_lcell        dataa       In      -         1.245       -         
+un1_wilclk_cnt1_1_6     maxii_lcell        combout     Out     0.590     1.835       -         
+un1_wilclk_cnt1_1_6     Net                -           -       0.344     -           1         
+un1_wilclk_cnt124       maxii_lcell        datab       In      -         2.179       -         
+un1_wilclk_cnt124       maxii_lcell        combout     Out     0.442     2.621       -         
+un1_wilclk_cnt124_i     Net                -           -       0.376     -           14(4)     
+wilclk_cnt1[0]          maxii_lcell_ff     sclr        In      -         2.997       -         
+===============================================================================================
+Total path delay (propagation time + setup) of 4.146 is 2.405(58.0%) logic and 1.741(42.0%) route.
+Fanout format: logic fanout (physical fanout)
+
+
+
+
+====================================
+Detailed Report for Clock: System
+====================================
+
+
+
+Starting Points with Worst Slack
+********************************
+
+                     Starting                                                         Arrival            
+Instance             Reference     Type               Pin        Net                  Time        Slack  
+                     Clock                                                                               
+---------------------------------------------------------------------------------------------------------
+wigend_bitcnt[0]     System        maxii_lcell_ff     regout     wigend_bitcnt[0]     0.224       995.411
+wigend_bitcnt[2]     System        maxii_lcell_ff     regout     wigend_bitcnt[2]     0.224       995.559
+wigend_bitcnt[4]     System        maxii_lcell_ff     regout     wigend_bitcnt[4]     0.224       995.870
+wigend_bitcnt[3]     System        maxii_lcell_ff     regout     wigend_bitcnt[3]     0.224       996.018
+wigend_bitcnt[1]     System        maxii_lcell_ff     regout     wigend_bitcnt[1]     0.224       996.168
+wigend_buf[0]        System        maxii_lcell_ff     regout     wigend_buf[0]        0.224       998.544
+wigend_buf[1]        System        maxii_lcell_ff     regout     wigend_buf[1]        0.224       998.544
+wigend_buf[2]        System        maxii_lcell_ff     regout     wigend_buf[2]        0.224       998.544
+=========================================================================================================
+
+
+Ending Points with Worst Slack
+******************************
+
+                     Starting                                                        Required            
+Instance             Reference     Type               Pin       Net                  Time         Slack  
+                     Clock                                                                               
+---------------------------------------------------------------------------------------------------------
+wigend_bitcnt[0]     System        maxii_lcell_ff     sclr      wigend_bitcnt52      998.851      995.411
+wigend_bitcnt[1]     System        maxii_lcell_ff     sclr      wigend_bitcnt52      998.851      995.411
+wigend_bitcnt[2]     System        maxii_lcell_ff     sclr      wigend_bitcnt52      998.851      995.411
+wigend_bitcnt[3]     System        maxii_lcell_ff     sclr      wigend_bitcnt52      998.851      995.411
+wigend_bitcnt[4]     System        maxii_lcell_ff     sclr      wigend_bitcnt52      998.851      995.411
+wigend_reg[0]        System        maxii_lcell_ff     ena       wigend_bitcnt53      999.096      995.656
+wigend_reg[1]        System        maxii_lcell_ff     ena       wigend_bitcnt53      999.096      995.656
+wigend_reg[2]        System        maxii_lcell_ff     ena       wigend_bitcnt53      999.096      995.656
+wigend_reg[3]        System        maxii_lcell_ff     ena       wigend_bitcnt53      999.096      995.656
+wigend_bitcnt[0]     System        maxii_lcell_ff     dataa     wigend_bitcnt[0]     997.952      996.707
+=========================================================================================================
+
+
+
+Worst Path Information
+***********************
+
+
+Path information for path number 1: 
+    Requested Period:                        1000.000
+    - Setup time:                            1.149
+    = Required time:                         998.851
+
+    - Propagation time:                      3.440
+    = Slack (critical) :                     995.411
+
+    Number of logic level(s):                3
+    Starting point:                          wigend_bitcnt[0] / regout
+    Ending point:                            wigend_bitcnt[0] / sclr
+    The start point is clocked by            System [rising] on pin clk
+    The end   point is clocked by            System [rising] on pin clk
+
+Instance / Net                          Pin         Pin               Arrival     No. of    
+Name                 Type               Name        Dir     Delay     Time        Fan Out(s)
+--------------------------------------------------------------------------------------------
+wigend_bitcnt[0]     maxii_lcell_ff     regout      Out     0.224     0.224       -         
+wigend_bitcnt[0]     Net                -           -       1.021     -           2         
+un11_IRQ4_a          maxii_lcell        dataa       In      -         1.245       -         
+un11_IRQ4_a          maxii_lcell        combout     Out     0.590     1.835       -         
+un11_IRQ4_a          Net                -           -       0.344     -           1         
+un11_IRQ4            maxii_lcell        datad       In      -         2.179       -         
+un11_IRQ4            maxii_lcell        combout     Out     0.114     2.293       -         
+un11_IRQ4            Net                -           -       0.360     -           3         
+wigend_bitcnt52      maxii_lcell        datab       In      -         2.653       -         
+wigend_bitcnt52      maxii_lcell        combout     Out     0.442     3.095       -         
+wigend_bitcnt52      Net                -           -       0.344     -           5(1)      
+wigend_bitcnt[0]     maxii_lcell_ff     sclr        In      -         3.440       -         
+============================================================================================
+Total path delay (propagation time + setup) of 4.589 is 2.519(54.9%) logic and 2.070(45.1%) route.
+Fanout format: logic fanout (physical fanout)
+
+
+
+##### END OF TIMING REPORT #####]
+
+##### START OF AREA REPORT #####[
+Design view:work.pld(verilog)
+Selecting part EPM240T100C5
+@N: FA174 |The following device usage report estimates place and route data. Please look at the place and route report for final resource usage..
+
+I/O ATOMs:       11
+
+Total LUTs:  46 of 240 (19%)
+Logic resources:  46 ATOMs of 240 (19%)
+ATOM count by mode:
+  normal:       26
+  arithmetic:   20
+
+
+ATOMs using regout pin: 33
+  also using enable pin: 4
+  also using combout pin: 0
+ATOMs using combout pin: 13
+Number of Inputs on ATOMs: 192
+Number of Nets:   6283
+
+##### END OF AREA REPORT #####]
+
+Mapper successful!
+Process took 0h:00m:01s realtime, 0h:00m:01s cputime
+# Fri Mar 21 15:49:04 2008
+
+###########################################################]

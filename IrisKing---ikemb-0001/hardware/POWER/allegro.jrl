@@ -1,0 +1,796 @@
+\t (00:00:16) allegro 16.0 p005 (v16-0-87F) i86
+\t (00:00:16) 
+
+\t (00:00:16) Starting new drawing...
+\i (00:00:17) trapsize 1075
+\i (00:00:17) trapsize 1041
+\i (00:00:17) trapsize 1132
+\i (00:00:17) trapsize 1179
+\i (00:00:21) trapsize 1179
+\i (00:00:21) generaledit 
+\i (00:00:26) open 
+\i (00:00:36) fillin "E:\project\IRISking\ikemb-0001\project\hardware\DM642\v4\EMB001-V4.1.brd"
+\i (00:00:36) cd "E:\project\IRISking\ikemb-0001\project\hardware\DM642\v4"
+\t (00:00:36) Opening existing drawing...
+\i (00:00:37) trapsize 82793
+\d (00:00:37) Database opened: E:/project/IRISking/ikemb-0001/project/hardware/DM642/v4/EMB001-V4.1.brd
+\i (00:00:37) generaledit 
+\i (00:00:39) setwindow form.vf_vis
+\i (00:00:39) FORM vf_vis 1 all_colorvisible YES 
+\i (00:00:41) FORM vf_vis 10 all_colorvisible YES 
+\i (00:00:44) FORM vf_vis 6 all_colorvisible YES 
+\i (00:00:45) FORM vf_vis 5 all_colorvisible YES 
+\i (00:00:46) FORM vf_vis 3 all_colorvisible YES 
+\i (00:00:48) FORM vf_vis 8 all_colorvisible YES 
+\i (00:00:52) setwindow pcb
+\i (00:00:52) shadow toggle 
+\i (00:00:55) pick grid 2459.485 -1565.546
+\t (00:00:55) last pick:  2459.490  -1565.550
+\i (00:00:58) setwindow form.mini
+\i (00:00:58) FORM mini subclass TOP 
+\i (00:01:00) setwindow pcb
+\i (00:01:00) zoom in 
+\i (00:01:00) setwindow pcb
+\i (00:01:00) zoom in 1465.973 1398.430
+\i (00:01:00) trapsize 41396
+\i (00:01:00) zoom in 
+\i (00:01:00) setwindow pcb
+\i (00:01:00) zoom in 1465.974 1398.431
+\i (00:01:00) trapsize 20698
+\i (00:01:01) zoom in 
+\i (00:01:01) setwindow pcb
+\i (00:01:01) zoom in 1465.974 1398.431
+\i (00:01:01) trapsize 10349
+\i (00:01:03) hilight 
+\i (00:01:04) setwindow form.find
+\i (00:01:04) FORM find name_type Net 
+\i (00:01:06) FORM find find_name nwait 
+\i (00:01:06) setwindow pcb
+\i (00:01:06) trapsize 10364
+\t (00:01:06) Net "Nwait" highlighted.
+\i (00:01:10) prepopup 2468.671 1722.434
+\i (00:01:10) done 
+\i (00:01:11) generaledit 
+\i (00:01:13) pick grid 2277.964 1641.591
+\t (00:01:13) last pick:  2277.960  1641.590
+\i (00:01:14) roam x 96 
+\i (00:01:14) roam x 96
+\i (00:01:14) roam x 96 
+\i (00:01:14) roam x 96
+\i (00:01:15) roam x 96 
+\i (00:01:15) roam x 96
+\i (00:01:15) roam x 96 
+\i (00:01:15) roam x 96
+\i (00:01:17) roam x -96 
+\i (00:01:17) roam x -96
+\i (00:01:17) roam x -96 
+\i (00:01:17) roam x -96
+\i (00:01:17) roam x -96 
+\i (00:01:17) roam x -96
+\i (00:01:17) roam x -96 
+\i (00:01:17) roam x -96
+\i (00:01:17) roam x -96 
+\i (00:01:17) roam x -96
+\i (00:01:18) roam x -96 
+\i (00:01:18) roam x -96
+\i (00:01:18) roam x -96 
+\i (00:01:18) roam x -96
+\i (00:01:19) roam x 96 
+\i (00:01:19) roam x 96
+\i (00:01:19) roam x 96 
+\i (00:01:19) roam x 96
+\i (00:01:19) roam x 96 
+\i (00:01:19) roam x 96
+\i (00:01:19) roam x 96 
+\i (00:01:19) roam x 96
+\i (00:01:19) roam x 96 
+\i (00:01:19) roam x 96
+\i (00:01:20) roam x 96 
+\i (00:01:20) roam x 96
+\i (00:01:20) roam x 96 
+\i (00:01:20) roam x 96
+\i (00:01:20) roam x 96 
+\i (00:01:20) roam x 96
+\i (00:01:20) roam x 96 
+\i (00:01:20) roam x 96
+\i (00:01:20) roam x 96 
+\i (00:01:20) roam x 96
+\i (00:01:24) zoom in 
+\i (00:01:24) setwindow pcb
+\i (00:01:24) zoom in 2606.041 1799.131
+\i (00:01:24) trapsize 5182
+\i (00:02:24) zoom out 
+\i (00:02:24) setwindow pcb
+\i (00:02:24) zoom out 2720.051 1855.099
+\i (00:02:24) trapsize 10364
+\i (00:02:25) roam x -96 
+\i (00:02:25) roam x -96
+\i (00:02:25) roam x -96 
+\i (00:02:25) roam x -96
+\i (00:02:25) roam x -96 
+\i (00:02:25) roam x -96
+\i (00:02:25) roam x -96 
+\i (00:02:25) roam x -96
+\i (00:02:26) roam x -96 
+\i (00:02:26) roam x -96
+\i (00:02:26) roam x -96 
+\i (00:02:26) roam x -96
+\i (00:02:26) roam x -96 
+\i (00:02:26) roam x -96
+\i (00:02:26) roam x -96 
+\i (00:02:26) roam x -96
+\i (00:02:26) roam x -96 
+\i (00:02:26) roam x -96
+\i (00:02:26) roam x -96 
+\i (00:02:26) roam x -96
+\i (00:02:27) roam y -96 
+\i (00:02:27) roam y -96
+\i (00:02:27) roam x 96 
+\i (00:02:27) roam x 96
+\i (00:02:27) roam x 96 
+\i (00:02:27) roam x 96
+\i (00:02:28) roam x 96 
+\i (00:02:28) roam x 96
+\i (00:02:28) roam x 96 
+\i (00:02:28) roam x 96
+\i (00:02:28) roam x 96 
+\i (00:02:28) roam x 96
+\i (00:02:28) roam x 96 
+\i (00:02:28) roam x 96
+\i (00:02:28) roam x 96 
+\i (00:02:28) roam x 96
+\i (00:03:13) roam x -96 
+\i (00:03:13) roam x -96
+\i (00:03:13) roam x -96 
+\i (00:03:13) roam x -96
+\i (00:03:13) roam x -96 
+\i (00:03:13) roam x -96
+\i (00:03:14) roam x -96 
+\i (00:03:14) roam x -96
+\i (00:03:14) roam x -96 
+\i (00:03:14) roam x -96
+\i (00:03:14) roam x -96 
+\i (00:03:14) roam x -96
+\i (00:03:14) roam x -96 
+\i (00:03:14) roam x -96
+\i (00:03:14) roam x -96 
+\i (00:03:14) roam x -96
+\i (00:03:14) roam x -96 
+\i (00:03:14) roam x -96
+\i (00:03:14) roam x -96 
+\i (00:03:14) roam x -96
+\i (00:03:15) roam y -96 
+\i (00:03:15) roam y -96
+\i (00:03:16) roam y -96 
+\i (00:03:16) roam y -96
+\i (00:03:17) roam y 96 
+\i (00:03:17) roam y 96
+\i (00:03:18) roam y 96 
+\i (00:03:18) roam y 96
+\i (00:03:20) roam x -96 
+\i (00:03:20) roam x -96
+\i (00:03:20) roam x -96 
+\i (00:03:20) roam x -96
+\i (00:03:20) roam y -96 
+\i (00:03:20) roam y -96
+\i (00:03:21) roam y -96 
+\i (00:03:21) roam y -96
+\i (00:03:21) roam y 96 
+\i (00:03:21) roam y 96
+\i (00:03:22) roam x 96 
+\i (00:03:22) roam x 96
+\i (00:03:22) roam y 96 
+\i (00:03:22) roam y 96
+\i (00:03:22) roam y 96 
+\i (00:03:22) roam y 96
+\i (00:03:23) roam y 96 
+\i (00:03:23) roam y 96
+\i (00:03:24) zoom out 
+\i (00:03:24) setwindow pcb
+\i (00:03:24) zoom out 41.864 1639.578
+\i (00:03:24) trapsize 20729
+\i (00:03:24) roam y -96 
+\i (00:03:24) roam y -96
+\i (00:03:26) zoom in 
+\i (00:03:26) setwindow pcb
+\i (00:03:26) zoom in 8.698 2408.623
+\i (00:03:26) trapsize 10364
+\i (00:03:27) zoom in 
+\i (00:03:27) setwindow pcb
+\i (00:03:27) zoom in 8.698 2408.623
+\i (00:03:27) trapsize 5182
+\i (00:03:35) pick grid 177.640 2586.893
+\t (00:03:35) last pick:  177.640  2586.890
+\i (00:03:38) show element 
+\i (00:03:42) hilight 
+\i (00:03:44) show element 
+\i (00:03:47) setwindow form.find
+\i (00:03:47) FORM find nets YES 
+\i (00:03:52) setwindow pcb
+\i (00:03:52) prepopup 220.134 2470.811
+\i (00:03:53) done 
+\i (00:03:53) generaledit 
+\i (00:03:53) pick grid 199.405 2487.394
+\t (00:03:53) last pick:  199.410  2487.390
+\i (00:03:55) roam x 96 
+\i (00:03:55) roam x 96
+\i (00:03:55) roam x 96 
+\i (00:03:55) roam x 96
+\i (00:03:56) roam x 96 
+\i (00:03:56) roam x 96
+\i (00:03:57) roam x -96 
+\i (00:03:57) roam x -96
+\i (00:03:57) roam x -96 
+\i (00:03:57) roam x -96
+\i (00:03:57) roam x -96 
+\i (00:03:57) roam x -96
+\i (00:27:04) zoom in 
+\i (00:27:04) setwindow pcb
+\i (00:27:04) zoom in 51.192 2423.134
+\i (00:27:04) trapsize 2591
+\i (00:27:04) zoom out 
+\i (00:27:04) setwindow pcb
+\i (00:27:04) zoom out 51.193 2423.134
+\i (00:27:04) trapsize 5182
+\i (00:27:04) zoom out 
+\i (00:27:04) setwindow pcb
+\i (00:27:04) zoom out 51.192 2423.134
+\i (00:27:04) trapsize 10364
+\i (00:27:04) zoom out 
+\i (00:27:04) setwindow pcb
+\i (00:27:04) zoom out 51.192 2423.134
+\i (00:27:04) trapsize 20729
+\i (00:27:07) roam y 96 
+\i (00:27:07) roam y 96
+\i (00:27:08) zoom in 
+\i (00:27:08) setwindow pcb
+\i (00:27:08) zoom in 51.192 2023.065
+\i (00:27:08) trapsize 10364
+\i (00:27:10) roam x 96 
+\i (00:27:10) roam x 96
+\i (00:27:10) roam x 96 
+\i (00:27:10) roam x 96
+\i (00:27:12) color192 
+\i (00:27:13) generaledit 
+\i (00:27:15) setwindow cvf.dialog
+\i (00:27:15) cvf layer_tree_item 54
+\i (00:27:16) cvf layer_grid_vis 10 221 1
+\i (00:27:17) cvf apply
+\i (00:27:18) cvf cancel
+\i (00:27:20) setwindow pcb
+\i (00:27:20) roam y 96 
+\i (00:27:20) roam y 96
+\i (00:27:20) roam y 96 
+\i (00:27:20) roam y 96
+\i (00:27:37) roam y -96 
+\i (00:27:37) roam y -96
+\i (00:27:37) roam y -96 
+\i (00:27:37) roam y -96
+\i (00:27:37) roam y -96 
+\i (00:27:37) roam y -96
+\i (00:27:38) roam y -96 
+\i (00:27:38) roam y -96
+\i (00:27:48) zoom in 
+\i (00:27:48) setwindow pcb
+\i (00:27:48) zoom in 715.556 1962.950
+\i (00:27:48) trapsize 5182
+\i (00:27:49) roam y -96 
+\i (00:27:49) roam y -96
+\i (00:27:49) roam y -96 
+\i (00:27:49) roam y -96
+\i (00:27:50) roam y -96 
+\i (00:27:50) roam y -96
+\i (00:27:50) roam y -96 
+\i (00:27:50) roam y -96
+\i (00:27:50) roam y -96 
+\i (00:27:50) roam y -96
+\i (00:28:01) show element 
+\i (00:28:03) setwindow form.find
+\i (00:28:03) FORM find nets NO 
+\i (00:28:04) FORM find symbols YES 
+\i (00:28:29) setwindow pcb
+\i (00:28:29) zoom out 1 
+\i (00:28:29) setwindow pcb
+\i (00:28:29) zoom out 404.621 2592.076
+\i (00:28:29) trapsize 10364
+\i (00:29:34) roam y 96 
+\i (00:29:34) roam y 96
+\i (00:29:35) roam y 96 
+\i (00:29:35) roam y 96
+\i (00:29:36) roam y -96 
+\i (00:29:36) roam y -96
+\i (00:29:44) setwindow form.find
+\i (00:29:44) FORM find nets YES 
+\i (00:29:45) setwindow pcb
+\i (00:29:45) hilight 
+\i (00:29:47) setwindow form.mini
+\i (00:29:47) FORM mini color8 1 
+\i (00:30:05) setwindow form.find
+\i (00:30:05) FORM find find_name v3.3v 
+\i (00:30:05) setwindow pcb
+\i (00:30:05) trapsize 46427
+\t (00:30:05) Net "V3.3V" highlighted.
+\i (00:30:06) prepopup 3921.096 -1874.257
+\i (00:30:07) done 
+\i (00:30:08) generaledit 
+\i (00:30:09) save 
+\f (00:30:09) E:/project/IRISking/ikemb-0001/project/hardware/DM642/v4/EMB001-V4.1.brd: File Exists. Overwrite? 
+\i (00:30:09) fillin yes 
+\i (00:30:10) generaledit 
+\i (00:30:12) hilight 
+\i (00:30:13) setwindow form.mini
+\i (00:30:13) FORM mini color2 1 
+\i (00:30:17) setwindow form.find
+\i (00:30:17) FORM find find_name gnd 
+\i (00:30:17) setwindow pcb
+\i (00:30:17) trapsize 46594
+\t (00:30:17) Net "Gnd" highlighted.
+\i (00:30:18) prepopup 1626.186 -1689.695
+\i (00:30:20) done 
+\i (00:30:20) generaledit 
+\i (00:30:21) hilight 
+\i (00:30:23) setwindow form.mini
+\i (00:30:23) FORM mini color3 1 
+\i (00:30:26) setwindow form.find
+\i (00:30:26) FORM find find_name v1.8v 
+\i (00:30:27) setwindow pcb
+\i (00:30:27) prepopup 2772.398 -1130.567
+\i (00:30:28) done 
+\i (00:30:28) generaledit 
+\i (00:30:30) zoom in 
+\i (00:30:30) setwindow pcb
+\i (00:30:30) zoom in 684.987 2485.128
+\i (00:30:30) trapsize 23297
+\i (00:30:30) zoom in 
+\i (00:30:30) setwindow pcb
+\i (00:30:30) zoom in 559.183 2387.281
+\i (00:30:30) trapsize 11649
+\i (00:30:30) zoom in 
+\i (00:30:30) setwindow pcb
+\i (00:30:30) zoom in 552.194 2382.621
+\i (00:30:30) trapsize 5824
+\i (00:30:32) roam y -96 
+\i (00:30:32) roam y -96
+\i (00:30:33) roam y -96 
+\i (00:30:33) roam y -96
+\i (00:30:51) pick grid 850.396 2830.844
+\t (00:30:51) last pick:  850.400  2830.840
+\i (00:30:51) roam y -96 
+\i (00:30:51) roam y -96
+\i (00:30:52) roam y -96 
+\i (00:30:52) roam y -96
+\i (00:30:54) show element 
+\i (00:30:56) setwindow form.find
+\i (00:30:56) FORM find nets NO 
+\i (00:40:13) setwindow pcb
+\i (00:40:13) hilight 
+\i (00:40:16) setwindow form.find
+\i (00:40:16) FORM find name_type Symbol (or Pin) 
+\i (00:40:22) setwindow pcb
+\i (00:40:22) prepopup 968.046 3082.452
+\i (00:40:23) cancel 
+\i (00:40:23) generaledit 
+\i (00:40:26) roam y 96 
+\i (00:40:26) roam y 96
+\i (00:40:27) roam y 96 
+\i (00:40:27) roam y 96
+\i (00:40:27) roam y 96 
+\i (00:40:27) roam y 96
+\i (00:40:28) roam y 96 
+\i (00:40:28) roam y 96
+\i (00:40:29) roam y 96 
+\i (00:40:29) roam y 96
+\i (00:40:29) roam x 96 
+\i (00:40:29) roam x 96
+\i (00:40:29) roam x 96 
+\i (00:40:29) roam x 96
+\i (00:40:29) roam x 96 
+\i (00:40:29) roam x 96
+\i (00:40:30) roam y -96 
+\i (00:40:30) roam y -96
+\i (00:40:33) show element 
+\i (00:41:00) zoom in 1 
+\i (00:41:00) setwindow pcb
+\i (00:41:00) zoom in 1270.877 2427.805
+\i (00:41:00) trapsize 2912
+\i (00:41:01) zoom out 1 
+\i (00:41:01) setwindow pcb
+\i (00:41:01) zoom out 1270.878 2427.806
+\i (00:41:01) trapsize 5824
+\i (00:41:04) pick grid 1308.152 2589.719
+\t (00:41:04) last pick:  1308.150  2589.720
+\i (00:41:05) zoom in 1 
+\i (00:41:05) setwindow pcb
+\i (00:41:05) zoom in 1308.152 2589.719
+\i (00:41:05) trapsize 2912
+\i (00:41:05) zoom out 1 
+\i (00:41:05) setwindow pcb
+\i (00:41:05) zoom out 1307.570 2587.972
+\i (00:41:05) trapsize 5824
+\i (00:41:06) roam y -96 
+\i (00:41:06) roam y -96
+\i (00:41:07) roam y -96 
+\i (00:41:07) roam y -96
+\i (00:41:47) roam x -96 
+\i (00:41:47) roam x -96
+\i (00:41:47) roam x -96 
+\i (00:41:47) roam x -96
+\i (00:41:47) roam x -96 
+\i (00:41:47) roam x -96
+\i (00:41:48) roam x -96 
+\i (00:41:48) roam x -96
+\i (00:41:49) roam y -96 
+\i (00:41:49) roam y -96
+\i (00:41:50) roam y -96 
+\i (00:41:50) roam y -96
+\i (00:41:50) roam y -96 
+\i (00:41:50) roam y -96
+\i (00:41:50) roam x 96 
+\i (00:41:50) roam x 96
+\i (00:41:51) roam x 96 
+\i (00:41:51) roam x 96
+\i (00:41:51) roam x 96 
+\i (00:41:51) roam x 96
+\i (00:41:54) roam y 96 
+\i (00:41:54) roam y 96
+\i (00:41:55) roam y 96 
+\i (00:41:55) roam y 96
+\i (00:41:55) roam y 96 
+\i (00:41:55) roam y 96
+\i (00:41:55) roam y 96 
+\i (00:41:55) roam y 96
+\i (00:41:55) roam y 96 
+\i (00:41:55) roam y 96
+\i (00:41:56) roam y -96 
+\i (00:41:56) roam y -96
+\i (00:41:56) roam y -96 
+\i (00:41:56) roam y -96
+\i (00:41:56) roam y -96 
+\i (00:41:56) roam y -96
+\i (00:41:57) roam y -96 
+\i (00:41:57) roam y -96
+\i (00:41:57) roam y -96 
+\i (00:41:57) roam y -96
+\i (00:42:05) roam y 96 
+\i (00:42:05) roam y 96
+\i (00:42:07) roam y 96 
+\i (00:42:07) roam y 96
+\i (00:42:08) roam y 96 
+\i (00:42:08) roam y 96
+\i (00:42:09) roam y 96 
+\i (00:42:09) roam y 96
+\i (00:42:10) roam x -96 
+\i (00:42:10) roam x -96
+\i (00:42:10) roam x -96 
+\i (00:42:10) roam x -96
+\i (00:42:12) roam x -96 
+\i (00:42:12) roam x -96
+\i (00:42:13) roam y -96 
+\i (00:42:13) roam y -96
+\i (00:42:13) roam y -96 
+\i (00:42:13) roam y -96
+\i (00:42:14) roam y -96 
+\i (00:42:14) roam y -96
+\i (00:42:15) roam x -96 
+\i (00:42:15) roam x -96
+\i (00:42:15) roam y 96 
+\i (00:42:15) roam y 96
+\i (00:42:16) roam y 96 
+\i (00:42:16) roam y 96
+\i (00:42:16) roam y 96 
+\i (00:42:16) roam y 96
+\i (00:42:17) roam y 96 
+\i (00:42:17) roam y 96
+\i (00:42:17) roam y 96 
+\i (00:42:17) roam y 96
+\i (00:42:17) roam y 96 
+\i (00:42:17) roam y 96
+\i (00:42:18) roam y 96 
+\i (00:42:18) roam y 96
+\i (00:42:18) roam y 96 
+\i (00:42:18) roam y 96
+\i (00:42:19) roam y -96 
+\i (00:42:19) roam y -96
+\i (00:42:19) roam y -96 
+\i (00:42:19) roam y -96
+\i (00:42:19) roam y -96 
+\i (00:42:19) roam y -96
+\i (00:42:19) roam y -96 
+\i (00:42:19) roam y -96
+\i (00:42:19) roam y -96 
+\i (00:42:19) roam y -96
+\i (00:42:19) roam y -96 
+\i (00:42:19) roam y -96
+\i (00:42:20) roam y -96 
+\i (00:42:20) roam y -96
+\i (00:42:20) roam y -96 
+\i (00:42:20) roam y -96
+\i (00:43:04) hilight 
+\i (00:43:07) setwindow form.find
+\i (00:43:07) FORM find find_name ARM_nRST_OUT 
+\i (00:43:07) setwindow pcb
+\i (00:43:07) trapsize 17181
+\t (00:43:07) Net "Arm_Nrst_Out" highlighted.
+\i (00:43:11) zoom in 
+\i (00:43:11) setwindow pcb
+\i (00:43:11) zoom in 2188.221 1924.386
+\i (00:43:11) trapsize 8591
+\i (00:43:15) zoom out 
+\i (00:43:15) setwindow pcb
+\i (00:43:15) zoom out 2188.221 1924.387
+\i (00:43:15) trapsize 17181
+\i (00:43:34) zoom in 
+\i (00:43:34) setwindow pcb
+\i (00:43:34) zoom in 2514.660 2721.588
+\i (00:43:34) trapsize 8591
+\i (00:43:35) zoom in 
+\i (00:43:35) setwindow pcb
+\i (00:43:35) zoom in 2514.661 2721.589
+\i (00:43:35) trapsize 4295
+\i (00:43:48) roam y 96 
+\i (00:43:48) roam y 96
+\i (00:43:48) roam y 96 
+\i (00:43:48) roam y 96
+\i (00:43:48) roam y 96 
+\i (00:43:48) roam y 96
+\i (00:43:49) roam y 96 
+\i (00:43:49) roam y 96
+\i (00:43:49) roam y 96 
+\i (00:43:49) roam y 96
+\i (00:43:49) roam y 96 
+\i (00:43:49) roam y 96
+\i (00:43:49) roam y 96 
+\i (00:43:49) roam y 96
+\i (00:43:49) roam y 96 
+\i (00:43:49) roam y 96
+\i (00:43:49) roam y 96 
+\i (00:43:49) roam y 96
+\i (00:43:50) roam y 96 
+\i (00:43:50) roam y 96
+\i (00:43:50) roam y 96 
+\i (00:43:50) roam y 96
+\i (00:43:50) roam y 96 
+\i (00:43:50) roam y 96
+\i (00:43:50) roam y 96 
+\i (00:43:50) roam y 96
+\i (00:43:50) roam y 96 
+\i (00:43:50) roam y 96
+\i (00:43:50) roam y 96 
+\i (00:43:50) roam y 96
+\i (00:43:50) roam y 96 
+\i (00:43:50) roam y 96
+\i (00:43:51) roam y 96 
+\i (00:43:51) roam y 96
+\i (00:43:51) roam y 96 
+\i (00:43:51) roam y 96
+\i (00:43:51) roam y 96 
+\i (00:43:51) roam y 96
+\i (00:43:51) roam x 96 
+\i (00:43:51) roam x 96
+\i (00:43:52) roam x 96 
+\i (00:43:52) roam x 96
+\i (00:43:52) roam x 96 
+\i (00:43:52) roam x 96
+\i (00:43:52) roam x 96 
+\i (00:43:52) roam x 96
+\i (00:43:52) roam x 96 
+\i (00:43:52) roam x 96
+\i (00:43:52) roam x 96 
+\i (00:43:52) roam x 96
+\i (00:43:52) roam x 96 
+\i (00:43:52) roam x 96
+\i (00:43:52) roam x 96 
+\i (00:43:52) roam x 96
+\i (00:43:52) roam x 96 
+\i (00:43:52) roam x 96
+\i (00:43:52) roam x 96 
+\i (00:43:52) roam x 96
+\i (00:43:52) roam x 96 
+\i (00:43:52) roam x 96
+\i (00:43:52) roam x 96 
+\i (00:43:52) roam x 96
+\i (00:43:52) roam x 96 
+\i (00:43:52) roam x 96
+\i (00:43:52) roam x 96 
+\i (00:43:52) roam x 96
+\i (00:43:52) roam x 96 
+\i (00:43:52) roam x 96
+\i (00:43:54) roam x -96 
+\i (00:43:54) roam x -96
+\i (00:43:54) roam x -96 
+\i (00:43:54) roam x -96
+\i (00:43:54) roam x -96 
+\i (00:43:54) roam x -96
+\i (00:43:54) roam x -96 
+\i (00:43:54) roam x -96
+\i (00:43:54) roam x -96 
+\i (00:43:54) roam x -96
+\i (00:43:54) roam x -96 
+\i (00:43:54) roam x -96
+\i (00:43:55) roam x -96 
+\i (00:43:55) roam x -96
+\i (00:43:55) roam x -96 
+\i (00:43:55) roam x -96
+\i (00:43:55) roam x -96 
+\i (00:43:55) roam x -96
+\i (00:43:55) roam x -96 
+\i (00:43:55) roam x -96
+\i (00:43:55) roam x -96 
+\i (00:43:55) roam x -96
+\i (00:43:55) roam x -96 
+\i (00:43:55) roam x -96
+\i (00:43:55) roam x -96 
+\i (00:43:55) roam x -96
+\i (00:43:55) roam x -96 
+\i (00:43:55) roam x -96
+\i (00:43:55) roam x -96 
+\i (00:43:55) roam x -96
+\i (00:43:55) roam y -96 
+\i (00:43:55) roam y -96
+\i (00:43:56) roam y -96 
+\i (00:43:56) roam y -96
+\i (00:43:56) roam y -96 
+\i (00:43:56) roam y -96
+\i (00:43:56) roam y -96 
+\i (00:43:56) roam y -96
+\i (00:43:56) roam y -96 
+\i (00:43:56) roam y -96
+\i (00:43:56) roam y -96 
+\i (00:43:56) roam y -96
+\i (00:43:56) roam y -96 
+\i (00:43:56) roam y -96
+\i (00:43:56) roam y -96 
+\i (00:43:56) roam y -96
+\i (00:43:56) roam y -96 
+\i (00:43:56) roam y -96
+\i (00:43:56) roam y -96 
+\i (00:43:56) roam y -96
+\i (00:43:56) roam y -96 
+\i (00:43:56) roam y -96
+\i (00:43:56) roam y -96 
+\i (00:43:56) roam y -96
+\i (00:43:56) roam y -96 
+\i (00:43:56) roam y -96
+\i (00:43:56) roam y -96 
+\i (00:43:56) roam y -96
+\i (00:43:56) roam y -96 
+\i (00:43:56) roam y -96
+\i (00:43:57) roam y -96 
+\i (00:43:57) roam y -96
+\i (00:43:57) roam y -96 
+\i (00:43:57) roam y -96
+\i (00:43:57) roam y -96 
+\i (00:43:57) roam y -96
+\i (00:43:57) roam y -96 
+\i (00:43:57) roam y -96
+\i (00:44:00) prepopup 2696.849 2791.320
+\i (00:44:01) done 
+\i (00:44:01) generaledit 
+\i (00:44:01) dehilight 
+\i (00:44:05) pick grid 2549.092 2628.100
+\t (00:44:05) last pick:  2549.090  2628.100
+\t (00:44:05) Net "V3.3V" dehighlighted.
+\i (00:44:05) pick grid 2478.649 2675.348
+\t (00:44:05) last pick:  2478.650  2675.350
+\t (00:44:05) Net "Gnd" dehighlighted.
+\i (00:44:07) prepopup 2673.654 2796.475
+\i (00:44:07) done 
+\i (00:44:07) generaledit 
+\i (01:25:24) exit 
+\f (01:25:24) Do you want to save the changes you made to E:/project/IRISking/ikemb-0001/project/hardware/DM642/v4/EMB001-V4.1.brd?
+\i (01:25:27) fillin menu_cancel 
+\i (01:25:27) generaledit 
+\i (01:38:46) zoom out 
+\i (01:38:46) setwindow pcb
+\i (01:38:46) zoom out 2432.260 2521.578
+\i (01:38:46) trapsize 8591
+\i (01:38:46) zoom out 
+\i (01:38:46) setwindow pcb
+\i (01:38:46) zoom out 2432.262 2521.578
+\i (01:38:46) trapsize 17181
+\i (01:38:46) roam y -96 
+\i (01:38:46) roam y -96
+\i (01:38:47) roam x -96 
+\i (01:38:47) roam x -96
+\i (01:38:47) roam x -96 
+\i (01:38:47) roam x -96
+\i (01:38:47) roam y 96 
+\i (01:38:47) roam y 96
+\i (01:38:48) roam y 96 
+\i (01:38:48) roam y 96
+\i (01:38:48) roam y 96 
+\i (01:38:48) roam y 96
+\i (01:38:48) roam y 96 
+\i (01:38:48) roam y 96
+\i (01:38:48) roam y 96 
+\i (01:38:48) roam y 96
+\i (01:38:49) roam y 96 
+\i (01:38:49) roam y 96
+\i (01:38:49) roam y -96 
+\i (01:38:49) roam y -96
+\i (01:38:50) roam x 96 
+\i (01:38:50) roam x 96
+\i (01:38:50) roam x 96 
+\i (01:38:50) roam x 96
+\i (01:38:50) roam x 96 
+\i (01:38:50) roam x 96
+\i (01:38:50) roam x 96 
+\i (01:38:50) roam x 96
+\i (01:38:50) roam x 96 
+\i (01:38:50) roam x 96
+\i (01:38:51) roam x -96 
+\i (01:38:51) roam x -96
+\i (01:38:51) roam x -96 
+\i (01:38:51) roam x -96
+\i (01:38:51) roam x -96 
+\i (01:38:51) roam x -96
+\i (01:38:51) roam y -96 
+\i (01:38:51) roam y -96
+\i (01:38:52) roam y -96 
+\i (01:38:52) roam y -96
+\i (01:38:52) roam y -96 
+\i (01:38:52) roam y -96
+\i (01:38:52) roam x -96 
+\i (01:38:52) roam x -96
+\i (01:38:53) roam x -96 
+\i (01:38:53) roam x -96
+\i (01:38:53) roam x -96 
+\i (01:38:53) roam x -96
+\i (01:38:53) roam x -96 
+\i (01:38:53) roam x -96
+\i (01:38:55) dehilight 
+\i (01:38:55) zoom in 
+\i (01:38:55) setwindow pcb
+\i (01:38:55) zoom in 1842.123 2786.467
+\i (01:38:55) trapsize 8591
+\i (01:38:56) zoom in 
+\i (01:38:56) setwindow pcb
+\i (01:38:56) zoom in 1606.743 2848.319
+\i (01:38:56) trapsize 4295
+\i (01:38:57) pick grid 1504.515 2890.412
+\t (01:38:57) last pick:  1504.520  2890.410
+\t (01:38:57) Net "Arm_Nrst_Out" dehighlighted.
+\i (01:38:57) zoom out 
+\i (01:38:57) setwindow pcb
+\i (01:38:57) zoom out 1545.750 2829.420
+\i (01:38:57) trapsize 8591
+\i (01:38:58) pick grid 1585.266 2241.828
+\t (01:38:58) last pick:  1585.270  2241.830
+\t (01:38:58) Net "Nwait" dehighlighted.
+\i (01:38:59) prepopup 1588.703 2260.727
+\i (01:38:59) done 
+\i (01:38:59) generaledit 
+\i (01:39:02) save 
+\f (01:39:02) E:/project/IRISking/ikemb-0001/project/hardware/DM642/v4/EMB001-V4.1.brd: File Exists. Overwrite? 
+\i (01:39:03) fillin no 
+\i (01:39:05) fillin "menu_cancel"
+\i (01:39:05) generaledit 
+\i (01:39:05) zoom out 
+\i (01:39:05) setwindow pcb
+\i (01:39:05) zoom out 2083.517 2229.801
+\i (01:39:05) trapsize 17181
+\i (01:39:05) zoom out 
+\i (01:39:05) setwindow pcb
+\i (01:39:05) zoom out 2083.517 2229.801
+\i (01:39:05) trapsize 34362
+\i (01:39:06) pick grid 1107.633 4112.845
+\t (01:39:06) last pick:  1107.630  4112.850
+\i (01:39:07) roam x -96 
+\i (01:39:07) roam x -96
+\i (01:39:08) zoom out 
+\i (01:39:08) setwindow pcb
+\i (01:39:08) zoom out 443.584 4112.845
+\i (01:39:08) trapsize 68724
+\i (01:39:09) roam x 96 
+\i (01:39:09) roam x 96
+\i (01:39:09) roam x 96 
+\i (01:39:09) roam x 96
+\i (01:39:09) roam x 96 
+\i (01:39:09) roam x 96
+\i (01:39:11) drag_start grid 4195.928 -1866.163
+\i (01:39:11) drag_stop 2477.822 -739.085
+\i (01:39:12) pick grid 3371.237 -1371.348
+\t (01:39:12) last pick:  3371.240  -1371.350
+\i (02:05:33) exit 
+\f (02:05:33) Do you want to save the changes you made to E:/project/IRISking/ikemb-0001/project/hardware/DM642/v4/EMB001-V4.1.brd?
+\i (02:05:35) fillin no 

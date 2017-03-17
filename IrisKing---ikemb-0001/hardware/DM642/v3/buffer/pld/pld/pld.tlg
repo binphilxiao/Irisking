@@ -1,0 +1,9 @@
+Selecting top level module pld
+@N: CG364 :"E:\emb001\project\hardware\buffer\pld\pld.v":1:7:1:9|Synthesizing module pld
+
+@W: CL209 :"E:\emb001\project\hardware\buffer\pld\pld.v":11:13:11:16|Input port bit <5> of nGCS[5:0] is unused
+
+@W: CL159 :"E:\emb001\project\hardware\buffer\pld\pld.v":3:26:3:28|Input nWE is unused
+@W: CL159 :"E:\emb001\project\hardware\buffer\pld\pld.v":4:7:4:13|Input vp2clk0 is unused
+@W: CL159 :"E:\emb001\project\hardware\buffer\pld\pld.v":4:31:4:37|Input vp2ctl1 is unused
+@W: CL159 :"E:\emb001\project\hardware\buffer\pld\pld.v":4:39:4:45|Input vp2ctl2 is unused

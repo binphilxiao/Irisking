@@ -1,0 +1,23 @@
+\t (00:00:03) allegro 15.7 p007 (v15-7-42E) i86
+\t (00:00:03) 
+
+\t (00:00:04) Opening existing drawing...
+\d (00:00:04) Database opened: D:/project/IRISking/ikemb-0002/project/hardware/keyboard/keyboard.brd
+\t (00:00:04) Grids are drawn 102.4000, 102.4000 apart for enhanced viewability.
+\t (00:00:04) Grids are drawn 6.4000, 6.4000 apart for enhanced viewability.
+\i (00:00:04) trapsize 75425
+\t (00:00:04) Grids are drawn 25.6000, 25.6000 apart for enhanced viewability.
+\i (00:00:04) trapsize 90369
+\i (00:00:04) trapsize 90369
+\i (00:00:25) xhilite 
+\i (00:00:25) xname_flush 
+\i (00:00:25) done 
+\i (00:00:25) xhilite 
+\i (00:00:25) xname_flush 
+\i (00:00:25) done 
+\i (00:00:25) xhilite 
+\i (00:00:25) xname_flush 
+\i (00:00:25) done 
+\i (00:17:00) exit 
+\f (00:17:00) Do you want to save the changes you made to keyboard.brd?
+\i (00:17:01) fillin no 

@@ -1,0 +1,2202 @@
+//
+// Written by Synplify
+// Synplify 7.7.0, Build 033R.
+// Fri Mar 13 13:07:48 2009
+//
+// Source file index table:
+// Object locations will have the form <file>:<line>
+// file 0 "noname"
+// file 1 "\d:\project\irisking\ikemb-0001\project\hardware\buffer\buffer.v "
+
+`timescale 100 ps/100 ps
+module SOFT (
+  A_OUT,
+  A_IN
+);
+output A_OUT ;
+input A_IN ;
+wire A_OUT ;
+wire A_IN ;
+wire GND ;
+wire VCC ;
+  assign #(1)  A_OUT = A_IN;
+  assign GND = 1'b0;
+  assign VCC = 1'b1;
+endmodule /* SOFT */
+
+module LCELL (
+  A_OUT,
+  A_IN
+);
+output A_OUT ;
+input A_IN ;
+wire A_OUT ;
+wire A_IN ;
+wire GND ;
+wire VCC ;
+  assign #(1)  A_OUT = A_IN;
+  assign GND = 1'b0;
+  assign VCC = 1'b1;
+endmodule /* LCELL */
+
+module EXP (
+  A_OUT,
+  A_IN
+);
+output A_OUT ;
+input A_IN ;
+wire A_OUT ;
+wire A_IN ;
+wire GND ;
+wire VCC ;
+  assign #(1)  A_OUT = ~ A_IN;
+  assign GND = 1'b0;
+  assign VCC = 1'b1;
+endmodule /* EXP */
+
+module S_DFF (
+  Q,
+  D,
+  CLK,
+  CLRN,
+  PRN
+);
+output Q ;
+input D ;
+input CLK ;
+input CLRN ;
+input PRN ;
+wire Q ;
+wire D ;
+wire CLK ;
+wire CLRN ;
+wire PRN ;
+wire clr ;
+wire pre ;
+wire GND ;
+wire VCC ;
+  assign #(1)  clr = ~ CLRN;
+  assign #(1)  pre = ~ PRN;
+  reg Q_r_e_g; // dffrs
+  always @(posedge CLK or posedge clr or posedge pre )
+    Q_r_e_g = #1 clr ? 1'b0 : (pre ? 1'b1 : D );
+  assign Q = Q_r_e_g;
+  assign GND = 1'b0;
+  assign VCC = 1'b1;
+endmodule /* S_DFF */
+
+module S_DFFE (
+  Q,
+  D,
+  CLK,
+  CLRN,
+  PRN,
+  ENA
+);
+output Q ;
+input D ;
+input CLK ;
+input CLRN ;
+input PRN ;
+input ENA ;
+wire Q ;
+wire D ;
+wire CLK ;
+wire CLRN ;
+wire PRN ;
+wire ENA ;
+wire clr ;
+wire pre ;
+wire r ;
+wire GND ;
+wire VCC ;
+  assign #(1)  clr = ~ CLRN;
+  assign #(1)  pre = ~ PRN;
+  assign #(1)  r = ((!ENA & Q ) | 
+	(ENA & D ) | 
+	(Q & D ));
+  reg Q_r_e_g; // dffrs
+  always @(posedge CLK or posedge clr or posedge pre )
+    Q_r_e_g = #1 clr ? 1'b0 : (pre ? 1'b1 : r );
+  assign Q = Q_r_e_g;
+  assign GND = 1'b0;
+  assign VCC = 1'b1;
+endmodule /* S_DFFE */
+
+module buffer (
+  clock,
+  clk,
+  nReset,
+  hpirdy,
+  nEXTBUS,
+  BUFDIR,
+  BUFDIR1,
+  nFCE,
+  nOE,
+  nWE,
+  nGCS,
+  nFWE,
+  nFRE,
+  addr,
+  data,
+  wil,
+  eint11,
+  clkout,
+  vp2clk0,
+  vp2clk1,
+  vp2ctl0,
+  vp2ctl1,
+  vp2ctl2,
+  vCLK,
+  Hs,
+  Vs,
+  De,
+  nWAIT
+);
+input clock ;
+input clk ;
+input nReset ;
+input hpirdy ;
+output nEXTBUS ;
+output BUFDIR ;
+output BUFDIR1 ;
+input nFCE ;
+input nOE ;
+input nWE ;
+input [5:0] nGCS ;
+input nFWE ;
+input nFRE ;
+input [8:2] addr ;
+output [7:0] data /* synthesis syn_tristate = 1 */;
+input [1:0] wil ;
+output eint11 ;
+output clkout ;
+input vp2clk0 ;
+input vp2clk1 ;
+input vp2ctl0 ;
+input vp2ctl1 ;
+input vp2ctl2 ;
+output vCLK ;
+output Hs ;
+output Vs ;
+output De ;
+output nWAIT ;
+wire clock ;
+wire clk ;
+wire nReset ;
+wire hpirdy ;
+wire nEXTBUS ;
+wire BUFDIR ;
+wire BUFDIR1 ;
+wire nFCE ;
+wire nOE ;
+wire nWE ;
+wire nFWE ;
+wire nFRE ;
+wire eint11 ;
+wire clkout ;
+wire vp2clk0 ;
+wire vp2clk1 ;
+wire vp2ctl0 ;
+wire vp2ctl1 ;
+wire vp2ctl2 ;
+wire vCLK ;
+wire Hs ;
+wire Vs ;
+wire De ;
+wire nWAIT ;
+wire [12:0] wilclk_cnt;
+wire [4:0] wigend_bitcnt;
+wire [2:2] wigend_bitcnt_i_0;
+wire [8:2] addr_i_0;
+wire [0:0] un1_nGCS_0_a5_lin_2;
+wire [0:0] un1_nGCS_0_a5_lin_1;
+wire [0:0] un1_nGCS_0_a5_lin_0;
+wire [11:3] wilclk_cnt_i_0;
+wire [7:0] un1_wigend_reg_iv_0_i;
+wire [0:0] un1_nGCS_0_a5;
+wire [1:1] wil_i_0;
+wire [25:0] wigend_reg;
+wire [24:0] wigend_buf;
+wire [3:3] nGCS_i_0;
+wire [0:0] un1_nGCS_0_o2_n_i;
+wire [0:0] un1_nGCS_0_o2_n;
+wire [25:1] wigend_reg_9_i_0;
+wire [25:1] wigend_reg_9;
+wire [25:1] wigend_reg_9_x;
+wire wil_clk ;
+wire VCC ;
+wire GND ;
+wire wilclk_cnt_c10_0 ;
+wire wilclk_cnt_c9_s_x ;
+wire un1_wilclk_cntlto12_0_a0_0 ;
+wire wilclk_cnt_c5_2 ;
+wire wilclk_cnt_c5_1 ;
+wire wilclk_cnt_c5_0 ;
+wire wilclk_cnt_c1 ;
+wire wigend_bitcnt_10_i_a2_0 ;
+wire wigend_bitcnt_8_i_a2_0 ;
+wire wilclk_cnt_c3_lin_0 ;
+wire un1_wilclk_cntlto12_0_a0_1_0_0 ;
+wire un1_wil_clk_tmp_i_a3_0 ;
+wire wilclk_cnt_c9_s_0 ;
+wire wigend_bitcnt_n0_a0_0 ;
+wire overtime_delay3_i_i_0 ;
+wire nEXTBUS_0_a5_lin_5 ;
+wire nEXTBUS_0_a5_lin_4 ;
+wire nEXTBUS_0_a5_lin_3 ;
+wire nEXTBUS_0_a5_lin_2 ;
+wire nEXTBUS_0_a5_lin_1 ;
+wire nEXTBUS_0_a5_lin_0 ;
+wire N_494_i ;
+wire nOE_i_0 ;
+wire N_493_i ;
+wire N_312 ;
+wire N_301 ;
+wire wilclk_cnt_c9_s ;
+wire wilclk_cnt_c8_s ;
+wire N_299 ;
+wire N_300 ;
+wire wilclk_cnt_c5 ;
+wire un1_wilclk_cntlt9_x_i_0 ;
+wire un1_wilclk_cntlt9_x ;
+wire N_367_1 ;
+wire N_310 ;
+wire N_109 ;
+wire N_103_i_0 ;
+wire nEXTBUSz ;
+wire wilclk_cnt_c3 ;
+wire wilclk_cnt_c1_x ;
+wire N_297 ;
+wire N_298 ;
+wire wilclk_cnt_c10 ;
+wire wilclk_cnt_c5_x ;
+wire wilclk_cnt_n0 ;
+wire N_66 ;
+wire un1_wilclk_cntlto12_0_0_i_i_0 ;
+wire wilclk_cnt_n1 ;
+wire N_68 ;
+wire wilclk_cnt_n2 ;
+wire N_69 ;
+wire N_70 ;
+wire wilclk_cnt_n3_N_3 ;
+wire wilclk_cnt_n3tt_m1 ;
+wire un1_wil_9_x ;
+wire un1_wilclk_cntlto12_0_0_i ;
+wire wilclk_cnt_n4 ;
+wire N_73 ;
+wire N_75_1 ;
+wire wilclk_cnt_c3_x ;
+wire wilclk_cnt_n5 ;
+wire N_75 ;
+wire N_76 ;
+wire wilclk_cnt_n6 ;
+wire N_85_1 ;
+wire N_81_1 ;
+wire wilclk_cnt_28_i_i_0 ;
+wire wilclk_cnt_28_i ;
+wire wilclk_cnt_n8 ;
+wire N_81 ;
+wire wilclk_cnt_27_2 ;
+wire wilclk_cnt_30_i_i_0 ;
+wire wilclk_cnt_30_i ;
+wire wilclk_cnt_n9 ;
+wire N_83 ;
+wire wilclk_cnt_29_2 ;
+wire wilclk_cnt_n10 ;
+wire N_85 ;
+wire wilclk_cnt_32 ;
+wire wilclk_cnt_n11 ;
+wire N_87 ;
+wire wilclk_cnt_35_0_x ;
+wire N_321 ;
+wire N_476_i ;
+wire N_474_i ;
+wire N_317_i_0 ;
+wire N_317 ;
+wire N_475_i_i ;
+wire N_475_i ;
+wire un1_wil_9_x_i_0 ;
+wire N_316_1 ;
+wire N_315_i_0 ;
+wire N_315 ;
+wire N_316_i_0 ;
+wire N_316 ;
+wire wilclk_cnt_c5_x_i_0 ;
+wire wilclk_cnt_n7_a0_2 ;
+wire overtime17 ;
+wire N_477_i ;
+wire un1_wilclk_cntlto11_i ;
+wire N_82_i_0 ;
+wire N_82 ;
+wire N_84_i_0 ;
+wire N_84 ;
+wire N_86 ;
+wire un1_wil_9 ;
+wire BUFDIRz ;
+wire un1_wilclk_cntlt12_i_0 ;
+wire un1_wilclk_cntlt12 ;
+wire wilclk_cnt_35_0 ;
+wire wilclk_cnt_n3tt_N_2 ;
+wire N_368_i_0 ;
+wire N_368 ;
+wire N_369_i_0 ;
+wire N_369 ;
+wire N_370_i_0 ;
+wire N_370 ;
+wire N_371_i_0 ;
+wire N_371 ;
+wire N_372_i_0 ;
+wire N_372 ;
+wire N_373_i_0 ;
+wire N_373 ;
+wire N_374_i_0 ;
+wire N_374 ;
+wire N_375_i_0 ;
+wire N_375 ;
+wire un1_wigend_bitcnt_6_i_n_i ;
+wire un1_wigend_bitcnt_6_i_n ;
+wire un1_wigend_bitcnt_6_i_i ;
+wire un1_wil_clk_tmp_i_i_i ;
+wire N_410 ;
+wire N_81_2 ;
+wire N_83_2 ;
+wire un1_wilclk_cnt_2_i_0 ;
+wire un1_wilclk_cnt_2 ;
+wire N_315_2 ;
+wire un1_wil_3 ;
+wire un1_wil_9_i_0 ;
+wire wilclk_cnt_n12 ;
+wire N_89 ;
+wire N_90 ;
+wire wigend_bitcnt_n4 ;
+wire N_257_i_x ;
+wire N_259_i ;
+wire N_478_i ;
+wire N_298_i_0 ;
+wire wigend_bitcnt_n3 ;
+wire N_253_i_x ;
+wire N_255_i ;
+wire N_479_i ;
+wire N_297_i_0 ;
+wire wigend_bitcnt_n2 ;
+wire N_249_i ;
+wire N_251_i_x ;
+wire N_301_x_i_0 ;
+wire N_322_x ;
+wire wigend_bitcnt_n1 ;
+wire N_245_i ;
+wire N_247_i ;
+wire N_301_x ;
+wire N_265_i_x ;
+wire N_314_i_0 ;
+wire N_314 ;
+wire N_332_x ;
+wire N_292 ;
+wire N_367_i_0 ;
+wire N_367 ;
+wire un1_wilclk_cntlto11_0_i_i ;
+wire wilclk_cnt_c2_x_i_0 ;
+wire wilclk_cnt_c2_x ;
+wire N_312_x_i_0 ;
+wire N_312_x ;
+wire N_332_x_i_0 ;
+wire N_480_i ;
+wire N_482_i ;
+wire N_481_i ;
+wire N_134_i_0 ;
+wire N_134 ;
+wire N_135_i_0 ;
+wire N_135 ;
+wire N_154_x ;
+wire N_155_x ;
+wire N_132_i_0 ;
+wire N_132 ;
+wire N_133_i_0 ;
+wire N_133 ;
+wire N_156_x ;
+wire N_484_i ;
+wire N_483_i ;
+wire N_112_i_0 ;
+wire N_112 ;
+wire N_113_i_0 ;
+wire N_113 ;
+wire N_110_i_0 ;
+wire N_110 ;
+wire N_111_i_0 ;
+wire N_111 ;
+wire N_153_i_0 ;
+wire N_153 ;
+wire N_485_i ;
+wire N_151_i_0 ;
+wire N_151 ;
+wire N_152_i_0 ;
+wire N_152 ;
+wire N_150_i_0 ;
+wire N_150 ;
+wire N_486_i ;
+wire N_148_i_0 ;
+wire N_148 ;
+wire N_149_i_0 ;
+wire N_149 ;
+wire N_147_i_0 ;
+wire N_147 ;
+wire N_487_i ;
+wire N_145_i_0 ;
+wire N_145 ;
+wire N_146_i_0 ;
+wire N_146 ;
+wire N_144_i_0 ;
+wire N_144 ;
+wire N_488_i ;
+wire N_142_i_0 ;
+wire N_142 ;
+wire N_143_i_0 ;
+wire N_143 ;
+wire N_141_i_0 ;
+wire N_141 ;
+wire N_489_i ;
+wire N_139_i_0 ;
+wire N_139 ;
+wire N_140_i_0 ;
+wire N_140 ;
+wire N_138_i_0 ;
+wire N_138 ;
+wire N_490_i ;
+wire N_136_i_0 ;
+wire N_136 ;
+wire N_137_i_0 ;
+wire N_137 ;
+wire N_295_i_0 ;
+wire N_295 ;
+wire overtime_i_i_0 ;
+wire un1_wil_clk_tmp_i_a3_exp ;
+wire wil_clk_tmp_i_0 ;
+wire wil_clk_tmp_i_0_i_0 ;
+wire N_492_i ;
+wire N_292_i_0 ;
+wire N_52 ;
+wire N_293 ;
+wire N_300_x ;
+wire wilclk_cnt_c8_s_x ;
+wire N_185_i ;
+wire wil1_i_1 ;
+wire N_191_i ;
+wire N_193_i ;
+wire N_195_i ;
+wire N_197_i ;
+wire N_199_i ;
+wire N_201_i ;
+wire N_203_i ;
+wire N_205_i ;
+wire N_207_i ;
+wire N_209_i ;
+wire N_211_i ;
+wire N_213_i ;
+wire N_215_i ;
+wire N_217_i ;
+wire N_219_i ;
+wire N_221_i ;
+wire N_223_i ;
+wire N_225_i ;
+wire N_227_i ;
+wire N_229_i ;
+wire N_231_i ;
+wire N_233_i ;
+wire N_235_i ;
+wire N_237_i ;
+wire un1_wil_clk_tmp_i_a3_exp_i_0 ;
+wire N_351_i_0 ;
+wire N_351 ;
+wire N_496_i ;
+wire N_310_i_0 ;
+wire un1_wilclk_cntlto11_0_i_i_i ;
+wire wilclk_cnt_c1_i_0 ;
+wire un1_addr_5_0_a2_0_a2_n_i ;
+wire un1_addr_5_0_a2_0_a2_n ;
+wire N_155_i_0 ;
+wire N_155 ;
+wire un1_addr_6_0_a2_0_a2_n_i ;
+wire un1_addr_6_0_a2_0_a2_n ;
+wire overtime_i ;
+wire N_253_i_i_0 ;
+wire N_253_i ;
+wire N_322 ;
+wire N_265_i_i_0 ;
+wire N_265_i ;
+wire N_251_i_i_0 ;
+wire N_251_i ;
+wire N_301_i_0 ;
+wire wilclk_cnt_c8_s_i_0 ;
+wire N_300_i_0 ;
+wire N_332_i_0 ;
+wire N_332 ;
+wire N_322_i_0 ;
+wire wilclk_cnt_c5_i_0 ;
+wire N_257_i_i_0 ;
+wire N_257_i ;
+wire overtime_delay3_i ;
+wire un1_wilclk_cntlt9_i_0 ;
+wire un1_wilclk_cntlt9 ;
+wire N_501_i ;
+wire N_500_i ;
+wire wilclk_cnt_c9_s_i_0 ;
+wire N_312_i_0 ;
+wire overtime_delay1_i_0 ;
+wire overtime_delay2_i ;
+wire wil_clk_i_0 ;
+wire N_52_i_0 ;
+wire eint11_i ;
+wire un1_wil_clk_tmp_i_i_i_i_0 ;
+wire wilclk_cnt_n3_N_3_i_0 ;
+wire N_321_i_0 ;
+//@1:1
+  assign VCC = 1'b1;
+//@1:1
+  assign GND = 1'b0;
+//@1:79
+  assign #(1)  wilclk_cnt_c10_0 = (wilclk_cnt_c9_s_x  & wilclk_cnt[10] );
+//@1:37
+  assign #(1)  un1_wilclk_cntlto12_0_a0_0 = (wilclk_cnt[7]  & wilclk_cnt[12] );
+//@1:79
+  assign #(1)  wilclk_cnt_c5_2 = (wilclk_cnt_c5_1  & wilclk_cnt[3] );
+//@1:79
+  assign #(1)  wilclk_cnt_c5_1 = (wilclk_cnt[4]  & wilclk_cnt[5] );
+//@1:79
+  assign #(1)  wilclk_cnt_c5_0 = (wilclk_cnt[2]  & wilclk_cnt_c1 );
+//@1:119
+  assign #(1)  wigend_bitcnt_10_i_a2_0 = (wigend_bitcnt[3]  & wigend_bitcnt_i_0[2] );
+//@1:119
+  assign #(1)  wigend_bitcnt_8_i_a2_0 = (wigend_bitcnt[4]  & wigend_bitcnt_i_0[2] );
+//@1:79
+  assign #(1)  wilclk_cnt_c3_lin_0 = (wilclk_cnt[2]  & wilclk_cnt[3] );
+//@1:37
+  assign #(1)  un1_wilclk_cntlto12_0_a0_1_0_0 = (wilclk_cnt[8]  & wilclk_cnt[9] );
+//@1:37
+  assign #(1)  un1_wil_clk_tmp_i_a3_0 = (wigend_bitcnt[0]  & wigend_bitcnt_i_0[2] );
+//@1:79
+  assign #(1)  wilclk_cnt_c9_s_0 = (wilclk_cnt[6]  & wilclk_cnt[9] );
+//@1:119
+  assign #(1)  wigend_bitcnt_n0_a0_0 = (wigend_bitcnt[1]  & overtime_delay3_i_i_0 );
+//@1:34
+  assign #(1)  nEXTBUS_0_a5_lin_5 = (nFRE  & nEXTBUS_0_a5_lin_4 );
+//@1:34
+  assign #(1)  nEXTBUS_0_a5_lin_4 = (nFWE  & nEXTBUS_0_a5_lin_3 );
+//@1:34
+  assign #(1)  nEXTBUS_0_a5_lin_3 = (nGCS[0]  & nEXTBUS_0_a5_lin_2 );
+//@1:34
+  assign #(1)  nEXTBUS_0_a5_lin_2 = (nGCS[1]  & nEXTBUS_0_a5_lin_1 );
+//@1:34
+  assign #(1)  nEXTBUS_0_a5_lin_1 = (nGCS[2]  & nEXTBUS_0_a5_lin_0 );
+//@1:34
+  assign #(1)  nEXTBUS_0_a5_lin_0 = (nGCS[3]  & nGCS[4] );
+//@1:168
+  assign #(1)  addr_i_0[5] = ~ addr[5];
+//@1:168
+  assign #(1)  un1_nGCS_0_a5_lin_2[0] = (addr_i_0[5]  & un1_nGCS_0_a5_lin_1[0] );
+//@1:168
+  assign #(1)  un1_nGCS_0_a5_lin_1[0] = (N_494_i  & un1_nGCS_0_a5_lin_0[0] );
+//@1:168
+  assign #(1)  nOE_i_0 = ~ nOE;
+//@1:168
+  assign #(1)  un1_nGCS_0_a5_lin_0[0] = (N_493_i  & nOE_i_0 );
+//@1:119
+  assign #(1)  N_312 = (N_301  & wigend_bitcnt_n0_a0_0 );
+//@1:79
+  assign #(1)  wilclk_cnt_c9_s = (wilclk_cnt_c8_s  & wilclk_cnt_c9_s_0 );
+//@1:37
+  assign #(1)  N_299 = (N_300  & un1_wil_clk_tmp_i_a3_0 );
+//@1:79
+  assign #(1)  wilclk_cnt_c5 = (wilclk_cnt_c5_0  & wilclk_cnt_c5_2 );
+//@1:37
+  assign #(1)  un1_wilclk_cntlt9_x_i_0 = ~ un1_wilclk_cntlt9_x;
+//@1:37
+  assign #(1)  N_367_1 = (un1_wilclk_cntlt9_x_i_0  & un1_wilclk_cntlto12_0_a0_1_0_0 );
+//@1:37
+  assign #(1)  N_310 = (N_367_1  & un1_wilclk_cntlto12_0_a0_0 );
+//@1:168
+  assign #(1)  N_109 = (N_103_i_0  & un1_nGCS_0_a5_lin_2[0] );
+//@1:34
+  assign #(1)  nEXTBUSz = (nFCE  & nEXTBUS_0_a5_lin_5 );
+//@1:79
+  assign #(1)  wilclk_cnt_c3 = (wilclk_cnt_c1_x  & wilclk_cnt_c3_lin_0 );
+//@1:119
+  assign #(1)  N_297 = (wigend_bitcnt[1]  & wigend_bitcnt_8_i_a2_0 );
+//@1:119
+  assign #(1)  N_298 = (wigend_bitcnt[1]  & wigend_bitcnt_10_i_a2_0 );
+//@1:79
+  assign #(1)  wilclk_cnt_c10 = (wilclk_cnt_c5_x  & wilclk_cnt_c10_0 );
+  SOFT De_buf (
+	.A_OUT(De),
+	.A_IN(vp2ctl0)
+);
+  SOFT Vs_buf (
+	.A_OUT(Vs),
+	.A_IN(VCC)
+);
+  SOFT clkout_buf (
+	.A_OUT(clkout),
+	.A_IN(clock)
+);
+  SOFT BUFDIR_buf (
+	.A_OUT(BUFDIR),
+	.A_IN(BUFDIRz)
+);
+//@1:79
+  assign #(1)  wilclk_cnt_n0 = (N_66  ^ un1_wilclk_cntlto12_0_0_i_i_0 );
+//@1:79
+  assign #(1)  wilclk_cnt_n1 = (N_66  ^ N_68 );
+//@1:79
+  assign #(1)  N_68 = (un1_wilclk_cntlto12_0_0_i_i_0  & wilclk_cnt[1] );
+//@1:79
+  assign #(1)  N_66 = (un1_wilclk_cntlto12_0_0_i_i_0  & wilclk_cnt[0] );
+//@1:79
+  assign #(1)  wilclk_cnt_n2 = (N_69  ^ N_70 );
+//@1:79
+  assign #(1)  N_70 = (un1_wilclk_cntlto12_0_0_i_i_0  & wilclk_cnt[2] );
+//@1:79
+  assign #(1)  N_69 = (un1_wilclk_cntlto12_0_0_i_i_0  & wilclk_cnt_c1_x );
+//@1:79
+  assign #(1)  wilclk_cnt_n3_N_3 = ((!un1_wilclk_cntlto12_0_0_i & wilclk_cnt_n3tt_m1 ) | 
+	(un1_wilclk_cntlto12_0_0_i & un1_wil_9_x ) | 
+	(wilclk_cnt_n3tt_m1 & un1_wil_9_x ));
+//@1:79
+  assign #(1)  wilclk_cnt_n4 = (N_73  ^ N_75_1 );
+//@1:79
+  assign #(1)  N_73 = (un1_wilclk_cntlto12_0_0_i_i_0  & wilclk_cnt_c3_x );
+//@1:79
+  assign #(1)  wilclk_cnt_n5 = (N_75  ^ N_76 );
+//@1:79
+  assign #(1)  N_76 = (un1_wilclk_cntlto12_0_0_i_i_0  & wilclk_cnt[5] );
+//@1:79
+  assign #(1)  N_75 = (N_75_1  & wilclk_cnt_c3_x );
+//@1:79
+  assign #(1)  N_75_1 = (un1_wilclk_cntlto12_0_0_i_i_0  & wilclk_cnt[4] );
+//@1:79
+  assign #(1)  wilclk_cnt_n6 = (N_85_1  ^ N_81_1 );
+//@1:79
+  assign #(1)  wilclk_cnt_28_i_i_0 = ~ wilclk_cnt_28_i;
+//@1:79
+  assign #(1)  wilclk_cnt_n8 = (N_81  ^ wilclk_cnt_28_i_i_0 );
+//@1:79
+  assign #(1)  N_81 = (N_81_1  & wilclk_cnt_27_2 );
+//@1:79
+  assign #(1)  wilclk_cnt_30_i_i_0 = ~ wilclk_cnt_30_i;
+//@1:79
+  assign #(1)  wilclk_cnt_n9 = (N_83  ^ wilclk_cnt_30_i_i_0 );
+//@1:79
+  assign #(1)  N_83 = (N_81_1  & wilclk_cnt_29_2 );
+//@1:79
+  assign #(1)  wilclk_cnt_n10 = (N_85  ^ wilclk_cnt_32 );
+//@1:79
+  assign #(1)  N_85 = (N_85_1  & wilclk_cnt_c9_s_x );
+//@1:79
+  assign #(1)  N_85_1 = (un1_wilclk_cntlto12_0_0_i_i_0  & wilclk_cnt_c5_x );
+//@1:79
+  assign #(1)  wilclk_cnt_n11 = (N_87  ^ wilclk_cnt_35_0_x );
+//@1:79
+  assign #(1)  N_321 = (N_476_i  & N_474_i );
+//@1:79
+  assign #(1)  N_317_i_0 = ~ N_317;
+//@1:79
+  assign #(1)  N_475_i_i = ~ N_475_i;
+//@1:79
+  assign #(1)  N_474_i = (N_317_i_0  & N_475_i_i );
+//@1:79
+  assign #(1)  N_475_i = (un1_wil_9_x_i_0  & un1_wilclk_cntlto12_0_0_i );
+//@1:79
+  assign #(1)  N_317 = (N_316_1  & wilclk_cnt_i_0[6] );
+//@1:79
+  assign #(1)  N_315_i_0 = ~ N_315;
+//@1:79
+  assign #(1)  N_316_i_0 = ~ N_316;
+//@1:79
+  assign #(1)  N_476_i = (N_315_i_0  & N_316_i_0 );
+//@1:79
+  assign #(1)  wilclk_cnt_c5_x_i_0 = ~ wilclk_cnt_c5_x;
+//@1:79
+  assign #(1)  N_316 = (N_316_1  & wilclk_cnt_c5_x_i_0 );
+//@1:79
+  assign #(1)  N_316_1 = (un1_wilclk_cntlto12_0_0_i_i_0  & wilclk_cnt[7] );
+//@1:79
+  assign #(1)  N_315 = (N_81_1  & wilclk_cnt_n7_a0_2 );
+//@1:79
+  assign #(1)  un1_wilclk_cntlto12_0_0_i_i_0 = ~ un1_wilclk_cntlto12_0_0_i;
+//@1:79
+  assign #(1)  N_81_1 = (un1_wilclk_cntlto12_0_0_i_i_0  & wilclk_cnt[6] );
+//@1:62
+  assign #(1)  overtime17 = (N_477_i  & wilclk_cnt[12] );
+//@1:62
+  assign #(1)  un1_wil_9_x_i_0 = ~ un1_wil_9_x;
+//@1:62
+  assign #(1)  N_477_i = (un1_wil_9_x_i_0  & un1_wilclk_cntlto11_i );
+  assign #(1)  N_82_i_0 = ~ N_82;
+  LCELL wilclk_cnt_28_i_cZ (
+	.A_OUT(wilclk_cnt_28_i),
+	.A_IN(N_82_i_0)
+);
+  assign #(1)  N_84_i_0 = ~ N_84;
+  LCELL wilclk_cnt_30_i_cZ (
+	.A_OUT(wilclk_cnt_30_i),
+	.A_IN(N_84_i_0)
+);
+  LCELL wilclk_cnt_32_cZ (
+	.A_OUT(wilclk_cnt_32),
+	.A_IN(N_86)
+);
+  LCELL un1_wil_9_cZ (
+	.A_OUT(un1_wil_9_x),
+	.A_IN(un1_wil_9)
+);
+  LCELL BUFDIR_1_0_a5 (
+	.A_OUT(BUFDIR1),
+	.A_IN(BUFDIRz)
+);
+  assign #(1)  un1_wilclk_cntlt12_i_0 = ~ un1_wilclk_cntlt12;
+  LCELL un1_wilclk_cntlto11_i_cZ (
+	.A_OUT(un1_wilclk_cntlto11_i),
+	.A_IN(un1_wilclk_cntlt12_i_0)
+);
+  LCELL wilclk_cnt_35_0_cZ (
+	.A_OUT(wilclk_cnt_35_0_x),
+	.A_IN(wilclk_cnt_35_0)
+);
+  LCELL wilclk_cnt_n3tt_m1_cZ (
+	.A_OUT(wilclk_cnt_n3tt_m1),
+	.A_IN(wilclk_cnt_n3tt_N_2)
+);
+  assign #(1)  N_368_i_0 = ~ N_368;
+  LCELL \un1_wigend_reg_iv_0_i_cZ[1]  (
+	.A_OUT(un1_wigend_reg_iv_0_i[1]),
+	.A_IN(N_368_i_0)
+);
+  assign #(1)  N_369_i_0 = ~ N_369;
+  LCELL \un1_wigend_reg_iv_0_i_cZ[0]  (
+	.A_OUT(un1_wigend_reg_iv_0_i[0]),
+	.A_IN(N_369_i_0)
+);
+  assign #(1)  N_370_i_0 = ~ N_370;
+  LCELL \un1_wigend_reg_iv_0_i_cZ[7]  (
+	.A_OUT(un1_wigend_reg_iv_0_i[7]),
+	.A_IN(N_370_i_0)
+);
+  assign #(1)  N_371_i_0 = ~ N_371;
+  LCELL \un1_wigend_reg_iv_0_i_cZ[6]  (
+	.A_OUT(un1_wigend_reg_iv_0_i[6]),
+	.A_IN(N_371_i_0)
+);
+  assign #(1)  N_372_i_0 = ~ N_372;
+  LCELL \un1_wigend_reg_iv_0_i_cZ[5]  (
+	.A_OUT(un1_wigend_reg_iv_0_i[5]),
+	.A_IN(N_372_i_0)
+);
+  assign #(1)  N_373_i_0 = ~ N_373;
+  LCELL \un1_wigend_reg_iv_0_i_cZ[4]  (
+	.A_OUT(un1_wigend_reg_iv_0_i[4]),
+	.A_IN(N_373_i_0)
+);
+  assign #(1)  N_374_i_0 = ~ N_374;
+  LCELL \un1_wigend_reg_iv_0_i_cZ[3]  (
+	.A_OUT(un1_wigend_reg_iv_0_i[3]),
+	.A_IN(N_374_i_0)
+);
+  assign #(1)  N_375_i_0 = ~ N_375;
+  LCELL \un1_wigend_reg_iv_0_i_cZ[2]  (
+	.A_OUT(un1_wigend_reg_iv_0_i[2]),
+	.A_IN(N_375_i_0)
+);
+  assign #(1)  un1_wigend_bitcnt_6_i_n_i = ~ un1_wigend_bitcnt_6_i_n;
+  LCELL un1_wigend_bitcnt_6_i_i_cZ (
+	.A_OUT(un1_wigend_bitcnt_6_i_i),
+	.A_IN(un1_wigend_bitcnt_6_i_n_i)
+);
+  LCELL un1_wil_clk_tmp_i_i_i_cZ (
+	.A_OUT(un1_wil_clk_tmp_i_i_i),
+	.A_IN(N_410)
+);
+  LCELL wilclk_cnt_c3_cZ (
+	.A_OUT(wilclk_cnt_c3_x),
+	.A_IN(wilclk_cnt_c3)
+);
+  LCELL wilclk_cnt_27_2_cZ (
+	.A_OUT(wilclk_cnt_27_2),
+	.A_IN(N_81_2)
+);
+  LCELL wilclk_cnt_29_2_cZ (
+	.A_OUT(wilclk_cnt_29_2),
+	.A_IN(N_83_2)
+);
+  LCELL nEXTBUS_0_a5 (
+	.A_OUT(nEXTBUS),
+	.A_IN(nEXTBUSz)
+);
+  LCELL \un1_nGCS_0_a5_cZ[0]  (
+	.A_OUT(un1_nGCS_0_a5[0]),
+	.A_IN(N_109)
+);
+  assign #(1)  un1_wilclk_cnt_2_i_0 = ~ un1_wilclk_cnt_2;
+  LCELL un1_wilclk_cntlto12_0_0_i_cZ (
+	.A_OUT(un1_wilclk_cntlto12_0_0_i),
+	.A_IN(un1_wilclk_cnt_2_i_0)
+);
+  LCELL wilclk_cnt_n7_a0_2_cZ (
+	.A_OUT(wilclk_cnt_n7_a0_2),
+	.A_IN(N_315_2)
+);
+//@1:86
+  assign #(1)  wil_i_0[1] = ~ wil[1];
+//@1:86
+  assign #(1)  un1_wil_3 = (wil[0]  & wil_i_0[1] );
+//@1:79
+  assign #(1)  N_82 = ((!un1_wilclk_cnt_2 & un1_wil_9_i_0 ) | 
+	(un1_wilclk_cnt_2 & wilclk_cnt[8] ) | 
+	(un1_wil_9_i_0 & wilclk_cnt[8] ));
+//@1:79
+  assign #(1)  N_84 = ((!un1_wilclk_cnt_2 & un1_wil_9_i_0 ) | 
+	(un1_wilclk_cnt_2 & wilclk_cnt[9] ) | 
+	(un1_wil_9_i_0 & wilclk_cnt[9] ));
+//@1:79
+  assign #(1)  N_87 = (un1_wilclk_cnt_2  & wilclk_cnt_c10 );
+//@1:79
+  assign #(1)  wilclk_cnt_n12 = (N_89  ^ N_90 );
+//@1:79
+  assign #(1)  N_90 = ((!un1_wilclk_cnt_2 & un1_wil_9_i_0 ) | 
+	(un1_wilclk_cnt_2 & wilclk_cnt[12] ) | 
+	(un1_wil_9_i_0 & wilclk_cnt[12] ));
+//@1:79
+  assign #(1)  N_89 = (wilclk_cnt_35_0  & wilclk_cnt_c10 );
+//@1:79
+  assign #(1)  N_86 = (un1_wilclk_cnt_2  & wilclk_cnt[10] );
+//@1:35
+  assign #(1)  BUFDIRz = (nFRE  & nOE );
+//@1:119
+  assign #(1)  wigend_bitcnt_n4 = (N_257_i_x  ^ N_259_i );
+//@1:119
+  assign #(1)  N_259_i = (N_478_i  & wigend_bitcnt[4] );
+//@1:119
+  assign #(1)  N_298_i_0 = ~ N_298;
+//@1:119
+  assign #(1)  N_478_i = (N_298_i_0  & overtime_delay3_i_i_0 );
+//@1:119
+  assign #(1)  wigend_bitcnt_n3 = (N_253_i_x  ^ N_255_i );
+//@1:119
+  assign #(1)  N_255_i = (N_479_i  & wigend_bitcnt[3] );
+//@1:119
+  assign #(1)  N_297_i_0 = ~ N_297;
+//@1:119
+  assign #(1)  N_479_i = (N_297_i_0  & overtime_delay3_i_i_0 );
+//@1:119
+  assign #(1)  wigend_bitcnt_n2 = (N_249_i  ^ N_251_i_x );
+//@1:119
+  assign #(1)  N_249_i = (N_301_x_i_0  & N_322_x );
+//@1:119
+  assign #(1)  wigend_bitcnt_n1 = (N_245_i  ^ N_247_i );
+//@1:119
+  assign #(1)  N_301_x_i_0 = ~ N_301_x;
+//@1:119
+  assign #(1)  N_247_i = (N_265_i_x  & N_301_x_i_0 );
+//@1:119
+  assign #(1)  N_314_i_0 = ~ N_314;
+//@1:119
+  assign #(1)  N_245_i = (N_314_i_0  & N_332_x );
+//@1:119
+  assign #(1)  N_314 = (N_292  & wigend_bitcnt_i_0[2] );
+//@1:91
+  assign #(1)  N_367_i_0 = ~ N_367;
+//@1:91
+  assign #(1)  un1_wilclk_cntlt12 = (N_367_i_0  & un1_wilclk_cntlto11_0_i_i );
+//@1:91
+  assign #(1)  N_367 = (N_367_1  & wilclk_cnt[7] );
+//@1:79
+  assign #(1)  wilclk_cnt_35_0 = (un1_wilclk_cnt_2  & wilclk_cnt[11] );
+//@1:79
+  assign #(1)  wilclk_cnt_c2_x_i_0 = ~ wilclk_cnt_c2_x;
+//@1:79
+  assign #(1)  wilclk_cnt_n3tt_N_2 = (wilclk_cnt[3]  ^ wilclk_cnt_c2_x_i_0 );
+//@1:79
+  assign #(1)  wilclk_cnt_c2_x = (wilclk_cnt[2]  & wilclk_cnt_c1_x );
+//@1:119
+  assign #(1)  N_312_x_i_0 = ~ N_312_x;
+//@1:119
+  assign #(1)  N_332_x_i_0 = ~ N_332_x;
+//@1:119
+  assign #(1)  N_480_i = (N_312_x_i_0  & N_332_x_i_0 );
+//@1:168
+  assign #(1)  N_368 = (N_482_i  & N_481_i );
+//@1:168
+  assign #(1)  N_134_i_0 = ~ N_134;
+//@1:168
+  assign #(1)  N_135_i_0 = ~ N_135;
+//@1:168
+  assign #(1)  N_481_i = (N_134_i_0  & N_135_i_0 );
+//@1:168
+  assign #(1)  N_135 = (N_154_x  & wigend_reg[1] );
+//@1:168
+  assign #(1)  N_134 = (N_155_x  & wigend_reg[17] );
+//@1:168
+  assign #(1)  N_132_i_0 = ~ N_132;
+//@1:168
+  assign #(1)  N_133_i_0 = ~ N_133;
+//@1:168
+  assign #(1)  N_482_i = (N_132_i_0  & N_133_i_0 );
+//@1:168
+  assign #(1)  N_133 = (N_156_x  & wigend_reg[9] );
+//@1:168
+  assign #(1)  N_132 = (addr[4]  & wigend_reg[25] );
+//@1:168
+  assign #(1)  N_369 = (N_484_i  & N_483_i );
+//@1:168
+  assign #(1)  N_112_i_0 = ~ N_112;
+//@1:168
+  assign #(1)  N_113_i_0 = ~ N_113;
+//@1:168
+  assign #(1)  N_483_i = (N_112_i_0  & N_113_i_0 );
+//@1:168
+  assign #(1)  N_113 = (N_154_x  & wigend_reg[0] );
+//@1:168
+  assign #(1)  N_112 = (N_155_x  & wigend_reg[16] );
+//@1:168
+  assign #(1)  N_110_i_0 = ~ N_110;
+//@1:168
+  assign #(1)  N_111_i_0 = ~ N_111;
+//@1:168
+  assign #(1)  N_484_i = (N_110_i_0  & N_111_i_0 );
+//@1:168
+  assign #(1)  N_111 = (N_156_x  & wigend_reg[8] );
+//@1:168
+  assign #(1)  N_110 = (addr[4]  & wigend_reg[24] );
+//@1:168
+  assign #(1)  N_153_i_0 = ~ N_153;
+//@1:168
+  assign #(1)  N_370 = (N_153_i_0  & N_485_i );
+//@1:168
+  assign #(1)  N_151_i_0 = ~ N_151;
+//@1:168
+  assign #(1)  N_152_i_0 = ~ N_152;
+//@1:168
+  assign #(1)  N_485_i = (N_151_i_0  & N_152_i_0 );
+//@1:168
+  assign #(1)  N_152 = (N_155_x  & wigend_reg[23] );
+//@1:168
+  assign #(1)  N_151 = (N_156_x  & wigend_reg[15] );
+//@1:168
+  assign #(1)  N_153 = (N_154_x  & wigend_reg[7] );
+//@1:168
+  assign #(1)  N_150_i_0 = ~ N_150;
+//@1:168
+  assign #(1)  N_371 = (N_150_i_0  & N_486_i );
+//@1:168
+  assign #(1)  N_148_i_0 = ~ N_148;
+//@1:168
+  assign #(1)  N_149_i_0 = ~ N_149;
+//@1:168
+  assign #(1)  N_486_i = (N_148_i_0  & N_149_i_0 );
+//@1:168
+  assign #(1)  N_149 = (N_155_x  & wigend_reg[22] );
+//@1:168
+  assign #(1)  N_148 = (N_156_x  & wigend_reg[14] );
+//@1:168
+  assign #(1)  N_150 = (N_154_x  & wigend_reg[6] );
+//@1:168
+  assign #(1)  N_147_i_0 = ~ N_147;
+//@1:168
+  assign #(1)  N_372 = (N_147_i_0  & N_487_i );
+//@1:168
+  assign #(1)  N_145_i_0 = ~ N_145;
+//@1:168
+  assign #(1)  N_146_i_0 = ~ N_146;
+//@1:168
+  assign #(1)  N_487_i = (N_145_i_0  & N_146_i_0 );
+//@1:168
+  assign #(1)  N_146 = (N_155_x  & wigend_reg[21] );
+//@1:168
+  assign #(1)  N_145 = (N_156_x  & wigend_reg[13] );
+//@1:168
+  assign #(1)  N_147 = (N_154_x  & wigend_reg[5] );
+//@1:168
+  assign #(1)  N_144_i_0 = ~ N_144;
+//@1:168
+  assign #(1)  N_373 = (N_144_i_0  & N_488_i );
+//@1:168
+  assign #(1)  N_142_i_0 = ~ N_142;
+//@1:168
+  assign #(1)  N_143_i_0 = ~ N_143;
+//@1:168
+  assign #(1)  N_488_i = (N_142_i_0  & N_143_i_0 );
+//@1:168
+  assign #(1)  N_143 = (N_155_x  & wigend_reg[20] );
+//@1:168
+  assign #(1)  N_142 = (N_156_x  & wigend_reg[12] );
+//@1:168
+  assign #(1)  N_144 = (N_154_x  & wigend_reg[4] );
+//@1:168
+  assign #(1)  N_141_i_0 = ~ N_141;
+//@1:168
+  assign #(1)  N_374 = (N_141_i_0  & N_489_i );
+//@1:168
+  assign #(1)  N_139_i_0 = ~ N_139;
+//@1:168
+  assign #(1)  N_140_i_0 = ~ N_140;
+//@1:168
+  assign #(1)  N_489_i = (N_139_i_0  & N_140_i_0 );
+//@1:168
+  assign #(1)  N_140 = (N_155_x  & wigend_reg[19] );
+//@1:168
+  assign #(1)  N_139 = (N_156_x  & wigend_reg[11] );
+//@1:168
+  assign #(1)  N_141 = (N_154_x  & wigend_reg[3] );
+//@1:168
+  assign #(1)  N_138_i_0 = ~ N_138;
+//@1:168
+  assign #(1)  N_375 = (N_138_i_0  & N_490_i );
+//@1:168
+  assign #(1)  N_136_i_0 = ~ N_136;
+//@1:168
+  assign #(1)  N_137_i_0 = ~ N_137;
+//@1:168
+  assign #(1)  N_490_i = (N_136_i_0  & N_137_i_0 );
+//@1:168
+  assign #(1)  N_137 = (N_155_x  & wigend_reg[18] );
+//@1:168
+  assign #(1)  N_136 = (N_156_x  & wigend_reg[10] );
+//@1:168
+  assign #(1)  N_138 = (N_154_x  & wigend_reg[2] );
+//@1:168
+  assign #(1)  N_295_i_0 = ~ N_295;
+//@1:168
+  assign #(1)  un1_wigend_bitcnt_6_i_n = (N_295_i_0  & overtime_i_i_0 );
+//@1:168
+  assign #(1)  N_295 = (un1_wil_clk_tmp_i_a3_exp  & wil_clk_tmp_i_0 );
+//@1:37
+  assign #(1)  wil_clk_tmp_i_0_i_0 = ~ wil_clk_tmp_i_0;
+//@1:37
+  assign #(1)  N_410 = (N_492_i  & wil_clk_tmp_i_0_i_0 );
+//@1:43
+  assign #(1)  N_292_i_0 = ~ N_292;
+//@1:43
+  assign #(1)  N_52 = ((!N_293 & N_292_i_0 ) | 
+	(N_293 & eint11 ) | 
+	(N_292_i_0 & eint11 ));
+//@1:47
+  assign #(1)  N_293 = (N_300_x  & wigend_bitcnt[2] );
+//@1:119
+  assign #(1)  N_292 = (N_300_x  & wigend_bitcnt[1] );
+//@1:79
+  assign #(1)  N_81_2 = (wilclk_cnt[7]  & wilclk_cnt_c5_x );
+//@1:79
+  assign #(1)  N_83_2 = (wilclk_cnt_c5_x  & wilclk_cnt_c8_s_x );
+//@1:37
+  assign #(1)  N_185_i = (N_492_i  & wil1_i_1 );
+//@1:141
+  assign #(1)  N_191_i = (N_492_i  & wigend_buf[0] );
+//@1:141
+  assign #(1)  N_193_i = (N_492_i  & wigend_buf[1] );
+//@1:141
+  assign #(1)  N_195_i = (N_492_i  & wigend_buf[2] );
+//@1:141
+  assign #(1)  N_197_i = (N_492_i  & wigend_buf[3] );
+//@1:141
+  assign #(1)  N_199_i = (N_492_i  & wigend_buf[4] );
+//@1:141
+  assign #(1)  N_201_i = (N_492_i  & wigend_buf[5] );
+//@1:141
+  assign #(1)  N_203_i = (N_492_i  & wigend_buf[6] );
+//@1:141
+  assign #(1)  N_205_i = (N_492_i  & wigend_buf[7] );
+//@1:141
+  assign #(1)  N_207_i = (N_492_i  & wigend_buf[8] );
+//@1:141
+  assign #(1)  N_209_i = (N_492_i  & wigend_buf[9] );
+//@1:141
+  assign #(1)  N_211_i = (N_492_i  & wigend_buf[10] );
+//@1:141
+  assign #(1)  N_213_i = (N_492_i  & wigend_buf[11] );
+//@1:141
+  assign #(1)  N_215_i = (N_492_i  & wigend_buf[12] );
+//@1:141
+  assign #(1)  N_217_i = (N_492_i  & wigend_buf[13] );
+//@1:141
+  assign #(1)  N_219_i = (N_492_i  & wigend_buf[14] );
+//@1:141
+  assign #(1)  N_221_i = (N_492_i  & wigend_buf[15] );
+//@1:141
+  assign #(1)  N_223_i = (N_492_i  & wigend_buf[16] );
+//@1:141
+  assign #(1)  N_225_i = (N_492_i  & wigend_buf[17] );
+//@1:141
+  assign #(1)  N_227_i = (N_492_i  & wigend_buf[18] );
+//@1:141
+  assign #(1)  N_229_i = (N_492_i  & wigend_buf[19] );
+//@1:141
+  assign #(1)  N_231_i = (N_492_i  & wigend_buf[20] );
+//@1:141
+  assign #(1)  N_233_i = (N_492_i  & wigend_buf[21] );
+//@1:141
+  assign #(1)  N_235_i = (N_492_i  & wigend_buf[22] );
+//@1:141
+  assign #(1)  N_237_i = (N_492_i  & wigend_buf[23] );
+//@1:141
+  assign #(1)  un1_wil_clk_tmp_i_a3_exp_i_0 = ~ un1_wil_clk_tmp_i_a3_exp;
+//@1:141
+  assign #(1)  N_492_i = (un1_wil_clk_tmp_i_a3_exp_i_0  & overtime_delay3_i_i_0 );
+//@1:168
+  assign #(1)  addr_i_0[8] = ~ addr[8];
+//@1:168
+  assign #(1)  nGCS_i_0[3] = ~ nGCS[3];
+//@1:168
+  assign #(1)  N_493_i = (addr_i_0[8]  & nGCS_i_0[3] );
+//@1:168
+  assign #(1)  addr_i_0[6] = ~ addr[6];
+//@1:168
+  assign #(1)  addr_i_0[7] = ~ addr[7];
+//@1:168
+  assign #(1)  N_494_i = (addr_i_0[6]  & addr_i_0[7] );
+//@1:168
+  assign #(1)  un1_nGCS_0_o2_n_i[0] = ~ un1_nGCS_0_o2_n[0];
+//@1:168
+  assign #(1)  N_103_i_0 = (un1_nGCS_0_o2_n_i[0]  ^ addr[4] );
+//@1:168
+  assign #(1)  un1_nGCS_0_o2_n[0] = (addr_i_0[2]  & addr_i_0[3] );
+//@1:37
+  assign #(1)  N_351_i_0 = ~ N_351;
+//@1:37
+  assign #(1)  un1_wilclk_cnt_2 = (N_351_i_0  & N_496_i );
+//@1:37
+  assign #(1)  N_310_i_0 = ~ N_310;
+//@1:37
+  assign #(1)  un1_wil_9_i_0 = ~ un1_wil_9;
+//@1:37
+  assign #(1)  N_496_i = (N_310_i_0  & un1_wil_9_i_0 );
+//@1:62
+  assign #(1)  un1_wil_9 = (wil[0]  ^ wil[1] );
+//@1:91
+  assign #(1)  un1_wilclk_cntlto11_0_i_i_i = ~ un1_wilclk_cntlto11_0_i_i;
+//@1:91
+  assign #(1)  N_351 = (un1_wilclk_cntlto11_0_i_i_i  & wilclk_cnt[12] );
+//@1:91
+  assign #(1)  wilclk_cnt_i_0[10] = ~ wilclk_cnt[10];
+//@1:91
+  assign #(1)  wilclk_cnt_i_0[11] = ~ wilclk_cnt[11];
+//@1:91
+  assign #(1)  un1_wilclk_cntlto11_0_i_i = (wilclk_cnt_i_0[10]  & wilclk_cnt_i_0[11] );
+//@1:79
+  assign #(1)  wilclk_cnt_i_0[7] = ~ wilclk_cnt[7];
+//@1:79
+  assign #(1)  N_315_2 = (wilclk_cnt_i_0[7]  & wilclk_cnt_c5_x );
+  assign #(1)  wilclk_cnt_c1_i_0 = ~ wilclk_cnt_c1;
+  EXP wilclk_cnt_c1_x_exp (
+	.A_OUT(wilclk_cnt_c1_x),
+	.A_IN(wilclk_cnt_c1_i_0)
+);
+  assign #(1)  un1_addr_5_0_a2_0_a2_n_i = ~ un1_addr_5_0_a2_0_a2_n;
+  EXP un1_addr_5_0_a2_0_a2_exp (
+	.A_OUT(N_154_x),
+	.A_IN(un1_addr_5_0_a2_0_a2_n_i)
+);
+//@1:195
+  assign #(1)  addr_i_0[3] = ~ addr[3];
+//@1:195
+  assign #(1)  un1_addr_5_0_a2_0_a2_n = (addr_i_0[3]  & addr_i_0[4] );
+  assign #(1)  N_155_i_0 = ~ N_155;
+  EXP un1_addr_4_0_a2_0_a2_exp (
+	.A_OUT(N_155_x),
+	.A_IN(N_155_i_0)
+);
+//@1:195
+  assign #(1)  N_155 = (addr[2]  & addr[3] );
+  assign #(1)  un1_addr_6_0_a2_0_a2_n_i = ~ un1_addr_6_0_a2_0_a2_n;
+  EXP un1_addr_6_0_a2_0_a2_exp (
+	.A_OUT(N_156_x),
+	.A_IN(un1_addr_6_0_a2_0_a2_n_i)
+);
+//@1:195
+  assign #(1)  addr_i_0[2] = ~ addr[2];
+//@1:195
+  assign #(1)  addr_i_0[4] = ~ addr[4];
+//@1:195
+  assign #(1)  un1_addr_6_0_a2_0_a2_n = (addr_i_0[2]  & addr_i_0[4] );
+  assign #(1)  wigend_reg_9_i_0[1] = ~ wigend_reg_9[1];
+  EXP \wigend_reg_9_0_a2_exp[1]  (
+	.A_OUT(wigend_reg_9_x[1]),
+	.A_IN(wigend_reg_9_i_0[1])
+);
+//@1:168
+  assign #(1)  wigend_reg_9[1] = (overtime_i_i_0  & wigend_buf[0] );
+  assign #(1)  wigend_reg_9_i_0[2] = ~ wigend_reg_9[2];
+  EXP \wigend_reg_9_0_a2_exp[2]  (
+	.A_OUT(wigend_reg_9_x[2]),
+	.A_IN(wigend_reg_9_i_0[2])
+);
+//@1:168
+  assign #(1)  wigend_reg_9[2] = (overtime_i_i_0  & wigend_buf[1] );
+  assign #(1)  wigend_reg_9_i_0[3] = ~ wigend_reg_9[3];
+  EXP \wigend_reg_9_0_a2_exp[3]  (
+	.A_OUT(wigend_reg_9_x[3]),
+	.A_IN(wigend_reg_9_i_0[3])
+);
+//@1:168
+  assign #(1)  wigend_reg_9[3] = (overtime_i_i_0  & wigend_buf[2] );
+  assign #(1)  wigend_reg_9_i_0[4] = ~ wigend_reg_9[4];
+  EXP \wigend_reg_9_0_a2_exp[4]  (
+	.A_OUT(wigend_reg_9_x[4]),
+	.A_IN(wigend_reg_9_i_0[4])
+);
+//@1:168
+  assign #(1)  wigend_reg_9[4] = (overtime_i_i_0  & wigend_buf[3] );
+  assign #(1)  wigend_reg_9_i_0[5] = ~ wigend_reg_9[5];
+  EXP \wigend_reg_9_0_a2_exp[5]  (
+	.A_OUT(wigend_reg_9_x[5]),
+	.A_IN(wigend_reg_9_i_0[5])
+);
+//@1:168
+  assign #(1)  wigend_reg_9[5] = (overtime_i_i_0  & wigend_buf[4] );
+  assign #(1)  wigend_reg_9_i_0[6] = ~ wigend_reg_9[6];
+  EXP \wigend_reg_9_0_a2_exp[6]  (
+	.A_OUT(wigend_reg_9_x[6]),
+	.A_IN(wigend_reg_9_i_0[6])
+);
+//@1:168
+  assign #(1)  wigend_reg_9[6] = (overtime_i_i_0  & wigend_buf[5] );
+  assign #(1)  wigend_reg_9_i_0[7] = ~ wigend_reg_9[7];
+  EXP \wigend_reg_9_0_a2_exp[7]  (
+	.A_OUT(wigend_reg_9_x[7]),
+	.A_IN(wigend_reg_9_i_0[7])
+);
+//@1:168
+  assign #(1)  wigend_reg_9[7] = (overtime_i_i_0  & wigend_buf[6] );
+  assign #(1)  wigend_reg_9_i_0[8] = ~ wigend_reg_9[8];
+  EXP \wigend_reg_9_0_a2_exp[8]  (
+	.A_OUT(wigend_reg_9_x[8]),
+	.A_IN(wigend_reg_9_i_0[8])
+);
+//@1:168
+  assign #(1)  wigend_reg_9[8] = (overtime_i_i_0  & wigend_buf[7] );
+  assign #(1)  wigend_reg_9_i_0[9] = ~ wigend_reg_9[9];
+  EXP \wigend_reg_9_0_a2_exp[9]  (
+	.A_OUT(wigend_reg_9_x[9]),
+	.A_IN(wigend_reg_9_i_0[9])
+);
+//@1:168
+  assign #(1)  wigend_reg_9[9] = (overtime_i_i_0  & wigend_buf[8] );
+  assign #(1)  wigend_reg_9_i_0[10] = ~ wigend_reg_9[10];
+  EXP \wigend_reg_9_0_a2_exp[10]  (
+	.A_OUT(wigend_reg_9_x[10]),
+	.A_IN(wigend_reg_9_i_0[10])
+);
+//@1:168
+  assign #(1)  wigend_reg_9[10] = (overtime_i_i_0  & wigend_buf[9] );
+  assign #(1)  wigend_reg_9_i_0[11] = ~ wigend_reg_9[11];
+  EXP \wigend_reg_9_0_a2_exp[11]  (
+	.A_OUT(wigend_reg_9_x[11]),
+	.A_IN(wigend_reg_9_i_0[11])
+);
+//@1:168
+  assign #(1)  wigend_reg_9[11] = (overtime_i_i_0  & wigend_buf[10] );
+  assign #(1)  wigend_reg_9_i_0[12] = ~ wigend_reg_9[12];
+  EXP \wigend_reg_9_0_a2_exp[12]  (
+	.A_OUT(wigend_reg_9_x[12]),
+	.A_IN(wigend_reg_9_i_0[12])
+);
+//@1:168
+  assign #(1)  wigend_reg_9[12] = (overtime_i_i_0  & wigend_buf[11] );
+  assign #(1)  wigend_reg_9_i_0[13] = ~ wigend_reg_9[13];
+  EXP \wigend_reg_9_0_a2_exp[13]  (
+	.A_OUT(wigend_reg_9_x[13]),
+	.A_IN(wigend_reg_9_i_0[13])
+);
+//@1:168
+  assign #(1)  wigend_reg_9[13] = (overtime_i_i_0  & wigend_buf[12] );
+  assign #(1)  wigend_reg_9_i_0[14] = ~ wigend_reg_9[14];
+  EXP \wigend_reg_9_0_a2_exp[14]  (
+	.A_OUT(wigend_reg_9_x[14]),
+	.A_IN(wigend_reg_9_i_0[14])
+);
+//@1:168
+  assign #(1)  wigend_reg_9[14] = (overtime_i_i_0  & wigend_buf[13] );
+  assign #(1)  wigend_reg_9_i_0[15] = ~ wigend_reg_9[15];
+  EXP \wigend_reg_9_0_a2_exp[15]  (
+	.A_OUT(wigend_reg_9_x[15]),
+	.A_IN(wigend_reg_9_i_0[15])
+);
+//@1:168
+  assign #(1)  wigend_reg_9[15] = (overtime_i_i_0  & wigend_buf[14] );
+  assign #(1)  wigend_reg_9_i_0[16] = ~ wigend_reg_9[16];
+  EXP \wigend_reg_9_0_a2_exp[16]  (
+	.A_OUT(wigend_reg_9_x[16]),
+	.A_IN(wigend_reg_9_i_0[16])
+);
+//@1:168
+  assign #(1)  wigend_reg_9[16] = (overtime_i_i_0  & wigend_buf[15] );
+  assign #(1)  wigend_reg_9_i_0[17] = ~ wigend_reg_9[17];
+  EXP \wigend_reg_9_0_a2_exp[17]  (
+	.A_OUT(wigend_reg_9_x[17]),
+	.A_IN(wigend_reg_9_i_0[17])
+);
+//@1:168
+  assign #(1)  wigend_reg_9[17] = (overtime_i_i_0  & wigend_buf[16] );
+  assign #(1)  wigend_reg_9_i_0[18] = ~ wigend_reg_9[18];
+  EXP \wigend_reg_9_0_a2_exp[18]  (
+	.A_OUT(wigend_reg_9_x[18]),
+	.A_IN(wigend_reg_9_i_0[18])
+);
+//@1:168
+  assign #(1)  wigend_reg_9[18] = (overtime_i_i_0  & wigend_buf[17] );
+  assign #(1)  wigend_reg_9_i_0[19] = ~ wigend_reg_9[19];
+  EXP \wigend_reg_9_0_a2_exp[19]  (
+	.A_OUT(wigend_reg_9_x[19]),
+	.A_IN(wigend_reg_9_i_0[19])
+);
+//@1:168
+  assign #(1)  wigend_reg_9[19] = (overtime_i_i_0  & wigend_buf[18] );
+  assign #(1)  wigend_reg_9_i_0[20] = ~ wigend_reg_9[20];
+  EXP \wigend_reg_9_0_a2_exp[20]  (
+	.A_OUT(wigend_reg_9_x[20]),
+	.A_IN(wigend_reg_9_i_0[20])
+);
+//@1:168
+  assign #(1)  wigend_reg_9[20] = (overtime_i_i_0  & wigend_buf[19] );
+  assign #(1)  wigend_reg_9_i_0[21] = ~ wigend_reg_9[21];
+  EXP \wigend_reg_9_0_a2_exp[21]  (
+	.A_OUT(wigend_reg_9_x[21]),
+	.A_IN(wigend_reg_9_i_0[21])
+);
+//@1:168
+  assign #(1)  wigend_reg_9[21] = (overtime_i_i_0  & wigend_buf[20] );
+  assign #(1)  wigend_reg_9_i_0[22] = ~ wigend_reg_9[22];
+  EXP \wigend_reg_9_0_a2_exp[22]  (
+	.A_OUT(wigend_reg_9_x[22]),
+	.A_IN(wigend_reg_9_i_0[22])
+);
+//@1:168
+  assign #(1)  wigend_reg_9[22] = (overtime_i_i_0  & wigend_buf[21] );
+  assign #(1)  wigend_reg_9_i_0[23] = ~ wigend_reg_9[23];
+  EXP \wigend_reg_9_0_a2_exp[23]  (
+	.A_OUT(wigend_reg_9_x[23]),
+	.A_IN(wigend_reg_9_i_0[23])
+);
+//@1:168
+  assign #(1)  wigend_reg_9[23] = (overtime_i_i_0  & wigend_buf[22] );
+  assign #(1)  wigend_reg_9_i_0[24] = ~ wigend_reg_9[24];
+  EXP \wigend_reg_9_0_a2_exp[24]  (
+	.A_OUT(wigend_reg_9_x[24]),
+	.A_IN(wigend_reg_9_i_0[24])
+);
+//@1:168
+  assign #(1)  wigend_reg_9[24] = (overtime_i_i_0  & wigend_buf[23] );
+  assign #(1)  wigend_reg_9_i_0[25] = ~ wigend_reg_9[25];
+  EXP \wigend_reg_9_0_a2_exp[25]  (
+	.A_OUT(wigend_reg_9_x[25]),
+	.A_IN(wigend_reg_9_i_0[25])
+);
+//@1:168
+  assign #(1)  overtime_i_i_0 = ~ overtime_i;
+//@1:168
+  assign #(1)  wigend_reg_9[25] = (overtime_i_i_0  & wigend_buf[24] );
+  assign #(1)  N_253_i_i_0 = ~ N_253_i;
+  EXP wigend_bitcnt_7_i_exp (
+	.A_OUT(N_253_i_x),
+	.A_IN(N_253_i_i_0)
+);
+//@1:119
+  assign #(1)  N_253_i = (N_322  & wigend_bitcnt[2] );
+  assign #(1)  N_265_i_i_0 = ~ N_265_i;
+  EXP wigend_bitcnt_4_i_o2_x_exp (
+	.A_OUT(N_265_i_x),
+	.A_IN(N_265_i_i_0)
+);
+  assign #(1)  N_251_i_i_0 = ~ N_251_i;
+  EXP wigend_bitcnt_6_i_exp (
+	.A_OUT(N_251_i_x),
+	.A_IN(N_251_i_i_0)
+);
+//@1:119
+  assign #(1)  N_251_i = (overtime_delay3_i_i_0  & wigend_bitcnt[2] );
+  assign #(1)  N_301_i_0 = ~ N_301;
+  EXP wigend_bitcnt_4_i_a3_x_exp (
+	.A_OUT(N_301_x),
+	.A_IN(N_301_i_0)
+);
+  assign #(1)  wilclk_cnt_c8_s_i_0 = ~ wilclk_cnt_c8_s;
+  EXP wilclk_cnt_c8_s_x_exp (
+	.A_OUT(wilclk_cnt_c8_s_x),
+	.A_IN(wilclk_cnt_c8_s_i_0)
+);
+  assign #(1)  N_300_i_0 = ~ N_300;
+  EXP wigend_bitcnt_3_i_a0_1_x_exp (
+	.A_OUT(N_300_x),
+	.A_IN(N_300_i_0)
+);
+  assign #(1)  N_332_i_0 = ~ N_332;
+  EXP wigend_bitcnt_3_i_0_0_exp (
+	.A_OUT(N_332_x),
+	.A_IN(N_332_i_0)
+);
+//@1:119
+  assign #(1)  N_332 = (overtime_delay3_i_i_0  & wigend_bitcnt[0] );
+  assign #(1)  N_322_i_0 = ~ N_322;
+  EXP wigend_bitcnt_5_i_s_x_exp (
+	.A_OUT(N_322_x),
+	.A_IN(N_322_i_0)
+);
+  assign #(1)  wilclk_cnt_c5_i_0 = ~ wilclk_cnt_c5;
+  EXP wilclk_cnt_c5_exp (
+	.A_OUT(wilclk_cnt_c5_x),
+	.A_IN(wilclk_cnt_c5_i_0)
+);
+//@1:79
+  assign #(1)  wilclk_cnt_c1 = (wilclk_cnt[0]  & wilclk_cnt[1] );
+  LCELL un1_wil_clk_tmp_i_a3_exp_cZ (
+	.A_OUT(un1_wil_clk_tmp_i_a3_exp),
+	.A_IN(N_299)
+);
+  assign #(1)  N_257_i_i_0 = ~ N_257_i;
+  EXP wigend_bitcnt_9_i_exp (
+	.A_OUT(N_257_i_x),
+	.A_IN(N_257_i_i_0)
+);
+//@1:119
+  assign #(1)  N_257_i = (N_253_i  & wigend_bitcnt[3] );
+//@1:119
+  assign #(1)  N_322 = (N_265_i  & wigend_bitcnt[0] );
+//@1:119
+  assign #(1)  overtime_delay3_i_i_0 = ~ overtime_delay3_i;
+//@1:119
+  assign #(1)  N_265_i = (overtime_delay3_i_i_0  & wigend_bitcnt[1] );
+  assign #(1)  un1_wilclk_cntlt9_i_0 = ~ un1_wilclk_cntlt9;
+  EXP un1_wilclk_cntlto6_exp (
+	.A_OUT(un1_wilclk_cntlt9_x),
+	.A_IN(un1_wilclk_cntlt9_i_0)
+);
+//@1:91
+  assign #(1)  un1_wilclk_cntlt9 = (N_501_i  & N_500_i );
+//@1:91
+  assign #(1)  wilclk_cnt_i_0[5] = ~ wilclk_cnt[5];
+//@1:91
+  assign #(1)  wilclk_cnt_i_0[6] = ~ wilclk_cnt[6];
+//@1:91
+  assign #(1)  N_500_i = (wilclk_cnt_i_0[5]  & wilclk_cnt_i_0[6] );
+//@1:91
+  assign #(1)  wilclk_cnt_i_0[3] = ~ wilclk_cnt[3];
+//@1:91
+  assign #(1)  wilclk_cnt_i_0[4] = ~ wilclk_cnt[4];
+//@1:91
+  assign #(1)  N_501_i = (wilclk_cnt_i_0[3]  & wilclk_cnt_i_0[4] );
+  assign #(1)  wilclk_cnt_c9_s_i_0 = ~ wilclk_cnt_c9_s;
+  EXP wilclk_cnt_c9_s_exp (
+	.A_OUT(wilclk_cnt_c9_s_x),
+	.A_IN(wilclk_cnt_c9_s_i_0)
+);
+//@1:79
+  assign #(1)  wilclk_cnt_c8_s = (wilclk_cnt[7]  & wilclk_cnt[8] );
+  assign #(1)  N_312_i_0 = ~ N_312;
+  EXP wigend_bitcnt_n0_a0_exp (
+	.A_OUT(N_312_x),
+	.A_IN(N_312_i_0)
+);
+//@1:119
+  assign #(1)  wigend_bitcnt_i_0[2] = ~ wigend_bitcnt[2];
+//@1:119
+  assign #(1)  N_301 = (N_300  & wigend_bitcnt_i_0[2] );
+//@1:119
+  assign #(1)  N_300 = (wigend_bitcnt[3]  & wigend_bitcnt[4] );
+// @1:103
+  S_DFF overtime_delay1_i_0_Z (
+	.Q(overtime_delay1_i_0),
+	.D(overtime_i),
+	.CLK(clk),
+	.CLRN(nReset),
+	.PRN(VCC)
+);
+// @1:103
+  S_DFF overtime_delay3_i_Z (
+	.Q(overtime_delay3_i),
+	.D(overtime_delay2_i),
+	.CLK(clk),
+	.CLRN(nReset),
+	.PRN(VCC)
+);
+// @1:103
+  S_DFF overtime_delay2_i_Z (
+	.Q(overtime_delay2_i),
+	.D(overtime_delay1_i_0),
+	.CLK(clk),
+	.CLRN(nReset),
+	.PRN(VCC)
+);
+// @1:53
+  S_DFF wil1_i_1_Z (
+	.Q(wil1_i_1),
+	.D(un1_wil_3),
+	.CLK(clk),
+	.CLRN(nReset),
+	.PRN(VCC)
+);
+// @1:53
+  S_DFF wil_clk_tmp_i_0_Z (
+	.Q(wil_clk_tmp_i_0),
+	.D(un1_wil_9),
+	.CLK(clk),
+	.CLRN(nReset),
+	.PRN(VCC)
+);
+// @1:53
+  S_DFF wil_clk_i_0_Z (
+	.Q(wil_clk_i_0),
+	.D(wil_clk_tmp_i_0),
+	.CLK(clk),
+	.CLRN(nReset),
+	.PRN(VCC)
+);
+// @1:79
+  S_DFF overtime_i_Z (
+	.Q(overtime_i),
+	.D(overtime17),
+	.CLK(clk),
+	.CLRN(nReset),
+	.PRN(VCC)
+);
+//@1:43
+  assign #(1)  N_52_i_0 = ~ N_52;
+// @1:43
+  S_DFF eint11_i_Z (
+	.Q(eint11_i),
+	.D(N_52_i_0),
+	.CLK(wil_clk),
+	.CLRN(nReset),
+	.PRN(VCC)
+);
+// @1:139
+  S_DFFE \wigend_buf_Z[0]  (
+	.Q(wigend_buf[0]),
+	.D(N_185_i),
+	.CLK(~wil_clk),
+	.CLRN(nReset),
+	.PRN(VCC),
+	.ENA(un1_wil_clk_tmp_i_i_i_i_0)
+);
+// @1:139
+  S_DFFE \wigend_buf_Z[1]  (
+	.Q(wigend_buf[1]),
+	.D(N_191_i),
+	.CLK(~wil_clk),
+	.CLRN(nReset),
+	.PRN(VCC),
+	.ENA(un1_wil_clk_tmp_i_i_i_i_0)
+);
+// @1:139
+  S_DFFE \wigend_buf_Z[2]  (
+	.Q(wigend_buf[2]),
+	.D(N_193_i),
+	.CLK(~wil_clk),
+	.CLRN(nReset),
+	.PRN(VCC),
+	.ENA(un1_wil_clk_tmp_i_i_i_i_0)
+);
+// @1:139
+  S_DFFE \wigend_buf_Z[3]  (
+	.Q(wigend_buf[3]),
+	.D(N_195_i),
+	.CLK(~wil_clk),
+	.CLRN(nReset),
+	.PRN(VCC),
+	.ENA(un1_wil_clk_tmp_i_i_i_i_0)
+);
+// @1:139
+  S_DFFE \wigend_buf_Z[4]  (
+	.Q(wigend_buf[4]),
+	.D(N_197_i),
+	.CLK(~wil_clk),
+	.CLRN(nReset),
+	.PRN(VCC),
+	.ENA(un1_wil_clk_tmp_i_i_i_i_0)
+);
+// @1:139
+  S_DFFE \wigend_buf_Z[5]  (
+	.Q(wigend_buf[5]),
+	.D(N_199_i),
+	.CLK(~wil_clk),
+	.CLRN(nReset),
+	.PRN(VCC),
+	.ENA(un1_wil_clk_tmp_i_i_i_i_0)
+);
+// @1:139
+  S_DFFE \wigend_buf_Z[6]  (
+	.Q(wigend_buf[6]),
+	.D(N_201_i),
+	.CLK(~wil_clk),
+	.CLRN(nReset),
+	.PRN(VCC),
+	.ENA(un1_wil_clk_tmp_i_i_i_i_0)
+);
+// @1:139
+  S_DFFE \wigend_buf_Z[7]  (
+	.Q(wigend_buf[7]),
+	.D(N_203_i),
+	.CLK(~wil_clk),
+	.CLRN(nReset),
+	.PRN(VCC),
+	.ENA(un1_wil_clk_tmp_i_i_i_i_0)
+);
+// @1:139
+  S_DFFE \wigend_buf_Z[8]  (
+	.Q(wigend_buf[8]),
+	.D(N_205_i),
+	.CLK(~wil_clk),
+	.CLRN(nReset),
+	.PRN(VCC),
+	.ENA(un1_wil_clk_tmp_i_i_i_i_0)
+);
+// @1:139
+  S_DFFE \wigend_buf_Z[9]  (
+	.Q(wigend_buf[9]),
+	.D(N_207_i),
+	.CLK(~wil_clk),
+	.CLRN(nReset),
+	.PRN(VCC),
+	.ENA(un1_wil_clk_tmp_i_i_i_i_0)
+);
+// @1:139
+  S_DFFE \wigend_buf_Z[10]  (
+	.Q(wigend_buf[10]),
+	.D(N_209_i),
+	.CLK(~wil_clk),
+	.CLRN(nReset),
+	.PRN(VCC),
+	.ENA(un1_wil_clk_tmp_i_i_i_i_0)
+);
+// @1:139
+  S_DFFE \wigend_buf_Z[11]  (
+	.Q(wigend_buf[11]),
+	.D(N_211_i),
+	.CLK(~wil_clk),
+	.CLRN(nReset),
+	.PRN(VCC),
+	.ENA(un1_wil_clk_tmp_i_i_i_i_0)
+);
+// @1:139
+  S_DFFE \wigend_buf_Z[12]  (
+	.Q(wigend_buf[12]),
+	.D(N_213_i),
+	.CLK(~wil_clk),
+	.CLRN(nReset),
+	.PRN(VCC),
+	.ENA(un1_wil_clk_tmp_i_i_i_i_0)
+);
+// @1:139
+  S_DFFE \wigend_buf_Z[13]  (
+	.Q(wigend_buf[13]),
+	.D(N_215_i),
+	.CLK(~wil_clk),
+	.CLRN(nReset),
+	.PRN(VCC),
+	.ENA(un1_wil_clk_tmp_i_i_i_i_0)
+);
+// @1:139
+  S_DFFE \wigend_buf_Z[14]  (
+	.Q(wigend_buf[14]),
+	.D(N_217_i),
+	.CLK(~wil_clk),
+	.CLRN(nReset),
+	.PRN(VCC),
+	.ENA(un1_wil_clk_tmp_i_i_i_i_0)
+);
+// @1:139
+  S_DFFE \wigend_buf_Z[15]  (
+	.Q(wigend_buf[15]),
+	.D(N_219_i),
+	.CLK(~wil_clk),
+	.CLRN(nReset),
+	.PRN(VCC),
+	.ENA(un1_wil_clk_tmp_i_i_i_i_0)
+);
+// @1:139
+  S_DFFE \wigend_buf_Z[16]  (
+	.Q(wigend_buf[16]),
+	.D(N_221_i),
+	.CLK(~wil_clk),
+	.CLRN(nReset),
+	.PRN(VCC),
+	.ENA(un1_wil_clk_tmp_i_i_i_i_0)
+);
+// @1:139
+  S_DFFE \wigend_buf_Z[17]  (
+	.Q(wigend_buf[17]),
+	.D(N_223_i),
+	.CLK(~wil_clk),
+	.CLRN(nReset),
+	.PRN(VCC),
+	.ENA(un1_wil_clk_tmp_i_i_i_i_0)
+);
+// @1:139
+  S_DFFE \wigend_buf_Z[18]  (
+	.Q(wigend_buf[18]),
+	.D(N_225_i),
+	.CLK(~wil_clk),
+	.CLRN(nReset),
+	.PRN(VCC),
+	.ENA(un1_wil_clk_tmp_i_i_i_i_0)
+);
+// @1:139
+  S_DFFE \wigend_buf_Z[19]  (
+	.Q(wigend_buf[19]),
+	.D(N_227_i),
+	.CLK(~wil_clk),
+	.CLRN(nReset),
+	.PRN(VCC),
+	.ENA(un1_wil_clk_tmp_i_i_i_i_0)
+);
+// @1:139
+  S_DFFE \wigend_buf_Z[20]  (
+	.Q(wigend_buf[20]),
+	.D(N_229_i),
+	.CLK(~wil_clk),
+	.CLRN(nReset),
+	.PRN(VCC),
+	.ENA(un1_wil_clk_tmp_i_i_i_i_0)
+);
+// @1:139
+  S_DFFE \wigend_buf_Z[21]  (
+	.Q(wigend_buf[21]),
+	.D(N_231_i),
+	.CLK(~wil_clk),
+	.CLRN(nReset),
+	.PRN(VCC),
+	.ENA(un1_wil_clk_tmp_i_i_i_i_0)
+);
+// @1:139
+  S_DFFE \wigend_buf_Z[22]  (
+	.Q(wigend_buf[22]),
+	.D(N_233_i),
+	.CLK(~wil_clk),
+	.CLRN(nReset),
+	.PRN(VCC),
+	.ENA(un1_wil_clk_tmp_i_i_i_i_0)
+);
+// @1:139
+  S_DFFE \wigend_buf_Z[23]  (
+	.Q(wigend_buf[23]),
+	.D(N_235_i),
+	.CLK(~wil_clk),
+	.CLRN(nReset),
+	.PRN(VCC),
+	.ENA(un1_wil_clk_tmp_i_i_i_i_0)
+);
+//@1:139
+  assign #(1)  un1_wil_clk_tmp_i_i_i_i_0 = ~ un1_wil_clk_tmp_i_i_i;
+// @1:139
+  S_DFFE \wigend_buf_Z[24]  (
+	.Q(wigend_buf[24]),
+	.D(N_237_i),
+	.CLK(~wil_clk),
+	.CLRN(nReset),
+	.PRN(VCC),
+	.ENA(un1_wil_clk_tmp_i_i_i_i_0)
+);
+// @1:166
+  S_DFFE \wigend_reg_Z[0]  (
+	.Q(wigend_reg[0]),
+	.D(wil1_i_1),
+	.CLK(~wil_clk),
+	.CLRN(nReset),
+	.PRN(VCC),
+	.ENA(un1_wigend_bitcnt_6_i_i)
+);
+// @1:166
+  S_DFFE \wigend_reg_Z[1]  (
+	.Q(wigend_reg[1]),
+	.D(wigend_reg_9_x[1]),
+	.CLK(~wil_clk),
+	.CLRN(nReset),
+	.PRN(VCC),
+	.ENA(un1_wigend_bitcnt_6_i_i)
+);
+// @1:166
+  S_DFFE \wigend_reg_Z[2]  (
+	.Q(wigend_reg[2]),
+	.D(wigend_reg_9_x[2]),
+	.CLK(~wil_clk),
+	.CLRN(nReset),
+	.PRN(VCC),
+	.ENA(un1_wigend_bitcnt_6_i_i)
+);
+// @1:166
+  S_DFFE \wigend_reg_Z[3]  (
+	.Q(wigend_reg[3]),
+	.D(wigend_reg_9_x[3]),
+	.CLK(~wil_clk),
+	.CLRN(nReset),
+	.PRN(VCC),
+	.ENA(un1_wigend_bitcnt_6_i_i)
+);
+// @1:166
+  S_DFFE \wigend_reg_Z[4]  (
+	.Q(wigend_reg[4]),
+	.D(wigend_reg_9_x[4]),
+	.CLK(~wil_clk),
+	.CLRN(nReset),
+	.PRN(VCC),
+	.ENA(un1_wigend_bitcnt_6_i_i)
+);
+// @1:166
+  S_DFFE \wigend_reg_Z[5]  (
+	.Q(wigend_reg[5]),
+	.D(wigend_reg_9_x[5]),
+	.CLK(~wil_clk),
+	.CLRN(nReset),
+	.PRN(VCC),
+	.ENA(un1_wigend_bitcnt_6_i_i)
+);
+// @1:166
+  S_DFFE \wigend_reg_Z[6]  (
+	.Q(wigend_reg[6]),
+	.D(wigend_reg_9_x[6]),
+	.CLK(~wil_clk),
+	.CLRN(nReset),
+	.PRN(VCC),
+	.ENA(un1_wigend_bitcnt_6_i_i)
+);
+// @1:166
+  S_DFFE \wigend_reg_Z[7]  (
+	.Q(wigend_reg[7]),
+	.D(wigend_reg_9_x[7]),
+	.CLK(~wil_clk),
+	.CLRN(nReset),
+	.PRN(VCC),
+	.ENA(un1_wigend_bitcnt_6_i_i)
+);
+// @1:166
+  S_DFFE \wigend_reg_Z[8]  (
+	.Q(wigend_reg[8]),
+	.D(wigend_reg_9_x[8]),
+	.CLK(~wil_clk),
+	.CLRN(nReset),
+	.PRN(VCC),
+	.ENA(un1_wigend_bitcnt_6_i_i)
+);
+// @1:166
+  S_DFFE \wigend_reg_Z[9]  (
+	.Q(wigend_reg[9]),
+	.D(wigend_reg_9_x[9]),
+	.CLK(~wil_clk),
+	.CLRN(nReset),
+	.PRN(VCC),
+	.ENA(un1_wigend_bitcnt_6_i_i)
+);
+// @1:166
+  S_DFFE \wigend_reg_Z[10]  (
+	.Q(wigend_reg[10]),
+	.D(wigend_reg_9_x[10]),
+	.CLK(~wil_clk),
+	.CLRN(nReset),
+	.PRN(VCC),
+	.ENA(un1_wigend_bitcnt_6_i_i)
+);
+// @1:166
+  S_DFFE \wigend_reg_Z[11]  (
+	.Q(wigend_reg[11]),
+	.D(wigend_reg_9_x[11]),
+	.CLK(~wil_clk),
+	.CLRN(nReset),
+	.PRN(VCC),
+	.ENA(un1_wigend_bitcnt_6_i_i)
+);
+// @1:166
+  S_DFFE \wigend_reg_Z[12]  (
+	.Q(wigend_reg[12]),
+	.D(wigend_reg_9_x[12]),
+	.CLK(~wil_clk),
+	.CLRN(nReset),
+	.PRN(VCC),
+	.ENA(un1_wigend_bitcnt_6_i_i)
+);
+// @1:166
+  S_DFFE \wigend_reg_Z[13]  (
+	.Q(wigend_reg[13]),
+	.D(wigend_reg_9_x[13]),
+	.CLK(~wil_clk),
+	.CLRN(nReset),
+	.PRN(VCC),
+	.ENA(un1_wigend_bitcnt_6_i_i)
+);
+// @1:166
+  S_DFFE \wigend_reg_Z[14]  (
+	.Q(wigend_reg[14]),
+	.D(wigend_reg_9_x[14]),
+	.CLK(~wil_clk),
+	.CLRN(nReset),
+	.PRN(VCC),
+	.ENA(un1_wigend_bitcnt_6_i_i)
+);
+// @1:166
+  S_DFFE \wigend_reg_Z[15]  (
+	.Q(wigend_reg[15]),
+	.D(wigend_reg_9_x[15]),
+	.CLK(~wil_clk),
+	.CLRN(nReset),
+	.PRN(VCC),
+	.ENA(un1_wigend_bitcnt_6_i_i)
+);
+// @1:166
+  S_DFFE \wigend_reg_Z[16]  (
+	.Q(wigend_reg[16]),
+	.D(wigend_reg_9_x[16]),
+	.CLK(~wil_clk),
+	.CLRN(nReset),
+	.PRN(VCC),
+	.ENA(un1_wigend_bitcnt_6_i_i)
+);
+// @1:166
+  S_DFFE \wigend_reg_Z[17]  (
+	.Q(wigend_reg[17]),
+	.D(wigend_reg_9_x[17]),
+	.CLK(~wil_clk),
+	.CLRN(nReset),
+	.PRN(VCC),
+	.ENA(un1_wigend_bitcnt_6_i_i)
+);
+// @1:166
+  S_DFFE \wigend_reg_Z[18]  (
+	.Q(wigend_reg[18]),
+	.D(wigend_reg_9_x[18]),
+	.CLK(~wil_clk),
+	.CLRN(nReset),
+	.PRN(VCC),
+	.ENA(un1_wigend_bitcnt_6_i_i)
+);
+// @1:166
+  S_DFFE \wigend_reg_Z[19]  (
+	.Q(wigend_reg[19]),
+	.D(wigend_reg_9_x[19]),
+	.CLK(~wil_clk),
+	.CLRN(nReset),
+	.PRN(VCC),
+	.ENA(un1_wigend_bitcnt_6_i_i)
+);
+// @1:166
+  S_DFFE \wigend_reg_Z[20]  (
+	.Q(wigend_reg[20]),
+	.D(wigend_reg_9_x[20]),
+	.CLK(~wil_clk),
+	.CLRN(nReset),
+	.PRN(VCC),
+	.ENA(un1_wigend_bitcnt_6_i_i)
+);
+// @1:166
+  S_DFFE \wigend_reg_Z[21]  (
+	.Q(wigend_reg[21]),
+	.D(wigend_reg_9_x[21]),
+	.CLK(~wil_clk),
+	.CLRN(nReset),
+	.PRN(VCC),
+	.ENA(un1_wigend_bitcnt_6_i_i)
+);
+// @1:166
+  S_DFFE \wigend_reg_Z[22]  (
+	.Q(wigend_reg[22]),
+	.D(wigend_reg_9_x[22]),
+	.CLK(~wil_clk),
+	.CLRN(nReset),
+	.PRN(VCC),
+	.ENA(un1_wigend_bitcnt_6_i_i)
+);
+// @1:166
+  S_DFFE \wigend_reg_Z[23]  (
+	.Q(wigend_reg[23]),
+	.D(wigend_reg_9_x[23]),
+	.CLK(~wil_clk),
+	.CLRN(nReset),
+	.PRN(VCC),
+	.ENA(un1_wigend_bitcnt_6_i_i)
+);
+// @1:166
+  S_DFFE \wigend_reg_Z[24]  (
+	.Q(wigend_reg[24]),
+	.D(wigend_reg_9_x[24]),
+	.CLK(~wil_clk),
+	.CLRN(nReset),
+	.PRN(VCC),
+	.ENA(un1_wigend_bitcnt_6_i_i)
+);
+// @1:166
+  S_DFFE \wigend_reg_Z[25]  (
+	.Q(wigend_reg[25]),
+	.D(wigend_reg_9_x[25]),
+	.CLK(~wil_clk),
+	.CLRN(nReset),
+	.PRN(VCC),
+	.ENA(un1_wigend_bitcnt_6_i_i)
+);
+// @1:119
+  S_DFF \wigend_bitcnt_Z[0]  (
+	.Q(wigend_bitcnt[0]),
+	.D(N_480_i),
+	.CLK(~wil_clk),
+	.CLRN(nReset),
+	.PRN(VCC)
+);
+// @1:119
+  S_DFF \wigend_bitcnt_Z[1]  (
+	.Q(wigend_bitcnt[1]),
+	.D(wigend_bitcnt_n1),
+	.CLK(~wil_clk),
+	.CLRN(nReset),
+	.PRN(VCC)
+);
+// @1:119
+  S_DFF \wigend_bitcnt_Z[2]  (
+	.Q(wigend_bitcnt[2]),
+	.D(wigend_bitcnt_n2),
+	.CLK(~wil_clk),
+	.CLRN(nReset),
+	.PRN(VCC)
+);
+// @1:119
+  S_DFF \wigend_bitcnt_Z[3]  (
+	.Q(wigend_bitcnt[3]),
+	.D(wigend_bitcnt_n3),
+	.CLK(~wil_clk),
+	.CLRN(nReset),
+	.PRN(VCC)
+);
+// @1:119
+  S_DFF \wigend_bitcnt_Z[4]  (
+	.Q(wigend_bitcnt[4]),
+	.D(wigend_bitcnt_n4),
+	.CLK(~wil_clk),
+	.CLRN(nReset),
+	.PRN(VCC)
+);
+// @1:79
+  S_DFF \wilclk_cnt_Z[0]  (
+	.Q(wilclk_cnt[0]),
+	.D(wilclk_cnt_n0),
+	.CLK(clk),
+	.CLRN(nReset),
+	.PRN(VCC)
+);
+// @1:79
+  S_DFF \wilclk_cnt_Z[1]  (
+	.Q(wilclk_cnt[1]),
+	.D(wilclk_cnt_n1),
+	.CLK(clk),
+	.CLRN(nReset),
+	.PRN(VCC)
+);
+// @1:79
+  S_DFF \wilclk_cnt_Z[2]  (
+	.Q(wilclk_cnt[2]),
+	.D(wilclk_cnt_n2),
+	.CLK(clk),
+	.CLRN(nReset),
+	.PRN(VCC)
+);
+//@1:79
+  assign #(1)  wilclk_cnt_n3_N_3_i_0 = ~ wilclk_cnt_n3_N_3;
+// @1:79
+  S_DFF \wilclk_cnt_Z[3]  (
+	.Q(wilclk_cnt[3]),
+	.D(wilclk_cnt_n3_N_3_i_0),
+	.CLK(clk),
+	.CLRN(nReset),
+	.PRN(VCC)
+);
+// @1:79
+  S_DFF \wilclk_cnt_Z[4]  (
+	.Q(wilclk_cnt[4]),
+	.D(wilclk_cnt_n4),
+	.CLK(clk),
+	.CLRN(nReset),
+	.PRN(VCC)
+);
+// @1:79
+  S_DFF \wilclk_cnt_Z[5]  (
+	.Q(wilclk_cnt[5]),
+	.D(wilclk_cnt_n5),
+	.CLK(clk),
+	.CLRN(nReset),
+	.PRN(VCC)
+);
+// @1:79
+  S_DFF \wilclk_cnt_Z[6]  (
+	.Q(wilclk_cnt[6]),
+	.D(wilclk_cnt_n6),
+	.CLK(clk),
+	.CLRN(nReset),
+	.PRN(VCC)
+);
+//@1:79
+  assign #(1)  N_321_i_0 = ~ N_321;
+// @1:79
+  S_DFF \wilclk_cnt_Z[7]  (
+	.Q(wilclk_cnt[7]),
+	.D(N_321_i_0),
+	.CLK(clk),
+	.CLRN(nReset),
+	.PRN(VCC)
+);
+// @1:79
+  S_DFF \wilclk_cnt_Z[8]  (
+	.Q(wilclk_cnt[8]),
+	.D(wilclk_cnt_n8),
+	.CLK(clk),
+	.CLRN(nReset),
+	.PRN(VCC)
+);
+// @1:79
+  S_DFF \wilclk_cnt_Z[9]  (
+	.Q(wilclk_cnt[9]),
+	.D(wilclk_cnt_n9),
+	.CLK(clk),
+	.CLRN(nReset),
+	.PRN(VCC)
+);
+// @1:79
+  S_DFF \wilclk_cnt_Z[10]  (
+	.Q(wilclk_cnt[10]),
+	.D(wilclk_cnt_n10),
+	.CLK(clk),
+	.CLRN(nReset),
+	.PRN(VCC)
+);
+// @1:79
+  S_DFF \wilclk_cnt_Z[11]  (
+	.Q(wilclk_cnt[11]),
+	.D(wilclk_cnt_n11),
+	.CLK(clk),
+	.CLRN(nReset),
+	.PRN(VCC)
+);
+// @1:79
+  S_DFF \wilclk_cnt_Z[12]  (
+	.Q(wilclk_cnt[12]),
+	.D(wilclk_cnt_n12),
+	.CLK(clk),
+	.CLRN(nReset),
+	.PRN(VCC)
+);
+//@1:191
+  assign #(1)  data[7] = un1_nGCS_0_a5[0] ? un1_wigend_reg_iv_0_i[7] : 1'bz;
+//@1:191
+  assign #(1)  data[6] = un1_nGCS_0_a5[0] ? un1_wigend_reg_iv_0_i[6] : 1'bz;
+//@1:191
+  assign #(1)  data[5] = un1_nGCS_0_a5[0] ? un1_wigend_reg_iv_0_i[5] : 1'bz;
+//@1:191
+  assign #(1)  data[4] = un1_nGCS_0_a5[0] ? un1_wigend_reg_iv_0_i[4] : 1'bz;
+//@1:191
+  assign #(1)  data[3] = un1_nGCS_0_a5[0] ? un1_wigend_reg_iv_0_i[3] : 1'bz;
+//@1:191
+  assign #(1)  data[2] = un1_nGCS_0_a5[0] ? un1_wigend_reg_iv_0_i[2] : 1'bz;
+//@1:191
+  assign #(1)  data[1] = un1_nGCS_0_a5[0] ? un1_wigend_reg_iv_0_i[1] : 1'bz;
+//@1:191
+  assign #(1)  data[0] = un1_nGCS_0_a5[0] ? un1_wigend_reg_iv_0_i[0] : 1'bz;
+  assign #(1)  wil_clk = ~ wil_clk_i_0;
+  SOFT Hs_buf (
+	.A_OUT(Hs),
+	.A_IN(VCC)
+);
+  assign #(1)  nWAIT = ~ hpirdy;
+  assign #(1)  vCLK = ~ vp2clk1;
+  assign #(1)  eint11 = ~ eint11_i;
+endmodule /* buffer */
+

@@ -1,0 +1,48 @@
+; Code Composer Project File, Version 2.0 (do not modify or remove this line)
+
+[Project Settings]
+ProjectName="vport"
+ProjectDir="D:\pred\dsp\vport\"
+ProjectType=Library
+CPUFamily=TMS320C64XX
+Tool="Archiver"
+Tool="Compiler"
+Tool="CustomBuilder"
+Tool="DspBiosBuilder"
+Config="Debug"
+Config="Release"
+
+[Source Files]
+Source="..\disp\utility.c"
+Source="..\rsalib\INT64.C"
+Source="..\rsalib\MISC.C"
+Source="..\rsalib\SSHBN.C"
+Source="..\rsalib\sshdes.c"
+Source="..\rsalib\SSHMD5.C"
+Source="..\rsalib\SSHPRIME.C"
+Source="..\rsalib\SSHRSA.C"
+Source="..\rsalib\SSHRSAG.C"
+Source="..\rsalib\SSHSH256.C"
+Source="..\rsalib\SSHSH512.C"
+Source="..\rsalib\SSHSHA.C"
+Source="vportcap.c"
+Source="vportdis.c"
+
+["Archiver" Settings: "Debug"]
+Options=-r -o$(Proj_dir)\..\lib\vport.l64
+
+["Archiver" Settings: "Release"]
+Options=-r -o$(Proj_dir)\..\..\..\lib\vport.l64
+
+["Compiler" Settings: "Debug"]
+Options=-q -s -os -o3 -eoo64 -fr"$(Proj_dir)\Debug" -i"$(Install_dir)\C6xCSL\include" -i"$(Install_dir)\ddk\include" -i"$(Proj_dir)\..\include" -i"$(Install_dir)\boards\evmdm642\include" -d"CHIP_DM642=1" -mv6400 --mem_model:data=far --consultant
+
+["Compiler" Settings: "Release"]
+Options=-q -o3 -eoo64 -fr"$(Proj_dir)\Debug" -i"$(Install_dir)\C6xCSL\include" -i"$(Install_dir)\ddk\include" -d"CHIP_DM642" -ml3 -mv6400
+
+["DspBiosBuilder" Settings: "Debug"]
+Options=-v6x
+
+["DspBiosBuilder" Settings: "Release"]
+Options=-v6x
+

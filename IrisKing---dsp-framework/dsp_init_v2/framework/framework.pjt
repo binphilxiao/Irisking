@@ -1,0 +1,38 @@
+; Code Composer Project File, Version 2.0 (do not modify or remove this line)
+
+[Project Settings]
+ProjectName="driver_test"
+ProjectDir="E:\project\IRISking\dsp-framework\dsp_init_v2\framework\"
+ProjectType=Executable
+CPUFamily=TMS320C64XX
+Tool="Compiler"
+Tool="CustomBuilder"
+Tool="DspBiosBuilder"
+Tool="Linker"
+Config="Debug"
+
+[Source Files]
+Source="framework.cdb"
+Source="src\_iic.c"
+Source="src\dm642init.c"
+Source="src\main.c"
+Source="src\test.c"
+Source="framework.cmd"
+
+[Generated Files]
+Source="frameworkcfg.cmd"
+Source="frameworkcfg.s62"
+Source="frameworkcfg_c.c"
+
+["Compiler" Settings: "Debug"]
+Options=-g -q -fr"$(Proj_dir)\Debug" -fs"$(Proj_dir)\Debug" -ft"$(Proj_dir)\Debug" -fb"$(Proj_dir)\Debug" -ff"$(Proj_dir)\Debug" -i"$(Install_dir)\C6xCSL\include" -i"$(Install_dir)\boards\evmdm642\include" -i"$(Install_dir)\ddk\include\" -i"..\..\include" -d"_DEBUG" -d"CHIP_DM642=1" -d"C6000" -mv6400 --mem_model:data=far
+
+["Linker" Settings: "Debug"]
+Options=-a -c -heap0x200000 -m".\Debug\framework.map" -o".\Debug\framework.out" -stack0x200000 -w -i"C:\CCStudio_v3.1\C6xCSL\lib_3x"
+
+["frameworkcfg.cmd" Settings: "Debug"]
+LinkOrder=2
+
+["framework.cmd" Settings: "Debug"]
+LinkOrder=1
+

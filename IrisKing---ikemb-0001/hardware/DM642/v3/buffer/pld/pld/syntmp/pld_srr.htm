@@ -1,0 +1,113 @@
+<html>
+<body><samp><pre>
+<!@TC:1236928536>
+#Build: Synplify 8.6.2, Build 013R, Jun  5 2006
+#install: C:\Program Files\Synplicity\fpga_862
+#OS: Windows XP 5.1
+#Hostname: 03DB3BD03BCE4A5
+
+#Fri Mar 13 15:15:36 2009
+
+<a name=compilerReport92>$ Start of Compile
+#Fri Mar 13 15:15:36 2009
+
+Synplicity Verilog Compiler, version 3.6t, Build 206R, built Aug  8 2006
+Copyright (C) 1994-2006, Synplicity Inc.  All Rights Reserved
+
+@I::"C:\Program Files\Synplicity\fpga_862\lib\altera\altera.v"
+@I::"E:\emb001\project\hardware\buffer\pld\pld.v"
+Verilog syntax check successful!
+File E:\emb001\project\hardware\buffer\pld\pld.v changed - recompiling
+Selecting top level module pld
+@N:<a href="@N:CG364:@XP_HELP">CG364</a> : <a href="e:\emb001\project\hardware\buffer\pld\pld.v:1:7:1:10:@N:CG364:@XP_MSG">pld.v(1)</a><!@TM:1236928536> | Synthesizing module pld
+
+<font color=#A52A2A>@W:<a href="@W:CL209:@XP_HELP">CL209</a> : <a href="e:\emb001\project\hardware\buffer\pld\pld.v:11:13:11:17:@W:CL209:@XP_MSG">pld.v(11)</a><!@TM:1236928536> | Input port bit <5> of nGCS[5:0] is unused</font>
+
+<font color=#A52A2A>@W:<a href="@W:CL159:@XP_HELP">CL159</a> : <a href="e:\emb001\project\hardware\buffer\pld\pld.v:3:26:3:29:@W:CL159:@XP_MSG">pld.v(3)</a><!@TM:1236928536> | Input nWE is unused</font>
+<font color=#A52A2A>@W:<a href="@W:CL159:@XP_HELP">CL159</a> : <a href="e:\emb001\project\hardware\buffer\pld\pld.v:4:7:4:14:@W:CL159:@XP_MSG">pld.v(4)</a><!@TM:1236928536> | Input vp2clk0 is unused</font>
+<font color=#A52A2A>@W:<a href="@W:CL159:@XP_HELP">CL159</a> : <a href="e:\emb001\project\hardware\buffer\pld\pld.v:4:31:4:38:@W:CL159:@XP_MSG">pld.v(4)</a><!@TM:1236928536> | Input vp2ctl1 is unused</font>
+<font color=#A52A2A>@W:<a href="@W:CL159:@XP_HELP">CL159</a> : <a href="e:\emb001\project\hardware\buffer\pld\pld.v:4:39:4:46:@W:CL159:@XP_MSG">pld.v(4)</a><!@TM:1236928536> | Input vp2ctl2 is unused</font>
+@END
+Process took 0h:00m:01s realtime, 0h:00m:01s cputime
+# Fri Mar 13 15:15:36 2009
+
+###########################################################]
+###########################################################[
+<a name=mapperReport93>Synplicity Altera Technology Mapper, Version 8.6.2, Build 027R, Built Aug 11 2006
+Copyright (C) 1994-2006, Synplicity Inc.  All Rights Reserved
+Version 8.6.2
+@N:<a href="@N:MF249:@XP_HELP">MF249</a> : <!@TM:1236928536> | Running in 32-bit mode. 
+@N:<a href="@N:MF258:@XP_HELP">MF258</a> : <!@TM:1236928536> | Gated clock conversion disabled  
+
+
+RTL optimization done.
+
+Finished RTL optimizations (Time elapsed 0h:00m:00s; Memory used current: 21MB peak: 22MB)
+@N: : <a href="e:\emb001\project\hardware\buffer\pld\pld.v:79:4:79:10:@N::@XP_MSG">pld.v(79)</a><!@TM:1236928536> | Found counter in view:work.pld(verilog) inst wilclk_cnt[12:0]
+@N: : <a href="e:\emb001\project\hardware\buffer\pld\pld.v:119:1:119:7:@N::@XP_MSG">pld.v(119)</a><!@TM:1236928536> | Found counter in view:work.pld(verilog) inst wigend_bitcnt[4:0]
+
+Starting Early Timing Optimization (Time elapsed 0h:00m:00s; Memory used current: 21MB peak: 22MB)
+
+Finished Early Timing Optimization (Time elapsed 0h:00m:00s; Memory used current: 22MB peak: 23MB)
+
+Finished factoring (Time elapsed 0h:00m:00s; Memory used current: 47MB peak: 48MB)
+
+Finished gated-clock and generated-clock conversion (Time elapsed 0h:00m:00s; Memory used current: 47MB peak: 48MB)
+
+Finished generic timing optimizations - Pass 1 (Time elapsed 0h:00m:00s; Memory used current: 47MB peak: 48MB)
+
+Starting Early Timing Optimization (Time elapsed 0h:00m:00s; Memory used current: 47MB peak: 48MB)
+
+Finished Early Timing Optimization (Time elapsed 0h:00m:01s; Memory used current: 47MB peak: 48MB)
+
+Finished generic timing optimizations - Pass 2 (Time elapsed 0h:00m:01s; Memory used current: 47MB peak: 48MB)
+
+Starting Early Timing Optimization (Time elapsed 0h:00m:01s; Memory used current: 48MB peak: 48MB)
+
+Finished Early Timing Optimization (Time elapsed 0h:00m:01s; Memory used current: 48MB peak: 48MB)
+
+Finished preparing to map (Time elapsed 0h:00m:01s; Memory used current: 48MB peak: 48MB)
+
+Finished technology mapping (Time elapsed 0h:00m:01s; Memory used current: 47MB peak: 48MB)
+
+Finished technology timing optimizations and critical path resynthesis (Time elapsed 0h:00m:01s; Memory used current: 47MB peak: 48MB)
+
+Finished restoring hierarchy (Time elapsed 0h:00m:01s; Memory used current: 47MB peak: 48MB)
+@N:<a href="@N:BN191:@XP_HELP">BN191</a> : <!@TM:1236928536> | Writing property annotation file E:\EMB001\project\hardware\buffer\pld\pld\pld.tap. 
+
+Writing Analyst data base E:\EMB001\project\hardware\buffer\pld\pld\pld.srm
+@N:<a href="@N:BN225:@XP_HELP">BN225</a> : <!@TM:1236928536> | Writing default property annotation file E:\EMB001\project\hardware\buffer\pld\pld\pld.map. 
+Writing EDIF Netlist and constraint files
+Writing Verilog Simulation files
+@N:<a href="@N:FC100:@XP_HELP">FC100</a> : <!@TM:1236928539> | Timing Report not generated for this device, please use place and route tools for timing analysis. 
+<a name=areaReport94>##### START OF AREA REPORT #####[
+Design view:work.pld(verilog)
+Selecting part epm7128aetc100-10
+
+Simple logic gate equivalents: 226
+Register bits:    78 (51 using enable)
+EABs:             0
+I/O cells:       47
+
+Details:
+EXP:            44
+LCELL:          22
+SOFT:           5
+S_DFFE_N:       51
+S_DFF_N:        27
+and:            196
+false:          1
+inv:            146
+keepbuf:        1
+mux:            1
+or:             22
+tri:            8
+true:           1
+xor:            15
+##### END OF AREA REPORT #####]
+
+Mapper successful!
+Process took 0h:00m:02s realtime, 0h:00m:02s cputime
+# Fri Mar 13 15:15:39 2009
+
+###########################################################]

@@ -1,0 +1,13 @@
+#-- Synplicity, Inc.
+#-- Version 7.7       
+#-- Project file D:\project\IRISking\ikemb-0001\project\hardware\buffer\buffer.prd
+#-- Written on Thu Mar 12 17:31:24 2009
+
+#
+### Watch Implementation type ###
+#
+watch_impl -active
+#
+### Watch Implementation properties ###
+#
+watch_prop -clear

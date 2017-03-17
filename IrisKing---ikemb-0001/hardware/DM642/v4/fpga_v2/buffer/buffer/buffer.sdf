@@ -1,0 +1,52 @@
+(DELAYFILE
+(SDFVERSION "OVI 2.1")
+(DESIGN "buffer")
+(DATE "123")
+(VENDOR "A500K")
+(PROGRAM "Synplify")
+(VERSION "7.7.0, Build 027R")
+(DIVIDER /)
+(VOLTAGE 2.500000:2.500000:2.500000)
+(PROCESS "TYPICAL")
+(TEMPERATURE 70.000000:70.000000:70.000000)
+(TIMESCALE 1ns)
+(CELL
+  (CELLTYPE "buffer")
+  (INSTANCE)
+  (TIMINGCHECK
+
+    (PATHCONSTRAINT configure\[0\]/CLK  configure\[0\]/Q  configure_1/B  configure_1/Y  configure\[0\]/D  	(999.8:999.8:999.8) )
+
+    (PATHCONSTRAINT configure\[1\]/CLK  configure\[1\]/Q  configure_2/B  configure_2/Y  configure\[1\]/D  	(999.8:999.8:999.8) )
+
+    (PATHCONSTRAINT configure\[2\]/CLK  configure\[2\]/Q  configure_3/B  configure_3/Y  configure\[2\]/D  	(999.8:999.8:999.8) )
+
+    (PATHCONSTRAINT configure\[3\]/CLK  configure\[3\]/Q  configure_4/B  configure_4/Y  configure\[3\]/D  	(999.8:999.8:999.8) )
+
+    (PATHCONSTRAINT configure\[4\]/CLK  configure\[4\]/Q  configure_5/B  configure_5/Y  configure\[4\]/D  	(999.8:999.8:999.8) )
+
+    (PATHCONSTRAINT configure\[5\]/CLK  configure\[5\]/Q  configure_6/B  configure_6/Y  configure\[5\]/D  	(999.8:999.8:999.8) )
+
+    (PATHCONSTRAINT configure\[6\]/CLK  configure\[6\]/Q  configure_7/B  configure_7/Y  configure\[6\]/D  	(999.8:999.8:999.8) )
+
+    (PATHCONSTRAINT configure\[7\]/CLK  configure\[7\]/Q  configure_8/B  configure_8/Y  configure\[7\]/D  	(999.8:999.8:999.8) )
+
+    (PATHCONSTRAINT configure\[0\]/CLK  configure\[0\]/Q  data_pad\[0\]/A  data_pad\[0\]/PAD  	(1000.0:1000.0:1000.0) )
+
+    (PATHCONSTRAINT configure\[1\]/CLK  configure\[1\]/Q  data_pad\[1\]/A  data_pad\[1\]/PAD  	(1000.0:1000.0:1000.0) )
+
+    (PATHCONSTRAINT configure\[2\]/CLK  configure\[2\]/Q  data_pad\[2\]/A  data_pad\[2\]/PAD  	(1000.0:1000.0:1000.0) )
+
+    (PATHCONSTRAINT configure\[3\]/CLK  configure\[3\]/Q  data_pad\[3\]/A  data_pad\[3\]/PAD  	(1000.0:1000.0:1000.0) )
+
+    (PATHCONSTRAINT configure\[4\]/CLK  configure\[4\]/Q  data_pad\[4\]/A  data_pad\[4\]/PAD  	(1000.0:1000.0:1000.0) )
+
+    (PATHCONSTRAINT configure\[5\]/CLK  configure\[5\]/Q  data_pad\[5\]/A  data_pad\[5\]/PAD  	(1000.0:1000.0:1000.0) )
+
+    (PATHCONSTRAINT configure\[6\]/CLK  configure\[6\]/Q  data_pad\[6\]/A  data_pad\[6\]/PAD  	(1000.0:1000.0:1000.0) )
+
+    (PATHCONSTRAINT configure\[7\]/CLK  configure\[7\]/Q  data_pad\[7\]/A  data_pad\[7\]/PAD  	(1000.0:1000.0:1000.0) )
+
+  )
+)
+)

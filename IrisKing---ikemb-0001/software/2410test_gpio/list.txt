@@ -1,0 +1,978 @@
+
+================================================================================
+
+Section Cross References
+
+    2410init.o(Init) refers to 2410test.o(.text) for Main
+    2410test.o(.text) refers to 2410lib.o(.text) for Uart_Printf
+    2410test.o(.text) refers to mmu.o(.text) for MMU_Init
+    2410test.o(.text) refers to lib_init.o(.text) for __rt_lib_init
+    2410test.o(.text) refers to stop.o(.text) for Check_PowerOffWakeUp
+    2410test.o(.text) refers to lcd.o(.text) for Test_Lcd_Tft_8Bit_240320_On
+    2410test.o(.text) refers to 2410test.o(.constdata) for .constdata
+    2410test.o(.text) refers to 2410test.o(.data) for function
+    2410test.o(.data) refers to adc.o(.text) for Test_Adc
+    2410test.o(.data) refers to 2410test.o(.constdata) for .constdata
+    2410test.o(.data) refers to ts_sep.o(.text) for Ts_Sep
+    2410test.o(.data) refers to ts_auto.o(.text) for Ts_Auto
+    2410test.o(.data) refers to dma.o(.text) for Test_DMA
+    2410test.o(.data) refers to dma2.o(.text) for Test_DMAWorst
+    2410test.o(.data) refers to extdma.o(.text) for Test_Dma0Xdreq
+    2410test.o(.data) refers to eint.o(.text) for Test_Eint
+    2410test.o(.data) refers to 2410IIC.o(.text) for Test_Iic
+    2410test.o(.data) refers to 2410iis.o(.text) for Record_Iis
+    2410test.o(.data) refers to 2410int.o(.text) for Test_Fiq
+    2410test.o(.data) refers to IrDA.o(.text) for Test_IrDA_Rx
+    2410test.o(.data) refers to lcd.o(.text) for Test_Lcd_Stn_1Bit
+    2410test.o(.data) refers to pll.o(.text) for Test_PLL
+    2410test.o(.data) refers to power.o(.text) for Test_SlowMode
+    2410test.o(.data) refers to idle.o(.text) for Test_IdleMode
+    2410test.o(.data) refers to stop.o(.text) for Test_InitSDRAM
+    2410test.o(.data) refers to pwr_c.o(.text) for MeasurePowerConsumption
+    2410test.o(.data) refers to 2410RTC.o(.text) for Test_Rtc_Alarm
+    2410test.o(.data) refers to sdi.o(.text) for Test_SDI
+    2410test.o(.data) refers to spi.o(.text) for Test_Spi_MS_int
+    2410test.o(.data) refers to timer.o(.text) for Test_TimerInt
+    2410test.o(.data) refers to uart0.o(.text) for Test_Uart0_Int
+    2410test.o(.data) refers to uart1.o(.text) for Test_Uart1_Int
+    2410test.o(.data) refers to uart2.o(.text) for Test_Uart2_Int
+    2410test.o(.data) refers to usbfifo.o(.text) for Test_USBFIFO
+    2410test.o(.data) refers to nwait.o(.text) for Test_XBREQ
+    2410test.o(.data) refers to 2410etc.o(.text) for Test_NonalignedAccess
+    2410test.o(.data) refers to pd6710.o(.text) for Test_PD6710
+    2410test.o(.data) refers to 2410swi.o(.text) for Test_SwiIrq
+    2410test.o(.data) refers to stone.o(.text) for Test_ISram
+    2410test.o(.data) refers to etc.o(.text) for Test_NecInterrupt
+    2410test.o(.data) refers to k9s1208.o(.text) for K9S1208_PrintBadBlockNum
+    2410test.o(.data) refers to flash.o(.text) for ProgramFlash
+    2410lib.o(.text) refers to rt_sdiv.o(.text) for __rt_sdiv
+    2410lib.o(.text) refers to 2410lib.o(.data) for .data
+    2410lib.o(.text) refers to dflt.o(x$fpl$dflt) for _dflt
+    2410lib.o(.text) refers to dmul_mull.o(x$fpl$dmul) for _dmul
+    2410lib.o(.text) refers to ddiv.o(x$fpl$ddiv) for _drdiv
+    2410lib.o(.text) refers to daddsub.o(x$fpl$dadd) for _dadd
+    2410lib.o(.text) refers to dfix.o(x$fpl$dfix) for _dfix
+    2410lib.o(.text) refers to 2410lib.o(.bss) for .bss
+    2410lib.o(.text) refers to vsprintf.o(.text) for vsprintf
+    2410lib.o(.text) refers to strlen.o(.text) for strlen
+    2410lib.o(.text) refers to atoi.o(.text) for atoi
+    2410lib.o(.text) refers to rt_ctype_table.o(.text) for __rt_ctype_table
+    2410lib.o(.text) refers to 2410slib.o(C$$code) for MMU_SetAsyncBusMode
+    mmu.o(.text) refers to 2410slib.o(C$$code) for MMU_DisableDCache
+    2410iis.o(.text) refers to 2410iis.o(.data) for which_Buf
+    2410iis.o(.text) refers to 2410iis.o(.bss) for .bss
+    2410iis.o(.text) refers to 2410lib.o(.text) for Uart_Printf
+    2410iis.o(.text) refers to rt_udiv.o(.text) for __rt_udiv
+    timer.o(.text) refers to 2410lib.o(.text) for Uart_Printf
+    timer.o(.text) refers to timer.o(.bss) for .bss
+    timer.o(.text) refers to timer.o(.constdata) for .constdata
+    2410RTC.o(.text) refers to 2410lib.o(.text) for Uart_Printf
+    2410RTC.o(.text) refers to 2410RTC.o(.constdata) for .constdata
+    2410RTC.o(.text) refers to 2410RTC.o(.data) for isInit
+    2410RTC.o(.text) refers to 2410RTC.o(.bss) for .bss
+    2410RTC.o(.data) refers to 2410RTC.o(.constdata) for .constdata
+    2410IIC.o(.text) refers to 2410IIC.o(.bss) for .bss
+    2410IIC.o(.text) refers to 2410lib.o(.text) for Delay
+    2410int.o(.text) refers to 2410int.o(.bss) for .bss
+    2410int.o(.text) refers to 2410lib.o(.text) for Uart_Printf
+    2410int.o(.text) refers to rt_sdiv.o(.text) for __rt_sdiv
+    2410swi.o(.text) refers to 2410swi.o(.bss) for .bss
+    2410swi.o(.text) refers to 2410lib.o(.text) for Uart_Printf
+    2410swi.o(.text) refers to 2410swis.o(C$$code) for SWI_ISR
+    2410etc.o(.text) refers to 2410lib.o(.text) for Uart_Printf
+    2410etc.o(.text) refers to 2410slib.o(C$$code) for MMU_DisableAlignFault
+    2410etc.o(.text) refers to uwrite4.o(.text) for __rt_uwrite4
+    2410etc.o(.text) refers to uread4.o(.text) for __rt_uread4
+    adc.o(.text) refers to adc.o(.bss) for .bss
+    adc.o(.text) refers to adc.o(.data) for .data
+    adc.o(.text) refers to 2410lib.o(.text) for Uart_Printf
+    adc.o(.text) refers to adc.o(.constdata) for .constdata
+    dma.o(.text) refers to dma.o(.bss) for .bss
+    dma.o(.text) refers to 2410lib.o(.text) for Uart_Printf
+    dma.o(.text) refers to fflt.o(x$fpl$fflt) for _fflt
+    dma.o(.text) refers to fdiv.o(x$fpl$fdiv) for _fdiv
+    dma.o(.text) refers to f2d.o(x$fpl$f2d) for _f2d
+    dma.o(.text) refers to ddiv.o(x$fpl$ddiv) for _ddiv
+    dma2.o(.text) refers to dma2.o(.bss) for .bss
+    dma2.o(.text) refers to 2410lib.o(.text) for Uart_Printf
+    eint.o(.text) refers to 2410lib.o(.text) for Uart_Printf
+    extdma.o(.text) refers to extdma.o(.bss) for .bss
+    extdma.o(.text) refers to 2410lib.o(.text) for Uart_Printf
+    k9s1208.o(.text) refers to 2410lib.o(.text) for Uart_Printf
+    k9s1208.o(.text) refers to k9s1208.o(.data) for .data
+    k9s1208.o(.text) refers to k9s1208.o(.bss) for .bss
+    k9s1208.o(.text) refers to rt_sdiv.o(.text) for __rt_sdiv
+    nwait.o(.text) refers to 2410lib.o(.text) for Uart_Printf
+    sdi.o(.text) refers to 2410lib.o(.text) for Uart_Printf
+    sdi.o(.text) refers to sdi.o(.bss) for .bss
+    sdi.o(.text) refers to sdi.o(.constdata) for .constdata
+    stone.o(.text) refers to 2410lib.o(.text) for Uart_Printf
+    ts_auto.o(.text) refers to 2410lib.o(.text) for Uart_Printf
+    ts_sep.o(.text) refers to 2410lib.o(.text) for Uart_Printf
+    ts_sep.o(.text) refers to rt_udiv.o(.text) for __rt_udiv
+    lcdlib.o(.text) refers to lcdlib.o(.bss) for .bss
+    lcdlib.o(.text) refers to 2410slib.o(C$$code) for SET_IF
+    lcdlib.o(.text) refers to 2410lib.o(.text) for Uart_Getch
+    lcd.o(.text) refers to 2410lib.o(.text) for Uart_Printf
+    lcd.o(.text) refers to lcd.o(.bss) for .bss
+    lcd.o(.text) refers to lcd.o(.constdata) for .constdata
+    lcd.o(.text) refers to rt_udiv.o(.text) for __rt_udiv
+    lcd.o(.text) refers to lcdlib.o(.text) for Lcd_Init
+    lcd.o(.text) refers to glib.o(.text) for Glib_Init
+    lcd.o(.text) refers to rt_sdiv.o(.text) for __rt_sdiv
+    lcd.o(.text) refers to glib.o(.bss) for PutPixel
+    pll.o(.text) refers to rt_memcpy_w.o(.text) for __rt_memcpy_w
+    pll.o(.text) refers to 2410lib.o(.text) for Uart_Printf
+    pll.o(.text) refers to rand.o(.text) for srand
+    pll.o(.text) refers to fflt.o(x$fpl$fflt) for _fflt
+    pll.o(.text) refers to fmul_mull.o(x$fpl$fmul) for _fmul
+    pll.o(.text) refers to ffix.o(x$fpl$ffix) for _ffix
+    pll.o(.text) refers to pll.o(.constdata) for .constdata
+    pll.o(.text) refers to dflt.o(x$fpl$dflt) for _dflt
+    pll.o(.text) refers to pow.o(.text) for __softfp_pow
+    pll.o(.text) refers to dfix.o(x$fpl$dfix) for _dfix
+    pll.o(.text) refers to rt_sdiv.o(.text) for __rt_sdiv
+    power.o(.text) refers to power.o(.bss) for .bss
+    power.o(.text) refers to 2410lib.o(.text) for Uart_Printf
+    power.o(.text) refers to ddiv.o(x$fpl$ddiv) for _drdiv
+    power.o(.text) refers to pwr_c.o(.text) for DoQsort
+    power.o(.text) refers to lcdlib.o(.text) for Lcd_EnvidOnOff
+    idle.o(.text) refers to 2410lib.o(.text) for Uart_Printf
+    idle.o(.text) refers to idle.o(.bss) for .bss
+    idle.o(.text) refers to 2410slib.o(C$$code) for MMU_SetAsyncBusMode
+    idle.o(.text) refers to stop.o(.text) for SetAlarmWakeUp
+    idle.o(.text) refers to idle.o(.constdata) for .constdata
+    idle.o(.text) refers to rt_sdiv.o(.text) for __rt_sdiv
+    stop.o(.text) refers to 2410lib.o(.text) for Uart_Printf
+    stop.o(.text) refers to stop.o(.constdata) for .constdata
+    stop.o(.text) refers to lcdlib.o(.text) for Lcd_EnvidOnOff
+    stop.o(.text) refers to 2410init.o(Init) for StartPointAfterPowerOffWakeUp
+    flash.o(.text) refers to 2410lib.o(.text) for Uart_Printf
+    flash.o(.text) refers to rt_sdiv.o(.text) for __rt_sdiv
+    flash.o(.text) refers to k9s1208.o(.bss) for downloadAddress
+    flash.o(.text) refers to mmu.o(.text) for ChangeRomCacheStatus
+    flash.o(.text) refers to flash.o(.data) for flashType
+    flash.o(.data) refers to am29f800.o(.text) for ProgramAM29F800
+    flash.o(.data) refers to flash.o(.constdata) for .constdata
+    flash.o(.data) refers to strata32.o(.text) for Program28F128J3A
+    pwr_c.o(.text) refers to 2410lib.o(.text) for Uart_Printf
+    pwr_c.o(.text) refers to pwr_c.o(.bss) for .bss
+    pwr_c.o(.text) refers to lcdlib.o(.text) for Lcd_Init
+    pwr_c.o(.text) refers to glib.o(.text) for Glib_Init
+    pwr_c.o(.text) refers to mmu.o(.text) for MMU_Init
+    pwr_c.o(.text) refers to qsort.o(.text) for qsort
+    pwr_c.o(.text) refers to rt_memcpy_w.o(.text) for __rt_memcpy_w
+    pwr_c.o(.text) refers to strcmp.o(.text) for strcmp
+    pwr_c.o(.text) refers to rt_sdiv.o(.text) for __rt_sdiv
+    etc.o(.text) refers to etc.o(.bss) for .bss
+    etc.o(.text) refers to 2410lib.o(.text) for Uart_Printf
+    pd6710.o(.text) refers to 2410lib.o(.text) for Uart_Printf
+    pd6710.o(.text) refers to pd6710.o(.bss) for .bss
+    glib.o(.text) refers to lcdlib.o(.bss) for frameBuffer16BitTft800600
+    glib.o(.text) refers to rt_udiv.o(.text) for __rt_udiv
+    glib.o(.text) refers to glib.o(.bss) for .bss
+    am29f800.o(.text) refers to 2410lib.o(.text) for Uart_Printf
+    am29f800.o(.text) refers to k9s1208.o(.bss) for downloadProgramSize
+    am29f800.o(.text) refers to am29f800.o(.constdata) for .constdata
+    am29f800.o(.text) refers to am29f800.o(.bss) for .bss
+    palette.o(.text) refers to 2410lib.o(.text) for Uart_Printf
+    palette.o(.text) refers to palette.o(.bss) for .bss
+    IrDA.o(.text) refers to IrDA.o(.bss) for .bss
+    IrDA.o(.text) refers to 2410lib.o(.text) for Uart_Printf
+    IrDA.o(.text) refers to dflt.o(x$fpl$dflt) for _dfltu
+    IrDA.o(.text) refers to ddiv.o(x$fpl$ddiv) for _drdiv
+    IrDA.o(.text) refers to dfix.o(x$fpl$dfix) for _dfix
+    uart0.o(.text) refers to uart0.o(.bss) for .bss
+    uart0.o(.text) refers to 2410lib.o(.text) for Uart_Select
+    uart0.o(.text) refers to dflt.o(x$fpl$dflt) for _dflt
+    uart0.o(.text) refers to ddiv.o(x$fpl$ddiv) for _drdiv
+    uart0.o(.text) refers to dfix.o(x$fpl$dfix) for _dfix
+    uart0.o(.text) refers to uart0.o(.constdata) for .constdata
+    uart0.o(.text) refers to strlen.o(.text) for strlen
+    uart1.o(.text) refers to uart1.o(.bss) for .bss
+    uart1.o(.text) refers to uart0.o(.bss) for isTxInt
+    uart1.o(.text) refers to 2410lib.o(.text) for Uart_Printf
+    uart1.o(.text) refers to uart0.o(.text) for Uart_Port_Set
+    uart1.o(.text) refers to uart1.o(.constdata) for .constdata
+    uart1.o(.text) refers to strlen.o(.text) for strlen
+    uart2.o(.text) refers to uart2.o(.bss) for .bss
+    uart2.o(.text) refers to uart0.o(.bss) for isTxInt
+    uart2.o(.text) refers to 2410lib.o(.text) for Uart_Printf
+    uart2.o(.text) refers to uart0.o(.text) for Uart_Port_Set
+    uart2.o(.text) refers to uart2.o(.constdata) for .constdata
+    uart2.o(.text) refers to strlen.o(.text) for strlen
+    spi.o(.text) refers to spi.o(.bss) for .bss
+    spi.o(.text) refers to 2410lib.o(.text) for Uart_Printf
+    spi.o(.text) refers to strcmp.o(.text) for strcmp
+    usbfifo.o(.text) refers to 2410lib.o(.text) for Uart_Printf
+    usbfifo.o(.text) refers to usbfifo.o(.bss) for .bss
+    strata32.o(.text) refers to 2410lib.o(.text) for Uart_Printf
+    strata32.o(.text) refers to strata32.o(.bss) for .bss
+    strata32.o(.text) refers to k9s1208.o(.bss) for downloadProgramSize
+    strata32.o(.text) refers to strata32.o(.constdata) for .constdata
+    atoi.o(.text) refers to rt_errno_addr.o(.text) for __rt_errno_addr
+    atoi.o(.text) refers to strtol.o(.text) for strtol
+    lib_init.o(.text) refers to fpinit.o(x$fpl$fpinit) for _fp_init
+    lib_init.o(.text) refers (Weak) to rand.o(.text) for _rand_init
+    lib_init.o(.text) refers to libspace.o(.text) for __user_libspace
+    lib_init.o(.text) refers (Weak) to lc_ctype_c.o(.text) for _get_lc_ctype
+    lib_init.o(.text) refers (Weak) to lc_numeric_c.o(.text) for _get_lc_numeric
+    qsort.o(.text) refers to rt_udiv.o(.text) for __rt_udiv
+    rand.o(.text) refers to rand.o(.bss) for .bss
+    rt_ctype_table.o(.text) refers to libspace.o(.text) for __user_libspace
+    rt_ctype_table.o(.text) refers to lc_ctype_c.o(.text) for _get_lc_ctype
+    rt_sdiv.o(.text) refers to rt_div0.o(.text) for __rt_div0
+    rt_udiv.o(.text) refers to rt_div0.o(.text) for __rt_div0
+    vsprintf.o(.text) refers to __vfpntf.o(.text) for __vfprintf
+    vsprintf.o(.text) refers to _sputc.o(.text) for _sputc
+    vsprintf.o(.text) refers (Special) to printf1.o(x$fpl$printf1) for __lib_sel_fp_printf
+    daddsub.o(x$fpl$dadd) refers to except.o(x$fpl$exception) for __fpl_exception
+    daddsub.o(x$fpl$dadd) refers to dcheck.o(x$fpl$dcheck) for __fpl_dcheck_NaN2
+    daddsub.o(x$fpl$dadd) refers to dunder.o(x$fpl$dunder) for __dunder
+    daddsub.o(x$fpl$dadd) refers (Special) to rt_fp_status_addr.o(.text) for __rt_fp_status_addr
+    ddiv.o(x$fpl$ddiv) refers to dunder.o(x$fpl$dunder) for __dunder
+    ddiv.o(x$fpl$ddiv) refers to except.o(x$fpl$exception) for __fpl_exception
+    ddiv.o(x$fpl$ddiv) refers to dcheck.o(x$fpl$dcheck) for __fpl_dcheck_NaN2
+    ddiv.o(x$fpl$ddiv) refers (Special) to rt_fp_status_addr.o(.text) for __rt_fp_status_addr
+    dfix.o(x$fpl$dfix) refers to except.o(x$fpl$exception) for __fpl_exception
+    dfix.o(x$fpl$dfix) refers (Special) to rt_fp_status_addr.o(.text) for __rt_fp_status_addr
+    dfix.o(x$fpl$dfixr) refers to except.o(x$fpl$exception) for __fpl_exception
+    dfix.o(x$fpl$dfixr) refers (Special) to rt_fp_status_addr.o(.text) for __rt_fp_status_addr
+    dmul_mull.o(x$fpl$dmul) refers to dunder.o(x$fpl$dunder) for __dunder
+    dmul_mull.o(x$fpl$dmul) refers to except.o(x$fpl$exception) for __fpl_exception
+    dmul_mull.o(x$fpl$dmul) refers to dcheck.o(x$fpl$dcheck) for __fpl_dcheck_NaN2
+    dmul_mull.o(x$fpl$dmul) refers (Special) to rt_fp_status_addr.o(.text) for __rt_fp_status_addr
+    f2d.o(x$fpl$f2d) refers to dflt.o(x$fpl$dflt) for __dflt_normalise
+    f2d.o(x$fpl$f2d) refers to except.o(x$fpl$exception) for __fpl_exception
+    f2d.o(x$fpl$f2d) refers (Special) to retnan.o(x$fpl$retnan) for __fpl_return_NaN
+    fdiv.o(x$fpl$fdiv) refers to funder.o(x$fpl$funder) for __funder
+    fdiv.o(x$fpl$fdiv) refers to except.o(x$fpl$exception) for __fpl_exception
+    fdiv.o(x$fpl$fdiv) refers to fnorm2.o(x$fpl$fnorm2) for __fpl_normalise2
+    fdiv.o(x$fpl$fdiv) refers to fcheck.o(x$fpl$fcheck) for __fpl_fcheck_NaN2
+    fdiv.o(x$fpl$fdiv) refers (Special) to rt_fp_status_addr.o(.text) for __rt_fp_status_addr
+    ffix.o(x$fpl$ffix) refers to except.o(x$fpl$exception) for __fpl_exception
+    ffix.o(x$fpl$ffix) refers (Special) to rt_fp_status_addr.o(.text) for __rt_fp_status_addr
+    ffix.o(x$fpl$ffixr) refers to except.o(x$fpl$exception) for __fpl_exception
+    ffix.o(x$fpl$ffixr) refers (Special) to rt_fp_status_addr.o(.text) for __rt_fp_status_addr
+    fflt.o(x$fpl$fflt) refers (Special) to except.o(x$fpl$exception) for __fpl_exception
+    fflt.o(x$fpl$fflt) refers (Special) to rt_fp_status_addr.o(.text) for __rt_fp_status_addr
+    fmul_mull.o(x$fpl$fmul) refers to funder.o(x$fpl$funder) for __funder
+    fmul_mull.o(x$fpl$fmul) refers to except.o(x$fpl$exception) for __fpl_exception
+    fmul_mull.o(x$fpl$fmul) refers to fnorm2.o(x$fpl$fnorm2) for __fpl_normalise2
+    fmul_mull.o(x$fpl$fmul) refers to fcheck.o(x$fpl$fcheck) for __fpl_fcheck_NaN2
+    fmul_mull.o(x$fpl$fmul) refers (Special) to rt_fp_status_addr.o(.text) for __rt_fp_status_addr
+    pow.o(.text) refers to daddsub.o(x$fpl$dadd) for _dadd
+    pow.o(.text) refers to _rserrno.o(.text) for __set_errno
+    pow.o(.text) refers to pow.o(i._Copysign) for _Copysign
+    pow.o(.text) refers to ddiv.o(x$fpl$ddiv) for _drdiv
+    pow.o(.text) refers to dmul_mull.o(x$fpl$dmul) for _dmul
+    pow.o(.text) refers to sqrt.o(.text) for __softfp_sqrt
+    pow.o(.text) refers to dflt.o(x$fpl$dflt) for _dflt
+    pow.o(.text) refers to qnan.o(.constdata___mathlib_zero) for __mathlib_zero
+    pow.o(.text) refers to poly.o(.text) for __kernel_poly
+    pow.o(.text) refers to pow.o(.constdata) for .constdata
+    pow.o(.text) refers to dleqf.o(x$fpl$dleqf) for _dcmple
+    pow.o(.text) refers to dgeqf.o(x$fpl$dgeqf) for _dcmpge
+    pow.o(.text) refers to scalbn_i.o(.text) for __mathlib_scalbn
+    __vfpntf.o(.text) refers to printf1.o(x$fpl$printf1) for _fp_display_gate
+    __vfpntf.o(.text) refers to lludiv10.o(.text) for _ll_udiv10
+    __vfpntf.o(.text) refers to rtudiv10.o(.text) for __rt_udiv10
+    __vfpntf.o(.text) refers to strlen.o(.text) for strlen
+    _rserrno.o(.text) refers to rt_errno_addr.o(.text) for __rt_errno_addr
+    lc_ctype_c.o(.text) refers to strcmp.o(.text) for strcmp
+    lc_ctype_c.o(.text) refers to lc_ctype_c.o(.constdata) for .constdata
+    libspace.o(.text) refers to libspace.o(.bss) for __libspace_start
+    rt_div0.o(.text) refers to rt_raise.o(.text) for __rt_raise
+    rt_errno_addr.o(.text) refers to libspace.o(.text) for __user_libspace
+    rt_fp_status_addr.o(.text) refers to libspace.o(.text) for __user_libspace
+    strtol.o(.text) refers to rt_ctype_table.o(.text) for __rt_ctype_table
+    strtol.o(.text) refers to _strtoul.o(.text) for _strtoul
+    strtol.o(.text) refers to rt_errno_addr.o(.text) for __rt_errno_addr
+    fpinit.o(x$fpl$fpinit) refers to rt_fp_status_addr.o(.text) for __rt_fp_status_addr
+    printf1.o(x$fpl$printf1) refers to _fp_disp.o(.text) for _fp_display
+    dcheck.o(x$fpl$dcheck) refers to retnan.o(x$fpl$retnan) for __fpl_return_NaN
+    dcheck.o(x$fpl$dcheck) refers to except.o(x$fpl$exception) for __fpl_exception
+    dgeqf.o(x$fpl$dgeqf) refers to dcmpin.o(x$fpl$dcmpinfnan) for __fpl_dcmp_InfNaN
+    dleqf.o(x$fpl$dleqf) refers to dcmpin.o(x$fpl$dcmpinfnan) for __fpl_dcmp_InfNaN
+    dunder.o(x$fpl$dunder) refers to rt_fp_status_addr.o(.text) for __rt_fp_status_addr
+    dunder.o(x$fpl$dunder) refers to trapv.o(x$fpl$trapveneer) for _fp_trapveneer
+    dunder.o(x$fpl$dunder) refers (Special) to except.o(x$fpl$exception) for __fpl_exception
+    except.o(x$fpl$exception) refers to rt_fp_status_addr.o(.text) for __rt_fp_status_addr
+    except.o(x$fpl$exception) refers to trapv.o(x$fpl$trapveneer) for _fp_trapveneer
+    except.o(x$fpl$exception) refers to retnan.o(x$fpl$retnan) for __fpl_return_NaN
+    fcheck.o(x$fpl$fcheck) refers to except.o(x$fpl$exception) for __fpl_exception
+    fcheck.o(x$fpl$fcheck) refers to retnan.o(x$fpl$retnan) for __fpl_return_NaN
+    funder.o(x$fpl$funder) refers to rt_fp_status_addr.o(.text) for __rt_fp_status_addr
+    funder.o(x$fpl$funder) refers to except.o(x$fpl$exception) for __fpl_exception
+    funder.o(x$fpl$funder) refers to trapv.o(x$fpl$trapveneer) for _fp_trapveneer
+    retnan.o(x$fpl$retnan) refers to trapv.o(x$fpl$trapveneer) for __fpl_cmpreturn
+    poly.o(.text) refers to dmul_mull.o(x$fpl$dmul) for _dmul
+    poly.o(.text) refers to daddsub.o(x$fpl$dadd) for _dadd
+    scalbn_i.o(.text) refers to dmul_mull.o(x$fpl$dmul) for _dmul
+    scalbn_i.o(.text) refers to daddsub.o(x$fpl$dadd) for _dadd
+    scalbn_i.o(.text) refers to scalbn_i.o(i._Copysign) for _Copysign
+    sqrt.o(.text) refers to dleqf.o(x$fpl$dleqf) for _dcmple
+    sqrt.o(.text) refers to _rserrno.o(.text) for __set_errno
+    sqrt.o(.text) refers to dsqrt.o(x$fpl$dsqrt) for _dsqrt
+    _fp_disp.o(.text) refers to dtoi.o(.text) for __support_dtoi
+    _fp_disp.o(.text) refers to istatus.o(x$fpl$ieeestatus) for __ieee_status
+    _fp_disp.o(.text) refers to abs.o(.text) for abs
+    _fp_disp.o(.text) refers to bigflt0.o(.text) for _btod_etento
+    _fp_disp.o(.text) refers to btod.o(CL$$btodstuff) for _btod_d2e
+    _fp_disp.o(.text) refers to lludiv10.o(.text) for _ll_udiv10
+    _fp_disp.o(.text) refers to libspace.o(.text) for __user_libspace
+    _fp_disp.o(.text) refers to classify.o(.text) for __mathlib_classify
+    _fp_disp.o(.text) refers to rt_sdiv.o(.text) for __rt_sdiv
+    _fp_disp.o(.text) refers to rtsdiv10.o(.text) for __rt_sdiv10
+    _fp_disp.o(.text) refers (Special) to lc_numeric_c.o(.text) for _get_lc_numeric
+    _strtoul.o(.text) refers to _chval.o(.text) for _chval
+    _strtoul.o(.text) refers to rt_errno_addr.o(.text) for __rt_errno_addr
+    rt_raise.o(.text) refers to __raise.o(.text) for __raise
+    rt_raise.o(.text) refers to sys_exit.o(.text) for _sys_exit
+    dcmpin.o(x$fpl$dcmpinfnan) refers to dcheck.o(x$fpl$dcheck) for __fpl_dcheck_NaN2
+    dcmpin.o(x$fpl$dcmpinfnan) refers to except.o(x$fpl$exception) for __fpl_exception
+    dsqrt.o(x$fpl$dsqrt) refers to except.o(x$fpl$exception) for __fpl_exception
+    dsqrt.o(x$fpl$dsqrt) refers (Special) to rt_fp_status_addr.o(.text) for __rt_fp_status_addr
+    trapv.o(x$fpl$trapveneer) refers to _fptrap.o(.text) for _fp_trap
+    trapv.o(x$fpl$trapveneer) refers to rt_fp_status_addr.o(.text) for __rt_fp_status_addr
+    __raise.o(.text) refers to defsig.o(.text) for __default_signal_handler
+    _fptrap.o(.text) refers to rt_raise.o(.text) for __rt_raise
+    bigflt0.o(.text) refers to rt_sdiv.o(.text) for __rt_sdiv
+    bigflt0.o(.text) refers to btod.o(CL$$btodstuff) for _btod_emul
+    bigflt0.o(.text) refers to bigflt0.o(.constdata) for .constdata
+    btod.o(CL$$btodstuff) refers to istatus.o(x$fpl$ieeestatus) for __32__ieee_status
+    lc_numeric_c.o(.text) refers to strcmp.o(.text) for strcmp
+    lc_numeric_c.o(.text) refers to lc_numeric_c.o(.constdata) for .constdata
+    sys_exit.o(.text) refers (Special) to use_semi.o(.text) for __I_use_semihosting_swi
+    istatus.o(x$fpl$ieeestatus) refers to rt_fp_status_addr.o(.text) for __rt_fp_status_addr
+    dtoi.o(.text) refers to dmul_mull.o(x$fpl$dmul) for _dmul
+    defsig.o(.text) refers to sys_wrch.o(.text) for _ttywrch
+    defsig.o(.text) refers to defsig.o(.constdata) for .constdata
+    sys_wrch.o(.text) refers (Special) to use_semi.o(.text) for __I_use_semihosting_swi
+
+
+================================================================================
+
+Memory Map of the image
+
+  Image Entry point : 0x30000000
+
+  Load Region LR_1 (Base: 0x30000000, Size: 0x00037fac, Max: 0xffffffff, ABSOLUTE)
+
+    Execution Region ER_RO (Base: 0x30000000, Size: 0x00037c88, Max: 0xffffffff, ABSOLUTE)
+
+    Base Addr    Size         Type   Attr  Idx  E Section Name        Object
+
+    0x30000000   0x00000378   Code   RO     1   * Init                2410init.o
+    0x30000378   0x000002bc   Code   RO     5     .text               2410test.o
+    0x30000634   0x00000a0c   Code   RO   154     .text               2410lib.o
+    0x30001040   0x00000270   Code   RO   185     .text               mmu.o
+    0x300012b0   0x00001080   Code   RO   194     .text               2410iis.o
+    0x30002330   0x00000c4c   Code   RO   206     .text               timer.o
+    0x30002f7c   0x00000968   Code   RO   221     .text               2410RTC.o
+    0x300038e4   0x00000b94   Code   RO   234     .text               2410IIC.o
+    0x30004478   0x000003dc   Code   RO   245     .text               2410int.o
+    0x30004854   0x00000144   Code   RO   256     .text               2410swi.o
+    0x30004998   0x000003f0   Code   RO   270     .text               2410etc.o
+    0x30004d88   0x000005b0   Code   RO   279     .text               adc.o
+    0x30005338   0x00000890   Code   RO   292     .text               dma.o
+    0x30005bc8   0x000005c0   Code   RO   303     .text               dma2.o
+    0x30006188   0x00000510   Code   RO   314     .text               eint.o
+    0x30006698   0x000012ac   Code   RO   323     .text               extdma.o
+    0x30007944   0x00001388   Code   RO   334     .text               k9s1208.o
+    0x30008ccc   0x000003e4   Code   RO   346     .text               nwait.o
+    0x300090b0   0x00001a70   Code   RO   355     .text               sdi.o
+    0x3000ab20   0x00000414   Code   RO   370     .text               stone.o
+    0x3000af34   0x0000029c   Code   RO   379     .text               ts_auto.o
+    0x3000b1d0   0x000003bc   Code   RO   391     .text               ts_sep.o
+    0x3000b58c   0x000017fc   Code   RO   403     .text               lcdlib.o
+    0x3000cd88   0x0000420c   Code   RO   415     .text               lcd.o
+    0x30010f94   0x00000438   Code   RO   430     .text               pll.o
+    0x300113cc   0x0000066c   Code   RO   443     .text               power.o
+    0x30011a38   0x00000694   Code   RO   454     .text               idle.o
+    0x300120cc   0x000011b4   Code   RO   466     .text               stop.o
+    0x30013280   0x0000049c   Code   RO   476     .text               flash.o
+    0x3001371c   0x00000d6c   Code   RO   494     .text               pwr_c.o
+    0x30014488   0x000001a8   Code   RO   505     .text               etc.o
+    0x30014630   0x000007b0   Code   RO   516     .text               pd6710.o
+    0x30014de0   0x00000ef4   Code   RO   527     .text               glib.o
+    0x30015cd4   0x00000a00   Code   RO   539     .text               am29f800.o
+    0x300166d4   0x00000bd4   Code   RO   562     .text               IrDA.o
+    0x300172a8   0x00001c08   Code   RO   576     .text               uart0.o
+    0x30018eb0   0x000016cc   Code   RO   590     .text               uart1.o
+    0x3001a57c   0x00000ff8   Code   RO   602     .text               uart2.o
+    0x3001b574   0x00000fdc   Code   RO   614     .text               spi.o
+    0x3001c550   0x00000308   Code   RO   625     .text               usbfifo.o
+    0x3001c858   0x00000904   Code   RO   636     .text               strata32.o
+    0x3001d15c   0x00000034   Code   RO   648     .text               atoi.o(c_a__un.l)
+    0x3001d190   0x000000fc   Code   RO   650     .text               lib_init.o(c_a__un.l)
+    0x3001d28c   0x0000047c   Code   RO   652     .text               qsort.o(c_a__un.l)
+    0x3001d708   0x000000f8   Code   RO   654     .text               rand.o(c_a__un.l)
+    0x3001d800   0x00000014   Code   RO   657     .text               rt_ctype_table.o(c_a__un.l)
+    0x3001d814   0x0000006c   Code   RO   659     .text               rt_memcpy_w.o(c_a__un.l)
+    0x3001d880   0x000000d4   Code   RO   661     .text               rt_sdiv.o(c_a__un.l)
+    0x3001d954   0x000000c0   Code   RO   663     .text               rt_udiv.o(c_a__un.l)
+    0x3001da14   0x000000a0   Code   RO   665     .text               strcmp.o(c_a__un.l)
+    0x3001dab4   0x00000068   Code   RO   667     .text               strlen.o(c_a__un.l)
+    0x3001db1c   0x00000020   Code   RO   669     .text               uread4.o(c_a__un.l)
+    0x3001db3c   0x00000020   Code   RO   671     .text               uwrite4.o(c_a__un.l)
+    0x3001db5c   0x00000058   Code   RO   673     .text               vsprintf.o(c_a__un.l)
+    0x3001dbb4   0x00001038   Code   RO   697     .text               pow.o(m_a_pu.l)
+    0x3001ebec   0x00000d54   Code   RO   702     .text               __vfpntf.o(c_a__un.l)
+    0x3001f940   0x00000024   Code   RO   704     .text               _rserrno.o(c_a__un.l)
+    0x3001f964   0x0000001c   Code   RO   706     .text               _sputc.o(c_a__un.l)
+    0x3001f980   0x0000003c   Code   RO   708     .text               lc_ctype_c.o(c_a__un.l)
+    0x3001f9bc   0x0000000c   Code   RO   711     .text               libspace.o(c_a__un.l)
+    0x3001f9c8   0x0000000c   Code   RO   714     .text               rt_div0.o(c_a__un.l)
+    0x3001f9d4   0x0000000c   Code   RO   716     .text               rt_errno_addr.o(c_a__un.l)
+    0x3001f9e0   0x00000010   Code   RO   718     .text               rt_fp_status_addr.o(c_a__un.l)
+    0x3001f9f0   0x000000c0   Code   RO   720     .text               strtol.o(c_a__un.l)
+    0x3001fab0   0x0000015c   Code   RO   744     .text               poly.o(m_a_pu.l)
+    0x3001fc0c   0x00000130   Code   RO   747     .text               scalbn_i.o(m_a_pu.l)
+    0x3001fd3c   0x00000070   Code   RO   751     .text               sqrt.o(m_a_pu.l)
+    0x3001fdac   0x00000928   Code   RO   753     .text               _fp_disp.o(c_a__un.l)
+    0x300206d4   0x00000108   Code   RO   755     .text               _strtoul.o(c_a__un.l)
+    0x300207dc   0x00000098   Code   RO   757     .text               lludiv10.o(c_a__un.l)
+    0x30020874   0x00000018   Code   RO   759     .text               rt_raise.o(c_a__un.l)
+    0x3002088c   0x0000002c   Code   RO   761     .text               rtudiv10.o(c_a__un.l)
+    0x300208b8   0x00000064   Code   RO   769     .text               __raise.o(c_a__un.l)
+    0x3002091c   0x00000020   Code   RO   771     .text               _chval.o(c_a__un.l)
+    0x3002093c   0x00000060   Code   RO   773     .text               _fptrap.o(c_a__un.l)
+    0x3002099c   0x0000000c   Code   RO   775     .text               abs.o(c_a__un.l)
+    0x300209a8   0x0000015c   Code   RO   777     .text               bigflt0.o(c_a__un.l)
+    0x30020b04   0x0000003c   Code   RO   782     .text               lc_numeric_c.o(c_a__un.l)
+    0x30020b40   0x00000040   Code   RO   785     .text               rtsdiv10.o(c_a__un.l)
+    0x30020b80   0x00000018   Code   RO   787     .text               sys_exit.o(c_a__un.l)
+    0x30020b98   0x00000048   Code   RO   791     .text               classify.o(m_a_pu.l)
+    0x30020be0   0x00000054   Code   RO   793     .text               dtoi.o(m_a_pu.l)
+    0x30020c34   0x00000160   Code   RO   795     .text               defsig.o(c_a__un.l)
+    0x30020d94   0x00000004   Code   RO   799     .text               use_semi.o(c_a__un.l)
+    0x30020d98   0x00000018   Code   RO   801     .text               sys_wrch.o(c_a__un.l)
+    0x30020db0   0x00000184   Code   RO     3     C$$code             2410slib.o
+    0x30020f34   0x00000004   Code   RO     4     C$$code             2410swis.o
+    0x30020f38   0x00000898   Code   RO   780     CL$$btodstuff       btod.o(c_a__un.l)
+    0x300217d0   0x00000010   Code   RO   698     i._Copysign         pow.o(m_a_pu.l)
+    0x300217e0   0x00000010   Code   RO   748     i._Copysign         scalbn_i.o(m_a_pu.l)
+    0x300217f0   0x00000464   Code   RO   675     x$fpl$dadd          daddsub.o(f_a_p.l)
+    0x30021c54   0x00000040   Code   RO   726     x$fpl$dcheck        dcheck.o(f_a_p.l)
+    0x30021c94   0x0000005c   Code   RO   763     x$fpl$dcmpinfnan    dcmpin.o(f_a_p.l)
+    0x30021cf0   0x000005a4   Code   RO   677     x$fpl$ddiv          ddiv.o(f_a_p.l)
+    0x30022294   0x00000094   Code   RO   679     x$fpl$dfix          dfix.o(f_a_p.l)
+    0x30022328   0x00000064   Code   RO   682     x$fpl$dflt          dflt.o(f_a_p.l)
+    0x3002238c   0x00000080   Code   RO   728     x$fpl$dgeqf         dgeqf.o(f_a_p.l)
+    0x3002240c   0x00000080   Code   RO   730     x$fpl$dleqf         dleqf.o(f_a_p.l)
+    0x3002248c   0x000002b0   Code   RO   684     x$fpl$dmul          dmul_mull.o(f_a_p.l)
+    0x3002273c   0x000001d0   Code   RO   765     x$fpl$dsqrt         dsqrt.o(f_a_p.l)
+    0x3002290c   0x00000230   Code   RO   732     x$fpl$dunder        dunder.o(f_a_p.l)
+    0x30022b3c   0x00000164   Code   RO   734     x$fpl$exception     except.o(f_a_p.l)
+    0x30022ca0   0x00000074   Code   RO   686     x$fpl$f2d           f2d.o(f_a_p.l)
+    0x30022d14   0x00000024   Code   RO   736     x$fpl$fcheck        fcheck.o(f_a_p.l)
+    0x30022d38   0x00000220   Code   RO   688     x$fpl$fdiv          fdiv.o(f_a_p.l)
+    0x30022f58   0x00000058   Code   RO   690     x$fpl$ffix          ffix.o(f_a_p.l)
+    0x30022fb0   0x00000064   Code   RO   693     x$fpl$fflt          fflt.o(f_a_p.l)
+    0x30023014   0x00000124   Code   RO   695     x$fpl$fmul          fmul_mull.o(f_a_p.l)
+    0x30023138   0x00000094   Code   RO   738     x$fpl$fnorm2        fnorm2.o(f_a_p.l)
+    0x300231cc   0x00000014   Code   RO   722     x$fpl$fpinit        fpinit.o(f_a_p.l)
+    0x300231e0   0x0000016c   Code   RO   740     x$fpl$funder        funder.o(f_a_p.l)
+    0x3002334c   0x0000003c   Code   RO   789     x$fpl$ieeestatus    istatus.o(f_a_p.l)
+    0x30023388   0x00000004   Code   RO   724     x$fpl$printf1       printf1.o(f_a_p.l)
+    0x3002338c   0x0000007c   Code   RO   742     x$fpl$retnan        retnan.o(f_a_p.l)
+    0x30023408   0x000000a4   Code   RO   767     x$fpl$trapveneer    trapv.o(f_a_p.l)
+    0x300234ac   0x00000788   Data   RO     7     .constdata          2410test.o
+    0x30023c34   0x00000060   Data   RO   207     .constdata          timer.o
+    0x30023c94   0x000000d0   Data   RO   223     .constdata          2410RTC.o
+    0x30023d64   0x0000005c   Data   RO   281     .constdata          adc.o
+    0x30023dc0   0x00000090   Data   RO   356     .constdata          sdi.o
+    0x30023e50   0x00012f18   Data   RO   416     .constdata          lcd.o
+    0x30036d68   0x000000d0   Data   RO   431     .constdata          pll.o
+    0x30036e38   0x00000088   Data   RO   455     .constdata          idle.o
+    0x30036ec0   0x000000d0   Data   RO   467     .constdata          stop.o
+    0x30036f90   0x0000002a   Data   RO   478     .constdata          flash.o
+    0x30036fba   0x00000002   PAD
+    0x30036fbc   0x000000cc   Data   RO   540     .constdata          am29f800.o
+    0x30037088   0x00000274   Data   RO   577     .constdata          uart0.o
+    0x300372fc   0x000002c0   Data   RO   591     .constdata          uart1.o
+    0x300375bc   0x00000230   Data   RO   603     .constdata          uart2.o
+    0x300377ec   0x00000120   Data   RO   637     .constdata          strata32.o
+    0x3003790c   0x00000088   Data   RO   699     .constdata          pow.o(m_a_pu.l)
+    0x30037994   0x00000110   Data   RO   709     .constdata          lc_ctype_c.o(c_a__un.l)
+    0x30037aa4   0x00000094   Data   RO   778     .constdata          bigflt0.o(c_a__un.l)
+    0x30037b38   0x0000001c   Data   RO   783     .constdata          lc_numeric_c.o(c_a__un.l)
+    0x30037b54   0x0000012b   Data   RO   796     .constdata          defsig.o(c_a__un.l)
+    0x30037c7f   0x00000001   PAD
+    0x30037c80   0x00000008   Data   RO   746     .constdata___mathlib_zero  qnan.o(m_a_pu.l)
+
+
+    Execution Region ER_RW (Base: 0x30037c88, Size: 0x00000324, Max: 0xffffffff, ABSOLUTE)
+
+    Base Addr    Size         Type   Attr  Idx  E Section Name        Object
+
+    0x30037c88   0x000002c8   Data   RW     6     .data               2410test.o
+    0x30037f50   0x00000008   Data   RW   155     .data               2410lib.o
+    0x30037f58   0x00000002   Data   RW   195     .data               2410iis.o
+    0x30037f5a   0x00000002   PAD
+    0x30037f5c   0x00000024   Data   RW   222     .data               2410RTC.o
+    0x30037f80   0x00000004   Data   RW   280     .data               adc.o
+    0x30037f84   0x00000010   Data   RW   335     .data               k9s1208.o
+    0x30037f94   0x00000018   Data   RW   477     .data               flash.o
+
+
+    Execution Region ER_ZI (Base: 0x30037fac, Size: 0x00056e0c, Max: 0xffffffff, ABSOLUTE)
+
+    Base Addr    Size         Type   Attr  Idx  E Section Name        Object
+
+    0x30037fac   0x00000004   Zero   RW   156     .bss                2410lib.o
+    0x30037fb0   0x00000018   Zero   RW   196     .bss                2410iis.o
+    0x30037fc8   0x00000018   Zero   RW   208     .bss                timer.o
+    0x30037fe0   0x00000008   Zero   RW   224     .bss                2410RTC.o
+    0x30037fe8   0x00000230   Zero   RW   235     .bss                2410IIC.o
+    0x30038218   0x00000008   Zero   RW   246     .bss                2410int.o
+    0x30038220   0x00000004   Zero   RW   257     .bss                2410swi.o
+    0x30038224   0x00000008   Zero   RW   282     .bss                adc.o
+    0x3003822c   0x00000004   Zero   RW   293     .bss                dma.o
+    0x30038230   0x00000004   Zero   RW   304     .bss                dma2.o
+    0x30038234   0x00000024   Zero   RW   324     .bss                extdma.o
+    0x30038258   0x00000014   Zero   RW   336     .bss                k9s1208.o
+    0x3003826c   0x00000034   Zero   RW   357     .bss                sdi.o
+    0x300382a0   0x00000038   Zero   RW   404     .bss                lcdlib.o
+    0x300382d8   0x0000001c   Zero   RW   417     .bss                lcd.o
+    0x300382f4   0x00000004   Zero   RW   444     .bss                power.o
+    0x300382f8   0x00000008   Zero   RW   456     .bss                idle.o
+    0x30038300   0x00056808   Zero   RW   495     .bss                pwr_c.o
+    0x3008eb08   0x00000010   Zero   RW   506     .bss                etc.o
+    0x3008eb18   0x00000014   Zero   RW   517     .bss                pd6710.o
+    0x3008eb2c   0x00000004   Zero   RW   528     .bss                glib.o
+    0x3008eb30   0x00000018   Zero   RW   541     .bss                am29f800.o
+    0x3008eb48   0x00000044   Zero   RW   563     .bss                IrDA.o
+    0x3008eb8c   0x00000090   Zero   RW   578     .bss                uart0.o
+    0x3008ec1c   0x00000008   Zero   RW   592     .bss                uart1.o
+    0x3008ec24   0x00000008   Zero   RW   604     .bss                uart2.o
+    0x3008ec2c   0x0000002c   Zero   RW   615     .bss                spi.o
+    0x3008ec58   0x00000004   Zero   RW   626     .bss                usbfifo.o
+    0x3008ec5c   0x00000018   Zero   RW   638     .bss                strata32.o
+    0x3008ec74   0x000000e4   Zero   RW   655     .bss                rand.o(c_a__un.l)
+    0x3008ed58   0x00000060   Zero   RW   712     .bss                libspace.o(c_a__un.l)
+
+
+
+  Load Region LR$$Debug (Base: 0x00000000, Size: 0x00000000, Max: 0xffffffff, ABSOLUTE)
+
+    Execution Region ER$$Debug (Base: 0x00000000, Size: 0x00000000, Max: 0xffffffff, ABSOLUTE)
+
+    Base Addr    Size         Type   Attr  Idx  E Section Name        Object
+
+    0x00000000   0x000003ec   Dbug   RW    17     .debug_abbrev       2410test.o
+    0x00000000   0x000000b4   Dbug   RW    16     .debug_frame        2410test.o
+    0x000000b4   0x00000218   Dbug   RW   165     .debug_frame        2410lib.o
+    0x000002cc   0x00000098   Dbug   RW   193     .debug_frame        mmu.o
+    0x00000364   0x0000015c   Dbug   RW   205     .debug_frame        2410iis.o
+    0x000004c0   0x00000140   Dbug   RW   217     .debug_frame        timer.o
+    0x00000600   0x00000178   Dbug   RW   233     .debug_frame        2410RTC.o
+    0x00000778   0x0000015c   Dbug   RW   244     .debug_frame        2410IIC.o
+    0x000008d4   0x000000a4   Dbug   RW   255     .debug_frame        2410int.o
+    0x00000978   0x0000006c   Dbug   RW   266     .debug_frame        2410swi.o
+    0x000009e4   0x000000f4   Dbug   RW   278     .debug_frame        2410etc.o
+    0x00000ad8   0x000000b8   Dbug   RW   291     .debug_frame        adc.o
+    0x00000b90   0x000000f4   Dbug   RW   302     .debug_frame        dma.o
+    0x00000c84   0x000000f8   Dbug   RW   313     .debug_frame        dma2.o
+    0x00000d7c   0x000000ac   Dbug   RW   322     .debug_frame        eint.o
+    0x00000e28   0x0000016c   Dbug   RW   333     .debug_frame        extdma.o
+    0x00000f94   0x00000248   Dbug   RW   345     .debug_frame        k9s1208.o
+    0x000011dc   0x0000012c   Dbug   RW   354     .debug_frame        nwait.o
+    0x00001308   0x00000378   Dbug   RW   366     .debug_frame        sdi.o
+    0x00001680   0x00000054   Dbug   RW   378     .debug_frame        stone.o
+    0x000016d4   0x00000068   Dbug   RW   387     .debug_frame        ts_auto.o
+    0x0000173c   0x00000074   Dbug   RW   399     .debug_frame        ts_sep.o
+    0x000017b0   0x000000cc   Dbug   RW   412     .debug_frame        lcdlib.o
+    0x0000187c   0x000003e8   Dbug   RW   426     .debug_frame        lcd.o
+    0x00001c64   0x000000b4   Dbug   RW   439     .debug_frame        pll.o
+    0x00001d18   0x00000088   Dbug   RW   453     .debug_frame        power.o
+    0x00001da0   0x00000108   Dbug   RW   465     .debug_frame        idle.o
+    0x00001ea8   0x000001ec   Dbug   RW   475     .debug_frame        stop.o
+    0x00002094   0x00000080   Dbug   RW   487     .debug_frame        flash.o
+    0x00002114   0x00000284   Dbug   RW   504     .debug_frame        pwr_c.o
+    0x00002398   0x00000064   Dbug   RW   515     .debug_frame        etc.o
+    0x000023fc   0x000001c8   Dbug   RW   526     .debug_frame        pd6710.o
+    0x000025c4   0x00000288   Dbug   RW   536     .debug_frame        glib.o
+    0x0000284c   0x00000104   Dbug   RW   550     .debug_frame        am29f800.o
+    0x00002950   0x00000104   Dbug   RW   572     .debug_frame        IrDA.o
+    0x00002a54   0x000002a4   Dbug   RW   587     .debug_frame        uart0.o
+    0x00002cf8   0x00000234   Dbug   RW   601     .debug_frame        uart1.o
+    0x00002f2c   0x00000198   Dbug   RW   613     .debug_frame        uart2.o
+    0x000030c4   0x000001d0   Dbug   RW   624     .debug_frame        spi.o
+    0x00003294   0x000000a0   Dbug   RW   635     .debug_frame        usbfifo.o
+    0x00003334   0x00000114   Dbug   RW   647     .debug_frame        strata32.o
+    0x00003448   0x00000050   Dbug   RW   649     .debug_frame        atoi.o(c_a__un.l)
+    0x00003498   0x0000007c   Dbug   RW   651     .debug_frame        lib_init.o(c_a__un.l)
+    0x00003514   0x000000bc   Dbug   RW   653     .debug_frame        qsort.o(c_a__un.l)
+    0x000035d0   0x00000080   Dbug   RW   656     .debug_frame        rand.o(c_a__un.l)
+    0x00003650   0x0000004c   Dbug   RW   658     .debug_frame        rt_ctype_table.o(c_a__un.l)
+    0x0000369c   0x00000054   Dbug   RW   660     .debug_frame        rt_memcpy_w.o(c_a__un.l)
+    0x000036f0   0x00000044   Dbug   RW   662     .debug_frame        rt_sdiv.o(c_a__un.l)
+    0x00003734   0x00000044   Dbug   RW   664     .debug_frame        rt_udiv.o(c_a__un.l)
+    0x00003778   0x00000054   Dbug   RW   666     .debug_frame        strcmp.o(c_a__un.l)
+    0x000037cc   0x0000003c   Dbug   RW   668     .debug_frame        strlen.o(c_a__un.l)
+    0x00003808   0x00000044   Dbug   RW   670     .debug_frame        uread4.o(c_a__un.l)
+    0x0000384c   0x00000044   Dbug   RW   672     .debug_frame        uwrite4.o(c_a__un.l)
+    0x00003890   0x00000054   Dbug   RW   674     .debug_frame        vsprintf.o(c_a__un.l)
+    0x000038e4   0x00000178   Dbug   RW   676     .debug_frame        daddsub.o(f_a_p.l)
+    0x00003a5c   0x000000f8   Dbug   RW   678     .debug_frame        ddiv.o(f_a_p.l)
+    0x00003b54   0x00000074   Dbug   RW   681     .debug_frame        dfix.o(f_a_p.l)
+    0x00003bc8   0x00000058   Dbug   RW   683     .debug_frame        dflt.o(f_a_p.l)
+    0x00003c20   0x00000084   Dbug   RW   685     .debug_frame        dmul_mull.o(f_a_p.l)
+    0x00003ca4   0x0000005c   Dbug   RW   687     .debug_frame        f2d.o(f_a_p.l)
+    0x00003d00   0x00000080   Dbug   RW   689     .debug_frame        fdiv.o(f_a_p.l)
+    0x00003d80   0x00000064   Dbug   RW   692     .debug_frame        ffix.o(f_a_p.l)
+    0x00003de4   0x00000058   Dbug   RW   694     .debug_frame        fflt.o(f_a_p.l)
+    0x00003e3c   0x00000064   Dbug   RW   696     .debug_frame        fmul_mull.o(f_a_p.l)
+    0x00003ea0   0x000000d8   Dbug   RW   700     .debug_frame        pow.o(m_a_pu.l)
+    0x00003f78   0x0000003c   Dbug   RW   701     .debug_frame        pow.o(m_a_pu.l)
+    0x00003fb4   0x000000b0   Dbug   RW   703     .debug_frame        __vfpntf.o(c_a__un.l)
+    0x00004064   0x00000068   Dbug   RW   705     .debug_frame        _rserrno.o(c_a__un.l)
+    0x000040cc   0x0000004c   Dbug   RW   707     .debug_frame        _sputc.o(c_a__un.l)
+    0x00004118   0x0000004c   Dbug   RW   710     .debug_frame        lc_ctype_c.o(c_a__un.l)
+    0x00004164   0x00000044   Dbug   RW   713     .debug_frame        libspace.o(c_a__un.l)
+    0x000041a8   0x0000003c   Dbug   RW   715     .debug_frame        rt_div0.o(c_a__un.l)
+    0x000041e4   0x0000004c   Dbug   RW   717     .debug_frame        rt_errno_addr.o(c_a__un.l)
+    0x00004230   0x0000004c   Dbug   RW   719     .debug_frame        rt_fp_status_addr.o(c_a__un.l)
+    0x0000427c   0x00000068   Dbug   RW   721     .debug_frame        strtol.o(c_a__un.l)
+    0x000042e4   0x0000004c   Dbug   RW   723     .debug_frame        fpinit.o(f_a_p.l)
+    0x00004330   0x0000003c   Dbug   RW   725     .debug_frame        printf1.o(f_a_p.l)
+    0x0000436c   0x00000054   Dbug   RW   727     .debug_frame        dcheck.o(f_a_p.l)
+    0x000043c0   0x00000060   Dbug   RW   729     .debug_frame        dgeqf.o(f_a_p.l)
+    0x00004420   0x00000060   Dbug   RW   731     .debug_frame        dleqf.o(f_a_p.l)
+    0x00004480   0x000000b0   Dbug   RW   733     .debug_frame        dunder.o(f_a_p.l)
+    0x00004530   0x00000078   Dbug   RW   735     .debug_frame        except.o(f_a_p.l)
+    0x000045a8   0x0000003c   Dbug   RW   737     .debug_frame        fcheck.o(f_a_p.l)
+    0x000045e4   0x00000044   Dbug   RW   739     .debug_frame        fnorm2.o(f_a_p.l)
+    0x00004628   0x00000080   Dbug   RW   741     .debug_frame        funder.o(f_a_p.l)
+    0x000046a8   0x00000054   Dbug   RW   743     .debug_frame        retnan.o(f_a_p.l)
+    0x000046fc   0x00000060   Dbug   RW   745     .debug_frame        poly.o(m_a_pu.l)
+    0x0000475c   0x00000084   Dbug   RW   749     .debug_frame        scalbn_i.o(m_a_pu.l)
+    0x000047e0   0x0000003c   Dbug   RW   750     .debug_frame        scalbn_i.o(m_a_pu.l)
+    0x0000481c   0x0000004c   Dbug   RW   752     .debug_frame        sqrt.o(m_a_pu.l)
+    0x00004868   0x00000134   Dbug   RW   754     .debug_frame        _fp_disp.o(c_a__un.l)
+    0x0000499c   0x00000080   Dbug   RW   756     .debug_frame        _strtoul.o(c_a__un.l)
+    0x00004a1c   0x00000058   Dbug   RW   758     .debug_frame        lludiv10.o(c_a__un.l)
+    0x00004a74   0x00000050   Dbug   RW   760     .debug_frame        rt_raise.o(c_a__un.l)
+    0x00004ac4   0x00000044   Dbug   RW   762     .debug_frame        rtudiv10.o(c_a__un.l)
+    0x00004b08   0x00000064   Dbug   RW   764     .debug_frame        dcmpin.o(f_a_p.l)
+    0x00004b6c   0x00000084   Dbug   RW   766     .debug_frame        dsqrt.o(f_a_p.l)
+    0x00004bf0   0x00000084   Dbug   RW   768     .debug_frame        trapv.o(f_a_p.l)
+    0x00004c74   0x0000005c   Dbug   RW   770     .debug_frame        __raise.o(c_a__un.l)
+    0x00004cd0   0x0000003c   Dbug   RW   772     .debug_frame        _chval.o(c_a__un.l)
+    0x00004d0c   0x00000064   Dbug   RW   774     .debug_frame        _fptrap.o(c_a__un.l)
+    0x00004d70   0x0000003c   Dbug   RW   776     .debug_frame        abs.o(c_a__un.l)
+    0x00004dac   0x00000080   Dbug   RW   779     .debug_frame        bigflt0.o(c_a__un.l)
+    0x00004e2c   0x00000218   Dbug   RW   781     .debug_frame        btod.o(c_a__un.l)
+    0x00005044   0x0000004c   Dbug   RW   784     .debug_frame        lc_numeric_c.o(c_a__un.l)
+    0x00005090   0x00000044   Dbug   RW   786     .debug_frame        rtsdiv10.o(c_a__un.l)
+    0x000050d4   0x00000044   Dbug   RW   788     .debug_frame        sys_exit.o(c_a__un.l)
+    0x00005118   0x00000050   Dbug   RW   790     .debug_frame        istatus.o(f_a_p.l)
+    0x00005168   0x0000003c   Dbug   RW   792     .debug_frame        classify.o(m_a_pu.l)
+    0x000051a4   0x00000050   Dbug   RW   794     .debug_frame        dtoi.o(m_a_pu.l)
+    0x000051f4   0x0000004c   Dbug   RW   797     .debug_frame        defsig.o(c_a__un.l)
+    0x00005240   0x00000044   Dbug   RW   800     .debug_frame        use_semi.o(c_a__un.l)
+    0x00005284   0x00000048   Dbug   RW   802     .debug_frame        sys_wrch.o(c_a__un.l)
+    0x00000000   0x00000074   Dbug   RW     9     .debug_info         2410test.o
+    0x00000074   0x000001e0   Dbug   RW    13     .debug_info         2410test.o
+    0x00000254   0x000000cc   Dbug   RW   158     .debug_info         2410lib.o
+    0x00000320   0x00000060   Dbug   RW   169     .debug_info         2410lib.o
+    0x00000380   0x00000058   Dbug   RW   172     .debug_info         2410lib.o
+    0x000003d8   0x0000094c   Dbug   RW   162     .debug_info         2410lib.o
+    0x00000d24   0x0000019c   Dbug   RW   190     .debug_info         mmu.o
+    0x00000ec0   0x0000011c   Dbug   RW   198     .debug_info         2410iis.o
+    0x00000fdc   0x000004ac   Dbug   RW   202     .debug_info         2410iis.o
+    0x00001488   0x000000dc   Dbug   RW   210     .debug_info         timer.o
+    0x00001564   0x000002bc   Dbug   RW   214     .debug_info         timer.o
+    0x00001820   0x00000058   Dbug   RW   219     .debug_info         timer.o
+    0x00001878   0x000000cc   Dbug   RW   226     .debug_info         2410RTC.o
+    0x00001944   0x00000580   Dbug   RW   230     .debug_info         2410RTC.o
+    0x00001ec4   0x000000dc   Dbug   RW   237     .debug_info         2410IIC.o
+    0x00001fa0   0x00000438   Dbug   RW   241     .debug_info         2410IIC.o
+    0x000023d8   0x0000007c   Dbug   RW   248     .debug_info         2410int.o
+    0x00002454   0x00000178   Dbug   RW   252     .debug_info         2410int.o
+    0x000025cc   0x00000064   Dbug   RW   259     .debug_info         2410swi.o
+    0x00002630   0x000000b8   Dbug   RW   263     .debug_info         2410swi.o
+    0x000026e8   0x00000250   Dbug   RW   275     .debug_info         2410etc.o
+    0x00002938   0x0000009c   Dbug   RW   284     .debug_info         adc.o
+    0x000029d4   0x000003dc   Dbug   RW   288     .debug_info         adc.o
+    0x00002db0   0x00000118   Dbug   RW   295     .debug_info         dma.o
+    0x00002ec8   0x00000250   Dbug   RW   299     .debug_info         dma.o
+    0x00003118   0x00000118   Dbug   RW   306     .debug_info         dma2.o
+    0x00003230   0x00000264   Dbug   RW   310     .debug_info         dma2.o
+    0x00003494   0x00000190   Dbug   RW   319     .debug_info         eint.o
+    0x00003624   0x0000006c   Dbug   RW   326     .debug_info         extdma.o
+    0x00003690   0x00000568   Dbug   RW   330     .debug_info         extdma.o
+    0x00003bf8   0x00000114   Dbug   RW   338     .debug_info         k9s1208.o
+    0x00003d0c   0x00000ba8   Dbug   RW   342     .debug_info         k9s1208.o
+    0x000048b4   0x000002ec   Dbug   RW   351     .debug_info         nwait.o
+    0x00004ba0   0x00000164   Dbug   RW   359     .debug_info         sdi.o
+    0x00004d04   0x000012b4   Dbug   RW   363     .debug_info         sdi.o
+    0x00005fb8   0x00000154   Dbug   RW   375     .debug_info         stone.o
+    0x0000610c   0x000000f0   Dbug   RW   384     .debug_info         ts_auto.o
+    0x000061fc   0x00000150   Dbug   RW   396     .debug_info         ts_sep.o
+    0x0000634c   0x00000740   Dbug   RW   409     .debug_info         lcdlib.o
+    0x00006a8c   0x000002d8   Dbug   RW   413     .debug_info         lcdlib.o
+    0x00006d64   0x000000f0   Dbug   RW   419     .debug_info         lcd.o
+    0x00006e54   0x00001190   Dbug   RW   423     .debug_info         lcd.o
+    0x00007fe4   0x000000a8   Dbug   RW   428     .debug_info         lcd.o
+    0x0000808c   0x0000028c   Dbug   RW   436     .debug_info         pll.o
+    0x00008318   0x00000068   Dbug   RW   446     .debug_info         power.o
+    0x00008380   0x00000320   Dbug   RW   450     .debug_info         power.o
+    0x000086a0   0x00000078   Dbug   RW   458     .debug_info         idle.o
+    0x00008718   0x00000244   Dbug   RW   462     .debug_info         idle.o
+    0x0000895c   0x000005b0   Dbug   RW   472     .debug_info         stop.o
+    0x00008f0c   0x000000b8   Dbug   RW   480     .debug_info         flash.o
+    0x00008fc4   0x00000270   Dbug   RW   484     .debug_info         flash.o
+    0x00009234   0x00000454   Dbug   RW   497     .debug_info         pwr_c.o
+    0x00009688   0x00000d8c   Dbug   RW   501     .debug_info         pwr_c.o
+    0x0000a414   0x00000094   Dbug   RW   508     .debug_info         etc.o
+    0x0000a4a8   0x000000a8   Dbug   RW   512     .debug_info         etc.o
+    0x0000a550   0x0000007c   Dbug   RW   519     .debug_info         pd6710.o
+    0x0000a5cc   0x0000069c   Dbug   RW   523     .debug_info         pd6710.o
+    0x0000ac68   0x000009c0   Dbug   RW   533     .debug_info         glib.o
+    0x0000b628   0x00000078   Dbug   RW   537     .debug_info         glib.o
+    0x0000b6a0   0x000000e4   Dbug   RW   543     .debug_info         am29f800.o
+    0x0000b784   0x000005a4   Dbug   RW   547     .debug_info         am29f800.o
+    0x0000bd28   0x00000234   Dbug   RW   565     .debug_info         IrDA.o
+    0x0000bf5c   0x00000300   Dbug   RW   569     .debug_info         IrDA.o
+    0x0000c25c   0x000002bc   Dbug   RW   580     .debug_info         uart0.o
+    0x0000c518   0x00000714   Dbug   RW   584     .debug_info         uart0.o
+    0x0000cc2c   0x00000204   Dbug   RW   588     .debug_info         uart0.o
+    0x0000ce30   0x00000090   Dbug   RW   594     .debug_info         uart1.o
+    0x0000cec0   0x0000064c   Dbug   RW   598     .debug_info         uart1.o
+    0x0000d50c   0x00000090   Dbug   RW   606     .debug_info         uart2.o
+    0x0000d59c   0x00000480   Dbug   RW   610     .debug_info         uart2.o
+    0x0000da1c   0x00000174   Dbug   RW   617     .debug_info         spi.o
+    0x0000db90   0x0000051c   Dbug   RW   621     .debug_info         spi.o
+    0x0000e0ac   0x00000068   Dbug   RW   628     .debug_info         usbfifo.o
+    0x0000e114   0x00000208   Dbug   RW   632     .debug_info         usbfifo.o
+    0x0000e31c   0x00000118   Dbug   RW   640     .debug_info         strata32.o
+    0x0000e434   0x000005ac   Dbug   RW   644     .debug_info         strata32.o
+    0x00000000   0x00000240   Dbug   RW     8     .debug_line         2410test.o
+    0x00000240   0x000000a4   Dbug   RW    12     .debug_line         2410test.o
+    0x000002e4   0x0000002c   Dbug   RW    22     .debug_line         2410test.o
+    0x00000310   0x0000002c   Dbug   RW   106     .debug_line         2410test.o
+    0x0000033c   0x00000028   Dbug   RW   110     .debug_line         2410test.o
+    0x00000364   0x00000028   Dbug   RW   120     .debug_line         2410test.o
+    0x0000038c   0x000000c8   Dbug   RW   157     .debug_line         2410lib.o
+    0x00000454   0x0000022c   Dbug   RW   161     .debug_line         2410lib.o
+    0x00000680   0x0000002c   Dbug   RW   168     .debug_line         2410lib.o
+    0x000006ac   0x000000bc   Dbug   RW   189     .debug_line         mmu.o
+    0x00000768   0x00000084   Dbug   RW   197     .debug_line         2410iis.o
+    0x000007ec   0x0000028c   Dbug   RW   201     .debug_line         2410iis.o
+    0x00000a78   0x00000080   Dbug   RW   209     .debug_line         timer.o
+    0x00000af8   0x0000019c   Dbug   RW   213     .debug_line         timer.o
+    0x00000c94   0x00000078   Dbug   RW   225     .debug_line         2410RTC.o
+    0x00000d0c   0x0000019c   Dbug   RW   229     .debug_line         2410RTC.o
+    0x00000ea8   0x00000090   Dbug   RW   236     .debug_line         2410IIC.o
+    0x00000f38   0x00000240   Dbug   RW   240     .debug_line         2410IIC.o
+    0x00001178   0x0000009c   Dbug   RW   247     .debug_line         2410int.o
+    0x00001214   0x000000a8   Dbug   RW   251     .debug_line         2410int.o
+    0x000012bc   0x000000ac   Dbug   RW   258     .debug_line         2410swi.o
+    0x00001368   0x00000064   Dbug   RW   262     .debug_line         2410swi.o
+    0x000013cc   0x000000c4   Dbug   RW   274     .debug_line         2410etc.o
+    0x00001490   0x00000088   Dbug   RW   283     .debug_line         adc.o
+    0x00001518   0x00000120   Dbug   RW   287     .debug_line         adc.o
+    0x00001638   0x00000098   Dbug   RW   294     .debug_line         dma.o
+    0x000016d0   0x000000fc   Dbug   RW   298     .debug_line         dma.o
+    0x000017cc   0x00000098   Dbug   RW   305     .debug_line         dma2.o
+    0x00001864   0x000000f0   Dbug   RW   309     .debug_line         dma2.o
+    0x00001954   0x000000a4   Dbug   RW   318     .debug_line         eint.o
+    0x000019f8   0x0000008c   Dbug   RW   325     .debug_line         extdma.o
+    0x00001a84   0x000002a4   Dbug   RW   329     .debug_line         extdma.o
+    0x00001d28   0x0000009c   Dbug   RW   337     .debug_line         k9s1208.o
+    0x00001dc4   0x00000380   Dbug   RW   341     .debug_line         k9s1208.o
+    0x00002144   0x000000ec   Dbug   RW   350     .debug_line         nwait.o
+    0x00002230   0x0000009c   Dbug   RW   358     .debug_line         sdi.o
+    0x000022cc   0x00000460   Dbug   RW   362     .debug_line         sdi.o
+    0x0000272c   0x000000dc   Dbug   RW   374     .debug_line         stone.o
+    0x00002808   0x00000078   Dbug   RW   383     .debug_line         ts_auto.o
+    0x00002880   0x000000b8   Dbug   RW   395     .debug_line         ts_sep.o
+    0x00002938   0x00000318   Dbug   RW   408     .debug_line         lcdlib.o
+    0x00002c50   0x000000b4   Dbug   RW   418     .debug_line         lcd.o
+    0x00002d04   0x00000818   Dbug   RW   422     .debug_line         lcd.o
+    0x0000351c   0x000000b4   Dbug   RW   435     .debug_line         pll.o
+    0x000035d0   0x000000a4   Dbug   RW   445     .debug_line         power.o
+    0x00003674   0x00000110   Dbug   RW   449     .debug_line         power.o
+    0x00003784   0x00000098   Dbug   RW   457     .debug_line         idle.o
+    0x0000381c   0x0000010c   Dbug   RW   461     .debug_line         idle.o
+    0x00003928   0x000002c4   Dbug   RW   471     .debug_line         stop.o
+    0x00003bec   0x000000c0   Dbug   RW   479     .debug_line         flash.o
+    0x00003cac   0x000000bc   Dbug   RW   483     .debug_line         flash.o
+    0x00003d68   0x000000c4   Dbug   RW   496     .debug_line         pwr_c.o
+    0x00003e2c   0x00000288   Dbug   RW   500     .debug_line         pwr_c.o
+    0x000040b4   0x000000b8   Dbug   RW   507     .debug_line         etc.o
+    0x0000416c   0x0000005c   Dbug   RW   511     .debug_line         etc.o
+    0x000041c8   0x0000009c   Dbug   RW   518     .debug_line         pd6710.o
+    0x00004264   0x00000174   Dbug   RW   522     .debug_line         pd6710.o
+    0x000043d8   0x0000025c   Dbug   RW   532     .debug_line         glib.o
+    0x00004634   0x0000009c   Dbug   RW   542     .debug_line         am29f800.o
+    0x000046d0   0x0000019c   Dbug   RW   546     .debug_line         am29f800.o
+    0x0000486c   0x00000094   Dbug   RW   564     .debug_line         IrDA.o
+    0x00004900   0x00000164   Dbug   RW   568     .debug_line         IrDA.o
+    0x00004a64   0x00000098   Dbug   RW   579     .debug_line         uart0.o
+    0x00004afc   0x0000038c   Dbug   RW   583     .debug_line         uart0.o
+    0x00004e88   0x000000a0   Dbug   RW   593     .debug_line         uart1.o
+    0x00004f28   0x00000310   Dbug   RW   597     .debug_line         uart1.o
+    0x00005238   0x000000a0   Dbug   RW   605     .debug_line         uart2.o
+    0x000052d8   0x00000238   Dbug   RW   609     .debug_line         uart2.o
+    0x00005510   0x00000088   Dbug   RW   616     .debug_line         spi.o
+    0x00005598   0x00000284   Dbug   RW   620     .debug_line         spi.o
+    0x0000581c   0x00000080   Dbug   RW   627     .debug_line         usbfifo.o
+    0x0000589c   0x000000ac   Dbug   RW   631     .debug_line         usbfifo.o
+    0x00005948   0x000000b8   Dbug   RW   639     .debug_line         strata32.o
+    0x00005a00   0x0000013c   Dbug   RW   643     .debug_line         strata32.o
+    0x00000000   0x000000dc   Dbug   RW    15     .debug_loc          2410test.o
+    0x000000dc   0x000005b8   Dbug   RW   164     .debug_loc          2410lib.o
+    0x00000694   0x000001a0   Dbug   RW   192     .debug_loc          mmu.o
+    0x00000834   0x00000320   Dbug   RW   204     .debug_loc          2410iis.o
+    0x00000b54   0x00000288   Dbug   RW   216     .debug_loc          timer.o
+    0x00000ddc   0x000004dc   Dbug   RW   232     .debug_loc          2410RTC.o
+    0x000012b8   0x000003ac   Dbug   RW   243     .debug_loc          2410IIC.o
+    0x00001664   0x00000104   Dbug   RW   254     .debug_loc          2410int.o
+    0x00001768   0x00000078   Dbug   RW   265     .debug_loc          2410swi.o
+    0x000017e0   0x000001d8   Dbug   RW   277     .debug_loc          2410etc.o
+    0x000019b8   0x000002c4   Dbug   RW   290     .debug_loc          adc.o
+    0x00001c7c   0x00000280   Dbug   RW   301     .debug_loc          dma.o
+    0x00001efc   0x00000270   Dbug   RW   312     .debug_loc          dma2.o
+    0x0000216c   0x00000118   Dbug   RW   321     .debug_loc          eint.o
+    0x00002284   0x000002a0   Dbug   RW   332     .debug_loc          extdma.o
+    0x00002524   0x0000083c   Dbug   RW   344     .debug_loc          k9s1208.o
+    0x00002d60   0x00000290   Dbug   RW   353     .debug_loc          nwait.o
+    0x00002ff0   0x00000af0   Dbug   RW   365     .debug_loc          sdi.o
+    0x00003ae0   0x00000084   Dbug   RW   377     .debug_loc          stone.o
+    0x00003b64   0x00000078   Dbug   RW   386     .debug_loc          ts_auto.o
+    0x00003bdc   0x000000b0   Dbug   RW   398     .debug_loc          ts_sep.o
+    0x00003c8c   0x000004a4   Dbug   RW   411     .debug_loc          lcdlib.o
+    0x00004130   0x00000be0   Dbug   RW   425     .debug_loc          lcd.o
+    0x00004d10   0x000001d8   Dbug   RW   438     .debug_loc          pll.o
+    0x00004ee8   0x000001c0   Dbug   RW   452     .debug_loc          power.o
+    0x000050a8   0x000001d8   Dbug   RW   464     .debug_loc          idle.o
+    0x00005280   0x00000354   Dbug   RW   474     .debug_loc          stop.o
+    0x000055d4   0x00000150   Dbug   RW   486     .debug_loc          flash.o
+    0x00005724   0x000008f0   Dbug   RW   503     .debug_loc          pwr_c.o
+    0x00006014   0x00000064   Dbug   RW   514     .debug_loc          etc.o
+    0x00006078   0x00000458   Dbug   RW   525     .debug_loc          pd6710.o
+    0x000064d0   0x00000ad0   Dbug   RW   535     .debug_loc          glib.o
+    0x00006fa0   0x00000328   Dbug   RW   549     .debug_loc          am29f800.o
+    0x000072c8   0x00000190   Dbug   RW   571     .debug_loc          IrDA.o
+    0x00007458   0x000004d4   Dbug   RW   586     .debug_loc          uart0.o
+    0x0000792c   0x000003fc   Dbug   RW   600     .debug_loc          uart1.o
+    0x00007d28   0x000002c8   Dbug   RW   612     .debug_loc          uart2.o
+    0x00007ff0   0x000003d0   Dbug   RW   623     .debug_loc          spi.o
+    0x000083c0   0x000001cc   Dbug   RW   634     .debug_loc          usbfifo.o
+    0x0000858c   0x000003b4   Dbug   RW   646     .debug_loc          strata32.o
+    0x00000000   0x00000204   Dbug   RW    11     .debug_macinfo      2410test.o
+    0x00000204   0x00000980   Dbug   RW   109     .debug_macinfo      2410test.o
+    0x00000b84   0x00000010   Dbug   RW   113     .debug_macinfo      2410test.o
+    0x00000b94   0x00000068   Dbug   RW   123     .debug_macinfo      2410test.o
+    0x00000bfc   0x0000017c   Dbug   RW   160     .debug_macinfo      2410lib.o
+    0x00000d78   0x000000c0   Dbug   RW   171     .debug_macinfo      2410lib.o
+    0x00000e38   0x0000003c   Dbug   RW   174     .debug_macinfo      2410lib.o
+    0x00000e74   0x000001b0   Dbug   RW   200     .debug_macinfo      2410iis.o
+    0x00001024   0x00000164   Dbug   RW   212     .debug_macinfo      timer.o
+    0x00001188   0x00000044   Dbug   RW   218     .debug_macinfo      timer.o
+    0x000011cc   0x00000160   Dbug   RW   228     .debug_macinfo      2410RTC.o
+    0x0000132c   0x00000168   Dbug   RW   239     .debug_macinfo      2410IIC.o
+    0x00001494   0x0000016c   Dbug   RW   250     .debug_macinfo      2410int.o
+    0x00001600   0x00000170   Dbug   RW   261     .debug_macinfo      2410swi.o
+    0x00001770   0x00000194   Dbug   RW   286     .debug_macinfo      adc.o
+    0x00001904   0x0000016c   Dbug   RW   297     .debug_macinfo      dma.o
+    0x00001a70   0x0000016c   Dbug   RW   308     .debug_macinfo      dma2.o
+    0x00001bdc   0x0000027c   Dbug   RW   328     .debug_macinfo      extdma.o
+    0x00001e58   0x000002e8   Dbug   RW   340     .debug_macinfo      k9s1208.o
+    0x00002140   0x000001a8   Dbug   RW   361     .debug_macinfo      sdi.o
+    0x000022e8   0x00000174   Dbug   RW   421     .debug_macinfo      lcd.o
+    0x0000245c   0x00000180   Dbug   RW   448     .debug_macinfo      power.o
+    0x000025dc   0x0000016c   Dbug   RW   460     .debug_macinfo      idle.o
+    0x00002748   0x00000178   Dbug   RW   482     .debug_macinfo      flash.o
+    0x000028c0   0x00000270   Dbug   RW   499     .debug_macinfo      pwr_c.o
+    0x00002b30   0x00000178   Dbug   RW   510     .debug_macinfo      etc.o
+    0x00002ca8   0x000001f0   Dbug   RW   521     .debug_macinfo      pd6710.o
+    0x00002e98   0x000001f8   Dbug   RW   545     .debug_macinfo      am29f800.o
+    0x00003090   0x00000180   Dbug   RW   567     .debug_macinfo      IrDA.o
+    0x00003210   0x0000016c   Dbug   RW   582     .debug_macinfo      uart0.o
+    0x0000337c   0x00000170   Dbug   RW   596     .debug_macinfo      uart1.o
+    0x000034ec   0x00000170   Dbug   RW   608     .debug_macinfo      uart2.o
+    0x0000365c   0x0000019c   Dbug   RW   619     .debug_macinfo      spi.o
+    0x000037f8   0x00000164   Dbug   RW   630     .debug_macinfo      usbfifo.o
+    0x0000395c   0x00000244   Dbug   RW   642     .debug_macinfo      strata32.o
+    0x00000000   0x00000020   Dbug   RW    10     .debug_pubnames     2410test.o
+    0x00000020   0x00000060   Dbug   RW    14     .debug_pubnames     2410test.o
+    0x00000080   0x00000058   Dbug   RW   159     .debug_pubnames     2410lib.o
+    0x000000d8   0x00000158   Dbug   RW   163     .debug_pubnames     2410lib.o
+    0x00000230   0x00000020   Dbug   RW   170     .debug_pubnames     2410lib.o
+    0x00000250   0x00000020   Dbug   RW   173     .debug_pubnames     2410lib.o
+    0x00000270   0x00000048   Dbug   RW   191     .debug_pubnames     mmu.o
+    0x000002b8   0x00000064   Dbug   RW   199     .debug_pubnames     2410iis.o
+    0x0000031c   0x000000b0   Dbug   RW   203     .debug_pubnames     2410iis.o
+    0x000003cc   0x00000068   Dbug   RW   211     .debug_pubnames     timer.o
+    0x00000434   0x000000a0   Dbug   RW   215     .debug_pubnames     timer.o
+    0x000004d4   0x00000020   Dbug   RW   220     .debug_pubnames     timer.o
+    0x000004f4   0x00000040   Dbug   RW   227     .debug_pubnames     2410RTC.o
+    0x00000534   0x0000009c   Dbug   RW   231     .debug_pubnames     2410RTC.o
+    0x000005d0   0x00000058   Dbug   RW   238     .debug_pubnames     2410IIC.o
+    0x00000628   0x0000008c   Dbug   RW   242     .debug_pubnames     2410IIC.o
+    0x000006b4   0x0000002c   Dbug   RW   249     .debug_pubnames     2410int.o
+    0x000006e0   0x0000004c   Dbug   RW   253     .debug_pubnames     2410int.o
+    0x0000072c   0x00000020   Dbug   RW   260     .debug_pubnames     2410swi.o
+    0x0000074c   0x00000034   Dbug   RW   264     .debug_pubnames     2410swi.o
+    0x00000780   0x00000088   Dbug   RW   276     .debug_pubnames     2410etc.o
+    0x00000808   0x00000030   Dbug   RW   285     .debug_pubnames     adc.o
+    0x00000838   0x0000004c   Dbug   RW   289     .debug_pubnames     adc.o
+    0x00000884   0x00000034   Dbug   RW   296     .debug_pubnames     dma.o
+    0x000008b8   0x00000060   Dbug   RW   300     .debug_pubnames     dma.o
+    0x00000918   0x00000034   Dbug   RW   307     .debug_pubnames     dma2.o
+    0x0000094c   0x00000068   Dbug   RW   311     .debug_pubnames     dma2.o
+    0x000009b4   0x00000048   Dbug   RW   320     .debug_pubnames     eint.o
+    0x000009fc   0x00000024   Dbug   RW   327     .debug_pubnames     extdma.o
+    0x00000a20   0x00000134   Dbug   RW   331     .debug_pubnames     extdma.o
+    0x00000b54   0x00000078   Dbug   RW   339     .debug_pubnames     k9s1208.o
+    0x00000bcc   0x0000011c   Dbug   RW   343     .debug_pubnames     k9s1208.o
+    0x00000ce8   0x00000080   Dbug   RW   352     .debug_pubnames     nwait.o
+    0x00000d68   0x000000a0   Dbug   RW   360     .debug_pubnames     sdi.o
+    0x00000e08   0x00000194   Dbug   RW   364     .debug_pubnames     sdi.o
+    0x00000f9c   0x00000024   Dbug   RW   376     .debug_pubnames     stone.o
+    0x00000fc0   0x00000030   Dbug   RW   385     .debug_pubnames     ts_auto.o
+    0x00000ff0   0x00000030   Dbug   RW   397     .debug_pubnames     ts_sep.o
+    0x00001020   0x00000094   Dbug   RW   410     .debug_pubnames     lcdlib.o
+    0x000010b4   0x00000180   Dbug   RW   414     .debug_pubnames     lcdlib.o
+    0x00001234   0x00000084   Dbug   RW   420     .debug_pubnames     lcd.o
+    0x000012b8   0x000002f0   Dbug   RW   424     .debug_pubnames     lcd.o
+    0x000015a8   0x00000030   Dbug   RW   429     .debug_pubnames     lcd.o
+    0x000015d8   0x00000040   Dbug   RW   437     .debug_pubnames     pll.o
+    0x00001618   0x00000020   Dbug   RW   447     .debug_pubnames     power.o
+    0x00001638   0x00000048   Dbug   RW   451     .debug_pubnames     power.o
+    0x00001680   0x00000028   Dbug   RW   459     .debug_pubnames     idle.o
+    0x000016a8   0x00000088   Dbug   RW   463     .debug_pubnames     idle.o
+    0x00001730   0x00000148   Dbug   RW   473     .debug_pubnames     stop.o
+    0x00001878   0x0000004c   Dbug   RW   481     .debug_pubnames     flash.o
+    0x000018c4   0x00000034   Dbug   RW   485     .debug_pubnames     flash.o
+    0x000018f8   0x000001f8   Dbug   RW   498     .debug_pubnames     pwr_c.o
+    0x00001af0   0x00000168   Dbug   RW   502     .debug_pubnames     pwr_c.o
+    0x00001c58   0x00000034   Dbug   RW   509     .debug_pubnames     etc.o
+    0x00001c8c   0x0000003c   Dbug   RW   513     .debug_pubnames     etc.o
+    0x00001cc8   0x00000024   Dbug   RW   520     .debug_pubnames     pd6710.o
+    0x00001cec   0x00000148   Dbug   RW   524     .debug_pubnames     pd6710.o
+    0x00001e34   0x00000194   Dbug   RW   534     .debug_pubnames     glib.o
+    0x00001fc8   0x00000020   Dbug   RW   538     .debug_pubnames     glib.o
+    0x00001fe8   0x0000007c   Dbug   RW   544     .debug_pubnames     am29f800.o
+    0x00002064   0x00000098   Dbug   RW   548     .debug_pubnames     am29f800.o
+    0x000020fc   0x00000124   Dbug   RW   566     .debug_pubnames     IrDA.o
+    0x00002220   0x000000a8   Dbug   RW   570     .debug_pubnames     IrDA.o
+    0x000022c8   0x00000140   Dbug   RW   581     .debug_pubnames     uart0.o
+    0x00002408   0x000001cc   Dbug   RW   585     .debug_pubnames     uart0.o
+    0x000025d4   0x000000e8   Dbug   RW   589     .debug_pubnames     uart0.o
+    0x000026bc   0x00000030   Dbug   RW   595     .debug_pubnames     uart1.o
+    0x000026ec   0x00000180   Dbug   RW   599     .debug_pubnames     uart1.o
+    0x0000286c   0x00000030   Dbug   RW   607     .debug_pubnames     uart2.o
+    0x0000289c   0x0000011c   Dbug   RW   611     .debug_pubnames     uart2.o
+    0x000029b8   0x000000b8   Dbug   RW   618     .debug_pubnames     spi.o
+    0x00002a70   0x00000110   Dbug   RW   622     .debug_pubnames     spi.o
+    0x00002b80   0x00000024   Dbug   RW   629     .debug_pubnames     usbfifo.o
+    0x00002ba4   0x00000044   Dbug   RW   633     .debug_pubnames     usbfifo.o
+    0x00002be8   0x000000a4   Dbug   RW   641     .debug_pubnames     strata32.o
+    0x00002c8c   0x000000c0   Dbug   RW   645     .debug_pubnames     strata32.o
+

@@ -1,0 +1,57 @@
+\t (00:00:03) allegro 16.0 p005 (v16-0-87F) i86
+\t (00:00:03) 
+
+\t (00:00:03) Opening existing drawing...
+\d (00:00:04) Database opened: E:/project/IRISking/ikemb-0001/project/hardware/OV7720_v2/ov7720_V2.brd
+\i (00:00:04) trapsize 130978
+\i (00:00:04) trapsize 126824
+\i (00:00:07) trapsize 126824
+\i (00:00:08) generaledit 
+\i (00:00:09) open 
+\i (00:00:16) fillin "E:\project\IRISking\ikemb-0001\project\hardware\DM642\allegro\EMB001-V3.1.brd"
+\i (00:00:16) cd "E:\project\IRISking\ikemb-0001\project\hardware\DM642\allegro"
+\t (00:00:16) Opening existing drawing...
+\f (00:00:16) This database has been created using an earlier release of software and will be updated for compatibility with the current version.  Once saved, the database will only be accessible using the current or later versions of the software.  OK to proceed?
+\i (00:00:18) fillin yes 
+\t (00:00:18) Grids are drawn 40.960, 40.960 apart for enhanced viewability.
+\i (00:00:18) trapsize 16817
+\d (00:00:18) Database opened: E:/project/IRISking/ikemb-0001/project/hardware/DM642/allegro/EMB001-V3.1.brd
+\i (00:00:19) generaledit 
+\i (00:00:19) roam x -96 
+\i (00:00:19) roam x -96
+\i (00:00:20) roam x -96 
+\i (00:00:20) roam x -96
+\i (00:00:20) roam x -96 
+\i (00:00:20) roam x -96
+\i (00:00:20) roam x -96 
+\i (00:00:20) roam x -96
+\i (00:00:20) roam x -96 
+\i (00:00:20) roam x -96
+\i (00:00:21) roam x -96 
+\i (00:00:21) roam x -96
+\i (00:00:23) hilight 
+\i (00:00:29) xNet Vddrtc 
+\i (00:00:29) xname_flush 
+\t (00:00:29) Grids are drawn 10.240, 10.240 apart for enhanced viewability.
+\i (00:00:29) trapsize 11457
+\t (00:00:29) Net "Vddrtc" highlighted.
+\i (00:00:33) roam y -96 
+\i (00:00:33) roam y -96
+\i (00:00:36) roam y -96 
+\i (00:00:36) roam y -96
+\i (00:02:55) dehilight 
+\i (00:02:56) drag_start grid 548.473 2605.021
+\i (00:02:57) drag_stop 896.766 2456.079
+\t (00:02:57) Net "Vddrtc" dehighlighted.
+\i (00:03:04) color192 
+\i (00:03:08) setwindow cvf.dialog
+\i (00:03:08) cvf global_invisible
+\i (00:03:10) cvf apply
+\i (00:03:12) cvf cancel
+\i (00:03:17) setwindow form.mini
+\i (00:03:17) FORM mini class ETCH 
+\i (00:03:18) FORM mini subcolor 1 
+\i (00:11:55) setwindow pcb
+\i (00:11:55) exit 
+\f (00:11:55) Do you want to save the changes you made to EMB001-V3.1.brd?
+\i (00:11:57) fillin no 

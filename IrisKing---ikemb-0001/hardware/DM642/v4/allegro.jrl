@@ -1,0 +1,24 @@
+\t (00:00:03) allegro 16.0 p005 (v16-0-87F) i86
+\t (00:00:03) 
+
+\t (00:00:03) Starting new drawing...
+\i (00:00:04) trapsize 1075
+\i (00:00:04) trapsize 1041
+\i (00:00:04) trapsize 1132
+\i (00:00:04) trapsize 1179
+\i (00:00:08) trapsize 1179
+\i (00:00:08) generaledit 
+\i (00:00:30) open 
+\i (00:00:43) fillin "E:\project\IRISking\ikemb-0002\project\hardware\LED_LCD_WIG\LED.brd"
+\i (00:00:43) cd "E:\project\IRISking\ikemb-0002\project\hardware\LED_LCD_WIG"
+\t (00:00:43) Opening existing drawing...
+\f (00:00:43) This database has been created using an earlier release of software and will be updated for compatibility with the current version.  Once saved, the database will only be accessible using the current or later versions of the software.  OK to proceed?
+\i (00:00:45) fillin yes 
+\i (00:00:45) trapsize 9653
+\d (00:00:45) Database opened: E:/project/IRISking/ikemb-0002/project/hardware/LED_LCD_WIG/LED.brd
+\i (00:00:45) generaledit 
+\i (00:01:00) save_as 
+\i (00:01:20) fillin "E:\project\IRISking\ikemb-0001\project\hardware\LED\v3\LED.brd"
+\i (00:01:20) cd "E:\project\IRISking\ikemb-0001\project\hardware\LED\v3"
+\i (00:01:20) generaledit 
+\i (00:30:29) exit 

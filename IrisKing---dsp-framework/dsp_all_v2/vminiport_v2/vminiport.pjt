@@ -1,0 +1,38 @@
+; Code Composer Project File, Version 2.0 (do not modify or remove this line)
+
+[Project Settings]
+ProjectName="vport"
+ProjectDir="E:\project\IRISking\dsp-framework\dsp_all_v2\vminiport_v2\"
+ProjectType=Library
+CPUFamily=TMS320C64XX
+Tool="Archiver"
+Tool="Compiler"
+Tool="CustomBuilder"
+Tool="DspBiosBuilder"
+Config="Debug"
+Config="Release"
+
+[Source Files]
+Source="..\atmel\atmel.c"
+Source="..\atmel\atmel_gpa.c"
+Source="..\atmel\gpio_i2c.c"
+Source="..\atmel\verify.c"
+
+["Archiver" Settings: "Debug"]
+Options=-r -o$(Proj_dir)\..\lib\vminiport.l64
+
+["Archiver" Settings: "Release"]
+Options=-r -o$(Proj_dir)\..\..\..\lib\vport.l64
+
+["Compiler" Settings: "Debug"]
+Options=-g -q -eoo64 -fr"$(Proj_dir)\Debug" -i"$(Proj_dir)\..\include\" -i"$(Install_dir)\C6xCSL\include" -i"$(Install_dir)\ddk\include" -i"$(Proj_dir)\..\..\..\include" -i"$(Install_dir)\boards\evmdm642\include" -d"CHIP_DM642=1" -mv6400 --mem_model:data=far
+
+["Compiler" Settings: "Release"]
+Options=-q -o3 -eoo64 -fr"$(Proj_dir)\Debug" -i"$(Proj_dir)\..\include\" -i"$(Install_dir)\C6xCSL\include" -i"$(Install_dir)\ddk\include" -d"CHIP_DM642" -ml3 -mv6400
+
+["DspBiosBuilder" Settings: "Debug"]
+Options=-v6x
+
+["DspBiosBuilder" Settings: "Release"]
+Options=-v6x
+

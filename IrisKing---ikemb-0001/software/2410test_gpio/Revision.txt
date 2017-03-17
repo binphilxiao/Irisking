@@ -1,0 +1,12 @@
+< SMDK2410 (MCU S3C2410) Test Code Revision History >
+
+Writer : On-Pil Shin                          Last Edit : August 07, 2002
+
+
+1. Ver 1.0 (20020530) : First release to customer
+
+2. Ver 1.1 (20020801)
+   - LCD Palette RAM test deleted in test items, but source code are included files.
+   - Added USB FIFO memory test and source code.
+   - Added Intel Strata Flash (NOR Flash) program in NOR Flash Program.
+   - Others.

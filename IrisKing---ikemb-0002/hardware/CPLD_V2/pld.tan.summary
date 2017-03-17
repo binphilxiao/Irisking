@@ -1,0 +1,76 @@
+--------------------------------------------------------------------------------------
+Timing Analyzer Summary
+--------------------------------------------------------------------------------------
+
+Type           : Worst-case tsu
+Slack          : N/A
+Required Time  : None
+Actual Time    : 6.800 ns
+From           : wil[1]
+To             : overtime_i_0
+From Clock     : 
+To Clock       : clk
+Failed Paths   : 0
+
+Type           : Worst-case tco
+Slack          : N/A
+Required Time  : None
+Actual Time    : 20.500 ns
+From           : wigend_reg_18_
+To             : data[2]
+From Clock     : clk
+To Clock       : 
+Failed Paths   : 0
+
+Type           : Worst-case tpd
+Slack          : N/A
+Required Time  : None
+Actual Time    : 16.100 ns
+From           : addr[4]
+To             : data[2]
+From Clock     : 
+To Clock       : 
+Failed Paths   : 0
+
+Type           : Worst-case th
+Slack          : N/A
+Required Time  : None
+Actual Time    : -2.600 ns
+From           : wil[1]
+To             : overtime_i_0
+From Clock     : 
+To Clock       : clk
+Failed Paths   : 0
+
+Type           : Clock Setup: 'clk'
+Slack          : N/A
+Required Time  : None
+Actual Time    : 47.62 MHz ( period = 21.000 ns )
+From           : wigend_bitcnt_4_
+To             : eint11_i
+From Clock     : clk
+To Clock       : clk
+Failed Paths   : 0
+
+Type           : Clock Hold: 'clk'
+Slack          : Not operational: Clock Skew > Data Delay
+Required Time  : None
+Actual Time    : N/A
+From           : wil1_i_0
+To             : wigend_reg_0_
+From Clock     : clk
+To Clock       : clk
+Failed Paths   : 83
+
+Type           : Total number of failed paths
+Slack          : 
+Required Time  : 
+Actual Time    : 
+From           : 
+To             : 
+From Clock     : 
+To Clock       : 
+Failed Paths   : 83
+
+--------------------------------------------------------------------------------------
+

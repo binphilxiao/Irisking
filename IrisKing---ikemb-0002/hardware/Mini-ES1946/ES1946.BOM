@@ -1,0 +1,24 @@
+  Revised: Friday, September 12, 2008
+          Revision: 
+
+
+
+
+
+
+
+Bill Of Materials      September 23,2008      18:17:31	Page1
+
+Item	Quantity	Reference	Part	Footprint
+______________________________________________
+
+1	2	C1,C3	10uF/10V	1206
+2	11	C4,C5,C6,C7,C8,C10,C11,	0.1uF	0603
+		C12,C13,C14,C15
+3	1	C9	47uF/10V	1206
+4	2	C16,C17	20pF	0603
+5	1	J1	AUDIO_JACK	AUDIO-JACK
+6	1	P1	MINIPCI_TYPE3	miniPCI
+7	1	R1	47K	0603
+8	1	U1	ES1946S	TQFP100
+9	1	Y1	14.318MHz	CRYSTAL

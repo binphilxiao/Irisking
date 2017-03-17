@@ -1,0 +1,5 @@
+注册过程
+
+1，JediView for PoweerPC 0.81版本注册方式与以前版本有所不同。请把此license.xml放入到JediView安装目录private文件夹下面，如你的Jediview是安装在C:\根目录下面，那请把license.xml直接拷贝到C:\JediView.PPC\private目录下面，即可完成注册
+
+2，请点击JediView安装目录register.exe文件，弹出对话窗口即可以判断是否注册成功。注册成功点JediView安装目录register.exe，会弹出此文件同级目录下面JediView for 0.81注册OK界面。请参考JediView for 0.81注册OK界面。JediView在没有License情况是是无法对flash进行烧写程序以及调用符号表跟踪程序的。

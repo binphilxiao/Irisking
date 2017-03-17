@@ -1,0 +1,43 @@
+\t (00:00:05) allegro 15.7 p007 (v15-7-42E) i86
+\t (00:00:05) 
+
+\t (00:00:05) Starting new drawing...
+\i (00:00:05) trapsize 823
+\i (00:00:05) trapsize 986
+\i (00:00:05) trapsize 986
+\i (00:00:46) new 
+\i (00:00:53) newdrawfillin "keyboard.brd" "Board"
+\t (00:00:53) Starting new drawing...
+\i (00:00:53) trapsize 1059
+\i (00:00:54) trapsize 1059
+\i (00:00:55) save 
+\i (00:01:01) save_as 
+\i (00:01:11) fillin "D:\project\IRISking\ikemb-0002\project\hardware\keyboard\keyboard.brd"
+\i (00:01:11) cd "D:\project\IRISking\ikemb-0002\project\hardware\keyboard"
+\i (00:01:15) netin 
+\i (00:01:17) setwindow form.niparams
+\i (00:01:17) FORM niparams browse  
+\i (00:01:22) fillin "allegro"
+\i (00:01:23) FORM niparams import  
+\i (00:01:26) fillin confirm
+\i (00:01:27) FORM niparams capture_netlist YES 
+\i (00:01:28) FORM niparams browse  
+\i (00:01:32) fillin "ALLEGRO"
+\i (00:01:34) FORM niparams import  
+\t (00:01:34) Starting Cadence Logic Import...
+\t (00:01:36) Opening existing drawing...
+\i (00:01:36) setwindow pcb
+\i (00:01:36) trapsize 1059
+\i (00:01:47) zoom in 
+\i (00:01:47) setwindow pcb
+\i (00:01:47) zoom in 7261.5 12003.7
+\i (00:01:47) trapsize 529
+\i (00:01:48) zoom out 
+\i (00:01:48) setwindow pcb
+\i (00:01:48) zoom out 7240.4 12056.7
+\i (00:01:48) trapsize 1059
+\i (02:09:28) trapsize 883
+\i (02:09:28) trapsize 1059
+\i (02:09:28) exit 
+\f (02:09:28) Do you want to save the changes you made to D:/project/IRISking/ikemb-0002/project/hardware/keyboard/keyboard.brd?
+\i (02:09:30) fillin no 

@@ -1,0 +1,31 @@
+(------------------------------------------------------------)
+(                                                            )
+(        Batch DRC Update                                    )
+(                                                            )
+(        Drawing          : keyboard.brd                     )
+(        Software Version : 15.7p007                         )
+(        Date/Time        : Tue Nov 17 11:15:02 2009         )
+(                                                            )
+(------------------------------------------------------------)
+
+
+ ..... batch DRC requested for all elements 
+
+ ========= check shapes                       Tue Nov 17 11:15:02 2009
+ ========= check standalone pins              Tue Nov 17 11:15:02 2009
+ ========= check symbols (pins,lines,text)    Tue Nov 17 11:15:02 2009
+ ========= check nets                         Tue Nov 17 11:15:02 2009
+ ========= check standalone branches          Tue Nov 17 11:15:02 2009
+ ========= check standalone filled rectangles Tue Nov 17 11:15:02 2009
+ ========= check standalone lines             Tue Nov 17 11:15:02 2009
+ ========= check standalone text              Tue Nov 17 11:15:02 2009
+ ========= check standalone rectangles        Tue Nov 17 11:15:02 2009
+
+ ..... Total number of DRC errors  1
+
+
+WARNING: 1 dynamic shape(s) out of date; checking skipped on these elements.
+
+ ..... end batch DRC at                       Tue Nov 17 11:15:02 2009
+ *************************************************************************
+

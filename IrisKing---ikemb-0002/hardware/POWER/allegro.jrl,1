@@ -1,0 +1,1119 @@
+\t (00:00:03) allegro 15.7 p007 (v15-7-42E) i86
+\t (00:00:03) 
+
+\t (00:00:03) Starting new drawing...
+\i (00:00:04) trapsize 823
+\i (00:00:04) trapsize 1047
+\i (00:00:04) trapsize 1047
+\i (00:00:06) open 
+\i (00:00:09) fillin "Power_PPC_V3.brd"
+\t (00:00:09) Opening existing drawing...
+\i (00:00:09) trapsize 34553
+\d (00:00:09) Database opened: D:/project/IRISking/ikemb-0002/project/hardware/POWER/Power_PPC_V3.brd
+\i (00:00:12) open 
+\i (00:00:16) fillin "D:\project\IRISking\ikemb-0002\project\hardware\ikemb-0002-v3\12-ikemb-0002-v3-ok.brd"
+\i (00:00:16) cd "D:\project\IRISking\ikemb-0002\project\hardware\ikemb-0002-v3"
+\t (00:00:16) Opening existing drawing...
+\i (00:00:17) trapsize 46263
+\d (00:00:17) Database opened: D:/project/IRISking/ikemb-0002/project/hardware/ikemb-0002-v3/12-ikemb-0002-v3-ok.brd
+\i (00:00:22) xhilite 
+\i (00:00:22) xNet Fpga_Dclk 
+\i (00:00:22) xNet Fpga_Asd 
+\i (00:00:22) xname_flush 
+\i (00:00:22) trapsize 7980
+\t (00:00:22) Net "Fpga_Dclk" highlighted.
+\t (00:00:22) Net "Fpga_Asd" highlighted.
+\i (00:00:22) done 
+\i (00:00:22) xhilite 
+\i (00:00:22) xNet Fpga_Dclk 
+\t (00:00:22) Net "Fpga_Dclk" already highlighted.
+\i (00:00:22) xname_flush 
+\t (00:00:22) No element found
+\i (00:00:22) done 
+\i (00:00:24) xhilite 
+\i (00:00:24) xNet Fpga_Data 
+\i (00:00:24) xNet Fpga_Ncs 
+\i (00:00:24) xNet Fpga_Dclk 
+\t (00:00:24) Net "Fpga_Dclk" already highlighted.
+\i (00:00:24) xNet Fpga_Asd 
+\t (00:00:24) Net "Fpga_Asd" already highlighted.
+\i (00:00:24) xname_flush 
+\i (00:00:24) trapsize 7872
+\t (00:00:24) Net "Fpga_Data" highlighted.
+\t (00:00:24) Net "Fpga_Ncs" highlighted.
+\i (00:00:24) done 
+\i (00:00:24) xhilite 
+\i (00:00:24) xNet Fpga_Ncs 
+\t (00:00:24) Net "Fpga_Ncs" already highlighted.
+\i (00:00:24) xname_flush 
+\t (00:00:24) No element found
+\i (00:00:24) done 
+\i (00:00:28) roam y 96 
+\i (00:00:28) roam y 96
+\i (00:00:28) roam y 96 
+\i (00:00:28) roam y 96
+\i (00:00:28) roam y 96 
+\i (00:00:28) roam y 96
+\i (00:00:30) roam x -96 
+\i (00:00:30) roam x -96
+\i (00:00:32) roam x -96 
+\i (00:00:32) roam x -96
+\i (00:00:33) roam y -96 
+\i (00:00:33) roam y -96
+\i (00:00:33) roam y -96 
+\i (00:00:33) roam y -96
+\i (00:00:33) roam y -96 
+\i (00:00:33) roam y -96
+\i (00:00:34) roam y -96 
+\i (00:00:34) roam y -96
+\i (00:00:34) roam y -96 
+\i (00:00:34) roam y -96
+\i (00:00:34) roam y -96 
+\i (00:00:34) roam y -96
+\i (00:00:34) roam x 96 
+\i (00:00:34) roam x 96
+\i (00:00:35) roam x 96 
+\i (00:00:35) roam x 96
+\i (00:00:35) roam x 96 
+\i (00:00:35) roam x 96
+\i (00:00:35) roam y 96 
+\i (00:00:35) roam y 96
+\i (00:00:35) roam y 96 
+\i (00:00:35) roam y 96
+\i (00:00:37) roam y 96 
+\i (00:00:37) roam y 96
+\i (00:00:41) xdehilite 
+\i (00:00:41) xNet Fpga_Ncs 
+\i (00:00:41) xNet Fpga_Data 
+\i (00:00:41) xNet Fpga_Dclk 
+\i (00:00:41) xNet Fpga_Asd 
+\i (00:00:41) xname_flush 
+\t (00:00:41) Net "Fpga_Ncs" dehighlighted.
+\t (00:00:41) Net "Fpga_Data" dehighlighted.
+\t (00:00:41) Net "Fpga_Dclk" dehighlighted.
+\t (00:00:41) Net "Fpga_Asd" dehighlighted.
+\i (00:00:41) done 
+\i (00:01:21) xhilite 
+\i (00:01:21) xNet Fpga_Nconfig 
+\i (00:01:21) xname_flush 
+\i (00:01:21) trapsize 8674
+\t (00:01:21) Net "Fpga_Nconfig" highlighted.
+\i (00:01:21) done 
+\i (00:01:24) xdehilite 
+\i (00:01:24) xNet Fpga_Nconfig 
+\i (00:01:24) xname_flush 
+\t (00:01:24) Net "Fpga_Nconfig" dehighlighted.
+\i (00:01:24) done 
+\i (00:01:24) xhilite 
+\i (00:01:24) xNet Fpga_Nce 
+\i (00:01:24) xname_flush 
+\i (00:01:24) trapsize 7768
+\t (00:01:24) Net "Fpga_Nce" highlighted.
+\i (00:01:24) done 
+\i (00:01:26) xdehilite 
+\i (00:01:26) xNet Fpga_Nce 
+\i (00:01:26) xname_flush 
+\t (00:01:26) Net "Fpga_Nce" dehighlighted.
+\i (00:01:26) done 
+\i (00:01:26) xhilite 
+\i (00:01:26) xNet Fpga_Nstatus 
+\i (00:01:26) xname_flush 
+\i (00:01:26) trapsize 6981
+\t (00:01:26) Net "Fpga_Nstatus" highlighted.
+\i (00:01:26) done 
+\i (00:01:31) xdehilite 
+\i (00:01:31) xNet Fpga_Nstatus 
+\i (00:01:31) xname_flush 
+\t (00:01:31) Net "Fpga_Nstatus" dehighlighted.
+\i (00:01:31) done 
+\i (00:01:33) xhilite 
+\i (00:01:33) xNet Fpga_Nstatus 
+\i (00:01:33) xname_flush 
+\i (00:01:33) trapsize 6981
+\t (00:01:33) Net "Fpga_Nstatus" highlighted.
+\i (00:01:33) done 
+\i (00:01:35) xhilite 
+\i (00:01:35) xNet Fpga_Nconfig 
+\i (00:01:35) xname_flush 
+\i (00:01:35) trapsize 8674
+\t (00:01:35) Net "Fpga_Nconfig" highlighted.
+\i (00:01:35) done 
+\i (00:01:36) xhilite 
+\i (00:01:36) xNet Fpga_Conf_Done 
+\i (00:01:36) xname_flush 
+\i (00:01:36) trapsize 9326
+\t (00:01:36) Net "Fpga_Conf_Done" highlighted.
+\i (00:01:36) done 
+\i (00:01:36) xhilite 
+\i (00:01:36) xNet Fpga_Nconfig 
+\t (00:01:36) Net "Fpga_Nconfig" already highlighted.
+\i (00:01:36) xname_flush 
+\t (00:01:36) No element found
+\i (00:01:36) done 
+\i (00:01:48) xdehilite 
+\i (00:01:48) xNet Fpga_Nconfig 
+\i (00:01:48) xNet Fpga_Conf_Done 
+\i (00:01:48) xNet Fpga_Nstatus 
+\i (00:01:48) xname_flush 
+\t (00:01:48) Net "Fpga_Nconfig" dehighlighted.
+\t (00:01:48) Net "Fpga_Conf_Done" dehighlighted.
+\t (00:01:48) Net "Fpga_Nstatus" dehighlighted.
+\i (00:01:48) done 
+\i (01:17:35) trapsize 7784
+\i (01:17:35) trapsize 9326
+\i (01:43:19) trapsize 7784
+\i (01:43:19) trapsize 9326
+\i (03:09:12) trapsize 7784
+\i (03:09:12) trapsize 9326
+\i (03:09:15) roam y 96 
+\i (03:09:15) roam y 96
+\i (03:09:16) roam y 96 
+\i (03:09:16) roam y 96
+\i (03:09:16) roam y 96 
+\i (03:09:16) roam y 96
+\i (03:09:16) roam y 96 
+\i (03:09:16) roam y 96
+\i (03:09:17) roam x -96 
+\i (03:09:17) roam x -96
+\i (03:09:17) roam y -96 
+\i (03:09:17) roam y -96
+\i (03:09:17) roam y -96 
+\i (03:09:17) roam y -96
+\i (03:09:18) roam x -96 
+\i (03:09:18) roam x -96
+\i (03:09:22) hilight 
+\i (03:09:24) setwindow form.mini
+\i (03:09:24) FORM mini color16 1 
+\i (03:09:27) setwindow form.find
+\i (03:09:27) FORM find name_type Net 
+\i (03:09:31) FORM find find_name gnd 
+\i (03:09:32) setwindow pcb
+\i (03:09:32) trapsize 43270
+\t (03:09:33) Net "Gnd" highlighted.
+\i (03:09:39) setwindow form.find
+\i (03:09:39) FORM find find_name v1.2v 
+\i (03:09:39) setwindow pcb
+\i (03:09:39) trapsize 7188
+\t (03:09:39) Net "V1.2v" highlighted.
+\i (03:09:43) cancel 
+\i (03:09:46) hilight 
+\i (03:09:51) setwindow form.find
+\i (03:09:51) FORM find name_type Net 
+\i (03:09:55) FORM find find_name gnd 
+\i (03:09:55) setwindow pcb
+\i (03:09:55) trapsize 43270
+\t (03:09:55) Net "Gnd" highlighted.
+\i (03:09:56) done 
+\i (03:09:57) hilight 
+\i (03:10:00) setwindow form.mini
+\i (03:10:00) FORM mini color8 1 
+\i (03:10:04) setwindow form.find
+\i (03:10:04) FORM find find_name v1.2v 
+\i (03:10:04) setwindow pcb
+\i (03:10:04) trapsize 7188
+\t (03:10:04) Net "V1.2v" highlighted.
+\i (03:10:07) zoom in 
+\i (03:10:07) setwindow pcb
+\i (03:10:07) zoom in 26739.471 16926.123
+\i (03:10:07) trapsize 3594
+\i (03:10:08) roam y 96 
+\i (03:10:08) roam y 96
+\i (03:10:08) roam y 96 
+\i (03:10:08) roam y 96
+\i (03:10:09) roam y 96 
+\i (03:10:09) roam y 96
+\i (03:10:09) roam y 96 
+\i (03:10:09) roam y 96
+\i (03:10:09) roam y 96 
+\i (03:10:09) roam y 96
+\i (03:10:10) roam x -96 
+\i (03:10:10) roam x -96
+\i (03:10:10) roam x -96 
+\i (03:10:10) roam x -96
+\i (03:10:10) roam x -96 
+\i (03:10:10) roam x -96
+\i (03:10:10) roam x -96 
+\i (03:10:10) roam x -96
+\i (03:10:11) roam x -96 
+\i (03:10:11) roam x -96
+\i (03:10:11) roam x -96 
+\i (03:10:11) roam x -96
+\i (03:10:14) roam y -96 
+\i (03:10:14) roam y -96
+\i (03:10:15) roam y -96 
+\i (03:10:15) roam y -96
+\i (03:10:15) roam y -96 
+\i (03:10:15) roam y -96
+\i (03:10:15) roam y -96 
+\i (03:10:15) roam y -96
+\i (03:10:15) roam y -96 
+\i (03:10:15) roam y -96
+\i (03:10:15) roam y -96 
+\i (03:10:15) roam y -96
+\i (03:10:15) roam y -96 
+\i (03:10:15) roam y -96
+\i (03:10:16) roam y -96 
+\i (03:10:16) roam y -96
+\i (03:10:16) roam y -96 
+\i (03:10:16) roam y -96
+\i (03:10:16) roam x 96 
+\i (03:10:16) roam x 96
+\i (03:10:17) roam x 96 
+\i (03:10:17) roam x 96
+\i (03:10:17) roam x 96 
+\i (03:10:17) roam x 96
+\i (03:10:17) roam x 96 
+\i (03:10:17) roam x 96
+\i (03:10:18) roam x 96 
+\i (03:10:18) roam x 96
+\i (03:10:18) roam x 96 
+\i (03:10:18) roam x 96
+\i (03:10:18) roam x 96 
+\i (03:10:18) roam x 96
+\i (03:11:40) pick grid 26953.707 17044.271
+\t (03:11:40) last pick:  26953.500  17044.500
+\t (03:11:40) No element found
+\i (03:11:41) roam y 96 
+\i (03:11:41) roam y 96
+\i (03:11:41) roam y 96 
+\i (03:11:41) roam y 96
+\i (03:11:41) roam y 96 
+\i (03:11:41) roam y 96
+\i (03:11:41) roam y 96 
+\i (03:11:41) roam y 96
+\i (03:11:42) roam y 96 
+\i (03:11:42) roam y 96
+\i (03:11:42) roam y 96 
+\i (03:11:42) roam y 96
+\i (03:11:42) roam y 96 
+\i (03:11:42) roam y 96
+\i (03:11:42) roam y 96 
+\i (03:11:42) roam y 96
+\i (03:11:42) roam y 96 
+\i (03:11:42) roam y 96
+\i (03:11:43) roam x -96 
+\i (03:11:43) roam x -96
+\i (03:11:43) roam x -96 
+\i (03:11:43) roam x -96
+\i (03:11:43) roam x -96 
+\i (03:11:43) roam x -96
+\i (03:11:43) roam x -96 
+\i (03:11:43) roam x -96
+\i (03:11:43) roam x -96 
+\i (03:11:43) roam x -96
+\i (03:11:43) roam x -96 
+\i (03:11:43) roam x -96
+\i (03:11:43) roam x -96 
+\i (03:11:43) roam x -96
+\i (03:11:43) roam x -96 
+\i (03:11:43) roam x -96
+\i (03:11:43) roam x -96 
+\i (03:11:43) roam x -96
+\i (03:11:43) roam x -96 
+\i (03:11:43) roam x -96
+\i (03:11:44) roam y -96 
+\i (03:11:44) roam y -96
+\i (03:11:45) roam y -96 
+\i (03:11:45) roam y -96
+\i (03:11:45) roam y -96 
+\i (03:11:45) roam y -96
+\i (03:11:45) roam y -96 
+\i (03:11:45) roam y -96
+\i (03:11:45) roam y -96 
+\i (03:11:45) roam y -96
+\i (03:11:45) roam y -96 
+\i (03:11:45) roam y -96
+\i (03:11:45) roam y -96 
+\i (03:11:45) roam y -96
+\i (03:11:45) roam y -96 
+\i (03:11:45) roam y -96
+\i (03:11:45) roam y -96 
+\i (03:11:45) roam y -96
+\i (03:11:45) roam y -96 
+\i (03:11:45) roam y -96
+\i (03:11:46) roam y -96 
+\i (03:11:46) roam y -96
+\i (03:11:46) roam y -96 
+\i (03:11:46) roam y -96
+\i (03:11:46) roam y -96 
+\i (03:11:46) roam y -96
+\i (03:11:46) roam y -96 
+\i (03:11:46) roam y -96
+\i (03:11:46) roam y -96 
+\i (03:11:46) roam y -96
+\i (03:11:47) roam y -96 
+\i (03:11:47) roam y -96
+\i (03:11:47) roam y 96 
+\i (03:11:47) roam y 96
+\i (03:11:48) roam y 96 
+\i (03:11:48) roam y 96
+\i (03:11:48) roam y 96 
+\i (03:11:48) roam y 96
+\i (03:11:48) roam y 96 
+\i (03:11:48) roam y 96
+\i (03:11:48) roam y 96 
+\i (03:11:48) roam y 96
+\i (03:11:48) roam y 96 
+\i (03:11:48) roam y 96
+\i (03:11:48) roam y 96 
+\i (03:11:48) roam y 96
+\i (03:11:48) roam y 96 
+\i (03:11:48) roam y 96
+\i (03:11:48) roam y 96 
+\i (03:11:48) roam y 96
+\i (03:11:48) roam y 96 
+\i (03:11:48) roam y 96
+\i (03:11:48) roam y 96 
+\i (03:11:48) roam y 96
+\i (03:11:48) roam y 96 
+\i (03:11:48) roam y 96
+\i (03:11:48) roam y 96 
+\i (03:11:48) roam y 96
+\i (03:11:48) roam y 96 
+\i (03:11:48) roam y 96
+\i (03:11:49) roam x 96 
+\i (03:11:49) roam x 96
+\i (03:11:49) roam x 96 
+\i (03:11:49) roam x 96
+\i (03:11:49) roam x 96 
+\i (03:11:49) roam x 96
+\i (03:11:49) roam x 96 
+\i (03:11:49) roam x 96
+\i (03:11:50) roam x 96 
+\i (03:11:50) roam x 96
+\i (03:11:50) roam x 96 
+\i (03:11:50) roam x 96
+\i (03:11:50) roam x 96 
+\i (03:11:50) roam x 96
+\i (03:11:50) roam x 96 
+\i (03:11:50) roam x 96
+\i (03:11:50) roam x 96 
+\i (03:11:50) roam x 96
+\i (03:11:50) roam x 96 
+\i (03:11:50) roam x 96
+\i (03:11:50) roam x 96 
+\i (03:11:50) roam x 96
+\i (03:11:51) roam y -96 
+\i (03:11:51) roam y -96
+\i (03:11:52) roam y -96 
+\i (03:11:52) roam y -96
+\i (03:11:52) roam y -96 
+\i (03:11:52) roam y -96
+\i (03:11:52) roam y -96 
+\i (03:11:52) roam y -96
+\i (03:11:52) roam y -96 
+\i (03:11:52) roam y -96
+\i (03:11:52) roam y -96 
+\i (03:11:52) roam y -96
+\i (03:11:52) roam y -96 
+\i (03:11:52) roam y -96
+\i (03:11:52) roam y -96 
+\i (03:11:52) roam y -96
+\i (03:11:52) roam y -96 
+\i (03:11:52) roam y -96
+\i (03:11:52) roam y -96 
+\i (03:11:52) roam y -96
+\i (03:11:52) roam y -96 
+\i (03:11:52) roam y -96
+\i (03:11:52) roam y -96 
+\i (03:11:52) roam y -96
+\i (03:11:52) roam y -96 
+\i (03:11:52) roam y -96
+\i (03:11:53) roam y 96 
+\i (03:11:53) roam y 96
+\i (03:11:53) roam y 96 
+\i (03:11:53) roam y 96
+\i (03:11:53) roam y 96 
+\i (03:11:53) roam y 96
+\i (03:11:53) roam y 96 
+\i (03:11:53) roam y 96
+\i (03:11:54) roam y 96 
+\i (03:11:54) roam y 96
+\i (03:11:54) roam y 96 
+\i (03:11:54) roam y 96
+\i (03:11:54) roam y 96 
+\i (03:11:54) roam y 96
+\i (03:11:55) roam y 96 
+\i (03:11:55) roam y 96
+\i (03:11:55) roam y 96 
+\i (03:11:55) roam y 96
+\i (03:11:55) roam y 96 
+\i (03:11:55) roam y 96
+\i (03:11:55) roam y 96 
+\i (03:11:55) roam y 96
+\i (03:11:56) roam y 96 
+\i (03:11:56) roam y 96
+\i (03:11:56) roam y 96 
+\i (03:11:56) roam y 96
+\i (03:11:57) roam y 96 
+\i (03:11:57) roam y 96
+\i (03:11:58) roam y 96 
+\i (03:11:58) roam y 96
+\i (03:11:58) roam y 96 
+\i (03:11:58) roam y 96
+\i (03:11:58) roam y 96 
+\i (03:11:58) roam y 96
+\i (03:11:59) roam y 96 
+\i (03:11:59) roam y 96
+\i (03:11:59) roam y 96 
+\i (03:11:59) roam y 96
+\i (03:11:59) roam x -96 
+\i (03:11:59) roam x -96
+\i (03:12:00) roam y -96 
+\i (03:12:00) roam y -96
+\i (03:12:01) roam y -96 
+\i (03:12:01) roam y -96
+\i (03:12:09) roam y -96 
+\i (03:12:09) roam y -96
+\i (03:12:09) roam y -96 
+\i (03:12:09) roam y -96
+\i (03:12:09) roam y -96 
+\i (03:12:09) roam y -96
+\i (03:12:09) roam y -96 
+\i (03:12:09) roam y -96
+\i (03:12:09) roam y -96 
+\i (03:12:09) roam y -96
+\i (03:12:09) roam y -96 
+\i (03:12:09) roam y -96
+\i (03:12:10) roam y -96 
+\i (03:12:10) roam y -96
+\i (03:12:10) roam y -96 
+\i (03:12:10) roam y -96
+\i (03:12:10) roam y -96 
+\i (03:12:10) roam y -96
+\i (03:12:10) roam y -96 
+\i (03:12:10) roam y -96
+\i (03:12:10) roam x -96 
+\i (03:12:10) roam x -96
+\i (03:12:11) roam x 96 
+\i (03:12:11) roam x 96
+\i (03:12:11) roam y 96 
+\i (03:12:11) roam y 96
+\i (03:12:12) roam y 96 
+\i (03:12:12) roam y 96
+\i (03:12:12) roam y 96 
+\i (03:12:12) roam y 96
+\i (03:12:12) roam y 96 
+\i (03:12:12) roam y 96
+\i (03:12:12) roam y 96 
+\i (03:12:12) roam y 96
+\i (03:12:12) roam y 96 
+\i (03:12:12) roam y 96
+\i (03:12:12) roam y 96 
+\i (03:12:12) roam y 96
+\i (03:12:12) roam y 96 
+\i (03:12:12) roam y 96
+\i (03:12:12) roam y 96 
+\i (03:12:12) roam y 96
+\i (03:12:35) roam y -96 
+\i (03:12:35) roam y -96
+\i (03:12:35) roam y -96 
+\i (03:12:35) roam y -96
+\i (03:12:35) roam x -96 
+\i (03:12:35) roam x -96
+\i (03:12:36) roam x -96 
+\i (03:12:36) roam x -96
+\i (03:12:36) roam x -96 
+\i (03:12:36) roam x -96
+\i (03:12:36) roam x -96 
+\i (03:12:36) roam x -96
+\i (03:12:36) roam x -96 
+\i (03:12:36) roam x -96
+\i (03:12:36) roam x -96 
+\i (03:12:36) roam x -96
+\i (03:12:37) roam x -96 
+\i (03:12:37) roam x -96
+\i (03:12:37) roam y -96 
+\i (03:12:37) roam y -96
+\i (03:12:37) roam y -96 
+\i (03:12:37) roam y -96
+\i (03:12:38) roam y -96 
+\i (03:12:38) roam y -96
+\i (03:12:38) roam y -96 
+\i (03:12:38) roam y -96
+\i (03:12:38) roam y -96 
+\i (03:12:38) roam y -96
+\i (03:12:38) roam y -96 
+\i (03:12:38) roam y -96
+\i (03:12:38) roam y -96 
+\i (03:12:38) roam y -96
+\i (03:12:38) roam y -96 
+\i (03:12:38) roam y -96
+\i (03:12:38) roam y -96 
+\i (03:12:38) roam y -96
+\i (03:12:39) roam x 96 
+\i (03:12:39) roam x 96
+\i (03:12:39) roam x 96 
+\i (03:12:39) roam x 96
+\i (03:12:39) roam x 96 
+\i (03:12:39) roam x 96
+\i (03:12:39) roam x 96 
+\i (03:12:39) roam x 96
+\i (03:12:39) roam x 96 
+\i (03:12:39) roam x 96
+\i (03:12:39) roam x 96 
+\i (03:12:39) roam x 96
+\i (03:13:09) pick grid 26762.519 17373.461
+\t (03:13:09) last pick:  26762.500  17373.500
+\t (03:13:09) No element found
+\i (03:13:10) roam y 96 
+\i (03:13:10) roam y 96
+\i (03:13:10) roam y 96 
+\i (03:13:10) roam y 96
+\i (03:13:10) roam y 96 
+\i (03:13:10) roam y 96
+\i (03:13:10) roam y 96 
+\i (03:13:10) roam y 96
+\i (03:13:11) roam y 96 
+\i (03:13:11) roam y 96
+\i (03:13:11) roam y 96 
+\i (03:13:11) roam y 96
+\i (03:13:11) roam y 96 
+\i (03:13:11) roam y 96
+\i (03:13:11) roam y 96 
+\i (03:13:11) roam y 96
+\i (03:13:11) roam y 96 
+\i (03:13:11) roam y 96
+\i (03:13:11) roam y 96 
+\i (03:13:11) roam y 96
+\i (03:13:11) roam y 96 
+\i (03:13:11) roam y 96
+\i (03:13:11) roam x -96 
+\i (03:13:11) roam x -96
+\i (03:13:12) roam x -96 
+\i (03:13:12) roam x -96
+\i (03:13:12) roam x -96 
+\i (03:13:12) roam x -96
+\i (03:13:12) roam x -96 
+\i (03:13:12) roam x -96
+\i (03:13:12) roam x -96 
+\i (03:13:12) roam x -96
+\i (03:13:12) roam x -96 
+\i (03:13:12) roam x -96
+\i (03:13:12) roam x -96 
+\i (03:13:12) roam x -96
+\i (03:13:12) roam x -96 
+\i (03:13:12) roam x -96
+\i (03:13:13) roam y -96 
+\i (03:13:13) roam y -96
+\i (03:13:13) roam y -96 
+\i (03:13:13) roam y -96
+\i (03:13:13) roam y -96 
+\i (03:13:13) roam y -96
+\i (03:13:13) roam y -96 
+\i (03:13:13) roam y -96
+\i (03:13:13) roam y -96 
+\i (03:13:13) roam y -96
+\i (03:13:13) roam y -96 
+\i (03:13:13) roam y -96
+\i (03:13:13) roam y -96 
+\i (03:13:13) roam y -96
+\i (03:13:13) roam y -96 
+\i (03:13:13) roam y -96
+\i (03:13:13) roam y -96 
+\i (03:13:13) roam y -96
+\i (03:13:14) roam y -96 
+\i (03:13:14) roam y -96
+\i (03:13:14) roam y -96 
+\i (03:13:14) roam y -96
+\i (03:13:14) roam x 96 
+\i (03:13:14) roam x 96
+\i (03:13:15) roam x 96 
+\i (03:13:15) roam x 96
+\i (03:13:15) roam x 96 
+\i (03:13:15) roam x 96
+\i (03:13:15) roam x 96 
+\i (03:13:15) roam x 96
+\i (03:13:15) roam x 96 
+\i (03:13:15) roam x 96
+\i (03:13:15) roam x 96 
+\i (03:13:15) roam x 96
+\i (03:13:15) roam x 96 
+\i (03:13:15) roam x 96
+\i (03:13:16) roam x 96 
+\i (03:13:16) roam x 96
+\i (03:13:16) roam y 96 
+\i (03:13:16) roam y 96
+\i (03:13:17) roam y 96 
+\i (03:13:17) roam y 96
+\i (03:13:17) roam y 96 
+\i (03:13:17) roam y 96
+\i (03:13:17) roam y 96 
+\i (03:13:17) roam y 96
+\i (03:13:17) roam y 96 
+\i (03:13:17) roam y 96
+\i (03:13:17) roam y 96 
+\i (03:13:17) roam y 96
+\i (03:13:17) roam y 96 
+\i (03:13:17) roam y 96
+\i (03:13:18) roam y 96 
+\i (03:13:18) roam y 96
+\i (03:13:18) roam y 96 
+\i (03:13:18) roam y 96
+\i (03:13:19) roam y 96 
+\i (03:13:19) roam y 96
+\i (03:13:19) roam x -96 
+\i (03:13:19) roam x -96
+\i (03:13:19) roam x -96 
+\i (03:13:19) roam x -96
+\i (03:13:20) roam x -96 
+\i (03:13:20) roam x -96
+\i (03:13:20) roam x -96 
+\i (03:13:20) roam x -96
+\i (03:13:20) roam x -96 
+\i (03:13:20) roam x -96
+\i (03:13:21) roam x -96 
+\i (03:13:21) roam x -96
+\i (03:13:21) roam y -96 
+\i (03:13:21) roam y -96
+\i (03:13:22) roam y -96 
+\i (03:13:22) roam y -96
+\i (03:13:22) roam y -96 
+\i (03:13:22) roam y -96
+\i (03:13:22) roam y -96 
+\i (03:13:22) roam y -96
+\i (03:13:22) roam y -96 
+\i (03:13:22) roam y -96
+\i (03:13:22) roam y -96 
+\i (03:13:22) roam y -96
+\i (03:13:22) roam y -96 
+\i (03:13:22) roam y -96
+\i (03:13:22) roam y -96 
+\i (03:13:22) roam y -96
+\i (03:13:22) roam y -96 
+\i (03:13:22) roam y -96
+\i (03:13:22) roam y -96 
+\i (03:13:22) roam y -96
+\i (03:13:23) roam x 96 
+\i (03:13:23) roam x 96
+\i (03:13:23) roam x 96 
+\i (03:13:23) roam x 96
+\i (03:13:23) roam x 96 
+\i (03:13:23) roam x 96
+\i (03:13:23) roam x 96 
+\i (03:13:23) roam x 96
+\i (03:13:23) roam x 96 
+\i (03:13:23) roam x 96
+\i (03:13:23) roam x 96 
+\i (03:13:23) roam x 96
+\i (03:13:24) roam y 96 
+\i (03:13:24) roam y 96
+\i (03:13:24) roam y 96 
+\i (03:13:24) roam y 96
+\i (03:13:24) roam y 96 
+\i (03:13:24) roam y 96
+\i (03:13:24) roam y 96 
+\i (03:13:24) roam y 96
+\i (03:13:25) roam y 96 
+\i (03:13:25) roam y 96
+\i (03:13:25) roam y 96 
+\i (03:13:25) roam y 96
+\i (03:13:25) roam y 96 
+\i (03:13:25) roam y 96
+\i (03:14:14) zoom out 
+\i (03:14:14) setwindow pcb
+\i (03:14:14) zoom out 26762.519 16890.459
+\i (03:14:14) trapsize 7188
+\i (03:14:14) zoom out 
+\i (03:14:14) setwindow pcb
+\i (03:14:14) zoom out 26762.521 16890.459
+\i (03:14:14) trapsize 14375
+\i (03:14:35) zoom out 
+\i (03:14:35) setwindow pcb
+\i (03:14:35) zoom out 26762.520 16890.459
+\i (03:14:35) trapsize 28750
+\i (03:14:38) zoom in 
+\i (03:14:38) setwindow pcb
+\i (03:14:38) zoom in 25836.767 17522.961
+\i (03:14:38) trapsize 14375
+\i (03:14:39) roam x 96 
+\i (03:14:39) roam x 96
+\i (03:14:40) roam x 96 
+\i (03:14:40) roam x 96
+\i (03:14:40) roam y 96 
+\i (03:14:40) roam y 96
+\i (03:14:41) roam y 96 
+\i (03:14:41) roam y 96
+\i (03:14:41) roam y 96 
+\i (03:14:41) roam y 96
+\i (03:14:41) roam y 96 
+\i (03:14:41) roam y 96
+\i (03:14:42) roam y -96 
+\i (03:14:42) roam y -96
+\i (03:14:42) roam y -96 
+\i (03:14:42) roam y -96
+\i (03:14:42) roam y -96 
+\i (03:14:42) roam y -96
+\i (03:14:43) roam y -96 
+\i (03:14:43) roam y -96
+\i (03:22:16) xNet Ad_Cs 
+\i (03:22:16) xname_flush 
+\i (03:22:16) trapsize 3168
+\t (03:22:16) Net "Ad_Cs" highlighted.
+\i (03:23:52) trapsize 2644
+\i (03:23:52) trapsize 3168
+\i (03:23:54) zoom out 
+\i (03:23:54) setwindow pcb
+\i (03:23:54) zoom out 26909.348 16231.289
+\i (03:23:54) trapsize 6336
+\i (03:24:01) roam y 96 
+\i (03:24:01) roam y 96
+\i (03:27:52) roam x -96 
+\i (03:27:52) roam x -96
+\i (03:27:52) roam x -96 
+\i (03:27:52) roam x -96
+\i (03:27:52) roam x -96 
+\i (03:27:52) roam x -96
+\i (03:27:59) setwindow form.vf_vis
+\i (03:27:59) FORM vf_vis 3 all_colorvisible NO 
+\i (03:27:59) FORM vf_vis 4 all_colorvisible NO 
+\i (03:28:03) FORM vf_vis 1 etch_colorvisible 0 
+\i (03:28:06) FORM vf_vis 6 drc_colorvisible 0 
+\i (03:28:07) FORM vf_vis 1 drc_colorvisible 0 
+\i (03:28:08) FORM vf_vis 6 etch_colorvisible 0 
+\i (03:28:14) setwindow pcb
+\i (03:28:14) move 
+\t (03:28:14) Select element(s) to move.
+\i (03:28:18) setwindow form.find
+\i (03:28:18) FORM find symbols NO 
+\i (03:28:20) FORM find text YES 
+\i (03:28:21) setwindow pcb
+\i (03:28:21) pick grid 26241.785 16486.599
+\t (03:28:21) last pick:  26242.000  16486.500
+\t (03:28:21) last pick:  26250.000  16531.000
+\t (03:28:21) Pick new location for element(s).
+\i (03:28:23) pick grid 26243.053 16532.219
+\t (03:28:23) last pick:  26243.000  16532.000
+\i (03:28:23) pick grid 26321.621 16511.943
+\t (03:28:23) last pick:  26321.500  16512.000
+\t (03:28:23) last pick:  26332.000  16529.000
+\t (03:28:23) Pick new location for element(s).
+\i (03:28:24) pick grid 26319.087 16501.805
+\t (03:28:24) last pick:  26319.000  16502.000
+\i (03:28:25) pick grid 26474.957 16515.745
+\t (03:28:25) last pick:  26475.000  16515.500
+\t (03:28:25) last pick:  26485.000  16536.000
+\t (03:28:25) Pick new location for element(s).
+\i (03:28:25) pick grid 26481.293 16519.547
+\t (03:28:25) last pick:  26481.500  16519.500
+\i (03:28:26) pick grid 26542.121 16519.547
+\t (03:28:26) last pick:  26542.000  16519.500
+\t (03:28:26) last pick:  26563.000  16531.000
+\t (03:28:26) Pick new location for element(s).
+\i (03:28:27) pick grid 26548.457 16506.874
+\t (03:28:27) last pick:  26548.500  16507.000
+\i (03:28:27) pick grid 26666.310 16689.356
+\t (03:28:27) last pick:  26666.500  16689.500
+\t (03:28:27) last pick:  26697.000  16686.000
+\t (03:28:27) Pick new location for element(s).
+\i (03:28:28) pick grid 26666.310 16689.356
+\t (03:28:28) last pick:  26666.500  16689.500
+\i (03:28:29) pick grid 26648.568 16969.416
+\t (03:28:29) last pick:  26648.500  16969.500
+\t (03:28:29) last pick:  26682.000  16955.000
+\t (03:28:29) Pick new location for element(s).
+\i (03:28:30) pick grid 26675.180 16955.476
+\t (03:28:30) last pick:  26675.000  16955.500
+\i (03:28:32) roam y -96 
+\i (03:28:32) roam y -96
+\i (03:28:32) roam y -96 
+\i (03:28:32) roam y -96
+\i (03:28:34) pick grid 26490.164 16984.622
+\t (03:28:34) last pick:  26490.000  16984.500
+\t (03:28:34) last pick:  26522.000  16973.000
+\t (03:28:34) Pick new location for element(s).
+\i (03:28:35) pick grid 26504.103 16961.812
+\t (03:28:35) last pick:  26504.000  16962.000
+\i (03:28:35) pick grid 26564.931 17145.561
+\t (03:28:35) last pick:  26565.000  17145.500
+\t (03:28:36) last pick:  26579.000  17204.000
+\t (03:28:36) Pick new location for element(s).
+\i (03:28:37) pick grid 26576.336 17193.716
+\t (03:28:37) last pick:  26576.500  17193.500
+\i (03:28:38) roam y -96 
+\i (03:28:38) roam y -96
+\i (03:28:38) roam y -96 
+\i (03:28:38) roam y -96
+\i (03:28:40) pick grid 26810.775 17153.164
+\t (03:28:40) last pick:  26811.000  17153.000
+\t (03:28:40) last pick:  26814.000  17142.000
+\t (03:28:40) Pick new location for element(s).
+\i (03:28:41) pick grid 26801.904 17146.828
+\t (03:28:41) last pick:  26802.000  17147.000
+\i (03:28:41) pick grid 26803.171 17217.793
+\t (03:28:41) last pick:  26803.000  17218.000
+\t (03:28:41) last pick:  26813.000  17202.000
+\t (03:28:41) Pick new location for element(s).
+\i (03:28:42) pick grid 26803.171 17193.716
+\t (03:28:42) last pick:  26803.000  17193.500
+\i (03:28:42) pick grid 26805.706 17250.741
+\t (03:28:42) last pick:  26805.500  17250.500
+\t (03:28:42) last pick:  26814.000  17237.000
+\t (03:28:42) Pick new location for element(s).
+\i (03:28:43) pick grid 26796.835 17239.336
+\t (03:28:43) last pick:  26797.000  17239.500
+\i (03:28:44) pick grid 26784.163 17292.560
+\t (03:28:44) last pick:  26784.000  17292.500
+\t (03:28:44) last pick:  26790.000  17280.000
+\t (03:28:44) Pick new location for element(s).
+\i (03:28:45) pick grid 26780.361 17290.026
+\t (03:28:45) last pick:  26780.500  17290.000
+\i (03:28:46) pick grid 26368.509 17141.759
+\t (03:28:46) last pick:  26368.500  17142.000
+\t (03:28:46) last pick:  26381.000  17174.000
+\t (03:28:46) Pick new location for element(s).
+\i (03:28:47) pick grid 26378.647 17174.707
+\t (03:28:47) last pick:  26378.500  17174.500
+\i (03:28:48) pick grid 26308.949 17135.423
+\t (03:28:48) last pick:  26309.000  17135.500
+\t (03:28:48) last pick:  26322.000  17169.000
+\t (03:28:48) Pick new location for element(s).
+\i (03:28:49) pick grid 26320.354 17168.371
+\t (03:28:49) last pick:  26320.500  17168.500
+\i (03:28:49) pick grid 26221.510 17132.888
+\t (03:28:49) last pick:  26221.500  17133.000
+\t (03:28:49) last pick:  26237.000  17169.000
+\t (03:28:49) Pick new location for element(s).
+\i (03:28:50) pick grid 26235.449 17162.035
+\t (03:28:50) last pick:  26235.500  17162.000
+\i (03:28:51) pick grid 26094.786 17141.759
+\t (03:28:51) last pick:  26095.000  17142.000
+\t (03:28:51) last pick:  26105.000  17177.000
+\t (03:28:51) Pick new location for element(s).
+\i (03:28:51) pick grid 26096.053 17141.759
+\t (03:28:51) last pick:  26096.000  17142.000
+\i (03:28:52) pick grid 26013.683 17235.535
+\t (03:28:52) last pick:  26013.500  17235.500
+\t (03:28:52) last pick:  26043.000  17220.000
+\t (03:28:52) Pick new location for element(s).
+\i (03:28:53) pick grid 26026.355 17225.397
+\t (03:28:53) last pick:  26026.500  17225.500
+\i (03:28:54) pick grid 26018.752 16869.303
+\t (03:28:54) last pick:  26019.000  16869.500
+\t (03:28:54) last pick:  26046.000  16863.000
+\t (03:28:54) Pick new location for element(s).
+\i (03:28:55) pick grid 26054.234 16869.303
+\t (03:28:55) last pick:  26054.000  16869.500
+\i (03:28:55) pick grid 26027.622 16760.321
+\t (03:28:55) last pick:  26027.500  16760.500
+\t (03:28:55) last pick:  26047.000  16746.000
+\t (03:28:55) Pick new location for element(s).
+\i (03:28:56) pick grid 26041.562 16752.717
+\t (03:28:56) last pick:  26041.500  16752.500
+\i (03:28:58) roam y 96 
+\i (03:28:58) roam y 96
+\i (03:28:58) roam y 96 
+\i (03:28:58) roam y 96
+\i (03:28:59) pick grid 26310.216 16437.176
+\t (03:28:59) last pick:  26310.000  16437.000
+\t (03:28:59) last pick:  26319.000  16502.000
+\t (03:28:59) Pick new location for element(s).
+\i (03:29:00) pick grid 26315.285 16490.400
+\t (03:29:00) last pick:  26315.500  16490.500
+\i (03:29:01) pick grid 26234.182 16513.210
+\t (03:29:01) last pick:  26234.000  16513.000
+\t (03:29:01) last pick:  26243.000  16532.000
+\t (03:29:01) Pick new location for element(s).
+\i (03:29:02) pick grid 26244.320 16513.210
+\t (03:29:02) last pick:  26244.500  16513.000
+\i (03:29:02) pick grid 26159.415 16463.788
+\t (03:29:02) last pick:  26159.500  16464.000
+\t (03:29:02) last pick:  26170.000  16531.000
+\t (03:29:02) Pick new location for element(s).
+\i (03:29:03) pick grid 26170.820 16519.546
+\t (03:29:03) last pick:  26171.000  16519.500
+\i (03:29:04) pick grid 26070.709 16442.245
+\t (03:29:04) last pick:  26070.500  16442.000
+\t (03:29:04) last pick:  26085.000  16522.000
+\t (03:29:04) Pick new location for element(s).
+\i (03:29:05) pick grid 26078.312 16467.590
+\t (03:29:05) last pick:  26078.500  16467.500
+\i (03:29:06) pick grid 26172.087 16911.122
+\t (03:29:06) last pick:  26172.000  16911.000
+\t (03:29:06) last pick:  26174.000  16904.000
+\t (03:29:06) Pick new location for element(s).
+\i (03:29:07) pick grid 26182.225 16898.450
+\t (03:29:07) last pick:  26182.000  16898.500
+\i (03:29:07) pick grid 26284.872 16906.053
+\t (03:29:07) last pick:  26285.000  16906.000
+\t (03:29:07) last pick:  26290.000  16944.000
+\t (03:29:07) Pick new location for element(s).
+\i (03:29:08) pick grid 26287.406 16947.872
+\t (03:29:08) last pick:  26287.500  16948.000
+\i (03:29:08) pick grid 26316.552 16907.321
+\t (03:29:08) last pick:  26316.500  16907.500
+\t (03:29:09) last pick:  26331.000  16943.000
+\t (03:29:09) Pick new location for element(s).
+\i (03:29:09) pick grid 26330.492 16949.139
+\t (03:29:09) last pick:  26330.500  16949.000
+\i (03:29:10) pick grid 26016.217 16879.441
+\t (03:29:10) last pick:  26016.000  16879.500
+\t (03:29:10) last pick:  26054.000  16869.500
+\t (03:29:10) Pick new location for element(s).
+\i (03:29:11) pick grid 26046.631 16874.373
+\t (03:29:11) last pick:  26046.500  16874.500
+\i (03:29:12) pick grid 26031.424 16755.252
+\t (03:29:12) last pick:  26031.500  16755.500
+\t (03:29:12) last pick:  26041.500  16752.500
+\t (03:29:12) Pick new location for element(s).
+\i (03:29:12) pick grid 26033.959 16762.856
+\t (03:29:12) last pick:  26034.000  16763.000
+\i (03:29:13) pick grid 25913.571 16645.003
+\t (03:29:13) last pick:  25913.500  16645.000
+\t (03:29:13) last pick:  25942.000  16633.000
+\t (03:29:13) Pick new location for element(s).
+\i (03:29:14) pick grid 25926.244 16641.201
+\t (03:29:14) last pick:  25926.000  16641.000
+\i (03:29:15) pick grid 25928.778 16605.718
+\t (03:29:15) last pick:  25929.000  16605.500
+\t (03:29:15) last pick:  25942.000  16592.000
+\t (03:29:15) Pick new location for element(s).
+\i (03:29:16) pick grid 25927.511 16601.917
+\t (03:29:16) last pick:  25927.500  16602.000
+\i (03:29:16) pick grid 25914.838 16553.762
+\t (03:29:16) last pick:  25915.000  16554.000
+\t (03:29:16) last pick:  25934.000  16548.000
+\t (03:29:16) Pick new location for element(s).
+\i (03:29:17) pick grid 25919.907 16549.960
+\t (03:29:17) last pick:  25920.000  16550.000
+\i (03:29:18) pick grid 25762.770 16722.304
+\t (03:29:18) last pick:  25763.000  16722.500
+\t (03:29:18) last pick:  25744.000  16742.000
+\t (03:29:18) Pick new location for element(s).
+\i (03:29:19) pick grid 25742.494 16737.511
+\t (03:29:19) last pick:  25742.500  16737.500
+\i (03:29:20) pick grid 25764.037 16812.278
+\t (03:29:20) last pick:  25764.000  16812.500
+\t (03:29:20) last pick:  25746.000  16835.000
+\t (03:29:20) Pick new location for element(s).
+\i (03:29:21) pick grid 25746.296 16849.028
+\t (03:29:21) last pick:  25746.500  16849.000
+\i (03:29:22) roam y 96 
+\i (03:29:22) roam y 96
+\i (03:29:23) roam y 96 
+\i (03:29:23) roam y 96
+\i (03:29:24) roam y 96 
+\i (03:29:24) roam y 96
+\i (03:29:25) roam y -96 
+\i (03:29:25) roam y -96
+\i (03:29:25) roam y -96 
+\i (03:29:25) roam y -96
+\i (03:29:25) roam y -96 
+\i (03:29:25) roam y -96
+\i (03:29:25) roam y -96 
+\i (03:29:25) roam y -96
+\i (03:29:25) roam y -96 
+\i (03:29:25) roam y -96
+\i (03:29:25) roam y -96 
+\i (03:29:25) roam y -96
+\i (03:29:25) roam y -96 
+\i (03:29:25) roam y -96
+\i (03:29:26) roam y -96 
+\i (03:29:26) roam y -96
+\i (03:29:26) roam y -96 
+\i (03:29:26) roam y -96
+\i (03:29:26) roam y -96 
+\i (03:29:26) roam y -96
+\i (03:29:26) roam y -96 
+\i (03:29:26) roam y -96
+\i (03:29:28) pick grid 26021.286 17676.534
+\t (03:29:28) last pick:  26021.500  17676.500
+\t (03:29:28) last pick:  26058.000  17665.000
+\t (03:29:28) Pick new location for element(s).
+\i (03:29:29) pick grid 26047.898 17680.335
+\t (03:29:29) last pick:  26048.000  17680.500
+\i (03:29:30) pick grid 26296.277 17641.051
+\t (03:29:30) last pick:  26296.500  17641.000
+\t (03:29:30) last pick:  26348.000  17634.000
+\t (03:29:30) Pick new location for element(s).
+\i (03:29:32) pick grid 26343.164 17646.120
+\t (03:29:32) last pick:  26343.000  17646.000
+\i (03:29:32) pick grid 26430.604 17641.051
+\t (03:29:32) last pick:  26430.500  17641.000
+\t (03:29:32) last pick:  26457.000  17635.000
+\t (03:29:32) Pick new location for element(s).
+\i (03:29:33) pick grid 26442.009 17652.456
+\t (03:29:33) last pick:  26442.000  17652.500
+\i (03:29:33) pick grid 26439.474 17520.663
+\t (03:29:33) last pick:  26439.500  17520.500
+\t (03:29:33) last pick:  26459.000  17508.000
+\t (03:29:33) Pick new location for element(s).
+\i (03:29:34) pick grid 26442.009 17513.060
+\t (03:29:34) last pick:  26442.000  17513.000
+\i (03:29:35) pick grid 26295.009 17523.198
+\t (03:29:35) last pick:  26295.000  17523.000
+\t (03:29:35) last pick:  26356.000  17507.000
+\t (03:29:35) Pick new location for element(s).
+\i (03:29:37) pick grid 26330.492 17513.060
+\t (03:29:37) last pick:  26330.500  17513.000
+\i (03:29:38) roam y -96 
+\i (03:29:38) roam y -96
+\i (03:29:38) roam y -96 
+\i (03:29:38) roam y -96
+\i (03:29:38) roam y -96 
+\i (03:29:38) roam y -96
+\i (03:29:38) roam x 96 
+\i (03:29:38) roam x 96
+\i (03:29:39) roam x 96 
+\i (03:29:39) roam x 96
+\i (03:29:39) roam x 96 
+\i (03:29:39) roam x 96
+\i (03:29:39) roam x 96 
+\i (03:29:39) roam x 96
+\i (03:29:39) roam x 96 
+\i (03:29:39) roam x 96
+\i (03:29:39) roam x 96 
+\i (03:29:39) roam x 96
+\i (03:29:39) roam y 96 
+\i (03:29:39) roam y 96
+\i (03:29:40) roam y 96 
+\i (03:29:40) roam y 96
+\i (03:29:41) roam y 96 
+\i (03:29:41) roam y 96
+\i (03:29:41) roam y 96 
+\i (03:29:41) roam y 96
+\i (03:29:41) roam y 96 
+\i (03:29:41) roam y 96
+\i (03:29:41) roam y 96 
+\i (03:29:41) roam y 96
+\i (03:29:41) roam y 96 
+\i (03:29:41) roam y 96
+\i (03:29:41) roam y 96 
+\i (03:29:41) roam y 96
+\i (03:29:41) roam y 96 
+\i (03:29:41) roam y 96
+\i (03:29:41) roam y 96 
+\i (03:29:41) roam y 96
+\i (03:29:41) roam x -96 
+\i (03:29:41) roam x -96
+\i (03:29:42) roam x -96 
+\i (03:29:42) roam x -96
+\i (03:29:42) roam x -96 
+\i (03:29:42) roam x -96
+\i (03:29:42) roam x -96 
+\i (03:29:42) roam x -96
+\i (03:29:42) roam x -96 
+\i (03:29:42) roam x -96
+\i (03:29:42) roam x -96 
+\i (03:29:42) roam x -96
+\i (03:29:42) roam x -96 
+\i (03:29:42) roam x -96
+\i (03:29:42) roam x -96 
+\i (03:29:42) roam x -96
+\i (03:29:43) roam x -96 
+\i (03:29:43) roam x -96
+\i (03:29:43) roam x -96 
+\i (03:29:43) roam x -96
+\i (03:29:43) roam x -96 
+\i (03:29:43) roam x -96
+\i (03:29:44) roam y 96 
+\i (03:29:44) roam y 96
+\i (03:29:44) roam y 96 
+\i (03:29:44) roam y 96
+\i (03:29:44) roam y 96 
+\i (03:29:44) roam y 96
+\i (03:49:24) trapsize 5288
+\i (03:49:24) trapsize 6336
+\i (03:49:25) exit 
+\f (03:49:25) Do you want to save the changes you made to 12-ikemb-0002-v3-ok.brd?
+\i (03:49:27) fillin no 

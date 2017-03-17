@@ -1,0 +1,351 @@
+Analysis & Synthesis report for buffer
+Tue Nov 01 13:02:54 2011
+Version 6.0 Build 178 04/27/2006 SJ Full Version
+
+
+---------------------
+; Table of Contents ;
+---------------------
+  1. Legal Notice
+  2. Analysis & Synthesis Summary
+  3. Analysis & Synthesis Settings
+  4. Analysis & Synthesis Source Files Read
+  5. Analysis & Synthesis Resource Usage Summary
+  6. Analysis & Synthesis Resource Utilization by Entity
+  7. User-Specified and Inferred Latches
+  8. General Register Statistics
+  9. Parameter Settings for User Entity Instance: SYNLPM_LATR1:wdata_3__Z|lpm_latch:U1
+ 10. Parameter Settings for User Entity Instance: SYNLPM_LATR1:wdata_1__Z|lpm_latch:U1
+ 11. Parameter Settings for User Entity Instance: SYNLPM_LATRS1:wdata_2__Z|lpm_latch:U1
+ 12. Parameter Settings for User Entity Instance: SYNLPM_LATR1:wdata_7__Z|lpm_latch:U1
+ 13. Parameter Settings for User Entity Instance: SYNLPM_LATRS1:wdata_4__Z|lpm_latch:U1
+ 14. Parameter Settings for User Entity Instance: SYNLPM_LATR1:wdata_0__Z|lpm_latch:U1
+ 15. Parameter Settings for User Entity Instance: SYNLPM_LATRS1:wdata_5__Z|lpm_latch:U1
+ 16. Parameter Settings for User Entity Instance: SYNLPM_LATRS1:wdata_6__Z|lpm_latch:U1
+ 17. Analysis & Synthesis Messages
+
+
+
+----------------
+; Legal Notice ;
+----------------
+Copyright (C) 1991-2006 Altera Corporation
+Your use of Altera Corporation's design tools, logic functions 
+and other software and tools, and its AMPP partner logic 
+functions, and any output files any of the foregoing 
+(including device programming or simulation files), and any 
+associated documentation or information are expressly subject 
+to the terms and conditions of the Altera Program License 
+Subscription Agreement, Altera MegaCore Function License 
+Agreement, or other applicable license agreement, including, 
+without limitation, that your use is for the sole purpose of 
+programming logic devices manufactured by Altera and sold by 
+Altera or its authorized distributors.  Please refer to the 
+applicable agreement for further details.
+
+
+
++-------------------------------------------------------------------------------+
+; Analysis & Synthesis Summary                                                  ;
++------------------------------------+------------------------------------------+
+; Analysis & Synthesis Status        ; Successful - Tue Nov 01 13:02:54 2011    ;
+; Quartus II Version                 ; 6.0 Build 178 04/27/2006 SJ Full Version ;
+; Revision Name                      ; buffer                                   ;
+; Top-level Entity Name              ; buffer                                   ;
+; Family                             ; Cyclone II                               ;
+; Total logic elements               ; 349                                      ;
+; Total registers                    ; 74                                       ;
+; Total pins                         ; 48                                       ;
+; Total virtual pins                 ; 0                                        ;
+; Total memory bits                  ; 0                                        ;
+; Embedded Multiplier 9-bit elements ; 0                                        ;
+; Total PLLs                         ; 0                                        ;
++------------------------------------+------------------------------------------+
+
+
++--------------------------------------------------------------------------------------------------------------+
+; Analysis & Synthesis Settings                                                                                ;
++--------------------------------------------------------------------+--------------------+--------------------+
+; Option                                                             ; Setting            ; Default Value      ;
++--------------------------------------------------------------------+--------------------+--------------------+
+; Device                                                             ; EP2C5T144C8        ;                    ;
+; Top-level entity name                                              ; buffer             ; buffer             ;
+; Family name                                                        ; Cyclone II         ; Stratix            ;
+; Use smart compilation                                              ; Off                ; Off                ;
+; Restructure Multiplexers                                           ; Auto               ; Auto               ;
+; Create Debugging Nodes for IP Cores                                ; Off                ; Off                ;
+; Preserve fewer node names                                          ; On                 ; On                 ;
+; Disable OpenCore Plus hardware evaluation                          ; Off                ; Off                ;
+; Verilog Version                                                    ; Verilog_2001       ; Verilog_2001       ;
+; VHDL Version                                                       ; VHDL93             ; VHDL93             ;
+; State Machine Processing                                           ; Auto               ; Auto               ;
+; Extract Verilog State Machines                                     ; On                 ; On                 ;
+; Extract VHDL State Machines                                        ; On                 ; On                 ;
+; Add Pass-Through Logic to Inferred RAMs                            ; On                 ; On                 ;
+; DSP Block Balancing                                                ; Auto               ; Auto               ;
+; Maximum DSP Block Usage                                            ; Unlimited          ; Unlimited          ;
+; NOT Gate Push-Back                                                 ; On                 ; On                 ;
+; Power-Up Don't Care                                                ; On                 ; On                 ;
+; Remove Redundant Logic Cells                                       ; Off                ; Off                ;
+; Remove Duplicate Registers                                         ; On                 ; On                 ;
+; Ignore CARRY Buffers                                               ; Off                ; Off                ;
+; Ignore CASCADE Buffers                                             ; Off                ; Off                ;
+; Ignore GLOBAL Buffers                                              ; Off                ; Off                ;
+; Ignore ROW GLOBAL Buffers                                          ; Off                ; Off                ;
+; Ignore LCELL Buffers                                               ; Off                ; Off                ;
+; Ignore SOFT Buffers                                                ; On                 ; On                 ;
+; Limit AHDL Integers to 32 Bits                                     ; Off                ; Off                ;
+; Optimization Technique -- Cyclone II                               ; Balanced           ; Balanced           ;
+; Carry Chain Length -- Stratix/Stratix GX/Cyclone/MAX II/Cyclone II ; 70                 ; 70                 ;
+; Auto Carry Chains                                                  ; On                 ; On                 ;
+; Auto Open-Drain Pins                                               ; On                 ; On                 ;
+; Remove Duplicate Logic                                             ; On                 ; On                 ;
+; Perform WYSIWYG Primitive Resynthesis                              ; Off                ; Off                ;
+; Perform gate-level register retiming                               ; Off                ; Off                ;
+; Allow register retiming to trade off Tsu/Tco with Fmax             ; On                 ; On                 ;
+; Auto ROM Replacement                                               ; On                 ; On                 ;
+; Auto RAM Replacement                                               ; On                 ; On                 ;
+; Auto Shift Register Replacement                                    ; On                 ; On                 ;
+; Auto Clock Enable Replacement                                      ; On                 ; On                 ;
+; Allow Synchronous Control Signals                                  ; On                 ; On                 ;
+; Force Use of Synchronous Clear Signals                             ; Off                ; Off                ;
+; Auto Resource Sharing                                              ; Off                ; Off                ;
+; Allow Any RAM Size For Recognition                                 ; Off                ; Off                ;
+; Allow Any ROM Size For Recognition                                 ; Off                ; Off                ;
+; Allow Any Shift Register Size For Recognition                      ; Off                ; Off                ;
+; Maximum Number of M4K Memory Blocks                                ; Unlimited          ; Unlimited          ;
+; Ignore translate_off and translate_on Synthesis Directives         ; Off                ; Off                ;
+; Show Parameter Settings Tables in Synthesis Report                 ; On                 ; On                 ;
+; Ignore Maximum Fan-Out Assignments                                 ; Off                ; Off                ;
+; Retiming Meta-Stability Register Sequence Length                   ; 2                  ; 2                  ;
+; PowerPlay Power Optimization                                       ; Normal compilation ; Normal compilation ;
+; HDL message level                                                  ; Level2             ; Level2             ;
++--------------------------------------------------------------------+--------------------+--------------------+
+
+
++-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+; Analysis & Synthesis Source Files Read                                                                                                                                              ;
++----------------------------------+-----------------+------------------------------------+-------------------------------------------------------------------------------------------+
+; File Name with User-Entered Path ; Used in Netlist ; File Type                          ; File Name with Absolute Path                                                              ;
++----------------------------------+-----------------+------------------------------------+-------------------------------------------------------------------------------------------+
+; buffer.vqm                       ; yes             ; User Verilog Quartus Mapping File  ; E:/project/IRISking/ikemb-0001/project/hardware/DM642/v4/fpga_v2/buffer/buffer/buffer.vqm ;
+; lpm_latch.tdf                    ; yes             ; Megafunction                       ; c:/altera/quartus60/libraries/megafunctions/lpm_latch.tdf                                 ;
+; lpm_constant.inc                 ; yes             ; Other                              ; c:/altera/quartus60/libraries/megafunctions/lpm_constant.inc                              ;
++----------------------------------+-----------------+------------------------------------+-------------------------------------------------------------------------------------------+
+
+
++------------------------------------------------------+
+; Analysis & Synthesis Resource Usage Summary          ;
++---------------------------------------------+--------+
+; Resource                                    ; Usage  ;
++---------------------------------------------+--------+
+; Estimated Total logic elements              ; 349    ;
+; Total combinational functions               ; 349    ;
+; Logic element usage by number of LUT inputs ;        ;
+;     -- 4 input functions                    ; 239    ;
+;     -- 3 input functions                    ; 49     ;
+;     -- <=2 input functions                  ; 61     ;
+;         -- Combinational cells for routing  ; 0      ;
+; Logic elements by mode                      ;        ;
+;     -- normal mode                          ; 321    ;
+;     -- arithmetic mode                      ; 28     ;
+; Total registers                             ; 74     ;
+; I/O pins                                    ; 48     ;
+; Maximum fan-out node                        ; nReset ;
+; Maximum fan-out                             ; 75     ;
+; Total fan-out                               ; 1561   ;
+; Average fan-out                             ; 3.31   ;
++---------------------------------------------+--------+
+
+
++--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+; Analysis & Synthesis Resource Utilization by Entity                                                                                                                                              ;
++-------------------------------+-------------------+--------------+-------------+------+--------------+---------+-----------+------+--------------+-----------------------------------------------+
+; Compilation Hierarchy Node    ; LC Combinationals ; LC Registers ; Memory Bits ; M4Ks ; DSP Elements ; DSP 9x9 ; DSP 18x18 ; Pins ; Virtual Pins ; Full Hierarchy Name                           ;
++-------------------------------+-------------------+--------------+-------------+------+--------------+---------+-----------+------+--------------+-----------------------------------------------+
+; |buffer                       ; 349 (81)          ; 74 (31)      ; 0           ; 0    ; 0            ; 0       ; 0         ; 48   ; 0            ; |buffer                                       ;
+;    |SYNLPM_LATR1:wdata_0__Z|  ; 1 (0)             ; 0 (0)        ; 0           ; 0    ; 0            ; 0       ; 0         ; 0    ; 0            ; |buffer|SYNLPM_LATR1:wdata_0__Z               ;
+;       |lpm_latch:U1|          ; 1 (1)             ; 0 (0)        ; 0           ; 0    ; 0            ; 0       ; 0         ; 0    ; 0            ; |buffer|SYNLPM_LATR1:wdata_0__Z|lpm_latch:U1  ;
+;    |SYNLPM_LATR1:wdata_1__Z|  ; 1 (0)             ; 0 (0)        ; 0           ; 0    ; 0            ; 0       ; 0         ; 0    ; 0            ; |buffer|SYNLPM_LATR1:wdata_1__Z               ;
+;       |lpm_latch:U1|          ; 1 (1)             ; 0 (0)        ; 0           ; 0    ; 0            ; 0       ; 0         ; 0    ; 0            ; |buffer|SYNLPM_LATR1:wdata_1__Z|lpm_latch:U1  ;
+;    |SYNLPM_LATR1:wdata_3__Z|  ; 1 (0)             ; 0 (0)        ; 0           ; 0    ; 0            ; 0       ; 0         ; 0    ; 0            ; |buffer|SYNLPM_LATR1:wdata_3__Z               ;
+;       |lpm_latch:U1|          ; 1 (1)             ; 0 (0)        ; 0           ; 0    ; 0            ; 0       ; 0         ; 0    ; 0            ; |buffer|SYNLPM_LATR1:wdata_3__Z|lpm_latch:U1  ;
+;    |SYNLPM_LATR1:wdata_7__Z|  ; 1 (0)             ; 0 (0)        ; 0           ; 0    ; 0            ; 0       ; 0         ; 0    ; 0            ; |buffer|SYNLPM_LATR1:wdata_7__Z               ;
+;       |lpm_latch:U1|          ; 1 (1)             ; 0 (0)        ; 0           ; 0    ; 0            ; 0       ; 0         ; 0    ; 0            ; |buffer|SYNLPM_LATR1:wdata_7__Z|lpm_latch:U1  ;
+;    |SYNLPM_LATRS1:wdata_2__Z| ; 2 (0)             ; 0 (0)        ; 0           ; 0    ; 0            ; 0       ; 0         ; 0    ; 0            ; |buffer|SYNLPM_LATRS1:wdata_2__Z              ;
+;       |lpm_latch:U1|          ; 2 (2)             ; 0 (0)        ; 0           ; 0    ; 0            ; 0       ; 0         ; 0    ; 0            ; |buffer|SYNLPM_LATRS1:wdata_2__Z|lpm_latch:U1 ;
+;    |SYNLPM_LATRS1:wdata_4__Z| ; 2 (0)             ; 0 (0)        ; 0           ; 0    ; 0            ; 0       ; 0         ; 0    ; 0            ; |buffer|SYNLPM_LATRS1:wdata_4__Z              ;
+;       |lpm_latch:U1|          ; 2 (2)             ; 0 (0)        ; 0           ; 0    ; 0            ; 0       ; 0         ; 0    ; 0            ; |buffer|SYNLPM_LATRS1:wdata_4__Z|lpm_latch:U1 ;
+;    |SYNLPM_LATRS1:wdata_5__Z| ; 2 (0)             ; 0 (0)        ; 0           ; 0    ; 0            ; 0       ; 0         ; 0    ; 0            ; |buffer|SYNLPM_LATRS1:wdata_5__Z              ;
+;       |lpm_latch:U1|          ; 2 (2)             ; 0 (0)        ; 0           ; 0    ; 0            ; 0       ; 0         ; 0    ; 0            ; |buffer|SYNLPM_LATRS1:wdata_5__Z|lpm_latch:U1 ;
+;    |SYNLPM_LATRS1:wdata_6__Z| ; 2 (0)             ; 0 (0)        ; 0           ; 0    ; 0            ; 0       ; 0         ; 0    ; 0            ; |buffer|SYNLPM_LATRS1:wdata_6__Z              ;
+;       |lpm_latch:U1|          ; 2 (2)             ; 0 (0)        ; 0           ; 0    ; 0            ; 0       ; 0         ; 0    ; 0            ; |buffer|SYNLPM_LATRS1:wdata_6__Z|lpm_latch:U1 ;
+;    |Wigend_In:wigend_in|      ; 30 (30)           ; 24 (24)      ; 0           ; 0    ; 0            ; 0       ; 0         ; 0    ; 0            ; |buffer|Wigend_In:wigend_in                   ;
+;    |Wigend_Out:wigend_out|    ; 226 (226)         ; 19 (19)      ; 0           ; 0    ; 0            ; 0       ; 0         ; 0    ; 0            ; |buffer|Wigend_Out:wigend_out                 ;
++-------------------------------+-------------------+--------------+-------------+------+--------------+---------+-----------+------+--------------+-----------------------------------------------+
+Note: For table entries with two numbers listed, the numbers in parentheses indicate the number of resources of the given type used by the specific entity alone. The numbers listed outside of parentheses indicate the total resources of the given type used by the specific entity and all of its sub-entities in the hierarchy.
+
+
++---------------------------------------------------------------------------------------------------+
+; User-Specified and Inferred Latches                                                               ;
++----------------------------------------------------+---------------------+------------------------+
+; Latch Name                                         ; Latch Enable Signal ; Free of Timing Hazards ;
++----------------------------------------------------+---------------------+------------------------+
+; SYNLPM_LATR1:wdata_0__Z|lpm_latch:U1|latches[0]    ; un1_wdata31_2       ; yes                    ;
+; SYNLPM_LATR1:wdata_1__Z|lpm_latch:U1|latches[0]    ; un1_nGCS_9_combout  ; yes                    ;
+; SYNLPM_LATRS1:wdata_2__Z|lpm_latch:U1|latches[0]   ; un1_wdata31         ; no                     ;
+; SYNLPM_LATR1:wdata_3__Z|lpm_latch:U1|latches[0]    ; un1_wdata30_2       ; yes                    ;
+; SYNLPM_LATRS1:wdata_4__Z|lpm_latch:U1|latches[0]   ; un1_wdata31_1       ; no                     ;
+; SYNLPM_LATRS1:wdata_5__Z|lpm_latch:U1|latches[0]   ; un1_wdata31         ; no                     ;
+; SYNLPM_LATRS1:wdata_6__Z|lpm_latch:U1|latches[0]   ; un1_wdata31         ; no                     ;
+; SYNLPM_LATR1:wdata_7__Z|lpm_latch:U1|latches[0]    ; un1_wdata31         ; yes                    ;
+; Number of user-specified and inferred latches = 8  ;                     ;                        ;
++----------------------------------------------------+---------------------+------------------------+
+Note: All latches listed above may not be present at the end of synthesis due to various synthesis optimizations.
+
+
++------------------------------------------------------+
+; General Register Statistics                          ;
++----------------------------------------------+-------+
+; Statistic                                    ; Value ;
++----------------------------------------------+-------+
+; Total registers                              ; 74    ;
+; Number of registers using Synchronous Clear  ; 0     ;
+; Number of registers using Synchronous Load   ; 30    ;
+; Number of registers using Asynchronous Clear ; 74    ;
+; Number of registers using Asynchronous Load  ; 0     ;
+; Number of registers using Clock Enable       ; 31    ;
+; Number of registers using Preset             ; 0     ;
++----------------------------------------------+-------+
+
+
++-----------------------------------------------------------------------------------+
+; Parameter Settings for User Entity Instance: SYNLPM_LATR1:wdata_3__Z|lpm_latch:U1 ;
++----------------+--------+---------------------------------------------------------+
+; Parameter Name ; Value  ; Type                                                    ;
++----------------+--------+---------------------------------------------------------+
+; LPM_WIDTH      ; 1      ; Untyped                                                 ;
+; LPM_AVALUE     ; UNUSED ; Untyped                                                 ;
++----------------+--------+---------------------------------------------------------+
+Note: In order to hide this table in the UI and the text report file, please set the "Show Parameter Settings Tables in Synthesis Report" option in "Analysis and Synthesis Settings -> More Settings" to "Off".
+
+
++-----------------------------------------------------------------------------------+
+; Parameter Settings for User Entity Instance: SYNLPM_LATR1:wdata_1__Z|lpm_latch:U1 ;
++----------------+--------+---------------------------------------------------------+
+; Parameter Name ; Value  ; Type                                                    ;
++----------------+--------+---------------------------------------------------------+
+; LPM_WIDTH      ; 1      ; Untyped                                                 ;
+; LPM_AVALUE     ; UNUSED ; Untyped                                                 ;
++----------------+--------+---------------------------------------------------------+
+Note: In order to hide this table in the UI and the text report file, please set the "Show Parameter Settings Tables in Synthesis Report" option in "Analysis and Synthesis Settings -> More Settings" to "Off".
+
+
++------------------------------------------------------------------------------------+
+; Parameter Settings for User Entity Instance: SYNLPM_LATRS1:wdata_2__Z|lpm_latch:U1 ;
++----------------+--------+----------------------------------------------------------+
+; Parameter Name ; Value  ; Type                                                     ;
++----------------+--------+----------------------------------------------------------+
+; LPM_WIDTH      ; 1      ; Untyped                                                  ;
+; LPM_AVALUE     ; UNUSED ; Untyped                                                  ;
++----------------+--------+----------------------------------------------------------+
+Note: In order to hide this table in the UI and the text report file, please set the "Show Parameter Settings Tables in Synthesis Report" option in "Analysis and Synthesis Settings -> More Settings" to "Off".
+
+
++-----------------------------------------------------------------------------------+
+; Parameter Settings for User Entity Instance: SYNLPM_LATR1:wdata_7__Z|lpm_latch:U1 ;
++----------------+--------+---------------------------------------------------------+
+; Parameter Name ; Value  ; Type                                                    ;
++----------------+--------+---------------------------------------------------------+
+; LPM_WIDTH      ; 1      ; Untyped                                                 ;
+; LPM_AVALUE     ; UNUSED ; Untyped                                                 ;
++----------------+--------+---------------------------------------------------------+
+Note: In order to hide this table in the UI and the text report file, please set the "Show Parameter Settings Tables in Synthesis Report" option in "Analysis and Synthesis Settings -> More Settings" to "Off".
+
+
++------------------------------------------------------------------------------------+
+; Parameter Settings for User Entity Instance: SYNLPM_LATRS1:wdata_4__Z|lpm_latch:U1 ;
++----------------+--------+----------------------------------------------------------+
+; Parameter Name ; Value  ; Type                                                     ;
++----------------+--------+----------------------------------------------------------+
+; LPM_WIDTH      ; 1      ; Untyped                                                  ;
+; LPM_AVALUE     ; UNUSED ; Untyped                                                  ;
++----------------+--------+----------------------------------------------------------+
+Note: In order to hide this table in the UI and the text report file, please set the "Show Parameter Settings Tables in Synthesis Report" option in "Analysis and Synthesis Settings -> More Settings" to "Off".
+
+
++-----------------------------------------------------------------------------------+
+; Parameter Settings for User Entity Instance: SYNLPM_LATR1:wdata_0__Z|lpm_latch:U1 ;
++----------------+--------+---------------------------------------------------------+
+; Parameter Name ; Value  ; Type                                                    ;
++----------------+--------+---------------------------------------------------------+
+; LPM_WIDTH      ; 1      ; Untyped                                                 ;
+; LPM_AVALUE     ; UNUSED ; Untyped                                                 ;
++----------------+--------+---------------------------------------------------------+
+Note: In order to hide this table in the UI and the text report file, please set the "Show Parameter Settings Tables in Synthesis Report" option in "Analysis and Synthesis Settings -> More Settings" to "Off".
+
+
++------------------------------------------------------------------------------------+
+; Parameter Settings for User Entity Instance: SYNLPM_LATRS1:wdata_5__Z|lpm_latch:U1 ;
++----------------+--------+----------------------------------------------------------+
+; Parameter Name ; Value  ; Type                                                     ;
++----------------+--------+----------------------------------------------------------+
+; LPM_WIDTH      ; 1      ; Untyped                                                  ;
+; LPM_AVALUE     ; UNUSED ; Untyped                                                  ;
++----------------+--------+----------------------------------------------------------+
+Note: In order to hide this table in the UI and the text report file, please set the "Show Parameter Settings Tables in Synthesis Report" option in "Analysis and Synthesis Settings -> More Settings" to "Off".
+
+
++------------------------------------------------------------------------------------+
+; Parameter Settings for User Entity Instance: SYNLPM_LATRS1:wdata_6__Z|lpm_latch:U1 ;
++----------------+--------+----------------------------------------------------------+
+; Parameter Name ; Value  ; Type                                                     ;
++----------------+--------+----------------------------------------------------------+
+; LPM_WIDTH      ; 1      ; Untyped                                                  ;
+; LPM_AVALUE     ; UNUSED ; Untyped                                                  ;
++----------------+--------+----------------------------------------------------------+
+Note: In order to hide this table in the UI and the text report file, please set the "Show Parameter Settings Tables in Synthesis Report" option in "Analysis and Synthesis Settings -> More Settings" to "Off".
+
+
++-------------------------------+
+; Analysis & Synthesis Messages ;
++-------------------------------+
+Info: *******************************************************************
+Info: Running Quartus II Analysis & Synthesis
+    Info: Version 6.0 Build 178 04/27/2006 SJ Full Version
+    Info: Processing started: Tue Nov 01 13:02:53 2011
+Info: Command: quartus_map --read_settings_files=on --write_settings_files=off buffer -c buffer
+Info: Found 5 design units, including 5 entities, in source file buffer.vqm
+    Info: Found entity 1: SYNLPM_LATR1
+    Info: Found entity 2: SYNLPM_LATRS1
+    Info: Found entity 3: Wigend_In
+    Info: Found entity 4: Wigend_Out
+    Info: Found entity 5: buffer
+Info: Elaborating entity "buffer" for the top level hierarchy
+Info: Elaborating entity "SYNLPM_LATR1" for hierarchy "SYNLPM_LATR1:wdata_3__Z"
+Info: Found 1 design units, including 1 entities, in source file c:/altera/quartus60/libraries/megafunctions/lpm_latch.tdf
+    Info: Found entity 1: lpm_latch
+Info: Elaborating entity "lpm_latch" for hierarchy "SYNLPM_LATR1:wdata_3__Z|lpm_latch:U1"
+Info: Elaborated megafunction instantiation "SYNLPM_LATR1:wdata_3__Z|lpm_latch:U1"
+Info: Elaborating entity "SYNLPM_LATRS1" for hierarchy "SYNLPM_LATRS1:wdata_2__Z"
+Info: Elaborating entity "lpm_latch" for hierarchy "SYNLPM_LATRS1:wdata_2__Z|lpm_latch:U1"
+Info: Elaborated megafunction instantiation "SYNLPM_LATRS1:wdata_2__Z|lpm_latch:U1"
+Info: Elaborating entity "Wigend_In" for hierarchy "Wigend_In:wigend_in"
+Info: Elaborating entity "Wigend_Out" for hierarchy "Wigend_Out:wigend_out"
+Warning: Output pins are stuck at VCC or GND
+    Warning: Pin "eint2" stuck at VCC
+    Warning: Pin "eint11" stuck at VCC
+    Warning: Pin "test[0]" stuck at VCC
+Warning: Design contains 2 input pin(s) that do not drive logic
+    Warning: No output dependent on input pin "nGCS[0]"
+    Warning: No output dependent on input pin "nFWE"
+Info: Implemented 431 device resources after synthesis - the final resource count might be different
+    Info: Implemented 26 input pins
+    Info: Implemented 14 output pins
+    Info: Implemented 8 bidirectional pins
+    Info: Implemented 383 logic cells
+Info: Quartus II Analysis & Synthesis was successful. 0 errors, 7 warnings
+    Info: Processing ended: Tue Nov 01 13:02:54 2011
+    Info: Elapsed time: 00:00:01
+
+

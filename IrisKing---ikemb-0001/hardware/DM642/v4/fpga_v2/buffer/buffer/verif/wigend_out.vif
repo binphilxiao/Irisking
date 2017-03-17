@@ -1,0 +1,61 @@
+#
+# Synplicity Verification Interface File
+# Generated using Synplify-pro
+#
+# Copyright (c) 1996-2004 Synplicity, Inc.
+# All rights reserved
+#
+
+global env
+# Set logfile options
+vif_set_result_file  wigend_out.vlf
+
+# RTL and technology files
+vif_add_library -original $env(QUARTUS_ROOTDIR)/eda/fv_lib/verilog
+vif_add_file -original  -verilog ../buffer.v
+vif_add_file -original  -verilog ../Wigend_in.v
+vif_add_file -original  -verilog ../wigend_out.v
+vif_set_top_module -original -top buffer
+ 
+vif_add_library -translated $env(QUARTUS_ROOTDIR)/eda/fv_lib/verilog
+vif_add_file -translated -verilog wigend_out.vqm
+vif_set_top_module -translated -top buffer 
+
+
+# Read FSM encoding
+
+
+# Memory map points
+# Memory redundancies
+
+
+# SRL redundancies
+# SRL map points
+
+# Compiler merged registers
+
+# Compiler pruned constant registers
+
+
+# RTL sequential redundancies
+
+# Technology sequential redundancies
+vif_set_equiv -translated wigend_in/wil_clk_tmp_i_0_Z wigend_in/wil_clk_tmp_i_Z
+
+# Inverted map points
+vif_set_map_point -register -inverted -original wigend_in/overtime_delay1 -translated wigend_in/overtime_delay1_i_0_Z
+vif_set_map_point -register -inverted -original wigend_in/overtime_delay3 -translated wigend_in/overtime_delay3_i_0_Z
+vif_set_map_point -register -inverted -original wigend_in/overtime_delay2 -translated wigend_in/overtime_delay2_i_Z
+vif_set_map_point -register -inverted -original wigend_in/wil0 -translated wigend_in/wil0_i_0_Z
+vif_set_map_point -register -inverted -original wigend_in/wil1 -translated wigend_in/wil1_i_0_Z
+vif_set_map_point -register -inverted -original wigend_in/wil_clk_tmp -translated wigend_in/wil_clk_tmp_i_0_Z
+vif_set_map_point -register -inverted -original wigend_in/wil_clk -translated wigend_in/wil_clk_i_0_Z
+vif_set_map_point -register -inverted -original wigend_in/overtime -translated wigend_in/overtime_i_Z
+
+# Port directions
+
+# Black box mapping
+
+
+# Register pruning
+

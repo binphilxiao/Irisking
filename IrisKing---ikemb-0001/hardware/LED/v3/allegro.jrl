@@ -1,0 +1,249 @@
+\t (00:00:03) allegro 16.0 p005 (v16-0-87F) i86
+\t (00:00:03) 
+
+\t (00:00:03) Opening existing drawing...
+\d (00:00:03) Database opened: E:/project/IRISking/ikemb-0001/project/hardware/LED/v3/LED.brd
+\i (00:00:04) trapsize 136892
+\i (00:00:04) trapsize 131059
+\i (00:00:04) trapsize 136512
+\i (00:00:05) trapsize 136512
+\i (00:00:06) generaledit 
+\i (00:00:06) open 
+\i (00:00:15) fillin "E:\project\IRISking\ikemb-0001\project\hardware\DM642\v3\EMB001-V3.1.brd"
+\i (00:00:15) cd "E:\project\IRISking\ikemb-0001\project\hardware\DM642\v3"
+\t (00:00:15) Opening existing drawing...
+\f (00:00:15) This database has been created using an earlier release of software and will be updated for compatibility with the current version.  Once saved, the database will only be accessible using the current or later versions of the software.  OK to proceed?
+\i (00:00:16) fillin yes 
+\t (00:00:16) Grids are drawn 40.960, 40.960 apart for enhanced viewability.
+\i (00:00:16) trapsize 17922
+\d (00:00:16) Database opened: E:/project/IRISking/ikemb-0001/project/hardware/DM642/v3/EMB001-V3.1.brd
+\i (00:00:17) generaledit 
+\i (00:00:17) hilight 
+\i (00:00:19) setwindow form.find
+\i (00:00:19) FORM find all_off  
+\i (00:00:20) FORM find symbols YES 
+\i (00:00:22) FORM find name_type Symbol (or Pin) 
+\i (00:00:23) FORM find find_name u22 
+\t (00:00:23) Grids are drawn 2.560, 2.560 apart for enhanced viewability.
+\i (00:00:23) setwindow pcb
+\i (00:00:23) trapsize 1797
+\t (00:00:23) Symbol "U22" highlighted.
+\i (00:00:24) zoom out 
+\i (00:00:24) setwindow pcb
+\i (00:00:24) zoom out 3881.790 2965.140
+\t (00:00:24) Grids are drawn 10.240, 10.240 apart for enhanced viewability.
+\i (00:00:24) trapsize 3593
+\i (00:00:25) zoom out 
+\i (00:00:25) setwindow pcb
+\i (00:00:25) zoom out 3881.790 2965.141
+\i (00:00:25) trapsize 7187
+\i (00:00:25) zoom out 
+\i (00:00:25) setwindow pcb
+\i (00:00:25) zoom out 3881.790 2965.141
+\t (00:00:25) Grids are drawn 40.960, 40.960 apart for enhanced viewability.
+\i (00:00:25) trapsize 14374
+\i (00:01:00) xNet Arm_Nrst_Out 
+\i (00:01:00) xname_flush 
+\i (00:01:00) trapsize 22661
+\t (00:01:00) Net "Arm_Nrst_Out" highlighted.
+\i (00:03:19) dehilight 
+\i (00:03:19) drag_start grid 4242.420 2437.974
+\i (00:03:19) drag_stop 3580.711 3131.409
+\t (00:03:19) Symbol "U22" dehighlighted.
+\i (00:03:20) drag_start grid 453.453 3181.264
+\i (00:03:21) drag_stop 1006.388 2605.668
+\i (00:03:22) dehilight 
+\i (00:03:22) drag_start grid 2184.775 1998.345
+\i (00:03:23) drag_stop 412.663 3122.345
+\i (00:03:24) setwindow form.find
+\i (00:03:24) FORM find nets YES 
+\i (00:03:24) setwindow pcb
+\i (00:03:24) drag_start grid 2452.179 1472.603
+\i (00:03:25) drag_stop 444.388 3158.603
+\t (00:03:25) Net "Arm_Nrst_Out" dehighlighted.
+\i (00:03:26) prepopup 1006.388 2768.829
+\i (00:03:26) done 
+\i (00:03:26) generaledit 
+\i (00:03:27) hilight 
+\i (00:03:29) setwindow form.find
+\i (00:03:29) FORM find name_type Net 
+\i (00:03:32) FORM find find_name nGCS5 
+\i (00:03:32) setwindow pcb
+\i (00:03:32) trapsize 17400
+\t (00:03:32) Net "Ngcs5" highlighted.
+\i (00:03:36) roam y -96 
+\i (00:03:36) roam y -96
+\i (00:03:36) roam y -96 
+\i (00:03:36) roam y -96
+\i (00:03:37) pick grid 2031.006 3916.241
+\t (00:03:37) last pick:  2031.010  3916.240
+\i (00:03:38) prepopup 2031.006 3916.241
+\i (00:03:39) done 
+\i (00:03:39) generaledit 
+\i (00:03:40) zoom in 
+\i (00:03:40) setwindow pcb
+\i (00:03:40) zoom in 2935.787 3262.014
+\t (00:03:40) Grids are drawn 10.240, 10.240 apart for enhanced viewability.
+\i (00:03:40) trapsize 8700
+\i (00:03:41) roam x 96 
+\i (00:03:41) roam x 96
+\i (00:03:42) roam x 96 
+\i (00:03:42) roam x 96
+\i (00:03:42) roam x 96 
+\i (00:03:42) roam x 96
+\i (00:03:42) roam x 96 
+\i (00:03:42) roam x 96
+\i (00:03:42) roam x -96 
+\i (00:03:42) roam x -96
+\i (00:03:43) roam x -96 
+\i (00:03:43) roam x -96
+\i (00:03:43) roam x -96 
+\i (00:03:43) roam x -96
+\i (00:03:43) roam x -96 
+\i (00:03:43) roam x -96
+\i (00:03:43) roam x -96 
+\i (00:03:43) roam x -96
+\i (00:03:43) roam x -96 
+\i (00:03:43) roam x -96
+\i (00:03:43) roam x -96 
+\i (00:03:43) roam x -96
+\i (00:03:46) roam y 96 
+\i (00:03:46) roam y 96
+\i (00:03:47) roam x -96 
+\i (00:03:47) roam x -96
+\i (00:03:47) roam y 96 
+\i (00:03:47) roam y 96
+\i (00:03:48) roam y 96 
+\i (00:03:48) roam y 96
+\i (00:03:48) roam y 96 
+\i (00:03:48) roam y 96
+\i (00:03:48) roam y 96 
+\i (00:03:48) roam y 96
+\i (00:03:48) roam y 96 
+\i (00:03:48) roam y 96
+\i (00:03:48) roam y 96 
+\i (00:03:48) roam y 96
+\i (00:03:48) roam y 96 
+\i (00:03:48) roam y 96
+\i (00:03:48) roam y 96 
+\i (00:03:48) roam y 96
+\i (00:03:48) roam y 96 
+\i (00:03:48) roam y 96
+\i (00:03:48) roam y 96 
+\i (00:03:48) roam y 96
+\i (00:03:49) roam x -96 
+\i (00:03:49) roam x -96
+\i (00:03:49) roam x -96 
+\i (00:03:49) roam x -96
+\i (00:03:50) roam x -96 
+\i (00:03:50) roam x -96
+\i (00:03:51) roam x -96 
+\i (00:03:51) roam x -96
+\i (00:03:52) roam y -96 
+\i (00:03:52) roam y -96
+\i (00:03:53) roam y -96 
+\i (00:03:53) roam y -96
+\i (00:03:54) roam y -96 
+\i (00:03:54) roam y -96
+\i (00:03:54) roam y -96 
+\i (00:03:54) roam y -96
+\i (00:03:55) roam y -96 
+\i (00:03:55) roam y -96
+\i (00:03:55) roam y -96 
+\i (00:03:55) roam y -96
+\i (00:03:56) roam y -96 
+\i (00:03:56) roam y -96
+\i (00:03:56) roam y -96 
+\i (00:03:56) roam y -96
+\i (00:03:57) roam y -96 
+\i (00:03:57) roam y -96
+\i (00:03:57) roam y -96 
+\i (00:03:57) roam y -96
+\i (00:03:58) roam y -96 
+\i (00:03:58) roam y -96
+\i (00:03:58) roam x 96 
+\i (00:03:58) roam x 96
+\i (00:03:59) roam x 96 
+\i (00:03:59) roam x 96
+\i (00:03:59) roam x 96 
+\i (00:03:59) roam x 96
+\i (00:03:59) roam x 96 
+\i (00:03:59) roam x 96
+\i (00:03:59) roam x 96 
+\i (00:03:59) roam x 96
+\i (00:04:18) roam y -96 
+\i (00:04:18) roam y -96
+\i (00:04:18) roam x 96 
+\i (00:04:18) roam x 96
+\i (00:04:19) roam x 96 
+\i (00:04:19) roam x 96
+\i (00:04:19) roam x 96 
+\i (00:04:19) roam x 96
+\i (00:04:19) roam x 96 
+\i (00:04:19) roam x 96
+\i (00:04:19) roam x 96 
+\i (00:04:19) roam x 96
+\i (00:04:19) roam x 96 
+\i (00:04:19) roam x 96
+\i (00:04:19) roam x 96 
+\i (00:04:19) roam x 96
+\i (00:04:20) roam x -96 
+\i (00:04:20) roam x -96
+\i (00:04:20) roam x -96 
+\i (00:04:20) roam x -96
+\i (00:04:20) roam x -96 
+\i (00:04:20) roam x -96
+\i (00:04:20) roam x -96 
+\i (00:04:20) roam x -96
+\i (00:04:21) roam x -96 
+\i (00:04:21) roam x -96
+\i (00:04:21) roam x -96 
+\i (00:04:21) roam x -96
+\i (00:04:21) roam x -96 
+\i (00:04:21) roam x -96
+\i (00:04:21) roam x -96 
+\i (00:04:21) roam x -96
+\i (00:04:21) roam x -96 
+\i (00:04:21) roam x -96
+\i (00:04:21) roam x -96 
+\i (00:04:21) roam x -96
+\i (00:04:21) roam x -96 
+\i (00:04:21) roam x -96
+\i (00:04:21) roam y 96 
+\i (00:04:21) roam y 96
+\i (00:04:21) roam y 96 
+\i (00:04:21) roam y 96
+\i (00:04:22) roam y 96 
+\i (00:04:22) roam y 96
+\i (00:04:22) roam y 96 
+\i (00:04:22) roam y 96
+\i (00:04:22) roam y 96 
+\i (00:04:22) roam y 96
+\i (00:04:22) roam y 96 
+\i (00:04:22) roam y 96
+\i (00:04:22) roam y 96 
+\i (00:04:22) roam y 96
+\i (00:04:23) roam y 96 
+\i (00:04:23) roam y 96
+\i (00:04:23) roam y 96 
+\i (00:04:23) roam y 96
+\i (00:04:24) roam y 96 
+\i (00:04:24) roam y 96
+\i (00:04:24) roam y 96 
+\i (00:04:24) roam y 96
+\i (00:04:25) roam y 96 
+\i (00:04:25) roam y 96
+\i (00:04:28) prepopup 1603.827 1005.279
+\i (00:04:30) move 
+\t (00:04:30) Select element(s) to move.
+\i (00:04:33) show element 
+\i (01:07:24) dehilight 
+\i (01:07:25) pick grid 1238.435 921.761
+\t (01:07:25) last pick:  1238.440  921.760
+\t (01:07:25) Net "Ngcs5" dehighlighted.
+\i (01:07:26) prepopup 1488.990 846.943
+\i (01:07:27) done 
+\i (01:07:27) generaledit 
+\i (01:10:06) exit 
+\f (01:10:06) Do you want to save the changes you made to EMB001-V3.1.brd?
+\i (01:10:07) fillin no 

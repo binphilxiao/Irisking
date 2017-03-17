@@ -1,0 +1,15 @@
+Flow Status : Successful - Tue Dec 22 11:24:35 2009
+Quartus II Version : 5.0 Build 171 11/03/2005 SP 2 SJ Full Version
+Revision Name : pld
+Top-level Entity Name : pld
+Family : Cyclone II
+Device : EP2C5T144C8
+Timing Models : Preliminary
+Met timing requirements : N/A
+Total combinational functions : 725
+Total registers : 403
+Total pins : 66
+Total virtual pins : 0
+Total memory bits : 0
+Embedded Multiplier 9-bit elements : 0
+Total PLLs : 0

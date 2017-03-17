@@ -1,0 +1,197 @@
+<?xml version="1.0"?>
+<?mso-application progid="Excel.Sheet"?>
+<Workbook xmlns="urn:schemas-microsoft-com:office:spreadsheet"
+ xmlns:o="urn:schemas-microsoft-com:office:office"
+ xmlns:x="urn:schemas-microsoft-com:office:excel"
+ xmlns:ss="urn:schemas-microsoft-com:office:spreadsheet"
+ xmlns:html="http://www.w3.org/TR/REC-html40">
+ <DocumentProperties xmlns="urn:schemas-microsoft-com:office:office">
+  <LastAuthor>DEL</LastAuthor>
+  <Created>2010-10-19T08:07:19Z</Created>
+  <Version>11.5606</Version>
+ </DocumentProperties>
+ <ExcelWorkbook xmlns="urn:schemas-microsoft-com:office:excel">
+  <WindowHeight>13050</WindowHeight>
+  <WindowWidth>18180</WindowWidth>
+  <WindowTopX>480</WindowTopX>
+  <WindowTopY>105</WindowTopY>
+  <ProtectStructure>False</ProtectStructure>
+  <ProtectWindows>False</ProtectWindows>
+ </ExcelWorkbook>
+ <Styles>
+  <Style ss:ID="Default" ss:Name="Normal">
+   <Alignment ss:Vertical="Center"/>
+   <Borders/>
+   <Font ss:FontName="宋体" x:CharSet="134" ss:Size="12"/>
+   <Interior/>
+   <NumberFormat/>
+   <Protection/>
+  </Style>
+ </Styles>
+ <Worksheet ss:Name="OV7720_left">
+  <Table ss:ExpandedColumnCount="5" ss:ExpandedRowCount="35" x:FullColumns="1"
+   x:FullRows="1" ss:DefaultColumnWidth="54" ss:DefaultRowHeight="14.25">
+   <Column ss:Index="3" ss:AutoFitWidth="0" ss:Width="240.75"/>
+   <Row>
+    <Cell><Data ss:Type="String">  Revised: Monday, October 18, 2010</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">          Revision: </Data></Cell>
+   </Row>
+   <Row ss:Index="10">
+    <Cell><Data ss:Type="String">Bill Of Materials        October 19,2010      16:07:02</Data></Cell>
+    <Cell><Data ss:Type="String">Page1</Data></Cell>
+   </Row>
+   <Row ss:Index="12">
+    <Cell><Data ss:Type="String">Item</Data></Cell>
+    <Cell><Data ss:Type="String">Quantity</Data></Cell>
+    <Cell><Data ss:Type="String">Reference</Data></Cell>
+    <Cell><Data ss:Type="String">Part</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">______________________________________________</Data></Cell>
+   </Row>
+   <Row ss:Index="15">
+    <Cell><Data ss:Type="Number">1</Data></Cell>
+    <Cell><Data ss:Type="Number">4</Data></Cell>
+    <Cell><Data ss:Type="String">C67,C70,C73,C74</Data></Cell>
+    <Cell><Data ss:Type="String">47uF</Data></Cell>
+    <Cell><Data ss:Type="Number">1206</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="Number">2</Data></Cell>
+    <Cell><Data ss:Type="Number">12</Data></Cell>
+    <Cell><Data ss:Type="String">C68,C69,C71,C72,C75,C76,C77,C78,C79,C80,C81,C82</Data></Cell>
+    <Cell><Data ss:Type="String">0.1uF</Data></Cell>
+    <Cell><Data ss:Type="Number">603</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="Number">3</Data></Cell>
+    <Cell><Data ss:Type="Number">1</Data></Cell>
+    <Cell><Data ss:Type="String">J20</Data></Cell>
+    <Cell><Data ss:Type="String">nop</Data></Cell>
+    <Cell><Data ss:Type="String">LENS_CON</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="Number">4</Data></Cell>
+    <Cell><Data ss:Type="Number">1</Data></Cell>
+    <Cell><Data ss:Type="String">J31</Data></Cell>
+    <Cell><Data ss:Type="String">HEADER 11X2</Data></Cell>
+    <Cell><Data ss:Type="String">TTIDC-22</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="Number">5</Data></Cell>
+    <Cell><Data ss:Type="Number">2</Data></Cell>
+    <Cell><Data ss:Type="String">J32,J35</Data></Cell>
+    <Cell><Data ss:Type="String">nop</Data></Cell>
+    <Cell><Data ss:Type="String">sip4</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="Number">6</Data></Cell>
+    <Cell><Data ss:Type="Number">1</Data></Cell>
+    <Cell><Data ss:Type="String">J34</Data></Cell>
+    <Cell><Data ss:Type="String">HEADER 4</Data></Cell>
+    <Cell><Data ss:Type="String">sip4</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="Number">7</Data></Cell>
+    <Cell><Data ss:Type="Number">1</Data></Cell>
+    <Cell><Data ss:Type="String">LED2</Data></Cell>
+    <Cell><Data ss:Type="String">LED</Data></Cell>
+    <Cell><Data ss:Type="String">d0805</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="Number">8</Data></Cell>
+    <Cell><Data ss:Type="Number">2</Data></Cell>
+    <Cell><Data ss:Type="String">L3,L4</Data></Cell>
+    <Cell><Data ss:Type="String">10uH</Data></Cell>
+    <Cell><Data ss:Type="Number">1206</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="Number">9</Data></Cell>
+    <Cell><Data ss:Type="Number">4</Data></Cell>
+    <Cell><Data ss:Type="String">RP44,RP45,RP46,RP47</Data></Cell>
+    <Cell><Data ss:Type="String">RP*4-22</Data></Cell>
+    <Cell><Data ss:Type="String">RP-4</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="Number">10</Data></Cell>
+    <Cell><Data ss:Type="Number">1</Data></Cell>
+    <Cell><Data ss:Type="String">R56</Data></Cell>
+    <Cell><Data ss:Type="Number">330</Data></Cell>
+    <Cell><Data ss:Type="Number">603</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="Number">11</Data></Cell>
+    <Cell><Data ss:Type="Number">6</Data></Cell>
+    <Cell><Data ss:Type="String">R57,R59,R61,R58,R96,R97</Data></Cell>
+    <Cell><Data ss:Type="String">nop</Data></Cell>
+    <Cell><Data ss:Type="Number">603</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="Number">12</Data></Cell>
+    <Cell><Data ss:Type="Number">5</Data></Cell>
+    <Cell><Data ss:Type="String">R65,R62,R63,R64,R66</Data></Cell>
+    <Cell><Data ss:Type="Number">0</Data></Cell>
+    <Cell><Data ss:Type="Number">603</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="Number">13</Data></Cell>
+    <Cell><Data ss:Type="Number">5</Data></Cell>
+    <Cell><Data ss:Type="String">R60,R98,R99,R100,R101</Data></Cell>
+    <Cell><Data ss:Type="String">2K</Data></Cell>
+    <Cell><Data ss:Type="Number">603</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="Number">14</Data></Cell>
+    <Cell><Data ss:Type="Number">1</Data></Cell>
+    <Cell><Data ss:Type="String">R72</Data></Cell>
+    <Cell><Data ss:Type="Number">33</Data></Cell>
+    <Cell><Data ss:Type="Number">603</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="Number">15</Data></Cell>
+    <Cell><Data ss:Type="Number">1</Data></Cell>
+    <Cell><Data ss:Type="String">U1</Data></Cell>
+    <Cell><Data ss:Type="String">OV7720</Data></Cell>
+    <Cell><Data ss:Type="String">CSP2</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="Number">16</Data></Cell>
+    <Cell><Data ss:Type="Number">1</Data></Cell>
+    <Cell><Data ss:Type="String">U17</Data></Cell>
+    <Cell><Data ss:Type="String">12Mhz</Data></Cell>
+    <Cell><Data ss:Type="String">OSC-2</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="Number">17</Data></Cell>
+    <Cell><Data ss:Type="Number">1</Data></Cell>
+    <Cell><Data ss:Type="String">U41</Data></Cell>
+    <Cell><Data ss:Type="String">MIC5239-1.8</Data></Cell>
+    <Cell><Data ss:Type="String">SOT-223</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="Number">18</Data></Cell>
+    <Cell><Data ss:Type="Number">1</Data></Cell>
+    <Cell><Data ss:Type="String">U92</Data></Cell>
+    <Cell><Data ss:Type="String">nop</Data></Cell>
+    <Cell><Data ss:Type="String">soic8</Data></Cell>
+   </Row>
+   <Row ss:Index="35">
+    <Cell ss:Index="3"><Data ss:Type="String">右眼的电路 r65 r66 是0  r58和r61是nop</Data></Cell>
+   </Row>
+  </Table>
+  <WorksheetOptions xmlns="urn:schemas-microsoft-com:office:excel">
+   <Selected/>
+   <Panes>
+    <Pane>
+     <Number>3</Number>
+     <ActiveRow>24</ActiveRow>
+     <ActiveCol>2</ActiveCol>
+    </Pane>
+   </Panes>
+   <ProtectObjects>False</ProtectObjects>
+   <ProtectScenarios>False</ProtectScenarios>
+  </WorksheetOptions>
+ </Worksheet>
+</Workbook>

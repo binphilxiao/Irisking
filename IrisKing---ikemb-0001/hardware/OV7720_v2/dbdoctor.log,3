@@ -1,0 +1,12 @@
+
+****************************************
+DBDOCTOR of drawing E:/project/IRISking/ikemb-0001/project/hardware/OV7720_v2/ov7720_V2.brd
+****************************************
+
+ERROR IN ATTRIBUTE 
+  POINTER TO ATTRIBUTE INVALID
+   Error was fixed.
+
+WARNING   WARNING(SPMHDB-42): Run batch DRC to correctly regenerate DRC errs.
+
+1 warnings, 1 errors detected, 1 errors  fixed.

@@ -1,0 +1,53 @@
+{ Using PSTWRITER 15.7.0 p001Dec-17-2009 at 10:20:27 }
+
+#1 Warning [ALG0047] "No_connect" property on Pin "U6.1" ignored for U6: SCHEMATIC1, PPC_PCI_ES1946 (254.00, 167.64). Connecting pin to net "GAIN1".
+#2 Warning [ALG0047] "No_connect" property on Pin "U6.8" ignored for U6: SCHEMATIC1, PPC_PCI_ES1946 (254.00, 167.64). Connecting pin to net "GAIN2".
+#3 Warning [ALG0016] Part Name "BATTERY_1_BT2032_IC_BATTERY - 3V" is renamed to "BATTERY_1_BT2032_IC_BATTERY - 3".
+#4 Warning [ALG0016] Part Name "CAP_CASEE_7343_DISCRETE_470UF/10V" is renamed to "CAP_CASEE_7343_DISCRETE_470UF/1".
+#5 Warning [ALG0016] Part Name "CON30_0_LCD45_SDIP45 - LCDÏÂ½Ó´¥" is renamed to "CON30_0_LCD45_SDIP45 - LCD".
+#6 Warning [ALG0016] Part Name "HEADER 5X2_TDIP10_TDIP10 - CONFIG_JTAG" is renamed to "HEADER 5X2_TDIP10_TDIP10 - CONF".
+#7 Warning [ALG0016] Part Name "CONN SOCKET 3_1_TIP3_TIP3 - BREAK" is renamed to "CONN SOCKET 3_1_TIP3_TIP3 - BRE".
+#8 Warning [ALG0016] Part Name "CONN JACK PWR_POWER_CONN JACK PWR" is renamed to "CONN JACK PWR_POWER_CONN JACK P".
+#9 Warning [ALG0016] Part Name "PPC_JTAG_TDIP16_TDIP16 - PPC_JTAG" is renamed to "PPC_JTAG_TDIP16_TDIP16 - PPC_JT".
+#10 Warning [ALG0016] Part Name "HEADER 5X2_TDIP10_TDIP10 - FPGA_JTAG" is renamed to "HEADER 5X2_TDIP10_TDIP10 - FPGA".
+#11 Warning [ALG0016] Part Name "CONN RCPT 16X2_EURO32-F_CONN RCPT 16X2" is renamed to "CONN RCPT 16X2_EURO32-F_CONN RC".
+#12 Warning [ALG0016] Part Name "CONN RECT 9X2_3_IDC-26_IDC26 - SHIELD" is renamed to "CONN RECT 9X2_3_IDC-26_IDC26 -".
+#13 Warning [ALG0016] Part Name "CONN RECT 9X2_4_IDC-10_IDC10 - KEY" is renamed to "CONN RECT 9X2_4_IDC-10_IDC10 -".
+#14 Warning [ALG0016] Part Name "PHONEJACK STEREO SW_AUDIO-JACK_AUDIO_JACK" is renamed to "PHONEJACK STEREO SW_AUDIO-JACK_".
+#15 Warning [ALG0016] Part Name "HEADER 7X2_TDIP14_TDIP14 - DSP_JTAG" is renamed to "HEADER 7X2_TDIP14_TDIP14 - DSP_".
+#16 Warning [ALG0016] Part Name "RJ45X2_LED_1_RJ45_LED_IO_RJ45_LED" is renamed to "RJ45X2_LED_1_RJ45_LED_IO_RJ45_L".
+#17 Warning [ALG0051] Pin "TSEC1_RXD[0]/USBDR_NXT/TSEC_1588_TRIG1" is renamed to "TSEC1_RXD[0]/USBDR_NXT/TSEC_158" after substituting illegal characters in Package MPC8313E , U1A: SCHEMATIC1, PPC_Power (0.80, 2.00).
+#18 Warning [ALG0051] Pin "TSEC1_RX_ER/USBDR_DIR/TESC_1588_TRIG2" is renamed to "TSEC1_RX_ER/USBDR_DIR/TESC_1588" after substituting illegal characters in Package MPC8313E , U1A: SCHEMATIC1, PPC_Power (0.80, 2.00).
+#19 Warning [ALG0051] Pin "TSEC1_TX_CLK/USBDR_CLK/TSEC_1588_CLK" is renamed to "TSEC1_TX_CLK/USBDR_CLK/TSEC_158" after substituting illegal characters in Package MPC8313E , U1A: SCHEMATIC1, PPC_Power (0.80, 2.00).
+#20 Warning [ALG0051] Pin "TSEC1_TXD[0]/USBDR_STP/TSEC_1588_PP3" is renamed to "TSEC1_TXD[0]/USBDR_STP/TSEC_158" after substituting illegal characters in Package MPC8313E , U1A: SCHEMATIC1, PPC_Power (0.80, 2.00).
+#21 Warning [ALG0051] Pin "TSEC2_COL/GTM1_TIN4/GTM2_TIN3/GPIO[15]" is renamed to "TSEC2_COL/GTM1_TIN4/GTM2_TIN3/G" after substituting illegal characters in Package MPC8313E , U1A: SCHEMATIC1, PPC_Power (0.80, 2.00).
+#22 Warning [ALG0051] Pin "TSEC2_CRS/G\T\M\1\_\T\G\A\T\E\4\/G\T\M\2\_\T\G\A\T\E\3\/GPIO[16]" is renamed to "TSEC2_CRS/G\T\M\1\_\T\G\A\T\E\4" after substituting illegal characters in Package MPC8313E , U1A: SCHEMATIC1, PPC_Power (0.80, 2.00).
+#23 Warning [ALG0051] Pin "TSEC2_GTX_CLK/G\T\M\1\_\T\O\U\T\4\/G\T\M\2\_\T\O\U\T\3\/GPIO[17]" is renamed to "TSEC2_GTX_CLK/G\T\M\1\_\T\O\U\T" after substituting illegal characters in Package MPC8313E , U1A: SCHEMATIC1, PPC_Power (0.80, 2.00).
+#24 Warning [ALG0051] Pin "TSEC2_RX_CLK/GTM1_TIN2/GTM2_TIN1/GPIO[18]" is renamed to "TSEC2_RX_CLK/GTM1_TIN2/GTM2_TIN" after substituting illegal characters in Package MPC8313E , U1A: SCHEMATIC1, PPC_Power (0.80, 2.00).
+#25 Warning [ALG0051] Pin "TSCE2_RX_DV/G\T\M\1\_\T\G\A\T\E\2\/G\T\M\2\_\T\G\A\T\E\1\/GPIO[19]" is renamed to "TSCE2_RX_DV/G\T\M\1\_\T\G\A\T\E" after substituting illegal characters in Package MPC8313E , U1A: SCHEMATIC1, PPC_Power (0.80, 2.00).
+#26 Warning [ALG0051] Pin "TSEC2_RX_ER/G\T\M\1\_\T\O\U\T\2\/G\T\M\2\_\T\O\U\T\1\/GPIO[24]" is renamed to "TSEC2_RX_ER/G\T\M\1\_\T\O\U\T\2" after substituting illegal characters in Package MPC8313E , U1A: SCHEMATIC1, PPC_Power (0.80, 2.00).
+#27 Warning [ALG0051] Pin "TSEC2_TXD[3]/CFG_RESET_SOURCE[0]" is renamed to "TSEC2_TXD[3]/CFG_RESET_SOURCE[0" after substituting illegal characters in Package MPC8313E , U1A: SCHEMATIC1, PPC_Power (0.80, 2.00).
+#28 Warning [ALG0051] Pin "TSEC2_TXD[2]/CFG_RESET_SOURCE[1]" is renamed to "TSEC2_TXD[2]/CFG_RESET_SOURCE[1" after substituting illegal characters in Package MPC8313E , U1A: SCHEMATIC1, PPC_Power (0.80, 2.00).
+#29 Warning [ALG0051] Pin "TSEC2_TXD[1]/CFG_RESET_SOURCE[2]" is renamed to "TSEC2_TXD[1]/CFG_RESET_SOURCE[2" after substituting illegal characters in Package MPC8313E , U1A: SCHEMATIC1, PPC_Power (0.80, 2.00).
+#30 Warning [ALG0051] Pin "TSEC2_TXD[0]/CFG_RESET_SOURCE[3]" is renamed to "TSEC2_TXD[0]/CFG_RESET_SOURCE[3" after substituting illegal characters in Package MPC8313E , U1A: SCHEMATIC1, PPC_Power (0.80, 2.00).
+#31 Warning [ALG0051] Pin "USBDR_DRIVE_VBUS/GTM1_TIN1/GTM2_TIN2" is renamed to "USBDR_DRIVE_VBUS/GTM1_TIN1/GTM2" after substituting illegal characters in Package MPC8313E , U1A: SCHEMATIC1, PPC_Power (0.80, 2.00).
+#32 Warning [ALG0051] Pin "USBDR_PWRFAULT/G\T\M\1\_\T\G\A\T\E\1\/G\T\M\2\_\T\G\A\T\E\2\" is renamed to "USBDR_PWRFAULT/G\T\M\1\_\T\G\A\" after substituting illegal characters in Package MPC8313E , U1A: SCHEMATIC1, PPC_Power (0.80, 2.00).
+#33 Warning [ALG0051] Pin "USBDR_PCTL0/G\T\M\1\_\T\O\U\T\1\" is renamed to "USBDR_PCTL0/G\T\M\1\_\T\O\U\T\1" after substituting illegal characters in Package MPC8313E , U1A: SCHEMATIC1, PPC_Power (0.80, 2.00).
+#34 Warning [ALG0051] Pin "I\R\Q\4/\C\K\S\T\O\P\_\I\N\/GPIO12" is renamed to "I\R\Q\4/\C\K\S\T\O\P\_\I\N\/GPI" after substituting illegal characters in Package MPC8313F , U1A: SCHEMATIC1, PPC_Power (0.80, 2.00).
+#35 Warning [ALG0051] Pin "SPIMOSI/GTM1_TIN3/GTM2_TIN4/GPIO28" is renamed to "SPIMOSI/GTM1_TIN3/GTM2_TIN4/GPI" after substituting illegal characters in Package MPC8313F , U1A: SCHEMATIC1, PPC_Power (0.80, 2.00).
+#36 Warning [ALG0051] Pin "SPIMISO/G\T\M\1\_\T\G\A\T\E\3\/G\T\M\2\_\T\G\A\T\E\4\/GPIO29/LDVAL" is renamed to "SPIMISO/G\T\M\1\_\T\G\A\T\E\3\/" after substituting illegal characters in Package MPC8313F , U1A: SCHEMATIC1, PPC_Power (0.80, 2.00).
+#37 Warning [ALG0051] Pin "SPICLK/G\T\M\1\_\T\O\U\T\3\/GPIO30" is renamed to "SPICLK/G\T\M\1\_\T\O\U\T\3\/GPI" after substituting illegal characters in Package MPC8313F , U1A: SCHEMATIC1, PPC_Power (0.80, 2.00).
+#38 Warning [ALG0016] Part Name "IRU1206_SOT-223_IC_MIC39100-2.5WS" is renamed to "IRU1206_SOT-223_IC_MIC39100-2.5".
+#39 Warning [ALG0016] Part Name "DM642_2_FCBGA-548_(S1+S2+S3+S4+S5+S6)_TMS320DM642AZDK6" is renamed to "DM642_2_FCBGA-548_(S1+S2+S3+S4+".
+#40 Warning [ALG0051] Pin "A\A\R\E\/A\S\D\C\A\S\/A\S\A\D\S\/A\S\R\E\" is renamed to "A\A\R\E\/A\S\D\C\A\S\/A\S\A\D\S" after substituting illegal characters in Package DM642_2AA , U18A: SCHEMATIC1, DSP_EMIF (4.10, 1.00).
+#41 Warning [ALG0016] Part Name "MT48LC4M32B2_0_TSOP-86_MT48LC8M32B2-7" is renamed to "MT48LC4M32B2_0_TSOP-86_MT48LC8M".
+#42 Warning [ALG0016] Part Name "OSCILLATION_OSC-4_32.768KHZ / 3.3V" is renamed to "OSCILLATION_OSC-4_32.768KHZ / 3".
+#43 Warning [ALG0016] Part Name "HY5PS1G1631CFP_1_PBGA-84_MT47H128M8HQ-3" is renamed to "HY5PS1G1631CFP_1_PBGA-84_MT47H1".
+#44 Warning [ALG0016] Part Name "MBM29LV800BA-70PFTN_3_TSOP-48_IC_S29GL064A90TFIR3" is renamed to "MBM29LV800BA-70PFTN_3_TSOP-48_I".
+#45 Warning [ALG0016] Part Name "AAT3216_SOT23-5_AAT3216IGV-1.2-T1" is renamed to "AAT3216_SOT23-5_AAT3216IGV-1.2-".
+Scanning netlist files ...
+Loading... D:\project\IRISking\ikemb-0002\project\hardware\ikemb-0002-v3\allegro/pstchip.dat
+Loading... D:\project\IRISking\ikemb-0002\project\hardware\ikemb-0002-v3\allegro/pstchip.dat
+Loading... D:\project\IRISking\ikemb-0002\project\hardware\ikemb-0002-v3\allegro/pstxprt.dat
+Loading... D:\project\IRISking\ikemb-0002\project\hardware\ikemb-0002-v3\allegro/pstxnet.dat
+packaging the design view...

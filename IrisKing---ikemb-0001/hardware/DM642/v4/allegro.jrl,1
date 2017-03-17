@@ -1,0 +1,101 @@
+\t (00:00:07) allegro 16.0 p005 (v16-0-87F) i86
+\t (00:00:07) 
+
+\t (00:00:07) Starting new drawing...
+\i (00:00:08) trapsize 1075
+\i (00:00:08) trapsize 1041
+\i (00:00:08) trapsize 1132
+\i (00:00:08) trapsize 1179
+\i (00:00:13) trapsize 1179
+\i (00:00:13) generaledit 
+\i (00:00:16) open 
+\i (00:00:18) fillin "EMB001-V4.1.brd"
+\t (00:00:18) Opening existing drawing...
+\i (00:00:19) trapsize 82793
+\d (00:00:19) Database opened: E:/project/IRISking/ikemb-0001/project/hardware/DM642/v4/EMB001-V4.1.brd
+\i (00:00:19) generaledit 
+\i (00:00:21) setwindow form.vf_vis
+\i (00:00:21) FORM vf_vis 1 all_colorvisible YES 
+\i (00:00:22) FORM vf_vis 3 all_colorvisible YES 
+\i (00:00:23) FORM vf_vis 5 all_colorvisible YES 
+\i (00:00:25) FORM vf_vis 6 all_colorvisible YES 
+\i (00:00:29) FORM vf_vis 8 all_colorvisible YES 
+\i (00:00:31) FORM vf_vis 10 all_colorvisible YES 
+\i (00:00:32) setwindow pcb
+\i (00:00:32) pick grid 9314.715 -124.954
+\t (00:00:32) last pick:  9314.720  -124.950
+\i (00:00:34) shadow toggle 
+\i (00:00:35) pick grid 5655.281 -2873.670
+\t (00:00:35) last pick:  5655.280  -2873.670
+\i (00:00:36) zoom in 
+\i (00:00:36) setwindow pcb
+\i (00:00:36) zoom in 2840.331 636.738
+\i (00:00:36) trapsize 41396
+\i (00:00:36) zoom in 
+\i (00:00:36) setwindow pcb
+\i (00:00:36) zoom in 2840.331 636.739
+\i (00:00:36) trapsize 20698
+\i (00:00:36) zoom in 
+\i (00:00:36) setwindow pcb
+\i (00:00:36) zoom in 2840.332 636.738
+\i (00:00:36) trapsize 10349
+\i (00:00:42) roam x 96 
+\i (00:00:42) roam x 96
+\i (00:00:42) roam x 96 
+\i (00:00:42) roam x 96
+\i (00:00:42) roam x 96 
+\i (00:00:42) roam x 96
+\i (00:00:42) roam x 96 
+\i (00:00:42) roam x 96
+\i (00:00:43) roam x 96 
+\i (00:00:43) roam x 96
+\i (00:00:43) roam x 96 
+\i (00:00:43) roam x 96
+\i (00:00:44) roam x -96 
+\i (00:00:44) roam x -96
+\i (00:00:44) roam x -96 
+\i (00:00:44) roam x -96
+\i (00:00:44) roam x -96 
+\i (00:00:44) roam x -96
+\i (00:00:44) roam x -96 
+\i (00:00:44) roam x -96
+\i (00:00:45) roam y 96 
+\i (00:00:45) roam y 96
+\i (00:00:45) roam y 96 
+\i (00:00:45) roam y 96
+\i (00:00:45) roam x -96 
+\i (00:00:45) roam x -96
+\i (00:00:45) roam x -96 
+\i (00:00:45) roam x -96
+\i (00:00:47) prepopup 3020.386 -528.755
+\i (00:00:48) pick grid 2894.128 -590.850
+\t (00:00:48) last pick:  2894.130  -590.850
+\i (00:00:49) move 
+\t (00:00:49) Select element(s) to move.
+\i (00:00:51) show element 
+\i (00:00:52) setwindow form.find
+\i (00:00:52) FORM find nets YES 
+\i (00:01:02) setwindow pcb
+\i (00:01:02) hilight 
+\i (00:01:03) pick grid 3072.132 -381.799
+\t (00:01:03) last pick:  3072.130  -381.800
+\t (00:01:03) Net "Ccd_Gnd2" highlighted.
+\i (00:01:05) pick grid 2581.586 -367.310
+\t (00:01:05) last pick:  2581.590  -367.310
+\t (00:01:05) Net "Ccd_Gnd1" highlighted.
+\i (00:01:07) prepopup 3343.278 230.867
+\i (00:01:07) done 
+\i (00:01:07) generaledit 
+\i (00:01:08) roam y -96 
+\i (00:01:08) roam y -96
+\i (00:01:09) roam y -96 
+\i (00:01:09) roam y -96
+\i (00:23:09) exit 
+\f (00:23:09) Do you want to save the changes you made to EMB001-V4.1.brd?
+\i (00:23:11) fillin menu_cancel 
+\i (00:23:11) generaledit 
+\i (00:26:07) pick grid 3043.154 73.560
+\t (00:26:07) last pick:  3043.150  73.560
+\i (00:52:59) exit 
+\f (00:52:59) Do you want to save the changes you made to EMB001-V4.1.brd?
+\i (00:53:01) fillin no 

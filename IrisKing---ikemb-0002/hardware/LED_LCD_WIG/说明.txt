@@ -1,0 +1,80 @@
+1、LCD：长300高300原点(0,-100)
+外廓
+segment:xy (129.5604 55.4522) xy (279.5604 55.4522) width (0.0000) font (Solid) 
+segment:xy (279.5604 55.4522) xy (279.5604 -44.5478) width (0.0000) font (Solid)
+segment:xy (279.5604 -44.5478) xy (129.5604 -44.5478) width (0.0000) font (Solid) 
+segment:xy (129.5604 -44.5478) xy (129.5604 55.4522) width (0.0000) font (Solid) 
+安装孔使用2mm螺钉，孔径2
+center-xy:    (136.5604 49.4522) radius (2.0000)
+center-xy:    (272.5604 49.4522) radius (2.0000)
+center-xy:    (136.5604 -41.5478) radius (2.0000)
+center-xy:    (272.5604 -41.5478) radius (2.0000)
+液晶座
+segment:xy (196.0604 20.4522) xy (220.0604 20.4522) width (0.0000) font (Solid)
+segment:xy (220.0604 20.4522) xy (220.0604 18.4522) width (0.0000) font (Solid)
+segment:xy (220.0604 18.4522) xy (196.0604 18.4522) width (0.0000) font (Solid)
+segment:xy (196.0604 18.4522) xy (196.0604 20.4522) width (0.0000) font (Solid)
+
+
+2、LED
+外廓
+164.0815 17.1449
+207.0815 17.1449
+208.8815 15.3449
+208.8815 -7.6551
+207.0815 -9.4551
+164.0815 -9.4551
+162.2815 -7.6551
+162.2815 15.3449
+164.0815 17.1449
+segment:xy (164.0815 17.1449) xy (208.8815 17.1449) width (0.0000) font (Solid) 
+segment:xy (208.8815 17.1449) xy (208.8815 -9.4551) width (0.0000) font (Solid) 
+segment:xy (208.8815 -9.4551) xy (162.2815 -9.4551) width (0.0000) font (Solid) 
+segment:xy (162.2815 -9.4551) xy (162.2815 17.1449) width (0.0000) font (Solid) 
+segment:xy (162.2815 17.1449) xy (164.0815 17.1449) width (0.0000) font (Solid) 
+
+安装孔
+center-xy:    (164.7815 3.8449) radius (1.1500)   CCW
+center-xy:    (205.6815 3.8449) radius (1.1500)   CCW
+
+灯位置
+center-xy:    (174.9315 12.2627) radius (4.8600)   CCW
+center-xy:    (184.6515 12.2627) radius (4.8600)   CCW
+center-xy:    (194.3715 12.2627) radius (4.8600)   CCW
+center-xy:    (204.0915 12.2627) radius (4.8600)   CCW
+
+center-xy:    (170.0715 3.8449) radius (4.8600)   CCW
+center-xy:    (179.7915 3.8449) radius (4.8600)   CCW
+center-xy:    (189.5115 3.8449) radius (4.8600)   CCW
+center-xy:    (199.2315 3.8449) radius (4.8600)   CCW
+
+center-xy:    (174.9315 -4.5728) radius (4.8600)   CCW
+center-xy:    (184.6515 -4.5728) radius (4.8600)   CCW
+center-xy:    (194.3715 -4.5728) radius (4.8600)   CCW
+center-xy:    (204.0915 -4.5728) radius (4.8600)   CCW
+
+
+3、USB
+外廓
+segment:xy (84.1157 12.3172) xy (44.1157 12.3172) width (0.0000) font (Solid)
+segment:xy (44.1157 12.3172) xy (44.1157 -6.6828) width (0.0000) font (Solid)
+segment:xy (44.1157 -6.6828) xy (84.1157 -6.6828) width (0.0000) font (Solid)
+segment:xy (84.1157 -6.6828) xy (84.1157 12.3172) width (0.0000) font (Solid)
+
+USB位置
+segment:xy (56.6157 -2.1828) xy (56.6157 15.3172) width (0.0000) font (Solid)
+segment:xy (56.6157 15.3172) xy (71.6157 15.3172) width (0.0000) font (Solid)
+segment:xy (71.6157 15.3172) xy (71.6157 -2.1828) width (0.0000) font (Solid)
+segment:xy (71.6157 -2.1828) xy (56.6157 -2.1828) width (0.0000) font (Solid)
+
+安装孔
+center-xy:    (49.6157 0.3172) radius (1.7500)   CCW
+center-xy:    (78.6157 0.3172) radius (1.7500)   CCW
+
+
+4、韦根
+
+
+
+5、键盘
+

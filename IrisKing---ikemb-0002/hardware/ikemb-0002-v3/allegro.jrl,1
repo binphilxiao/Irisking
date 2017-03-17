@@ -1,0 +1,101 @@
+\t (00:00:03) allegro 16.0 p005 (v16-0-87F) i86
+\t (00:00:03) 
+
+\t (00:00:03) Starting new drawing...
+\i (00:00:04) trapsize 1075
+\i (00:00:04) trapsize 1041
+\i (00:00:06) trapsize 1179
+\i (00:00:06) generaledit 
+\i (00:00:07) open 
+\i (00:00:08) fillin "12-ikemb-0002-v3-final.brd"
+\t (00:00:08) Opening existing drawing...
+\f (00:00:08) This database has been created using an earlier release of software and will be updated for compatibility with the current version.  Once saved, the database will only be accessible using the current or later versions of the software.  OK to proceed?
+\i (00:00:09) fillin yes 
+\i (00:00:10) trapsize 51460
+\d (00:00:10) Database opened: E:/project/IRISking/ikemb-0002/project/hardware/ikemb-0002-v3/12-ikemb-0002-v3-final.brd
+\i (00:00:10) generaledit 
+\i (00:00:12) setwindow form.vf_vis
+\i (00:00:12) FORM vf_vis 2 all_colorvisible YES 
+\i (00:00:14) FORM vf_vis 5 all_colorvisible YES 
+\i (00:00:17) setwindow pcb
+\i (00:00:17) delete 
+\i (00:00:21) pick grid 25454.387 13514.534
+\t (00:00:21) last pick:  25454.500  13514.500
+\t (00:00:21) Dynamic Shape "Gnd, Boundary/Gnd"
+\i (00:00:22) pick grid 28943.377 14996.582
+\t (00:00:22) last pick:  28943.500  14996.500
+\i (00:00:26) pick grid 22871.094 13854.170
+\t (00:00:26) last pick:  22871.000  13854.000
+\t (00:00:26) Dynamic Shape "V3.3V, Boundary/Power"
+\i (00:00:29) pick grid 28294.980 14790.742
+\t (00:00:29) last pick:  28295.000  14790.500
+\i (00:00:33) zoom in 
+\i (00:00:33) setwindow pcb
+\i (00:00:33) zoom in 25186.795 16406.587
+\i (00:00:33) trapsize 25730
+\i (00:00:34) roam x 96 
+\i (00:00:34) roam x 96
+\i (00:00:34) roam y -96 
+\i (00:00:34) roam y -96
+\i (00:00:35) roam y -96 
+\i (00:00:35) roam y -96
+\i (00:00:35) roam y -96 
+\i (00:00:35) roam y -96
+\i (00:00:35) roam x -96 
+\i (00:00:35) roam x -96
+\i (00:00:36) roam x -96 
+\i (00:00:36) roam x -96
+\i (00:00:36) roam x -96 
+\i (00:00:36) roam x -96
+\i (00:00:36) roam x -96 
+\i (00:00:36) roam x -96
+\i (00:00:38) roam x -96 
+\i (00:00:38) roam x -96
+\i (00:00:39) roam x 96 
+\i (00:00:39) roam x 96
+\i (00:00:41) zoom in 
+\i (00:00:41) setwindow pcb
+\i (00:00:41) zoom in 23530.991 18071.083
+\i (00:00:41) trapsize 12865
+\i (00:00:42) roam x 96 
+\i (00:00:42) roam x 96
+\i (00:00:43) roam y 96 
+\i (00:00:43) roam y 96
+\i (00:00:52) trapsize 10460
+\i (00:00:57) zoom out 
+\i (00:00:57) setwindow pcb
+\i (00:00:57) zoom out 22939.643 17476.619
+\i (00:00:57) trapsize 20920
+\i (00:00:59) roam x -96 
+\i (00:00:59) roam x -96
+\i (00:00:59) roam x -96 
+\i (00:00:59) roam x -96
+\i (00:01:00) roam x -96 
+\i (00:01:00) roam x -96
+\i (00:01:01) roam y 96 
+\i (00:01:01) roam y 96
+\i (00:01:02) roam y -96 
+\i (00:01:02) roam y -96
+\i (00:01:02) roam x -96 
+\i (00:01:02) roam x -96
+\i (00:01:04) roam x 96 
+\i (00:01:04) roam x 96
+\i (00:01:06) roam x -96 
+\i (00:01:06) roam x -96
+\i (00:01:06) roam y 96 
+\i (00:01:06) roam y 96
+\i (00:01:07) roam y 96 
+\i (00:01:07) roam y 96
+\i (00:01:07) roam y 96 
+\i (00:01:07) roam y 96
+\i (00:01:07) roam y 96 
+\i (00:01:07) roam y 96
+\i (00:01:08) roam y -96 
+\i (00:01:08) roam y -96
+\i (00:01:09) roam y -96 
+\i (00:01:09) roam y -96
+\i (00:01:09) roam y -96 
+\i (00:01:09) roam y -96
+\i (00:01:12) exit 
+\f (00:01:12) Do you want to save the changes you made to 12-ikemb-0002-v3-final.brd?
+\i (00:01:14) fillin no 

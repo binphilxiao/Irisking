@@ -1,0 +1,150 @@
+\t (00:00:02) allegro 15.7 p007 (v15-7-42E) i86
+\t (00:00:02) 
+
+\t (00:00:02) Opening existing drawing...
+\d (00:00:02) Database opened: D:/project/IRISking/ikemb-0002/project/hardware/keyboard/keyboard.brd
+\t (00:00:03) Grids are drawn 102.4000, 102.4000 apart for enhanced viewability.
+\t (00:00:03) Grids are drawn 6.4000, 6.4000 apart for enhanced viewability.
+\i (00:00:03) trapsize 75425
+\t (00:00:03) Grids are drawn 25.6000, 25.6000 apart for enhanced viewability.
+\i (00:00:03) trapsize 90369
+\i (00:00:03) trapsize 90369
+\i (00:00:07) open 
+\i (00:00:17) fillin "D:\project\IRISking\ikemb-0002\project\hardware\ikemb-0002-v3\12-ikemb-0002-v3-ok.brd"
+\i (00:00:17) cd "D:\project\IRISking\ikemb-0002\project\hardware\ikemb-0002-v3"
+\t (00:00:17) Opening existing drawing...
+\i (00:00:17) trapsize 46263
+\d (00:00:17) Database opened: D:/project/IRISking/ikemb-0002/project/hardware/ikemb-0002-v3/12-ikemb-0002-v3-ok.brd
+\i (00:00:19) shadow toggle 
+\i (00:00:24) xhilite 
+\i (00:00:24) xNet Iic2scl 
+\i (00:00:24) xNet Iic2sda 
+\i (00:00:24) xname_flush 
+\i (00:00:24) trapsize 10640
+\t (00:00:24) Net "Iic2scl" highlighted.
+\t (00:00:24) Net "Iic2sda" highlighted.
+\i (00:00:24) done 
+\i (00:00:24) xhilite 
+\i (00:00:25) xNet Iic2sda 
+\t (00:00:25) Net "Iic2sda" already highlighted.
+\i (00:00:25) xname_flush 
+\t (00:00:25) No element found
+\i (00:00:25) done 
+\i (00:00:27) roam y 96 
+\i (00:00:27) roam y 96
+\i (00:00:28) roam y 96 
+\i (00:00:28) roam y 96
+\i (00:00:29) roam y -96 
+\i (00:00:29) roam y -96
+\i (00:00:29) roam y -96 
+\i (00:00:29) roam y -96
+\i (00:00:30) roam y -96 
+\i (00:00:30) roam y -96
+\i (00:00:30) roam y 96 
+\i (00:00:30) roam y 96
+\i (00:00:30) roam y 96 
+\i (00:00:30) roam y 96
+\i (00:00:31) roam y 96 
+\i (00:00:31) roam y 96
+\i (00:00:54) roam y -96 
+\i (00:00:54) roam y -96
+\i (00:00:54) roam y -96 
+\i (00:00:54) roam y -96
+\i (00:00:55) roam y -96 
+\i (00:00:55) roam y -96
+\i (00:00:55) roam y -96 
+\i (00:00:55) roam y -96
+\i (00:00:56) roam y 96 
+\i (00:00:56) roam y 96
+\i (00:00:57) roam y 96 
+\i (00:00:57) roam y 96
+\i (00:00:57) roam y 96 
+\i (00:00:57) roam y 96
+\i (00:00:57) roam y 96 
+\i (00:00:57) roam y 96
+\i (00:00:57) roam y 96 
+\i (00:00:57) roam y 96
+\i (00:00:58) roam x 96 
+\i (00:00:58) roam x 96
+\i (00:00:58) roam y 96 
+\i (00:00:58) roam y 96
+\i (01:56:49) trapsize 8880
+\i (01:56:49) trapsize 10640
+\i (01:56:52) xdehilite 
+\i (01:56:52) xNet Iic2scl 
+\i (01:56:52) xNet Iic2sda 
+\i (01:56:52) xname_flush 
+\t (01:56:52) Net "Iic2scl" dehighlighted.
+\t (01:56:52) Net "Iic2sda" dehighlighted.
+\i (01:56:52) done 
+\i (01:56:53) xhilite 
+\i (01:56:53) xNet Iic2scl 
+\i (01:56:53) xname_flush 
+\i (01:56:53) trapsize 10640
+\t (01:56:53) Net "Iic2scl" highlighted.
+\i (01:56:53) done 
+\i (01:56:59) roam y 96 
+\i (01:56:59) roam y 96
+\i (01:56:59) roam y 96 
+\i (01:56:59) roam y 96
+\i (01:57:01) roam y 96 
+\i (01:57:01) roam y 96
+\i (01:57:02) roam y 96 
+\i (01:57:02) roam y 96
+\i (01:57:02) roam y 96 
+\i (01:57:02) roam y 96
+\i (01:57:02) roam y 96 
+\i (01:57:02) roam y 96
+\i (01:57:02) roam y 96 
+\i (01:57:02) roam y 96
+\i (01:57:02) roam y 96 
+\i (01:57:02) roam y 96
+\i (01:57:02) roam y 96 
+\i (01:57:02) roam y 96
+\i (01:57:03) roam y -96 
+\i (01:57:03) roam y -96
+\i (01:57:03) roam y 96 
+\i (01:57:03) roam y 96
+\i (01:57:03) roam y 96 
+\i (01:57:03) roam y 96
+\i (01:57:04) roam y 96 
+\i (01:57:04) roam y 96
+\i (01:57:04) roam y 96 
+\i (01:57:04) roam y 96
+\i (01:57:04) roam y 96 
+\i (01:57:04) roam y 96
+\i (01:57:04) roam y 96 
+\i (01:57:04) roam y 96
+\i (01:57:05) roam y 96 
+\i (01:57:05) roam y 96
+\i (01:57:05) roam y -96 
+\i (01:57:05) roam y -96
+\i (01:57:05) roam y -96 
+\i (01:57:05) roam y -96
+\i (01:57:05) roam y -96 
+\i (01:57:05) roam y -96
+\i (01:57:06) roam y -96 
+\i (01:57:06) roam y -96
+\i (01:57:06) roam y -96 
+\i (01:57:06) roam y -96
+\i (01:57:06) roam y -96 
+\i (01:57:06) roam y -96
+\i (01:57:06) roam y -96 
+\i (01:57:06) roam y -96
+\i (01:57:06) roam y -96 
+\i (01:57:06) roam y -96
+\i (01:57:06) roam y -96 
+\i (01:57:06) roam y -96
+\i (01:57:06) roam y -96 
+\i (01:57:06) roam y -96
+\i (01:57:14) zoom out 
+\i (01:57:14) setwindow pcb
+\i (01:57:14) zoom out 24740.177 15984.984
+\i (01:57:14) trapsize 21279
+\i (01:57:14) zoom out 
+\i (01:57:14) setwindow pcb
+\i (01:57:14) zoom out 24740.176 15984.984
+\i (01:57:14) trapsize 42558
+\i (18:23:49) exit 
+\f (18:23:49) Do you want to save the changes you made to 12-ikemb-0002-v3-ok.brd?
+\i (18:23:50) fillin no 

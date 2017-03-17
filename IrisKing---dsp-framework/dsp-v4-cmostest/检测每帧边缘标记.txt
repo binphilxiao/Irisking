@@ -1,0 +1,38 @@
+pixIndex =501;
+graylevel =tmp_buf_l[501];
+//dbg_output("Currend gray level is %d\n",graylevel);
+for(i=0; i< 480; i++)
+{
+	if (graylevel !=tmp_buf_l[pixIndex])
+	{
+		diffCount++;
+	}
+	pixIndex = pixIndex + 640;
+}
+if (diffCount >0)
+{
+	flag =1;
+	indexl++;
+	indexl =indexl % 480;
+	//dbg_output("DiffCount is %d\n",diffCount);
+}
+if (flag ==1)
+{
+	if ((indexl>10)&&(indexl<470))
+	{
+		pixIndex =indexl*640;
+		for(i=0; i< 6*640; i++)
+		{
+			tmp_buf_r[pixIndex + i]=0;
+			//capFrameBuf2->frame.rpFrm.buf[2*(pixIndex + i)];
+		}
+		
+		dbg_output("DiffCount is %d\n",diffCount);
+	}
+	flag =0;
+}
+else
+{
+	disp_rgb565(tmp_buf_l, tmp_buf_r, vdis_buf, 0);
+}
+CACHE_flush(CACHE_L2ALL,0,0);

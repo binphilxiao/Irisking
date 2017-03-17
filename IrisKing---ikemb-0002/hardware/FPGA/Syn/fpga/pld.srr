@@ -1,0 +1,987 @@
+$ Start of Compile
+#Tue Dec 22 11:23:58 2009
+
+Synplicity Verilog Compiler, version Compilers 2.8.1, Build 015R, built Sep  2 2004
+Copyright (C) 1994-2004, Synplicity Inc.  All Rights Reserved
+
+@I::"D:\project\IRISking\ikemb-0002\project\hardware\FPGA\Keyboard.v"
+@I::"D:\project\IRISking\ikemb-0002\project\hardware\FPGA\pld.v"
+@I::"D:\project\IRISking\ikemb-0002\project\hardware\FPGA\Wigend_in.v"
+@I::"D:\project\IRISking\ikemb-0002\project\hardware\FPGA\wigend_out.v"
+@I::"D:\project\IRISking\ikemb-0002\project\hardware\FPGA\adc.v"
+@I::"D:\project\IRISking\ikemb-0002\project\hardware\FPGA\button.v"
+Verilog syntax check successful!
+File D:\project\IRISking\ikemb-0002\project\hardware\FPGA\Wigend_in.v changed - recompiling
+Selecting top level module pld
+Synthesizing module Wigend_In
+Synthesizing module Wigend_Out
+Synthesizing module adc
+Synthesizing module Keyboard
+@N: CL201 :"D:\project\IRISking\ikemb-0002\project\hardware\FPGA\Keyboard.v":32:1:32:6|Trying to extract state machine for register Keyboard_out
+Extracted state machine for register Keyboard_out
+State machine has 4 reachable states with original encodings of:
+   0001
+   0010
+   0100
+   1000
+Synthesizing module Button
+Synthesizing module pld
+@W: CL157 :"D:\project\IRISking\ikemb-0002\project\hardware\FPGA\pld.v":204:13:204:16|*Output nWAIT has undriven bits - a simulation mismatch is possible 
+@END
+Process took 0h:0m:0s realtime, 0h:0m:0s cputime
+###########################################################[
+Synplicity Altera Technology Mapper, version 7.7.0, Build 033R, built Sep  9 2004
+Copyright (C) 1994-2004, Synplicity Inc.  All Rights Reserved
+
+
+@W: MO111 :"d:\project\irisking\ikemb-0002\project\hardware\fpga\pld.v":204:13:204:16|tristate driver nWAIT on net nWAIT has its enable tied to GND (module pld) 
+@N:"d:\project\irisking\ikemb-0002\project\hardware\fpga\wigend_in.v":61:4:61:9|Found counter in view:work.Wigend_In(verilog) inst wilclk_cnt[12:0]
+@N:"d:\project\irisking\ikemb-0002\project\hardware\fpga\wigend_out.v":23:1:23:6|Found counter in view:work.Wigend_Out(verilog) inst counter[16:0]
+@N:"d:\project\irisking\ikemb-0002\project\hardware\fpga\keyboard.v":22:1:22:6|Found counter in view:work.Keyboard(verilog) inst counter[18:0]
+Encoding state machine work.Keyboard(verilog)-Keyboard_out_1[3:0]
+original code -> new code
+   0001 -> 00
+   0010 -> 01
+   0100 -> 10
+   1000 -> 11
+@N:"d:\project\irisking\ikemb-0002\project\hardware\fpga\button.v":61:0:61:5|Found counter in view:work.Button(verilog) inst counter_pressed[10:0]
+@N:"d:\project\irisking\ikemb-0002\project\hardware\fpga\button.v":39:0:39:5|Found counter in view:work.Button(verilog) inst counter[9:0]
+@N:"d:\project\irisking\ikemb-0002\project\hardware\fpga\button.v":16:0:16:5|Found counter in view:work.Button(verilog) inst counter_1k[8:0]
+Automatic dissolve during optimization of view:work.pld(verilog) of adc_m(adc)
+@W: BN132 :"d:\project\irisking\ikemb-0002\project\hardware\fpga\wigend_in.v":123:2:123:3|Removing instance wigend_in3.wigend_buf_m_i_o3_a[0],  because it is equivalent to instance wigend_in3.wigend_buf_16_0_f0_i_a[0]
+@W: BN132 :"d:\project\irisking\ikemb-0002\project\hardware\fpga\wigend_out.v":29:7:29:39|Removing instance wigend_out0.un1_en_i_0_o3_1,  because it is equivalent to instance wigend_out0.wigend_59_iv_i_i_0_o3_32_a[1]
+@W: BN132 :"d:\project\irisking\ikemb-0002\project\hardware\fpga\wigend_out.v":40:2:40:3|Removing instance wigend_out0.wigend_59_iv_0_a2_6_a[0],  because it is equivalent to instance wigend_out0.wigend_59_iv_i_i_0_a3_23_a[1]
+@W: BN132 :"d:\project\irisking\ikemb-0002\project\hardware\fpga\wigend_out.v":40:2:40:3|Removing instance wigend_out0.wigend_59_iv_i_i_0_o3_50_a[1],  because it is equivalent to instance wigend_out0.wigend_59_iv_i_i_0_o3_55_a[1]
+
+Writing Analyst data base D:\project\IRISking\ikemb-0002\project\hardware\FPGA\Syn\fpga\pld.srm
+Writing Verilog Netlist and constraint files
+Writing .vqm output for Quartus
+Writing Cross reference file for Quartus to D:\project\IRISking\ikemb-0002\project\hardware\FPGA\Syn\fpga\pld.xrf
+Writing Verilog Simulation files
+Found clock pld|clk with period 1000.00ns 
+Found clock pld|nWE with period 1000.00ns 
+Found clock pld|wigend_in1.wil_clk_inferred_clock with period 1000.00ns 
+Found clock pld|wigend_in2.wil_clk_inferred_clock with period 1000.00ns 
+Found clock pld|wigend_in3.wil_clk_inferred_clock with period 1000.00ns 
+Found clock pld|Button_FQ.clk_1k_inferred_clock with period 1000.00ns 
+Found clock pld|Button_FW.clk_1k_inferred_clock with period 1000.00ns 
+@W:"d:\project\irisking\ikemb-0002\project\hardware\fpga\button.v":59:12:59:53|Net irq_1_0_a2_0 appears to be a clock source which was not identified. Assuming default frequency. 
+@W:"d:\project\irisking\ikemb-0002\project\hardware\fpga\button.v":59:12:59:53|Net irq_1_0_a2_0 appears to be a clock source which was not identified. Assuming default frequency. 
+@W:"d:\project\irisking\ikemb-0002\project\hardware\fpga\keyboard.v":19:13:19:44|Net irq_1_0_a2_0 appears to be a clock source which was not identified. Assuming default frequency. 
+@W:"d:\project\irisking\ikemb-0002\project\hardware\fpga\wigend_in.v":33:15:33:52|Net int_1_0_a3 appears to be a clock source which was not identified. Assuming default frequency. 
+@W:"d:\project\irisking\ikemb-0002\project\hardware\fpga\wigend_in.v":33:15:33:52|Net int_1_0_a3_0 appears to be a clock source which was not identified. Assuming default frequency. 
+@W:"d:\project\irisking\ikemb-0002\project\hardware\fpga\wigend_in.v":33:15:33:52|Net int_1_0_a3_0 appears to be a clock source which was not identified. Assuming default frequency. 
+
+
+##### START OF TIMING REPORT #####[
+# Timing Report written on Tue Dec 22 11:24:13 2009
+#
+
+
+Top view:               pld
+Requested Frequency:    1.0 MHz
+Wire load mode:         top
+Paths requested:        5
+Constraint File(s):    
+@N: MT195 |This timing report estimates place and route data. Please look at the place and route timing report for final timing..
+
+@N: MT196 |Clock constraints cover all FF-to-FF, FF-to-output, input-to-FF and input-to-output paths associated with a particular clock..
+
+
+
+Performance Summary 
+*******************
+
+
+Worst slack in design: 496.413
+
+                                          Requested     Estimated     Requested     Estimated                 Clock        Clock              
+Starting Clock                            Frequency     Frequency     Period        Period        Slack       Type         Group              
+----------------------------------------------------------------------------------------------------------------------------------------------
+pld|Button_FQ.clk_1k_inferred_clock       1.0 MHz       267.7 MHz     1000.000      3.736         996.264     inferred     Inferred_clkgroup_4
+pld|Button_FW.clk_1k_inferred_clock       1.0 MHz       267.7 MHz     1000.000      3.736         996.264     inferred     Inferred_clkgroup_5
+pld|clk                                   1.0 MHz       107.6 MHz     1000.000      9.291         990.709     inferred     Inferred_clkgroup_0
+pld|nWE                                   1.0 MHz       127.4 MHz     1000.000      7.848         992.152     inferred     Inferred_clkgroup_6
+pld|wigend_in1.wil_clk_inferred_clock     1.0 MHz       123.3 MHz     1000.000      8.112         991.888     inferred     Inferred_clkgroup_1
+pld|wigend_in2.wil_clk_inferred_clock     1.0 MHz       127.4 MHz     1000.000      7.848         992.152     inferred     Inferred_clkgroup_2
+pld|wigend_in3.wil_clk_inferred_clock     1.0 MHz       125.3 MHz     1000.000      7.981         992.019     inferred     Inferred_clkgroup_3
+System                                    1.0 MHz       95.6 MHz      1000.000      10.463        989.537     system       default_clkgroup   
+==============================================================================================================================================
+
+
+
+
+
+Clock Relationships
+*******************
+
+Clocks                                                                        |    rise  to  rise     |    fall  to  fall     |    rise  to  fall   |    fall  to  rise   
+--------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+Starting                               Ending                                 |  constraint  slack    |  constraint  slack    |  constraint  slack  |  constraint  slack  
+--------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+pld|nWE                                pld|nWE                                |  No paths    -        |  1000.000    992.152  |  No paths    -      |  No paths    -      
+pld|nWE                                pld|clk                                |  No paths    -        |  No paths    -        |  No paths    -      |  Diff grp    -      
+pld|Button_FW.clk_1k_inferred_clock    pld|Button_FW.clk_1k_inferred_clock    |  1000.000    996.264  |  No paths    -        |  No paths    -      |  No paths    -      
+pld|Button_FW.clk_1k_inferred_clock    pld|clk                                |  Diff grp    -        |  No paths    -        |  No paths    -      |  No paths    -      
+pld|Button_FQ.clk_1k_inferred_clock    pld|Button_FQ.clk_1k_inferred_clock    |  1000.000    996.264  |  No paths    -        |  No paths    -      |  No paths    -      
+pld|Button_FQ.clk_1k_inferred_clock    pld|clk                                |  Diff grp    -        |  No paths    -        |  No paths    -      |  No paths    -      
+pld|wigend_in3.wil_clk_inferred_clock  pld|wigend_in3.wil_clk_inferred_clock  |  No paths    -        |  1000.000    992.019  |  No paths    -      |  No paths    -      
+pld|wigend_in2.wil_clk_inferred_clock  pld|wigend_in2.wil_clk_inferred_clock  |  No paths    -        |  1000.000    992.152  |  No paths    -      |  No paths    -      
+pld|wigend_in1.wil_clk_inferred_clock  pld|wigend_in1.wil_clk_inferred_clock  |  No paths    -        |  1000.000    991.888  |  No paths    -      |  No paths    -      
+pld|clk                                pld|wigend_in3.wil_clk_inferred_clock  |  No paths    -        |  No paths    -        |  Diff grp    -      |  No paths    -      
+pld|clk                                pld|wigend_in2.wil_clk_inferred_clock  |  No paths    -        |  No paths    -        |  Diff grp    -      |  No paths    -      
+pld|clk                                pld|wigend_in1.wil_clk_inferred_clock  |  No paths    -        |  No paths    -        |  Diff grp    -      |  No paths    -      
+pld|clk                                pld|clk                                |  1000.000    990.709  |  1000.000    993.547  |  No paths    -      |  500.000     496.413
+==========================================================================================================================================================================
+ Note: 'No paths' indicates there are no paths in the design for that pair of clock edges.
+       'Diff grp' indicates that paths exist but the starting clock and ending clock are in different clock groups.
+
+
+
+Interface Information 
+*********************
+
+
+
+Input Ports: 
+
+Port            Starting                                         User           Arrival     Required            
+Name            Reference                                        Constraint     Time        Time         Slack  
+                Clock                                                                                           
+----------------------------------------------------------------------------------------------------------------
+AD_DO           pld|clk (rising)                                 0.000          0.000       997.752      997.752
+DSP_LED1        System (rising)                                  NA             0.000       993.881      993.881
+DSP_LED2        System (rising)                                  NA             0.000       993.881      993.881
+FQ              pld|Button_FQ.clk_1k_inferred_clock (rising)     0.000          0.000       996.264      996.264
+FW              pld|Button_FW.clk_1k_inferred_clock (rising)     0.000          0.000       996.264      996.264
+GPIO20          System (rising)                                  NA             0.000       993.783      993.783
+GPIO21          System (rising)                                  NA             0.000       993.651      993.651
+GPIO22          System (rising)                                  NA             0.000       993.519      993.519
+GPIO23          System (rising)                                  NA             0.000       993.783      993.783
+GPIO26          System (rising)                                  NA             0.000       993.651      993.651
+GPIO27          System (rising)                                  NA             0.000       993.519      993.519
+KEYin[0]        pld|clk (rising)                                 0.000          0.000       995.465      995.465
+KEYin[1]        pld|clk (rising)                                 0.000          0.000       995.255      995.255
+KEYin[2]        pld|clk (rising)                                 0.000          0.000       995.123      995.123
+KEYin[3]        pld|clk (rising)                                 0.000          0.000       994.991      994.991
+WIL_IN[0]       pld|clk (rising)                                 0.000          0.000       994.624      994.624
+WIL_IN[1]       pld|clk (rising)                                 0.000          0.000       994.756      994.756
+WIL_IN_A[0]     pld|clk (rising)                                 0.000          0.000       994.624      994.624
+WIL_IN_A[1]     pld|clk (rising)                                 0.000          0.000       994.756      994.756
+WIL_IN_B[0]     pld|clk (rising)                                 0.000          0.000       994.624      994.624
+WIL_IN_B[1]     pld|clk (rising)                                 0.000          0.000       994.756      994.756
+addr[0]         System (rising)                                  NA             0.000       989.537      989.537
+addr[1]         System (rising)                                  NA             0.000       990.125      990.125
+addr[2]         System (rising)                                  NA             0.000       990.323      990.323
+addr[3]         System (rising)                                  NA             0.000       990.125      990.125
+addr[4]         System (rising)                                  NA             0.000       991.667      991.667
+addr[5]         System (rising)                                  NA             0.000       991.428      991.428
+addr[6]         System (rising)                                  NA             0.000       991.560      991.560
+addr[7]         System (rising)                                  NA             0.000       991.296      991.296
+clk             System (rising)                                  NA             0.000       993.727      993.727
+data[0]         pld|nWE (falling)                                0.000          0.000       997.385      997.385
+data[1]         pld|nWE (falling)                                0.000          0.000       997.385      997.385
+data[2]         pld|nWE (falling)                                0.000          0.000       997.489      997.489
+data[3]         pld|nWE (falling)                                0.000          0.000       997.385      997.385
+data[4]         pld|nWE (falling)                                0.000          0.000       997.489      997.489
+data[5]         pld|nWE (falling)                                0.000          0.000       997.489      997.489
+data[6]         pld|nWE (falling)                                0.000          0.000       997.489      997.489
+data[7]         pld|nWE (falling)                                0.000          0.000       997.489      997.489
+nCE             System (rising)                                  NA             0.000       991.159      991.159
+nOE             System (rising)                                  NA             0.000       991.291      991.291
+nWE             System (rising)                                  NA             0.000       992.285      992.285
+rst             NA                                               NA             NA          NA           NA     
+================================================================================================================
+
+
+Output Ports: 
+
+Port           Starting              User           Arrival     Required            
+Name           Reference             Constraint     Time        Time         Slack  
+               Clock                                                                
+------------------------------------------------------------------------------------
+AD_CLK         System (rising)       NA             6.273       1000.000     993.727
+AD_CS          pld|clk (falling)     NA             6.454       1000.000     993.547
+EXP_LED1       System (rising)       NA             6.119       1000.000     993.881
+EXP_LED2       System (rising)       NA             6.119       1000.000     993.881
+EXP_LED3       System (rising)       NA             6.119       1000.000     993.881
+EXP_LED4       System (rising)       NA             6.119       1000.000     993.881
+GIO1           pld|nWE (falling)     NA             4.565       1000.000     995.435
+GIO2           pld|nWE (falling)     NA             4.565       1000.000     995.435
+GIO3           pld|nWE (falling)     NA             4.565       1000.000     995.435
+GIO4           pld|nWE (falling)     NA             4.565       1000.000     995.435
+IRQ            pld|clk (rising)      NA             7.563       1000.000     992.437
+KEYout[0]      pld|clk (rising)      NA             5.296       1000.000     994.704
+KEYout[1]      pld|clk (rising)      NA             5.296       1000.000     994.704
+KEYout[2]      pld|clk (rising)      NA             5.296       1000.000     994.704
+KEYout[3]      pld|clk (rising)      NA             5.296       1000.000     994.704
+SW_CCD1        pld|nWE (falling)     NA             4.565       1000.000     995.435
+SW_CCD2        pld|nWE (falling)     NA             4.565       1000.000     995.435
+SW_CCD3        pld|nWE (falling)     NA             4.565       1000.000     995.435
+SW_LCD         pld|nWE (falling)     NA             4.565       1000.000     995.435
+WIL_OUT[0]     pld|clk (rising)      NA             4.565       1000.000     995.435
+WIL_OUT[1]     pld|clk (rising)      NA             4.565       1000.000     995.435
+data[0]        System (rising)       NA             9.754       1000.000     990.246
+data[1]        System (rising)       NA             10.464      1000.000     989.537
+data[2]        System (rising)       NA             9.754       1000.000     990.246
+data[3]        System (rising)       NA             10.464      1000.000     989.537
+data[4]        System (rising)       NA             10.464      1000.000     989.537
+data[5]        System (rising)       NA             10.464      1000.000     989.537
+data[6]        System (rising)       NA             10.464      1000.000     989.537
+data[7]        System (rising)       NA             10.464      1000.000     989.537
+nWAIT          NA                    NA             NA          NA           NA     
+test[0]        System (rising)       NA             6.481       1000.000     993.519
+test[1]        System (rising)       NA             6.481       1000.000     993.519
+====================================================================================
+
+
+
+====================================
+Detailed Report for Clock: pld|Button_FQ.clk_1k_inferred_clock
+====================================
+
+
+
+Starting Points with Worst Slack
+********************************
+
+                         Starting                                                                                 Arrival            
+Instance                 Reference                               Type                   Pin        Net            Time        Slack  
+                         Clock                                                                                                       
+-------------------------------------------------------------------------------------------------------------------------------------
+FQ                       pld|Button_FQ.clk_1k_inferred_clock     Port                   FQ         FQ             0.000       996.264
+Button_FQ.counter[0]     pld|Button_FQ.clk_1k_inferred_clock     cycloneii_lcell_ff     regout     counter[0]     0.198       997.897
+Button_FQ.counter[1]     pld|Button_FQ.clk_1k_inferred_clock     cycloneii_lcell_ff     regout     counter[1]     0.198       997.897
+Button_FQ.counter[2]     pld|Button_FQ.clk_1k_inferred_clock     cycloneii_lcell_ff     regout     counter[2]     0.198       997.897
+Button_FQ.counter[3]     pld|Button_FQ.clk_1k_inferred_clock     cycloneii_lcell_ff     regout     counter[3]     0.198       997.897
+Button_FQ.counter[4]     pld|Button_FQ.clk_1k_inferred_clock     cycloneii_lcell_ff     regout     counter[4]     0.198       997.897
+Button_FQ.counter[5]     pld|Button_FQ.clk_1k_inferred_clock     cycloneii_lcell_ff     regout     counter[5]     0.198       997.897
+Button_FQ.counter[6]     pld|Button_FQ.clk_1k_inferred_clock     cycloneii_lcell_ff     regout     counter[6]     0.198       997.897
+Button_FQ.counter[7]     pld|Button_FQ.clk_1k_inferred_clock     cycloneii_lcell_ff     regout     counter[7]     0.198       997.897
+Button_FQ.counter[8]     pld|Button_FQ.clk_1k_inferred_clock     cycloneii_lcell_ff     regout     counter[8]     0.198       997.897
+=====================================================================================================================================
+
+
+Ending Points with Worst Slack
+******************************
+
+                         Starting                                                                          Required            
+Instance                 Reference                               Type                   Pin       Net      Time         Slack  
+                         Clock                                                                                                 
+-------------------------------------------------------------------------------------------------------------------------------
+Button_FQ.counter[0]     pld|Button_FQ.clk_1k_inferred_clock     cycloneii_lcell_ff     sload     FQ_c     998.883      996.264
+Button_FQ.counter[1]     pld|Button_FQ.clk_1k_inferred_clock     cycloneii_lcell_ff     sload     FQ_c     998.883      996.264
+Button_FQ.counter[2]     pld|Button_FQ.clk_1k_inferred_clock     cycloneii_lcell_ff     sload     FQ_c     998.883      996.264
+Button_FQ.counter[3]     pld|Button_FQ.clk_1k_inferred_clock     cycloneii_lcell_ff     sload     FQ_c     998.883      996.264
+Button_FQ.counter[4]     pld|Button_FQ.clk_1k_inferred_clock     cycloneii_lcell_ff     sload     FQ_c     998.883      996.264
+Button_FQ.counter[5]     pld|Button_FQ.clk_1k_inferred_clock     cycloneii_lcell_ff     sload     FQ_c     998.883      996.264
+Button_FQ.counter[6]     pld|Button_FQ.clk_1k_inferred_clock     cycloneii_lcell_ff     sload     FQ_c     998.883      996.264
+Button_FQ.counter[7]     pld|Button_FQ.clk_1k_inferred_clock     cycloneii_lcell_ff     sload     FQ_c     998.883      996.264
+Button_FQ.counter[8]     pld|Button_FQ.clk_1k_inferred_clock     cycloneii_lcell_ff     sload     FQ_c     998.883      996.264
+Button_FQ.counter[9]     pld|Button_FQ.clk_1k_inferred_clock     cycloneii_lcell_ff     sload     FQ_c     998.883      996.264
+===============================================================================================================================
+
+
+
+Worst Path Information
+***********************
+
+
+Path information for path number 1: 
+    Requested Period:                        1000.000
+    - Setup time:                            1.117
+    = Required time:                         998.883
+
+    - Propagation time:                      2.619
+    = Slack (non-critical) :                 996.264
+
+    Number of logic level(s):                1
+    Starting point:                          FQ / FQ
+    Ending point:                            Button_FQ.counter[0] / sload
+    The start point is clocked by            pld|Button_FQ.clk_1k_inferred_clock [rising]
+    The end   point is clocked by            pld|Button_FQ.clk_1k_inferred_clock [rising] on pin clk
+
+Instance / Net                                  Pin         Pin               Arrival     No. of    
+Name                     Type                   Name        Dir     Delay     Time        Fan Out(s)
+----------------------------------------------------------------------------------------------------
+FQ                       Port                   FQ          In      0.000     0.000       -         
+FQ                       Net                    -           -       0.000     -           0         
+FQ_in                    cycloneii_io           padio       In      -         0.000       -         
+FQ_in                    cycloneii_io           combout     Out     1.217     1.217       -         
+FQ_c                     Net                    -           -       1.402     -           10        
+Button_FQ.counter[0]     cycloneii_lcell_ff     sload       In      -         2.619       -         
+====================================================================================================
+Total path delay (propagation time + setup) of 3.736 is 2.334(62.5%) logic and 1.402(37.5%) route.
+
+
+
+
+====================================
+Detailed Report for Clock: pld|Button_FW.clk_1k_inferred_clock
+====================================
+
+
+
+Starting Points with Worst Slack
+********************************
+
+                         Starting                                                                                 Arrival            
+Instance                 Reference                               Type                   Pin        Net            Time        Slack  
+                         Clock                                                                                                       
+-------------------------------------------------------------------------------------------------------------------------------------
+FW                       pld|Button_FW.clk_1k_inferred_clock     Port                   FW         FW             0.000       996.264
+Button_FW.counter[0]     pld|Button_FW.clk_1k_inferred_clock     cycloneii_lcell_ff     regout     counter[0]     0.198       997.897
+Button_FW.counter[1]     pld|Button_FW.clk_1k_inferred_clock     cycloneii_lcell_ff     regout     counter[1]     0.198       997.897
+Button_FW.counter[2]     pld|Button_FW.clk_1k_inferred_clock     cycloneii_lcell_ff     regout     counter[2]     0.198       997.897
+Button_FW.counter[3]     pld|Button_FW.clk_1k_inferred_clock     cycloneii_lcell_ff     regout     counter[3]     0.198       997.897
+Button_FW.counter[4]     pld|Button_FW.clk_1k_inferred_clock     cycloneii_lcell_ff     regout     counter[4]     0.198       997.897
+Button_FW.counter[5]     pld|Button_FW.clk_1k_inferred_clock     cycloneii_lcell_ff     regout     counter[5]     0.198       997.897
+Button_FW.counter[6]     pld|Button_FW.clk_1k_inferred_clock     cycloneii_lcell_ff     regout     counter[6]     0.198       997.897
+Button_FW.counter[7]     pld|Button_FW.clk_1k_inferred_clock     cycloneii_lcell_ff     regout     counter[7]     0.198       997.897
+Button_FW.counter[8]     pld|Button_FW.clk_1k_inferred_clock     cycloneii_lcell_ff     regout     counter[8]     0.198       997.897
+=====================================================================================================================================
+
+
+Ending Points with Worst Slack
+******************************
+
+                         Starting                                                                          Required            
+Instance                 Reference                               Type                   Pin       Net      Time         Slack  
+                         Clock                                                                                                 
+-------------------------------------------------------------------------------------------------------------------------------
+Button_FW.counter[0]     pld|Button_FW.clk_1k_inferred_clock     cycloneii_lcell_ff     sload     FW_c     998.883      996.264
+Button_FW.counter[1]     pld|Button_FW.clk_1k_inferred_clock     cycloneii_lcell_ff     sload     FW_c     998.883      996.264
+Button_FW.counter[2]     pld|Button_FW.clk_1k_inferred_clock     cycloneii_lcell_ff     sload     FW_c     998.883      996.264
+Button_FW.counter[3]     pld|Button_FW.clk_1k_inferred_clock     cycloneii_lcell_ff     sload     FW_c     998.883      996.264
+Button_FW.counter[4]     pld|Button_FW.clk_1k_inferred_clock     cycloneii_lcell_ff     sload     FW_c     998.883      996.264
+Button_FW.counter[5]     pld|Button_FW.clk_1k_inferred_clock     cycloneii_lcell_ff     sload     FW_c     998.883      996.264
+Button_FW.counter[6]     pld|Button_FW.clk_1k_inferred_clock     cycloneii_lcell_ff     sload     FW_c     998.883      996.264
+Button_FW.counter[7]     pld|Button_FW.clk_1k_inferred_clock     cycloneii_lcell_ff     sload     FW_c     998.883      996.264
+Button_FW.counter[8]     pld|Button_FW.clk_1k_inferred_clock     cycloneii_lcell_ff     sload     FW_c     998.883      996.264
+Button_FW.counter[9]     pld|Button_FW.clk_1k_inferred_clock     cycloneii_lcell_ff     sload     FW_c     998.883      996.264
+===============================================================================================================================
+
+
+
+Worst Path Information
+***********************
+
+
+Path information for path number 1: 
+    Requested Period:                        1000.000
+    - Setup time:                            1.117
+    = Required time:                         998.883
+
+    - Propagation time:                      2.619
+    = Slack (non-critical) :                 996.264
+
+    Number of logic level(s):                1
+    Starting point:                          FW / FW
+    Ending point:                            Button_FW.counter[0] / sload
+    The start point is clocked by            pld|Button_FW.clk_1k_inferred_clock [rising]
+    The end   point is clocked by            pld|Button_FW.clk_1k_inferred_clock [rising] on pin clk
+
+Instance / Net                                  Pin         Pin               Arrival     No. of    
+Name                     Type                   Name        Dir     Delay     Time        Fan Out(s)
+----------------------------------------------------------------------------------------------------
+FW                       Port                   FW          In      0.000     0.000       -         
+FW                       Net                    -           -       0.000     -           0         
+FW_in                    cycloneii_io           padio       In      -         0.000       -         
+FW_in                    cycloneii_io           combout     Out     1.217     1.217       -         
+FW_c                     Net                    -           -       1.402     -           10        
+Button_FW.counter[0]     cycloneii_lcell_ff     sload       In      -         2.619       -         
+====================================================================================================
+Total path delay (propagation time + setup) of 3.736 is 2.334(62.5%) logic and 1.402(37.5%) route.
+
+
+
+
+====================================
+Detailed Report for Clock: pld|clk
+====================================
+
+
+
+Starting Points with Worst Slack
+********************************
+
+                           Starting                                                       Arrival            
+Instance                   Reference     Type                   Pin        Net            Time        Slack  
+                           Clock                                                                             
+-------------------------------------------------------------------------------------------------------------
+adc_m.ADcnt[4]             pld|clk       cycloneii_lcell_ff     regout     ADcnt[4]       0.198       496.413
+adc_m.ADcnt[0]             pld|clk       cycloneii_lcell_ff     regout     ADcnt[0]       0.198       496.545
+adc_m.ADcnt[3]             pld|clk       cycloneii_lcell_ff     regout     ADcnt[3]       0.198       496.883
+adc_m.ADcnt[2]             pld|clk       cycloneii_lcell_ff     regout     ADcnt[2]       0.198       497.254
+adc_m.ADcnt[1]             pld|clk       cycloneii_lcell_ff     regout     ADcnt[1]       0.198       497.493
+wigend_out0.counter[8]     pld|clk       cycloneii_lcell_ff     regout     counter_8      0.198       990.709
+wigend_out0.counter[5]     pld|clk       cycloneii_lcell_ff     regout     counter_5      0.198       991.026
+wigend_out0.counter[3]     pld|clk       cycloneii_lcell_ff     regout     counter[3]     0.198       991.110
+wigend_out0.counter[6]     pld|clk       cycloneii_lcell_ff     regout     counter_6      0.198       991.122
+wigend_out0.counter[7]     pld|clk       cycloneii_lcell_ff     regout     counter_7      0.198       991.166
+=============================================================================================================
+
+
+Ending Points with Worst Slack
+******************************
+
+                     Starting                                                            Required            
+Instance             Reference     Type                   Pin      Net                   Time         Slack  
+                     Clock                                                                                   
+-------------------------------------------------------------------------------------------------------------
+adc_m.ADdata[0]      pld|clk       cycloneii_lcell_ff     ena      ADdata6_0_a2_0_a2     499.200      496.413
+adc_m.ADdata[1]      pld|clk       cycloneii_lcell_ff     ena      ADdata6_0_a2_0_a2     499.200      496.413
+adc_m.ADdata[2]      pld|clk       cycloneii_lcell_ff     ena      ADdata6_0_a2_0_a2     499.200      496.413
+adc_m.ADdata[3]      pld|clk       cycloneii_lcell_ff     ena      ADdata6_0_a2_0_a2     499.200      496.413
+adc_m.ADdata[4]      pld|clk       cycloneii_lcell_ff     ena      ADdata6_0_a2_0_a2     499.200      496.413
+adc_m.ADdata[5]      pld|clk       cycloneii_lcell_ff     ena      ADdata6_0_a2_0_a2     499.200      496.413
+adc_m.ADdata[6]      pld|clk       cycloneii_lcell_ff     ena      ADdata6_0_a2_0_a2     499.200      496.413
+adc_m.ADdata[7]      pld|clk       cycloneii_lcell_ff     ena      ADdata6_0_a2_0_a2     499.200      496.413
+adc_m.ADO_reg[0]     pld|clk       cycloneii_lcell_ff     sclr     N_276_i               498.983      496.883
+adc_m.ADO_reg[1]     pld|clk       cycloneii_lcell_ff     sclr     N_276_i               498.983      496.883
+=============================================================================================================
+
+
+
+Worst Path Information
+***********************
+
+
+Path information for path number 1: 
+    Requested Period:                        500.000
+    - Setup time:                            0.800
+    = Required time:                         499.200
+
+    - Propagation time:                      2.787
+    = Slack (critical) :                     496.413
+
+    Number of logic level(s):                2
+    Starting point:                          adc_m.ADcnt[4] / regout
+    Ending point:                            adc_m.ADdata[0] / ena
+    The start point is clocked by            pld|clk [falling] on pin clk
+    The end   point is clocked by            pld|clk [rising] on pin clk
+
+Instance / Net                                         Pin         Pin               Arrival     No. of    
+Name                          Type                     Name        Dir     Delay     Time        Fan Out(s)
+-----------------------------------------------------------------------------------------------------------
+adc_m.ADcnt[4]                cycloneii_lcell_ff       regout      Out     0.198     0.198       -         
+ADcnt[4]                      Net                      -           -       0.657     -           6         
+adc_m.ADdata6_0_a2_0_a2_a     cycloneii_lcell_comb     dataa       In      -         0.855       -         
+adc_m.ADdata6_0_a2_0_a2_a     cycloneii_lcell_comb     combout     Out     0.522     1.377       -         
+ADdata6_0_a2_0_a2_a           Net                      -           -       0.188     -           1         
+adc_m.ADdata6_0_a2_0_a2       cycloneii_lcell_comb     dataa       In      -         1.565       -         
+adc_m.ADdata6_0_a2_0_a2       cycloneii_lcell_comb     combout     Out     0.522     2.087       -         
+ADdata6_0_a2_0_a2             Net                      -           -       0.701     -           8         
+adc_m.ADdata[0]               cycloneii_lcell_ff       ena         In      -         2.787       -         
+===========================================================================================================
+Total path delay (propagation time + setup) of 3.587 is 2.042(56.9%) logic and 1.545(43.1%) route.
+
+
+
+
+====================================
+Detailed Report for Clock: pld|nWE
+====================================
+
+
+
+Starting Points with Worst Slack
+********************************
+
+                 Starting                                                          Arrival            
+Instance         Reference     Type                   Pin         Net              Time        Slack  
+                 Clock                                                                                
+------------------------------------------------------------------------------------------------------
+configure[3]     pld|nWE       cycloneii_lcell_ff     regout      configure[3]     0.198       992.152
+GIO1             pld|nWE       cycloneii_lcell_ff     regout      GIO1z            0.198       995.435
+GIO2             pld|nWE       cycloneii_lcell_ff     regout      GIO2z            0.198       995.435
+GIO3             pld|nWE       cycloneii_lcell_ff     regout      GIO3z            0.198       995.435
+GIO4             pld|nWE       cycloneii_lcell_ff     regout      GIO4z            0.198       995.435
+SW_CCD1          pld|nWE       cycloneii_lcell_ff     regout      SW_CCD1z         0.198       995.435
+SW_CCD2          pld|nWE       cycloneii_lcell_ff     regout      SW_CCD2z         0.198       995.435
+SW_CCD3          pld|nWE       cycloneii_lcell_ff     regout      SW_CCD3z         0.198       995.435
+SW_LCD           pld|nWE       cycloneii_lcell_ff     regout      SW_LCDz          0.198       995.435
+data[7:0]        pld|nWE       Port                   data[3]     data[3]          0.000       997.385
+======================================================================================================
+
+
+Ending Points with Worst Slack
+******************************
+
+              Starting                                                       Required            
+Instance      Reference     Type                   Pin         Net           Time         Slack  
+              Clock                                                                              
+-------------------------------------------------------------------------------------------------
+data[7:0]     pld|nWE       Port                   data[3]     data[3]       1000.000     992.152
+GIO1          pld|nWE       Port                   GIO1        GIO1          1000.000     995.435
+GIO2          pld|nWE       Port                   GIO2        GIO2          1000.000     995.435
+GIO3          pld|nWE       Port                   GIO3        GIO3          1000.000     995.435
+GIO4          pld|nWE       Port                   GIO4        GIO4          1000.000     995.435
+SW_CCD1       pld|nWE       Port                   SW_CCD1     SW_CCD1       1000.000     995.435
+SW_CCD2       pld|nWE       Port                   SW_CCD2     SW_CCD2       1000.000     995.435
+SW_CCD3       pld|nWE       Port                   SW_CCD3     SW_CCD3       1000.000     995.435
+SW_LCD        pld|nWE       Port                   SW_LCD      SW_LCD        1000.000     995.435
+SW_CCD1       pld|nWE       cycloneii_lcell_ff     datain      data_c[1]     999.813      997.385
+=================================================================================================
+
+
+
+Worst Path Information
+***********************
+
+
+Path information for path number 1: 
+    Requested Period:                        1000.000
+    = Required time:                         1000.000
+
+    - Propagation time:                      7.848
+    = Slack (non-critical) :                 992.152
+
+    Number of logic level(s):                6
+    Starting point:                          configure[3] / regout
+    Ending point:                            data[7:0] / data[3]
+    The start point is clocked by            pld|nWE [falling] on pin clk
+    The end   point is clocked by            pld|nWE [falling]
+
+Instance / Net                              Pin         Pin               Arrival     No. of    
+Name               Type                     Name        Dir     Delay     Time        Fan Out(s)
+------------------------------------------------------------------------------------------------
+configure[3]       cycloneii_lcell_ff       regout      Out     0.198     0.198       -         
+configure[3]       Net                      -           -       0.657     -           2         
+wdata_9_a[3]       cycloneii_lcell_comb     datab       In      -         0.855       -         
+wdata_9_a[3]       cycloneii_lcell_comb     combout     Out     0.390     1.245       -         
+wdata_9_a[3]       Net                      -           -       0.188     -           1         
+wdata_9[3]         cycloneii_lcell_comb     dataa       In      -         1.433       -         
+wdata_9[3]         cycloneii_lcell_comb     combout     Out     0.522     1.954       -         
+wdata_9[3]         Net                      -           -       0.188     -           1         
+wdata_14_a[3]      cycloneii_lcell_comb     datab       In      -         2.142       -         
+wdata_14_a[3]      cycloneii_lcell_comb     combout     Out     0.390     2.532       -         
+wdata_14_a[3]      Net                      -           -       0.188     -           1         
+wdata_14[3]        cycloneii_lcell_comb     dataa       In      -         2.720       -         
+wdata_14[3]        cycloneii_lcell_comb     combout     Out     0.522     3.241       -         
+wdata_14[3]        Net                      -           -       0.188     -           1         
+wdata[3]           cycloneii_lcell_comb     dataa       In      -         3.429       -         
+wdata[3]           cycloneii_lcell_comb     combout     Out     0.522     3.951       -         
+wdata[3]           Net                      -           -       0.845     -           1         
+data_tri[3]        cycloneii_io             datain      In      -         4.795       -         
+data_tri[3]        cycloneii_io             padio       Out     3.053     7.848       -         
+data[3]            Net                      -           -       0.000     -           0         
+data[7:0]          Port                     data[3]     Out     -         7.848       -         
+================================================================================================
+Total path delay (propagation time + setup) of 7.848 is 5.597(71.3%) logic and 2.252(28.7%) route.
+
+
+
+
+====================================
+Detailed Report for Clock: pld|wigend_in1.wil_clk_inferred_clock
+====================================
+
+
+
+Starting Points with Worst Slack
+********************************
+
+                        Starting                                                                                Arrival            
+Instance                Reference                                 Type                   Pin        Net         Time        Slack  
+                        Clock                                                                                                      
+-----------------------------------------------------------------------------------------------------------------------------------
+wigend_in1.data[17]     pld|wigend_in1.wil_clk_inferred_clock     cycloneii_lcell_ff     regout     data_17     0.198       991.888
+wigend_in1.data[19]     pld|wigend_in1.wil_clk_inferred_clock     cycloneii_lcell_ff     regout     data_19     0.198       991.888
+wigend_in1.data[20]     pld|wigend_in1.wil_clk_inferred_clock     cycloneii_lcell_ff     regout     data_20     0.198       991.888
+wigend_in1.data[21]     pld|wigend_in1.wil_clk_inferred_clock     cycloneii_lcell_ff     regout     data_21     0.198       991.888
+wigend_in1.data[22]     pld|wigend_in1.wil_clk_inferred_clock     cycloneii_lcell_ff     regout     data_22     0.198       991.888
+wigend_in1.data[23]     pld|wigend_in1.wil_clk_inferred_clock     cycloneii_lcell_ff     regout     data_23     0.198       991.888
+wigend_in1.data[1]      pld|wigend_in1.wil_clk_inferred_clock     cycloneii_lcell_ff     regout     data_1      0.198       992.019
+wigend_in1.data[3]      pld|wigend_in1.wil_clk_inferred_clock     cycloneii_lcell_ff     regout     data_3      0.198       992.019
+wigend_in1.data[4]      pld|wigend_in1.wil_clk_inferred_clock     cycloneii_lcell_ff     regout     data_4      0.198       992.019
+wigend_in1.data[5]      pld|wigend_in1.wil_clk_inferred_clock     cycloneii_lcell_ff     regout     data_5      0.198       992.019
+===================================================================================================================================
+
+
+Ending Points with Worst Slack
+******************************
+
+                       Starting                                                                                  Required            
+Instance               Reference                                 Type                   Pin         Net          Time         Slack  
+                       Clock                                                                                                         
+-------------------------------------------------------------------------------------------------------------------------------------
+data[7:0]              pld|wigend_in1.wil_clk_inferred_clock     Port                   data[1]     data[1]      1000.000     991.888
+data[7:0]              pld|wigend_in1.wil_clk_inferred_clock     Port                   data[3]     data[3]      1000.000     991.888
+data[7:0]              pld|wigend_in1.wil_clk_inferred_clock     Port                   data[4]     data[4]      1000.000     991.888
+data[7:0]              pld|wigend_in1.wil_clk_inferred_clock     Port                   data[5]     data[5]      1000.000     991.888
+data[7:0]              pld|wigend_in1.wil_clk_inferred_clock     Port                   data[6]     data[6]      1000.000     991.888
+data[7:0]              pld|wigend_in1.wil_clk_inferred_clock     Port                   data[7]     data[7]      1000.000     991.888
+data[7:0]              pld|wigend_in1.wil_clk_inferred_clock     Port                   data[0]     data[0]      1000.000     992.597
+data[7:0]              pld|wigend_in1.wil_clk_inferred_clock     Port                   data[2]     data[2]      1000.000     992.597
+IRQ                    pld|wigend_in1.wil_clk_inferred_clock     Port                   IRQ         IRQ          1000.000     993.549
+wigend_in1.data[0]     pld|wigend_in1.wil_clk_inferred_clock     cycloneii_lcell_ff     ena         N_2145_i     999.200      995.755
+=====================================================================================================================================
+
+
+
+Worst Path Information
+***********************
+
+
+Path information for path number 1: 
+    Requested Period:                        1000.000
+    = Required time:                         1000.000
+
+    - Propagation time:                      8.113
+    = Slack (non-critical) :                 991.888
+
+    Number of logic level(s):                6
+    Starting point:                          wigend_in1.data[17] / regout
+    Ending point:                            data[7:0] / data[1]
+    The start point is clocked by            pld|wigend_in1.wil_clk_inferred_clock [falling] on pin clk
+    The end   point is clocked by            pld|wigend_in1.wil_clk_inferred_clock [falling]
+
+Instance / Net                                   Pin         Pin               Arrival     No. of    
+Name                    Type                     Name        Dir     Delay     Time        Fan Out(s)
+-----------------------------------------------------------------------------------------------------
+wigend_in1.data[17]     cycloneii_lcell_ff       regout      Out     0.198     0.198       -         
+data_17                 Net                      -           -       0.657     -           1         
+wdata_8_i_m2_c[1]       cycloneii_lcell_comb     dataa       In      -         0.855       -         
+wdata_8_i_m2_c[1]       cycloneii_lcell_comb     combout     Out     0.522     1.377       -         
+wdata_8_i_m2_c[1]       Net                      -           -       0.188     -           1         
+wdata_8_i_m2[1]         cycloneii_lcell_comb     dataa       In      -         1.565       -         
+wdata_8_i_m2[1]         cycloneii_lcell_comb     combout     Out     0.522     2.087       -         
+wdata_8_i_m2[1]         Net                      -           -       0.188     -           1         
+wdata_14_a[1]           cycloneii_lcell_comb     dataa       In      -         2.274       -         
+wdata_14_a[1]           cycloneii_lcell_comb     combout     Out     0.522     2.796       -         
+wdata_14_a[1]           Net                      -           -       0.188     -           1         
+wdata_14[1]             cycloneii_lcell_comb     dataa       In      -         2.983       -         
+wdata_14[1]             cycloneii_lcell_comb     combout     Out     0.522     3.506       -         
+wdata_14[1]             Net                      -           -       0.188     -           1         
+wdata[1]                cycloneii_lcell_comb     dataa       In      -         3.693       -         
+wdata[1]                cycloneii_lcell_comb     combout     Out     0.522     4.215       -         
+wdata[1]                Net                      -           -       0.845     -           1         
+data_tri[1]             cycloneii_io             datain      In      -         5.059       -         
+data_tri[1]             cycloneii_io             padio       Out     3.053     8.113       -         
+data[1]                 Net                      -           -       0.000     -           0         
+data[7:0]               Port                     data[1]     Out     -         8.113       -         
+=====================================================================================================
+Total path delay (propagation time + setup) of 8.113 is 5.861(72.2%) logic and 2.252(27.8%) route.
+
+
+
+
+====================================
+Detailed Report for Clock: pld|wigend_in2.wil_clk_inferred_clock
+====================================
+
+
+
+Starting Points with Worst Slack
+********************************
+
+                        Starting                                                                                Arrival            
+Instance                Reference                                 Type                   Pin        Net         Time        Slack  
+                        Clock                                                                                                      
+-----------------------------------------------------------------------------------------------------------------------------------
+wigend_in2.data[17]     pld|wigend_in2.wil_clk_inferred_clock     cycloneii_lcell_ff     regout     data_17     0.198       992.152
+wigend_in2.data[19]     pld|wigend_in2.wil_clk_inferred_clock     cycloneii_lcell_ff     regout     data_19     0.198       992.152
+wigend_in2.data[25]     pld|wigend_in2.wil_clk_inferred_clock     cycloneii_lcell_ff     regout     data_25     0.198       992.152
+wigend_in2.data[1]      pld|wigend_in2.wil_clk_inferred_clock     cycloneii_lcell_ff     regout     data_1      0.198       992.861
+wigend_in2.data[3]      pld|wigend_in2.wil_clk_inferred_clock     cycloneii_lcell_ff     regout     data_3      0.198       992.861
+wigend_in2.data[4]      pld|wigend_in2.wil_clk_inferred_clock     cycloneii_lcell_ff     regout     data_4      0.198       992.861
+wigend_in2.data[5]      pld|wigend_in2.wil_clk_inferred_clock     cycloneii_lcell_ff     regout     data_5      0.198       992.861
+wigend_in2.data[6]      pld|wigend_in2.wil_clk_inferred_clock     cycloneii_lcell_ff     regout     data_6      0.198       992.861
+wigend_in2.data[7]      pld|wigend_in2.wil_clk_inferred_clock     cycloneii_lcell_ff     regout     data_7      0.198       992.861
+wigend_in2.data[16]     pld|wigend_in2.wil_clk_inferred_clock     cycloneii_lcell_ff     regout     data_16     0.198       992.861
+===================================================================================================================================
+
+
+Ending Points with Worst Slack
+******************************
+
+                             Starting                                                                                           Required            
+Instance                     Reference                                 Type                   Pin         Net                   Time         Slack  
+                             Clock                                                                                                                  
+----------------------------------------------------------------------------------------------------------------------------------------------------
+data[7:0]                    pld|wigend_in2.wil_clk_inferred_clock     Port                   data[1]     data[1]               1000.000     992.152
+data[7:0]                    pld|wigend_in2.wil_clk_inferred_clock     Port                   data[3]     data[3]               1000.000     992.152
+data[7:0]                    pld|wigend_in2.wil_clk_inferred_clock     Port                   data[0]     data[0]               1000.000     992.861
+data[7:0]                    pld|wigend_in2.wil_clk_inferred_clock     Port                   data[2]     data[2]               1000.000     992.861
+data[7:0]                    pld|wigend_in2.wil_clk_inferred_clock     Port                   data[4]     data[4]               1000.000     992.861
+data[7:0]                    pld|wigend_in2.wil_clk_inferred_clock     Port                   data[5]     data[5]               1000.000     992.861
+data[7:0]                    pld|wigend_in2.wil_clk_inferred_clock     Port                   data[6]     data[6]               1000.000     992.861
+data[7:0]                    pld|wigend_in2.wil_clk_inferred_clock     Port                   data[7]     data[7]               1000.000     992.861
+IRQ                          pld|wigend_in2.wil_clk_inferred_clock     Port                   IRQ         IRQ                   1000.000     993.681
+wigend_in2.wigend_buf[1]     pld|wigend_in2.wil_clk_inferred_clock     cycloneii_lcell_ff     datain      wigend_buf_m_i[0]     999.813      995.806
+====================================================================================================================================================
+
+
+
+Worst Path Information
+***********************
+
+
+Path information for path number 1: 
+    Requested Period:                        1000.000
+    = Required time:                         1000.000
+
+    - Propagation time:                      7.848
+    = Slack (non-critical) :                 992.152
+
+    Number of logic level(s):                6
+    Starting point:                          wigend_in2.data[17] / regout
+    Ending point:                            data[7:0] / data[1]
+    The start point is clocked by            pld|wigend_in2.wil_clk_inferred_clock [falling] on pin clk
+    The end   point is clocked by            pld|wigend_in2.wil_clk_inferred_clock [falling]
+
+Instance / Net                                   Pin         Pin               Arrival     No. of    
+Name                    Type                     Name        Dir     Delay     Time        Fan Out(s)
+-----------------------------------------------------------------------------------------------------
+wigend_in2.data[17]     cycloneii_lcell_ff       regout      Out     0.198     0.198       -         
+data_17                 Net                      -           -       0.657     -           1         
+wdata_10_c[1]           cycloneii_lcell_comb     datab       In      -         0.855       -         
+wdata_10_c[1]           cycloneii_lcell_comb     combout     Out     0.390     1.245       -         
+wdata_10_c[1]           Net                      -           -       0.188     -           1         
+wdata_10[1]             cycloneii_lcell_comb     dataa       In      -         1.433       -         
+wdata_10[1]             cycloneii_lcell_comb     combout     Out     0.522     1.954       -         
+wdata_10[1]             Net                      -           -       0.188     -           1         
+wdata_13[1]             cycloneii_lcell_comb     dataa       In      -         2.142       -         
+wdata_13[1]             cycloneii_lcell_comb     combout     Out     0.522     2.664       -         
+wdata_13[1]             Net                      -           -       0.188     -           1         
+wdata_14[1]             cycloneii_lcell_comb     datab       In      -         2.852       -         
+wdata_14[1]             cycloneii_lcell_comb     combout     Out     0.390     3.241       -         
+wdata_14[1]             Net                      -           -       0.188     -           1         
+wdata[1]                cycloneii_lcell_comb     dataa       In      -         3.429       -         
+wdata[1]                cycloneii_lcell_comb     combout     Out     0.522     3.951       -         
+wdata[1]                Net                      -           -       0.845     -           1         
+data_tri[1]             cycloneii_io             datain      In      -         4.795       -         
+data_tri[1]             cycloneii_io             padio       Out     3.053     7.848       -         
+data[1]                 Net                      -           -       0.000     -           0         
+data[7:0]               Port                     data[1]     Out     -         7.848       -         
+=====================================================================================================
+Total path delay (propagation time + setup) of 7.848 is 5.597(71.3%) logic and 2.252(28.7%) route.
+
+
+
+
+====================================
+Detailed Report for Clock: pld|wigend_in3.wil_clk_inferred_clock
+====================================
+
+
+
+Starting Points with Worst Slack
+********************************
+
+                        Starting                                                                                Arrival            
+Instance                Reference                                 Type                   Pin        Net         Time        Slack  
+                        Clock                                                                                                      
+-----------------------------------------------------------------------------------------------------------------------------------
+wigend_in3.data[1]      pld|wigend_in3.wil_clk_inferred_clock     cycloneii_lcell_ff     regout     data_1      0.198       992.019
+wigend_in3.data[3]      pld|wigend_in3.wil_clk_inferred_clock     cycloneii_lcell_ff     regout     data_3      0.198       992.019
+wigend_in3.data[17]     pld|wigend_in3.wil_clk_inferred_clock     cycloneii_lcell_ff     regout     data_17     0.198       992.019
+wigend_in3.data[19]     pld|wigend_in3.wil_clk_inferred_clock     cycloneii_lcell_ff     regout     data_19     0.198       992.019
+wigend_in3.data[20]     pld|wigend_in3.wil_clk_inferred_clock     cycloneii_lcell_ff     regout     data_20     0.198       992.019
+wigend_in3.data[21]     pld|wigend_in3.wil_clk_inferred_clock     cycloneii_lcell_ff     regout     data_21     0.198       992.019
+wigend_in3.data[22]     pld|wigend_in3.wil_clk_inferred_clock     cycloneii_lcell_ff     regout     data_22     0.198       992.019
+wigend_in3.data[23]     pld|wigend_in3.wil_clk_inferred_clock     cycloneii_lcell_ff     regout     data_23     0.198       992.019
+wigend_in3.data[25]     pld|wigend_in3.wil_clk_inferred_clock     cycloneii_lcell_ff     regout     data_25     0.198       992.415
+wigend_in3.data[0]      pld|wigend_in3.wil_clk_inferred_clock     cycloneii_lcell_ff     regout     data_0      0.198       992.729
+===================================================================================================================================
+
+
+Ending Points with Worst Slack
+******************************
+
+                       Starting                                                                                  Required            
+Instance               Reference                                 Type                   Pin         Net          Time         Slack  
+                       Clock                                                                                                         
+-------------------------------------------------------------------------------------------------------------------------------------
+data[7:0]              pld|wigend_in3.wil_clk_inferred_clock     Port                   data[1]     data[1]      1000.000     992.019
+data[7:0]              pld|wigend_in3.wil_clk_inferred_clock     Port                   data[3]     data[3]      1000.000     992.019
+data[7:0]              pld|wigend_in3.wil_clk_inferred_clock     Port                   data[4]     data[4]      1000.000     992.019
+data[7:0]              pld|wigend_in3.wil_clk_inferred_clock     Port                   data[5]     data[5]      1000.000     992.019
+data[7:0]              pld|wigend_in3.wil_clk_inferred_clock     Port                   data[6]     data[6]      1000.000     992.019
+data[7:0]              pld|wigend_in3.wil_clk_inferred_clock     Port                   data[7]     data[7]      1000.000     992.019
+data[7:0]              pld|wigend_in3.wil_clk_inferred_clock     Port                   data[0]     data[0]      1000.000     992.729
+data[7:0]              pld|wigend_in3.wil_clk_inferred_clock     Port                   data[2]     data[2]      1000.000     992.729
+IRQ                    pld|wigend_in3.wil_clk_inferred_clock     Port                   IRQ         IRQ          1000.000     993.154
+wigend_in3.data[0]     pld|wigend_in3.wil_clk_inferred_clock     cycloneii_lcell_ff     ena         N_2142_i     999.200      995.733
+=====================================================================================================================================
+
+
+
+Worst Path Information
+***********************
+
+
+Path information for path number 1: 
+    Requested Period:                        1000.000
+    = Required time:                         1000.000
+
+    - Propagation time:                      7.981
+    = Slack (non-critical) :                 992.019
+
+    Number of logic level(s):                6
+    Starting point:                          wigend_in3.data[1] / regout
+    Ending point:                            data[7:0] / data[1]
+    The start point is clocked by            pld|wigend_in3.wil_clk_inferred_clock [falling] on pin clk
+    The end   point is clocked by            pld|wigend_in3.wil_clk_inferred_clock [falling]
+
+Instance / Net                                  Pin         Pin               Arrival     No. of    
+Name                   Type                     Name        Dir     Delay     Time        Fan Out(s)
+----------------------------------------------------------------------------------------------------
+wigend_in3.data[1]     cycloneii_lcell_ff       regout      Out     0.198     0.198       -         
+data_1                 Net                      -           -       0.657     -           1         
+wdata_10_c[1]          cycloneii_lcell_comb     dataa       In      -         0.855       -         
+wdata_10_c[1]          cycloneii_lcell_comb     combout     Out     0.522     1.377       -         
+wdata_10_c[1]          Net                      -           -       0.188     -           1         
+wdata_10[1]            cycloneii_lcell_comb     dataa       In      -         1.565       -         
+wdata_10[1]            cycloneii_lcell_comb     combout     Out     0.522     2.087       -         
+wdata_10[1]            Net                      -           -       0.188     -           1         
+wdata_13[1]            cycloneii_lcell_comb     dataa       In      -         2.274       -         
+wdata_13[1]            cycloneii_lcell_comb     combout     Out     0.522     2.796       -         
+wdata_13[1]            Net                      -           -       0.188     -           1         
+wdata_14[1]            cycloneii_lcell_comb     datab       In      -         2.983       -         
+wdata_14[1]            cycloneii_lcell_comb     combout     Out     0.390     3.373       -         
+wdata_14[1]            Net                      -           -       0.188     -           1         
+wdata[1]               cycloneii_lcell_comb     dataa       In      -         3.561       -         
+wdata[1]               cycloneii_lcell_comb     combout     Out     0.522     4.083       -         
+wdata[1]               Net                      -           -       0.845     -           1         
+data_tri[1]            cycloneii_io             datain      In      -         4.928       -         
+data_tri[1]            cycloneii_io             padio       Out     3.053     7.981       -         
+data[1]                Net                      -           -       0.000     -           0         
+data[7:0]              Port                     data[1]     Out     -         7.981       -         
+====================================================================================================
+Total path delay (propagation time + setup) of 7.981 is 5.729(71.8%) logic and 2.252(28.2%) route.
+
+
+
+
+====================================
+Detailed Report for Clock: System
+====================================
+
+
+
+Starting Points with Worst Slack
+********************************
+
+              Starting                                       Arrival            
+Instance      Reference     Type     Pin         Net         Time        Slack  
+              Clock                                                             
+--------------------------------------------------------------------------------
+addr[7:0]     System        Port     addr[0]     addr[0]     0.000       989.537
+addr[7:0]     System        Port     addr[3]     addr[3]     0.000       990.125
+addr[7:0]     System        Port     addr[1]     addr[1]     0.000       990.125
+addr[7:0]     System        Port     addr[2]     addr[2]     0.000       990.323
+nCE           System        Port     nCE         nCE         0.000       991.159
+nOE           System        Port     nOE         nOE         0.000       991.291
+addr[7:0]     System        Port     addr[7]     addr[7]     0.000       991.296
+addr[7:0]     System        Port     addr[5]     addr[5]     0.000       991.428
+addr[7:0]     System        Port     addr[6]     addr[6]     0.000       991.560
+addr[7:0]     System        Port     addr[4]     addr[4]     0.000       991.667
+================================================================================
+
+
+Ending Points with Worst Slack
+******************************
+
+                 Starting                                                      Required            
+Instance         Reference     Type                   Pin         Net          Time         Slack  
+                 Clock                                                                             
+---------------------------------------------------------------------------------------------------
+data[7:0]        System        Port                   data[1]     data[1]      1000.000     989.537
+data[7:0]        System        Port                   data[3]     data[3]      1000.000     989.537
+data[7:0]        System        Port                   data[4]     data[4]      1000.000     989.537
+data[7:0]        System        Port                   data[5]     data[5]      1000.000     989.537
+data[7:0]        System        Port                   data[6]     data[6]      1000.000     989.537
+data[7:0]        System        Port                   data[7]     data[7]      1000.000     989.537
+data[7:0]        System        Port                   data[0]     data[0]      1000.000     990.246
+data[7:0]        System        Port                   data[2]     data[2]      1000.000     990.246
+configure[4]     System        cycloneii_lcell_ff     ena         N_1707_i     999.200      993.462
+test[1:0]        System        Port                   test[0]     test[0]      1000.000     993.519
+===================================================================================================
+
+
+
+Worst Path Information
+***********************
+
+
+Path information for path number 1: 
+    Requested Period:                        1000.000
+    = Required time:                         1000.000
+
+    - Propagation time:                      10.464
+    = Slack (non-critical) :                 989.537
+
+    Number of logic level(s):                7
+    Starting point:                          addr[7:0] / addr[0]
+    Ending point:                            data[7:0] / data[1]
+    The start point is clocked by            System [rising]
+    The end   point is clocked by            System [rising]
+
+Instance / Net                                 Pin         Pin               Arrival     No. of    
+Name                  Type                     Name        Dir     Delay     Time        Fan Out(s)
+---------------------------------------------------------------------------------------------------
+addr[7:0]             Port                     addr[0]     In      0.000     0.000       -         
+addr[0]               Net                      -           -       0.000     -           0         
+addr_in[0]            cycloneii_io             padio       In      -         0.000       -         
+addr_in[0]            cycloneii_io             combout     Out     1.217     1.217       -         
+addr_c[0]             Net                      -           -       2.360     -           44        
+wdata_8_i_m2_c[1]     cycloneii_lcell_comb     datad       In      -         3.576       -         
+wdata_8_i_m2_c[1]     cycloneii_lcell_comb     combout     Out     0.152     3.728       -         
+wdata_8_i_m2_c[1]     Net                      -           -       0.188     -           1         
+wdata_8_i_m2[1]       cycloneii_lcell_comb     dataa       In      -         3.916       -         
+wdata_8_i_m2[1]       cycloneii_lcell_comb     combout     Out     0.522     4.438       -         
+wdata_8_i_m2[1]       Net                      -           -       0.188     -           1         
+wdata_14_a[1]         cycloneii_lcell_comb     dataa       In      -         4.625       -         
+wdata_14_a[1]         cycloneii_lcell_comb     combout     Out     0.522     5.147       -         
+wdata_14_a[1]         Net                      -           -       0.188     -           1         
+wdata_14[1]           cycloneii_lcell_comb     dataa       In      -         5.335       -         
+wdata_14[1]           cycloneii_lcell_comb     combout     Out     0.522     5.856       -         
+wdata_14[1]           Net                      -           -       0.188     -           1         
+wdata[1]              cycloneii_lcell_comb     dataa       In      -         6.044       -         
+wdata[1]              cycloneii_lcell_comb     combout     Out     0.522     6.566       -         
+wdata[1]              Net                      -           -       0.845     -           1         
+data_tri[1]           cycloneii_io             datain      In      -         7.410       -         
+data_tri[1]           cycloneii_io             padio       Out     3.053     10.464      -         
+data[1]               Net                      -           -       0.000     -           0         
+data[7:0]             Port                     data[1]     Out     -         10.464      -         
+===================================================================================================
+Total path delay (propagation time + setup) of 10.464 is 6.510(62.2%) logic and 3.954(37.8%) route.
+
+
+
+##### END OF TIMING REPORT #####]
+
+
+##### START OF AREA REPORT #####[
+Design view:work.pld(verilog)
+Selecting part EP2C5T144C8
+@N: FA174 |The following device usage report estimates place and route data. Please look at the place and route report for final resource usage..
+
+I/O ATOMs:       66
+
+Cyclone II_lcell_comb:  723 ATOMs of 4608 
+Cyclone II_lcell_ff:  403 ATOMs of 4608
+ATOM count by mode:
+  normal:       723
+  arithmetic:   0
+  pure sequential: 403
+
+
+DSP Blocks:     0  (0 nine-bit DSP elements).
+DSP Utilization: 0.00% of available 13 blocks (104 nine-bit).
+ShiftTap:       0  (0 registers)
+Total ESB:      0 bits 
+
+Sequential atoms using regout pin: 403
+  also using enable pin: 202
+ATOMs using combout pin: 723
+Number of Inputs on ATOMs: 0
+Number of Nets:   1586
+
+##### END OF AREA REPORT #####]
+
+Mapper successful!
+Process took 0h:0m:14s realtime, 0h:0m:14s cputime
+###########################################################]

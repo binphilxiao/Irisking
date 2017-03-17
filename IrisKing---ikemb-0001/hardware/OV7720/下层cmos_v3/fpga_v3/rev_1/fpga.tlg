@@ -1,0 +1,6 @@
+Selecting top level module FPGA
+Synthesizing module FPGA
+@W:"E:\project\IRISking\ikemb-0001\project\hardware\OV7720\fpga_v3\fpga.v":5:14:5:20|Input port bit <2> of vpctlin[2:0] is unused
+
+@W: CL159 :"E:\project\IRISking\ikemb-0001\project\hardware\OV7720\fpga_v3\fpga.v":2:8:2:10|Input clk is unused
+@W: CL159 :"E:\project\IRISking\ikemb-0001\project\hardware\OV7720\fpga_v3\fpga.v":2:12:2:17|Input nReset is unused

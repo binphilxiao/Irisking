@@ -1,0 +1,47 @@
+(ExpressProject ""
+  (ProjectType "PCB")
+  (Folder "Design Resources"
+    (Folder "Library")
+    (File ".\8139dl-pci.dsn"
+      (Type "Schematic Design"))
+    (BuildFileAddedOrDeleted "x")
+    (CompileFileAddedOrDeleted "x")
+    (NoModify))
+  (Folder "Outputs")
+  (Folder "Referenced Projects")
+  (Folder "Simulation Resources"
+    (Folder "In Design")
+    (Folder "Compiled")
+    (Folder "Timed"))
+  (GlobalState
+    (FileView
+      (Path "Design Resources")
+      (Path "Design Resources" ".\8139dl-pci.dsn")
+      (Path "Design Resources" ".\8139dl-pci.dsn" "8139DL-PCI")
+      (Select "Design Resources" ".\8139dl-pci.dsn" "8139DL-PCI" "PAGE1"))
+    (HierarchyView)
+    (Doc
+      (Type "COrCapturePMDoc")
+      (Frame
+        (Placement "44 0 1 -1 -1 -4 -23 0 200 0 300"))
+      (Tab 0))
+    (Doc
+      (Type "COrSchematicDoc")
+      (Frame
+        (Placement "44 0 1 -1 -1 -4 -23 110 756 110 437")
+        (Scroll "210 0")
+        (Zoom "100")
+        (Occurrence "/"))
+      (Path "H:\RTL8139D(L)\011108\HW\8139DLPCIDEMO\1.10\8139DL-PCI.DSN")
+      (Schematic "8139DL-PCI")
+      (Page "PAGE4"))
+    (Doc
+      (Type "COrSchematicDoc")
+      (Frame
+        (Placement "44 2 3 -1 -1 -4 -23 66 712 66 393")
+        (Scroll "0 330")
+        (Zoom "100")
+        (Occurrence "/"))
+      (Path "H:\RTL8139D(L)\011108\HW\8139DLPCIDEMO\1.10\8139DL-PCI.DSN")
+      (Schematic "8139DL-PCI")
+      (Page "PAGE1"))))

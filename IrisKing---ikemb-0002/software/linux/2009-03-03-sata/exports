@@ -1,0 +1,32 @@
+# /etc/exports: the access control list for filesystems which may be exported
+#		to NFS clients.  See exports(5).
+#
+# Example for NFSv2 and NFSv3:
+# /srv/homes       hostname1(rw,sync) hostname2(ro,sync)
+#
+# Example for NFSv4:
+# /srv/nfs4        gss/krb5i(rw,sync,fsid=0,crossmnt)
+# /srv/nfs4/homes  gss/krb5i(rw,sync)
+#
+/usr/local/arm              10.*.*.*(rw,no_root_squash)
+#/opt              			10.*.*.*(rw,no_root_squash)
+/root/arm/nfs               10.*.*.*(rw,no_root_squash)
+
+
+/root/arm/debug/nfs         10.*.*.*(ro,no_root_squash)
+#/root/arm/release/nfs.2007-11-08 		10.*.*.*(ro)
+#/root/arm/release/nfs.2007-11-20 		10.*.*.*(ro)
+#/root/arm/release/nfs.2007-11-29 		10.*.*.*(ro)
+#/root/arm/release/nfs.2007-12-12 		10.*.*.*(ro)
+/root/arm/release/nfs.2007-12-29 		10.*.*.*(ro)
+/root/arm/release/nfs.2008-04-29 		10.*.*.*(ro)
+/root/arm/release/nfs.2008-05-27 		10.*.*.*(ro)
+/root/arm/release/nfs.2008-11-18 		10.*.*.*(ro)
+/root/arm/release/nfs.2009-03-03 		10.*.*.*(ro,no_subtree_check)
+
+#
+/root/qiuxc/nfs.2008-05-27-yunnan 		10.*.*.*(ro)
+
+# Power PC
+/root/powerpc/nfs 			10.*.*.*(rw,no_root_squash)
+

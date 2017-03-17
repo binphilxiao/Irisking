@@ -1,0 +1,14 @@
+
+****************************************
+DBDOCTOR of drawing E:/project/IRISking/ikemb-0001/project/hardware/LED/v3/LED.brd
+****************************************
+
+ERROR IN ATTRIBUTE 
+  POINTER TO ATTRIBUTE INVALID
+   Error was fixed.
+
+Regenerating DRC
+  0 original DRC errors replaced by
+  0 current DRC errors.
+
+0 warnings, 1 errors detected, 1 errors  fixed.

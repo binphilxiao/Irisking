@@ -1,0 +1,57 @@
+#-- Synplicity, Inc.
+#-- Version Synplify 8.6.2
+#-- Project file E:\EMB002\project\hardware\CPLD\pld.prj
+#-- Written on Wed Mar 19 15:50:03 2008
+
+
+#add_file options
+add_file -verilog "E:/EMB002/project/hardware/CPLD/pld.v"
+
+
+#implementation: "pld"
+impl -add pld -type fpga
+
+#device options
+set_option -technology MAXII
+set_option -part EPM240
+set_option -package TC100
+set_option -speed_grade -5
+
+#compilation/mapping options
+set_option -default_enum_encoding onehot
+set_option -symbolic_fsm_compiler 1
+set_option -resource_sharing 1
+set_option -use_fsm_explorer 0
+
+#map options
+set_option -frequency 1.000
+set_option -run_prop_extract 1
+set_option -fanout_limit 500
+set_option -disable_io_insertion 0
+set_option -pipe 1
+set_option -update_models_cp 0
+set_option -retiming 0
+set_option -fixgatedclocks 0
+set_option -no_sequential_opt 0
+set_option -quartus_version 5.0
+
+#simulation options
+set_option -write_verilog 1
+set_option -write_vhdl 0
+
+#VIF options
+set_option -write_vif 1
+
+#automatic place and route (vendor) options
+set_option -write_apr_constraint 1
+
+#set result format/file last
+project -result_file "pld/pld.vqm"
+
+#
+#implementation attributes
+
+set_option -vlog_std v2001
+set_option -dup 0
+set_option -project_relative_includes 1
+impl -active "pld"

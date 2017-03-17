@@ -1,0 +1,243 @@
+|pld
+addr[2] => s_or2:un1_wigend_reg_3_i_a3_0_1_6_.IN1
+addr[2] => un1_wigend_reg_3_i_a3_3_7_.IN0
+addr[2] => un1_wigend_reg_3_i_a3_4_7_.IN0
+addr[2] => s_or2:un1_nGCS_i_o3_0_.IN1
+addr[2] => s_or2:un1_wigend_reg_3_i_a3_5_.IN1
+addr[2] => s_or2:un1_wigend_reg_3_i_a3_4_.IN1
+addr[2] => s_or2:un1_wigend_reg_3_i_a3_3_.IN1
+addr[2] => s_or2:un1_wigend_reg_3_i_a3_2_.IN1
+addr[2] => s_or2:un1_wigend_reg_3_i_a3_1_.IN1
+addr[2] => s_or2:un1_wigend_reg_3_i_a3_0_.IN1
+addr[3] => un1_wigend_reg_3_i_a3_3_7_.IN1
+addr[3] => I_426.IN0
+addr[3] => s_or2:un1_nGCS_i_o3_0_.IN2
+addr[4] => s_or2:un1_wigend_reg_3_i_a3_0_1_6_.IN2
+addr[4] => I_425.IN0
+addr[4] => un1_wigend_reg_3_i_a3_6_.IN0
+addr[4] => un1_wigend_reg_3_i_a3_7_.IN0
+addr[4] => un1_nGCS_i_a3_0_.IN1
+addr[5] => I_434.IN0
+addr[6] => I_433.IN0
+addr[7] => I_432.IN0
+addr[8] => I_431.IN0
+BUFDIR <= BUFDIR_buf.DB_MAX_OUTPUT_PORT_TYPE
+BUFDIR1 <= BUFDIR_1_i.DB_MAX_OUTPUT_PORT_TYPE
+clk => wilclk_cnt_12_.CLK
+clk => wilclk_cnt_11_.CLK
+clk => wilclk_cnt_10_.CLK
+clk => wilclk_cnt_9_.CLK
+clk => wilclk_cnt_8_.CLK
+clk => wilclk_cnt_7_.CLK
+clk => wilclk_cnt_6_.CLK
+clk => wilclk_cnt_5_.CLK
+clk => wilclk_cnt_4_.CLK
+clk => wilclk_cnt_3_.CLK
+clk => wilclk_cnt_2_.CLK
+clk => wilclk_cnt_1_.CLK
+clk => wilclk_cnt_0_.CLK
+clk => overtime_delay1_i.CLK
+clk => overtime_i_0.CLK
+clk => wil_clk_tmp_i_0.CLK
+clk => wil1_i_0.CLK
+clk => wil0_i_0.CLK
+clk => overtime_delay3_i_0.CLK
+clk => overtime_delay2_i_0.CLK
+clk => wil_clk_i_0.CLK
+clkout <= clkout_buf.DB_MAX_OUTPUT_PORT_TYPE
+clock => clkout_buf.DATAIN
+data[0] <= data_1_0_.DB_MAX_OUTPUT_PORT_TYPE
+data[1] <= data_1_1_.DB_MAX_OUTPUT_PORT_TYPE
+data[2] <= data_1_2_.DB_MAX_OUTPUT_PORT_TYPE
+data[3] <= data_1_3_.DB_MAX_OUTPUT_PORT_TYPE
+data[4] <= data_1_4_.DB_MAX_OUTPUT_PORT_TYPE
+data[5] <= data_1_5_.DB_MAX_OUTPUT_PORT_TYPE
+data[6] <= data_1_6_.DB_MAX_OUTPUT_PORT_TYPE
+data[7] <= data_1_7_.DB_MAX_OUTPUT_PORT_TYPE
+De <= De_buf.DB_MAX_OUTPUT_PORT_TYPE
+eint11 <= eint11_i_i.DB_MAX_OUTPUT_PORT_TYPE
+hpirdy => I_423.IN0
+Hs <= Hs_buf.DB_MAX_OUTPUT_PORT_TYPE
+nEXTBUS <= nEXTBUS_0_a3.DB_MAX_OUTPUT_PORT_TYPE
+nFCE => nEXTBUS_0_a3_lin.IN0
+nFRE => BUFDIR_1_i_lin.IN0
+nFRE => nEXTBUS_0_a3_lin_5.IN0
+nFWE => nEXTBUS_0_a3_lin_4.IN0
+nGCS[0] => nEXTBUS_0_a3_lin_3.IN0
+nGCS[1] => nEXTBUS_0_a3_lin_2.IN0
+nGCS[2] => nEXTBUS_0_a3_lin_1.IN0
+nGCS[3] => I_429.IN0
+nGCS[3] => nEXTBUS_0_a3_lin_0.IN0
+nGCS[4] => nEXTBUS_0_a3_lin_0.IN1
+nGCS[5] => ~NO_FANOUT~
+nOE => BUFDIR_1_i_lin.IN1
+nOE => I_430.IN0
+nReset => wilclk_cnt_12_.ACLR
+nReset => wilclk_cnt_11_.ACLR
+nReset => wilclk_cnt_10_.ACLR
+nReset => wilclk_cnt_9_.ACLR
+nReset => wilclk_cnt_8_.ACLR
+nReset => wilclk_cnt_7_.ACLR
+nReset => wilclk_cnt_6_.ACLR
+nReset => wilclk_cnt_5_.ACLR
+nReset => wilclk_cnt_4_.ACLR
+nReset => wilclk_cnt_3_.ACLR
+nReset => wilclk_cnt_2_.ACLR
+nReset => wilclk_cnt_1_.ACLR
+nReset => wilclk_cnt_0_.ACLR
+nReset => wigend_bitcnt_4_.ACLR
+nReset => wigend_bitcnt_3_.ACLR
+nReset => wigend_bitcnt_2_.ACLR
+nReset => wigend_bitcnt_1_.ACLR
+nReset => wigend_bitcnt_0_.ACLR
+nReset => wigend_buf_24_.ACLR
+nReset => wigend_buf_23_.ACLR
+nReset => wigend_buf_22_.ACLR
+nReset => wigend_buf_21_.ACLR
+nReset => wigend_buf_20_.ACLR
+nReset => wigend_buf_19_.ACLR
+nReset => wigend_buf_18_.ACLR
+nReset => wigend_buf_17_.ACLR
+nReset => wigend_buf_16_.ACLR
+nReset => wigend_buf_15_.ACLR
+nReset => wigend_buf_14_.ACLR
+nReset => wigend_buf_13_.ACLR
+nReset => wigend_buf_12_.ACLR
+nReset => wigend_buf_11_.ACLR
+nReset => wigend_buf_10_.ACLR
+nReset => wigend_buf_9_.ACLR
+nReset => wigend_buf_8_.ACLR
+nReset => wigend_buf_7_.ACLR
+nReset => wigend_buf_6_.ACLR
+nReset => wigend_buf_5_.ACLR
+nReset => wigend_buf_4_.ACLR
+nReset => wigend_buf_3_.ACLR
+nReset => wigend_buf_2_.ACLR
+nReset => wigend_buf_1_.ACLR
+nReset => wigend_buf_0_.ACLR
+nReset => wigend_reg_25_.ACLR
+nReset => wigend_reg_24_.ACLR
+nReset => wigend_reg_23_.ACLR
+nReset => wigend_reg_22_.ACLR
+nReset => wigend_reg_21_.ACLR
+nReset => wigend_reg_20_.ACLR
+nReset => wigend_reg_19_.ACLR
+nReset => wigend_reg_18_.ACLR
+nReset => wigend_reg_17_.ACLR
+nReset => wigend_reg_16_.ACLR
+nReset => wigend_reg_15_.ACLR
+nReset => wigend_reg_14_.ACLR
+nReset => wigend_reg_13_.ACLR
+nReset => wigend_reg_12_.ACLR
+nReset => wigend_reg_11_.ACLR
+nReset => wigend_reg_10_.ACLR
+nReset => wigend_reg_9_.ACLR
+nReset => wigend_reg_8_.ACLR
+nReset => wigend_reg_7_.ACLR
+nReset => wigend_reg_6_.ACLR
+nReset => wigend_reg_5_.ACLR
+nReset => wigend_reg_4_.ACLR
+nReset => wigend_reg_3_.ACLR
+nReset => wigend_reg_2_.ACLR
+nReset => wigend_reg_1_.ACLR
+nReset => wigend_reg_0_.ACLR
+nReset => eint11_i.ACLR
+nReset => overtime_delay1_i.ACLR
+nReset => overtime_i_0.ACLR
+nReset => wil_clk_tmp_i_0.ACLR
+nReset => wil1_i_0.ACLR
+nReset => wil0_i_0.ACLR
+nReset => overtime_delay3_i_0.ACLR
+nReset => overtime_delay2_i_0.ACLR
+nReset => wil_clk_i_0.ACLR
+nWAIT <= I_423.DB_MAX_OUTPUT_PORT_TYPE
+nWE => ~NO_FANOUT~
+vCLK <= I_424.DB_MAX_OUTPUT_PORT_TYPE
+vp2clk0 => ~NO_FANOUT~
+vp2clk1 => I_424.IN0
+vp2ctl0 => De_buf.DATAIN
+vp2ctl1 => ~NO_FANOUT~
+vp2ctl2 => ~NO_FANOUT~
+Vs <= Vs_buf.DB_MAX_OUTPUT_PORT_TYPE
+wil[0] => I_427.IN0
+wil[0] => un1_wil_2_lin.IN0
+wil[1] => wilclk_cnt_n9tt_m1.IN1
+wil[1] => I_428.IN0
+wil[1] => un1_wil_1_lin.IN1
+wil[1] => overtime17_lin_tz.IN0
+
+
+|pld|21MUX:eint11_0
+Y <= 5.DB_MAX_OUTPUT_PORT_TYPE
+A => 6.IN0
+S => 6.IN1
+S => 7.IN1
+B => 8.IN0
+
+
+|pld|s_or2:G_61_0
+
+
+|pld|s_or2:G_61_0_o2
+
+
+|pld|s_or2:un1_nGCS_i_o3_0_
+
+
+|pld|s_or2:un1_wigend_buf56_i_tz
+
+
+|pld|s_or2:un1_wigend_reg_3_i_a3_0_
+
+
+|pld|s_or2:un1_wigend_reg_3_i_a3_0_1_6_
+
+
+|pld|s_or2:un1_wigend_reg_3_i_a3_1_
+
+
+|pld|s_or2:un1_wigend_reg_3_i_a3_2_
+
+
+|pld|s_or2:un1_wigend_reg_3_i_a3_3_
+
+
+|pld|s_or2:un1_wigend_reg_3_i_a3_4_
+
+
+|pld|s_or2:un1_wigend_reg_3_i_a3_5_
+
+
+|pld|s_or2:un1_wilclk_cntlto11_0
+
+
+|pld|s_or2:wigend_bitcnt_n0_0
+
+
+|pld|s_or2:wigend_bitcnt_n0_0_a3
+
+
+|pld|s_or2:wigend_bitcnt_n1_i_a3
+
+
+|pld|s_or2:wigend_bitcnt_n2_i_a3
+
+
+|pld|s_or2:wigend_bitcnt_n3_i_a3
+
+
+|pld|s_or2:wigend_bitcnt_n4_i_a3
+
+
+|pld|s_or2:wilclk_cnt_n3_m4_e
+
+
+|pld|s_or2:wilclk_cnt_n7_m4_e
+
+
+|pld|s_or2:wilclk_cnt_n8_m4_e
+
+
+|pld|s_or2:wilclk_cnt_n9_m4_e
+
+

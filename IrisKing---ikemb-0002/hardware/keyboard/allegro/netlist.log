@@ -1,0 +1,17 @@
+{ Using PSTWRITER 15.7.0 p001Dec-17-2009 at 10:23:19 }
+
+#1 Warning [ALG0016] Part Name "DIODE SCHOTTKY_D2220_SCHOTTKY MBR745" is renamed to "DIODE SCHOTTKY_D2220_SCHOTTKY M".
+#2 Warning [ALG0016] Part Name "LD1117/DD_2_EMI_FILTER2_0*4 1206" is renamed to "LD1117/DD_2_EMI_FILTER2_0*4 120".
+#3 Warning [ALG0051] Pin "PGND" is renamed to "PGND#11" after substituting illegal characters in Package TPS54310_0 , U43: SCHEMATIC1, power (14.70, 8.00).
+#4 Warning [ALG0051] Pin "PGND" is renamed to "PGND#12" after substituting illegal characters in Package TPS54310_0 , U43: SCHEMATIC1, power (14.70, 8.00).
+#5 Warning [ALG0051] Pin "PGND" is renamed to "PGND#13" after substituting illegal characters in Package TPS54310_0 , U43: SCHEMATIC1, power (14.70, 8.00).
+#6 Warning [ALG0051] Pin "VIN" is renamed to "VIN#14" after substituting illegal characters in Package TPS54310_0 , U43: SCHEMATIC1, power (14.70, 8.00).
+#7 Warning [ALG0051] Pin "VIN" is renamed to "VIN#15" after substituting illegal characters in Package TPS54310_0 , U43: SCHEMATIC1, power (14.70, 8.00).
+#8 Warning [ALG0051] Pin "VIN" is renamed to "VIN#16" after substituting illegal characters in Package TPS54310_0 , U43: SCHEMATIC1, power (14.70, 8.00).
+#9 Warning [ALG0016] Part Name "LD1117/DD_2_EMI_FILTER2_BEAD 2220" is renamed to "LD1117/DD_2_EMI_FILTER2_BEAD 22".
+Scanning netlist files ...
+Loading... d:\project\irisking\ikemb-0002\project\hardware\keyboard\allegro/pstchip.dat
+Loading... d:\project\irisking\ikemb-0002\project\hardware\keyboard\allegro/pstchip.dat
+Loading... d:\project\irisking\ikemb-0002\project\hardware\keyboard\allegro/pstxprt.dat
+Loading... d:\project\irisking\ikemb-0002\project\hardware\keyboard\allegro/pstxnet.dat
+packaging the design view...

@@ -1,0 +1,26 @@
+(------------------------------------------------------------)
+(                                                            )
+(        Batch DRC Update                                    )
+(                                                            )
+(        Drawing          : LED.brd                          )
+(        Software Version : 16.0p005                         )
+(        Date/Time        : Mon Nov 21 10:13:28 2011         )
+(                                                            )
+(------------------------------------------------------------)
+
+
+ ========= check shapes                       Mon Nov 21 10:13:28 2011
+ ========= check standalone pins              Mon Nov 21 10:13:28 2011
+ ========= check symbols (pins,lines,text)    Mon Nov 21 10:13:28 2011
+ ========= check nets                         Mon Nov 21 10:13:28 2011
+ ========= check standalone branches          Mon Nov 21 10:13:28 2011
+ ========= check standalone filled rectangles Mon Nov 21 10:13:28 2011
+ ========= check standalone lines             Mon Nov 21 10:13:28 2011
+ ========= check standalone text              Mon Nov 21 10:13:28 2011
+ ========= check standalone rectangles        Mon Nov 21 10:13:28 2011
+
+ ..... Total number of DRC errors  0
+
+ ..... end batch DRC at                       Mon Nov 21 10:13:28 2011
+ *************************************************************************
+

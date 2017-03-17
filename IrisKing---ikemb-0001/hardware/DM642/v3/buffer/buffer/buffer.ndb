@@ -1,0 +1,146 @@
+NDB006
+The number of symbol table entries is: 1
+The length of the symbol table is: 13
+
+Index Hierarchy Path
+----- --------------
+!	&null_hpath&
+
+The number of name info structs is : 134
+
+InsOrder BitField SymTableIndex NextSyn SynParent Loc ChainType NextChain ChainParent FanOut DirExp ParExp ShareExp NodeName
+-------- -------- ------------- ------- --------- --- --------- --------- ----------- ------ ------ ------ -------- --------
+"	It0;	!	"4	105	0	:46	"A
+#	It0;	!	"3	109	0	:48	"C
+$	It0;	!	"2	113	0	:50	"E
+%	It0;	!	u	116	0	:51	"F
+&	It0;	!	t	119	0	:52	"G
+'	It0;	!	s	122	0	:53	"H
+(	It0;	!	r	125	0	:54	"I
+)	It0;	!	q	128	0	:55	"J
+*	It0;	!	p	131	0	:56	"K
++	It0;	!	o	134	0	:57	"L
+,	It0;	!	".	227	0	:92	"o
+-	It0;	!	"I	228	0	:93	"p
+.	"?%_n	!	76	0	9	L	V	W	X	Y	Z	[	\	]	addr2	!	addr2	{
+/	"?%_n	!	76	0	9	L	V	W	X	Y	Z	[	\	]	addr3	!	addr3	z
+0	"?%_n	!	76	0	9	L	V	W	X	Y	Z	[	\	]	addr4	!	addr4	y
+1	"?%_n	!	76	0	9	L	V	W	X	Y	Z	[	\	]	addr5	!	addr5	x
+2	"<R?b	!	76	0	addr6	!	addr6	w
+3	"<R?b	!	76	0	addr7	!	addr7	v
+4	"<R?b	!	76	0	addr8	!	addr8	u
+5	INu}	!	9	addr_i_0_2_	"U
+6	INu}	!	:	addr_i_0_3_	"@
+7	INu}	!	;	addr_i_0_4_	"B
+8	INu}	!	<	addr_i_0_5_	"D
+9	It0;	!	5	161	0	addr_i_2_	"U
+:	It0;	!	6	104	0	addr_i_3_	"@
+;	It0;	!	7	108	0	addr_i_4_	"B
+<	It0;	!	8	112	0	addr_i_5_	"D
+=	IeE[	!	91	0	BUFDIR	"3
+>	IeE[	!	92	0	BUFDIR1	"4
+?	IeEA	!	226	0	BUFDIR1_buf	"n
+@	IeEA	!	225	0	BUFDIR_buf	"m
+A	IeE[	!	93	0	clkout	"5
+B	IeEA	!	155	0	clkout_buf	"S
+C	(@\6H	!	78	0	1	A	clock	"&
+D	It0+	!	M	165	0	configure0	"W
+E	It0+	!	N	168	0	configure1	"X
+F	It0+	!	O	171	0	configure2	"Y
+G	It0+	!	P	174	0	configure3	"Z
+H	It0+	!	Q	177	0	configure4	"[
+I	It0+	!	R	180	0	configure5	"\
+J	It0+	!	S	183	0	configure6	"]
+K	It0+	!	T	186	0	configure7	"^
+L	LFWy	!	U	186	0	8	]	\	[	Z	Y	X	W	V	configure7~1	([
+M	INum	!	D	configure_0_	"W
+N	INum	!	E	configure_1_	"X
+O	INum	!	F	configure_2_	"Y
+P	INum	!	G	configure_3_	"Z
+Q	INum	!	H	configure_4_	"[
+R	INum	!	I	configure_5_	"\
+S	INum	!	J	configure_6_	"]
+T	INum	!	K	configure_7_	"^
+U	IM}Q	!	L	configure_7_~1	([
+V	"?%_q	!	77	0	2	V	V	data0	!	data0	"%
+W	"?%_q	!	77	0	2	W	W	data1	!	data1	"$
+X	"I/$C	!	77	0	2	X	X	1	1	data2	!	data2	"#
+Y	"I/$C	!	77	0	2	Y	Y	1	1	data3	!	data3	""
+Z	"I/$C	!	77	0	2	Z	Z	1	1	data4	!	data4	"!
+[	"I/$C	!	77	0	2	[	[	1	1	data5	!	data5	~
+\	"I/$C	!	77	0	2	\	\	1	1	data6	!	data6	}
+]	"?%_q	!	77	0	2	]	]	data7	!	data7	|
+^	INu}	!	"6	data_0_	"f
+_	INu}	!	"7	data_1_	"e
+`	INu}	!	"8	data_2_	"d
+a	INu}	!	"9	data_3_	"c
+b	INu}	!	":	data_4_	"b
+c	INu}	!	";	data_5_	"a
+d	INu}	!	"<	data_6_	"`
+e	INu}	!	"=	data_7_	"_
+f	IeE[	!	97	0	De	"9
+g	IeEA	!	143	0	De_buf	"O
+h	IeE[	!	98	0	dir1	":
+i	IeEA	!	140	0	dir1_buf	"N
+j	IeE[	!	95	0	Hs	"7
+k	IeEA	!	149	0	Hs_buf	"Q
+l	IeE[	!	99	0	ldir1	";
+m	IeE[	!	90	0	nEXTBUS	"2
+n	IeEA	!	158	0	nEXTBUS_0_a2	"T
+o	INu}	!	+	nEXTBUS_0_a2_0	"L
+p	INu}	!	*	nEXTBUS_0_a2_1	"K
+q	INu}	!	)	nEXTBUS_0_a2_2	"J
+r	INu}	!	(	nEXTBUS_0_a2_3	"I
+s	INu}	!	'	nEXTBUS_0_a2_4	"H
+t	INu}	!	&	nEXTBUS_0_a2_5	"G
+u	INu}	!	%	nEXTBUS_0_a2_6	"F
+v	L8ef	!	80	0	1	m	nFCE	"(
+w	L8ef	!	84	0	5	=	>	h	l	m	nFRE	",
+x	L8ef	!	83	0	1	m	nFWE	"+
+y	"?%_n	!	75	0	1	m	nGCS0	!	nGCS0	t
+z	"?%_n	!	75	0	1	m	nGCS1	!	nGCS1	s
+{	"?%_n	!	75	0	1	m	nGCS2	!	nGCS2	r
+|	"?%_n	!	75	0	1	m	nGCS3	!	nGCS3	q
+}	"?%_n	!	75	0	10	L	V	W	X	Y	Z	[	\	]	m	nGCS4	!	nGCS4	p
+~	"?%_n	!	75	0	1	m	nGCS5	!	nGCS5	o
+"!	INu}	!	""	nGCS_i_0_4_	"j
+""	It0;	!	"!	220	0	nGCS_i_4_	"j
+"#	L8ef	!	81	0	5	=	>	L	h	l	nOE	")
+"$	It0;	!	"%	213	0	nOE_i	"g
+"%	INu}	!	"$	nOE_i_0	"g
+"&	(@\6H	!	79	0	8	]	\	[	Z	Y	X	W	V	nReset	"'
+"'	IeE[	!	100	0	nWAIT	"<
+"(	IeEA	!	137	0	nWAIT_buf	"M
+")	L8ef	!	82	0	8	V	W	X	Y	Z	[	\	]	nWE	"*
+"*	It0;	!	"+	221	0	nWE_i	"k
+"+	INu}	!	"*	nWE_i_0	"k
+",	It0;	!	"-	217	0	un1_BUFDIR_0_a2	"i
+"-	INu}	!	",	un1_BUFDIR_0_a2_n	"i
+".	INu}	!	,	un1_BUFDIR_0_a2_n_i	"o
+"/	It0;	!	"0	214	0	un1_nGCS_0_a2_0_	"h
+"0	INu}	!	"/	un1_nGCS_0_a2_n_0_	"h
+"1	It0;	!	"5	162	0	un1_nGCS_1_0_a2	"V
+"2	INu}	!	$	un1_nGCS_1_0_a2_0	"E
+"3	INu}	!	#	un1_nGCS_1_0_a2_1	"C
+"4	INu}	!	"	un1_nGCS_1_0_a2_2	"A
+"5	INu}	!	"1	un1_nGCS_1_0_a2_n	"V
+"6	It0;	!	^	210	0	un6_data_0_	"f
+"7	It0;	!	_	207	0	un6_data_1_	"e
+"8	It0;	!	`	204	0	un6_data_2_	"d
+"9	It0;	!	a	201	0	un6_data_3_	"c
+":	It0;	!	b	198	0	un6_data_4_	"b
+";	It0;	!	c	195	0	un6_data_5_	"a
+"<	It0;	!	d	192	0	un6_data_6_	"`
+"=	It0;	!	e	189	0	un6_data_7_	"_
+">	IeE[	!	94	0	vCLK	"6
+"?	IeEA	!	152	0	vCLK_buf	"R
+"@	L8ef	!	85	0	1	">	vp2clk0	"-
+"A	L8ef	!	86	0	1	f	vp2clk1	".
+"B	L8ef	!	87	0	1	j	vp2ctl0	"/
+"C	L8ef	!	88	0	1	"E	vp2ctl1	"0
+"D	IeEZ	!	89	0	vp2ctl2	"1
+"E	IeE[	!	96	0	Vs	"8
+"F	IeEA	!	146	0	Vs_buf	"P
+"G	It0;	!	"H	222	0	wr_temp_i_a2	"l
+"H	INu}	!	"G	wr_temp_i_a2_n	"l
+"I	INu}	!	-	wr_temp_i_a2_n_i	"p

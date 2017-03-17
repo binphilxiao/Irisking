@@ -1,0 +1,162 @@
+FILE_TYPE=LIBRARY_PARTS;
+{ Using PSTWRITER 16.0.0 p001Nov-17-2011 at 13:04:13}
+primitive 'DIODE_0_LED_780NM';
+  pin
+    'A':
+      PIN_NUMBER='(1)';
+      PINUSE='UNSPEC';
+    'K':
+      PIN_NUMBER='(2)';
+      PINUSE='UNSPEC';
+  end_pin;
+  body
+    PART_NAME='DIODE_0';
+    JEDEC_TYPE='led';
+    VALUE='780nm';
+  end_body;
+end_primitive;
+primitive 'DIODE PIN_LED_850NM';
+  pin
+    'A':
+      PIN_NUMBER='(1)';
+      PINUSE='UNSPEC';
+    'K':
+      PIN_NUMBER='(2)';
+      PINUSE='UNSPEC';
+  end_pin;
+  body
+    PART_NAME='DIODE PIN';
+    JEDEC_TYPE='led';
+    VALUE='850nm';
+  end_body;
+end_primitive;
+primitive 'DIODE_0_LED_850NM';
+  pin
+    'A':
+      PIN_NUMBER='(1)';
+      PINUSE='UNSPEC';
+    'K':
+      PIN_NUMBER='(2)';
+      PINUSE='UNSPEC';
+  end_pin;
+  body
+    PART_NAME='DIODE_0';
+    JEDEC_TYPE='led';
+    VALUE='850nm';
+  end_body;
+end_primitive;
+primitive 'DIODE PIN_LED_780NM';
+  pin
+    'A':
+      PIN_NUMBER='(1)';
+      PINUSE='UNSPEC';
+    'K':
+      PIN_NUMBER='(2)';
+      PINUSE='UNSPEC';
+  end_pin;
+  body
+    PART_NAME='DIODE PIN';
+    JEDEC_TYPE='led';
+    VALUE='780nm';
+  end_body;
+end_primitive;
+primitive 'DIODE_0_LED_810NM';
+  pin
+    'A':
+      PIN_NUMBER='(1)';
+      PINUSE='UNSPEC';
+    'K':
+      PIN_NUMBER='(2)';
+      PINUSE='UNSPEC';
+  end_pin;
+  body
+    PART_NAME='DIODE_0';
+    JEDEC_TYPE='led';
+    VALUE='810nm';
+  end_body;
+end_primitive;
+primitive 'CON3_SIP3_SIP2.54_3*1';
+  pin
+    '1':
+      PIN_NUMBER='(1)';
+      PINUSE='UNSPEC';
+    '2':
+      PIN_NUMBER='(2)';
+      PINUSE='UNSPEC';
+    '3':
+      PIN_NUMBER='(3)';
+      PINUSE='UNSPEC';
+  end_pin;
+  body
+    PART_NAME='CON3';
+    JEDEC_TYPE='SIP3';
+    VALUE='SIP2.54_3*1';
+  end_body;
+end_primitive;
+primitive 'R_0603_300';
+  pin
+    '1':
+      PIN_NUMBER='(1)';
+      PINUSE='UNSPEC';
+    '2':
+      PIN_NUMBER='(2)';
+      PINUSE='UNSPEC';
+  end_pin;
+  body
+    PART_NAME='R';
+    JEDEC_TYPE='0603';
+    VALUE='300';
+  end_body;
+end_primitive;
+primitive 'R_1206_NOP';
+  pin
+    '1':
+      PIN_NUMBER='(1)';
+      PINUSE='UNSPEC';
+    '2':
+      PIN_NUMBER='(2)';
+      PINUSE='UNSPEC';
+  end_pin;
+  body
+    PART_NAME='R';
+    JEDEC_TYPE='1206';
+    VALUE='NOP';
+  end_body;
+end_primitive;
+primitive 'R_1206_82';
+  pin
+    '1':
+      PIN_NUMBER='(1)';
+      PINUSE='UNSPEC';
+    '2':
+      PIN_NUMBER='(2)';
+      PINUSE='UNSPEC';
+  end_pin;
+  body
+    PART_NAME='R';
+    JEDEC_TYPE='1206';
+    VALUE='82';
+  end_body;
+end_primitive;
+primitive 'PS2502-1_LBT4_PS2502-1';
+  pin
+    'LED ANODE':
+      PIN_NUMBER='(1)';
+      PINUSE='UNSPEC';
+    'LED CATHODE':
+      PIN_NUMBER='(2)';
+      PINUSE='UNSPEC';
+    'C':
+      PIN_NUMBER='(4)';
+      PINUSE='UNSPEC';
+    'E':
+      PIN_NUMBER='(3)';
+      PINUSE='UNSPEC';
+  end_pin;
+  body
+    PART_NAME='PS2502-1';
+    JEDEC_TYPE='lbt4';
+    VALUE='PS2502-1';
+  end_body;
+end_primitive;
+END.

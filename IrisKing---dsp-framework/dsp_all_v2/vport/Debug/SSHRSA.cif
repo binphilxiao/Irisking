@@ -1,0 +1,177 @@
+
+<ci_XML compiler_version="5.1.0" cif_version="1.0">
+
+  <file_tbl>
+    <file_tbl_entry name="E:\project\IRISking\dsp-framework\dsp_all_v2\rsalib\SSHRSA.C"></file_tbl_entry>
+  </file_tbl>
+
+  <func_tbl>
+    <func_tbl_entry  name="rsaencrypt" file_tbl_idx="0" first_ln="13" last_ln="46"></func_tbl_entry>
+    <func_tbl_entry  name="sha512_mpint" file_tbl_idx="0" first_ln="48" last_ln="60"></func_tbl_entry>
+    <func_tbl_entry  name="rsa_privkey_op" file_tbl_idx="0" first_ln="67" last_ln="180"></func_tbl_entry>
+    <func_tbl_entry  name="rsa_encrypt_data" file_tbl_idx="0" first_ln="383" last_ln="405"></func_tbl_entry>
+    <func_tbl_entry  name="rsa_decrypt_data" file_tbl_idx="0" first_ln="306" last_ln="340"></func_tbl_entry>
+  </func_tbl>
+
+  <template_tbl>
+    <template_tbl_entry type="thruput" name="na"></template_tbl_entry>
+    <template_tbl_entry type="startup" name="startup"></template_tbl_entry>
+    <template_tbl_entry type="misc" name="fail"></template_tbl_entry>
+    <template_tbl_entry type="misc" name="call"></template_tbl_entry>
+    <template_tbl_entry type="short_advice" name="call_o3"></template_tbl_entry>
+    <template_tbl_entry type="misc" name="control_code"></template_tbl_entry>
+  </template_tbl>
+
+  <loop_tbl>
+    <sort column="LOOP" priority="0" type="file" order="ascending"></sort>
+    <sort column="LOOP" priority="1" type="int" order="ascending"></sort>
+    <sort column="LOOP" priority="2" type="int" order="ascending"></sort>
+    <sort column="FUNC" priority="0" type="file" order="ascending"></sort>
+    <sort column="FUNC" priority="1" type="func" order="ascending"></sort>
+    <sort column="FUNC" priority="2" type="int" order="ascending"></sort>
+    <sort column="FUNC" priority="3" type="int" order="ascending"></sort>
+    <sort column="THRUPUT" priority="0" type="int" order="descending"></sort>
+    <sort column="STARTUP" priority="0" type="int" order="descending"></sort>
+    <sort column="MISC" priority="0" type="int" order="ascending"></sort>
+    <sort column="MISC" priority="1" type="int" order="ascending"></sort>
+    <sort column="MISC" priority="2" type="string" order="ascending"></sort>
+    <sort column="MISC" priority="3" type="int" order="descending"></sort>
+    <sort column="ADVICE" priority="0" type="int" order="descending"></sort>
+
+    <loop_tbl_entry>
+      <sort_key column="LOOP" priority="0" value="0"></sort_key>
+      <sort_key column="LOOP" priority="1" value="27"></sort_key>
+      <sort_key column="LOOP" priority="2" value="29"></sort_key>
+      <sort_key column="FUNC" priority="0" value="0"></sort_key>
+      <sort_key column="FUNC" priority="1" value="13"></sort_key>
+      <sort_key column="FUNC" priority="2" value="46"></sort_key>
+      <sort_key column="MISC" priority="0" value="6"></sort_key>
+      <sort_key column="ADVICE" priority="0" value="1"></sort_key>
+      <src id="E:\project\IRISking\dsp-framework\dsp_all_v2\rsalib\SSHRSA.asm:L2:2:1288598934" func_tbl_idx="0" file_tbl_idx="0" first_ln="27" last_ln="29" lang="C"></src>
+      <thruput template_idx="0"></thruput>
+      <startup template_idx="1" s1="0"></startup>
+      <misc template_idx="2"></misc>
+      <misc template_idx="3"></misc>
+      <short_advice template_idx="4" F1="0"></short_advice>
+    </loop_tbl_entry>
+
+    <loop_tbl_entry>
+      <sort_key column="LOOP" priority="0" value="0"></sort_key>
+      <sort_key column="LOOP" priority="1" value="38"></sort_key>
+      <sort_key column="LOOP" priority="2" value="40"></sort_key>
+      <sort_key column="FUNC" priority="0" value="0"></sort_key>
+      <sort_key column="FUNC" priority="1" value="13"></sort_key>
+      <sort_key column="FUNC" priority="2" value="46"></sort_key>
+      <sort_key column="MISC" priority="0" value="6"></sort_key>
+      <sort_key column="ADVICE" priority="0" value="1"></sort_key>
+      <src id="E:\project\IRISking\dsp-framework\dsp_all_v2\rsalib\SSHRSA.asm:L4:1:1288598934" func_tbl_idx="0" file_tbl_idx="0" first_ln="38" last_ln="40" lang="C"></src>
+      <thruput template_idx="0"></thruput>
+      <startup template_idx="1" s1="0"></startup>
+      <misc template_idx="2"></misc>
+      <misc template_idx="3"></misc>
+      <short_advice template_idx="4" F1="0"></short_advice>
+    </loop_tbl_entry>
+
+    <loop_tbl_entry>
+      <sort_key column="LOOP" priority="0" value="0"></sort_key>
+      <sort_key column="LOOP" priority="1" value="55"></sort_key>
+      <sort_key column="LOOP" priority="2" value="58"></sort_key>
+      <sort_key column="FUNC" priority="0" value="0"></sort_key>
+      <sort_key column="FUNC" priority="1" value="48"></sort_key>
+      <sort_key column="FUNC" priority="2" value="60"></sort_key>
+      <sort_key column="MISC" priority="0" value="6"></sort_key>
+      <sort_key column="ADVICE" priority="0" value="1"></sort_key>
+      <src id="E:\project\IRISking\dsp-framework\dsp_all_v2\rsalib\SSHRSA.asm:L7:1:1288598934" func_tbl_idx="1" file_tbl_idx="0" first_ln="55" last_ln="58" lang="C"></src>
+      <thruput template_idx="0"></thruput>
+      <startup template_idx="1" s1="0"></startup>
+      <misc template_idx="2"></misc>
+      <misc template_idx="3"></misc>
+      <short_advice template_idx="4" F1="0"></short_advice>
+    </loop_tbl_entry>
+
+    <loop_tbl_entry>
+      <sort_key column="LOOP" priority="0" value="0"></sort_key>
+      <sort_key column="LOOP" priority="1" value="104"></sort_key>
+      <sort_key column="LOOP" priority="2" value="138"></sort_key>
+      <sort_key column="FUNC" priority="0" value="0"></sort_key>
+      <sort_key column="FUNC" priority="1" value="67"></sort_key>
+      <sort_key column="FUNC" priority="2" value="180"></sort_key>
+      <sort_key column="MISC" priority="0" value="1"></sort_key>
+      <src id="E:\project\IRISking\dsp-framework\dsp_all_v2\rsalib\SSHRSA.asm:L10:2:1288598934" func_tbl_idx="2" file_tbl_idx="0" first_ln="104" last_ln="138" lang="C"></src>
+      <thruput template_idx="0"></thruput>
+      <startup template_idx="1" s1="0"></startup>
+      <misc template_idx="2"></misc>
+      <misc template_idx="5"></misc>
+    </loop_tbl_entry>
+
+    <loop_tbl_entry>
+      <sort_key column="LOOP" priority="0" value="0"></sort_key>
+      <sort_key column="LOOP" priority="1" value="363"></sort_key>
+      <sort_key column="LOOP" priority="2" value="365"></sort_key>
+      <sort_key column="FUNC" priority="0" value="0"></sort_key>
+      <sort_key column="FUNC" priority="1" value="383"></sort_key>
+      <sort_key column="FUNC" priority="2" value="405"></sort_key>
+      <sort_key column="MISC" priority="0" value="6"></sort_key>
+      <sort_key column="ADVICE" priority="0" value="1"></sort_key>
+      <src id="E:\project\IRISking\dsp-framework\dsp_all_v2\rsalib\SSHRSA.asm:L17:2:1288598934" func_tbl_idx="3" file_tbl_idx="0" first_ln="363" last_ln="365" lang="C"></src>
+      <thruput template_idx="0"></thruput>
+      <startup template_idx="1" s1="0"></startup>
+      <misc template_idx="2"></misc>
+      <misc template_idx="3"></misc>
+      <short_advice template_idx="4" F1="0"></short_advice>
+    </loop_tbl_entry>
+
+    <loop_tbl_entry>
+      <sort_key column="LOOP" priority="0" value="0"></sort_key>
+      <sort_key column="LOOP" priority="1" value="369"></sort_key>
+      <sort_key column="LOOP" priority="2" value="371"></sort_key>
+      <sort_key column="FUNC" priority="0" value="0"></sort_key>
+      <sort_key column="FUNC" priority="1" value="383"></sort_key>
+      <sort_key column="FUNC" priority="2" value="405"></sort_key>
+      <sort_key column="MISC" priority="0" value="6"></sort_key>
+      <sort_key column="ADVICE" priority="0" value="1"></sort_key>
+      <src id="E:\project\IRISking\dsp-framework\dsp_all_v2\rsalib\SSHRSA.asm:L19:2:1288598934" func_tbl_idx="3" file_tbl_idx="0" first_ln="369" last_ln="371" lang="C"></src>
+      <thruput template_idx="0"></thruput>
+      <startup template_idx="1" s1="0"></startup>
+      <misc template_idx="2"></misc>
+      <misc template_idx="3"></misc>
+      <short_advice template_idx="4" F1="0"></short_advice>
+    </loop_tbl_entry>
+
+    <loop_tbl_entry>
+      <sort_key column="LOOP" priority="0" value="0"></sort_key>
+      <sort_key column="LOOP" priority="1" value="399"></sort_key>
+      <sort_key column="LOOP" priority="2" value="401"></sort_key>
+      <sort_key column="FUNC" priority="0" value="0"></sort_key>
+      <sort_key column="FUNC" priority="1" value="383"></sort_key>
+      <sort_key column="FUNC" priority="2" value="405"></sort_key>
+      <sort_key column="MISC" priority="0" value="6"></sort_key>
+      <sort_key column="ADVICE" priority="0" value="1"></sort_key>
+      <src id="E:\project\IRISking\dsp-framework\dsp_all_v2\rsalib\SSHRSA.asm:L23:1:1288598934" func_tbl_idx="3" file_tbl_idx="0" first_ln="399" last_ln="401" lang="C"></src>
+      <thruput template_idx="0"></thruput>
+      <startup template_idx="1" s1="0"></startup>
+      <misc template_idx="2"></misc>
+      <misc template_idx="3"></misc>
+      <short_advice template_idx="4" F1="0"></short_advice>
+    </loop_tbl_entry>
+
+    <loop_tbl_entry>
+      <sort_key column="LOOP" priority="0" value="0"></sort_key>
+      <sort_key column="LOOP" priority="1" value="323"></sort_key>
+      <sort_key column="LOOP" priority="2" value="325"></sort_key>
+      <sort_key column="FUNC" priority="0" value="0"></sort_key>
+      <sort_key column="FUNC" priority="1" value="306"></sort_key>
+      <sort_key column="FUNC" priority="2" value="340"></sort_key>
+      <sort_key column="MISC" priority="0" value="6"></sort_key>
+      <sort_key column="ADVICE" priority="0" value="1"></sort_key>
+      <src id="E:\project\IRISking\dsp-framework\dsp_all_v2\rsalib\SSHRSA.asm:L26:1:1288598934" func_tbl_idx="4" file_tbl_idx="0" first_ln="323" last_ln="325" lang="C"></src>
+      <thruput template_idx="0"></thruput>
+      <startup template_idx="1" s1="0"></startup>
+      <misc template_idx="2"></misc>
+      <misc template_idx="3"></misc>
+      <short_advice template_idx="4" F1="0"></short_advice>
+    </loop_tbl_entry>
+
+  </loop_tbl>
+
+</ci_XML>

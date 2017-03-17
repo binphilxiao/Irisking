@@ -1,0 +1,14 @@
+Fitter Status : Successful - Tue Nov 01 13:02:59 2011
+Quartus II Version : 6.0 Build 178 04/27/2006 SJ Full Version
+Revision Name : buffer
+Top-level Entity Name : buffer
+Family : Cyclone II
+Device : EP2C5T144C8
+Timing Models : Final
+Total logic elements : 356 / 4,608 ( 8 % )
+Total registers : 74
+Total pins : 48 / 89 ( 54 % )
+Total virtual pins : 0
+Total memory bits : 0 / 119,808 ( 0 % )
+Embedded Multiplier 9-bit elements : 0 / 26 ( 0 % )
+Total PLLs : 0 / 2 ( 0 % )

@@ -1,0 +1,21 @@
+//
+// Verplex constraint file
+// Generated using Synplify-pro
+//
+// Copyright (c) 1996-2004 Synplicity, Inc.
+// All rights reserved
+//
+
+// Set parsing options
+set log file buffer.vlf -replace
+set naming rule "%s_Z" -register -golden
+set naming rule "%s" -register -revised
+set case sensitivity off
+// set undriven signal 0 -both
+// set undefined cell black_box -noascend
+
+// Read golden and revised designs
+read design -file lec/buffer.vlc -verilog \
+ 	../buffer.v \
+	-golden -root buffer
+read design -file lec/buffer.vlc -verilog buffer.vm -revised -root buffer

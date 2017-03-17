@@ -1,0 +1,129 @@
+-- MAX+plus II Compiler Fit File      
+-- Version 10.2 07/10/2002            
+-- Compiled: 04/08/2007 19:09:14      
+
+-- Copyright (C) 1988-2002 Altera Corporation
+-- Any megafunction design, and related net list (encrypted or decrypted),
+-- support information, device programming or simulation file, and any other
+-- associated documentation or information provided by Altera or a partner
+-- under Altera's Megafunction Partnership Program may be used only to
+-- program PLD devices (but not masked PLD devices) from Altera.  Any other
+-- use of such megafunction design, net list, support information, device
+-- programming or simulation file, or any other related documentation or
+-- information is prohibited for any other purpose, including, but not
+-- limited to modification, reverse engineering, de-compiling, or use with
+-- any other silicon devices, unless such use is explicitly licensed under
+-- a separate agreement with Altera or a megafunction partner.  Title to
+-- the intellectual property, including patents, copyrights, trademarks,
+-- trade secrets, or maskworks, embodied in any such megafunction design,
+-- net list, support information, device programming or simulation file, or
+-- any other related documentation or information provided by Altera or a
+-- megafunction partner, remains with Altera, the megafunction partner, or
+-- their respective licensors.  No other licenses, including any licenses
+-- needed under any third party's intellectual property, are provided herein.
+
+CHIP "buffer"
+BEGIN
+
+    DEVICE = "EPM7128AETC100-10";
+
+    "addr2"                        : INPUT_PIN  = 58     ; -- LC91
+    "addr3"                        : INPUT_PIN  = 57     ; -- LC89
+    "addr4"                        : INPUT_PIN  = 56     ; -- LC88
+    "addr5"                        : INPUT_PIN  = 55     ; -- LC86
+    "addr6"                        : INPUT_PIN  = 54     ; -- LC85
+    "addr7"                        : INPUT_PIN  = 53     ; -- LC83
+    "addr8"                        : INPUT_PIN  = 52     ; -- LC81
+    "clock"                        : INPUT_PIN  = 87     ;
+    "nFCE"                         : INPUT_PIN  = 67     ; -- LC102
+    "nFRE"                         : INPUT_PIN  = 64     ; -- LC99
+    "nFWE"                         : INPUT_PIN  = 65     ; -- LC101
+    "nGCS0"                        : INPUT_PIN  = 75     ; -- LC113
+    "nGCS1"                        : INPUT_PIN  = 72     ; -- LC110
+    "nGCS2"                        : INPUT_PIN  = 71     ; -- LC109
+    "nGCS3"                        : INPUT_PIN  = 70     ; -- LC107
+    "nGCS4"                        : INPUT_PIN  = 69     ; -- LC105
+    "nGCS5"                        : INPUT_PIN  = 68     ; -- LC104
+    "nOE"                          : INPUT_PIN  = 49     ; -- LC78
+    "nReset"                       : INPUT_PIN  = 89     ;
+    "nWE"                          : INPUT_PIN  = 50     ; -- LC80
+    "vp2clk0"                      : INPUT_PIN  = 84     ; -- LC126
+    "vp2clk1"                      : INPUT_PIN  = 83     ; -- LC125
+    "vp2ctl0"                      : INPUT_PIN  = 81     ; -- LC123
+    "vp2ctl1"                      : INPUT_PIN  = 80     ; -- LC121
+    "vp2ctl2"                      : INPUT_PIN  = 79     ; -- LC120
+    "BUFDIR"                       : OUTPUT_PIN = 36     ; -- LC51
+    "BUFDIR1"                      : OUTPUT_PIN = 37     ; -- LC49
+    "clkout"                       : OUTPUT_PIN = 76     ; -- LC115
+    "De"                           : OUTPUT_PIN = 99     ; -- LC6
+    "dir1"                         : OUTPUT_PIN = 61     ; -- LC94
+    "Hs"                           : OUTPUT_PIN = 98     ; -- LC8
+    "ldir1"                        : OUTPUT_PIN = 60     ; -- LC93
+    "nEXTBUS"                      : OUTPUT_PIN = 40     ; -- LC65
+    "nWAIT"                        : OUTPUT_PIN = 63     ; -- LC97
+    "vCLK"                         : OUTPUT_PIN = 100    ; -- LC5
+    "Vs"                           : OUTPUT_PIN = 97     ; -- LC9
+    "data0"                        : BIDIR_PIN  = 27     ; -- LC64
+    "data1"                        : BIDIR_PIN  = 28     ; -- LC62
+    "data2"                        : BIDIR_PIN  = 29     ; -- LC61
+    "data3"                        : BIDIR_PIN  = 30     ; -- LC59
+    "data4"                        : BIDIR_PIN  = 31     ; -- LC57
+    "data5"                        : BIDIR_PIN  = 32     ; -- LC56
+    "data6"                        : BIDIR_PIN  = 33     ; -- LC54
+    "data7"                        : BIDIR_PIN  = 35     ; -- LC53
+    "configure7~1"                 : LOCATION   = LC19   ; -- PIN 13  -- configure_7_~1
+
+END;
+
+INTERNAL_INFO "buffer"
+BEGIN
+	DEVICE = EPM7128AETC100-10;
+	LC53    : LORAX = "G37R0,PI3C4U1,PA11R0C3";
+	OH52R0P35 : LORAX = "G156R0,PI19C4U1,PA29R0C3";
+	LC54    : LORAX = "G38R0,PI2C3U0,PA2R0C3";
+	OH53R0P33 : LORAX = "G157R0,PI20C4U1,PA28R0C3";
+	LC56    : LORAX = "G40R0,PI8C4U1,PA17R0C3";
+	OH55R0P32 : LORAX = "G158R0,PI18C4U1,PA27R0C3";
+	LC57    : LORAX = "G183R0,PI29C4U1,PA21R0C3";
+	OH56R0P31 : LORAX = "G66R0,PI16C4U1,PA8R0C3";
+	LC59    : LORAX = "G185R0,PI27C4U1,PA19R0C3";
+	OH58R0P30 : LORAX = "G67R0,PI10C3U0,PA10R0C3";
+	LC61    : LORAX = "G126R0,PI24C4U1,PA32R0C3";
+	OH60R0P29 : LORAX = "G9R0,PI7C3U0,PA7R0C3";
+	LC62    : LORAX = "G127R0,PI21C4U1,PA31R0C3";
+	OH61R0P28 : LORAX = "G10R0,PI1C4U1,PA9R0C3";
+	LC64    : LORAX = "G129R0,PI23C3U0,PA23R0C3";
+	OH63R0P27 : LORAX = "G11R0,PI5C4U1,PA13R0C3";
+	LC65    : LORAX = "G98R0";
+	LC51    : LORAX = "G96R0";
+	LC49    : LORAX = "G94R0";
+	LC115   : LORAX = "G55R0";
+	LC5     : LORAX = "G82R0";
+	LC8     : LORAX = "G85R0";
+	LC9     : LORAX = "G114R0";
+	LC6     : LORAX = "G83R0";
+	LC94    : LORAX = "G192R0";
+	LC93    : LORAX = "G191R0";
+	LC97    : LORAX = "G106R0";
+	OH104R0P69 : LORAX = "G75R0,PI14C6U1,PA6R0C1,PI14C3U0,PA14R0C3,PI15C3U1,PA7R0C4";
+	OH85R0P55 : LORAX = "G220R0,PI30C1U0,PA30R0C1,PI30C3U0,PA30R0C3";
+	OH87R0P56 : LORAX = "G221R0,PI27C1U0,PA27R0C1,PI34C3U0,PA34R0C3";
+	OH88R0P57 : LORAX = "G15R0,PI3C1U0,PA3R0C1,PI3C3U0,PA3R0C3";
+	OH90R0P58 : LORAX = "G16R0,PI0C1U0,PA0R0C1,PI0C3U0,PA0R0C3";
+	OH79R0P50 : LORAX = "G14R0,PI1C3U0,PA1R0C3";
+	OH77R0P49 : LORAX = "G13R0,PI2C2U1,PA10R0C5,PI2C1U0,PA2R0C1,PI2C4U1,PA12R0C3";
+	OH103R0P68 : LORAX = "G167R0,PI18C3U1,PA28R0C4";
+	OH106R0P70 : LORAX = "G76R0,PI12C3U1,PA2R0C4";
+	OH108R0P71 : LORAX = "G18R0,PI6C4U0,PA6R0C4";
+	OH109R0P72 : LORAX = "G19R0,PI4C3U1,PA12R0C4";
+	OH112R0P75 : LORAX = "G168R0,PI20C3U1,PA30R0C4";
+	OH101R0P67 : LORAX = "G166R0,PI24C3U1,PA34R0C4";
+	OH100R0P65 : LORAX = "G165R0,PI22C3U1,PA32R0C4";
+	OH98R0P64 : LORAX = "G223R0,PI33C2U1,PA23R0C5,PI35C3U0,PA35R0C3,PA25R0C4";
+	OH128R0P87 : LORAX = "G203R0,PI27C0U1,PA18R0C7";
+	OH125R0P84 : LORAX = "G79R0,PI10C0U0,PA10R0C0";
+	OH122R0P81 : LORAX = "G22R0,PI1C0U0,PA1R0C0";
+	OH120R0P80 : LORAX = "G21R0,PI5C0U0,PA5R0C0";
+	OH124R0P83 : LORAX = "G78R0,PI16C0U0,PA16R0C0";
+	LC19    : LORAX = "G88R0,OE3";
+END;

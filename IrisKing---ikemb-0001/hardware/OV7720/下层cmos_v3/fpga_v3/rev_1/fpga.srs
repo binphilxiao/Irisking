@@ -1,0 +1,47 @@
+#
+#
+#
+# Created by Synplify Verilog HDL Compiler version Compilers 2.8.1, Build 015R from Synplicity, Inc.
+# Copyright 1994-2004 Synplicity, Inc. , All rights reserved.
+# Synthesis Netlist written on Thu Jun 02 13:33:13 2011
+#
+#
+#OPTIONS:"|-ram|-fixsmult|-IE:\\project\\IRISking\\ikemb-0001\\project\\hardware\\OV7720\\fpga_v3\\|-I|C:\\Program Files\\Synplicity\\Synplify_77\\lib|-v2001|-autosm|-fid2|-sharing|on|-encrypt|-ui|-pro"
+#CUR:"C:\\Program Files\\Synplicity\\Synplify_77\\bin\\c_ver.exe":1094112414l
+#CUR:"E:\\project\\IRISking\\ikemb-0001\\project\\hardware\\OV7720\\fpga_v3\\fpga.v":1306992790l
+#CUR:"E:\\project\\IRISking\\ikemb-0001\\project\\hardware\\OV7720\\fpga_v3\\fpga.v":1306992790l
+f "E:\project\IRISking\ikemb-0001\project\hardware\OV7720\fpga_v3\fpga.v"; # file 0
+@E
+@ 
+ftell;
+@E@MR@4j::4(::R4jI	FsRtwuqCRPsFHDoN;
+PHR3#sPCHoDFR
+4;N3PRHP#_CDsHF4oR;P
+NRs3FHNohl"CRwqut"
+;
+
+@HR@.j::.U::R4jORD	O;D	
+@HR@.j:::4..(:4RCM)#RC0M#)CC
+0;
+@HR@dj:::4cdU:4R8PbHgMr:Rj9PHb8M:rgj
+9;
+@FR@cj:::4ccg:4R8PbFrk0g9:jR8PbFrk0g9:j;
+
+
+
+@HR@6j:::4c6j:.ROPb0MDHrj.:9bRPOH0DM:r.j
+9;
+@FR@nj:::4cn4:.ROPb0kDF0:r.jV9RNCD#,OPb0MDHrj4:9
+;
+
+@HR@(j:::4c(j:.ROPbDM	Hrj4:9bRPOHD	M:r4j
+9;
+@FR@Uj:::4cU4:.ROPbDk	F0:r4jP9Rb	ODFrk049:j;R
+b@:@jdc:4:4d:UkRLVbRP80Fkrjg:9bRP80Fkrjg:9bRP8rHMg9:j;R
+b@:@j(c:4:.(:jkRLVbRPOFD	k40r:Rj9PDbO	0Fkrj4:9bRPOHD	M:r4j
+9;b@R@j::44::4.sR0k0CRsRkC0Csk;R
+b@:@j4::44R:.V#NDCNRVDR#CV#NDCC;
+;
+
+
+

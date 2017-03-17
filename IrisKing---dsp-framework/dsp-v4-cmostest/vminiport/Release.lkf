@@ -1,0 +1,9 @@
+-r
+"C:\CCStudio_v3.1\ddk\lib\vport.l64"
+"C:\CCStudio_v3.1\ddk\src\video\evmdm642\Debug\_iic.o64"
+"C:\CCStudio_v3.1\ddk\src\video\evmdm642\Debug\_saa7105.o64"
+"C:\CCStudio_v3.1\ddk\src\video\evmdm642\Debug\_saa7115.o64"
+"C:\CCStudio_v3.1\ddk\src\video\evmdm642\Debug\saa7105.o64"
+"C:\CCStudio_v3.1\ddk\src\video\evmdm642\Debug\saa7115.o64"
+"C:\CCStudio_v3.1\ddk\src\video\evmdm642\Debug\vportcap.o64"
+"C:\CCStudio_v3.1\ddk\src\video\evmdm642\Debug\vportdis.o64"

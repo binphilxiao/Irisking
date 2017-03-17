@@ -1,0 +1,208 @@
+(session D:/project/IRISking/ikemb-0002/project/hardware/keyboard\keyboard.ses
+# Session file created by Allegro PCB Router V15.7 made 2006/05/31 at 22:07:34
+ (base_design D:/project/IRISking/ikemb-0002/project/hardware/keyboard\keyboard.dsn)
+ (history
+  (self
+   (created_time Nov 17 12:22:50 2009 )
+  )
+ )
+ (routes 
+# Routes file created by Allegro PCB Router V15.7 made 2006/05/31 at 22:07:34
+  (resolution MIL 10000)
+  (parser
+   (host_cad allegro)
+   (host_version 'v15-7-42E_6/13/2006')
+   (constant board_name 'D:/project/IRISking/ikemb-0002/project/hardware/keyboard/keyboard.brd' )
+   (constant pcb_xhi 2440.9449 )
+   (constant pcb_xlo 39.3701 )
+   (constant pcb_yhi 2834.6457 )
+   (constant pcb_ylo 39.3701 )
+   (write_resolution M 10000)
+  )
+  (structure_out
+   (layer TOP (type signal)
+   )
+   (layer BOTTOM (type signal)
+   )
+   (control
+     (roundoff_rotation on)
+   )
+  )
+  (library_out
+  (padstack VIR40CIR24 
+   (shape (circ signal 400000 0 0))
+  )
+  )
+  (network_out
+   (Net GND 
+   (wire (poly BOTTOM 0  393702 393702 393702 22440944 4330710 22440944
+     4330710 28346456 20472440 28346456 20472440 22440944 24409448 22440944
+     24409448 393702 393702 393702 (viapop on))
+    (net GND )
+    (type protect)
+   )
+   )
+   (Net IN0 
+   (wire (path TOP 100000  17897638 3921260 18147638 3921260 19147638 4921260
+     19147638 20826102 15197638 24776102 14263268 24776102 13527559 25511811)
+    (connect (terminal smd S9-1) (terminal pin J57-3))
+   )
+   (wire (path TOP 100000  17897638 3921260 15851575 3921260 15451575 4321260
+     12651575 4321260 12251575 3921260 11401575 3921260)
+    (connect (terminal smd S9-1) (terminal smd S5-1))
+    (attr bus)
+   )
+   (wire (path TOP 100000  11401575 3921260 9355512 3921260 8955512 4321260
+     6155512 4321260 5755512 3921260 4905512 3921260)
+    (connect (terminal smd S5-1) (terminal smd S1-1))
+    (attr bus)
+   )
+   )
+   (Net IN1 
+   (wire (path TOP 100000  15251575 8651969 10829700 8651969 10751575 8573844
+     10751575 8251969)
+    (connect (terminal wire) (terminal wire))
+   )
+   (wire (path TOP 100000  4905512 8251969 5755512 8251969 6155512 8651969
+     8955512 8651969 9355512 8251969 10751575 8251969)
+    (connect (terminal smd S2-1) (terminal wire))
+    (attr bus)
+   )
+   (wire (path TOP 100000  10751575 8251969 11401575 8251969)
+    (connect (terminal wire) (terminal smd S6-1))
+   )
+   (wire (path TOP 100000  15251575 8651969 18747638 12148032 18747638 13032677
+     18597638 13182677 17303888 13182677 17147638 13338927 17147638 13826427
+     18747638 15426427 18747638 17363386 18597638 17513386 17299606 17513386
+     16437205 18375787 16437205 20450394 12527559 24360040 12527559 25511811)
+    (connect (terminal wire) (terminal pin J57-5))
+   )
+   (wire (path TOP 100000  15251575 8651969 15651575 8251969 17897638 8251969)
+    (connect (terminal wire) (terminal smd S10-1))
+   )
+   )
+   (Net IN2 
+   (wire (path TOP 100000  11401575 12582677 10551576 12582677 10151576 12982677
+     6155512 12982677)
+    (connect (terminal smd S7-1) (terminal wire))
+   )
+   (wire (path TOP 100000  6155512 12982677 6155512 13982677 4061762 16076427
+     4061762 17063386 4511762 17513386 5467913 17513386 8467913 20513386
+     8467913 24121811 10317913 25971811 11067559 25971811 11527559 25511811)
+    (connect (terminal wire) (terminal pin J57-7))
+   )
+   (wire (path TOP 100000  4905512 12582677 5755512 12582677 6155512 12982677)
+    (connect (terminal smd S3-1) (terminal wire))
+   )
+   (wire (path TOP 100000  11401575 12582677 12251575 12582677 12651575 12982677
+     15451575 12982677 15851575 12582677 17897638 12582677)
+    (connect (terminal smd S7-1) (terminal smd S11-1))
+    (attr bus)
+   )
+   )
+   (Net IN3 
+   (wire (path TOP 100000  10527559 16913386 10527559 25511811)
+    (connect (terminal wire) (terminal pin J57-9))
+   )
+   (wire (path TOP 100000  4905512 16913386 5755512 16913386 6155512 17313386
+     8955512 17313386 9355512 16913386 10527559 16913386)
+    (connect (terminal smd S4-1) (terminal wire))
+    (attr bus)
+   )
+   (wire (path TOP 100000  11401575 16913386 10527559 16913386)
+    (connect (terminal smd S8-1) (terminal wire))
+   )
+   (wire (path TOP 100000  11401575 16913386 12251575 16913386 12651575 17313386
+     15451575 17313386 15851575 16913386 17897638 16913386)
+    (connect (terminal smd S8-1) (terminal smd S12-1))
+    (attr bus)
+   )
+   )
+   (Net OUT0 
+   (wire (path TOP 100000  4255512 9251969 3661762 8658219 3661762 5915010
+     4655512 4921260 4905512 4921260)
+    (connect (terminal wire) (terminal smd S1-2))
+   )
+   (wire (path TOP 100000  4255512 13582677 4255512 9251969)
+    (connect (terminal wire) (terminal wire))
+   )
+   (wire (path TOP 100000  4255512 9251969 4905512 9251969)
+    (connect (terminal wire) (terminal smd S2-2))
+   )
+   (wire (path TOP 100000  4905512 17913386 4218012 17913386 3668012 17363386
+     3668012 14170177 4255512 13582677)
+    (connect (terminal smd S4-2) (terminal wire))
+   )
+   (wire (path TOP 100000  4255512 13582677 4905512 13582677)
+    (connect (terminal wire) (terminal smd S3-2))
+   )
+   (wire (path TOP 100000  4905512 17913386 5155512 17913386 5755512 18513386
+     5755512 22565561 10755512 27565561 12473809 27565561 13527559 26511811)
+    (connect (terminal smd S4-2) (terminal pin J57-4))
+   )
+   )
+   (Net OUT1 
+   (wire (path TOP 100000  13251575 18713386 13251575 22508386 12067559 23692402
+     12067559 26051811 12527559 26511811)
+    (connect (terminal wire) (terminal pin J57-6))
+   )
+   (wire (path TOP 100000  16647638 13982677 18547638 15882677 18547638 17235261
+     18469513 17313386 16451575 17313386 15051575 18713386 13251575 18713386)
+    (connect (terminal wire) (terminal wire))
+   )
+   (wire (path TOP 100000  13251575 18713386 12851575 18713386 12051575 17913386
+     11401575 17913386)
+    (connect (terminal wire) (terminal smd S8-2))
+   )
+   (wire (path TOP 100000  16647638 13982677 16647638 13532677 17197638 12982677
+     18469513 12982677 18547638 12904552 18547638 12251969 17747638 11451969
+     12601575 11451969 10751575 9601969 10751575 9251969)
+    (connect (terminal wire) (terminal wire))
+   )
+   (wire (path TOP 100000  10751575 9251969 10351575 8851969 4408637 8851969
+     4058637 8501969 4058637 8121260 5658637 6521260 7355512 6521260
+     8955512 4921260 11401575 4921260)
+    (connect (terminal wire) (terminal smd S5-2))
+   )
+   (wire (path TOP 100000  10751575 9251969 11401575 9251969)
+    (connect (terminal wire) (terminal smd S6-2))
+   )
+   (wire (path TOP 100000  16647638 13982677 12651575 13982677 12251575 13582677
+     11401575 13582677)
+    (connect (terminal wire) (terminal smd S7-2))
+   )
+   )
+   (Net OUT2 
+   (wire (path TOP 100000  18547638 17913386 18947638 17513386 18947638 13582677)
+    (connect (terminal wire) (terminal wire))
+   )
+   (wire (path TOP 100000  18547638 9251969 18947638 9651969 18947638 13582677)
+    (connect (terminal wire) (terminal wire))
+   )
+   (wire (path TOP 100000  18547638 17913386 18547638 19400394 12987559 24960473
+     12987559 26768686 12587559 27168686 12184434 27168686 11527559 26511811)
+    (connect (terminal wire) (terminal pin J57-8))
+   )
+   (wire (path TOP 100000  18947638 13582677 17897638 13582677)
+    (connect (terminal wire) (terminal smd S11-2))
+   )
+   (wire (path TOP 100000  18547638 17913386 17897638 17913386)
+    (connect (terminal wire) (terminal smd S12-2))
+   )
+   (wire (path TOP 100000  18547638 9251969 18547638 5321260 18147638 4921260
+     17897638 4921260)
+    (connect (terminal wire) (terminal smd S9-2))
+   )
+   (wire (path TOP 100000  18547638 9251969 17897638 9251969)
+    (connect (terminal wire) (terminal smd S10-2))
+   )
+   )
+   (Net OUT3 
+   )
+   (Net V3.3V 
+   )
+  )
+ (test_points
+ )
+ )
+)

@@ -1,0 +1,56 @@
+\t (00:00:04) allegro 16.0 p005 (v16-0-87F) i86
+\t (00:00:04) 
+
+\t (00:00:04) Starting new drawing...
+\i (00:00:04) trapsize 1075
+\i (00:00:04) trapsize 1041
+\i (00:00:05) trapsize 846
+\i (00:00:06) trapsize 1002
+\i (00:00:06) generaledit 
+\i (00:00:08) open 
+\i (00:00:19) fillin "E:\project\IRISking\ikemb-0001\project\hardware\DM642\v4\EMB001-V4.brd"
+\i (00:00:19) cd "E:\project\IRISking\ikemb-0001\project\hardware\DM642\v4"
+\t (00:00:19) Opening existing drawing...
+\i (00:00:19) trapsize 30739
+\d (00:00:19) Database opened: E:/project/IRISking/ikemb-0001/project/hardware/DM642/v4/EMB001-V4.brd
+\i (00:00:20) generaledit 
+\i (00:00:38) netin 
+\i (00:00:40) setwindow form.niparams
+\i (00:00:40) FORM niparams import  
+\t (00:00:40) Starting Cadence Logic Import...
+\w (00:00:43) WARNING(SPMHGE-269): netrev had warnings, use Viewlog to review the log file.
+\t (00:00:43) Opening existing drawing...
+\i (00:00:43) setwindow pcb
+\i (00:00:43) trapsize 30739
+\i (00:00:45) generaledit 
+\i (00:01:06) setwindow text
+\i (00:01:06) close 
+\i (00:01:07) setwindow pcb
+\i (00:01:07) open 
+\f (00:01:07) Do you want to save the changes you made to E:/project/IRISking/ikemb-0001/project/hardware/DM642/v4/EMB001-V4.brd?
+\i (00:01:09) fillin yes 
+\i (00:01:17) fillin "E:\project\IRISking\ikemb-0001\project\hardware\POWER\POWER12-v8.brd"
+\i (00:01:17) cd "E:\project\IRISking\ikemb-0001\project\hardware\POWER"
+\t (00:01:17) Opening existing drawing...
+\f (00:01:17) This database has been created using an earlier release of software and will be updated for compatibility with the current version.  Once saved, the database will only be accessible using the current or later versions of the software.  OK to proceed?
+\i (00:01:18) fillin yes 
+\i (00:01:18) trapsize 61380
+\d (00:01:18) Database opened: E:/project/IRISking/ikemb-0001/project/hardware/POWER/POWER12-v8.brd
+\i (00:01:18) generaledit 
+\i (00:02:37) create module 
+\i (00:05:05) create module 
+\i (00:05:14) reports 
+\i (00:05:39) generaledit 
+\i (00:05:56) setup advisor 
+\i (00:05:58) setwindow form.fpdbadvisor
+\i (00:05:58) FORM fpdbadvisor cancel  
+   (00:05:58) Loading fputil.cxt 
+   (00:05:58) Loading axlcore.cxt 
+\i (00:05:58) setwindow pcb
+\i (00:05:58) generaledit 
+\i (00:06:05) filemgr 
+\i (00:06:19) pick grid 2442.122 1075.608
+\t (00:06:19) last pick:  2442.100  1075.600
+\e (00:06:22) Program has encountered a problem and must exit. The database will be saved (if applicable). Obtain the latest software update from Cadence and if problem persists contact Cadence Customer Support.
+\i (00:06:24) fillin confirm
+\e (00:06:24) Saving database as 'E:/project/IRISking/ikemb-0001/project/hardware/POWER/POWER12-v8.SAV'.

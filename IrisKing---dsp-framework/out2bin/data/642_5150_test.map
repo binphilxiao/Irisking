@@ -1,0 +1,31 @@
+********************************************************************************
+TMS320C6x COFF/Hex Converter                                              v5.1.0
+********************************************************************************
+
+INPUT FILE NAME: <framework.out>
+OUTPUT FORMAT:   ASCII-Hex
+
+PHYSICAL MEMORY PARAMETERS
+   Default data width   :   8
+   Default memory width :   8
+   Default output width :   8
+
+BOOT LOADER PARAMETERS
+   Table Address: 0x90000000, PAGE 0
+   Entry Point  : 0x80680900
+
+
+OUTPUT TRANSLATION MAP
+--------------------------------------------------------------------------------
+90000000..ffffffff  Page=0  Memory Width=8  ROM Width=8  "FLASH"
+--------------------------------------------------------------------------------
+   OUTPUT FILES: .\data\642_5150_test.hex [b0..b7]
+
+   CONTENTS: 90000000..90030b7f   BOOT TABLE
+                            .text : btad=900108e0  dest=8063c8a0 size=0001dfa0
+                            .args : btad=9002e888  dest=8067ebf4 size=00000004
+                             .log : btad=9002e894  dest=806812b0 size=00000030
+                  .LOG_system$buf : btad=9002e8cc  dest=8067b000 size=00001000
+                       .trace$buf : btad=9002f8d4  dest=8067c000 size=00001000
+                             .sts : btad=900308dc  dest=80681148 size=00000090
+                           .trace : btad=90030974  dest=8067ad40 size=00000200

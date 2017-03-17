@@ -1,0 +1,50 @@
+#
+# Synplicity Verification Interface File
+# Generated using Synplify-pro
+#
+# Copyright (c) 1996-2004 Synplicity, Inc.
+# All rights reserved
+#
+
+global env
+# Set logfile options
+vif_set_result_file  fpga.vlf
+
+# RTL and technology files
+vif_add_library -original $env(QUARTUS_ROOTDIR)/eda/fv_lib/verilog
+vif_add_file -original  -verilog ../fpga.v
+vif_set_top_module -original -top FPGA
+ 
+vif_add_library -translated $env(QUARTUS_ROOTDIR)/eda/fv_lib/verilog
+vif_add_file -translated -verilog fpga.vqm
+vif_set_top_module -translated -top FPGA 
+
+
+# Read FSM encoding
+
+
+# Memory map points
+# Memory redundancies
+
+
+# SRL redundancies
+# SRL map points
+
+# Compiler merged registers
+
+# Compiler pruned constant registers
+
+
+# RTL sequential redundancies
+
+# Technology sequential redundancies
+
+# Inverted map points
+
+# Port directions
+
+# Black box mapping
+
+
+# Register pruning
+

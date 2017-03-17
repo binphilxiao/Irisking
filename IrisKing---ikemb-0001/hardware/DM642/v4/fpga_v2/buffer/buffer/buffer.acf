@@ -1,0 +1,121 @@
+
+GLOBAL_PROJECT_SYNTHESIS_ASSIGNMENT_OPTIONS
+BEGIN
+	DEVICE_FAMILY = MAX7000;
+END;
+
+CHIP buffer
+BEGIN
+	DEVICE = EPM7128AETC100-10;
+END;
+
+TIMING_POINT
+BEGIN
+	FREQUENCY = 100.0MHz;
+	|nEXTBUS :	TCO = 9.9ns;
+	|BUFDIR :	TCO = 9.9ns;
+	|BUFDIR1 :	TCO = 9.9ns;
+	|data0 :	TCO = 9.9ns;
+	|data1 :	TCO = 9.9ns;
+	|data2 :	TCO = 9.9ns;
+	|data3 :	TCO = 9.9ns;
+	|data4 :	TCO = 9.9ns;
+	|data5 :	TCO = 9.9ns;
+	|data6 :	TCO = 9.9ns;
+	|data7 :	TCO = 9.9ns;
+	|clkout :	TCO = 9.9ns;
+	|vp2clk1_i :	TCO = 9.9ns;
+	|Hs :	TCO = 9.9ns;
+	|Vs :	TCO = 9.9ns;
+	|De :	TCO = 9.9ns;
+	|hpirdy_i :	TCO = 9.9ns;
+	|clock :	TSU = 9.9ns;
+	|nReset :	TSU = 9.9ns;
+	|hpirdy :	TSU = 9.9ns;
+	|nFCE :	TSU = 9.9ns;
+	|nOE :	TSU = 9.9ns;
+	|nWE :	TSU = 9.9ns;
+	|nGCS0 :	TSU = 9.9ns;
+	|nGCS1 :	TSU = 9.9ns;
+	|nGCS2 :	TSU = 9.9ns;
+	|nGCS3 :	TSU = 9.9ns;
+	|nGCS4 :	TSU = 9.9ns;
+	|nGCS5 :	TSU = 9.9ns;
+	|nFWE :	TSU = 9.9ns;
+	|nFRE :	TSU = 9.9ns;
+	|addr2 :	TSU = 9.9ns;
+	|addr3 :	TSU = 9.9ns;
+	|addr4 :	TSU = 9.9ns;
+	|addr5 :	TSU = 9.9ns;
+	|addr6 :	TSU = 9.9ns;
+	|addr7 :	TSU = 9.9ns;
+	|addr8 :	TSU = 9.9ns;
+	|data0 :	TSU = 9.9ns;
+	|data1 :	TSU = 9.9ns;
+	|data2 :	TSU = 9.9ns;
+	|data3 :	TSU = 9.9ns;
+	|data4 :	TSU = 9.9ns;
+	|data5 :	TSU = 9.9ns;
+	|data6 :	TSU = 9.9ns;
+	|data7 :	TSU = 9.9ns;
+	|vp2clk0 :	TSU = 9.9ns;
+	|vp2clk1 :	TSU = 9.9ns;
+	|vp2ctl0 :	TSU = 9.9ns;
+	|vp2ctl1 :	TSU = 9.9ns;
+	|vp2ctl2 :	TSU = 9.9ns;
+	|clk :	TSU = 9.9ns;
+	|eint11 :	TCO = 9.9ns;
+	|wil0 :	TSU = 9.9ns;
+	|wil1 :	TSU = 9.9ns;
+	|nWAIT :	TCO = 9.9ns;
+	|test0 :	TCO = 9.9ns;
+	|test1 :	TCO = 9.9ns;
+	|test2 :	TCO = 9.9ns;
+	|test3 :	TCO = 9.9ns;
+	|N_32_i_i_i :	TCO = 9.9ns;
+	|N_27_i_i_i :	TCO = 9.9ns;
+	|N_23_x_i :	TCO = 9.9ns;
+	|clk :	FREQUENCY = 100.0MHz;
+	|N_276_x_i :	TCO = 9.9ns;
+	|N_256_x_i :	TCO = 9.9ns;
+	|N_272_i_x_i :	TCO = 9.9ns;
+	|N_273_i_x_i :	TCO = 9.9ns;
+	|N_281_x_i :	TCO = 9.9ns;
+	|N_203_i_i_i :	TCO = 9.9ns;
+	|N_198_i_i_i :	TCO = 9.9ns;
+	|N_268_x_i :	TCO = 9.9ns;
+	|N_292_x_i :	TCO = 9.9ns;
+	|N_249_x_i :	TCO = 9.9ns;
+	|N_250_x_i :	TCO = 9.9ns;
+	|un4_eint11_x_i :	TCO = 9.9ns;
+	|wil_clk :	FREQUENCY = 100.0MHz;
+	|N_217_x_i :	TCO = 9.9ns;
+	|N_209_i :	TCO = 9.9ns;
+	|N_197_x_i :	TCO = 9.9ns;
+	|N_254_x_i :	TCO = 9.9ns;
+	|N_316_x_i :	TCO = 9.9ns;
+	|N_238_x_i :	TCO = 9.9ns;
+	|N_236_x_i :	TCO = 9.9ns;
+	|test4 :	TCO = 9.9ns;
+	|test5 :	TCO = 9.9ns;
+	|test6 :	TCO = 9.9ns;
+	|test7 :	TCO = 9.9ns;
+	|N_237_i_i_i :	TCO = 9.9ns;
+	|N_260_x_i :	TCO = 9.9ns;
+	|N_237_x_i :	TCO = 9.9ns;
+	|N_314_x_i :	TCO = 9.9ns;
+	|N_321_x_i :	TCO = 9.9ns;
+	|N_317_x_i :	TCO = 9.9ns;
+	|N_310_x_i :	TCO = 9.9ns;
+	|N_335_x_i :	TCO = 9.9ns;
+	|eint11_i_i :	TCO = 9.9ns;
+	|vCLK :	TCO = 9.9ns;
+END;
+
+COMPILER_INTERFACES_CONFIGURATION
+BEGIN
+	EDIF_INPUT_GND = GND;
+	EDIF_INPUT_VCC = VCC;
+	EDIF_INPUT_LMF1 = synplcty.lmf;
+	EDIF_INPUT_USE_LMF1 = ON;
+END;

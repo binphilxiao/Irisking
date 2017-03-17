@@ -1,0 +1,733 @@
+-- Copyright (C) 1991-2005 Altera Corporation
+-- Your use of Altera Corporation's design tools, logic functions 
+-- and other software and tools, and its AMPP partner logic 
+-- functions, and any output files any of the foregoing 
+-- (including device programming or simulation files), and any 
+-- associated documentation or information are expressly subject 
+-- to the terms and conditions of the Altera Program License 
+-- Subscription Agreement, Altera MegaCore Function License 
+-- Agreement, or other applicable license agreement, including, 
+-- without limitation, that your use is for the sole purpose of 
+-- programming logic devices manufactured by Altera and sold by 
+-- Altera or its authorized distributors.  Please refer to the 
+-- applicable agreement for further details.
+--un11_IRQ4 is un11_IRQ4 at LC_X3_Y1_N6
+--operation mode is normal
+
+un11_IRQ4 = wigend_bitcnt[1] # !un11_IRQ4_a # !wigend_bitcnt[4] # !wigend_bitcnt[3];
+
+
+--AD_CS_1_i is AD_CS_1_i at LC_X7_Y2_N2
+--operation mode is normal
+
+AD_CS_1_i = ADcnt[3] & (!ADcnt[4] # !ADcnt[1] # !ADcnt[2]) # !ADcnt[3] & (ADcnt[4]);
+
+
+--un15_AD_CLK_x[0] is un15_AD_CLK_x[0] at LC_X7_Y2_N3
+--operation mode is normal
+
+un15_AD_CLK_x[0] = !ADcnt[4] & clk & !ADcnt[3];
+
+
+--wigend_reg[0] is wigend_reg[0] at LC_X4_Y1_N6
+--operation mode is normal
+
+wigend_reg[0]_lut_out = !wil0_i;
+wigend_reg[0] = DFFEAS(wigend_reg[0]_lut_out, GLOBAL(wil_clk_x_i), GLOBAL(nCPLDCE), , wigend_bitcnt53, , , , );
+
+
+--wigend_reg[1] is wigend_reg[1] at LC_X4_Y1_N8
+--operation mode is normal
+
+wigend_reg[1]_lut_out = GND;
+wigend_reg[1] = DFFEAS(wigend_reg[1]_lut_out, GLOBAL(wil_clk_x_i), GLOBAL(nCPLDCE), , wigend_bitcnt53, wigend_buf[0], , , VCC);
+
+
+--wigend_reg[2] is wigend_reg[2] at LC_X4_Y1_N1
+--operation mode is normal
+
+wigend_reg[2]_lut_out = GND;
+wigend_reg[2] = DFFEAS(wigend_reg[2]_lut_out, GLOBAL(wil_clk_x_i), GLOBAL(nCPLDCE), , wigend_bitcnt53, wigend_buf[1], , , VCC);
+
+
+--wigend_reg[3] is wigend_reg[3] at LC_X4_Y1_N7
+--operation mode is normal
+
+wigend_reg[3]_lut_out = GND;
+wigend_reg[3] = DFFEAS(wigend_reg[3]_lut_out, GLOBAL(wil_clk_x_i), GLOBAL(nCPLDCE), , wigend_bitcnt53, wigend_buf[2], , , VCC);
+
+
+--wigend_bitcnt[4] is wigend_bitcnt[4] at LC_X3_Y1_N4
+--operation mode is normal
+
+wigend_bitcnt[4]_lut_out = wigend_bitcnt[4] $ (!wigend_bitcnt_cout[3]);
+wigend_bitcnt[4] = DFFEAS(wigend_bitcnt[4]_lut_out, GLOBAL(wil_clk_x_i), GLOBAL(nCPLDCE), , , , , !wigend_bitcnt52, );
+
+
+--wigend_bitcnt[3] is wigend_bitcnt[3] at LC_X3_Y1_N3
+--operation mode is arithmetic
+
+wigend_bitcnt[3]_lut_out = wigend_bitcnt[3] $ (wigend_bitcnt_cout[2]);
+wigend_bitcnt[3] = DFFEAS(wigend_bitcnt[3]_lut_out, GLOBAL(wil_clk_x_i), GLOBAL(nCPLDCE), , , , , !wigend_bitcnt52, );
+
+--wigend_bitcnt_cout[3] is wigend_bitcnt_cout[3] at LC_X3_Y1_N3
+--operation mode is arithmetic
+
+wigend_bitcnt_cout[3]_cout_0 = !wigend_bitcnt_cout[2] # !wigend_bitcnt[3];
+wigend_bitcnt_cout[3] = CARRY(wigend_bitcnt_cout[3]_cout_0);
+
+--A1L501 is wigend_bitcnt_cout[3]~COUT1_10 at LC_X3_Y1_N3
+--operation mode is arithmetic
+
+A1L501_cout_1 = !A1L301 # !wigend_bitcnt[3];
+A1L501 = CARRY(A1L501_cout_1);
+
+
+--wigend_bitcnt[1] is wigend_bitcnt[1] at LC_X3_Y1_N1
+--operation mode is arithmetic
+
+wigend_bitcnt[1]_lut_out = wigend_bitcnt[1] $ wigend_bitcnt_cout[0];
+wigend_bitcnt[1] = DFFEAS(wigend_bitcnt[1]_lut_out, GLOBAL(wil_clk_x_i), GLOBAL(nCPLDCE), , , , , !wigend_bitcnt52, );
+
+--wigend_bitcnt_cout[1] is wigend_bitcnt_cout[1] at LC_X3_Y1_N1
+--operation mode is arithmetic
+
+wigend_bitcnt_cout[1]_cout_0 = !wigend_bitcnt_cout[0] # !wigend_bitcnt[1];
+wigend_bitcnt_cout[1] = CARRY(wigend_bitcnt_cout[1]_cout_0);
+
+--A1L101 is wigend_bitcnt_cout[1]~COUT1_6 at LC_X3_Y1_N1
+--operation mode is arithmetic
+
+A1L101_cout_1 = !A1L99 # !wigend_bitcnt[1];
+A1L101 = CARRY(A1L101_cout_1);
+
+
+--un11_IRQ4_a is un11_IRQ4_a at LC_X3_Y1_N5
+--operation mode is normal
+
+un11_IRQ4_a = wigend_bitcnt[0] & !wigend_bitcnt[2];
+
+
+--ADcnt[1] is ADcnt[1] at LC_X7_Y2_N6
+--operation mode is arithmetic
+
+ADcnt[1]_lut_out = ADcnt[1] $ (ADcnt_cout[0]);
+ADcnt[1] = DFFEAS(ADcnt[1]_lut_out, !GLOBAL(clk), GLOBAL(nCPLDCE), , , , , !ADcnt19_i, );
+
+--ADcnt_cout[1] is ADcnt_cout[1] at LC_X7_Y2_N6
+--operation mode is arithmetic
+
+ADcnt_cout[1]_cout_0 = !ADcnt_cout[0] # !ADcnt[1];
+ADcnt_cout[1] = CARRY(ADcnt_cout[1]_cout_0);
+
+--A1L52 is ADcnt_cout[1]~COUT1_6 at LC_X7_Y2_N6
+--operation mode is arithmetic
+
+A1L52_cout_1 = !A1L32 # !ADcnt[1];
+A1L52 = CARRY(A1L52_cout_1);
+
+
+--ADcnt[2] is ADcnt[2] at LC_X7_Y2_N7
+--operation mode is arithmetic
+
+ADcnt[2]_lut_out = ADcnt[2] $ !ADcnt_cout[1];
+ADcnt[2] = DFFEAS(ADcnt[2]_lut_out, !GLOBAL(clk), GLOBAL(nCPLDCE), , , , , !ADcnt19_i, );
+
+--ADcnt_cout[2] is ADcnt_cout[2] at LC_X7_Y2_N7
+--operation mode is arithmetic
+
+ADcnt_cout[2]_cout_0 = ADcnt[2] & !ADcnt_cout[1];
+ADcnt_cout[2] = CARRY(ADcnt_cout[2]_cout_0);
+
+--A1L72 is ADcnt_cout[2]~COUT1_8 at LC_X7_Y2_N7
+--operation mode is arithmetic
+
+A1L72_cout_1 = ADcnt[2] & !A1L52;
+A1L72 = CARRY(A1L72_cout_1);
+
+
+--ADcnt[3] is ADcnt[3] at LC_X7_Y2_N8
+--operation mode is arithmetic
+
+ADcnt[3]_lut_out = ADcnt[3] $ (ADcnt_cout[2]);
+ADcnt[3] = DFFEAS(ADcnt[3]_lut_out, !GLOBAL(clk), GLOBAL(nCPLDCE), , , , , !ADcnt19_i, );
+
+--ADcnt_cout[3] is ADcnt_cout[3] at LC_X7_Y2_N8
+--operation mode is arithmetic
+
+ADcnt_cout[3]_cout_0 = !ADcnt_cout[2] # !ADcnt[3];
+ADcnt_cout[3] = CARRY(ADcnt_cout[3]_cout_0);
+
+--A1L92 is ADcnt_cout[3]~COUT1_10 at LC_X7_Y2_N8
+--operation mode is arithmetic
+
+A1L92_cout_1 = !A1L72 # !ADcnt[3];
+A1L92 = CARRY(A1L92_cout_1);
+
+
+--ADcnt[4] is ADcnt[4] at LC_X7_Y2_N9
+--operation mode is normal
+
+ADcnt[4]_lut_out = ADcnt_cout[3] $ !ADcnt[4];
+ADcnt[4] = DFFEAS(ADcnt[4]_lut_out, !GLOBAL(clk), GLOBAL(nCPLDCE), , , , , !ADcnt19_i, );
+
+
+--wil_clk_x_i is wil_clk_x_i at LC_X4_Y1_N9
+--operation mode is normal
+
+wil_clk_x_i = wil1_i # wil0_i;
+
+
+--wil0_i is wil0_i at LC_X4_Y1_N3
+--operation mode is normal
+
+wil0_i_lut_out = !wil[0];
+wil0_i = DFFEAS(wil0_i_lut_out, GLOBAL(clk), GLOBAL(nCPLDCE), , , , , , );
+
+
+--wigend_bitcnt53 is wigend_bitcnt53 at LC_X4_Y1_N2
+--operation mode is normal
+
+wigend_bitcnt53 = !overtime_i & !un11_IRQ4;
+
+
+--wigend_buf[0] is wigend_buf[0] at LC_X3_Y2_N1
+--operation mode is normal
+
+wigend_buf[0]_lut_out = !wil0_i & !overtime_i;
+wigend_buf[0] = DFFEAS(wigend_buf[0]_lut_out, GLOBAL(wil_clk_x_i), GLOBAL(nCPLDCE), , , , , , );
+
+
+--wigend_buf[1] is wigend_buf[1] at LC_X3_Y2_N2
+--operation mode is normal
+
+wigend_buf[1]_lut_out = !overtime_i & (wigend_buf[0]);
+wigend_buf[1] = DFFEAS(wigend_buf[1]_lut_out, GLOBAL(wil_clk_x_i), GLOBAL(nCPLDCE), , , , , , );
+
+
+--wigend_buf[2] is wigend_buf[2] at LC_X3_Y2_N5
+--operation mode is normal
+
+wigend_buf[2]_lut_out = !overtime_i & (wigend_buf[1]);
+wigend_buf[2] = DFFEAS(wigend_buf[2]_lut_out, GLOBAL(wil_clk_x_i), GLOBAL(nCPLDCE), , , , , , );
+
+
+--wigend_bitcnt52 is wigend_bitcnt52 at LC_X3_Y1_N7
+--operation mode is normal
+
+wigend_bitcnt52 = !overtime_i & (un11_IRQ4);
+
+
+--wigend_bitcnt[2] is wigend_bitcnt[2] at LC_X3_Y1_N2
+--operation mode is arithmetic
+
+wigend_bitcnt[2]_lut_out = wigend_bitcnt[2] $ !wigend_bitcnt_cout[1];
+wigend_bitcnt[2] = DFFEAS(wigend_bitcnt[2]_lut_out, GLOBAL(wil_clk_x_i), GLOBAL(nCPLDCE), , , , , !wigend_bitcnt52, );
+
+--wigend_bitcnt_cout[2] is wigend_bitcnt_cout[2] at LC_X3_Y1_N2
+--operation mode is arithmetic
+
+wigend_bitcnt_cout[2]_cout_0 = wigend_bitcnt[2] & !wigend_bitcnt_cout[1];
+wigend_bitcnt_cout[2] = CARRY(wigend_bitcnt_cout[2]_cout_0);
+
+--A1L301 is wigend_bitcnt_cout[2]~COUT1_8 at LC_X3_Y1_N2
+--operation mode is arithmetic
+
+A1L301_cout_1 = wigend_bitcnt[2] & !A1L101;
+A1L301 = CARRY(A1L301_cout_1);
+
+
+--wigend_bitcnt[0] is wigend_bitcnt[0] at LC_X3_Y1_N0
+--operation mode is arithmetic
+
+wigend_bitcnt[0]_lut_out = !wigend_bitcnt[0];
+wigend_bitcnt[0] = DFFEAS(wigend_bitcnt[0]_lut_out, GLOBAL(wil_clk_x_i), GLOBAL(nCPLDCE), , , , , !wigend_bitcnt52, );
+
+--wigend_bitcnt_cout[0] is wigend_bitcnt_cout[0] at LC_X3_Y1_N0
+--operation mode is arithmetic
+
+wigend_bitcnt_cout[0]_cout_0 = wigend_bitcnt[0];
+wigend_bitcnt_cout[0] = CARRY(wigend_bitcnt_cout[0]_cout_0);
+
+--A1L99 is wigend_bitcnt_cout[0]~COUT1_5 at LC_X3_Y1_N0
+--operation mode is arithmetic
+
+A1L99_cout_1 = wigend_bitcnt[0];
+A1L99 = CARRY(A1L99_cout_1);
+
+
+--ADcnt19_i is ADcnt19_i at LC_X7_Y2_N4
+--operation mode is normal
+
+ADcnt19_i = !ADcnt[4] # !ADcnt[1] # !ADcnt[2] # !ADcnt[3];
+
+
+--ADcnt[0] is ADcnt[0] at LC_X7_Y2_N5
+--operation mode is arithmetic
+
+ADcnt[0]_lut_out = !ADcnt[0];
+ADcnt[0] = DFFEAS(ADcnt[0]_lut_out, !GLOBAL(clk), GLOBAL(nCPLDCE), , , , , !ADcnt19_i, );
+
+--ADcnt_cout[0] is ADcnt_cout[0] at LC_X7_Y2_N5
+--operation mode is arithmetic
+
+ADcnt_cout[0]_cout_0 = ADcnt[0];
+ADcnt_cout[0] = CARRY(ADcnt_cout[0]_cout_0);
+
+--A1L32 is ADcnt_cout[0]~COUT1_5 at LC_X7_Y2_N5
+--operation mode is arithmetic
+
+A1L32_cout_1 = ADcnt[0];
+A1L32 = CARRY(A1L32_cout_1);
+
+
+--wil1_i is wil1_i at LC_X4_Y1_N0
+--operation mode is normal
+
+wil1_i_lut_out = !wil[1];
+wil1_i = DFFEAS(wil1_i_lut_out, GLOBAL(clk), GLOBAL(nCPLDCE), , , , , , );
+
+
+--overtime_i is overtime_i at LC_X2_Y4_N2
+--operation mode is normal
+
+overtime_i_lut_out = un1_wilclk_cnt124_i & overtime_i # !un1_wilclk_cnt124_i & (wilclk_cnt125_x);
+overtime_i = DFFEAS(overtime_i_lut_out, GLOBAL(clk), GLOBAL(nCPLDCE), , , , , , );
+
+
+--un1_wilclk_cnt124_i is un1_wilclk_cnt124_i at LC_X3_Y4_N3
+--operation mode is normal
+
+un1_wilclk_cnt124_i = wilclk_cnt125_x & (un1_wilclk_cnt124_a # !un1_wilclk_cnt1_1_7 # !un1_wilclk_cnt1_1_6);
+
+
+--wilclk_cnt125_x is wilclk_cnt125_x at LC_X2_Y4_N0
+--operation mode is normal
+
+wilclk_cnt125_x = wil[1] & wil[0];
+
+
+--un1_wilclk_cnt1_1_6 is un1_wilclk_cnt1_1_6 at LC_X3_Y4_N1
+--operation mode is normal
+
+un1_wilclk_cnt1_1_6 = !wilclk_cnt1[1] & !wilclk_cnt1[2] & wilclk_cnt1[12] & !wilclk_cnt1[4];
+
+
+--un1_wilclk_cnt1_1_7 is un1_wilclk_cnt1_1_7 at LC_X3_Y4_N0
+--operation mode is normal
+
+un1_wilclk_cnt1_1_7 = !wilclk_cnt1[6] & !wilclk_cnt1[10] & !wilclk_cnt1[5] & !wilclk_cnt1[11];
+
+
+--un1_wilclk_cnt124_a is un1_wilclk_cnt124_a at LC_X3_Y4_N2
+--operation mode is normal
+
+un1_wilclk_cnt124_a = !wilclk_cnt1[7] # !wilclk_cnt1[8] # !wilclk_cnt1[3] # !wilclk_cnt1[9];
+
+
+--wilclk_cnt1[2] is wilclk_cnt1[2] at LC_X3_Y4_N6
+--operation mode is arithmetic
+
+wilclk_cnt1[2]_carry_eqn = (!wilclk_cnt1_cout[0] & wilclk_cnt1_cout[1]) # (wilclk_cnt1_cout[0] & A1L361);
+wilclk_cnt1[2]_lut_out = wilclk_cnt1[2] $ (!wilclk_cnt1[2]_carry_eqn);
+wilclk_cnt1[2] = DFFEAS(wilclk_cnt1[2]_lut_out, GLOBAL(clk), GLOBAL(nCPLDCE), , , , , !un1_wilclk_cnt124_i, );
+
+--wilclk_cnt1_cout[2] is wilclk_cnt1_cout[2] at LC_X3_Y4_N6
+--operation mode is arithmetic
+
+wilclk_cnt1_cout[2]_cout_0 = wilclk_cnt1[2] & (!wilclk_cnt1_cout[1]);
+wilclk_cnt1_cout[2] = CARRY(wilclk_cnt1_cout[2]_cout_0);
+
+--A1L561 is wilclk_cnt1_cout[2]~COUT1_13 at LC_X3_Y4_N6
+--operation mode is arithmetic
+
+A1L561_cout_1 = wilclk_cnt1[2] & (!A1L361);
+A1L561 = CARRY(A1L561_cout_1);
+
+
+--wilclk_cnt1[4] is wilclk_cnt1[4] at LC_X3_Y4_N8
+--operation mode is arithmetic
+
+wilclk_cnt1[4]_carry_eqn = (!wilclk_cnt1_cout[0] & wilclk_cnt1_cout[3]) # (wilclk_cnt1_cout[0] & A1L761);
+wilclk_cnt1[4]_lut_out = wilclk_cnt1[4] $ (!wilclk_cnt1[4]_carry_eqn);
+wilclk_cnt1[4] = DFFEAS(wilclk_cnt1[4]_lut_out, GLOBAL(clk), GLOBAL(nCPLDCE), , , , , !un1_wilclk_cnt124_i, );
+
+--wilclk_cnt1_cout[4] is wilclk_cnt1_cout[4] at LC_X3_Y4_N8
+--operation mode is arithmetic
+
+wilclk_cnt1_cout[4]_cout_0 = wilclk_cnt1[4] & (!wilclk_cnt1_cout[3]);
+wilclk_cnt1_cout[4] = CARRY(wilclk_cnt1_cout[4]_cout_0);
+
+--A1L961 is wilclk_cnt1_cout[4]~COUT1_17 at LC_X3_Y4_N8
+--operation mode is arithmetic
+
+A1L961_cout_1 = wilclk_cnt1[4] & (!A1L761);
+A1L961 = CARRY(A1L961_cout_1);
+
+
+--wilclk_cnt1[12] is wilclk_cnt1[12] at LC_X4_Y4_N6
+--operation mode is normal
+
+wilclk_cnt1[12]_carry_eqn = (!wilclk_cnt1_cout[10] & wilclk_cnt1_cout[11]) # (wilclk_cnt1_cout[10] & A1L181);
+wilclk_cnt1[12]_lut_out = wilclk_cnt1[12]_carry_eqn $ !wilclk_cnt1[12];
+wilclk_cnt1[12] = DFFEAS(wilclk_cnt1[12]_lut_out, GLOBAL(clk), GLOBAL(nCPLDCE), , , , , !un1_wilclk_cnt124_i, );
+
+
+--wilclk_cnt1[1] is wilclk_cnt1[1] at LC_X3_Y4_N5
+--operation mode is arithmetic
+
+wilclk_cnt1[1]_carry_eqn = wilclk_cnt1_cout[0];
+wilclk_cnt1[1]_lut_out = wilclk_cnt1[1] $ (wilclk_cnt1[1]_carry_eqn);
+wilclk_cnt1[1] = DFFEAS(wilclk_cnt1[1]_lut_out, GLOBAL(clk), GLOBAL(nCPLDCE), , , , , !un1_wilclk_cnt124_i, );
+
+--wilclk_cnt1_cout[1] is wilclk_cnt1_cout[1] at LC_X3_Y4_N5
+--operation mode is arithmetic
+
+wilclk_cnt1_cout[1]_cout_0 = !wilclk_cnt1_cout[0] # !wilclk_cnt1[1];
+wilclk_cnt1_cout[1] = CARRY(wilclk_cnt1_cout[1]_cout_0);
+
+--A1L361 is wilclk_cnt1_cout[1]~COUT1_11 at LC_X3_Y4_N5
+--operation mode is arithmetic
+
+A1L361_cout_1 = !wilclk_cnt1_cout[0] # !wilclk_cnt1[1];
+A1L361 = CARRY(A1L361_cout_1);
+
+
+--wilclk_cnt1[10] is wilclk_cnt1[10] at LC_X4_Y4_N4
+--operation mode is arithmetic
+
+wilclk_cnt1[10]_carry_eqn = (!wilclk_cnt1_cout[5] & wilclk_cnt1_cout[9]) # (wilclk_cnt1_cout[5] & A1L871);
+wilclk_cnt1[10]_lut_out = wilclk_cnt1[10] $ (!wilclk_cnt1[10]_carry_eqn);
+wilclk_cnt1[10] = DFFEAS(wilclk_cnt1[10]_lut_out, GLOBAL(clk), GLOBAL(nCPLDCE), , , , , !un1_wilclk_cnt124_i, );
+
+--wilclk_cnt1_cout[10] is wilclk_cnt1_cout[10] at LC_X4_Y4_N4
+--operation mode is arithmetic
+
+wilclk_cnt1_cout[10] = CARRY(wilclk_cnt1[10] & (!A1L871));
+
+
+--wilclk_cnt1[11] is wilclk_cnt1[11] at LC_X4_Y4_N5
+--operation mode is arithmetic
+
+wilclk_cnt1[11]_carry_eqn = wilclk_cnt1_cout[10];
+wilclk_cnt1[11]_lut_out = wilclk_cnt1[11] $ (wilclk_cnt1[11]_carry_eqn);
+wilclk_cnt1[11] = DFFEAS(wilclk_cnt1[11]_lut_out, GLOBAL(clk), GLOBAL(nCPLDCE), , , , , !un1_wilclk_cnt124_i, );
+
+--wilclk_cnt1_cout[11] is wilclk_cnt1_cout[11] at LC_X4_Y4_N5
+--operation mode is arithmetic
+
+wilclk_cnt1_cout[11]_cout_0 = !wilclk_cnt1_cout[10] # !wilclk_cnt1[11];
+wilclk_cnt1_cout[11] = CARRY(wilclk_cnt1_cout[11]_cout_0);
+
+--A1L181 is wilclk_cnt1_cout[11]~COUT1_27 at LC_X4_Y4_N5
+--operation mode is arithmetic
+
+A1L181_cout_1 = !wilclk_cnt1_cout[10] # !wilclk_cnt1[11];
+A1L181 = CARRY(A1L181_cout_1);
+
+
+--wilclk_cnt1[5] is wilclk_cnt1[5] at LC_X3_Y4_N9
+--operation mode is arithmetic
+
+wilclk_cnt1[5]_carry_eqn = (!wilclk_cnt1_cout[0] & wilclk_cnt1_cout[4]) # (wilclk_cnt1_cout[0] & A1L961);
+wilclk_cnt1[5]_lut_out = wilclk_cnt1[5] $ wilclk_cnt1[5]_carry_eqn;
+wilclk_cnt1[5] = DFFEAS(wilclk_cnt1[5]_lut_out, GLOBAL(clk), GLOBAL(nCPLDCE), , , , , !un1_wilclk_cnt124_i, );
+
+--wilclk_cnt1_cout[5] is wilclk_cnt1_cout[5] at LC_X3_Y4_N9
+--operation mode is arithmetic
+
+wilclk_cnt1_cout[5] = CARRY(!A1L961 # !wilclk_cnt1[5]);
+
+
+--wilclk_cnt1[6] is wilclk_cnt1[6] at LC_X4_Y4_N0
+--operation mode is arithmetic
+
+wilclk_cnt1[6]_carry_eqn = wilclk_cnt1_cout[5];
+wilclk_cnt1[6]_lut_out = wilclk_cnt1[6] $ !wilclk_cnt1[6]_carry_eqn;
+wilclk_cnt1[6] = DFFEAS(wilclk_cnt1[6]_lut_out, GLOBAL(clk), GLOBAL(nCPLDCE), , , , , !un1_wilclk_cnt124_i, );
+
+--wilclk_cnt1_cout[6] is wilclk_cnt1_cout[6] at LC_X4_Y4_N0
+--operation mode is arithmetic
+
+wilclk_cnt1_cout[6]_cout_0 = wilclk_cnt1[6] & !wilclk_cnt1_cout[5];
+wilclk_cnt1_cout[6] = CARRY(wilclk_cnt1_cout[6]_cout_0);
+
+--A1L271 is wilclk_cnt1_cout[6]~COUT1_19 at LC_X4_Y4_N0
+--operation mode is arithmetic
+
+A1L271_cout_1 = wilclk_cnt1[6] & !wilclk_cnt1_cout[5];
+A1L271 = CARRY(A1L271_cout_1);
+
+
+--wilclk_cnt1[3] is wilclk_cnt1[3] at LC_X3_Y4_N7
+--operation mode is arithmetic
+
+wilclk_cnt1[3]_carry_eqn = (!wilclk_cnt1_cout[0] & wilclk_cnt1_cout[2]) # (wilclk_cnt1_cout[0] & A1L561);
+wilclk_cnt1[3]_lut_out = wilclk_cnt1[3] $ wilclk_cnt1[3]_carry_eqn;
+wilclk_cnt1[3] = DFFEAS(wilclk_cnt1[3]_lut_out, GLOBAL(clk), GLOBAL(nCPLDCE), , , , , !un1_wilclk_cnt124_i, );
+
+--wilclk_cnt1_cout[3] is wilclk_cnt1_cout[3] at LC_X3_Y4_N7
+--operation mode is arithmetic
+
+wilclk_cnt1_cout[3]_cout_0 = !wilclk_cnt1_cout[2] # !wilclk_cnt1[3];
+wilclk_cnt1_cout[3] = CARRY(wilclk_cnt1_cout[3]_cout_0);
+
+--A1L761 is wilclk_cnt1_cout[3]~COUT1_15 at LC_X3_Y4_N7
+--operation mode is arithmetic
+
+A1L761_cout_1 = !A1L561 # !wilclk_cnt1[3];
+A1L761 = CARRY(A1L761_cout_1);
+
+
+--wilclk_cnt1[7] is wilclk_cnt1[7] at LC_X4_Y4_N1
+--operation mode is arithmetic
+
+wilclk_cnt1[7]_carry_eqn = (!wilclk_cnt1_cout[5] & wilclk_cnt1_cout[6]) # (wilclk_cnt1_cout[5] & A1L271);
+wilclk_cnt1[7]_lut_out = wilclk_cnt1[7] $ wilclk_cnt1[7]_carry_eqn;
+wilclk_cnt1[7] = DFFEAS(wilclk_cnt1[7]_lut_out, GLOBAL(clk), GLOBAL(nCPLDCE), , , , , !un1_wilclk_cnt124_i, );
+
+--wilclk_cnt1_cout[7] is wilclk_cnt1_cout[7] at LC_X4_Y4_N1
+--operation mode is arithmetic
+
+wilclk_cnt1_cout[7]_cout_0 = !wilclk_cnt1_cout[6] # !wilclk_cnt1[7];
+wilclk_cnt1_cout[7] = CARRY(wilclk_cnt1_cout[7]_cout_0);
+
+--A1L471 is wilclk_cnt1_cout[7]~COUT1_21 at LC_X4_Y4_N1
+--operation mode is arithmetic
+
+A1L471_cout_1 = !A1L271 # !wilclk_cnt1[7];
+A1L471 = CARRY(A1L471_cout_1);
+
+
+--wilclk_cnt1[8] is wilclk_cnt1[8] at LC_X4_Y4_N2
+--operation mode is arithmetic
+
+wilclk_cnt1[8]_carry_eqn = (!wilclk_cnt1_cout[5] & wilclk_cnt1_cout[7]) # (wilclk_cnt1_cout[5] & A1L471);
+wilclk_cnt1[8]_lut_out = wilclk_cnt1[8] $ !wilclk_cnt1[8]_carry_eqn;
+wilclk_cnt1[8] = DFFEAS(wilclk_cnt1[8]_lut_out, GLOBAL(clk), GLOBAL(nCPLDCE), , , , , !un1_wilclk_cnt124_i, );
+
+--wilclk_cnt1_cout[8] is wilclk_cnt1_cout[8] at LC_X4_Y4_N2
+--operation mode is arithmetic
+
+wilclk_cnt1_cout[8]_cout_0 = wilclk_cnt1[8] & !wilclk_cnt1_cout[7];
+wilclk_cnt1_cout[8] = CARRY(wilclk_cnt1_cout[8]_cout_0);
+
+--A1L671 is wilclk_cnt1_cout[8]~COUT1_23 at LC_X4_Y4_N2
+--operation mode is arithmetic
+
+A1L671_cout_1 = wilclk_cnt1[8] & !A1L471;
+A1L671 = CARRY(A1L671_cout_1);
+
+
+--wilclk_cnt1[9] is wilclk_cnt1[9] at LC_X4_Y4_N3
+--operation mode is arithmetic
+
+wilclk_cnt1[9]_carry_eqn = (!wilclk_cnt1_cout[5] & wilclk_cnt1_cout[8]) # (wilclk_cnt1_cout[5] & A1L671);
+wilclk_cnt1[9]_lut_out = wilclk_cnt1[9] $ (wilclk_cnt1[9]_carry_eqn);
+wilclk_cnt1[9] = DFFEAS(wilclk_cnt1[9]_lut_out, GLOBAL(clk), GLOBAL(nCPLDCE), , , , , !un1_wilclk_cnt124_i, );
+
+--wilclk_cnt1_cout[9] is wilclk_cnt1_cout[9] at LC_X4_Y4_N3
+--operation mode is arithmetic
+
+wilclk_cnt1_cout[9]_cout_0 = !wilclk_cnt1_cout[8] # !wilclk_cnt1[9];
+wilclk_cnt1_cout[9] = CARRY(wilclk_cnt1_cout[9]_cout_0);
+
+--A1L871 is wilclk_cnt1_cout[9]~COUT1_25 at LC_X4_Y4_N3
+--operation mode is arithmetic
+
+A1L871_cout_1 = !A1L671 # !wilclk_cnt1[9];
+A1L871 = CARRY(A1L871_cout_1);
+
+
+--wilclk_cnt1[0] is wilclk_cnt1[0] at LC_X3_Y4_N4
+--operation mode is arithmetic
+
+wilclk_cnt1[0]_lut_out = !wilclk_cnt1[0];
+wilclk_cnt1[0] = DFFEAS(wilclk_cnt1[0]_lut_out, GLOBAL(clk), GLOBAL(nCPLDCE), , , , , !un1_wilclk_cnt124_i, );
+
+--wilclk_cnt1_cout[0] is wilclk_cnt1_cout[0] at LC_X3_Y4_N4
+--operation mode is arithmetic
+
+wilclk_cnt1_cout[0] = CARRY(wilclk_cnt1[0]);
+
+
+--nNANDFWE is nNANDFWE at PIN_64
+--operation mode is input
+
+nNANDFWE = INPUT();
+
+
+--nOE_nFRE is nOE_nFRE at PIN_43
+--operation mode is input
+
+nOE_nFRE = INPUT();
+
+
+--nHRESET is nHRESET at PIN_44
+--operation mode is input
+
+nHRESET = INPUT();
+
+
+--addr[0] is addr[0] at PIN_1
+--operation mode is input
+
+addr[0] = INPUT();
+
+
+--addr[1] is addr[1] at PIN_2
+--operation mode is input
+
+addr[1] = INPUT();
+
+
+--addr[2] is addr[2] at PIN_3
+--operation mode is input
+
+addr[2] = INPUT();
+
+
+--addr[3] is addr[3] at PIN_4
+--operation mode is input
+
+addr[3] = INPUT();
+
+
+--addr[4] is addr[4] at PIN_5
+--operation mode is input
+
+addr[4] = INPUT();
+
+
+--addr[5] is addr[5] at PIN_6
+--operation mode is input
+
+addr[5] = INPUT();
+
+
+--addr[6] is addr[6] at PIN_7
+--operation mode is input
+
+addr[6] = INPUT();
+
+
+--data[0] is data[0] at PIN_16
+--operation mode is input
+
+data[0] = INPUT();
+
+
+--data[1] is data[1] at PIN_17
+--operation mode is input
+
+data[1] = INPUT();
+
+
+--data[2] is data[2] at PIN_18
+--operation mode is input
+
+data[2] = INPUT();
+
+
+--data[3] is data[3] at PIN_19
+--operation mode is input
+
+data[3] = INPUT();
+
+
+--data[4] is data[4] at PIN_20
+--operation mode is input
+
+data[4] = INPUT();
+
+
+--data[5] is data[5] at PIN_21
+--operation mode is input
+
+data[5] = INPUT();
+
+
+--data[6] is data[6] at PIN_26
+--operation mode is input
+
+data[6] = INPUT();
+
+
+--data[7] is data[7] at PIN_27
+--operation mode is input
+
+data[7] = INPUT();
+
+
+--AD_DOO is AD_DOO at PIN_57
+--operation mode is input
+
+AD_DOO = INPUT();
+
+
+--IRQ4 is IRQ4 at PIN_34
+--operation mode is output
+
+IRQ4 = OUTPUT(un11_IRQ4);
+
+
+--AD_CS is AD_CS at PIN_55
+--operation mode is output
+
+AD_CS = OUTPUT(AD_CS_1_i);
+
+
+--AD_CLK is AD_CLK at PIN_61
+--operation mode is output
+
+AD_CLK = OUTPUT(un15_AD_CLK_x[0]);
+
+
+--test[0] is test[0] at PIN_37
+--operation mode is output
+
+test[0] = OUTPUT(wigend_reg[0]);
+
+
+--test[1] is test[1] at PIN_39
+--operation mode is output
+
+test[1] = OUTPUT(wigend_reg[1]);
+
+
+--test[2] is test[2] at PIN_88
+--operation mode is output
+
+test[2] = OUTPUT(wigend_reg[2]);
+
+
+--test[3] is test[3] at PIN_90
+--operation mode is output
+
+test[3] = OUTPUT(wigend_reg[3]);
+
+
+--clk is clk at PIN_62
+--operation mode is input
+
+clk = INPUT();
+
+
+--nCPLDCE is nCPLDCE at PIN_15
+--operation mode is input
+
+nCPLDCE = INPUT();
+
+
+--wil[0] is wil[0] at PIN_36
+--operation mode is input
+
+wil[0] = INPUT();
+
+
+--wil[1] is wil[1] at PIN_35
+--operation mode is input
+
+wil[1] = INPUT();
+
+

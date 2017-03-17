@@ -1,0 +1,55 @@
+//
+// Verplex constraint file
+// Generated using Synplify-pro
+//
+// Copyright (c) 1996-2004 Synplicity, Inc.
+// All rights reserved
+//
+
+// Set parsing options
+set log file wigend_out.vlf -replace
+set naming rule "%s_Z" -register -golden
+set naming rule "%s" -register -revised
+set case sensitivity off
+// set undriven signal 0 -both
+// set undefined cell black_box -noascend
+
+// Read golden and revised designs
+read design -file lec/wigend_out.vlc -verilog \
+ 	../pld.v \
+ 	../wigend_out.v \
+	-golden -root pld
+read design -file lec/wigend_out.vlc -verilog wigend_out.vm -revised -root pld
+
+// Generate parsing report
+report messages
+report black box
+report design data
+report floating signals
+
+// Read FSM encoding
+
+// Read setup constraints
+read setup file lec/wigend_out.vsc
+
+// Set mapping options
+add renaming rule rulerr "\/Q_r_e_g" "" -revised
+add renaming rule rulegh "_Z\[%d\]\[%d\]" "_@1__Z[@2]" -golden
+add renaming rule rulegt "_Z\[%d\]$" "[@1]" -type DFF -type DLAT -golden
+add renaming rule rulert "_Z\[%d\]$" "[@1]" -type DFF -type DLAT -revised
+add renaming rule rulego "_Z$" "" -type DFF -type DLAT -golden
+add renaming rule rulero "_Z$" "" -type DFF -type DLAT -revised
+set flatten model -seq_constant
+// set flatten model -mux_loop_to_dlat
+// set flatten model -all_seq_merge
+// set flatten model -self_seq_merge
+set mapping method -name first
+
+// Run equivalence checker
+set sys mode lec -nomap
+read map point lec/wigend_out.vmc
+map key point
+add compare point -all
+compare
+usage
+// exit -f

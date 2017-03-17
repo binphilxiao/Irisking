@@ -1,0 +1,50 @@
+-----------------------------  vport.pjt - Debug  -----------------------------
+[utility.c] "E:\CCStudio_v3.1\C6000\cgtools\bin\cl6x" -q -s -os -o3 -eoo64 -fr"D:/SVNs/IKEMB-100/develop/dsp-v4-cmostest/vport-v2/Debug" -i"E:/CCStudio_v3.1/C6xCSL/include" -i"E:/CCStudio_v3.1/ddk/include" -i"D:/SVNs/IKEMB-100/develop/dsp-v4-cmostest/vport-v2/../include" -i"E:/CCStudio_v3.1/boards/evmdm642/include" -d"CHIP_DM642=1" -mv6400 --mem_model:data=far --consultant -@"../vport-v2/Debug.lkf" "utility.c"
+
+[INT64.C] "E:\CCStudio_v3.1\C6000\cgtools\bin\cl6x" -q -s -os -o3 -eoo64 -fr"D:/SVNs/IKEMB-100/develop/dsp-v4-cmostest/vport-v2/Debug" -i"E:/CCStudio_v3.1/C6xCSL/include" -i"E:/CCStudio_v3.1/ddk/include" -i"D:/SVNs/IKEMB-100/develop/dsp-v4-cmostest/vport-v2/../include" -i"E:/CCStudio_v3.1/boards/evmdm642/include" -d"CHIP_DM642=1" -mv6400 --mem_model:data=far --consultant -@"../vport-v2/Debug.lkf" "INT64.C"
+
+[MISC.C] "E:\CCStudio_v3.1\C6000\cgtools\bin\cl6x" -q -s -os -o3 -eoo64 -fr"D:/SVNs/IKEMB-100/develop/dsp-v4-cmostest/vport-v2/Debug" -i"E:/CCStudio_v3.1/C6xCSL/include" -i"E:/CCStudio_v3.1/ddk/include" -i"D:/SVNs/IKEMB-100/develop/dsp-v4-cmostest/vport-v2/../include" -i"E:/CCStudio_v3.1/boards/evmdm642/include" -d"CHIP_DM642=1" -mv6400 --mem_model:data=far --consultant -@"../vport-v2/Debug.lkf" "MISC.C"
+"putty.h", line 645: warning: declaration is not visible outside of function
+"MISC.C", line 150: warning: variable "p" was set but never used
+"MISC.C", line 266: warning: argument of type "char *" is incompatible with parameter of type "unsigned char *"
+"MISC.C", line 266: warning: argument of type "char *" is incompatible with parameter of type "unsigned char *"
+"MISC.C", line 272: warning: argument of type "char *" is incompatible with parameter of type "unsigned char *"
+"MISC.C", line 272: warning: argument of type "char *" is incompatible with parameter of type "unsigned char *"
+
+[SSHBN.C] "E:\CCStudio_v3.1\C6000\cgtools\bin\cl6x" -q -s -os -o3 -eoo64 -fr"D:/SVNs/IKEMB-100/develop/dsp-v4-cmostest/vport-v2/Debug" -i"E:/CCStudio_v3.1/C6xCSL/include" -i"E:/CCStudio_v3.1/ddk/include" -i"D:/SVNs/IKEMB-100/develop/dsp-v4-cmostest/vport-v2/../include" -i"E:/CCStudio_v3.1/boards/evmdm642/include" -d"CHIP_DM642=1" -mv6400 --mem_model:data=far --consultant -@"../vport-v2/Debug.lkf" "SSHBN.C"
+
+[sshdes.c] "E:\CCStudio_v3.1\C6000\cgtools\bin\cl6x" -q -s -os -o3 -eoo64 -fr"D:/SVNs/IKEMB-100/develop/dsp-v4-cmostest/vport-v2/Debug" -i"E:/CCStudio_v3.1/C6xCSL/include" -i"E:/CCStudio_v3.1/ddk/include" -i"D:/SVNs/IKEMB-100/develop/dsp-v4-cmostest/vport-v2/../include" -i"E:/CCStudio_v3.1/boards/evmdm642/include" -d"CHIP_DM642=1" -mv6400 --mem_model:data=far --consultant -@"../vport-v2/Debug.lkf" "sshdes.c"
+
+[SSHMD5.C] "E:\CCStudio_v3.1\C6000\cgtools\bin\cl6x" -q -s -os -o3 -eoo64 -fr"D:/SVNs/IKEMB-100/develop/dsp-v4-cmostest/vport-v2/Debug" -i"E:/CCStudio_v3.1/C6xCSL/include" -i"E:/CCStudio_v3.1/ddk/include" -i"D:/SVNs/IKEMB-100/develop/dsp-v4-cmostest/vport-v2/../include" -i"E:/CCStudio_v3.1/boards/evmdm642/include" -d"CHIP_DM642=1" -mv6400 --mem_model:data=far --consultant -@"../vport-v2/Debug.lkf" "SSHMD5.C"
+
+[SSHPRIME.C] "E:\CCStudio_v3.1\C6000\cgtools\bin\cl6x" -q -s -os -o3 -eoo64 -fr"D:/SVNs/IKEMB-100/develop/dsp-v4-cmostest/vport-v2/Debug" -i"E:/CCStudio_v3.1/C6xCSL/include" -i"E:/CCStudio_v3.1/ddk/include" -i"D:/SVNs/IKEMB-100/develop/dsp-v4-cmostest/vport-v2/../include" -i"E:/CCStudio_v3.1/boards/evmdm642/include" -d"CHIP_DM642=1" -mv6400 --mem_model:data=far --consultant -@"../vport-v2/Debug.lkf" "SSHPRIME.C"
+
+[SSHRSA.C] "E:\CCStudio_v3.1\C6000\cgtools\bin\cl6x" -q -s -os -o3 -eoo64 -fr"D:/SVNs/IKEMB-100/develop/dsp-v4-cmostest/vport-v2/Debug" -i"E:/CCStudio_v3.1/C6xCSL/include" -i"E:/CCStudio_v3.1/ddk/include" -i"D:/SVNs/IKEMB-100/develop/dsp-v4-cmostest/vport-v2/../include" -i"E:/CCStudio_v3.1/boards/evmdm642/include" -d"CHIP_DM642=1" -mv6400 --mem_model:data=far --consultant -@"../vport-v2/Debug.lkf" "SSHRSA.C"
+"SSHRSA.C", line 216: warning: loop is not reachable from preceding code
+
+[SSHRSAG.C] "E:\CCStudio_v3.1\C6000\cgtools\bin\cl6x" -q -s -os -o3 -eoo64 -fr"D:/SVNs/IKEMB-100/develop/dsp-v4-cmostest/vport-v2/Debug" -i"E:/CCStudio_v3.1/C6xCSL/include" -i"E:/CCStudio_v3.1/ddk/include" -i"D:/SVNs/IKEMB-100/develop/dsp-v4-cmostest/vport-v2/../include" -i"E:/CCStudio_v3.1/boards/evmdm642/include" -d"CHIP_DM642=1" -mv6400 --mem_model:data=far --consultant -@"../vport-v2/Debug.lkf" "SSHRSAG.C"
+
+[SSHSH256.C] "E:\CCStudio_v3.1\C6000\cgtools\bin\cl6x" -q -s -os -o3 -eoo64 -fr"D:/SVNs/IKEMB-100/develop/dsp-v4-cmostest/vport-v2/Debug" -i"E:/CCStudio_v3.1/C6xCSL/include" -i"E:/CCStudio_v3.1/ddk/include" -i"D:/SVNs/IKEMB-100/develop/dsp-v4-cmostest/vport-v2/../include" -i"E:/CCStudio_v3.1/boards/evmdm642/include" -d"CHIP_DM642=1" -mv6400 --mem_model:data=far --consultant -@"../vport-v2/Debug.lkf" "SSHSH256.C"
+
+[SSHSH512.C] "E:\CCStudio_v3.1\C6000\cgtools\bin\cl6x" -q -s -os -o3 -eoo64 -fr"D:/SVNs/IKEMB-100/develop/dsp-v4-cmostest/vport-v2/Debug" -i"E:/CCStudio_v3.1/C6xCSL/include" -i"E:/CCStudio_v3.1/ddk/include" -i"D:/SVNs/IKEMB-100/develop/dsp-v4-cmostest/vport-v2/../include" -i"E:/CCStudio_v3.1/boards/evmdm642/include" -d"CHIP_DM642=1" -mv6400 --mem_model:data=far --consultant -@"../vport-v2/Debug.lkf" "SSHSH512.C"
+
+[SSHSHA.C] "E:\CCStudio_v3.1\C6000\cgtools\bin\cl6x" -q -s -os -o3 -eoo64 -fr"D:/SVNs/IKEMB-100/develop/dsp-v4-cmostest/vport-v2/Debug" -i"E:/CCStudio_v3.1/C6xCSL/include" -i"E:/CCStudio_v3.1/ddk/include" -i"D:/SVNs/IKEMB-100/develop/dsp-v4-cmostest/vport-v2/../include" -i"E:/CCStudio_v3.1/boards/evmdm642/include" -d"CHIP_DM642=1" -mv6400 --mem_model:data=far --consultant -@"../vport-v2/Debug.lkf" "SSHSHA.C"
+
+[vportcap_RAW.c] "E:\CCStudio_v3.1\C6000\cgtools\bin\cl6x" -q -s -os -o3 -eoo64 -fr"D:/SVNs/IKEMB-100/develop/dsp-v4-cmostest/vport-v2/Debug" -i"E:/CCStudio_v3.1/C6xCSL/include" -i"E:/CCStudio_v3.1/ddk/include" -i"D:/SVNs/IKEMB-100/develop/dsp-v4-cmostest/vport-v2/../include" -i"E:/CCStudio_v3.1/boards/evmdm642/include" -d"CHIP_DM642=1" -mv6400 --mem_model:data=far --consultant -@"Debug.lkf" "vportcap_RAW.c"
+"vportcap_RAW.c", line 238: warning: invalid type conversion
+
+[vportdis.c] "E:\CCStudio_v3.1\C6000\cgtools\bin\cl6x" -q -s -os -o3 -eoo64 -fr"D:/SVNs/IKEMB-100/develop/dsp-v4-cmostest/vport-v2/Debug" -i"E:/CCStudio_v3.1/C6xCSL/include" -i"E:/CCStudio_v3.1/ddk/include" -i"D:/SVNs/IKEMB-100/develop/dsp-v4-cmostest/vport-v2/../include" -i"E:/CCStudio_v3.1/boards/evmdm642/include" -d"CHIP_DM642=1" -mv6400 --mem_model:data=far --consultant -@"Debug.lkf" "vportdis.c"
+"vportdis.c", line 181: warning: invalid type conversion
+"vportdis.c", line 831: warning: variable "numEvents" was set but never used
+"vportdis.c", line 918: warning: variable "base" was declared but never referenced
+"vportdis.c", line 920: warning: variable "mask" was declared but never referenced
+"vportdis.c", line 921: warning: variable "vif2" was declared but never referenced
+"vportdis.c", line 921: warning: variable "vInt2" was declared but never referenced
+"vportdis.c", line 921: warning: variable "vif1" was declared but never referenced
+"vportdis.c", line 921: warning: variable "vInt1" was declared but never referenced
+"vportdis.c", line 754: warning: function "displayISR" was declared but never referenced
+
+[Archiving...] "E:\CCStudio_v3.1\C6000\cgtools\bin\ar6x" @"Debug.lkf"
+
+Build Complete,
+  0 Errors, 17 Warnings, 0 Remarks.

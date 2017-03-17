@@ -1,0 +1,10 @@
+Selecting top level module buffer
+Synthesizing module Wigend_In
+Synthesizing module Wigend_Out
+Synthesizing module buffer
+@W: CG134 :"E:\project\IRISking\ikemb-0001\project\hardware\DM642\v4\fpga_v2\buffer\buffer.v":3:11:3:19|No assignment to bit 1 of configure
+@W: CG134 :"E:\project\IRISking\ikemb-0001\project\hardware\DM642\v4\fpga_v2\buffer\buffer.v":3:11:3:19|No assignment to bit 2 of configure
+@W: CG134 :"E:\project\IRISking\ikemb-0001\project\hardware\DM642\v4\fpga_v2\buffer\buffer.v":3:11:3:19|No assignment to bit 5 of configure
+@W: CG134 :"E:\project\IRISking\ikemb-0001\project\hardware\DM642\v4\fpga_v2\buffer\buffer.v":3:11:3:19|No assignment to bit 6 of configure
+@W: CG134 :"E:\project\IRISking\ikemb-0001\project\hardware\DM642\v4\fpga_v2\buffer\buffer.v":3:11:3:19|No assignment to bit 7 of configure
+@W: CL118 :"E:\project\IRISking\ikemb-0001\project\hardware\DM642\v4\fpga_v2\buffer\buffer.v":71:2:71:3|Latch generated from always block for signal wdata[7:0], probably caused by a missing assignment in an if or case stmt

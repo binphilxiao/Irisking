@@ -1,0 +1,5 @@
+@P:  Part : EPM7128AETC100-10
+@P: buffer Part : epm7128aetc100-10
+@P: buffer Register bits : 77 (51 using enable)
+@P: buffer EABs : 0
+@P: buffer I/O cells : 47

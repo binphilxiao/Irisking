@@ -1,0 +1,327 @@
+|buffer
+clk => clk_in.PADIO
+nReset => nReset_in.PADIO
+nEXTBUS <= nEXTBUS_out.PADIO
+BUFDIR <= BUFDIR_out.PADIO
+BUFDIR1 <= BUFDIR1_out.PADIO
+nFCE => nFCE_in.PADIO
+nOE => nOE_in.PADIO
+nWE => nWE_in.PADIO
+nGCS[0] => ~NO_FANOUT~
+nGCS[1] => nGCS_in_1_.PADIO
+nGCS[2] => nGCS_in_2_.PADIO
+nGCS[3] => nGCS_in_3_.PADIO
+nGCS[4] => nGCS_in_4_.PADIO
+nGCS[5] => nGCS_in_5_.PADIO
+nFWE => ~NO_FANOUT~
+nFRE => nFRE_in.PADIO
+addr[0] => addr_in_0_.PADIO
+addr[1] => addr_in_1_.PADIO
+addr[2] => addr_in_2_.PADIO
+addr[3] => addr_in_3_.PADIO
+addr[4] => addr_in_4_.PADIO
+addr[5] => addr_in_5_.PADIO
+addr[6] => addr_in_6_.PADIO
+addr[7] => addr_in_7_.PADIO
+addr[8] => addr_in_8_.PADIO
+data[0] <= data_tri_0_
+data[1] <= data_tri_1_
+data[2] <= data_tri_2_
+data[3] <= data_tri_3_
+data[4] <= data_tri_4_
+data[5] <= data_tri_5_
+data[6] <= data_tri_6_
+data[7] <= data_tri_7_
+eint0 => eint0_in.PADIO
+eint1 <= eint1_out.PADIO
+eint2 <= <VCC>
+eint3 => eint3_in.PADIO
+eint11 <= <VCC>
+wil_in[0] => wil_in_in_0_.PADIO
+wil_in[1] => wil_in_in_1_.PADIO
+wil_out[0] <= wil_out_out_0_.PADIO
+wil_out[1] <= wil_out_out_1_.PADIO
+G5V_IO <= G5V_IO_out.PADIO
+FPGA_IO <= FPGA_IO_out.PADIO
+test[0] <= <VCC>
+test[1] <= test_out_1_.PADIO
+test[2] <= test_out_2_.PADIO
+test[3] <= test_out_3_.PADIO
+
+
+|buffer|SYNLPM_LATR1:wdata_3__Z
+Q[0] <= lpm_latch:U1.q
+DATA[0] => lpm_latch:U1.data
+GATE => lpm_latch:U1.gate
+ACLR => lpm_latch:U1.aclr
+
+
+|buffer|SYNLPM_LATR1:wdata_3__Z|lpm_latch:U1
+data[0] => latches[0].DATAIN
+gate => latches[0].LATCH_ENABLE
+aset => ~NO_FANOUT~
+aconst => ~NO_FANOUT~
+q[0] <= latches[0].DB_MAX_OUTPUT_PORT_TYPE
+
+
+|buffer|SYNLPM_LATR1:wdata_1__Z
+Q[0] <= lpm_latch:U1.q
+DATA[0] => lpm_latch:U1.data
+GATE => lpm_latch:U1.gate
+ACLR => lpm_latch:U1.aclr
+
+
+|buffer|SYNLPM_LATR1:wdata_1__Z|lpm_latch:U1
+data[0] => latches[0].DATAIN
+gate => latches[0].LATCH_ENABLE
+aset => ~NO_FANOUT~
+aconst => ~NO_FANOUT~
+q[0] <= latches[0].DB_MAX_OUTPUT_PORT_TYPE
+
+
+|buffer|SYNLPM_LATRS1:wdata_2__Z
+Q[0] <= lpm_latch:U1.q
+DATA[0] => lpm_latch:U1.data
+GATE => lpm_latch:U1.gate
+ASET => lpm_latch:U1.aset
+ACLR => lpm_latch:U1.aclr
+
+
+|buffer|SYNLPM_LATRS1:wdata_2__Z|lpm_latch:U1
+data[0] => latches[0].DATAIN
+gate => latches[0].LATCH_ENABLE
+aconst => ~NO_FANOUT~
+q[0] <= latches[0].DB_MAX_OUTPUT_PORT_TYPE
+
+
+|buffer|SYNLPM_LATR1:wdata_7__Z
+Q[0] <= lpm_latch:U1.q
+DATA[0] => lpm_latch:U1.data
+GATE => lpm_latch:U1.gate
+ACLR => lpm_latch:U1.aclr
+
+
+|buffer|SYNLPM_LATR1:wdata_7__Z|lpm_latch:U1
+data[0] => latches[0].DATAIN
+gate => latches[0].LATCH_ENABLE
+aset => ~NO_FANOUT~
+aconst => ~NO_FANOUT~
+q[0] <= latches[0].DB_MAX_OUTPUT_PORT_TYPE
+
+
+|buffer|SYNLPM_LATRS1:wdata_4__Z
+Q[0] <= lpm_latch:U1.q
+DATA[0] => lpm_latch:U1.data
+GATE => lpm_latch:U1.gate
+ASET => lpm_latch:U1.aset
+ACLR => lpm_latch:U1.aclr
+
+
+|buffer|SYNLPM_LATRS1:wdata_4__Z|lpm_latch:U1
+data[0] => latches[0].DATAIN
+gate => latches[0].LATCH_ENABLE
+aconst => ~NO_FANOUT~
+q[0] <= latches[0].DB_MAX_OUTPUT_PORT_TYPE
+
+
+|buffer|SYNLPM_LATR1:wdata_0__Z
+Q[0] <= lpm_latch:U1.q
+DATA[0] => lpm_latch:U1.data
+GATE => lpm_latch:U1.gate
+ACLR => lpm_latch:U1.aclr
+
+
+|buffer|SYNLPM_LATR1:wdata_0__Z|lpm_latch:U1
+data[0] => latches[0].DATAIN
+gate => latches[0].LATCH_ENABLE
+aset => ~NO_FANOUT~
+aconst => ~NO_FANOUT~
+q[0] <= latches[0].DB_MAX_OUTPUT_PORT_TYPE
+
+
+|buffer|SYNLPM_LATRS1:wdata_5__Z
+Q[0] <= lpm_latch:U1.q
+DATA[0] => lpm_latch:U1.data
+GATE => lpm_latch:U1.gate
+ASET => lpm_latch:U1.aset
+ACLR => lpm_latch:U1.aclr
+
+
+|buffer|SYNLPM_LATRS1:wdata_5__Z|lpm_latch:U1
+data[0] => latches[0].DATAIN
+gate => latches[0].LATCH_ENABLE
+aconst => ~NO_FANOUT~
+q[0] <= latches[0].DB_MAX_OUTPUT_PORT_TYPE
+
+
+|buffer|SYNLPM_LATRS1:wdata_6__Z
+Q[0] <= lpm_latch:U1.q
+DATA[0] => lpm_latch:U1.data
+GATE => lpm_latch:U1.gate
+ASET => lpm_latch:U1.aset
+ACLR => lpm_latch:U1.aclr
+
+
+|buffer|SYNLPM_LATRS1:wdata_6__Z|lpm_latch:U1
+data[0] => latches[0].DATAIN
+gate => latches[0].LATCH_ENABLE
+aconst => ~NO_FANOUT~
+q[0] <= latches[0].DB_MAX_OUTPUT_PORT_TYPE
+
+
+|buffer|Wigend_In:wigend_in
+wil_in_c_0 => un1_wigend_9_i_x_cZ.DATAB
+wil_in_c_0 => un1_wigend_9_x_cZ.DATAA
+wil_in_c_1 => un1_wigend_9_i_x_cZ.DATAA
+wil_in_c_1 => un1_wigend_9_x_cZ.DATAB
+wigend_bitcnt_1 <= wigend_bitcnt_1__Z.REGOUT
+wigend_bitcnt_2 <= wigend_bitcnt_2__Z.REGOUT
+wigend_bitcnt_3 <= wigend_bitcnt_3__Z.REGOUT
+wigend_bitcnt_4 <= wigend_bitcnt_4__Z.REGOUT
+int_1_0_a3 <= int_1_0_a3_0.COMBOUT
+nReset_c => wilclk_cnt_0__Z.ACLR
+nReset_c => wilclk_cnt_1__Z.ACLR
+nReset_c => wilclk_cnt_2__Z.ACLR
+nReset_c => wilclk_cnt_3__Z.ACLR
+nReset_c => wilclk_cnt_4__Z.ACLR
+nReset_c => wilclk_cnt_5__Z.ACLR
+nReset_c => wilclk_cnt_6__Z.ACLR
+nReset_c => wilclk_cnt_7__Z.ACLR
+nReset_c => wilclk_cnt_8__Z.ACLR
+nReset_c => wilclk_cnt_9__Z.ACLR
+nReset_c => wilclk_cnt_10__Z.ACLR
+nReset_c => wilclk_cnt_11__Z.ACLR
+nReset_c => wilclk_cnt_12__Z.ACLR
+nReset_c => wigend_bitcnt_4__Z.ACLR
+nReset_c => wigend_bitcnt_3__Z.ACLR
+nReset_c => wigend_bitcnt_2__Z.ACLR
+nReset_c => wigend_bitcnt_1__Z.ACLR
+nReset_c => wigend_bitcnt_0__Z.ACLR
+nReset_c => overtime_i_Z.ACLR
+nReset_c => wil_clk_i_0_Z.ACLR
+nReset_c => wil_clk_tmp_i_0_Z.ACLR
+nReset_c => overtime_delay2_i_Z.ACLR
+nReset_c => overtime_delay3_i_Z.ACLR
+nReset_c => overtime_delay1_i_0_Z.ACLR
+clk_c => wilclk_cnt_0__Z.CLK
+clk_c => wilclk_cnt_1__Z.CLK
+clk_c => wilclk_cnt_2__Z.CLK
+clk_c => wilclk_cnt_3__Z.CLK
+clk_c => wilclk_cnt_4__Z.CLK
+clk_c => wilclk_cnt_5__Z.CLK
+clk_c => wilclk_cnt_6__Z.CLK
+clk_c => wilclk_cnt_7__Z.CLK
+clk_c => wilclk_cnt_8__Z.CLK
+clk_c => wilclk_cnt_9__Z.CLK
+clk_c => wilclk_cnt_10__Z.CLK
+clk_c => wilclk_cnt_11__Z.CLK
+clk_c => wilclk_cnt_12__Z.CLK
+clk_c => overtime_i_Z.CLK
+clk_c => wil_clk_i_0_Z.CLK
+clk_c => wil_clk_tmp_i_0_Z.CLK
+clk_c => overtime_delay2_i_Z.CLK
+clk_c => overtime_delay3_i_Z.CLK
+clk_c => overtime_delay1_i_0_Z.CLK
+
+
+|buffer|Wigend_Out:wigend_out
+wigend_reg_out_22 => wigend_59_iv_i_i_0_m3_1_.DATAC
+wigend_reg_out_23 => wigend_59_iv_i_i_0_m3_1_.DATAB
+wigend_reg_out_24 => wigend_59_iv_i_i_0_m3_c_1_.DATAB
+wigend_reg_out_25 => wigend_59_iv_i_i_0_m3_c_1_.DATAA
+wigend_reg_out_5 => wigend_59_iv_0_m2_0_a_0_.DATAD
+wigend_reg_out_5 => wigend_59_iv_i_i_0_m2_0_a_1_.DATAD
+wigend_reg_out_3 => wigend_59_iv_0_m2_0_a_0_.DATAC
+wigend_reg_out_3 => wigend_59_iv_i_i_0_m2_0_a_1_.DATAC
+wigend_reg_out_20 => wigend_59_iv_0_o3_0_0_.DATAD
+wigend_reg_out_20 => wigend_59_iv_i_i_0_m2_a_1_.DATAD
+wigend_reg_out_7 => wigend_59_iv_i_i_0_o3_1_1_.DATAD
+wigend_reg_out_7 => wigend_59_iv_0_o3_1_0_.DATAD
+wigend_reg_out_17 => wigend_59_iv_i_i_0_o3_29_1_.DATAD
+wigend_reg_out_17 => wigend_59_iv_0_o3_5_0_.DATAD
+wigend_reg_out_16 => wigend_59_iv_0_o3_5_0_0_.DATAC
+wigend_reg_out_16 => wigend_59_iv_i_i_0_o3_29_0_1_.DATAC
+wigend_reg_out_11 => wigend_59_iv_0_o3_4_0_.DATAD
+wigend_reg_out_11 => wigend_59_iv_i_i_0_o3_4_1_.DATAD
+wigend_reg_out_0 => wigend_59_iv_i_i_0_o3_2_0_1_.DATAD
+wigend_reg_out_0 => wigend_59_iv_0_o3_2_0_0_.DATAD
+wigend_reg_out_4 => wigend_59_iv_i_i_0_o3_0_2_1_.DATAD
+wigend_reg_out_4 => wigend_59_iv_0_o3_0_2_0_.DATAD
+wigend_reg_out_6 => wigend_59_iv_i_i_0_o3_0_2_1_.DATAC
+wigend_reg_out_6 => wigend_59_iv_0_o3_0_2_0_.DATAC
+wigend_reg_out_13 => wigend_59_iv_i_i_0_o3_4_1_1_.DATAC
+wigend_reg_out_13 => wigend_59_iv_0_o3_4_1_0_.DATAC
+wigend_reg_out_18 => wigend_59_iv_0_o3_0_0_0_.DATAD
+wigend_reg_out_18 => wigend_59_iv_i_i_0_o3_0_0_1_.DATAD
+wigend_reg_out_19 => wigend_59_iv_0_o3_0_0_0_.DATAC
+wigend_reg_out_19 => wigend_59_iv_i_i_0_o3_0_0_1_.DATAC
+wigend_reg_out_10 => wigend_59_iv_i_i_0_o3_1_0_1_.DATAD
+wigend_reg_out_10 => wigend_59_iv_0_o3_1_0_0_.DATAD
+wigend_reg_out_12 => wigend_59_iv_i_i_0_o3_4_0_1_.DATAC
+wigend_reg_out_12 => wigend_59_iv_0_o3_4_0_0_.DATAC
+wigend_reg_out_2 => wigend_59_iv_i_i_0_a3_12_1_.DATAC
+wigend_reg_out_2 => wigend_59_iv_0_a3_14_0_.DATAC
+wigend_reg_out_1 => wigend_59_iv_i_i_0_a3_13_1_.DATAD
+wigend_reg_out_1 => wigend_59_iv_0_a3_15_0_.DATAD
+wigend_reg_out_21 => wigend_59_iv_0_a3_6_0_.DATAB
+wigend_reg_out_21 => wigend_59_iv_i_i_0_a3_4_1_.DATAB
+wigend_reg_out_9 => wigend_59_iv_0_a3_12_0_.DATAD
+wigend_reg_out_9 => wigend_59_iv_i_i_0_a3_10_1_.DATAD
+wigend_reg_out_15 => wigend_59_iv_i_i_0_a2_0_1_.DATAD
+wigend_reg_out_15 => wigend_59_iv_0_a3_23_0_.DATAD
+wigend_reg_out_8 => wigend_59_iv_0_a3_9_0_.DATAD
+wigend_reg_out_8 => wigend_59_iv_i_i_0_a3_7_1_.DATAD
+wigend_reg_out_14 => wigend_59_iv_0_a3_21_0_.DATAD
+wigend_reg_out_14 => wigend_59_iv_i_i_0_a3_19_1_.DATAD
+wigend_reg_out_14 => wigend_59_iv_0_o3_5_0_0_.DATAD
+wigend_reg_out_14 => wigend_59_iv_i_i_0_o3_29_0_1_.DATAD
+wigend_0 <= wigend_0__Z.REGOUT
+wigend_1 <= wigend_1__Z.REGOUT
+counter_16 <= counter_16__Z.REGOUT
+counter_15 <= counter_15__Z.REGOUT
+counter_13 <= counter_13__Z.REGOUT
+int_1_i_0_i_0_a7 <= int_1_i_0_i_0_a7_0.COMBOUT
+wil_out_en => un1_en_i_0_0.DATAD
+int_1_i_0_i_0_3 <= int_1_i_0_i_0_3_0.COMBOUT
+int_1_i_0_i_0_a3_1 <= int_1_i_0_i_0_a3_1_0.COMBOUT
+int_1_i_0_i_0_o3 <= int_1_i_0_i_0_o3_1.COMBOUT
+nReset_c => counter_0__Z.ACLR
+nReset_c => counter_1__Z.ACLR
+nReset_c => counter_2__Z.ACLR
+nReset_c => counter_3__Z.ACLR
+nReset_c => counter_4__Z.ACLR
+nReset_c => counter_5__Z.ACLR
+nReset_c => counter_6__Z.ACLR
+nReset_c => counter_7__Z.ACLR
+nReset_c => counter_8__Z.ACLR
+nReset_c => counter_9__Z.ACLR
+nReset_c => counter_10__Z.ACLR
+nReset_c => counter_11__Z.ACLR
+nReset_c => counter_12__Z.ACLR
+nReset_c => counter_13__Z.ACLR
+nReset_c => counter_14__Z.ACLR
+nReset_c => counter_15__Z.ACLR
+nReset_c => counter_16__Z.ACLR
+nReset_c => wigend_1__Z.ACLR
+nReset_c => wigend_0__Z.ACLR
+clk_c => counter_0__Z.CLK
+clk_c => counter_1__Z.CLK
+clk_c => counter_2__Z.CLK
+clk_c => counter_3__Z.CLK
+clk_c => counter_4__Z.CLK
+clk_c => counter_5__Z.CLK
+clk_c => counter_6__Z.CLK
+clk_c => counter_7__Z.CLK
+clk_c => counter_8__Z.CLK
+clk_c => counter_9__Z.CLK
+clk_c => counter_10__Z.CLK
+clk_c => counter_11__Z.CLK
+clk_c => counter_12__Z.CLK
+clk_c => counter_13__Z.CLK
+clk_c => counter_14__Z.CLK
+clk_c => counter_15__Z.CLK
+clk_c => counter_16__Z.CLK
+clk_c => wigend_1__Z.CLK
+clk_c => wigend_0__Z.CLK
+
+

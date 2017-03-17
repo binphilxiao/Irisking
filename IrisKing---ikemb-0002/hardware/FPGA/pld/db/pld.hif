@@ -1,0 +1,200 @@
+Version 5.0 Build 171 11/03/2005 Service Pack 2 SJ Full Version
+10
+697
+OFF
+OFF
+OFF
+OFF
+OFF
+FV_OFF
+VRSM_ON
+VHSM_ON
+0
+# entity
+lpm_dff
+# case_insensitive
+# source_file
+..|..|..|..|..|..|..|altera|quartus50|libraries|megafunctions|lpm_dff.tdf
+1114012450
+6
+# storage
+db|pld.(2).cnf
+db|pld.(3).cnf
+# user_parameter {
+LPM_WIDTH
+1
+PARAMETER_UNKNOWN
+USR
+LPM_AVALUE
+0
+PARAMETER_UNKNOWN
+DEF
+LPM_SVALUE
+0
+PARAMETER_UNKNOWN
+DEF
+DEVICE_FAMILY
+Cyclone II
+PARAMETER_UNKNOWN
+USR
+AUTO_CARRY_CHAINS
+ON
+AUTO_CARRY
+USR
+IGNORE_CARRY_BUFFERS
+OFF
+IGNORE_CARRY
+USR
+AUTO_CASCADE_CHAINS
+ON
+AUTO_CASCADE
+USR
+IGNORE_CASCADE_BUFFERS
+OFF
+IGNORE_CASCADE
+USR
+}
+# used_port {
+aclr
+aset
+clock
+data
+q
+}
+# include_file {
+..|..|..|..|..|..|..|altera|quartus50|libraries|megafunctions|lpm_constant.inc
+1107574524
+..|..|..|..|..|..|..|altera|quartus50|libraries|megafunctions|dffeea.inc
+1107574164
+..|..|..|..|..|..|..|altera|quartus50|libraries|megafunctions|aglobal50.inc
+1131033050
+}
+# end
+# entity
+pld
+# case_sensitive
+# source_file
+..|Syn|fpga|pld.vqm
+1261452254
+25
+# storage
+db|pld.(0).cnf
+db|pld.(0).cnf
+# hierarchies {
+|
+}
+# end
+# entity
+Wigend_In
+# case_sensitive
+# source_file
+..|Syn|fpga|pld.vqm
+1261452254
+25
+# storage
+db|pld.(1).cnf
+db|pld.(2).cnf
+# hierarchies {
+Wigend_In:wigend_in1
+}
+# end
+# entity
+Wigend_In_1
+# case_sensitive
+# source_file
+..|Syn|fpga|pld.vqm
+1261452254
+25
+# storage
+db|pld.(3).cnf
+db|pld.(4).cnf
+# hierarchies {
+Wigend_In_1:wigend_in2
+}
+# end
+# entity
+Wigend_In_2
+# case_sensitive
+# source_file
+..|Syn|fpga|pld.vqm
+1261452254
+25
+# storage
+db|pld.(4).cnf
+db|pld.(5).cnf
+# hierarchies {
+Wigend_In_2:wigend_in3
+}
+# end
+# entity
+Wigend_Out
+# case_sensitive
+# source_file
+..|Syn|fpga|pld.vqm
+1261452254
+25
+# storage
+db|pld.(5).cnf
+db|pld.(6).cnf
+# hierarchies {
+Wigend_Out:wigend_out0
+}
+# end
+# entity
+adc
+# case_sensitive
+# source_file
+..|Syn|fpga|pld.vqm
+1261452254
+25
+# storage
+db|pld.(6).cnf
+db|pld.(8).cnf
+# hierarchies {
+adc:adc_m
+}
+# end
+# entity
+Keyboard
+# case_sensitive
+# source_file
+..|Syn|fpga|pld.vqm
+1261452254
+25
+# storage
+db|pld.(8).cnf
+db|pld.(9).cnf
+# hierarchies {
+Keyboard:Keyboard0
+}
+# end
+# entity
+Button
+# case_sensitive
+# source_file
+..|Syn|fpga|pld.vqm
+1261452254
+25
+# storage
+db|pld.(9).cnf
+db|pld.(10).cnf
+# hierarchies {
+Button:Button_FQ
+}
+# end
+# entity
+Button_1
+# case_sensitive
+# source_file
+..|Syn|fpga|pld.vqm
+1261452254
+25
+# storage
+db|pld.(10).cnf
+db|pld.(11).cnf
+# hierarchies {
+Button_1:Button_FW
+}
+# end
+# complete
+

@@ -1,0 +1,59 @@
+(------------------------------------------------------------)
+(                                                            )
+(                    NC DRILL LOG FILE                       )
+(                                                            )
+(        Drawing    : ov7720_V2.brd                          )
+(        Date/Time  : Tue Mar 01 10:07:10 2011               )
+(                                                            )
+(------------------------------------------------------------)
+
+
+
+ Processing NC Parameters file ...
+
+ NC PARAMETERS
+ -------------
+
+ FORMAT   		2.3
+ MACHINE-OFFSET		x:0.000000	y:0.000000
+ FEEDRATE		1
+ COORDINATES		ABSOLUTE
+ OUTPUT-UNITS		ENGLISH
+ TOOL-ORDER		INCREASING
+ REPEAT-CODES		YES
+ SUPPRESS-LEAD-ZEROES	NO
+ SUPPRESS-TRAIL-ZEROES	NO
+ SUPPRESS-EQUAL		NO
+ TOOL-SELECT		NO
+ HEADER			none
+ LEADER			12
+ CODE			ASCII
+ SEPARATE		NO
+ OPTIMIZE_DRILLING	NO
+ ENHANCED_EXCELLON	NO
+ SCALE			1.000000
+
+ WARNING: Design precision is greater than that of the drill output file data.
+          Data rounding errors are very possible.
+
+
+ Drill files being output to directory '' ...
+
+
+
+     'ov7720_V2-1-4.drl' created for holes connecting TOP and BOTTOM
+     ---------------------------------------------------------------
+
+           Num     Size      +/- Tolerance     Plating   Quantity
+
+            1.   8.0000    0.0000/  0.0000      PLATED          4
+            2.  11.0000    0.0000/  0.0000      PLATED         72
+            3.  30.0000    0.0000/  0.0000      PLATED         34
+            4.  35.0000    0.0000/  0.0000      PLATED          4
+            5.  90.0000    0.0000/  0.0000      PLATED          2
+            6. 105.0000    0.0000/  0.0000      PLATED          2
+
+     ---- Total holes:                                        118
+
+     ---- Total head travel:              2.83 feet (0.86 meters)
+

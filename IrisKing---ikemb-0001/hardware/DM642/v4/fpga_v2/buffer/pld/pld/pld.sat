@@ -1,0 +1,59 @@
+# Run with quartus_sh -t <x_cons.tcl>
+
+# Global assignments 
+define_design_name {pld}
+define_synthesis -family MAX7000
+define_synthesis -device {EPM7128AETC100-10}
+define_clock {} -freq 100.0
+
+# Clock assignments 
+
+define_clock {|clk} -period 10.000
+
+define_output_delay {|nEXTBUS} 0.1
+define_output_delay {|BUFDIR} 0.1
+define_output_delay {|BUFDIR1} 0.1
+define_output_delay {|data0} 0.1
+define_output_delay {|data1} 0.1
+define_output_delay {|data2} 0.1
+define_output_delay {|data3} 0.1
+define_output_delay {|data4} 0.1
+define_output_delay {|data5} 0.1
+define_output_delay {|data6} 0.1
+define_output_delay {|data7} 0.1
+define_output_delay {|eint11_i_i} 0.1
+define_output_delay {|clkout} 0.1
+define_output_delay {|vp2clk1_i} 0.1
+define_output_delay {|Hs} 0.1
+define_output_delay {|Vs} 0.1
+define_output_delay {|De} 0.1
+define_output_delay {|hpirdy_i} 0.1
+define_input_delay {|clock} 0.1
+define_input_delay {|clk} 0.1
+define_input_delay {|nReset} 0.1
+define_input_delay {|hpirdy} 0.1
+define_input_delay {|nFCE} 0.1
+define_input_delay {|nOE} 0.1
+define_input_delay {|nWE} 0.1
+define_input_delay {|nGCS0} 0.1
+define_input_delay {|nGCS1} 0.1
+define_input_delay {|nGCS2} 0.1
+define_input_delay {|nGCS3} 0.1
+define_input_delay {|nGCS4} 0.1
+define_input_delay {|nGCS5} 0.1
+define_input_delay {|nFWE} 0.1
+define_input_delay {|nFRE} 0.1
+define_input_delay {|addr2} 0.1
+define_input_delay {|addr3} 0.1
+define_input_delay {|addr4} 0.1
+define_input_delay {|addr5} 0.1
+define_input_delay {|addr6} 0.1
+define_input_delay {|addr7} 0.1
+define_input_delay {|addr8} 0.1
+define_input_delay {|wil0} 0.1
+define_input_delay {|wil1} 0.1
+define_input_delay {|vp2clk0} 0.1
+define_input_delay {|vp2clk1} 0.1
+define_input_delay {|vp2ctl0} 0.1
+define_input_delay {|vp2ctl1} 0.1
+define_input_delay {|vp2ctl2} 0.1

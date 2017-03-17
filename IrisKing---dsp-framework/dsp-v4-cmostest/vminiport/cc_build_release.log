@@ -1,0 +1,25 @@
+----------------------------  vport.pjt - release  ----------------------------
+[_iic.c] "C:\CCStudio_v3.1\C6000\cgtools\bin\cl6x" -q -o3 -eoo64 -fr"C:/CCStudio_v3.1/ddk/src/video/evmdm642/Debug" -i"C:/CCStudio_v3.1/ddk/src/video/evmdm642/../../../include" -d"CHIP_DM642" -ml3 -mv6400 -@"Release.lkf" "_iic.c"
+
+[_saa7105.c] "C:\CCStudio_v3.1\C6000\cgtools\bin\cl6x" -q -o3 -eoo64 -fr"C:/CCStudio_v3.1/ddk/src/video/evmdm642/Debug" -i"C:/CCStudio_v3.1/ddk/src/video/evmdm642/../../../include" -d"CHIP_DM642" -ml3 -mv6400 -@"Release.lkf" "_saa7105.c"
+
+[_saa7115.c] "C:\CCStudio_v3.1\C6000\cgtools\bin\cl6x" -q -o3 -eoo64 -fr"C:/CCStudio_v3.1/ddk/src/video/evmdm642/Debug" -i"C:/CCStudio_v3.1/ddk/src/video/evmdm642/../../../include" -d"CHIP_DM642" -ml3 -mv6400 -@"Release.lkf" "_saa7115.c"
+"C:/CCStudio_v3.1/c6000/bios/include/std.h", line 140: warning: typedef name has already been declared (with same type)
+"C:/CCStudio_v3.1/c6000/bios/include/std.h", line 143: warning: typedef name has already been declared (with same type)
+"C:/CCStudio_v3.1/c6000/bios/include/std.h", line 146: warning: typedef name has already been declared (with same type)
+"C:/CCStudio_v3.1/c6000/bios/include/std.h", line 151: warning: typedef name has already been declared (with same type)
+"C:/CCStudio_v3.1/c6000/bios/include/std.h", line 161: warning: typedef name has already been declared (with same type)
+"C:/CCStudio_v3.1/c6000/bios/include/std.h", line 165: warning: typedef name has already been declared (with same type)
+
+[saa7105.c] "C:\CCStudio_v3.1\C6000\cgtools\bin\cl6x" -q -o3 -eoo64 -fr"C:/CCStudio_v3.1/ddk/src/video/evmdm642/Debug" -i"C:/CCStudio_v3.1/ddk/src/video/evmdm642/../../../include" -d"CHIP_DM642" -ml3 -mv6400 -@"Release.lkf" "saa7105.c"
+
+[saa7115.c] "C:\CCStudio_v3.1\C6000\cgtools\bin\cl6x" -q -o3 -eoo64 -fr"C:/CCStudio_v3.1/ddk/src/video/evmdm642/Debug" -i"C:/CCStudio_v3.1/ddk/src/video/evmdm642/../../../include" -d"CHIP_DM642" -ml3 -mv6400 -@"Release.lkf" "saa7115.c"
+
+[vportcap.c] "C:\CCStudio_v3.1\C6000\cgtools\bin\cl6x" -q -o3 -eoo64 -fr"C:/CCStudio_v3.1/ddk/src/video/evmdm642/Debug" -i"C:/CCStudio_v3.1/ddk/src/video/evmdm642/../../../include" -d"CHIP_DM642" -ml3 -mv6400 -@"Release.lkf" "vportcap.c"
+"vportcap.c", line 239: warning: invalid type conversion
+
+[vportdis.c] "C:\CCStudio_v3.1\C6000\cgtools\bin\cl6x" -q -o3 -eoo64 -fr"C:/CCStudio_v3.1/ddk/src/video/evmdm642/Debug" -i"C:/CCStudio_v3.1/ddk/src/video/evmdm642/../../../include" -d"CHIP_DM642" -ml3 -mv6400 -@"Release.lkf" "vportdis.c"
+"vportdis.c", line 177: warning: invalid type conversion
+
+
+The Build was Cancelled by the User

@@ -1,0 +1,123 @@
+Assembler report for pld
+Tue Dec 22 11:24:51 2009
+Version 5.0 Build 171 11/03/2005 Service Pack 2 SJ Full Version
+
+
+---------------------
+; Table of Contents ;
+---------------------
+  1. Legal Notice
+  2. Assembler Summary
+  3. Assembler Settings
+  4. Assembler Generated Files
+  5. Assembler Device Options: D:/project/IRISking/ikemb-0002/project/hardware/FPGA/pld/pld.sof
+  6. Assembler Device Options: D:/project/IRISking/ikemb-0002/project/hardware/FPGA/pld/pld.pof
+  7. Assembler Messages
+
+
+
+----------------
+; Legal Notice ;
+----------------
+Copyright (C) 1991-2005 Altera Corporation
+Your use of Altera Corporation's design tools, logic functions 
+and other software and tools, and its AMPP partner logic       
+functions, and any output files any of the foregoing           
+(including device programming or simulation files), and any    
+associated documentation or information are expressly subject  
+to the terms and conditions of the Altera Program License      
+Subscription Agreement, Altera MegaCore Function License       
+Agreement, or other applicable license agreement, including,   
+without limitation, that your use is for the sole purpose of   
+programming logic devices manufactured by Altera and sold by   
+Altera or its authorized distributors.  Please refer to the    
+applicable agreement for further details.
+
+
+
++---------------------------------------------------------------+
+; Assembler Summary                                             ;
++-----------------------+---------------------------------------+
+; Assembler Status      ; Successful - Tue Dec 22 11:24:51 2009 ;
+; Revision Name         ; pld                                   ;
+; Top-level Entity Name ; pld                                   ;
+; Family                ; Cyclone II                            ;
+; Device                ; EP2C5T144C8                           ;
++-----------------------+---------------------------------------+
+
+
++-----------------------------------------------------------------------------------------------------------+
+; Assembler Settings                                                                                        ;
++--------------------------------------------------------------------------------+----------+---------------+
+; Option                                                                         ; Setting  ; Default Value ;
++--------------------------------------------------------------------------------+----------+---------------+
+; Configuration device                                                           ; Epcs1    ; Auto          ;
+; Use smart compilation                                                          ; Off      ; Off           ;
+; Generate Serial Vector Format File (.svf) for Target Device                    ; Off      ; Off           ;
+; Generate a JEDEC STAPL Format File (.jam) for Target Device                    ; Off      ; Off           ;
+; Generate an uncompressed Jam STAPL Byte Code 2.0 File (.jbc) for Target Device ; Off      ; Off           ;
+; Generate a compressed Jam STAPL Byte Code 2.0 File (.jbc) for Target Device    ; On       ; On            ;
+; Generate compressed bitstreams                                                 ; on       ; on            ;
+; Compression mode                                                               ; Off      ; Off           ;
+; Clock source for configuration device                                          ; Internal ; Internal      ;
+; Clock frequency of the configuration device                                    ; 10 MHz   ; 10 MHz        ;
+; Divide clock frequency by                                                      ; 1        ; 1             ;
+; JTAG user code for target device                                               ; Ffffffff ; Ffffffff      ;
+; JTAG user code for configuration device                                        ; Ffffffff ; Ffffffff      ;
+; Configuration device auto user code                                            ; off      ; off           ;
+; Generate Tabular Text File (.ttf) For Target Device                            ; Off      ; Off           ;
+; Generate Raw Binary File (.rbf) For Target Device                              ; Off      ; Off           ;
+; Generate Hexadecimal (Intel-Format) Output File (.hexout) for Target Device    ; Off      ; Off           ;
+; Hexadecimal Output File start address                                          ; 0        ; 0             ;
+; Hexadecimal Output File count direction                                        ; Up       ; Up            ;
+; Release clears before tri-states                                               ; off      ; off           ;
+; Auto-restart configuration after error                                         ; On       ; On            ;
+; Maintain Compatibility with All Cyclone II M4K Versions                        ; On       ; On            ;
++--------------------------------------------------------------------------------+----------+---------------+
+
+
++------------------------------------------------------------------+
+; Assembler Generated Files                                        ;
++------------------------------------------------------------------+
+; File Name                                                        ;
++------------------------------------------------------------------+
+; D:/project/IRISking/ikemb-0002/project/hardware/FPGA/pld/pld.sof ;
+; D:/project/IRISking/ikemb-0002/project/hardware/FPGA/pld/pld.pof ;
++------------------------------------------------------------------+
+
+
++--------------------------------------------------------------------------------------------+
+; Assembler Device Options: D:/project/IRISking/ikemb-0002/project/hardware/FPGA/pld/pld.sof ;
++----------------+---------------------------------------------------------------------------+
+; Option         ; Setting                                                                   ;
++----------------+---------------------------------------------------------------------------+
+; Device         ; EP2C5T144C8                                                               ;
+; JTAG usercode  ; 0xFFFFFFFF                                                                ;
+; Checksum       ; 0x000F8524                                                                ;
++----------------+---------------------------------------------------------------------------+
+
+
++--------------------------------------------------------------------------------------------+
+; Assembler Device Options: D:/project/IRISking/ikemb-0002/project/hardware/FPGA/pld/pld.pof ;
++----------------+---------------------------------------------------------------------------+
+; Option         ; Setting                                                                   ;
++----------------+---------------------------------------------------------------------------+
+; Device         ; EPCS1                                                                     ;
+; JTAG usercode  ; 0x00000000                                                                ;
+; Checksum       ; 0x014C9976                                                                ;
++----------------+---------------------------------------------------------------------------+
+
+
++--------------------+
+; Assembler Messages ;
++--------------------+
+Info: *******************************************************************
+Info: Running Quartus II Assembler
+    Info: Version 5.0 Build 171 11/03/2005 Service Pack 2 SJ Full Version
+    Info: Processing started: Tue Dec 22 11:24:50 2009
+Info: Command: quartus_asm --read_settings_files=off --write_settings_files=off pld -c pld
+Info: Quartus II Assembler was successful. 0 errors, 0 warnings
+    Info: Processing ended: Tue Dec 22 11:24:51 2009
+    Info: Elapsed time: 00:00:02
+
+

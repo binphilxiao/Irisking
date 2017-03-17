@@ -1,0 +1,28 @@
+(------------------------------------------------------------)
+(                                                            )
+(        Batch DRC Update                                    )
+(                                                            )
+(        Drawing          : keyboard.brd                     )
+(        Software Version : 15.7p007                         )
+(        Date/Time        : Mon Nov 16 09:44:59 2009         )
+(                                                            )
+(------------------------------------------------------------)
+
+
+ ..... batch DRC requested for all elements 
+
+ ========= check shapes                       Mon Nov 16 09:44:59 2009
+ ========= check standalone pins              Mon Nov 16 09:44:59 2009
+ ========= check symbols (pins,lines,text)    Mon Nov 16 09:44:59 2009
+ ========= check nets                         Mon Nov 16 09:44:59 2009
+ ========= check standalone branches          Mon Nov 16 09:44:59 2009
+ ========= check standalone filled rectangles Mon Nov 16 09:44:59 2009
+ ========= check standalone lines             Mon Nov 16 09:44:59 2009
+ ========= check standalone text              Mon Nov 16 09:44:59 2009
+ ========= check standalone rectangles        Mon Nov 16 09:44:59 2009
+
+ ..... Total number of DRC errors  0
+
+ ..... end batch DRC at                       Mon Nov 16 09:44:59 2009
+ *************************************************************************
+

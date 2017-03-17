@@ -1,0 +1,269 @@
+
+<ci_XML compiler_version="5.1.0" cif_version="1.0">
+
+  <file_tbl>
+    <file_tbl_entry name="D:\aqiu\MyDSPProject\CMOSTesting\dsp-v4-cmostest02\vport-v2\vportcap.c"></file_tbl_entry>
+  </file_tbl>
+
+  <func_tbl>
+    <func_tbl_entry  name="mdBindDev" file_tbl_idx="0" first_ln="141" last_ln="154"></func_tbl_entry>
+    <func_tbl_entry  name="mdCreateChan" file_tbl_idx="0" first_ln="206" last_ln="276"></func_tbl_entry>
+    <func_tbl_entry  name="mdDeleteChan" file_tbl_idx="0" first_ln="284" last_ln="319"></func_tbl_entry>
+    <func_tbl_entry  name="captureEdmaISR" file_tbl_idx="0" first_ln="448" last_ln="544"></func_tbl_entry>
+    <func_tbl_entry  name="_configPort" file_tbl_idx="0" first_ln="762" last_ln="790"></func_tbl_entry>
+    <func_tbl_entry  name="_configTransfer" file_tbl_idx="0" first_ln="797" last_ln="1046"></func_tbl_entry>
+    <func_tbl_entry  name="_covrRecover" file_tbl_idx="0" first_ln="1052" last_ln="1116"></func_tbl_entry>
+    <func_tbl_entry  name="_getNumPendingIORqsts" file_tbl_idx="0" first_ln="1122" last_ln="1134"></func_tbl_entry>
+  </func_tbl>
+
+  <template_tbl>
+    <template_tbl_entry type="thruput" name="thruput"></template_tbl_entry>
+    <template_tbl_entry type="startup" name="startup"></template_tbl_entry>
+    <template_tbl_entry type="misc" name="sp_disabled"></template_tbl_entry>
+    <template_tbl_entry type="short_advice" name="opt_none"></template_tbl_entry>
+    <template_tbl_entry type="short_advice" name="perf_deg"></template_tbl_entry>
+    <template_tbl_entry type="thruput" name="na"></template_tbl_entry>
+  </template_tbl>
+
+  <loop_tbl>
+    <sort column="LOOP" priority="0" type="file" order="ascending"></sort>
+    <sort column="LOOP" priority="1" type="int" order="ascending"></sort>
+    <sort column="LOOP" priority="2" type="int" order="ascending"></sort>
+    <sort column="FUNC" priority="0" type="file" order="ascending"></sort>
+    <sort column="FUNC" priority="1" type="func" order="ascending"></sort>
+    <sort column="FUNC" priority="2" type="int" order="ascending"></sort>
+    <sort column="FUNC" priority="3" type="int" order="ascending"></sort>
+    <sort column="THRUPUT" priority="0" type="int" order="descending"></sort>
+    <sort column="STARTUP" priority="0" type="int" order="descending"></sort>
+    <sort column="MISC" priority="0" type="int" order="ascending"></sort>
+    <sort column="MISC" priority="1" type="int" order="ascending"></sort>
+    <sort column="MISC" priority="2" type="string" order="ascending"></sort>
+    <sort column="MISC" priority="3" type="int" order="descending"></sort>
+    <sort column="ADVICE" priority="0" type="int" order="descending"></sort>
+
+    <loop_tbl_entry>
+      <sort_key column="LOOP" priority="0" value="0"></sort_key>
+      <sort_key column="LOOP" priority="1" value="150"></sort_key>
+      <sort_key column="LOOP" priority="2" value="150"></sort_key>
+      <sort_key column="FUNC" priority="0" value="0"></sort_key>
+      <sort_key column="FUNC" priority="1" value="141"></sort_key>
+      <sort_key column="FUNC" priority="2" value="154"></sort_key>
+      <sort_key column="THRUPUT" priority="0" value="21"></sort_key>
+      <sort_key column="MISC" priority="0" value="0"></sort_key>
+      <sort_key column="ADVICE" priority="0" value="2"></sort_key>
+      <src id="D:\aqiu\MyDSPProject\CMOSTesting\dsp-v4-cmostest02\vport-v2\vportcap.asm:L2:1:1301983882" func_tbl_idx="0" file_tbl_idx="0" first_ln="150" last_ln="150" lang="C"></src>
+      <thruput template_idx="0" s1="21"></thruput>
+      <startup template_idx="1" s1="0"></startup>
+      <misc template_idx="2"></misc>
+      <short_advice template_idx="3"></short_advice>
+      <short_advice template_idx="4" s1="-g"></short_advice>
+    </loop_tbl_entry>
+
+    <loop_tbl_entry>
+      <sort_key column="LOOP" priority="0" value="0"></sort_key>
+      <sort_key column="LOOP" priority="1" value="251"></sort_key>
+      <sort_key column="LOOP" priority="2" value="262"></sort_key>
+      <sort_key column="FUNC" priority="0" value="0"></sort_key>
+      <sort_key column="FUNC" priority="1" value="206"></sort_key>
+      <sort_key column="FUNC" priority="2" value="276"></sort_key>
+      <sort_key column="MISC" priority="0" value="0"></sort_key>
+      <sort_key column="ADVICE" priority="0" value="2"></sort_key>
+      <src id="D:\aqiu\MyDSPProject\CMOSTesting\dsp-v4-cmostest02\vport-v2\vportcap.asm:L22:1:1301983882" func_tbl_idx="1" file_tbl_idx="0" first_ln="251" last_ln="262" lang="C"></src>
+      <thruput template_idx="5"></thruput>
+      <startup template_idx="1" s1="0"></startup>
+      <misc template_idx="2"></misc>
+      <short_advice template_idx="3"></short_advice>
+      <short_advice template_idx="4" s1="-g"></short_advice>
+    </loop_tbl_entry>
+
+    <loop_tbl_entry>
+      <sort_key column="LOOP" priority="0" value="0"></sort_key>
+      <sort_key column="LOOP" priority="1" value="295"></sort_key>
+      <sort_key column="LOOP" priority="2" value="304"></sort_key>
+      <sort_key column="FUNC" priority="0" value="0"></sort_key>
+      <sort_key column="FUNC" priority="1" value="284"></sort_key>
+      <sort_key column="FUNC" priority="2" value="319"></sort_key>
+      <sort_key column="MISC" priority="0" value="0"></sort_key>
+      <sort_key column="ADVICE" priority="0" value="2"></sort_key>
+      <src id="D:\aqiu\MyDSPProject\CMOSTesting\dsp-v4-cmostest02\vport-v2\vportcap.asm:L40:1:1301983882" func_tbl_idx="2" file_tbl_idx="0" first_ln="295" last_ln="304" lang="C"></src>
+      <thruput template_idx="5"></thruput>
+      <startup template_idx="1" s1="0"></startup>
+      <misc template_idx="2"></misc>
+      <short_advice template_idx="3"></short_advice>
+      <short_advice template_idx="4" s1="-g"></short_advice>
+    </loop_tbl_entry>
+
+    <loop_tbl_entry>
+      <sort_key column="LOOP" priority="0" value="0"></sort_key>
+      <sort_key column="LOOP" priority="1" value="305"></sort_key>
+      <sort_key column="LOOP" priority="2" value="307"></sort_key>
+      <sort_key column="FUNC" priority="0" value="0"></sort_key>
+      <sort_key column="FUNC" priority="1" value="284"></sort_key>
+      <sort_key column="FUNC" priority="2" value="319"></sort_key>
+      <sort_key column="MISC" priority="0" value="0"></sort_key>
+      <sort_key column="ADVICE" priority="0" value="2"></sort_key>
+      <src id="D:\aqiu\MyDSPProject\CMOSTesting\dsp-v4-cmostest02\vport-v2\vportcap.asm:L42:1:1301983882" func_tbl_idx="2" file_tbl_idx="0" first_ln="305" last_ln="307" lang="C"></src>
+      <thruput template_idx="5"></thruput>
+      <startup template_idx="1" s1="0"></startup>
+      <misc template_idx="2"></misc>
+      <short_advice template_idx="3"></short_advice>
+      <short_advice template_idx="4" s1="-g"></short_advice>
+    </loop_tbl_entry>
+
+    <loop_tbl_entry>
+      <sort_key column="LOOP" priority="0" value="0"></sort_key>
+      <sort_key column="LOOP" priority="1" value="456"></sort_key>
+      <sort_key column="LOOP" priority="2" value="542"></sort_key>
+      <sort_key column="FUNC" priority="0" value="0"></sort_key>
+      <sort_key column="FUNC" priority="1" value="448"></sort_key>
+      <sort_key column="FUNC" priority="2" value="544"></sort_key>
+      <sort_key column="MISC" priority="0" value="0"></sort_key>
+      <sort_key column="ADVICE" priority="0" value="2"></sort_key>
+      <src id="D:\aqiu\MyDSPProject\CMOSTesting\dsp-v4-cmostest02\vport-v2\vportcap.asm:L66:2:1301983882" func_tbl_idx="3" file_tbl_idx="0" first_ln="456" last_ln="542" lang="C"></src>
+      <thruput template_idx="5"></thruput>
+      <startup template_idx="1" s1="0"></startup>
+      <misc template_idx="2"></misc>
+      <short_advice template_idx="3"></short_advice>
+      <short_advice template_idx="4" s1="-g"></short_advice>
+    </loop_tbl_entry>
+
+    <loop_tbl_entry>
+      <sort_key column="LOOP" priority="0" value="0"></sort_key>
+      <sort_key column="LOOP" priority="1" value="776"></sort_key>
+      <sort_key column="LOOP" priority="2" value="776"></sort_key>
+      <sort_key column="FUNC" priority="0" value="0"></sort_key>
+      <sort_key column="FUNC" priority="1" value="762"></sort_key>
+      <sort_key column="FUNC" priority="2" value="790"></sort_key>
+      <sort_key column="THRUPUT" priority="0" value="17"></sort_key>
+      <sort_key column="MISC" priority="0" value="0"></sort_key>
+      <sort_key column="ADVICE" priority="0" value="2"></sort_key>
+      <src id="D:\aqiu\MyDSPProject\CMOSTesting\dsp-v4-cmostest02\vport-v2\vportcap.asm:L115:1:1301983882" func_tbl_idx="4" file_tbl_idx="0" first_ln="776" last_ln="776" lang="C"></src>
+      <thruput template_idx="0" s1="17"></thruput>
+      <startup template_idx="1" s1="0"></startup>
+      <misc template_idx="2"></misc>
+      <short_advice template_idx="3"></short_advice>
+      <short_advice template_idx="4" s1="-g"></short_advice>
+    </loop_tbl_entry>
+
+    <loop_tbl_entry>
+      <sort_key column="LOOP" priority="0" value="0"></sort_key>
+      <sort_key column="LOOP" priority="1" value="847"></sort_key>
+      <sort_key column="LOOP" priority="2" value="888"></sort_key>
+      <sort_key column="FUNC" priority="0" value="0"></sort_key>
+      <sort_key column="FUNC" priority="1" value="797"></sort_key>
+      <sort_key column="FUNC" priority="2" value="1046"></sort_key>
+      <sort_key column="MISC" priority="0" value="0"></sort_key>
+      <sort_key column="ADVICE" priority="0" value="2"></sort_key>
+      <src id="D:\aqiu\MyDSPProject\CMOSTesting\dsp-v4-cmostest02\vport-v2\vportcap.asm:L121:1:1301983882" func_tbl_idx="5" file_tbl_idx="0" first_ln="847" last_ln="888" lang="C"></src>
+      <thruput template_idx="5"></thruput>
+      <startup template_idx="1" s1="0"></startup>
+      <misc template_idx="2"></misc>
+      <short_advice template_idx="3"></short_advice>
+      <short_advice template_idx="4" s1="-g"></short_advice>
+    </loop_tbl_entry>
+
+    <loop_tbl_entry>
+      <sort_key column="LOOP" priority="0" value="0"></sort_key>
+      <sort_key column="LOOP" priority="1" value="890"></sort_key>
+      <sort_key column="LOOP" priority="2" value="893"></sort_key>
+      <sort_key column="FUNC" priority="0" value="0"></sort_key>
+      <sort_key column="FUNC" priority="1" value="797"></sort_key>
+      <sort_key column="FUNC" priority="2" value="1046"></sort_key>
+      <sort_key column="MISC" priority="0" value="0"></sort_key>
+      <sort_key column="ADVICE" priority="0" value="2"></sort_key>
+      <src id="D:\aqiu\MyDSPProject\CMOSTesting\dsp-v4-cmostest02\vport-v2\vportcap.asm:L127:1:1301983882" func_tbl_idx="5" file_tbl_idx="0" first_ln="890" last_ln="893" lang="C"></src>
+      <thruput template_idx="5"></thruput>
+      <startup template_idx="1" s1="0"></startup>
+      <misc template_idx="2"></misc>
+      <short_advice template_idx="3"></short_advice>
+      <short_advice template_idx="4" s1="-g"></short_advice>
+    </loop_tbl_entry>
+
+    <loop_tbl_entry>
+      <sort_key column="LOOP" priority="0" value="0"></sort_key>
+      <sort_key column="LOOP" priority="1" value="901"></sort_key>
+      <sort_key column="LOOP" priority="2" value="1019"></sort_key>
+      <sort_key column="FUNC" priority="0" value="0"></sort_key>
+      <sort_key column="FUNC" priority="1" value="797"></sort_key>
+      <sort_key column="FUNC" priority="2" value="1046"></sort_key>
+      <sort_key column="MISC" priority="0" value="0"></sort_key>
+      <sort_key column="ADVICE" priority="0" value="2"></sort_key>
+      <src id="D:\aqiu\MyDSPProject\CMOSTesting\dsp-v4-cmostest02\vport-v2\vportcap.asm:L131:1:1301983882" func_tbl_idx="5" file_tbl_idx="0" first_ln="901" last_ln="1019" lang="C"></src>
+      <thruput template_idx="5"></thruput>
+      <startup template_idx="1" s1="0"></startup>
+      <misc template_idx="2"></misc>
+      <short_advice template_idx="3"></short_advice>
+      <short_advice template_idx="4" s1="-g"></short_advice>
+    </loop_tbl_entry>
+
+    <loop_tbl_entry>
+      <sort_key column="LOOP" priority="0" value="0"></sort_key>
+      <sort_key column="LOOP" priority="1" value="1035"></sort_key>
+      <sort_key column="LOOP" priority="2" value="1039"></sort_key>
+      <sort_key column="FUNC" priority="0" value="0"></sort_key>
+      <sort_key column="FUNC" priority="1" value="797"></sort_key>
+      <sort_key column="FUNC" priority="2" value="1046"></sort_key>
+      <sort_key column="MISC" priority="0" value="0"></sort_key>
+      <sort_key column="ADVICE" priority="0" value="2"></sort_key>
+      <src id="D:\aqiu\MyDSPProject\CMOSTesting\dsp-v4-cmostest02\vport-v2\vportcap.asm:L151:1:1301983882" func_tbl_idx="5" file_tbl_idx="0" first_ln="1035" last_ln="1039" lang="C"></src>
+      <thruput template_idx="5"></thruput>
+      <startup template_idx="1" s1="0"></startup>
+      <misc template_idx="2"></misc>
+      <short_advice template_idx="3"></short_advice>
+      <short_advice template_idx="4" s1="-g"></short_advice>
+    </loop_tbl_entry>
+
+    <loop_tbl_entry>
+      <sort_key column="LOOP" priority="0" value="0"></sort_key>
+      <sort_key column="LOOP" priority="1" value="1075"></sort_key>
+      <sort_key column="LOOP" priority="2" value="1078"></sort_key>
+      <sort_key column="FUNC" priority="0" value="0"></sort_key>
+      <sort_key column="FUNC" priority="1" value="1052"></sort_key>
+      <sort_key column="FUNC" priority="2" value="1116"></sort_key>
+      <sort_key column="MISC" priority="0" value="0"></sort_key>
+      <sort_key column="ADVICE" priority="0" value="2"></sort_key>
+      <src id="D:\aqiu\MyDSPProject\CMOSTesting\dsp-v4-cmostest02\vport-v2\vportcap.asm:L157:1:1301983882" func_tbl_idx="6" file_tbl_idx="0" first_ln="1075" last_ln="1078" lang="C"></src>
+      <thruput template_idx="5"></thruput>
+      <startup template_idx="1" s1="0"></startup>
+      <misc template_idx="2"></misc>
+      <short_advice template_idx="3"></short_advice>
+      <short_advice template_idx="4" s1="-g"></short_advice>
+    </loop_tbl_entry>
+
+    <loop_tbl_entry>
+      <sort_key column="LOOP" priority="0" value="0"></sort_key>
+      <sort_key column="LOOP" priority="1" value="1100"></sort_key>
+      <sort_key column="LOOP" priority="2" value="1102"></sort_key>
+      <sort_key column="FUNC" priority="0" value="0"></sort_key>
+      <sort_key column="FUNC" priority="1" value="1052"></sort_key>
+      <sort_key column="FUNC" priority="2" value="1116"></sort_key>
+      <sort_key column="MISC" priority="0" value="0"></sort_key>
+      <sort_key column="ADVICE" priority="0" value="2"></sort_key>
+      <src id="D:\aqiu\MyDSPProject\CMOSTesting\dsp-v4-cmostest02\vport-v2\vportcap.asm:L162:1:1301983882" func_tbl_idx="6" file_tbl_idx="0" first_ln="1100" last_ln="1102" lang="C"></src>
+      <thruput template_idx="5"></thruput>
+      <startup template_idx="1" s1="0"></startup>
+      <misc template_idx="2"></misc>
+      <short_advice template_idx="3"></short_advice>
+      <short_advice template_idx="4" s1="-g"></short_advice>
+    </loop_tbl_entry>
+
+    <loop_tbl_entry>
+      <sort_key column="LOOP" priority="0" value="0"></sort_key>
+      <sort_key column="LOOP" priority="1" value="1127"></sort_key>
+      <sort_key column="LOOP" priority="2" value="1128"></sort_key>
+      <sort_key column="FUNC" priority="0" value="0"></sort_key>
+      <sort_key column="FUNC" priority="1" value="1122"></sort_key>
+      <sort_key column="FUNC" priority="2" value="1134"></sort_key>
+      <sort_key column="MISC" priority="0" value="0"></sort_key>
+      <sort_key column="ADVICE" priority="0" value="2"></sort_key>
+      <src id="D:\aqiu\MyDSPProject\CMOSTesting\dsp-v4-cmostest02\vport-v2\vportcap.asm:L167:1:1301983882" func_tbl_idx="7" file_tbl_idx="0" first_ln="1127" last_ln="1128" lang="C"></src>
+      <thruput template_idx="5"></thruput>
+      <startup template_idx="1" s1="0"></startup>
+      <misc template_idx="2"></misc>
+      <short_advice template_idx="3"></short_advice>
+      <short_advice template_idx="4" s1="-g"></short_advice>
+    </loop_tbl_entry>
+
+  </loop_tbl>
+
+</ci_XML>

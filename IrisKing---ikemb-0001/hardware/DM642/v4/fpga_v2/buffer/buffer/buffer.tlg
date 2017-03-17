@@ -1,0 +1,8 @@
+Selecting top level module buffer
+Synthesizing module Wigend_In
+Synthesizing module Wigend_Out
+Synthesizing module buffer
+@W: CL118 :"E:\project\IRISking\ikemb-0001\project\hardware\DM642\v4\fpga_v2\buffer\buffer.v":85:2:85:3|Latch generated from always block for signal wdata[7:0], probably caused by a missing assignment in an if or case stmt
+@W:"E:\project\IRISking\ikemb-0001\project\hardware\DM642\v4\fpga_v2\buffer\buffer.v":62:13:62:16|Input port bit <0> of nGCS[5:0] is unused
+
+@W: CL159 :"E:\project\IRISking\ikemb-0001\project\hardware\DM642\v4\fpga_v2\buffer\buffer.v":63:12:63:15|Input nFWE is unused

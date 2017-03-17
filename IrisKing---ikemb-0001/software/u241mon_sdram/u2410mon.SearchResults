@@ -1,0 +1,8 @@
+---- download_run Matches (7 in 3 files) ----
+U241mon.c:int download_run=0;
+U241mon.c:    download_run=1; //The default menu is the Download & Run mode.
+U241mon.c:            download_run=1;
+U241mon.c:            download_run=0;
+U241mon.c:    if(download_run==1)
+U241mon.h:extern int download_run;
+Usbout.c:   	    if(download_run==0)

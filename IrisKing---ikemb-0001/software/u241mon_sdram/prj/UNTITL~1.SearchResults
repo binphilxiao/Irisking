@@ -1,0 +1,3 @@
+---- rIICCON Matches (2 in 2 files) ----
+2410addr.h (d:\project\s3c2410\source\u241mon_sdram):#define rIICCON  (*(volatile unsigned *)0x54000000) //IIC control
+24x.h (d:\project\s3c2410\source\u241mon_sdram\del):#define rIICCON		(*(volatile unsigned *)0x15400000)

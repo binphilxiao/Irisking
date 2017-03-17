@@ -1,0 +1,17 @@
+@P:  Part : EP2C5TC144-7
+@P:  Worst Slack : 998.216
+@P:  FPGA|vpclkin[0] - Estimated Frequency : 560.5 MHz
+@P:  FPGA|vpclkin[0] - Requested Frequency : 1.0 MHz
+@P:  FPGA|vpclkin[0] - Estimated Period : 1.784
+@P:  FPGA|vpclkin[0] - Requested Period : 1000.000
+@P:  FPGA|vpclkin[0] - Slack : 998.216
+@P:  System - Estimated Frequency : 560.5 MHz
+@P:  System - Requested Frequency : 1.0 MHz
+@P:  System - Estimated Period : 1.784
+@P:  System - Requested Period : 1000.000
+@P:  System - Slack : 998.216
+@P: FPGA Part : ep2c5tc144-7
+@P: FPGA I/O ATOMs : 30
+@P: FPGA Cyclone II_lcell_comb : 63 ATOMs of 4608
+@P: FPGA Cyclone II_lcell_ff : 38 ATOMs of 4608
+@P: FPGA DSP Blocks : 0 (0 nine bit DSP elements)

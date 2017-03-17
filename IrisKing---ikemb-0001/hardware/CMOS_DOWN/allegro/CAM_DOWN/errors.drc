@@ -1,0 +1,4583 @@
+>>>>>>>>>>>> DRC report file <<<<<<<<<<<<
+Design         : 
+Time/Date      : Wed Aug 08 11:35:50 2007
+Units          : Inches
+==========  DRC Rules for RUN  ==========
+Track To Track : min. Clearance: 0.007 in.
+Pass_p         : DEFAULT
+Layer          : L1:BOTTOM.art
+Start Time     : Wed Aug 08 11:35:50 2007
+
+-----------------------------------------
+-----------------------------------------
+Track To Track : min. Clearance: 0.007 in.
+Pass_p         : DEFAULT
+Layer          : L1:BOTTOM.art
+Time to check -  0:01
+Number of violations : 0
+=============  END DRC Run  =============
+
+==========  DRC Rules for RUN  ==========
+Track To Pad   : min. Clearance: 0.007 in.
+Pass_p         : DEFAULT
+Layer          : L1:BOTTOM.art
+Start Time     : Wed Aug 08 11:35:51 2007
+
+-----------------------------------------
+-----------------------------------------
+Track To Pad   : min. Clearance: 0.007 in.
+Pass_p         : DEFAULT
+Layer          : L1:BOTTOM.art
+Time to check -  0:00
+Number of violations : 0
+=============  END DRC Run  =============
+
+==========  DRC Rules for RUN  ==========
+Pad To Pad     : min. Clearance: 0.007 in.
+Pass_p         : DEFAULT
+Layer          : L1:BOTTOM.art
+Start Time     : Wed Aug 08 11:35:51 2007
+
+-----------------------------------------
+-----------------------------------------
+Pad To Pad     : min. Clearance: 0.007 in.
+Pass_p         : DEFAULT
+Layer          : L1:BOTTOM.art
+Time to check -  0:00
+Number of violations : 0
+=============  END DRC Run  =============
+
+==========  DRC Rules for RUN  ==========
+Min Track Size : min. Size: 0.007 in.
+Pass_p         : DEFAULT
+Layer          : L1:BOTTOM.art
+Start Time     : Wed Aug 08 11:35:51 2007
+
+-----------------------------------------
+-----------------------------------------
+Min Track Size : min. Size: 0.007 in.
+Pass_p         : DEFAULT
+Layer          : L1:BOTTOM.art
+Time to check -  0:00
+Number of violations : 0
+=============  END DRC Run  =============
+
+==========  DRC Rules for RUN  ==========
+Track To Track : min. Clearance: 0.007 in.
+Pass_p         : DEFAULT
+Layer          : L3:BOTTOM.art
+Start Time     : Wed Aug 08 11:35:51 2007
+
+-----------------------------------------
+-----------------------------------------
+Track To Track : min. Clearance: 0.007 in.
+Pass_p         : DEFAULT
+Layer          : L3:BOTTOM.art
+Time to check -  0:00
+Number of violations : 0
+=============  END DRC Run  =============
+
+==========  DRC Rules for RUN  ==========
+Track To Pad   : min. Clearance: 0.007 in.
+Pass_p         : DEFAULT
+Layer          : L3:BOTTOM.art
+Start Time     : Wed Aug 08 11:35:51 2007
+
+-----------------------------------------
+-----------------------------------------
+Track To Pad   : min. Clearance: 0.007 in.
+Pass_p         : DEFAULT
+Layer          : L3:BOTTOM.art
+Time to check -  0:00
+Number of violations : 0
+=============  END DRC Run  =============
+
+==========  DRC Rules for RUN  ==========
+Pad To Pad     : min. Clearance: 0.007 in.
+Pass_p         : DEFAULT
+Layer          : L3:BOTTOM.art
+Start Time     : Wed Aug 08 11:35:51 2007
+
+-----------------------------------------
+-----------------------------------------
+Pad To Pad     : min. Clearance: 0.007 in.
+Pass_p         : DEFAULT
+Layer          : L3:BOTTOM.art
+Time to check -  0:00
+Number of violations : 0
+=============  END DRC Run  =============
+
+==========  DRC Rules for RUN  ==========
+Min Track Size : min. Size: 0.007 in.
+Pass_p         : DEFAULT
+Layer          : L3:BOTTOM.art
+Start Time     : Wed Aug 08 11:35:51 2007
+
+-----------------------------------------
+-----------------------------------------
+Min Track Size : min. Size: 0.007 in.
+Pass_p         : DEFAULT
+Layer          : L3:BOTTOM.art
+Time to check -  0:00
+Number of violations : 0
+=============  END DRC Run  =============
+
+==========  DRC Rules for RUN  ==========
+Track To Track : min. Clearance: 0.007 in.
+Pass_p         : DEFAULT
+Layer          : L4:TOP.art
+Start Time     : Wed Aug 08 11:35:51 2007
+
+-----------------------------------------
+-----------------------------------------
+Track To Track : min. Clearance: 0.007 in.
+Pass_p         : DEFAULT
+Layer          : L4:TOP.art
+Time to check -  0:00
+Number of violations : 0
+=============  END DRC Run  =============
+
+==========  DRC Rules for RUN  ==========
+Track To Pad   : min. Clearance: 0.007 in.
+Pass_p         : DEFAULT
+Layer          : L4:TOP.art
+Start Time     : Wed Aug 08 11:35:51 2007
+
+-----------------------------------------
+-----------------------------------------
+Track To Pad   : min. Clearance: 0.007 in.
+Pass_p         : DEFAULT
+Layer          : L4:TOP.art
+Time to check -  0:00
+Number of violations : 0
+=============  END DRC Run  =============
+
+==========  DRC Rules for RUN  ==========
+Pad To Pad     : min. Clearance: 0.007 in.
+Pass_p         : DEFAULT
+Layer          : L4:TOP.art
+Start Time     : Wed Aug 08 11:35:51 2007
+
+-----------------------------------------
+-----------------------------------------
+Pad To Pad     : min. Clearance: 0.007 in.
+Pass_p         : DEFAULT
+Layer          : L4:TOP.art
+Time to check -  0:00
+Number of violations : 0
+=============  END DRC Run  =============
+
+==========  DRC Rules for RUN  ==========
+Min Track Size : min. Size: 0.007 in.
+Pass_p         : DEFAULT
+Layer          : L4:TOP.art
+Start Time     : Wed Aug 08 11:35:51 2007
+
+-----------------------------------------
+-----------------------------------------
+Min Track Size : min. Size: 0.007 in.
+Pass_p         : DEFAULT
+Layer          : L4:TOP.art
+Time to check -  0:00
+Number of violations : 0
+=============  END DRC Run  =============
+
+==========  DRC Rules for RUN  ==========
+Track To Track : min. Clearance: 0.007 in.
+Pass_p         : DEFAULT
+Layer          : L6:TOP.art
+Start Time     : Wed Aug 08 11:35:51 2007
+
+-----------------------------------------
+-----------------------------------------
+Track To Track : min. Clearance: 0.007 in.
+Pass_p         : DEFAULT
+Layer          : L6:TOP.art
+Time to check -  0:00
+Number of violations : 0
+=============  END DRC Run  =============
+
+==========  DRC Rules for RUN  ==========
+Track To Pad   : min. Clearance: 0.007 in.
+Pass_p         : DEFAULT
+Layer          : L6:TOP.art
+Start Time     : Wed Aug 08 11:35:51 2007
+
+-----------------------------------------
+-----------------------------------------
+Track To Pad   : min. Clearance: 0.007 in.
+Pass_p         : DEFAULT
+Layer          : L6:TOP.art
+Time to check -  0:00
+Number of violations : 0
+=============  END DRC Run  =============
+
+==========  DRC Rules for RUN  ==========
+Pad To Pad     : min. Clearance: 0.007 in.
+Pass_p         : DEFAULT
+Layer          : L6:TOP.art
+Start Time     : Wed Aug 08 11:35:51 2007
+
+-----------------------------------------
+-----------------------------------------
+Pad To Pad     : min. Clearance: 0.007 in.
+Pass_p         : DEFAULT
+Layer          : L6:TOP.art
+Time to check -  0:00
+Number of violations : 0
+=============  END DRC Run  =============
+
+==========  DRC Rules for RUN  ==========
+Min Track Size : min. Size: 0.007 in.
+Pass_p         : DEFAULT
+Layer          : L6:TOP.art
+Start Time     : Wed Aug 08 11:35:51 2007
+
+-----------------------------------------
+-----------------------------------------
+Min Track Size : min. Size: 0.007 in.
+Pass_p         : DEFAULT
+Layer          : L6:TOP.art
+Time to check -  0:00
+Number of violations : 0
+=============  END DRC Run  =============
+
+
+Design         : 
+Start Time/Date: Wed Aug 08 11:35:50 2007
+End   Time/Date: Wed Aug 08 11:35:51 2007
+Total Time -  0:01
+>>>>>>>>>>>> END report file <<<<<<<<<<<<
+>
+>
+>   END OF PREVIOUS FILE
+>
+>
+>>>>>>>>>>>> DRC report file <<<<<<<<<<<<
+Design         : 
+Time/Date      : Wed Aug 08 10:36:00 2007
+Units          : Inches
+==========  DRC Rules for RUN  ==========
+Track To Track : min. Clearance: 0.007 in.
+Pass_p         : DEFAULT
+Layer          : L1:BOTTOM.art
+Start Time     : Wed Aug 08 10:36:01 2007
+
+-----------------------------------------
+-----------------------------------------
+Track To Track : min. Clearance: 0.007 in.
+Pass_p         : DEFAULT
+Layer          : L1:BOTTOM.art
+Time to check -  0:00
+Number of violations : 0
+=============  END DRC Run  =============
+
+==========  DRC Rules for RUN  ==========
+Track To Pad   : min. Clearance: 0.007 in.
+Pass_p         : DEFAULT
+Layer          : L1:BOTTOM.art
+Start Time     : Wed Aug 08 10:36:01 2007
+
+-----------------------------------------
+-----------------------------------------
+Track To Pad   : min. Clearance: 0.007 in.
+Pass_p         : DEFAULT
+Layer          : L1:BOTTOM.art
+Time to check -  0:00
+Number of violations : 0
+=============  END DRC Run  =============
+
+==========  DRC Rules for RUN  ==========
+Pad To Pad     : min. Clearance: 0.007 in.
+Pass_p         : DEFAULT
+Layer          : L1:BOTTOM.art
+Start Time     : Wed Aug 08 10:36:01 2007
+
+-----------------------------------------
+-----------------------------------------
+Pad To Pad     : min. Clearance: 0.007 in.
+Pass_p         : DEFAULT
+Layer          : L1:BOTTOM.art
+Time to check -  0:00
+Number of violations : 0
+=============  END DRC Run  =============
+
+==========  DRC Rules for RUN  ==========
+Min Track Size : min. Size: 0.007 in.
+Pass_p         : DEFAULT
+Layer          : L1:BOTTOM.art
+Start Time     : Wed Aug 08 10:36:01 2007
+
+-----------------------------------------
+-----------------------------------------
+Min Track Size : min. Size: 0.007 in.
+Pass_p         : DEFAULT
+Layer          : L1:BOTTOM.art
+Time to check -  0:00
+Number of violations : 0
+=============  END DRC Run  =============
+
+==========  DRC Rules for RUN  ==========
+Min Pad Size   : min. Size: 0.007 in.
+Pass_p         : DEFAULT
+Layer          : L1:BOTTOM.art
+Start Time     : Wed Aug 08 10:36:01 2007
+
+-----------------------------------------
+-----------------------------------------
+Min Pad Size   : min. Size: 0.007 in.
+Pass_p         : DEFAULT
+Layer          : L1:BOTTOM.art
+Time to check -  0:00
+Number of violations : 0
+=============  END DRC Run  =============
+
+==========  DRC Rules for RUN  ==========
+Redundant Pads : 
+Pass_p         : DEFAULT
+Layer          : L1:BOTTOM.art
+Start Time     : Wed Aug 08 10:36:01 2007
+
+-----------------------------------------
+-----------------------------------------
+Redundant Pads : 
+Pass_p         : DEFAULT
+Layer          : L1:BOTTOM.art
+Time to check -  0:00
+Number of violations : 0
+=============  END DRC Run  =============
+
+==========  DRC Rules for RUN  ==========
+Track To Track : min. Clearance: 0.007 in.
+Pass_p         : DEFAULT
+Layer          : L2:BOTTOM.art
+Start Time     : Wed Aug 08 10:36:01 2007
+
+-----------------------------------------
+-----------------------------------------
+Track To Track : min. Clearance: 0.007 in.
+Pass_p         : DEFAULT
+Layer          : L2:BOTTOM.art
+Time to check -  0:00
+Number of violations : 0
+=============  END DRC Run  =============
+
+==========  DRC Rules for RUN  ==========
+Track To Pad   : min. Clearance: 0.007 in.
+Pass_p         : DEFAULT
+Layer          : L2:BOTTOM.art
+Start Time     : Wed Aug 08 10:36:01 2007
+
+-----------------------------------------
+-----------------------------------------
+Track To Pad   : min. Clearance: 0.007 in.
+Pass_p         : DEFAULT
+Layer          : L2:BOTTOM.art
+Time to check -  0:00
+Number of violations : 0
+=============  END DRC Run  =============
+
+==========  DRC Rules for RUN  ==========
+Pad To Pad     : min. Clearance: 0.007 in.
+Pass_p         : DEFAULT
+Layer          : L2:BOTTOM.art
+Start Time     : Wed Aug 08 10:36:01 2007
+
+-----------------------------------------
+-----------------------------------------
+Pad To Pad     : min. Clearance: 0.007 in.
+Pass_p         : DEFAULT
+Layer          : L2:BOTTOM.art
+Time to check -  0:00
+Number of violations : 0
+=============  END DRC Run  =============
+
+==========  DRC Rules for RUN  ==========
+Min Track Size : min. Size: 0.007 in.
+Pass_p         : DEFAULT
+Layer          : L2:BOTTOM.art
+Start Time     : Wed Aug 08 10:36:01 2007
+
+-----------------------------------------
+-----------------------------------------
+Min Track Size : min. Size: 0.007 in.
+Pass_p         : DEFAULT
+Layer          : L2:BOTTOM.art
+Time to check -  0:00
+Number of violations : 0
+=============  END DRC Run  =============
+
+==========  DRC Rules for RUN  ==========
+Min Pad Size   : min. Size: 0.007 in.
+Pass_p         : DEFAULT
+Layer          : L2:BOTTOM.art
+Start Time     : Wed Aug 08 10:36:01 2007
+
+-----------------------------------------
+-----------------------------------------
+Min Pad Size   : min. Size: 0.007 in.
+Pass_p         : DEFAULT
+Layer          : L2:BOTTOM.art
+Time to check -  0:00
+Number of violations : 0
+=============  END DRC Run  =============
+
+==========  DRC Rules for RUN  ==========
+Redundant Pads : 
+Pass_p         : DEFAULT
+Layer          : L2:BOTTOM.art
+Start Time     : Wed Aug 08 10:36:01 2007
+
+-----------------------------------------
+-----------------------------------------
+Redundant Pads : 
+Pass_p         : DEFAULT
+Layer          : L2:BOTTOM.art
+Time to check -  0:00
+Number of violations : 0
+=============  END DRC Run  =============
+
+==========  DRC Rules for RUN  ==========
+Track To Track : min. Clearance: 0.007 in.
+Pass_p         : DEFAULT
+Layer          : L3:BOTTOM.art
+Start Time     : Wed Aug 08 10:36:01 2007
+
+-----------------------------------------
+-----------------------------------------
+Track To Track : min. Clearance: 0.007 in.
+Pass_p         : DEFAULT
+Layer          : L3:BOTTOM.art
+Time to check -  0:00
+Number of violations : 0
+=============  END DRC Run  =============
+
+==========  DRC Rules for RUN  ==========
+Track To Pad   : min. Clearance: 0.007 in.
+Pass_p         : DEFAULT
+Layer          : L3:BOTTOM.art
+Start Time     : Wed Aug 08 10:36:01 2007
+
+-----------------------------------------
+-----------------------------------------
+Track To Pad   : min. Clearance: 0.007 in.
+Pass_p         : DEFAULT
+Layer          : L3:BOTTOM.art
+Time to check -  0:01
+Number of violations : 0
+=============  END DRC Run  =============
+
+==========  DRC Rules for RUN  ==========
+Pad To Pad     : min. Clearance: 0.007 in.
+Pass_p         : DEFAULT
+Layer          : L3:BOTTOM.art
+Start Time     : Wed Aug 08 10:36:02 2007
+
+-----------------------------------------
+-----------------------------------------
+Pad To Pad     : min. Clearance: 0.007 in.
+Pass_p         : DEFAULT
+Layer          : L3:BOTTOM.art
+Time to check -  0:00
+Number of violations : 0
+=============  END DRC Run  =============
+
+==========  DRC Rules for RUN  ==========
+Min Track Size : min. Size: 0.007 in.
+Pass_p         : DEFAULT
+Layer          : L3:BOTTOM.art
+Start Time     : Wed Aug 08 10:36:02 2007
+
+-----------------------------------------
+-----------------------------------------
+Min Track Size : min. Size: 0.007 in.
+Pass_p         : DEFAULT
+Layer          : L3:BOTTOM.art
+Time to check -  0:00
+Number of violations : 0
+=============  END DRC Run  =============
+
+==========  DRC Rules for RUN  ==========
+Min Pad Size   : min. Size: 0.007 in.
+Pass_p         : DEFAULT
+Layer          : L3:BOTTOM.art
+Start Time     : Wed Aug 08 10:36:02 2007
+
+-----------------------------------------
+-----------------------------------------
+Min Pad Size   : min. Size: 0.007 in.
+Pass_p         : DEFAULT
+Layer          : L3:BOTTOM.art
+Time to check -  0:00
+Number of violations : 0
+=============  END DRC Run  =============
+
+==========  DRC Rules for RUN  ==========
+Redundant Pads : 
+Pass_p         : DEFAULT
+Layer          : L3:BOTTOM.art
+Start Time     : Wed Aug 08 10:36:02 2007
+
+-----------------------------------------
+-----------------------------------------
+Redundant Pads : 
+Pass_p         : DEFAULT
+Layer          : L3:BOTTOM.art
+Time to check -  0:00
+Number of violations : 0
+=============  END DRC Run  =============
+
+==========  DRC Rules for RUN  ==========
+Track To Track : min. Clearance: 0.007 in.
+Pass_p         : DEFAULT
+Layer          : L4:TOP.art
+Start Time     : Wed Aug 08 10:36:02 2007
+
+-----------------------------------------
+-----------------------------------------
+Track To Track : min. Clearance: 0.007 in.
+Pass_p         : DEFAULT
+Layer          : L4:TOP.art
+Time to check -  0:00
+Number of violations : 0
+=============  END DRC Run  =============
+
+==========  DRC Rules for RUN  ==========
+Track To Pad   : min. Clearance: 0.007 in.
+Pass_p         : DEFAULT
+Layer          : L4:TOP.art
+Start Time     : Wed Aug 08 10:36:02 2007
+
+-----------------------------------------
+-----------------------------------------
+Track To Pad   : min. Clearance: 0.007 in.
+Pass_p         : DEFAULT
+Layer          : L4:TOP.art
+Time to check -  0:00
+Number of violations : 0
+=============  END DRC Run  =============
+
+==========  DRC Rules for RUN  ==========
+Pad To Pad     : min. Clearance: 0.007 in.
+Pass_p         : DEFAULT
+Layer          : L4:TOP.art
+Start Time     : Wed Aug 08 10:36:02 2007
+
+-----------------------------------------
+-----------------------------------------
+Pad To Pad     : min. Clearance: 0.007 in.
+Pass_p         : DEFAULT
+Layer          : L4:TOP.art
+Time to check -  0:00
+Number of violations : 0
+=============  END DRC Run  =============
+
+==========  DRC Rules for RUN  ==========
+Min Track Size : min. Size: 0.007 in.
+Pass_p         : DEFAULT
+Layer          : L4:TOP.art
+Start Time     : Wed Aug 08 10:36:02 2007
+
+-----------------------------------------
+-----------------------------------------
+Min Track Size : min. Size: 0.007 in.
+Pass_p         : DEFAULT
+Layer          : L4:TOP.art
+Time to check -  0:00
+Number of violations : 0
+=============  END DRC Run  =============
+
+==========  DRC Rules for RUN  ==========
+Min Pad Size   : min. Size: 0.007 in.
+Pass_p         : DEFAULT
+Layer          : L4:TOP.art
+Start Time     : Wed Aug 08 10:36:02 2007
+
+-----------------------------------------
+-----------------------------------------
+Min Pad Size   : min. Size: 0.007 in.
+Pass_p         : DEFAULT
+Layer          : L4:TOP.art
+Time to check -  0:00
+Number of violations : 0
+=============  END DRC Run  =============
+
+==========  DRC Rules for RUN  ==========
+Redundant Pads : 
+Pass_p         : DEFAULT
+Layer          : L4:TOP.art
+Start Time     : Wed Aug 08 10:36:02 2007
+
+-----------------------------------------
+-----------------------------------------
+Redundant Pads : 
+Pass_p         : DEFAULT
+Layer          : L4:TOP.art
+Time to check -  0:00
+Number of violations : 0
+=============  END DRC Run  =============
+
+==========  DRC Rules for RUN  ==========
+Track To Track : min. Clearance: 0.007 in.
+Pass_p         : DEFAULT
+Layer          : L5:TOP.art
+Start Time     : Wed Aug 08 10:36:02 2007
+
+-----------------------------------------
+-----------------------------------------
+Track To Track : min. Clearance: 0.007 in.
+Pass_p         : DEFAULT
+Layer          : L5:TOP.art
+Time to check -  0:00
+Number of violations : 0
+=============  END DRC Run  =============
+
+==========  DRC Rules for RUN  ==========
+Track To Pad   : min. Clearance: 0.007 in.
+Pass_p         : DEFAULT
+Layer          : L5:TOP.art
+Start Time     : Wed Aug 08 10:36:02 2007
+
+-----------------------------------------
+-----------------------------------------
+Track To Pad   : min. Clearance: 0.007 in.
+Pass_p         : DEFAULT
+Layer          : L5:TOP.art
+Time to check -  0:00
+Number of violations : 0
+=============  END DRC Run  =============
+
+==========  DRC Rules for RUN  ==========
+Pad To Pad     : min. Clearance: 0.007 in.
+Pass_p         : DEFAULT
+Layer          : L5:TOP.art
+Start Time     : Wed Aug 08 10:36:02 2007
+
+-----------------------------------------
+-----------------------------------------
+Pad To Pad     : min. Clearance: 0.007 in.
+Pass_p         : DEFAULT
+Layer          : L5:TOP.art
+Time to check -  0:00
+Number of violations : 0
+=============  END DRC Run  =============
+
+==========  DRC Rules for RUN  ==========
+Min Track Size : min. Size: 0.007 in.
+Pass_p         : DEFAULT
+Layer          : L5:TOP.art
+Start Time     : Wed Aug 08 10:36:02 2007
+
+-----------------------------------------
+-----------------------------------------
+Min Track Size : min. Size: 0.007 in.
+Pass_p         : DEFAULT
+Layer          : L5:TOP.art
+Time to check -  0:00
+Number of violations : 0
+=============  END DRC Run  =============
+
+==========  DRC Rules for RUN  ==========
+Min Pad Size   : min. Size: 0.007 in.
+Pass_p         : DEFAULT
+Layer          : L5:TOP.art
+Start Time     : Wed Aug 08 10:36:02 2007
+
+-----------------------------------------
+-----------------------------------------
+Min Pad Size   : min. Size: 0.007 in.
+Pass_p         : DEFAULT
+Layer          : L5:TOP.art
+Time to check -  0:00
+Number of violations : 0
+=============  END DRC Run  =============
+
+==========  DRC Rules for RUN  ==========
+Redundant Pads : 
+Pass_p         : DEFAULT
+Layer          : L5:TOP.art
+Start Time     : Wed Aug 08 10:36:02 2007
+
+-----------------------------------------
+-----------------------------------------
+Redundant Pads : 
+Pass_p         : DEFAULT
+Layer          : L5:TOP.art
+Time to check -  0:00
+Number of violations : 0
+=============  END DRC Run  =============
+
+==========  DRC Rules for RUN  ==========
+Track To Track : min. Clearance: 0.007 in.
+Pass_p         : DEFAULT
+Layer          : L6:TOP.art
+Start Time     : Wed Aug 08 10:36:02 2007
+
+-----------------------------------------
+-----------------------------------------
+Track To Track : min. Clearance: 0.007 in.
+Pass_p         : DEFAULT
+Layer          : L6:TOP.art
+Time to check -  0:00
+Number of violations : 0
+=============  END DRC Run  =============
+
+==========  DRC Rules for RUN  ==========
+Track To Pad   : min. Clearance: 0.007 in.
+Pass_p         : DEFAULT
+Layer          : L6:TOP.art
+Start Time     : Wed Aug 08 10:36:02 2007
+
+-----------------------------------------
+-----------------------------------------
+Track To Pad   : min. Clearance: 0.007 in.
+Pass_p         : DEFAULT
+Layer          : L6:TOP.art
+Time to check -  0:00
+Number of violations : 0
+=============  END DRC Run  =============
+
+==========  DRC Rules for RUN  ==========
+Pad To Pad     : min. Clearance: 0.007 in.
+Pass_p         : DEFAULT
+Layer          : L6:TOP.art
+Start Time     : Wed Aug 08 10:36:02 2007
+
+-----------------------------------------
+-----------------------------------------
+Pad To Pad     : min. Clearance: 0.007 in.
+Pass_p         : DEFAULT
+Layer          : L6:TOP.art
+Time to check -  0:00
+Number of violations : 0
+=============  END DRC Run  =============
+
+==========  DRC Rules for RUN  ==========
+Min Track Size : min. Size: 0.007 in.
+Pass_p         : DEFAULT
+Layer          : L6:TOP.art
+Start Time     : Wed Aug 08 10:36:02 2007
+
+-----------------------------------------
+-----------------------------------------
+Min Track Size : min. Size: 0.007 in.
+Pass_p         : DEFAULT
+Layer          : L6:TOP.art
+Time to check -  0:00
+Number of violations : 0
+=============  END DRC Run  =============
+
+==========  DRC Rules for RUN  ==========
+Min Pad Size   : min. Size: 0.007 in.
+Pass_p         : DEFAULT
+Layer          : L6:TOP.art
+Start Time     : Wed Aug 08 10:36:02 2007
+
+-----------------------------------------
+-----------------------------------------
+Min Pad Size   : min. Size: 0.007 in.
+Pass_p         : DEFAULT
+Layer          : L6:TOP.art
+Time to check -  0:00
+Number of violations : 0
+=============  END DRC Run  =============
+
+==========  DRC Rules for RUN  ==========
+Redundant Pads : 
+Pass_p         : DEFAULT
+Layer          : L6:TOP.art
+Start Time     : Wed Aug 08 10:36:02 2007
+
+-----------------------------------------
+-----------------------------------------
+Redundant Pads : 
+Pass_p         : DEFAULT
+Layer          : L6:TOP.art
+Time to check -  0:01
+Number of violations : 0
+=============  END DRC Run  =============
+
+
+Design         : 
+Start Time/Date: Wed Aug 08 10:36:00 2007
+End   Time/Date: Wed Aug 08 10:36:03 2007
+Total Time -  0:03
+>>>>>>>>>>>> END report file <<<<<<<<<<<<
+>
+>
+>   END OF PREVIOUS FILE
+>
+>
+>>>>>>>>>>>> DRC report file <<<<<<<<<<<<
+Design         : 
+Time/Date      : Wed Aug 08 10:35:28 2007
+Units          : Inches
+==========  DRC Rules for RUN  ==========
+Track To Track : min. Clearance: 0.0075 in.
+Pass_p         : DEFAULT
+Layer          : L1:BOTTOM.art
+Start Time     : Wed Aug 08 10:35:28 2007
+
+-----------------------------------------
+-----------------------------------------
+Track To Track : min. Clearance: 0.0075 in.
+Pass_p         : DEFAULT
+Layer          : L1:BOTTOM.art
+Time to check -  0:00
+Number of violations : 0
+=============  END DRC Run  =============
+
+==========  DRC Rules for RUN  ==========
+Track To Pad   : min. Clearance: 0.0075 in.
+Pass_p         : DEFAULT
+Layer          : L1:BOTTOM.art
+Start Time     : Wed Aug 08 10:35:28 2007
+
+-----------------------------------------
+-----------------------------------------
+Track To Pad   : min. Clearance: 0.0075 in.
+Pass_p         : DEFAULT
+Layer          : L1:BOTTOM.art
+Time to check -  0:00
+Number of violations : 0
+=============  END DRC Run  =============
+
+==========  DRC Rules for RUN  ==========
+Pad To Pad     : min. Clearance: 0.0075 in.
+Pass_p         : DEFAULT
+Layer          : L1:BOTTOM.art
+Start Time     : Wed Aug 08 10:35:28 2007
+
+-----------------------------------------
+-----------------------------------------
+Pad To Pad     : min. Clearance: 0.0075 in.
+Pass_p         : DEFAULT
+Layer          : L1:BOTTOM.art
+Time to check -  0:00
+Number of violations : 0
+=============  END DRC Run  =============
+
+==========  DRC Rules for RUN  ==========
+Min Track Size : min. Size: 0.0075 in.
+Pass_p         : DEFAULT
+Layer          : L1:BOTTOM.art
+Start Time     : Wed Aug 08 10:35:28 2007
+
+-----------------------------------------
+-----------------------------------------
+Min Track Size : min. Size: 0.0075 in.
+Pass_p         : DEFAULT
+Layer          : L1:BOTTOM.art
+Time to check -  0:00
+Number of violations : 0
+=============  END DRC Run  =============
+
+==========  DRC Rules for RUN  ==========
+Min Pad Size   : min. Size: 0.0075 in.
+Pass_p         : DEFAULT
+Layer          : L1:BOTTOM.art
+Start Time     : Wed Aug 08 10:35:28 2007
+
+-----------------------------------------
+-----------------------------------------
+Min Pad Size   : min. Size: 0.0075 in.
+Pass_p         : DEFAULT
+Layer          : L1:BOTTOM.art
+Time to check -  0:01
+Number of violations : 0
+=============  END DRC Run  =============
+
+==========  DRC Rules for RUN  ==========
+Redundant Pads : 
+Pass_p         : DEFAULT
+Layer          : L1:BOTTOM.art
+Start Time     : Wed Aug 08 10:35:29 2007
+
+-----------------------------------------
+-----------------------------------------
+Redundant Pads : 
+Pass_p         : DEFAULT
+Layer          : L1:BOTTOM.art
+Time to check -  0:00
+Number of violations : 0
+=============  END DRC Run  =============
+
+==========  DRC Rules for RUN  ==========
+Track To Track : min. Clearance: 0.0075 in.
+Pass_p         : DEFAULT
+Layer          : L2:BOTTOM.art
+Start Time     : Wed Aug 08 10:35:29 2007
+
+-----------------------------------------
+-----------------------------------------
+Track To Track : min. Clearance: 0.0075 in.
+Pass_p         : DEFAULT
+Layer          : L2:BOTTOM.art
+Time to check -  0:00
+Number of violations : 0
+=============  END DRC Run  =============
+
+==========  DRC Rules for RUN  ==========
+Track To Pad   : min. Clearance: 0.0075 in.
+Pass_p         : DEFAULT
+Layer          : L2:BOTTOM.art
+Start Time     : Wed Aug 08 10:35:29 2007
+
+-----------------------------------------
+-----------------------------------------
+Track To Pad   : min. Clearance: 0.0075 in.
+Pass_p         : DEFAULT
+Layer          : L2:BOTTOM.art
+Time to check -  0:00
+Number of violations : 0
+=============  END DRC Run  =============
+
+==========  DRC Rules for RUN  ==========
+Pad To Pad     : min. Clearance: 0.0075 in.
+Pass_p         : DEFAULT
+Layer          : L2:BOTTOM.art
+Start Time     : Wed Aug 08 10:35:29 2007
+
+-----------------------------------------
+-----------------------------------------
+Pad To Pad     : min. Clearance: 0.0075 in.
+Pass_p         : DEFAULT
+Layer          : L2:BOTTOM.art
+Time to check -  0:00
+Number of violations : 0
+=============  END DRC Run  =============
+
+==========  DRC Rules for RUN  ==========
+Min Track Size : min. Size: 0.0075 in.
+Pass_p         : DEFAULT
+Layer          : L2:BOTTOM.art
+Start Time     : Wed Aug 08 10:35:29 2007
+
+-----------------------------------------
+-----------------------------------------
+Min Track Size : min. Size: 0.0075 in.
+Pass_p         : DEFAULT
+Layer          : L2:BOTTOM.art
+Time to check -  0:00
+Number of violations : 0
+=============  END DRC Run  =============
+
+==========  DRC Rules for RUN  ==========
+Min Pad Size   : min. Size: 0.0075 in.
+Pass_p         : DEFAULT
+Layer          : L2:BOTTOM.art
+Start Time     : Wed Aug 08 10:35:29 2007
+
+-----------------------------------------
+-----------------------------------------
+Min Pad Size   : min. Size: 0.0075 in.
+Pass_p         : DEFAULT
+Layer          : L2:BOTTOM.art
+Time to check -  0:00
+Number of violations : 0
+=============  END DRC Run  =============
+
+==========  DRC Rules for RUN  ==========
+Redundant Pads : 
+Pass_p         : DEFAULT
+Layer          : L2:BOTTOM.art
+Start Time     : Wed Aug 08 10:35:29 2007
+
+-----------------------------------------
+-----------------------------------------
+Redundant Pads : 
+Pass_p         : DEFAULT
+Layer          : L2:BOTTOM.art
+Time to check -  0:00
+Number of violations : 0
+=============  END DRC Run  =============
+
+==========  DRC Rules for RUN  ==========
+Track To Track : min. Clearance: 0.0075 in.
+Pass_p         : DEFAULT
+Layer          : L3:BOTTOM.art
+Start Time     : Wed Aug 08 10:35:29 2007
+
+-----------------------------------------
+-----------------------------------------
+Track To Track : min. Clearance: 0.0075 in.
+Pass_p         : DEFAULT
+Layer          : L3:BOTTOM.art
+Time to check -  0:00
+Number of violations : 0
+=============  END DRC Run  =============
+
+==========  DRC Rules for RUN  ==========
+Track To Pad   : min. Clearance: 0.0075 in.
+Pass_p         : DEFAULT
+Layer          : L3:BOTTOM.art
+Start Time     : Wed Aug 08 10:35:29 2007
+
+-----------------------------------------
+-----------------------------------------
+Track To Pad   : min. Clearance: 0.0075 in.
+Pass_p         : DEFAULT
+Layer          : L3:BOTTOM.art
+Time to check -  0:00
+Number of violations : 0
+=============  END DRC Run  =============
+
+==========  DRC Rules for RUN  ==========
+Pad To Pad     : min. Clearance: 0.0075 in.
+Pass_p         : DEFAULT
+Layer          : L3:BOTTOM.art
+Start Time     : Wed Aug 08 10:35:29 2007
+
+-----------------------------------------
+-----------------------------------------
+Pad To Pad     : min. Clearance: 0.0075 in.
+Pass_p         : DEFAULT
+Layer          : L3:BOTTOM.art
+Time to check -  0:00
+Number of violations : 0
+=============  END DRC Run  =============
+
+==========  DRC Rules for RUN  ==========
+Min Track Size : min. Size: 0.0075 in.
+Pass_p         : DEFAULT
+Layer          : L3:BOTTOM.art
+Start Time     : Wed Aug 08 10:35:29 2007
+
+-----------------------------------------
+-----------------------------------------
+Min Track Size : min. Size: 0.0075 in.
+Pass_p         : DEFAULT
+Layer          : L3:BOTTOM.art
+Time to check -  0:00
+Number of violations : 0
+=============  END DRC Run  =============
+
+==========  DRC Rules for RUN  ==========
+Min Pad Size   : min. Size: 0.0075 in.
+Pass_p         : DEFAULT
+Layer          : L3:BOTTOM.art
+Start Time     : Wed Aug 08 10:35:29 2007
+
+-----------------------------------------
+-----------------------------------------
+Min Pad Size   : min. Size: 0.0075 in.
+Pass_p         : DEFAULT
+Layer          : L3:BOTTOM.art
+Time to check -  0:00
+Number of violations : 0
+=============  END DRC Run  =============
+
+==========  DRC Rules for RUN  ==========
+Redundant Pads : 
+Pass_p         : DEFAULT
+Layer          : L3:BOTTOM.art
+Start Time     : Wed Aug 08 10:35:29 2007
+
+-----------------------------------------
+-----------------------------------------
+Redundant Pads : 
+Pass_p         : DEFAULT
+Layer          : L3:BOTTOM.art
+Time to check -  0:00
+Number of violations : 0
+=============  END DRC Run  =============
+
+==========  DRC Rules for RUN  ==========
+Track To Track : min. Clearance: 0.0075 in.
+Pass_p         : DEFAULT
+Layer          : L4:TOP.art
+Start Time     : Wed Aug 08 10:35:29 2007
+
+-----------------------------------------
+-----------------------------------------
+Track To Track : min. Clearance: 0.0075 in.
+Pass_p         : DEFAULT
+Layer          : L4:TOP.art
+Time to check -  0:00
+Number of violations : 0
+=============  END DRC Run  =============
+
+==========  DRC Rules for RUN  ==========
+Track To Pad   : min. Clearance: 0.0075 in.
+Pass_p         : DEFAULT
+Layer          : L4:TOP.art
+Start Time     : Wed Aug 08 10:35:29 2007
+
+-----------------------------------------
+-----------------------------------------
+Track To Pad   : min. Clearance: 0.0075 in.
+Pass_p         : DEFAULT
+Layer          : L4:TOP.art
+Time to check -  0:00
+Number of violations : 0
+=============  END DRC Run  =============
+
+==========  DRC Rules for RUN  ==========
+Pad To Pad     : min. Clearance: 0.0075 in.
+Pass_p         : DEFAULT
+Layer          : L4:TOP.art
+Start Time     : Wed Aug 08 10:35:29 2007
+
+-----------------------------------------
+-----------------------------------------
+Pad To Pad     : min. Clearance: 0.0075 in.
+Pass_p         : DEFAULT
+Layer          : L4:TOP.art
+Time to check -  0:00
+Number of violations : 0
+=============  END DRC Run  =============
+
+==========  DRC Rules for RUN  ==========
+Min Track Size : min. Size: 0.0075 in.
+Pass_p         : DEFAULT
+Layer          : L4:TOP.art
+Start Time     : Wed Aug 08 10:35:29 2007
+
+-----------------------------------------
+-----------------------------------------
+Min Track Size : min. Size: 0.0075 in.
+Pass_p         : DEFAULT
+Layer          : L4:TOP.art
+Time to check -  0:00
+Number of violations : 0
+=============  END DRC Run  =============
+
+==========  DRC Rules for RUN  ==========
+Min Pad Size   : min. Size: 0.0075 in.
+Pass_p         : DEFAULT
+Layer          : L4:TOP.art
+Start Time     : Wed Aug 08 10:35:29 2007
+
+-----------------------------------------
+-----------------------------------------
+Min Pad Size   : min. Size: 0.0075 in.
+Pass_p         : DEFAULT
+Layer          : L4:TOP.art
+Time to check -  0:00
+Number of violations : 0
+=============  END DRC Run  =============
+
+==========  DRC Rules for RUN  ==========
+Redundant Pads : 
+Pass_p         : DEFAULT
+Layer          : L4:TOP.art
+Start Time     : Wed Aug 08 10:35:29 2007
+
+-----------------------------------------
+-----------------------------------------
+Redundant Pads : 
+Pass_p         : DEFAULT
+Layer          : L4:TOP.art
+Time to check -  0:00
+Number of violations : 0
+=============  END DRC Run  =============
+
+==========  DRC Rules for RUN  ==========
+Track To Track : min. Clearance: 0.0075 in.
+Pass_p         : DEFAULT
+Layer          : L5:TOP.art
+Start Time     : Wed Aug 08 10:35:29 2007
+
+-----------------------------------------
+-----------------------------------------
+Track To Track : min. Clearance: 0.0075 in.
+Pass_p         : DEFAULT
+Layer          : L5:TOP.art
+Time to check -  0:00
+Number of violations : 0
+=============  END DRC Run  =============
+
+==========  DRC Rules for RUN  ==========
+Track To Pad   : min. Clearance: 0.0075 in.
+Pass_p         : DEFAULT
+Layer          : L5:TOP.art
+Start Time     : Wed Aug 08 10:35:29 2007
+
+-----------------------------------------
+-----------------------------------------
+Track To Pad   : min. Clearance: 0.0075 in.
+Pass_p         : DEFAULT
+Layer          : L5:TOP.art
+Time to check -  0:00
+Number of violations : 0
+=============  END DRC Run  =============
+
+==========  DRC Rules for RUN  ==========
+Pad To Pad     : min. Clearance: 0.0075 in.
+Pass_p         : DEFAULT
+Layer          : L5:TOP.art
+Start Time     : Wed Aug 08 10:35:29 2007
+
+-----------------------------------------
+-----------------------------------------
+Pad To Pad     : min. Clearance: 0.0075 in.
+Pass_p         : DEFAULT
+Layer          : L5:TOP.art
+Time to check -  0:01
+Number of violations : 0
+=============  END DRC Run  =============
+
+==========  DRC Rules for RUN  ==========
+Min Track Size : min. Size: 0.0075 in.
+Pass_p         : DEFAULT
+Layer          : L5:TOP.art
+Start Time     : Wed Aug 08 10:35:30 2007
+
+-----------------------------------------
+-----------------------------------------
+Min Track Size : min. Size: 0.0075 in.
+Pass_p         : DEFAULT
+Layer          : L5:TOP.art
+Time to check -  0:00
+Number of violations : 0
+=============  END DRC Run  =============
+
+==========  DRC Rules for RUN  ==========
+Min Pad Size   : min. Size: 0.0075 in.
+Pass_p         : DEFAULT
+Layer          : L5:TOP.art
+Start Time     : Wed Aug 08 10:35:30 2007
+
+-----------------------------------------
+-----------------------------------------
+Min Pad Size   : min. Size: 0.0075 in.
+Pass_p         : DEFAULT
+Layer          : L5:TOP.art
+Time to check -  0:00
+Number of violations : 0
+=============  END DRC Run  =============
+
+==========  DRC Rules for RUN  ==========
+Redundant Pads : 
+Pass_p         : DEFAULT
+Layer          : L5:TOP.art
+Start Time     : Wed Aug 08 10:35:30 2007
+
+-----------------------------------------
+-----------------------------------------
+Redundant Pads : 
+Pass_p         : DEFAULT
+Layer          : L5:TOP.art
+Time to check -  0:00
+Number of violations : 0
+=============  END DRC Run  =============
+
+==========  DRC Rules for RUN  ==========
+Track To Track : min. Clearance: 0.0075 in.
+Pass_p         : DEFAULT
+Layer          : L6:TOP.art
+Start Time     : Wed Aug 08 10:35:30 2007
+
+-----------------------------------------
+-----------------------------------------
+Track To Track : min. Clearance: 0.0075 in.
+Pass_p         : DEFAULT
+Layer          : L6:TOP.art
+Time to check -  0:00
+Number of violations : 0
+=============  END DRC Run  =============
+
+==========  DRC Rules for RUN  ==========
+Track To Pad   : min. Clearance: 0.0075 in.
+Pass_p         : DEFAULT
+Layer          : L6:TOP.art
+Start Time     : Wed Aug 08 10:35:30 2007
+
+-----------------------------------------
+Distance  Line:(1.2050000:0.8460000), (1.1820000:0.8690000)  Net:"Unknown" - (1.2200000:0.8840000) Net:"Unknown"
+-----------------------------------------
+Track To Pad   : min. Clearance: 0.0075 in.
+Pass_p         : DEFAULT
+Layer          : L6:TOP.art
+Time to check -  0:00
+Number of violations : 1
+=============  END DRC Run  =============
+
+==========  DRC Rules for RUN  ==========
+Pad To Pad     : min. Clearance: 0.0075 in.
+Pass_p         : DEFAULT
+Layer          : L6:TOP.art
+Start Time     : Wed Aug 08 10:35:30 2007
+
+-----------------------------------------
+-----------------------------------------
+Pad To Pad     : min. Clearance: 0.0075 in.
+Pass_p         : DEFAULT
+Layer          : L6:TOP.art
+Time to check -  0:00
+Number of violations : 0
+=============  END DRC Run  =============
+
+==========  DRC Rules for RUN  ==========
+Min Track Size : min. Size: 0.0075 in.
+Pass_p         : DEFAULT
+Layer          : L6:TOP.art
+Start Time     : Wed Aug 08 10:35:30 2007
+
+-----------------------------------------
+-----------------------------------------
+Min Track Size : min. Size: 0.0075 in.
+Pass_p         : DEFAULT
+Layer          : L6:TOP.art
+Time to check -  0:00
+Number of violations : 0
+=============  END DRC Run  =============
+
+==========  DRC Rules for RUN  ==========
+Min Pad Size   : min. Size: 0.0075 in.
+Pass_p         : DEFAULT
+Layer          : L6:TOP.art
+Start Time     : Wed Aug 08 10:35:30 2007
+
+-----------------------------------------
+-----------------------------------------
+Min Pad Size   : min. Size: 0.0075 in.
+Pass_p         : DEFAULT
+Layer          : L6:TOP.art
+Time to check -  0:00
+Number of violations : 0
+=============  END DRC Run  =============
+
+==========  DRC Rules for RUN  ==========
+Redundant Pads : 
+Pass_p         : DEFAULT
+Layer          : L6:TOP.art
+Start Time     : Wed Aug 08 10:35:30 2007
+
+-----------------------------------------
+-----------------------------------------
+Redundant Pads : 
+Pass_p         : DEFAULT
+Layer          : L6:TOP.art
+Time to check -  0:00
+Number of violations : 0
+=============  END DRC Run  =============
+
+
+Design         : 
+Start Time/Date: Wed Aug 08 10:35:28 2007
+End   Time/Date: Wed Aug 08 10:35:30 2007
+Total Time -  0:02
+>>>>>>>>>>>> END report file <<<<<<<<<<<<
+>
+>
+>   END OF PREVIOUS FILE
+>
+>
+>>>>>>>>>>>> DRC report file <<<<<<<<<<<<
+Design         : 
+Time/Date      : Wed Aug 08 10:34:59 2007
+Units          : Inches
+==========  DRC Rules for RUN  ==========
+Track To Track : min. Clearance: 0.0078 in.
+Pass_p         : DEFAULT
+Layer          : L1:BOTTOM.art
+Start Time     : Wed Aug 08 10:35:00 2007
+
+-----------------------------------------
+-----------------------------------------
+Track To Track : min. Clearance: 0.0078 in.
+Pass_p         : DEFAULT
+Layer          : L1:BOTTOM.art
+Time to check -  0:00
+Number of violations : 0
+=============  END DRC Run  =============
+
+==========  DRC Rules for RUN  ==========
+Track To Pad   : min. Clearance: 0.0078 in.
+Pass_p         : DEFAULT
+Layer          : L1:BOTTOM.art
+Start Time     : Wed Aug 08 10:35:00 2007
+
+-----------------------------------------
+-----------------------------------------
+Track To Pad   : min. Clearance: 0.0078 in.
+Pass_p         : DEFAULT
+Layer          : L1:BOTTOM.art
+Time to check -  0:00
+Number of violations : 0
+=============  END DRC Run  =============
+
+==========  DRC Rules for RUN  ==========
+Pad To Pad     : min. Clearance: 0.0078 in.
+Pass_p         : DEFAULT
+Layer          : L1:BOTTOM.art
+Start Time     : Wed Aug 08 10:35:00 2007
+
+-----------------------------------------
+-----------------------------------------
+Pad To Pad     : min. Clearance: 0.0078 in.
+Pass_p         : DEFAULT
+Layer          : L1:BOTTOM.art
+Time to check -  0:00
+Number of violations : 0
+=============  END DRC Run  =============
+
+==========  DRC Rules for RUN  ==========
+Min Track Size : min. Size: 0.0078 in.
+Pass_p         : DEFAULT
+Layer          : L1:BOTTOM.art
+Start Time     : Wed Aug 08 10:35:00 2007
+
+-----------------------------------------
+-----------------------------------------
+Min Track Size : min. Size: 0.0078 in.
+Pass_p         : DEFAULT
+Layer          : L1:BOTTOM.art
+Time to check -  0:00
+Number of violations : 0
+=============  END DRC Run  =============
+
+==========  DRC Rules for RUN  ==========
+Min Pad Size   : min. Size: 0.0078 in.
+Pass_p         : DEFAULT
+Layer          : L1:BOTTOM.art
+Start Time     : Wed Aug 08 10:35:00 2007
+
+-----------------------------------------
+-----------------------------------------
+Min Pad Size   : min. Size: 0.0078 in.
+Pass_p         : DEFAULT
+Layer          : L1:BOTTOM.art
+Time to check -  0:00
+Number of violations : 0
+=============  END DRC Run  =============
+
+==========  DRC Rules for RUN  ==========
+Redundant Pads : 
+Pass_p         : DEFAULT
+Layer          : L1:BOTTOM.art
+Start Time     : Wed Aug 08 10:35:00 2007
+
+-----------------------------------------
+-----------------------------------------
+Redundant Pads : 
+Pass_p         : DEFAULT
+Layer          : L1:BOTTOM.art
+Time to check -  0:00
+Number of violations : 0
+=============  END DRC Run  =============
+
+==========  DRC Rules for RUN  ==========
+Track To Track : min. Clearance: 0.0078 in.
+Pass_p         : DEFAULT
+Layer          : L2:BOTTOM.art
+Start Time     : Wed Aug 08 10:35:00 2007
+
+-----------------------------------------
+-----------------------------------------
+Track To Track : min. Clearance: 0.0078 in.
+Pass_p         : DEFAULT
+Layer          : L2:BOTTOM.art
+Time to check -  0:00
+Number of violations : 0
+=============  END DRC Run  =============
+
+==========  DRC Rules for RUN  ==========
+Track To Pad   : min. Clearance: 0.0078 in.
+Pass_p         : DEFAULT
+Layer          : L2:BOTTOM.art
+Start Time     : Wed Aug 08 10:35:00 2007
+
+-----------------------------------------
+-----------------------------------------
+Track To Pad   : min. Clearance: 0.0078 in.
+Pass_p         : DEFAULT
+Layer          : L2:BOTTOM.art
+Time to check -  0:00
+Number of violations : 0
+=============  END DRC Run  =============
+
+==========  DRC Rules for RUN  ==========
+Pad To Pad     : min. Clearance: 0.0078 in.
+Pass_p         : DEFAULT
+Layer          : L2:BOTTOM.art
+Start Time     : Wed Aug 08 10:35:00 2007
+
+-----------------------------------------
+-----------------------------------------
+Pad To Pad     : min. Clearance: 0.0078 in.
+Pass_p         : DEFAULT
+Layer          : L2:BOTTOM.art
+Time to check -  0:00
+Number of violations : 0
+=============  END DRC Run  =============
+
+==========  DRC Rules for RUN  ==========
+Min Track Size : min. Size: 0.0078 in.
+Pass_p         : DEFAULT
+Layer          : L2:BOTTOM.art
+Start Time     : Wed Aug 08 10:35:00 2007
+
+-----------------------------------------
+-----------------------------------------
+Min Track Size : min. Size: 0.0078 in.
+Pass_p         : DEFAULT
+Layer          : L2:BOTTOM.art
+Time to check -  0:00
+Number of violations : 0
+=============  END DRC Run  =============
+
+==========  DRC Rules for RUN  ==========
+Min Pad Size   : min. Size: 0.0078 in.
+Pass_p         : DEFAULT
+Layer          : L2:BOTTOM.art
+Start Time     : Wed Aug 08 10:35:00 2007
+
+-----------------------------------------
+-----------------------------------------
+Min Pad Size   : min. Size: 0.0078 in.
+Pass_p         : DEFAULT
+Layer          : L2:BOTTOM.art
+Time to check -  0:00
+Number of violations : 0
+=============  END DRC Run  =============
+
+==========  DRC Rules for RUN  ==========
+Redundant Pads : 
+Pass_p         : DEFAULT
+Layer          : L2:BOTTOM.art
+Start Time     : Wed Aug 08 10:35:00 2007
+
+-----------------------------------------
+-----------------------------------------
+Redundant Pads : 
+Pass_p         : DEFAULT
+Layer          : L2:BOTTOM.art
+Time to check -  0:00
+Number of violations : 0
+=============  END DRC Run  =============
+
+==========  DRC Rules for RUN  ==========
+Track To Track : min. Clearance: 0.0078 in.
+Pass_p         : DEFAULT
+Layer          : L3:BOTTOM.art
+Start Time     : Wed Aug 08 10:35:00 2007
+
+-----------------------------------------
+-----------------------------------------
+Track To Track : min. Clearance: 0.0078 in.
+Pass_p         : DEFAULT
+Layer          : L3:BOTTOM.art
+Time to check -  0:00
+Number of violations : 0
+=============  END DRC Run  =============
+
+==========  DRC Rules for RUN  ==========
+Track To Pad   : min. Clearance: 0.0078 in.
+Pass_p         : DEFAULT
+Layer          : L3:BOTTOM.art
+Start Time     : Wed Aug 08 10:35:00 2007
+
+-----------------------------------------
+Distance  Line:(0.0530000:1.0040000), (0.0670000:1.0040000)  Net:"Unknown" - (0.0740000:1.0410000) Net:"Unknown"
+Distance  Line:(0.0530000:1.0040000), (0.0670000:1.0040000)  Net:"Unknown" - (0.0740000:1.0410000) Net:"Unknown"
+-----------------------------------------
+Track To Pad   : min. Clearance: 0.0078 in.
+Pass_p         : DEFAULT
+Layer          : L3:BOTTOM.art
+Time to check -  0:01
+Number of violations : 2
+=============  END DRC Run  =============
+
+==========  DRC Rules for RUN  ==========
+Pad To Pad     : min. Clearance: 0.0078 in.
+Pass_p         : DEFAULT
+Layer          : L3:BOTTOM.art
+Start Time     : Wed Aug 08 10:35:01 2007
+
+-----------------------------------------
+-----------------------------------------
+Pad To Pad     : min. Clearance: 0.0078 in.
+Pass_p         : DEFAULT
+Layer          : L3:BOTTOM.art
+Time to check -  0:00
+Number of violations : 0
+=============  END DRC Run  =============
+
+==========  DRC Rules for RUN  ==========
+Min Track Size : min. Size: 0.0078 in.
+Pass_p         : DEFAULT
+Layer          : L3:BOTTOM.art
+Start Time     : Wed Aug 08 10:35:01 2007
+
+-----------------------------------------
+-----------------------------------------
+Min Track Size : min. Size: 0.0078 in.
+Pass_p         : DEFAULT
+Layer          : L3:BOTTOM.art
+Time to check -  0:00
+Number of violations : 0
+=============  END DRC Run  =============
+
+==========  DRC Rules for RUN  ==========
+Min Pad Size   : min. Size: 0.0078 in.
+Pass_p         : DEFAULT
+Layer          : L3:BOTTOM.art
+Start Time     : Wed Aug 08 10:35:01 2007
+
+-----------------------------------------
+-----------------------------------------
+Min Pad Size   : min. Size: 0.0078 in.
+Pass_p         : DEFAULT
+Layer          : L3:BOTTOM.art
+Time to check -  0:00
+Number of violations : 0
+=============  END DRC Run  =============
+
+==========  DRC Rules for RUN  ==========
+Redundant Pads : 
+Pass_p         : DEFAULT
+Layer          : L3:BOTTOM.art
+Start Time     : Wed Aug 08 10:35:01 2007
+
+-----------------------------------------
+-----------------------------------------
+Redundant Pads : 
+Pass_p         : DEFAULT
+Layer          : L3:BOTTOM.art
+Time to check -  0:00
+Number of violations : 0
+=============  END DRC Run  =============
+
+==========  DRC Rules for RUN  ==========
+Track To Track : min. Clearance: 0.0078 in.
+Pass_p         : DEFAULT
+Layer          : L4:TOP.art
+Start Time     : Wed Aug 08 10:35:01 2007
+
+-----------------------------------------
+-----------------------------------------
+Track To Track : min. Clearance: 0.0078 in.
+Pass_p         : DEFAULT
+Layer          : L4:TOP.art
+Time to check -  0:00
+Number of violations : 0
+=============  END DRC Run  =============
+
+==========  DRC Rules for RUN  ==========
+Track To Pad   : min. Clearance: 0.0078 in.
+Pass_p         : DEFAULT
+Layer          : L4:TOP.art
+Start Time     : Wed Aug 08 10:35:01 2007
+
+-----------------------------------------
+-----------------------------------------
+Track To Pad   : min. Clearance: 0.0078 in.
+Pass_p         : DEFAULT
+Layer          : L4:TOP.art
+Time to check -  0:00
+Number of violations : 0
+=============  END DRC Run  =============
+
+==========  DRC Rules for RUN  ==========
+Pad To Pad     : min. Clearance: 0.0078 in.
+Pass_p         : DEFAULT
+Layer          : L4:TOP.art
+Start Time     : Wed Aug 08 10:35:01 2007
+
+-----------------------------------------
+-----------------------------------------
+Pad To Pad     : min. Clearance: 0.0078 in.
+Pass_p         : DEFAULT
+Layer          : L4:TOP.art
+Time to check -  0:00
+Number of violations : 0
+=============  END DRC Run  =============
+
+==========  DRC Rules for RUN  ==========
+Min Track Size : min. Size: 0.0078 in.
+Pass_p         : DEFAULT
+Layer          : L4:TOP.art
+Start Time     : Wed Aug 08 10:35:01 2007
+
+-----------------------------------------
+-----------------------------------------
+Min Track Size : min. Size: 0.0078 in.
+Pass_p         : DEFAULT
+Layer          : L4:TOP.art
+Time to check -  0:00
+Number of violations : 0
+=============  END DRC Run  =============
+
+==========  DRC Rules for RUN  ==========
+Min Pad Size   : min. Size: 0.0078 in.
+Pass_p         : DEFAULT
+Layer          : L4:TOP.art
+Start Time     : Wed Aug 08 10:35:01 2007
+
+-----------------------------------------
+-----------------------------------------
+Min Pad Size   : min. Size: 0.0078 in.
+Pass_p         : DEFAULT
+Layer          : L4:TOP.art
+Time to check -  0:00
+Number of violations : 0
+=============  END DRC Run  =============
+
+==========  DRC Rules for RUN  ==========
+Redundant Pads : 
+Pass_p         : DEFAULT
+Layer          : L4:TOP.art
+Start Time     : Wed Aug 08 10:35:01 2007
+
+-----------------------------------------
+-----------------------------------------
+Redundant Pads : 
+Pass_p         : DEFAULT
+Layer          : L4:TOP.art
+Time to check -  0:00
+Number of violations : 0
+=============  END DRC Run  =============
+
+==========  DRC Rules for RUN  ==========
+Track To Track : min. Clearance: 0.0078 in.
+Pass_p         : DEFAULT
+Layer          : L5:TOP.art
+Start Time     : Wed Aug 08 10:35:01 2007
+
+-----------------------------------------
+-----------------------------------------
+Track To Track : min. Clearance: 0.0078 in.
+Pass_p         : DEFAULT
+Layer          : L5:TOP.art
+Time to check -  0:00
+Number of violations : 0
+=============  END DRC Run  =============
+
+==========  DRC Rules for RUN  ==========
+Track To Pad   : min. Clearance: 0.0078 in.
+Pass_p         : DEFAULT
+Layer          : L5:TOP.art
+Start Time     : Wed Aug 08 10:35:01 2007
+
+-----------------------------------------
+-----------------------------------------
+Track To Pad   : min. Clearance: 0.0078 in.
+Pass_p         : DEFAULT
+Layer          : L5:TOP.art
+Time to check -  0:00
+Number of violations : 0
+=============  END DRC Run  =============
+
+==========  DRC Rules for RUN  ==========
+Pad To Pad     : min. Clearance: 0.0078 in.
+Pass_p         : DEFAULT
+Layer          : L5:TOP.art
+Start Time     : Wed Aug 08 10:35:01 2007
+
+-----------------------------------------
+-----------------------------------------
+Pad To Pad     : min. Clearance: 0.0078 in.
+Pass_p         : DEFAULT
+Layer          : L5:TOP.art
+Time to check -  0:00
+Number of violations : 0
+=============  END DRC Run  =============
+
+==========  DRC Rules for RUN  ==========
+Min Track Size : min. Size: 0.0078 in.
+Pass_p         : DEFAULT
+Layer          : L5:TOP.art
+Start Time     : Wed Aug 08 10:35:01 2007
+
+-----------------------------------------
+-----------------------------------------
+Min Track Size : min. Size: 0.0078 in.
+Pass_p         : DEFAULT
+Layer          : L5:TOP.art
+Time to check -  0:00
+Number of violations : 0
+=============  END DRC Run  =============
+
+==========  DRC Rules for RUN  ==========
+Min Pad Size   : min. Size: 0.0078 in.
+Pass_p         : DEFAULT
+Layer          : L5:TOP.art
+Start Time     : Wed Aug 08 10:35:01 2007
+
+-----------------------------------------
+-----------------------------------------
+Min Pad Size   : min. Size: 0.0078 in.
+Pass_p         : DEFAULT
+Layer          : L5:TOP.art
+Time to check -  0:00
+Number of violations : 0
+=============  END DRC Run  =============
+
+==========  DRC Rules for RUN  ==========
+Redundant Pads : 
+Pass_p         : DEFAULT
+Layer          : L5:TOP.art
+Start Time     : Wed Aug 08 10:35:01 2007
+
+-----------------------------------------
+-----------------------------------------
+Redundant Pads : 
+Pass_p         : DEFAULT
+Layer          : L5:TOP.art
+Time to check -  0:00
+Number of violations : 0
+=============  END DRC Run  =============
+
+==========  DRC Rules for RUN  ==========
+Track To Track : min. Clearance: 0.0078 in.
+Pass_p         : DEFAULT
+Layer          : L6:TOP.art
+Start Time     : Wed Aug 08 10:35:01 2007
+
+-----------------------------------------
+-----------------------------------------
+Track To Track : min. Clearance: 0.0078 in.
+Pass_p         : DEFAULT
+Layer          : L6:TOP.art
+Time to check -  0:00
+Number of violations : 0
+=============  END DRC Run  =============
+
+==========  DRC Rules for RUN  ==========
+Track To Pad   : min. Clearance: 0.0078 in.
+Pass_p         : DEFAULT
+Layer          : L6:TOP.art
+Start Time     : Wed Aug 08 10:35:01 2007
+
+-----------------------------------------
+Distance  Line:(0.1120000:0.2840000), (0.1040000:0.2920000)  Net:"Unknown" - (0.0740000:0.2540000) Net:"Unknown"
+Distance  Line:(1.2050000:0.8460000), (1.1820000:0.8690000)  Net:"Unknown" - (1.2200000:0.8840000) Net:"Unknown"
+-----------------------------------------
+Track To Pad   : min. Clearance: 0.0078 in.
+Pass_p         : DEFAULT
+Layer          : L6:TOP.art
+Time to check -  0:00
+Number of violations : 2
+=============  END DRC Run  =============
+
+==========  DRC Rules for RUN  ==========
+Pad To Pad     : min. Clearance: 0.0078 in.
+Pass_p         : DEFAULT
+Layer          : L6:TOP.art
+Start Time     : Wed Aug 08 10:35:01 2007
+
+-----------------------------------------
+-----------------------------------------
+Pad To Pad     : min. Clearance: 0.0078 in.
+Pass_p         : DEFAULT
+Layer          : L6:TOP.art
+Time to check -  0:00
+Number of violations : 0
+=============  END DRC Run  =============
+
+==========  DRC Rules for RUN  ==========
+Min Track Size : min. Size: 0.0078 in.
+Pass_p         : DEFAULT
+Layer          : L6:TOP.art
+Start Time     : Wed Aug 08 10:35:01 2007
+
+-----------------------------------------
+-----------------------------------------
+Min Track Size : min. Size: 0.0078 in.
+Pass_p         : DEFAULT
+Layer          : L6:TOP.art
+Time to check -  0:00
+Number of violations : 0
+=============  END DRC Run  =============
+
+==========  DRC Rules for RUN  ==========
+Min Pad Size   : min. Size: 0.0078 in.
+Pass_p         : DEFAULT
+Layer          : L6:TOP.art
+Start Time     : Wed Aug 08 10:35:01 2007
+
+-----------------------------------------
+-----------------------------------------
+Min Pad Size   : min. Size: 0.0078 in.
+Pass_p         : DEFAULT
+Layer          : L6:TOP.art
+Time to check -  0:00
+Number of violations : 0
+=============  END DRC Run  =============
+
+==========  DRC Rules for RUN  ==========
+Redundant Pads : 
+Pass_p         : DEFAULT
+Layer          : L6:TOP.art
+Start Time     : Wed Aug 08 10:35:01 2007
+
+-----------------------------------------
+-----------------------------------------
+Redundant Pads : 
+Pass_p         : DEFAULT
+Layer          : L6:TOP.art
+Time to check -  0:01
+Number of violations : 0
+=============  END DRC Run  =============
+
+
+Design         : 
+Start Time/Date: Wed Aug 08 10:34:59 2007
+End   Time/Date: Wed Aug 08 10:35:02 2007
+Total Time -  0:03
+>>>>>>>>>>>> END report file <<<<<<<<<<<<
+>
+>
+>   END OF PREVIOUS FILE
+>
+>
+>>>>>>>>>>>> DRC report file <<<<<<<<<<<<
+Design         : 
+Time/Date      : Wed Aug 08 10:33:49 2007
+Units          : Inches
+==========  DRC Rules for RUN  ==========
+Track To Track : min. Clearance: 0.0078 in.
+Pass_p         : DEFAULT
+Layer          : L1:BOTTOM.art
+Start Time     : Wed Aug 08 10:33:49 2007
+
+-----------------------------------------
+-----------------------------------------
+Track To Track : min. Clearance: 0.0078 in.
+Pass_p         : DEFAULT
+Layer          : L1:BOTTOM.art
+Time to check -  0:00
+Number of violations : 0
+=============  END DRC Run  =============
+
+==========  DRC Rules for RUN  ==========
+Track To Pad   : min. Clearance: 0.0078 in.
+Pass_p         : DEFAULT
+Layer          : L1:BOTTOM.art
+Start Time     : Wed Aug 08 10:33:49 2007
+
+-----------------------------------------
+-----------------------------------------
+Track To Pad   : min. Clearance: 0.0078 in.
+Pass_p         : DEFAULT
+Layer          : L1:BOTTOM.art
+Time to check -  0:00
+Number of violations : 0
+=============  END DRC Run  =============
+
+==========  DRC Rules for RUN  ==========
+Pad To Pad     : min. Clearance: 0.0078 in.
+Pass_p         : DEFAULT
+Layer          : L1:BOTTOM.art
+Start Time     : Wed Aug 08 10:33:49 2007
+
+-----------------------------------------
+-----------------------------------------
+Pad To Pad     : min. Clearance: 0.0078 in.
+Pass_p         : DEFAULT
+Layer          : L1:BOTTOM.art
+Time to check -  0:00
+Number of violations : 0
+=============  END DRC Run  =============
+
+==========  DRC Rules for RUN  ==========
+Min Track Size : min. Size: 0.0078 in.
+Pass_p         : DEFAULT
+Layer          : L1:BOTTOM.art
+Start Time     : Wed Aug 08 10:33:49 2007
+
+-----------------------------------------
+-----------------------------------------
+Min Track Size : min. Size: 0.0078 in.
+Pass_p         : DEFAULT
+Layer          : L1:BOTTOM.art
+Time to check -  0:00
+Number of violations : 0
+=============  END DRC Run  =============
+
+==========  DRC Rules for RUN  ==========
+Min Pad Size   : min. Size: 0.0078 in.
+Pass_p         : DEFAULT
+Layer          : L1:BOTTOM.art
+Start Time     : Wed Aug 08 10:33:49 2007
+
+-----------------------------------------
+-----------------------------------------
+Min Pad Size   : min. Size: 0.0078 in.
+Pass_p         : DEFAULT
+Layer          : L1:BOTTOM.art
+Time to check -  0:00
+Number of violations : 0
+=============  END DRC Run  =============
+
+==========  DRC Rules for RUN  ==========
+Redundant Pads : 
+Pass_p         : DEFAULT
+Layer          : L1:BOTTOM.art
+Start Time     : Wed Aug 08 10:33:49 2007
+
+-----------------------------------------
+-----------------------------------------
+Redundant Pads : 
+Pass_p         : DEFAULT
+Layer          : L1:BOTTOM.art
+Time to check -  0:00
+Number of violations : 0
+=============  END DRC Run  =============
+
+==========  DRC Rules for RUN  ==========
+Track To Track : min. Clearance: 0.0078 in.
+Pass_p         : DEFAULT
+Layer          : L2:BOTTOM.art
+Start Time     : Wed Aug 08 10:33:49 2007
+
+-----------------------------------------
+-----------------------------------------
+Track To Track : min. Clearance: 0.0078 in.
+Pass_p         : DEFAULT
+Layer          : L2:BOTTOM.art
+Time to check -  0:00
+Number of violations : 0
+=============  END DRC Run  =============
+
+==========  DRC Rules for RUN  ==========
+Track To Pad   : min. Clearance: 0.0078 in.
+Pass_p         : DEFAULT
+Layer          : L2:BOTTOM.art
+Start Time     : Wed Aug 08 10:33:49 2007
+
+-----------------------------------------
+-----------------------------------------
+Track To Pad   : min. Clearance: 0.0078 in.
+Pass_p         : DEFAULT
+Layer          : L2:BOTTOM.art
+Time to check -  0:00
+Number of violations : 0
+=============  END DRC Run  =============
+
+==========  DRC Rules for RUN  ==========
+Pad To Pad     : min. Clearance: 0.0078 in.
+Pass_p         : DEFAULT
+Layer          : L2:BOTTOM.art
+Start Time     : Wed Aug 08 10:33:49 2007
+
+-----------------------------------------
+-----------------------------------------
+Pad To Pad     : min. Clearance: 0.0078 in.
+Pass_p         : DEFAULT
+Layer          : L2:BOTTOM.art
+Time to check -  0:00
+Number of violations : 0
+=============  END DRC Run  =============
+
+==========  DRC Rules for RUN  ==========
+Min Track Size : min. Size: 0.0078 in.
+Pass_p         : DEFAULT
+Layer          : L2:BOTTOM.art
+Start Time     : Wed Aug 08 10:33:49 2007
+
+-----------------------------------------
+-----------------------------------------
+Min Track Size : min. Size: 0.0078 in.
+Pass_p         : DEFAULT
+Layer          : L2:BOTTOM.art
+Time to check -  0:00
+Number of violations : 0
+=============  END DRC Run  =============
+
+==========  DRC Rules for RUN  ==========
+Min Pad Size   : min. Size: 0.0078 in.
+Pass_p         : DEFAULT
+Layer          : L2:BOTTOM.art
+Start Time     : Wed Aug 08 10:33:49 2007
+
+-----------------------------------------
+-----------------------------------------
+Min Pad Size   : min. Size: 0.0078 in.
+Pass_p         : DEFAULT
+Layer          : L2:BOTTOM.art
+Time to check -  0:00
+Number of violations : 0
+=============  END DRC Run  =============
+
+==========  DRC Rules for RUN  ==========
+Redundant Pads : 
+Pass_p         : DEFAULT
+Layer          : L2:BOTTOM.art
+Start Time     : Wed Aug 08 10:33:49 2007
+
+-----------------------------------------
+-----------------------------------------
+Redundant Pads : 
+Pass_p         : DEFAULT
+Layer          : L2:BOTTOM.art
+Time to check -  0:00
+Number of violations : 0
+=============  END DRC Run  =============
+
+==========  DRC Rules for RUN  ==========
+Track To Track : min. Clearance: 0.0078 in.
+Pass_p         : DEFAULT
+Layer          : L3:BOTTOM.art
+Start Time     : Wed Aug 08 10:33:49 2007
+
+-----------------------------------------
+-----------------------------------------
+Track To Track : min. Clearance: 0.0078 in.
+Pass_p         : DEFAULT
+Layer          : L3:BOTTOM.art
+Time to check -  0:00
+Number of violations : 0
+=============  END DRC Run  =============
+
+==========  DRC Rules for RUN  ==========
+Track To Pad   : min. Clearance: 0.0078 in.
+Pass_p         : DEFAULT
+Layer          : L3:BOTTOM.art
+Start Time     : Wed Aug 08 10:33:49 2007
+
+-----------------------------------------
+Distance  Line:(0.0530000:1.0040000), (0.0670000:1.0040000)  Net:"Unknown" - (0.0740000:1.0410000) Net:"Unknown"
+Distance  Line:(0.0530000:1.0040000), (0.0670000:1.0040000)  Net:"Unknown" - (0.0740000:1.0410000) Net:"Unknown"
+-----------------------------------------
+Track To Pad   : min. Clearance: 0.0078 in.
+Pass_p         : DEFAULT
+Layer          : L3:BOTTOM.art
+Time to check -  0:01
+Number of violations : 2
+=============  END DRC Run  =============
+
+==========  DRC Rules for RUN  ==========
+Pad To Pad     : min. Clearance: 0.0078 in.
+Pass_p         : DEFAULT
+Layer          : L3:BOTTOM.art
+Start Time     : Wed Aug 08 10:33:50 2007
+
+-----------------------------------------
+-----------------------------------------
+Pad To Pad     : min. Clearance: 0.0078 in.
+Pass_p         : DEFAULT
+Layer          : L3:BOTTOM.art
+Time to check -  0:00
+Number of violations : 0
+=============  END DRC Run  =============
+
+==========  DRC Rules for RUN  ==========
+Min Track Size : min. Size: 0.0078 in.
+Pass_p         : DEFAULT
+Layer          : L3:BOTTOM.art
+Start Time     : Wed Aug 08 10:33:50 2007
+
+-----------------------------------------
+-----------------------------------------
+Min Track Size : min. Size: 0.0078 in.
+Pass_p         : DEFAULT
+Layer          : L3:BOTTOM.art
+Time to check -  0:00
+Number of violations : 0
+=============  END DRC Run  =============
+
+==========  DRC Rules for RUN  ==========
+Min Pad Size   : min. Size: 0.0078 in.
+Pass_p         : DEFAULT
+Layer          : L3:BOTTOM.art
+Start Time     : Wed Aug 08 10:33:50 2007
+
+-----------------------------------------
+-----------------------------------------
+Min Pad Size   : min. Size: 0.0078 in.
+Pass_p         : DEFAULT
+Layer          : L3:BOTTOM.art
+Time to check -  0:00
+Number of violations : 0
+=============  END DRC Run  =============
+
+==========  DRC Rules for RUN  ==========
+Redundant Pads : 
+Pass_p         : DEFAULT
+Layer          : L3:BOTTOM.art
+Start Time     : Wed Aug 08 10:33:50 2007
+
+-----------------------------------------
+-----------------------------------------
+Redundant Pads : 
+Pass_p         : DEFAULT
+Layer          : L3:BOTTOM.art
+Time to check -  0:00
+Number of violations : 0
+=============  END DRC Run  =============
+
+==========  DRC Rules for RUN  ==========
+Track To Track : min. Clearance: 0.0078 in.
+Pass_p         : DEFAULT
+Layer          : L4:TOP.art
+Start Time     : Wed Aug 08 10:33:50 2007
+
+-----------------------------------------
+-----------------------------------------
+Track To Track : min. Clearance: 0.0078 in.
+Pass_p         : DEFAULT
+Layer          : L4:TOP.art
+Time to check -  0:00
+Number of violations : 0
+=============  END DRC Run  =============
+
+==========  DRC Rules for RUN  ==========
+Track To Pad   : min. Clearance: 0.0078 in.
+Pass_p         : DEFAULT
+Layer          : L4:TOP.art
+Start Time     : Wed Aug 08 10:33:50 2007
+
+-----------------------------------------
+-----------------------------------------
+Track To Pad   : min. Clearance: 0.0078 in.
+Pass_p         : DEFAULT
+Layer          : L4:TOP.art
+Time to check -  0:00
+Number of violations : 0
+=============  END DRC Run  =============
+
+==========  DRC Rules for RUN  ==========
+Pad To Pad     : min. Clearance: 0.0078 in.
+Pass_p         : DEFAULT
+Layer          : L4:TOP.art
+Start Time     : Wed Aug 08 10:33:50 2007
+
+-----------------------------------------
+-----------------------------------------
+Pad To Pad     : min. Clearance: 0.0078 in.
+Pass_p         : DEFAULT
+Layer          : L4:TOP.art
+Time to check -  0:00
+Number of violations : 0
+=============  END DRC Run  =============
+
+==========  DRC Rules for RUN  ==========
+Min Track Size : min. Size: 0.0078 in.
+Pass_p         : DEFAULT
+Layer          : L4:TOP.art
+Start Time     : Wed Aug 08 10:33:50 2007
+
+-----------------------------------------
+-----------------------------------------
+Min Track Size : min. Size: 0.0078 in.
+Pass_p         : DEFAULT
+Layer          : L4:TOP.art
+Time to check -  0:00
+Number of violations : 0
+=============  END DRC Run  =============
+
+==========  DRC Rules for RUN  ==========
+Min Pad Size   : min. Size: 0.0078 in.
+Pass_p         : DEFAULT
+Layer          : L4:TOP.art
+Start Time     : Wed Aug 08 10:33:50 2007
+
+-----------------------------------------
+-----------------------------------------
+Min Pad Size   : min. Size: 0.0078 in.
+Pass_p         : DEFAULT
+Layer          : L4:TOP.art
+Time to check -  0:00
+Number of violations : 0
+=============  END DRC Run  =============
+
+==========  DRC Rules for RUN  ==========
+Redundant Pads : 
+Pass_p         : DEFAULT
+Layer          : L4:TOP.art
+Start Time     : Wed Aug 08 10:33:50 2007
+
+-----------------------------------------
+-----------------------------------------
+Redundant Pads : 
+Pass_p         : DEFAULT
+Layer          : L4:TOP.art
+Time to check -  0:00
+Number of violations : 0
+=============  END DRC Run  =============
+
+==========  DRC Rules for RUN  ==========
+Track To Track : min. Clearance: 0.0078 in.
+Pass_p         : DEFAULT
+Layer          : L5:TOP.art
+Start Time     : Wed Aug 08 10:33:50 2007
+
+-----------------------------------------
+-----------------------------------------
+Track To Track : min. Clearance: 0.0078 in.
+Pass_p         : DEFAULT
+Layer          : L5:TOP.art
+Time to check -  0:00
+Number of violations : 0
+=============  END DRC Run  =============
+
+==========  DRC Rules for RUN  ==========
+Track To Pad   : min. Clearance: 0.0078 in.
+Pass_p         : DEFAULT
+Layer          : L5:TOP.art
+Start Time     : Wed Aug 08 10:33:50 2007
+
+-----------------------------------------
+-----------------------------------------
+Track To Pad   : min. Clearance: 0.0078 in.
+Pass_p         : DEFAULT
+Layer          : L5:TOP.art
+Time to check -  0:00
+Number of violations : 0
+=============  END DRC Run  =============
+
+==========  DRC Rules for RUN  ==========
+Pad To Pad     : min. Clearance: 0.0078 in.
+Pass_p         : DEFAULT
+Layer          : L5:TOP.art
+Start Time     : Wed Aug 08 10:33:50 2007
+
+-----------------------------------------
+-----------------------------------------
+Pad To Pad     : min. Clearance: 0.0078 in.
+Pass_p         : DEFAULT
+Layer          : L5:TOP.art
+Time to check -  0:00
+Number of violations : 0
+=============  END DRC Run  =============
+
+==========  DRC Rules for RUN  ==========
+Min Track Size : min. Size: 0.0078 in.
+Pass_p         : DEFAULT
+Layer          : L5:TOP.art
+Start Time     : Wed Aug 08 10:33:50 2007
+
+-----------------------------------------
+-----------------------------------------
+Min Track Size : min. Size: 0.0078 in.
+Pass_p         : DEFAULT
+Layer          : L5:TOP.art
+Time to check -  0:00
+Number of violations : 0
+=============  END DRC Run  =============
+
+==========  DRC Rules for RUN  ==========
+Min Pad Size   : min. Size: 0.0078 in.
+Pass_p         : DEFAULT
+Layer          : L5:TOP.art
+Start Time     : Wed Aug 08 10:33:50 2007
+
+-----------------------------------------
+-----------------------------------------
+Min Pad Size   : min. Size: 0.0078 in.
+Pass_p         : DEFAULT
+Layer          : L5:TOP.art
+Time to check -  0:00
+Number of violations : 0
+=============  END DRC Run  =============
+
+==========  DRC Rules for RUN  ==========
+Redundant Pads : 
+Pass_p         : DEFAULT
+Layer          : L5:TOP.art
+Start Time     : Wed Aug 08 10:33:50 2007
+
+-----------------------------------------
+-----------------------------------------
+Redundant Pads : 
+Pass_p         : DEFAULT
+Layer          : L5:TOP.art
+Time to check -  0:00
+Number of violations : 0
+=============  END DRC Run  =============
+
+==========  DRC Rules for RUN  ==========
+Track To Track : min. Clearance: 0.0078 in.
+Pass_p         : DEFAULT
+Layer          : L6:TOP.art
+Start Time     : Wed Aug 08 10:33:50 2007
+
+-----------------------------------------
+-----------------------------------------
+Track To Track : min. Clearance: 0.0078 in.
+Pass_p         : DEFAULT
+Layer          : L6:TOP.art
+Time to check -  0:00
+Number of violations : 0
+=============  END DRC Run  =============
+
+==========  DRC Rules for RUN  ==========
+Track To Pad   : min. Clearance: 0.0078 in.
+Pass_p         : DEFAULT
+Layer          : L6:TOP.art
+Start Time     : Wed Aug 08 10:33:50 2007
+
+-----------------------------------------
+Distance  Line:(0.1120000:0.2840000), (0.1040000:0.2920000)  Net:"Unknown" - (0.0740000:0.2540000) Net:"Unknown"
+Distance  Line:(1.2050000:0.8460000), (1.1820000:0.8690000)  Net:"Unknown" - (1.2200000:0.8840000) Net:"Unknown"
+-----------------------------------------
+Track To Pad   : min. Clearance: 0.0078 in.
+Pass_p         : DEFAULT
+Layer          : L6:TOP.art
+Time to check -  0:00
+Number of violations : 2
+=============  END DRC Run  =============
+
+==========  DRC Rules for RUN  ==========
+Pad To Pad     : min. Clearance: 0.0078 in.
+Pass_p         : DEFAULT
+Layer          : L6:TOP.art
+Start Time     : Wed Aug 08 10:33:50 2007
+
+-----------------------------------------
+-----------------------------------------
+Pad To Pad     : min. Clearance: 0.0078 in.
+Pass_p         : DEFAULT
+Layer          : L6:TOP.art
+Time to check -  0:01
+Number of violations : 0
+=============  END DRC Run  =============
+
+==========  DRC Rules for RUN  ==========
+Min Track Size : min. Size: 0.0078 in.
+Pass_p         : DEFAULT
+Layer          : L6:TOP.art
+Start Time     : Wed Aug 08 10:33:51 2007
+
+-----------------------------------------
+-----------------------------------------
+Min Track Size : min. Size: 0.0078 in.
+Pass_p         : DEFAULT
+Layer          : L6:TOP.art
+Time to check -  0:00
+Number of violations : 0
+=============  END DRC Run  =============
+
+==========  DRC Rules for RUN  ==========
+Min Pad Size   : min. Size: 0.0078 in.
+Pass_p         : DEFAULT
+Layer          : L6:TOP.art
+Start Time     : Wed Aug 08 10:33:51 2007
+
+-----------------------------------------
+-----------------------------------------
+Min Pad Size   : min. Size: 0.0078 in.
+Pass_p         : DEFAULT
+Layer          : L6:TOP.art
+Time to check -  0:00
+Number of violations : 0
+=============  END DRC Run  =============
+
+==========  DRC Rules for RUN  ==========
+Redundant Pads : 
+Pass_p         : DEFAULT
+Layer          : L6:TOP.art
+Start Time     : Wed Aug 08 10:33:51 2007
+
+-----------------------------------------
+-----------------------------------------
+Redundant Pads : 
+Pass_p         : DEFAULT
+Layer          : L6:TOP.art
+Time to check -  0:00
+Number of violations : 0
+=============  END DRC Run  =============
+
+
+Design         : 
+Start Time/Date: Wed Aug 08 10:33:49 2007
+End   Time/Date: Wed Aug 08 10:33:51 2007
+Total Time -  0:02
+>>>>>>>>>>>> END report file <<<<<<<<<<<<
+>
+>
+>   END OF PREVIOUS FILE
+>
+>
+>>>>>>>>>>>> DRC report file <<<<<<<<<<<<
+Design         : 
+Time/Date      : Wed Aug 08 10:30:54 2007
+Units          : Inches
+==========  DRC Rules for RUN  ==========
+Track To Track : min. Clearance: 0.008 in.
+Pass_p         : DEFAULT
+Layer          : L1:BOTTOM.art
+Start Time     : Wed Aug 08 10:30:54 2007
+
+-----------------------------------------
+-----------------------------------------
+Track To Track : min. Clearance: 0.008 in.
+Pass_p         : DEFAULT
+Layer          : L1:BOTTOM.art
+Time to check -  0:01
+Number of violations : 0
+=============  END DRC Run  =============
+
+==========  DRC Rules for RUN  ==========
+Track To Pad   : min. Clearance: 0.008 in.
+Pass_p         : DEFAULT
+Layer          : L1:BOTTOM.art
+Start Time     : Wed Aug 08 10:30:55 2007
+
+-----------------------------------------
+-----------------------------------------
+Track To Pad   : min. Clearance: 0.008 in.
+Pass_p         : DEFAULT
+Layer          : L1:BOTTOM.art
+Time to check -  0:00
+Number of violations : 0
+=============  END DRC Run  =============
+
+==========  DRC Rules for RUN  ==========
+Pad To Pad     : min. Clearance: 0.008 in.
+Pass_p         : DEFAULT
+Layer          : L1:BOTTOM.art
+Start Time     : Wed Aug 08 10:30:55 2007
+
+-----------------------------------------
+-----------------------------------------
+Pad To Pad     : min. Clearance: 0.008 in.
+Pass_p         : DEFAULT
+Layer          : L1:BOTTOM.art
+Time to check -  0:00
+Number of violations : 0
+=============  END DRC Run  =============
+
+==========  DRC Rules for RUN  ==========
+Min Track Size : min. Size: 0.008 in.
+Pass_p         : DEFAULT
+Layer          : L1:BOTTOM.art
+Start Time     : Wed Aug 08 10:30:55 2007
+
+-----------------------------------------
+-----------------------------------------
+Min Track Size : min. Size: 0.008 in.
+Pass_p         : DEFAULT
+Layer          : L1:BOTTOM.art
+Time to check -  0:00
+Number of violations : 0
+=============  END DRC Run  =============
+
+==========  DRC Rules for RUN  ==========
+Min Pad Size   : min. Size: 0.008 in.
+Pass_p         : DEFAULT
+Layer          : L1:BOTTOM.art
+Start Time     : Wed Aug 08 10:30:55 2007
+
+-----------------------------------------
+-----------------------------------------
+Min Pad Size   : min. Size: 0.008 in.
+Pass_p         : DEFAULT
+Layer          : L1:BOTTOM.art
+Time to check -  0:00
+Number of violations : 0
+=============  END DRC Run  =============
+
+==========  DRC Rules for RUN  ==========
+Redundant Pads : 
+Pass_p         : DEFAULT
+Layer          : L1:BOTTOM.art
+Start Time     : Wed Aug 08 10:30:55 2007
+
+-----------------------------------------
+-----------------------------------------
+Redundant Pads : 
+Pass_p         : DEFAULT
+Layer          : L1:BOTTOM.art
+Time to check -  0:00
+Number of violations : 0
+=============  END DRC Run  =============
+
+==========  DRC Rules for RUN  ==========
+Track To Track : min. Clearance: 0.008 in.
+Pass_p         : DEFAULT
+Layer          : L2:BOTTOM.art
+Start Time     : Wed Aug 08 10:30:55 2007
+
+-----------------------------------------
+-----------------------------------------
+Track To Track : min. Clearance: 0.008 in.
+Pass_p         : DEFAULT
+Layer          : L2:BOTTOM.art
+Time to check -  0:00
+Number of violations : 0
+=============  END DRC Run  =============
+
+==========  DRC Rules for RUN  ==========
+Track To Pad   : min. Clearance: 0.008 in.
+Pass_p         : DEFAULT
+Layer          : L2:BOTTOM.art
+Start Time     : Wed Aug 08 10:30:55 2007
+
+-----------------------------------------
+-----------------------------------------
+Track To Pad   : min. Clearance: 0.008 in.
+Pass_p         : DEFAULT
+Layer          : L2:BOTTOM.art
+Time to check -  0:00
+Number of violations : 0
+=============  END DRC Run  =============
+
+==========  DRC Rules for RUN  ==========
+Pad To Pad     : min. Clearance: 0.008 in.
+Pass_p         : DEFAULT
+Layer          : L2:BOTTOM.art
+Start Time     : Wed Aug 08 10:30:55 2007
+
+-----------------------------------------
+-----------------------------------------
+Pad To Pad     : min. Clearance: 0.008 in.
+Pass_p         : DEFAULT
+Layer          : L2:BOTTOM.art
+Time to check -  0:00
+Number of violations : 0
+=============  END DRC Run  =============
+
+==========  DRC Rules for RUN  ==========
+Min Track Size : min. Size: 0.008 in.
+Pass_p         : DEFAULT
+Layer          : L2:BOTTOM.art
+Start Time     : Wed Aug 08 10:30:55 2007
+
+-----------------------------------------
+-----------------------------------------
+Min Track Size : min. Size: 0.008 in.
+Pass_p         : DEFAULT
+Layer          : L2:BOTTOM.art
+Time to check -  0:00
+Number of violations : 0
+=============  END DRC Run  =============
+
+==========  DRC Rules for RUN  ==========
+Min Pad Size   : min. Size: 0.008 in.
+Pass_p         : DEFAULT
+Layer          : L2:BOTTOM.art
+Start Time     : Wed Aug 08 10:30:55 2007
+
+-----------------------------------------
+-----------------------------------------
+Min Pad Size   : min. Size: 0.008 in.
+Pass_p         : DEFAULT
+Layer          : L2:BOTTOM.art
+Time to check -  0:00
+Number of violations : 0
+=============  END DRC Run  =============
+
+==========  DRC Rules for RUN  ==========
+Redundant Pads : 
+Pass_p         : DEFAULT
+Layer          : L2:BOTTOM.art
+Start Time     : Wed Aug 08 10:30:55 2007
+
+-----------------------------------------
+-----------------------------------------
+Redundant Pads : 
+Pass_p         : DEFAULT
+Layer          : L2:BOTTOM.art
+Time to check -  0:00
+Number of violations : 0
+=============  END DRC Run  =============
+
+==========  DRC Rules for RUN  ==========
+Track To Track : min. Clearance: 0.008 in.
+Pass_p         : DEFAULT
+Layer          : L3:BOTTOM.art
+Start Time     : Wed Aug 08 10:30:55 2007
+
+-----------------------------------------
+Distance  Line:(0.1070000:0.6260000), (0.0900000:0.6090000)  Net:"Unknown" -
+  Line:(1.2590000:0.6090000), (0.1140000:0.6090000)  Net:"Unknown"
+Distance  Line:(0.1070000:0.6260000), (0.0900000:0.6090000)  Net:"Unknown" -
+  Line:(1.2590000:0.6090000), (0.1140000:0.6090000)  Net:"Unknown"
+Distance  Line:(0.1070000:0.6260000), (0.0900000:0.6090000)  Net:"Unknown" -
+  Line:(1.2590000:0.6090000), (0.1140000:0.6090000)  Net:"Unknown"
+Distance  Line:(0.1090000:0.7040000), (0.0910000:0.6860000)  Net:"Unknown" -
+  Line:(0.0770000:0.6480000), (0.1170000:0.6880000)  Net:"Unknown"
+Distance  Line:(0.1090000:0.7040000), (0.0910000:0.6860000)  Net:"Unknown" -
+  Line:(0.0770000:0.6480000), (0.1170000:0.6880000)  Net:"Unknown"
+Distance  Line:(0.1090000:0.7040000), (0.0910000:0.6860000)  Net:"Unknown" -
+  Line:(0.0770000:0.6480000), (0.1170000:0.6880000)  Net:"Unknown"
+-----------------------------------------
+Track To Track : min. Clearance: 0.008 in.
+Pass_p         : DEFAULT
+Layer          : L3:BOTTOM.art
+Time to check -  0:00
+Number of violations : 6
+=============  END DRC Run  =============
+
+==========  DRC Rules for RUN  ==========
+Track To Pad   : min. Clearance: 0.008 in.
+Pass_p         : DEFAULT
+Layer          : L3:BOTTOM.art
+Start Time     : Wed Aug 08 10:30:55 2007
+
+-----------------------------------------
+Distance  Line:(0.0530000:1.0040000), (0.0670000:1.0040000)  Net:"Unknown" - (0.0740000:1.0410000) Net:"Unknown"
+Distance  Line:(0.0530000:1.0040000), (0.0670000:1.0040000)  Net:"Unknown" - (0.0740000:1.0410000) Net:"Unknown"
+-----------------------------------------
+Track To Pad   : min. Clearance: 0.008 in.
+Pass_p         : DEFAULT
+Layer          : L3:BOTTOM.art
+Time to check -  0:00
+Number of violations : 2
+=============  END DRC Run  =============
+
+==========  DRC Rules for RUN  ==========
+Pad To Pad     : min. Clearance: 0.008 in.
+Pass_p         : DEFAULT
+Layer          : L3:BOTTOM.art
+Start Time     : Wed Aug 08 10:30:55 2007
+
+-----------------------------------------
+-----------------------------------------
+Pad To Pad     : min. Clearance: 0.008 in.
+Pass_p         : DEFAULT
+Layer          : L3:BOTTOM.art
+Time to check -  0:00
+Number of violations : 0
+=============  END DRC Run  =============
+
+==========  DRC Rules for RUN  ==========
+Min Track Size : min. Size: 0.008 in.
+Pass_p         : DEFAULT
+Layer          : L3:BOTTOM.art
+Start Time     : Wed Aug 08 10:30:55 2007
+
+-----------------------------------------
+-----------------------------------------
+Min Track Size : min. Size: 0.008 in.
+Pass_p         : DEFAULT
+Layer          : L3:BOTTOM.art
+Time to check -  0:00
+Number of violations : 0
+=============  END DRC Run  =============
+
+==========  DRC Rules for RUN  ==========
+Min Pad Size   : min. Size: 0.008 in.
+Pass_p         : DEFAULT
+Layer          : L3:BOTTOM.art
+Start Time     : Wed Aug 08 10:30:55 2007
+
+-----------------------------------------
+-----------------------------------------
+Min Pad Size   : min. Size: 0.008 in.
+Pass_p         : DEFAULT
+Layer          : L3:BOTTOM.art
+Time to check -  0:00
+Number of violations : 0
+=============  END DRC Run  =============
+
+==========  DRC Rules for RUN  ==========
+Redundant Pads : 
+Pass_p         : DEFAULT
+Layer          : L3:BOTTOM.art
+Start Time     : Wed Aug 08 10:30:55 2007
+
+-----------------------------------------
+-----------------------------------------
+Redundant Pads : 
+Pass_p         : DEFAULT
+Layer          : L3:BOTTOM.art
+Time to check -  0:00
+Number of violations : 0
+=============  END DRC Run  =============
+
+==========  DRC Rules for RUN  ==========
+Track To Track : min. Clearance: 0.008 in.
+Pass_p         : DEFAULT
+Layer          : L4:TOP.art
+Start Time     : Wed Aug 08 10:30:55 2007
+
+-----------------------------------------
+-----------------------------------------
+Track To Track : min. Clearance: 0.008 in.
+Pass_p         : DEFAULT
+Layer          : L4:TOP.art
+Time to check -  0:00
+Number of violations : 0
+=============  END DRC Run  =============
+
+==========  DRC Rules for RUN  ==========
+Track To Pad   : min. Clearance: 0.008 in.
+Pass_p         : DEFAULT
+Layer          : L4:TOP.art
+Start Time     : Wed Aug 08 10:30:55 2007
+
+-----------------------------------------
+-----------------------------------------
+Track To Pad   : min. Clearance: 0.008 in.
+Pass_p         : DEFAULT
+Layer          : L4:TOP.art
+Time to check -  0:00
+Number of violations : 0
+=============  END DRC Run  =============
+
+==========  DRC Rules for RUN  ==========
+Pad To Pad     : min. Clearance: 0.008 in.
+Pass_p         : DEFAULT
+Layer          : L4:TOP.art
+Start Time     : Wed Aug 08 10:30:55 2007
+
+-----------------------------------------
+-----------------------------------------
+Pad To Pad     : min. Clearance: 0.008 in.
+Pass_p         : DEFAULT
+Layer          : L4:TOP.art
+Time to check -  0:00
+Number of violations : 0
+=============  END DRC Run  =============
+
+==========  DRC Rules for RUN  ==========
+Min Track Size : min. Size: 0.008 in.
+Pass_p         : DEFAULT
+Layer          : L4:TOP.art
+Start Time     : Wed Aug 08 10:30:55 2007
+
+-----------------------------------------
+-----------------------------------------
+Min Track Size : min. Size: 0.008 in.
+Pass_p         : DEFAULT
+Layer          : L4:TOP.art
+Time to check -  0:00
+Number of violations : 0
+=============  END DRC Run  =============
+
+==========  DRC Rules for RUN  ==========
+Min Pad Size   : min. Size: 0.008 in.
+Pass_p         : DEFAULT
+Layer          : L4:TOP.art
+Start Time     : Wed Aug 08 10:30:55 2007
+
+-----------------------------------------
+-----------------------------------------
+Min Pad Size   : min. Size: 0.008 in.
+Pass_p         : DEFAULT
+Layer          : L4:TOP.art
+Time to check -  0:00
+Number of violations : 0
+=============  END DRC Run  =============
+
+==========  DRC Rules for RUN  ==========
+Redundant Pads : 
+Pass_p         : DEFAULT
+Layer          : L4:TOP.art
+Start Time     : Wed Aug 08 10:30:55 2007
+
+-----------------------------------------
+-----------------------------------------
+Redundant Pads : 
+Pass_p         : DEFAULT
+Layer          : L4:TOP.art
+Time to check -  0:00
+Number of violations : 0
+=============  END DRC Run  =============
+
+==========  DRC Rules for RUN  ==========
+Track To Track : min. Clearance: 0.008 in.
+Pass_p         : DEFAULT
+Layer          : L5:TOP.art
+Start Time     : Wed Aug 08 10:30:55 2007
+
+-----------------------------------------
+-----------------------------------------
+Track To Track : min. Clearance: 0.008 in.
+Pass_p         : DEFAULT
+Layer          : L5:TOP.art
+Time to check -  0:01
+Number of violations : 0
+=============  END DRC Run  =============
+
+==========  DRC Rules for RUN  ==========
+Track To Pad   : min. Clearance: 0.008 in.
+Pass_p         : DEFAULT
+Layer          : L5:TOP.art
+Start Time     : Wed Aug 08 10:30:56 2007
+
+-----------------------------------------
+-----------------------------------------
+Track To Pad   : min. Clearance: 0.008 in.
+Pass_p         : DEFAULT
+Layer          : L5:TOP.art
+Time to check -  0:00
+Number of violations : 0
+=============  END DRC Run  =============
+
+==========  DRC Rules for RUN  ==========
+Pad To Pad     : min. Clearance: 0.008 in.
+Pass_p         : DEFAULT
+Layer          : L5:TOP.art
+Start Time     : Wed Aug 08 10:30:56 2007
+
+-----------------------------------------
+-----------------------------------------
+Pad To Pad     : min. Clearance: 0.008 in.
+Pass_p         : DEFAULT
+Layer          : L5:TOP.art
+Time to check -  0:00
+Number of violations : 0
+=============  END DRC Run  =============
+
+==========  DRC Rules for RUN  ==========
+Min Track Size : min. Size: 0.008 in.
+Pass_p         : DEFAULT
+Layer          : L5:TOP.art
+Start Time     : Wed Aug 08 10:30:56 2007
+
+-----------------------------------------
+-----------------------------------------
+Min Track Size : min. Size: 0.008 in.
+Pass_p         : DEFAULT
+Layer          : L5:TOP.art
+Time to check -  0:00
+Number of violations : 0
+=============  END DRC Run  =============
+
+==========  DRC Rules for RUN  ==========
+Min Pad Size   : min. Size: 0.008 in.
+Pass_p         : DEFAULT
+Layer          : L5:TOP.art
+Start Time     : Wed Aug 08 10:30:56 2007
+
+-----------------------------------------
+-----------------------------------------
+Min Pad Size   : min. Size: 0.008 in.
+Pass_p         : DEFAULT
+Layer          : L5:TOP.art
+Time to check -  0:00
+Number of violations : 0
+=============  END DRC Run  =============
+
+==========  DRC Rules for RUN  ==========
+Redundant Pads : 
+Pass_p         : DEFAULT
+Layer          : L5:TOP.art
+Start Time     : Wed Aug 08 10:30:56 2007
+
+-----------------------------------------
+-----------------------------------------
+Redundant Pads : 
+Pass_p         : DEFAULT
+Layer          : L5:TOP.art
+Time to check -  0:00
+Number of violations : 0
+=============  END DRC Run  =============
+
+==========  DRC Rules for RUN  ==========
+Track To Track : min. Clearance: 0.008 in.
+Pass_p         : DEFAULT
+Layer          : L6:TOP.art
+Start Time     : Wed Aug 08 10:30:56 2007
+
+-----------------------------------------
+Distance  Line:(0.1390000:0.2570000), (0.1120000:0.2840000)  Net:"Unknown" -
+  Line:(0.0880000:0.3330000), (0.1280000:0.2920000)  Net:"Unknown"
+Distance  Line:(0.1390000:0.2570000), (0.1120000:0.2840000)  Net:"Unknown" -
+  Line:(0.0880000:0.3330000), (0.1280000:0.2920000)  Net:"Unknown"
+Distance  Line:(0.0350000:0.5300000), (1.1810000:0.5300000)  Net:"Unknown" -
+  Line:(1.1880000:0.5470000), (1.2040000:0.5310000)  Net:"Unknown"
+Distance  Line:(0.0350000:0.5300000), (1.1810000:0.5300000)  Net:"Unknown" -
+  Line:(1.1880000:0.5470000), (1.2040000:0.5310000)  Net:"Unknown"
+Distance  Line:(0.0350000:0.5300000), (1.1810000:0.5300000)  Net:"Unknown" -
+  Line:(1.1880000:0.5470000), (1.2040000:0.5310000)  Net:"Unknown"
+Distance  Line:(-0.0200000:0.8460000), (0.0140000:0.8460000)  Net:"Unknown" -
+  Line:(0.0220000:0.8300000), (0.0360000:0.8440000)  Net:"Unknown"
+Distance  Line:(-0.0200000:0.8460000), (0.0140000:0.8460000)  Net:"Unknown" -
+  Line:(0.0220000:0.8300000), (0.0360000:0.8440000)  Net:"Unknown"
+Distance  Line:(-0.0200000:0.8460000), (0.0140000:0.8460000)  Net:"Unknown" -
+  Line:(0.0220000:0.8300000), (0.0360000:0.8440000)  Net:"Unknown"
+Distance  Line:(0.0350000:0.6880000), (1.1810000:0.6880000)  Net:"Unknown" -
+  Line:(1.1880000:0.7050000), (1.2050000:0.6880000)  Net:"Unknown"
+Distance  Line:(0.0350000:0.6880000), (1.1810000:0.6880000)  Net:"Unknown" -
+  Line:(1.1880000:0.7050000), (1.2050000:0.6880000)  Net:"Unknown"
+Distance  Line:(0.0350000:0.6880000), (1.1810000:0.6880000)  Net:"Unknown" -
+  Line:(1.1880000:0.7050000), (1.2050000:0.6880000)  Net:"Unknown"
+-----------------------------------------
+Track To Track : min. Clearance: 0.008 in.
+Pass_p         : DEFAULT
+Layer          : L6:TOP.art
+Time to check -  0:00
+Number of violations : 11
+=============  END DRC Run  =============
+
+==========  DRC Rules for RUN  ==========
+Track To Pad   : min. Clearance: 0.008 in.
+Pass_p         : DEFAULT
+Layer          : L6:TOP.art
+Start Time     : Wed Aug 08 10:30:56 2007
+
+-----------------------------------------
+Distance  Line:(0.1120000:0.2840000), (0.1040000:0.2920000)  Net:"Unknown" - (0.0740000:0.2540000) Net:"Unknown"
+Distance  Line:(0.0330000:0.3960000), (0.0100000:0.3720000)  Net:"Unknown" - (-0.0050000:0.4110000) Net:"Unknown"
+Distance  Line:(1.2050000:0.8460000), (1.1820000:0.8690000)  Net:"Unknown" - (1.2200000:0.8840000) Net:"Unknown"
+-----------------------------------------
+Track To Pad   : min. Clearance: 0.008 in.
+Pass_p         : DEFAULT
+Layer          : L6:TOP.art
+Time to check -  0:00
+Number of violations : 3
+=============  END DRC Run  =============
+
+==========  DRC Rules for RUN  ==========
+Pad To Pad     : min. Clearance: 0.008 in.
+Pass_p         : DEFAULT
+Layer          : L6:TOP.art
+Start Time     : Wed Aug 08 10:30:56 2007
+
+-----------------------------------------
+-----------------------------------------
+Pad To Pad     : min. Clearance: 0.008 in.
+Pass_p         : DEFAULT
+Layer          : L6:TOP.art
+Time to check -  0:00
+Number of violations : 0
+=============  END DRC Run  =============
+
+==========  DRC Rules for RUN  ==========
+Min Track Size : min. Size: 0.008 in.
+Pass_p         : DEFAULT
+Layer          : L6:TOP.art
+Start Time     : Wed Aug 08 10:30:56 2007
+
+-----------------------------------------
+-----------------------------------------
+Min Track Size : min. Size: 0.008 in.
+Pass_p         : DEFAULT
+Layer          : L6:TOP.art
+Time to check -  0:00
+Number of violations : 0
+=============  END DRC Run  =============
+
+==========  DRC Rules for RUN  ==========
+Min Pad Size   : min. Size: 0.008 in.
+Pass_p         : DEFAULT
+Layer          : L6:TOP.art
+Start Time     : Wed Aug 08 10:30:56 2007
+
+-----------------------------------------
+-----------------------------------------
+Min Pad Size   : min. Size: 0.008 in.
+Pass_p         : DEFAULT
+Layer          : L6:TOP.art
+Time to check -  0:00
+Number of violations : 0
+=============  END DRC Run  =============
+
+==========  DRC Rules for RUN  ==========
+Redundant Pads : 
+Pass_p         : DEFAULT
+Layer          : L6:TOP.art
+Start Time     : Wed Aug 08 10:30:56 2007
+
+-----------------------------------------
+-----------------------------------------
+Redundant Pads : 
+Pass_p         : DEFAULT
+Layer          : L6:TOP.art
+Time to check -  0:00
+Number of violations : 0
+=============  END DRC Run  =============
+
+
+Design         : 
+Start Time/Date: Wed Aug 08 10:30:54 2007
+End   Time/Date: Wed Aug 08 10:30:56 2007
+Total Time -  0:02
+>>>>>>>>>>>> END report file <<<<<<<<<<<<
+>
+>
+>   END OF PREVIOUS FILE
+>
+>
+>>>>>>>>>>>> DRC report file <<<<<<<<<<<<
+Design         : 
+Time/Date      : Wed Aug 08 10:29:59 2007
+Units          : Inches
+==========  DRC Rules for RUN  ==========
+Track To Track : min. Clearance: 0.0075 in.
+Pass_p         : DEFAULT
+Layer          : L1:BOTTOM.art
+Start Time     : Wed Aug 08 10:30:00 2007
+
+-----------------------------------------
+-----------------------------------------
+Track To Track : min. Clearance: 0.0075 in.
+Pass_p         : DEFAULT
+Layer          : L1:BOTTOM.art
+Time to check -  0:00
+Number of violations : 0
+=============  END DRC Run  =============
+
+==========  DRC Rules for RUN  ==========
+Track To Pad   : min. Clearance: 0.0075 in.
+Pass_p         : DEFAULT
+Layer          : L1:BOTTOM.art
+Start Time     : Wed Aug 08 10:30:00 2007
+
+-----------------------------------------
+-----------------------------------------
+Track To Pad   : min. Clearance: 0.0075 in.
+Pass_p         : DEFAULT
+Layer          : L1:BOTTOM.art
+Time to check -  0:00
+Number of violations : 0
+=============  END DRC Run  =============
+
+==========  DRC Rules for RUN  ==========
+Pad To Pad     : min. Clearance: 0.0075 in.
+Pass_p         : DEFAULT
+Layer          : L1:BOTTOM.art
+Start Time     : Wed Aug 08 10:30:00 2007
+
+-----------------------------------------
+-----------------------------------------
+Pad To Pad     : min. Clearance: 0.0075 in.
+Pass_p         : DEFAULT
+Layer          : L1:BOTTOM.art
+Time to check -  0:00
+Number of violations : 0
+=============  END DRC Run  =============
+
+==========  DRC Rules for RUN  ==========
+Min Track Size : min. Size: 0.0075 in.
+Pass_p         : DEFAULT
+Layer          : L1:BOTTOM.art
+Start Time     : Wed Aug 08 10:30:00 2007
+
+-----------------------------------------
+-----------------------------------------
+Min Track Size : min. Size: 0.0075 in.
+Pass_p         : DEFAULT
+Layer          : L1:BOTTOM.art
+Time to check -  0:00
+Number of violations : 0
+=============  END DRC Run  =============
+
+==========  DRC Rules for RUN  ==========
+Min Pad Size   : min. Size: 0.0075 in.
+Pass_p         : DEFAULT
+Layer          : L1:BOTTOM.art
+Start Time     : Wed Aug 08 10:30:00 2007
+
+-----------------------------------------
+-----------------------------------------
+Min Pad Size   : min. Size: 0.0075 in.
+Pass_p         : DEFAULT
+Layer          : L1:BOTTOM.art
+Time to check -  0:00
+Number of violations : 0
+=============  END DRC Run  =============
+
+==========  DRC Rules for RUN  ==========
+Redundant Pads : 
+Pass_p         : DEFAULT
+Layer          : L1:BOTTOM.art
+Start Time     : Wed Aug 08 10:30:00 2007
+
+-----------------------------------------
+-----------------------------------------
+Redundant Pads : 
+Pass_p         : DEFAULT
+Layer          : L1:BOTTOM.art
+Time to check -  0:00
+Number of violations : 0
+=============  END DRC Run  =============
+
+==========  DRC Rules for RUN  ==========
+Track To Track : min. Clearance: 0.0075 in.
+Pass_p         : DEFAULT
+Layer          : L2:BOTTOM.art
+Start Time     : Wed Aug 08 10:30:00 2007
+
+-----------------------------------------
+-----------------------------------------
+Track To Track : min. Clearance: 0.0075 in.
+Pass_p         : DEFAULT
+Layer          : L2:BOTTOM.art
+Time to check -  0:00
+Number of violations : 0
+=============  END DRC Run  =============
+
+==========  DRC Rules for RUN  ==========
+Track To Pad   : min. Clearance: 0.0075 in.
+Pass_p         : DEFAULT
+Layer          : L2:BOTTOM.art
+Start Time     : Wed Aug 08 10:30:00 2007
+
+-----------------------------------------
+-----------------------------------------
+Track To Pad   : min. Clearance: 0.0075 in.
+Pass_p         : DEFAULT
+Layer          : L2:BOTTOM.art
+Time to check -  0:00
+Number of violations : 0
+=============  END DRC Run  =============
+
+==========  DRC Rules for RUN  ==========
+Pad To Pad     : min. Clearance: 0.0075 in.
+Pass_p         : DEFAULT
+Layer          : L2:BOTTOM.art
+Start Time     : Wed Aug 08 10:30:00 2007
+
+-----------------------------------------
+-----------------------------------------
+Pad To Pad     : min. Clearance: 0.0075 in.
+Pass_p         : DEFAULT
+Layer          : L2:BOTTOM.art
+Time to check -  0:00
+Number of violations : 0
+=============  END DRC Run  =============
+
+==========  DRC Rules for RUN  ==========
+Min Track Size : min. Size: 0.0075 in.
+Pass_p         : DEFAULT
+Layer          : L2:BOTTOM.art
+Start Time     : Wed Aug 08 10:30:00 2007
+
+-----------------------------------------
+-----------------------------------------
+Min Track Size : min. Size: 0.0075 in.
+Pass_p         : DEFAULT
+Layer          : L2:BOTTOM.art
+Time to check -  0:00
+Number of violations : 0
+=============  END DRC Run  =============
+
+==========  DRC Rules for RUN  ==========
+Min Pad Size   : min. Size: 0.0075 in.
+Pass_p         : DEFAULT
+Layer          : L2:BOTTOM.art
+Start Time     : Wed Aug 08 10:30:00 2007
+
+-----------------------------------------
+-----------------------------------------
+Min Pad Size   : min. Size: 0.0075 in.
+Pass_p         : DEFAULT
+Layer          : L2:BOTTOM.art
+Time to check -  0:00
+Number of violations : 0
+=============  END DRC Run  =============
+
+==========  DRC Rules for RUN  ==========
+Redundant Pads : 
+Pass_p         : DEFAULT
+Layer          : L2:BOTTOM.art
+Start Time     : Wed Aug 08 10:30:00 2007
+
+-----------------------------------------
+-----------------------------------------
+Redundant Pads : 
+Pass_p         : DEFAULT
+Layer          : L2:BOTTOM.art
+Time to check -  0:00
+Number of violations : 0
+=============  END DRC Run  =============
+
+==========  DRC Rules for RUN  ==========
+Track To Track : min. Clearance: 0.0075 in.
+Pass_p         : DEFAULT
+Layer          : L3:BOTTOM.art
+Start Time     : Wed Aug 08 10:30:00 2007
+
+-----------------------------------------
+-----------------------------------------
+Track To Track : min. Clearance: 0.0075 in.
+Pass_p         : DEFAULT
+Layer          : L3:BOTTOM.art
+Time to check -  0:00
+Number of violations : 0
+=============  END DRC Run  =============
+
+==========  DRC Rules for RUN  ==========
+Track To Pad   : min. Clearance: 0.0075 in.
+Pass_p         : DEFAULT
+Layer          : L3:BOTTOM.art
+Start Time     : Wed Aug 08 10:30:00 2007
+
+-----------------------------------------
+-----------------------------------------
+Track To Pad   : min. Clearance: 0.0075 in.
+Pass_p         : DEFAULT
+Layer          : L3:BOTTOM.art
+Time to check -  0:00
+Number of violations : 0
+=============  END DRC Run  =============
+
+==========  DRC Rules for RUN  ==========
+Pad To Pad     : min. Clearance: 0.0075 in.
+Pass_p         : DEFAULT
+Layer          : L3:BOTTOM.art
+Start Time     : Wed Aug 08 10:30:00 2007
+
+-----------------------------------------
+-----------------------------------------
+Pad To Pad     : min. Clearance: 0.0075 in.
+Pass_p         : DEFAULT
+Layer          : L3:BOTTOM.art
+Time to check -  0:00
+Number of violations : 0
+=============  END DRC Run  =============
+
+==========  DRC Rules for RUN  ==========
+Min Track Size : min. Size: 0.0075 in.
+Pass_p         : DEFAULT
+Layer          : L3:BOTTOM.art
+Start Time     : Wed Aug 08 10:30:00 2007
+
+-----------------------------------------
+-----------------------------------------
+Min Track Size : min. Size: 0.0075 in.
+Pass_p         : DEFAULT
+Layer          : L3:BOTTOM.art
+Time to check -  0:00
+Number of violations : 0
+=============  END DRC Run  =============
+
+==========  DRC Rules for RUN  ==========
+Min Pad Size   : min. Size: 0.0075 in.
+Pass_p         : DEFAULT
+Layer          : L3:BOTTOM.art
+Start Time     : Wed Aug 08 10:30:00 2007
+
+-----------------------------------------
+-----------------------------------------
+Min Pad Size   : min. Size: 0.0075 in.
+Pass_p         : DEFAULT
+Layer          : L3:BOTTOM.art
+Time to check -  0:00
+Number of violations : 0
+=============  END DRC Run  =============
+
+==========  DRC Rules for RUN  ==========
+Redundant Pads : 
+Pass_p         : DEFAULT
+Layer          : L3:BOTTOM.art
+Start Time     : Wed Aug 08 10:30:00 2007
+
+-----------------------------------------
+-----------------------------------------
+Redundant Pads : 
+Pass_p         : DEFAULT
+Layer          : L3:BOTTOM.art
+Time to check -  0:01
+Number of violations : 0
+=============  END DRC Run  =============
+
+==========  DRC Rules for RUN  ==========
+Track To Track : min. Clearance: 0.0075 in.
+Pass_p         : DEFAULT
+Layer          : L4:TOP.art
+Start Time     : Wed Aug 08 10:30:01 2007
+
+-----------------------------------------
+-----------------------------------------
+Track To Track : min. Clearance: 0.0075 in.
+Pass_p         : DEFAULT
+Layer          : L4:TOP.art
+Time to check -  0:00
+Number of violations : 0
+=============  END DRC Run  =============
+
+==========  DRC Rules for RUN  ==========
+Track To Pad   : min. Clearance: 0.0075 in.
+Pass_p         : DEFAULT
+Layer          : L4:TOP.art
+Start Time     : Wed Aug 08 10:30:01 2007
+
+-----------------------------------------
+-----------------------------------------
+Track To Pad   : min. Clearance: 0.0075 in.
+Pass_p         : DEFAULT
+Layer          : L4:TOP.art
+Time to check -  0:00
+Number of violations : 0
+=============  END DRC Run  =============
+
+==========  DRC Rules for RUN  ==========
+Pad To Pad     : min. Clearance: 0.0075 in.
+Pass_p         : DEFAULT
+Layer          : L4:TOP.art
+Start Time     : Wed Aug 08 10:30:01 2007
+
+-----------------------------------------
+-----------------------------------------
+Pad To Pad     : min. Clearance: 0.0075 in.
+Pass_p         : DEFAULT
+Layer          : L4:TOP.art
+Time to check -  0:00
+Number of violations : 0
+=============  END DRC Run  =============
+
+==========  DRC Rules for RUN  ==========
+Min Track Size : min. Size: 0.0075 in.
+Pass_p         : DEFAULT
+Layer          : L4:TOP.art
+Start Time     : Wed Aug 08 10:30:01 2007
+
+-----------------------------------------
+-----------------------------------------
+Min Track Size : min. Size: 0.0075 in.
+Pass_p         : DEFAULT
+Layer          : L4:TOP.art
+Time to check -  0:00
+Number of violations : 0
+=============  END DRC Run  =============
+
+==========  DRC Rules for RUN  ==========
+Min Pad Size   : min. Size: 0.0075 in.
+Pass_p         : DEFAULT
+Layer          : L4:TOP.art
+Start Time     : Wed Aug 08 10:30:01 2007
+
+-----------------------------------------
+-----------------------------------------
+Min Pad Size   : min. Size: 0.0075 in.
+Pass_p         : DEFAULT
+Layer          : L4:TOP.art
+Time to check -  0:00
+Number of violations : 0
+=============  END DRC Run  =============
+
+==========  DRC Rules for RUN  ==========
+Redundant Pads : 
+Pass_p         : DEFAULT
+Layer          : L4:TOP.art
+Start Time     : Wed Aug 08 10:30:01 2007
+
+-----------------------------------------
+-----------------------------------------
+Redundant Pads : 
+Pass_p         : DEFAULT
+Layer          : L4:TOP.art
+Time to check -  0:00
+Number of violations : 0
+=============  END DRC Run  =============
+
+==========  DRC Rules for RUN  ==========
+Track To Track : min. Clearance: 0.0075 in.
+Pass_p         : DEFAULT
+Layer          : L5:TOP.art
+Start Time     : Wed Aug 08 10:30:01 2007
+
+-----------------------------------------
+-----------------------------------------
+Track To Track : min. Clearance: 0.0075 in.
+Pass_p         : DEFAULT
+Layer          : L5:TOP.art
+Time to check -  0:00
+Number of violations : 0
+=============  END DRC Run  =============
+
+==========  DRC Rules for RUN  ==========
+Track To Pad   : min. Clearance: 0.0075 in.
+Pass_p         : DEFAULT
+Layer          : L5:TOP.art
+Start Time     : Wed Aug 08 10:30:01 2007
+
+-----------------------------------------
+-----------------------------------------
+Track To Pad   : min. Clearance: 0.0075 in.
+Pass_p         : DEFAULT
+Layer          : L5:TOP.art
+Time to check -  0:00
+Number of violations : 0
+=============  END DRC Run  =============
+
+==========  DRC Rules for RUN  ==========
+Pad To Pad     : min. Clearance: 0.0075 in.
+Pass_p         : DEFAULT
+Layer          : L5:TOP.art
+Start Time     : Wed Aug 08 10:30:01 2007
+
+-----------------------------------------
+-----------------------------------------
+Pad To Pad     : min. Clearance: 0.0075 in.
+Pass_p         : DEFAULT
+Layer          : L5:TOP.art
+Time to check -  0:00
+Number of violations : 0
+=============  END DRC Run  =============
+
+==========  DRC Rules for RUN  ==========
+Min Track Size : min. Size: 0.0075 in.
+Pass_p         : DEFAULT
+Layer          : L5:TOP.art
+Start Time     : Wed Aug 08 10:30:01 2007
+
+-----------------------------------------
+-----------------------------------------
+Min Track Size : min. Size: 0.0075 in.
+Pass_p         : DEFAULT
+Layer          : L5:TOP.art
+Time to check -  0:00
+Number of violations : 0
+=============  END DRC Run  =============
+
+==========  DRC Rules for RUN  ==========
+Min Pad Size   : min. Size: 0.0075 in.
+Pass_p         : DEFAULT
+Layer          : L5:TOP.art
+Start Time     : Wed Aug 08 10:30:01 2007
+
+-----------------------------------------
+-----------------------------------------
+Min Pad Size   : min. Size: 0.0075 in.
+Pass_p         : DEFAULT
+Layer          : L5:TOP.art
+Time to check -  0:00
+Number of violations : 0
+=============  END DRC Run  =============
+
+==========  DRC Rules for RUN  ==========
+Redundant Pads : 
+Pass_p         : DEFAULT
+Layer          : L5:TOP.art
+Start Time     : Wed Aug 08 10:30:01 2007
+
+-----------------------------------------
+-----------------------------------------
+Redundant Pads : 
+Pass_p         : DEFAULT
+Layer          : L5:TOP.art
+Time to check -  0:00
+Number of violations : 0
+=============  END DRC Run  =============
+
+==========  DRC Rules for RUN  ==========
+Track To Track : min. Clearance: 0.0075 in.
+Pass_p         : DEFAULT
+Layer          : L6:TOP.art
+Start Time     : Wed Aug 08 10:30:01 2007
+
+-----------------------------------------
+-----------------------------------------
+Track To Track : min. Clearance: 0.0075 in.
+Pass_p         : DEFAULT
+Layer          : L6:TOP.art
+Time to check -  0:00
+Number of violations : 0
+=============  END DRC Run  =============
+
+==========  DRC Rules for RUN  ==========
+Track To Pad   : min. Clearance: 0.0075 in.
+Pass_p         : DEFAULT
+Layer          : L6:TOP.art
+Start Time     : Wed Aug 08 10:30:01 2007
+
+-----------------------------------------
+Distance  Line:(1.2050000:0.8460000), (1.1820000:0.8690000)  Net:"Unknown" - (1.2200000:0.8840000) Net:"Unknown"
+-----------------------------------------
+Track To Pad   : min. Clearance: 0.0075 in.
+Pass_p         : DEFAULT
+Layer          : L6:TOP.art
+Time to check -  0:00
+Number of violations : 1
+=============  END DRC Run  =============
+
+==========  DRC Rules for RUN  ==========
+Pad To Pad     : min. Clearance: 0.0075 in.
+Pass_p         : DEFAULT
+Layer          : L6:TOP.art
+Start Time     : Wed Aug 08 10:30:01 2007
+
+-----------------------------------------
+-----------------------------------------
+Pad To Pad     : min. Clearance: 0.0075 in.
+Pass_p         : DEFAULT
+Layer          : L6:TOP.art
+Time to check -  0:00
+Number of violations : 0
+=============  END DRC Run  =============
+
+==========  DRC Rules for RUN  ==========
+Min Track Size : min. Size: 0.0075 in.
+Pass_p         : DEFAULT
+Layer          : L6:TOP.art
+Start Time     : Wed Aug 08 10:30:01 2007
+
+-----------------------------------------
+-----------------------------------------
+Min Track Size : min. Size: 0.0075 in.
+Pass_p         : DEFAULT
+Layer          : L6:TOP.art
+Time to check -  0:00
+Number of violations : 0
+=============  END DRC Run  =============
+
+==========  DRC Rules for RUN  ==========
+Min Pad Size   : min. Size: 0.0075 in.
+Pass_p         : DEFAULT
+Layer          : L6:TOP.art
+Start Time     : Wed Aug 08 10:30:01 2007
+
+-----------------------------------------
+-----------------------------------------
+Min Pad Size   : min. Size: 0.0075 in.
+Pass_p         : DEFAULT
+Layer          : L6:TOP.art
+Time to check -  0:00
+Number of violations : 0
+=============  END DRC Run  =============
+
+==========  DRC Rules for RUN  ==========
+Redundant Pads : 
+Pass_p         : DEFAULT
+Layer          : L6:TOP.art
+Start Time     : Wed Aug 08 10:30:01 2007
+
+-----------------------------------------
+-----------------------------------------
+Redundant Pads : 
+Pass_p         : DEFAULT
+Layer          : L6:TOP.art
+Time to check -  0:00
+Number of violations : 0
+=============  END DRC Run  =============
+
+==========  DRC Rules for RUN  ==========
+Track To Track : min. Clearance: 0.0075 in.
+Pass_p         : DEFAULT
+Layer          : L7:solder_BOTTOM.a
+Start Time     : Wed Aug 08 10:30:01 2007
+
+-----------------------------------------
+-----------------------------------------
+Track To Track : min. Clearance: 0.0075 in.
+Pass_p         : DEFAULT
+Layer          : L7:solder_BOTTOM.a
+Time to check -  0:00
+Number of violations : 0
+=============  END DRC Run  =============
+
+==========  DRC Rules for RUN  ==========
+Track To Pad   : min. Clearance: 0.0075 in.
+Pass_p         : DEFAULT
+Layer          : L7:solder_BOTTOM.a
+Start Time     : Wed Aug 08 10:30:01 2007
+
+-----------------------------------------
+-----------------------------------------
+Track To Pad   : min. Clearance: 0.0075 in.
+Pass_p         : DEFAULT
+Layer          : L7:solder_BOTTOM.a
+Time to check -  0:01
+Number of violations : 0
+=============  END DRC Run  =============
+
+==========  DRC Rules for RUN  ==========
+Pad To Pad     : min. Clearance: 0.0075 in.
+Pass_p         : DEFAULT
+Layer          : L7:solder_BOTTOM.a
+Start Time     : Wed Aug 08 10:30:02 2007
+
+-----------------------------------------
+-----------------------------------------
+Pad To Pad     : min. Clearance: 0.0075 in.
+Pass_p         : DEFAULT
+Layer          : L7:solder_BOTTOM.a
+Time to check -  0:00
+Number of violations : 0
+=============  END DRC Run  =============
+
+==========  DRC Rules for RUN  ==========
+Min Track Size : min. Size: 0.0075 in.
+Pass_p         : DEFAULT
+Layer          : L7:solder_BOTTOM.a
+Start Time     : Wed Aug 08 10:30:02 2007
+
+-----------------------------------------
+-----------------------------------------
+Min Track Size : min. Size: 0.0075 in.
+Pass_p         : DEFAULT
+Layer          : L7:solder_BOTTOM.a
+Time to check -  0:00
+Number of violations : 0
+=============  END DRC Run  =============
+
+==========  DRC Rules for RUN  ==========
+Min Pad Size   : min. Size: 0.0075 in.
+Pass_p         : DEFAULT
+Layer          : L7:solder_BOTTOM.a
+Start Time     : Wed Aug 08 10:30:02 2007
+
+-----------------------------------------
+-----------------------------------------
+Min Pad Size   : min. Size: 0.0075 in.
+Pass_p         : DEFAULT
+Layer          : L7:solder_BOTTOM.a
+Time to check -  0:00
+Number of violations : 0
+=============  END DRC Run  =============
+
+==========  DRC Rules for RUN  ==========
+Redundant Pads : 
+Pass_p         : DEFAULT
+Layer          : L7:solder_BOTTOM.a
+Start Time     : Wed Aug 08 10:30:02 2007
+
+-----------------------------------------
+-----------------------------------------
+Redundant Pads : 
+Pass_p         : DEFAULT
+Layer          : L7:solder_BOTTOM.a
+Time to check -  0:00
+Number of violations : 0
+=============  END DRC Run  =============
+
+==========  DRC Rules for RUN  ==========
+Track To Track : min. Clearance: 0.0075 in.
+Pass_p         : DEFAULT
+Layer          : L8:solder_TOP.art
+Start Time     : Wed Aug 08 10:30:02 2007
+
+-----------------------------------------
+-----------------------------------------
+Track To Track : min. Clearance: 0.0075 in.
+Pass_p         : DEFAULT
+Layer          : L8:solder_TOP.art
+Time to check -  0:00
+Number of violations : 0
+=============  END DRC Run  =============
+
+==========  DRC Rules for RUN  ==========
+Track To Pad   : min. Clearance: 0.0075 in.
+Pass_p         : DEFAULT
+Layer          : L8:solder_TOP.art
+Start Time     : Wed Aug 08 10:30:02 2007
+
+-----------------------------------------
+-----------------------------------------
+Track To Pad   : min. Clearance: 0.0075 in.
+Pass_p         : DEFAULT
+Layer          : L8:solder_TOP.art
+Time to check -  0:00
+Number of violations : 0
+=============  END DRC Run  =============
+
+==========  DRC Rules for RUN  ==========
+Pad To Pad     : min. Clearance: 0.0075 in.
+Pass_p         : DEFAULT
+Layer          : L8:solder_TOP.art
+Start Time     : Wed Aug 08 10:30:02 2007
+
+-----------------------------------------
+-----------------------------------------
+Pad To Pad     : min. Clearance: 0.0075 in.
+Pass_p         : DEFAULT
+Layer          : L8:solder_TOP.art
+Time to check -  0:00
+Number of violations : 0
+=============  END DRC Run  =============
+
+==========  DRC Rules for RUN  ==========
+Min Track Size : min. Size: 0.0075 in.
+Pass_p         : DEFAULT
+Layer          : L8:solder_TOP.art
+Start Time     : Wed Aug 08 10:30:02 2007
+
+-----------------------------------------
+-----------------------------------------
+Min Track Size : min. Size: 0.0075 in.
+Pass_p         : DEFAULT
+Layer          : L8:solder_TOP.art
+Time to check -  0:00
+Number of violations : 0
+=============  END DRC Run  =============
+
+==========  DRC Rules for RUN  ==========
+Min Pad Size   : min. Size: 0.0075 in.
+Pass_p         : DEFAULT
+Layer          : L8:solder_TOP.art
+Start Time     : Wed Aug 08 10:30:02 2007
+
+-----------------------------------------
+-----------------------------------------
+Min Pad Size   : min. Size: 0.0075 in.
+Pass_p         : DEFAULT
+Layer          : L8:solder_TOP.art
+Time to check -  0:00
+Number of violations : 0
+=============  END DRC Run  =============
+
+==========  DRC Rules for RUN  ==========
+Redundant Pads : 
+Pass_p         : DEFAULT
+Layer          : L8:solder_TOP.art
+Start Time     : Wed Aug 08 10:30:02 2007
+
+-----------------------------------------
+-----------------------------------------
+Redundant Pads : 
+Pass_p         : DEFAULT
+Layer          : L8:solder_TOP.art
+Time to check -  0:00
+Number of violations : 0
+=============  END DRC Run  =============
+
+
+Design         : 
+Start Time/Date: Wed Aug 08 10:29:59 2007
+End   Time/Date: Wed Aug 08 10:30:02 2007
+Total Time -  0:03
+>>>>>>>>>>>> END report file <<<<<<<<<<<<
+>
+>
+>   END OF PREVIOUS FILE
+>
+>
+>>>>>>>>>>>> DRC report file <<<<<<<<<<<<
+Design         : 
+Time/Date      : Wed Aug 08 10:29:05 2007
+Units          : Inches
+==========  DRC Rules for RUN  ==========
+Track To Track : min. Clearance: 0.008 in.
+Pass_p         : DEFAULT
+Layer          : L1:BOTTOM.art
+Start Time     : Wed Aug 08 10:29:05 2007
+
+-----------------------------------------
+-----------------------------------------
+Track To Track : min. Clearance: 0.008 in.
+Pass_p         : DEFAULT
+Layer          : L1:BOTTOM.art
+Time to check -  0:00
+Number of violations : 0
+=============  END DRC Run  =============
+
+==========  DRC Rules for RUN  ==========
+Track To Pad   : min. Clearance: 0.008 in.
+Pass_p         : DEFAULT
+Layer          : L1:BOTTOM.art
+Start Time     : Wed Aug 08 10:29:05 2007
+
+-----------------------------------------
+-----------------------------------------
+Track To Pad   : min. Clearance: 0.008 in.
+Pass_p         : DEFAULT
+Layer          : L1:BOTTOM.art
+Time to check -  0:00
+Number of violations : 0
+=============  END DRC Run  =============
+
+==========  DRC Rules for RUN  ==========
+Pad To Pad     : min. Clearance: 0.008 in.
+Pass_p         : DEFAULT
+Layer          : L1:BOTTOM.art
+Start Time     : Wed Aug 08 10:29:05 2007
+
+-----------------------------------------
+-----------------------------------------
+Pad To Pad     : min. Clearance: 0.008 in.
+Pass_p         : DEFAULT
+Layer          : L1:BOTTOM.art
+Time to check -  0:00
+Number of violations : 0
+=============  END DRC Run  =============
+
+==========  DRC Rules for RUN  ==========
+Min Track Size : min. Size: 0.008 in.
+Pass_p         : DEFAULT
+Layer          : L1:BOTTOM.art
+Start Time     : Wed Aug 08 10:29:05 2007
+
+-----------------------------------------
+-----------------------------------------
+Min Track Size : min. Size: 0.008 in.
+Pass_p         : DEFAULT
+Layer          : L1:BOTTOM.art
+Time to check -  0:00
+Number of violations : 0
+=============  END DRC Run  =============
+
+==========  DRC Rules for RUN  ==========
+Min Pad Size   : min. Size: 0.008 in.
+Pass_p         : DEFAULT
+Layer          : L1:BOTTOM.art
+Start Time     : Wed Aug 08 10:29:05 2007
+
+-----------------------------------------
+-----------------------------------------
+Min Pad Size   : min. Size: 0.008 in.
+Pass_p         : DEFAULT
+Layer          : L1:BOTTOM.art
+Time to check -  0:00
+Number of violations : 0
+=============  END DRC Run  =============
+
+==========  DRC Rules for RUN  ==========
+Redundant Pads : 
+Pass_p         : DEFAULT
+Layer          : L1:BOTTOM.art
+Start Time     : Wed Aug 08 10:29:05 2007
+
+-----------------------------------------
+-----------------------------------------
+Redundant Pads : 
+Pass_p         : DEFAULT
+Layer          : L1:BOTTOM.art
+Time to check -  0:00
+Number of violations : 0
+=============  END DRC Run  =============
+
+==========  DRC Rules for RUN  ==========
+Track To Track : min. Clearance: 0.008 in.
+Pass_p         : DEFAULT
+Layer          : L2:BOTTOM.art
+Start Time     : Wed Aug 08 10:29:05 2007
+
+-----------------------------------------
+-----------------------------------------
+Track To Track : min. Clearance: 0.008 in.
+Pass_p         : DEFAULT
+Layer          : L2:BOTTOM.art
+Time to check -  0:00
+Number of violations : 0
+=============  END DRC Run  =============
+
+==========  DRC Rules for RUN  ==========
+Track To Pad   : min. Clearance: 0.008 in.
+Pass_p         : DEFAULT
+Layer          : L2:BOTTOM.art
+Start Time     : Wed Aug 08 10:29:05 2007
+
+-----------------------------------------
+-----------------------------------------
+Track To Pad   : min. Clearance: 0.008 in.
+Pass_p         : DEFAULT
+Layer          : L2:BOTTOM.art
+Time to check -  0:00
+Number of violations : 0
+=============  END DRC Run  =============
+
+==========  DRC Rules for RUN  ==========
+Pad To Pad     : min. Clearance: 0.008 in.
+Pass_p         : DEFAULT
+Layer          : L2:BOTTOM.art
+Start Time     : Wed Aug 08 10:29:05 2007
+
+-----------------------------------------
+-----------------------------------------
+Pad To Pad     : min. Clearance: 0.008 in.
+Pass_p         : DEFAULT
+Layer          : L2:BOTTOM.art
+Time to check -  0:00
+Number of violations : 0
+=============  END DRC Run  =============
+
+==========  DRC Rules for RUN  ==========
+Min Track Size : min. Size: 0.008 in.
+Pass_p         : DEFAULT
+Layer          : L2:BOTTOM.art
+Start Time     : Wed Aug 08 10:29:05 2007
+
+-----------------------------------------
+-----------------------------------------
+Min Track Size : min. Size: 0.008 in.
+Pass_p         : DEFAULT
+Layer          : L2:BOTTOM.art
+Time to check -  0:00
+Number of violations : 0
+=============  END DRC Run  =============
+
+==========  DRC Rules for RUN  ==========
+Min Pad Size   : min. Size: 0.008 in.
+Pass_p         : DEFAULT
+Layer          : L2:BOTTOM.art
+Start Time     : Wed Aug 08 10:29:05 2007
+
+-----------------------------------------
+-----------------------------------------
+Min Pad Size   : min. Size: 0.008 in.
+Pass_p         : DEFAULT
+Layer          : L2:BOTTOM.art
+Time to check -  0:00
+Number of violations : 0
+=============  END DRC Run  =============
+
+==========  DRC Rules for RUN  ==========
+Redundant Pads : 
+Pass_p         : DEFAULT
+Layer          : L2:BOTTOM.art
+Start Time     : Wed Aug 08 10:29:05 2007
+
+-----------------------------------------
+-----------------------------------------
+Redundant Pads : 
+Pass_p         : DEFAULT
+Layer          : L2:BOTTOM.art
+Time to check -  0:00
+Number of violations : 0
+=============  END DRC Run  =============
+
+==========  DRC Rules for RUN  ==========
+Track To Track : min. Clearance: 0.008 in.
+Pass_p         : DEFAULT
+Layer          : L3:BOTTOM.art
+Start Time     : Wed Aug 08 10:29:05 2007
+
+-----------------------------------------
+Distance  Line:(0.1070000:0.6260000), (0.0900000:0.6090000)  Net:"Unknown" -
+  Line:(1.2590000:0.6090000), (0.1140000:0.6090000)  Net:"Unknown"
+Distance  Line:(0.1070000:0.6260000), (0.0900000:0.6090000)  Net:"Unknown" -
+  Line:(1.2590000:0.6090000), (0.1140000:0.6090000)  Net:"Unknown"
+Distance  Line:(0.1070000:0.6260000), (0.0900000:0.6090000)  Net:"Unknown" -
+  Line:(1.2590000:0.6090000), (0.1140000:0.6090000)  Net:"Unknown"
+Distance  Line:(0.1090000:0.7040000), (0.0910000:0.6860000)  Net:"Unknown" -
+  Line:(0.0770000:0.6480000), (0.1170000:0.6880000)  Net:"Unknown"
+Distance  Line:(0.1090000:0.7040000), (0.0910000:0.6860000)  Net:"Unknown" -
+  Line:(0.0770000:0.6480000), (0.1170000:0.6880000)  Net:"Unknown"
+Distance  Line:(0.1090000:0.7040000), (0.0910000:0.6860000)  Net:"Unknown" -
+  Line:(0.0770000:0.6480000), (0.1170000:0.6880000)  Net:"Unknown"
+-----------------------------------------
+Track To Track : min. Clearance: 0.008 in.
+Pass_p         : DEFAULT
+Layer          : L3:BOTTOM.art
+Time to check -  0:01
+Number of violations : 6
+=============  END DRC Run  =============
+
+==========  DRC Rules for RUN  ==========
+Track To Pad   : min. Clearance: 0.008 in.
+Pass_p         : DEFAULT
+Layer          : L3:BOTTOM.art
+Start Time     : Wed Aug 08 10:29:06 2007
+
+-----------------------------------------
+Distance  Line:(0.0530000:1.0040000), (0.0670000:1.0040000)  Net:"Unknown" - (0.0740000:1.0410000) Net:"Unknown"
+Distance  Line:(0.0530000:1.0040000), (0.0670000:1.0040000)  Net:"Unknown" - (0.0740000:1.0410000) Net:"Unknown"
+-----------------------------------------
+Track To Pad   : min. Clearance: 0.008 in.
+Pass_p         : DEFAULT
+Layer          : L3:BOTTOM.art
+Time to check -  0:00
+Number of violations : 2
+=============  END DRC Run  =============
+
+==========  DRC Rules for RUN  ==========
+Pad To Pad     : min. Clearance: 0.008 in.
+Pass_p         : DEFAULT
+Layer          : L3:BOTTOM.art
+Start Time     : Wed Aug 08 10:29:06 2007
+
+-----------------------------------------
+-----------------------------------------
+Pad To Pad     : min. Clearance: 0.008 in.
+Pass_p         : DEFAULT
+Layer          : L3:BOTTOM.art
+Time to check -  0:00
+Number of violations : 0
+=============  END DRC Run  =============
+
+==========  DRC Rules for RUN  ==========
+Min Track Size : min. Size: 0.008 in.
+Pass_p         : DEFAULT
+Layer          : L3:BOTTOM.art
+Start Time     : Wed Aug 08 10:29:06 2007
+
+-----------------------------------------
+-----------------------------------------
+Min Track Size : min. Size: 0.008 in.
+Pass_p         : DEFAULT
+Layer          : L3:BOTTOM.art
+Time to check -  0:00
+Number of violations : 0
+=============  END DRC Run  =============
+
+==========  DRC Rules for RUN  ==========
+Min Pad Size   : min. Size: 0.008 in.
+Pass_p         : DEFAULT
+Layer          : L3:BOTTOM.art
+Start Time     : Wed Aug 08 10:29:06 2007
+
+-----------------------------------------
+-----------------------------------------
+Min Pad Size   : min. Size: 0.008 in.
+Pass_p         : DEFAULT
+Layer          : L3:BOTTOM.art
+Time to check -  0:00
+Number of violations : 0
+=============  END DRC Run  =============
+
+==========  DRC Rules for RUN  ==========
+Redundant Pads : 
+Pass_p         : DEFAULT
+Layer          : L3:BOTTOM.art
+Start Time     : Wed Aug 08 10:29:06 2007
+
+-----------------------------------------
+-----------------------------------------
+Redundant Pads : 
+Pass_p         : DEFAULT
+Layer          : L3:BOTTOM.art
+Time to check -  0:00
+Number of violations : 0
+=============  END DRC Run  =============
+
+==========  DRC Rules for RUN  ==========
+Track To Track : min. Clearance: 0.008 in.
+Pass_p         : DEFAULT
+Layer          : L4:TOP.art
+Start Time     : Wed Aug 08 10:29:06 2007
+
+-----------------------------------------
+-----------------------------------------
+Track To Track : min. Clearance: 0.008 in.
+Pass_p         : DEFAULT
+Layer          : L4:TOP.art
+Time to check -  0:00
+Number of violations : 0
+=============  END DRC Run  =============
+
+==========  DRC Rules for RUN  ==========
+Track To Pad   : min. Clearance: 0.008 in.
+Pass_p         : DEFAULT
+Layer          : L4:TOP.art
+Start Time     : Wed Aug 08 10:29:06 2007
+
+-----------------------------------------
+-----------------------------------------
+Track To Pad   : min. Clearance: 0.008 in.
+Pass_p         : DEFAULT
+Layer          : L4:TOP.art
+Time to check -  0:00
+Number of violations : 0
+=============  END DRC Run  =============
+
+==========  DRC Rules for RUN  ==========
+Pad To Pad     : min. Clearance: 0.008 in.
+Pass_p         : DEFAULT
+Layer          : L4:TOP.art
+Start Time     : Wed Aug 08 10:29:06 2007
+
+-----------------------------------------
+-----------------------------------------
+Pad To Pad     : min. Clearance: 0.008 in.
+Pass_p         : DEFAULT
+Layer          : L4:TOP.art
+Time to check -  0:00
+Number of violations : 0
+=============  END DRC Run  =============
+
+==========  DRC Rules for RUN  ==========
+Min Track Size : min. Size: 0.008 in.
+Pass_p         : DEFAULT
+Layer          : L4:TOP.art
+Start Time     : Wed Aug 08 10:29:06 2007
+
+-----------------------------------------
+-----------------------------------------
+Min Track Size : min. Size: 0.008 in.
+Pass_p         : DEFAULT
+Layer          : L4:TOP.art
+Time to check -  0:00
+Number of violations : 0
+=============  END DRC Run  =============
+
+==========  DRC Rules for RUN  ==========
+Min Pad Size   : min. Size: 0.008 in.
+Pass_p         : DEFAULT
+Layer          : L4:TOP.art
+Start Time     : Wed Aug 08 10:29:06 2007
+
+-----------------------------------------
+-----------------------------------------
+Min Pad Size   : min. Size: 0.008 in.
+Pass_p         : DEFAULT
+Layer          : L4:TOP.art
+Time to check -  0:00
+Number of violations : 0
+=============  END DRC Run  =============
+
+==========  DRC Rules for RUN  ==========
+Redundant Pads : 
+Pass_p         : DEFAULT
+Layer          : L4:TOP.art
+Start Time     : Wed Aug 08 10:29:06 2007
+
+-----------------------------------------
+-----------------------------------------
+Redundant Pads : 
+Pass_p         : DEFAULT
+Layer          : L4:TOP.art
+Time to check -  0:00
+Number of violations : 0
+=============  END DRC Run  =============
+
+==========  DRC Rules for RUN  ==========
+Track To Track : min. Clearance: 0.008 in.
+Pass_p         : DEFAULT
+Layer          : L5:TOP.art
+Start Time     : Wed Aug 08 10:29:06 2007
+
+-----------------------------------------
+-----------------------------------------
+Track To Track : min. Clearance: 0.008 in.
+Pass_p         : DEFAULT
+Layer          : L5:TOP.art
+Time to check -  0:00
+Number of violations : 0
+=============  END DRC Run  =============
+
+==========  DRC Rules for RUN  ==========
+Track To Pad   : min. Clearance: 0.008 in.
+Pass_p         : DEFAULT
+Layer          : L5:TOP.art
+Start Time     : Wed Aug 08 10:29:06 2007
+
+-----------------------------------------
+-----------------------------------------
+Track To Pad   : min. Clearance: 0.008 in.
+Pass_p         : DEFAULT
+Layer          : L5:TOP.art
+Time to check -  0:00
+Number of violations : 0
+=============  END DRC Run  =============
+
+==========  DRC Rules for RUN  ==========
+Pad To Pad     : min. Clearance: 0.008 in.
+Pass_p         : DEFAULT
+Layer          : L5:TOP.art
+Start Time     : Wed Aug 08 10:29:06 2007
+
+-----------------------------------------
+-----------------------------------------
+Pad To Pad     : min. Clearance: 0.008 in.
+Pass_p         : DEFAULT
+Layer          : L5:TOP.art
+Time to check -  0:00
+Number of violations : 0
+=============  END DRC Run  =============
+
+==========  DRC Rules for RUN  ==========
+Min Track Size : min. Size: 0.008 in.
+Pass_p         : DEFAULT
+Layer          : L5:TOP.art
+Start Time     : Wed Aug 08 10:29:06 2007
+
+-----------------------------------------
+-----------------------------------------
+Min Track Size : min. Size: 0.008 in.
+Pass_p         : DEFAULT
+Layer          : L5:TOP.art
+Time to check -  0:00
+Number of violations : 0
+=============  END DRC Run  =============
+
+==========  DRC Rules for RUN  ==========
+Min Pad Size   : min. Size: 0.008 in.
+Pass_p         : DEFAULT
+Layer          : L5:TOP.art
+Start Time     : Wed Aug 08 10:29:06 2007
+
+-----------------------------------------
+-----------------------------------------
+Min Pad Size   : min. Size: 0.008 in.
+Pass_p         : DEFAULT
+Layer          : L5:TOP.art
+Time to check -  0:00
+Number of violations : 0
+=============  END DRC Run  =============
+
+==========  DRC Rules for RUN  ==========
+Redundant Pads : 
+Pass_p         : DEFAULT
+Layer          : L5:TOP.art
+Start Time     : Wed Aug 08 10:29:06 2007
+
+-----------------------------------------
+-----------------------------------------
+Redundant Pads : 
+Pass_p         : DEFAULT
+Layer          : L5:TOP.art
+Time to check -  0:00
+Number of violations : 0
+=============  END DRC Run  =============
+
+==========  DRC Rules for RUN  ==========
+Track To Track : min. Clearance: 0.008 in.
+Pass_p         : DEFAULT
+Layer          : L6:TOP.art
+Start Time     : Wed Aug 08 10:29:06 2007
+
+-----------------------------------------
+Distance  Line:(0.0350000:0.5300000), (1.1810000:0.5300000)  Net:"Unknown" -
+  Line:(1.1880000:0.5470000), (1.2040000:0.5310000)  Net:"Unknown"
+Distance  Line:(0.0350000:0.5300000), (1.1810000:0.5300000)  Net:"Unknown" -
+  Line:(1.1880000:0.5470000), (1.2040000:0.5310000)  Net:"Unknown"
+Distance  Line:(0.0350000:0.5300000), (1.1810000:0.5300000)  Net:"Unknown" -
+  Line:(1.1880000:0.5470000), (1.2040000:0.5310000)  Net:"Unknown"
+Distance  Line:(-0.0200000:0.8460000), (0.0140000:0.8460000)  Net:"Unknown" -
+  Line:(0.0220000:0.8300000), (0.0360000:0.8440000)  Net:"Unknown"
+Distance  Line:(-0.0200000:0.8460000), (0.0140000:0.8460000)  Net:"Unknown" -
+  Line:(0.0220000:0.8300000), (0.0360000:0.8440000)  Net:"Unknown"
+Distance  Line:(-0.0200000:0.8460000), (0.0140000:0.8460000)  Net:"Unknown" -
+  Line:(0.0220000:0.8300000), (0.0360000:0.8440000)  Net:"Unknown"
+Distance  Line:(0.0350000:0.6880000), (1.1810000:0.6880000)  Net:"Unknown" -
+  Line:(1.1880000:0.7050000), (1.2050000:0.6880000)  Net:"Unknown"
+Distance  Line:(0.0350000:0.6880000), (1.1810000:0.6880000)  Net:"Unknown" -
+  Line:(1.1880000:0.7050000), (1.2050000:0.6880000)  Net:"Unknown"
+Distance  Line:(0.0350000:0.6880000), (1.1810000:0.6880000)  Net:"Unknown" -
+  Line:(1.1880000:0.7050000), (1.2050000:0.6880000)  Net:"Unknown"
+Distance  Line:(0.1390000:0.2570000), (0.1120000:0.2840000)  Net:"Unknown" -
+  Line:(0.0880000:0.3330000), (0.1280000:0.2920000)  Net:"Unknown"
+Distance  Line:(0.1390000:0.2570000), (0.1120000:0.2840000)  Net:"Unknown" -
+  Line:(0.0880000:0.3330000), (0.1280000:0.2920000)  Net:"Unknown"
+-----------------------------------------
+Track To Track : min. Clearance: 0.008 in.
+Pass_p         : DEFAULT
+Layer          : L6:TOP.art
+Time to check -  0:00
+Number of violations : 11
+=============  END DRC Run  =============
+
+==========  DRC Rules for RUN  ==========
+Track To Pad   : min. Clearance: 0.008 in.
+Pass_p         : DEFAULT
+Layer          : L6:TOP.art
+Start Time     : Wed Aug 08 10:29:06 2007
+
+-----------------------------------------
+Distance  Line:(0.1120000:0.2840000), (0.1040000:0.2920000)  Net:"Unknown" - (0.0740000:0.2540000) Net:"Unknown"
+Distance  Line:(0.0330000:0.3960000), (0.0100000:0.3720000)  Net:"Unknown" - (-0.0050000:0.4110000) Net:"Unknown"
+Distance  Line:(1.2050000:0.8460000), (1.1820000:0.8690000)  Net:"Unknown" - (1.2200000:0.8840000) Net:"Unknown"
+-----------------------------------------
+Track To Pad   : min. Clearance: 0.008 in.
+Pass_p         : DEFAULT
+Layer          : L6:TOP.art
+Time to check -  0:01
+Number of violations : 3
+=============  END DRC Run  =============
+
+==========  DRC Rules for RUN  ==========
+Pad To Pad     : min. Clearance: 0.008 in.
+Pass_p         : DEFAULT
+Layer          : L6:TOP.art
+Start Time     : Wed Aug 08 10:29:07 2007
+
+-----------------------------------------
+-----------------------------------------
+Pad To Pad     : min. Clearance: 0.008 in.
+Pass_p         : DEFAULT
+Layer          : L6:TOP.art
+Time to check -  0:00
+Number of violations : 0
+=============  END DRC Run  =============
+
+==========  DRC Rules for RUN  ==========
+Min Track Size : min. Size: 0.008 in.
+Pass_p         : DEFAULT
+Layer          : L6:TOP.art
+Start Time     : Wed Aug 08 10:29:07 2007
+
+-----------------------------------------
+-----------------------------------------
+Min Track Size : min. Size: 0.008 in.
+Pass_p         : DEFAULT
+Layer          : L6:TOP.art
+Time to check -  0:00
+Number of violations : 0
+=============  END DRC Run  =============
+
+==========  DRC Rules for RUN  ==========
+Min Pad Size   : min. Size: 0.008 in.
+Pass_p         : DEFAULT
+Layer          : L6:TOP.art
+Start Time     : Wed Aug 08 10:29:07 2007
+
+-----------------------------------------
+-----------------------------------------
+Min Pad Size   : min. Size: 0.008 in.
+Pass_p         : DEFAULT
+Layer          : L6:TOP.art
+Time to check -  0:00
+Number of violations : 0
+=============  END DRC Run  =============
+
+==========  DRC Rules for RUN  ==========
+Redundant Pads : 
+Pass_p         : DEFAULT
+Layer          : L6:TOP.art
+Start Time     : Wed Aug 08 10:29:07 2007
+
+-----------------------------------------
+-----------------------------------------
+Redundant Pads : 
+Pass_p         : DEFAULT
+Layer          : L6:TOP.art
+Time to check -  0:00
+Number of violations : 0
+=============  END DRC Run  =============
+
+==========  DRC Rules for RUN  ==========
+Track To Track : min. Clearance: 0.008 in.
+Pass_p         : DEFAULT
+Layer          : L7:solder_BOTTOM.a
+Start Time     : Wed Aug 08 10:29:07 2007
+
+-----------------------------------------
+-----------------------------------------
+Track To Track : min. Clearance: 0.008 in.
+Pass_p         : DEFAULT
+Layer          : L7:solder_BOTTOM.a
+Time to check -  0:00
+Number of violations : 0
+=============  END DRC Run  =============
+
+==========  DRC Rules for RUN  ==========
+Track To Pad   : min. Clearance: 0.008 in.
+Pass_p         : DEFAULT
+Layer          : L7:solder_BOTTOM.a
+Start Time     : Wed Aug 08 10:29:07 2007
+
+-----------------------------------------
+-----------------------------------------
+Track To Pad   : min. Clearance: 0.008 in.
+Pass_p         : DEFAULT
+Layer          : L7:solder_BOTTOM.a
+Time to check -  0:00
+Number of violations : 0
+=============  END DRC Run  =============
+
+==========  DRC Rules for RUN  ==========
+Pad To Pad     : min. Clearance: 0.008 in.
+Pass_p         : DEFAULT
+Layer          : L7:solder_BOTTOM.a
+Start Time     : Wed Aug 08 10:29:07 2007
+
+-----------------------------------------
+-----------------------------------------
+Pad To Pad     : min. Clearance: 0.008 in.
+Pass_p         : DEFAULT
+Layer          : L7:solder_BOTTOM.a
+Time to check -  0:00
+Number of violations : 0
+=============  END DRC Run  =============
+
+==========  DRC Rules for RUN  ==========
+Min Track Size : min. Size: 0.008 in.
+Pass_p         : DEFAULT
+Layer          : L7:solder_BOTTOM.a
+Start Time     : Wed Aug 08 10:29:07 2007
+
+-----------------------------------------
+-----------------------------------------
+Min Track Size : min. Size: 0.008 in.
+Pass_p         : DEFAULT
+Layer          : L7:solder_BOTTOM.a
+Time to check -  0:00
+Number of violations : 0
+=============  END DRC Run  =============
+
+==========  DRC Rules for RUN  ==========
+Min Pad Size   : min. Size: 0.008 in.
+Pass_p         : DEFAULT
+Layer          : L7:solder_BOTTOM.a
+Start Time     : Wed Aug 08 10:29:07 2007
+
+-----------------------------------------
+-----------------------------------------
+Min Pad Size   : min. Size: 0.008 in.
+Pass_p         : DEFAULT
+Layer          : L7:solder_BOTTOM.a
+Time to check -  0:00
+Number of violations : 0
+=============  END DRC Run  =============
+
+==========  DRC Rules for RUN  ==========
+Redundant Pads : 
+Pass_p         : DEFAULT
+Layer          : L7:solder_BOTTOM.a
+Start Time     : Wed Aug 08 10:29:07 2007
+
+-----------------------------------------
+-----------------------------------------
+Redundant Pads : 
+Pass_p         : DEFAULT
+Layer          : L7:solder_BOTTOM.a
+Time to check -  0:00
+Number of violations : 0
+=============  END DRC Run  =============
+
+==========  DRC Rules for RUN  ==========
+Track To Track : min. Clearance: 0.008 in.
+Pass_p         : DEFAULT
+Layer          : L8:solder_TOP.art
+Start Time     : Wed Aug 08 10:29:07 2007
+
+-----------------------------------------
+-----------------------------------------
+Track To Track : min. Clearance: 0.008 in.
+Pass_p         : DEFAULT
+Layer          : L8:solder_TOP.art
+Time to check -  0:00
+Number of violations : 0
+=============  END DRC Run  =============
+
+==========  DRC Rules for RUN  ==========
+Track To Pad   : min. Clearance: 0.008 in.
+Pass_p         : DEFAULT
+Layer          : L8:solder_TOP.art
+Start Time     : Wed Aug 08 10:29:07 2007
+
+-----------------------------------------
+-----------------------------------------
+Track To Pad   : min. Clearance: 0.008 in.
+Pass_p         : DEFAULT
+Layer          : L8:solder_TOP.art
+Time to check -  0:00
+Number of violations : 0
+=============  END DRC Run  =============
+
+==========  DRC Rules for RUN  ==========
+Pad To Pad     : min. Clearance: 0.008 in.
+Pass_p         : DEFAULT
+Layer          : L8:solder_TOP.art
+Start Time     : Wed Aug 08 10:29:07 2007
+
+-----------------------------------------
+-----------------------------------------
+Pad To Pad     : min. Clearance: 0.008 in.
+Pass_p         : DEFAULT
+Layer          : L8:solder_TOP.art
+Time to check -  0:00
+Number of violations : 0
+=============  END DRC Run  =============
+
+==========  DRC Rules for RUN  ==========
+Min Track Size : min. Size: 0.008 in.
+Pass_p         : DEFAULT
+Layer          : L8:solder_TOP.art
+Start Time     : Wed Aug 08 10:29:07 2007
+
+-----------------------------------------
+-----------------------------------------
+Min Track Size : min. Size: 0.008 in.
+Pass_p         : DEFAULT
+Layer          : L8:solder_TOP.art
+Time to check -  0:00
+Number of violations : 0
+=============  END DRC Run  =============
+
+==========  DRC Rules for RUN  ==========
+Min Pad Size   : min. Size: 0.008 in.
+Pass_p         : DEFAULT
+Layer          : L8:solder_TOP.art
+Start Time     : Wed Aug 08 10:29:07 2007
+
+-----------------------------------------
+-----------------------------------------
+Min Pad Size   : min. Size: 0.008 in.
+Pass_p         : DEFAULT
+Layer          : L8:solder_TOP.art
+Time to check -  0:00
+Number of violations : 0
+=============  END DRC Run  =============
+
+==========  DRC Rules for RUN  ==========
+Redundant Pads : 
+Pass_p         : DEFAULT
+Layer          : L8:solder_TOP.art
+Start Time     : Wed Aug 08 10:29:07 2007
+
+-----------------------------------------
+-----------------------------------------
+Redundant Pads : 
+Pass_p         : DEFAULT
+Layer          : L8:solder_TOP.art
+Time to check -  0:00
+Number of violations : 0
+=============  END DRC Run  =============
+
+
+Design         : 
+Start Time/Date: Wed Aug 08 10:29:05 2007
+End   Time/Date: Wed Aug 08 10:29:07 2007
+Total Time -  0:02
+>>>>>>>>>>>> END report file <<<<<<<<<<<<

@@ -1,0 +1,47 @@
+@P:  Part : EP2C5TC144-8
+@P:  Worst Slack : 496.413
+@P:  pld|Button_FQ.clk_1k_inferred_clock - Estimated Frequency : 267.7 MHz
+@P:  pld|Button_FQ.clk_1k_inferred_clock - Requested Frequency : 1.0 MHz
+@P:  pld|Button_FQ.clk_1k_inferred_clock - Estimated Period : 3.736
+@P:  pld|Button_FQ.clk_1k_inferred_clock - Requested Period : 1000.000
+@P:  pld|Button_FQ.clk_1k_inferred_clock - Slack : 996.264
+@P:  pld|Button_FW.clk_1k_inferred_clock - Estimated Frequency : 267.7 MHz
+@P:  pld|Button_FW.clk_1k_inferred_clock - Requested Frequency : 1.0 MHz
+@P:  pld|Button_FW.clk_1k_inferred_clock - Estimated Period : 3.736
+@P:  pld|Button_FW.clk_1k_inferred_clock - Requested Period : 1000.000
+@P:  pld|Button_FW.clk_1k_inferred_clock - Slack : 996.264
+@P:  pld|clk - Estimated Frequency : 107.6 MHz
+@P:  pld|clk - Requested Frequency : 1.0 MHz
+@P:  pld|clk - Estimated Period : 9.291
+@P:  pld|clk - Requested Period : 1000.000
+@P:  pld|clk - Slack : 990.709
+@P:  pld|nWE - Estimated Frequency : 127.4 MHz
+@P:  pld|nWE - Requested Frequency : 1.0 MHz
+@P:  pld|nWE - Estimated Period : 7.848
+@P:  pld|nWE - Requested Period : 1000.000
+@P:  pld|nWE - Slack : 992.152
+@P:  pld|wigend_in1.wil_clk_inferred_clock - Estimated Frequency : 123.3 MHz
+@P:  pld|wigend_in1.wil_clk_inferred_clock - Requested Frequency : 1.0 MHz
+@P:  pld|wigend_in1.wil_clk_inferred_clock - Estimated Period : 8.112
+@P:  pld|wigend_in1.wil_clk_inferred_clock - Requested Period : 1000.000
+@P:  pld|wigend_in1.wil_clk_inferred_clock - Slack : 991.888
+@P:  pld|wigend_in2.wil_clk_inferred_clock - Estimated Frequency : 127.4 MHz
+@P:  pld|wigend_in2.wil_clk_inferred_clock - Requested Frequency : 1.0 MHz
+@P:  pld|wigend_in2.wil_clk_inferred_clock - Estimated Period : 7.848
+@P:  pld|wigend_in2.wil_clk_inferred_clock - Requested Period : 1000.000
+@P:  pld|wigend_in2.wil_clk_inferred_clock - Slack : 992.152
+@P:  pld|wigend_in3.wil_clk_inferred_clock - Estimated Frequency : 125.3 MHz
+@P:  pld|wigend_in3.wil_clk_inferred_clock - Requested Frequency : 1.0 MHz
+@P:  pld|wigend_in3.wil_clk_inferred_clock - Estimated Period : 7.981
+@P:  pld|wigend_in3.wil_clk_inferred_clock - Requested Period : 1000.000
+@P:  pld|wigend_in3.wil_clk_inferred_clock - Slack : 992.019
+@P:  System - Estimated Frequency : 95.6 MHz
+@P:  System - Requested Frequency : 1.0 MHz
+@P:  System - Estimated Period : 10.463
+@P:  System - Requested Period : 1000.000
+@P:  System - Slack : 989.537
+@P: pld Part : ep2c5tc144-8
+@P: pld I/O ATOMs : 66
+@P: pld Cyclone II_lcell_comb : 723 ATOMs of 4608
+@P: pld Cyclone II_lcell_ff : 403 ATOMs of 4608
+@P: pld DSP Blocks : 0 (0 nine bit DSP elements)

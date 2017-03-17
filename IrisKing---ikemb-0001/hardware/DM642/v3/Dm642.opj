@@ -1,0 +1,245 @@
+(ExpressProject "Dm642"
+  (ProjectVersion "19981106")
+  (ProjectType "PCB")
+  (Folder "Design Resources"
+    (Folder "Library"
+      (File ".\dm642.olb"
+        (Type "Schematic Library")))
+    (NoModify)
+    (File ".\dm642.dsn"
+      (Type "Schematic Design"))
+    (BuildFileAddedOrDeleted "x")
+    (CompileFileAddedOrDeleted "x")
+    (ANNOTATE_Scope "0")
+    (ANNOTATE_Mode "1")
+    (ANNOTATE_Action "0")
+    (Annotate_Page_Order "0")
+    (ANNOTATE_Reset_References_to_1 "FALSE")
+    (ANNOTATE_No_Page_Number_Change "FALSE")
+    (ANNOTATE_Property_Combine "{Value}{Source Package}{POWER_GROUP}")
+    (ANNOTATE_IncludeNonPrimitive "FALSE")
+    (ANNOTATE_Refdes_Control_Required "FALSE")
+    (Netlist_TAB "0")
+    (DRC_Scope "0")
+    (DRC_Action "0")
+    (DRC_Create_Warnings "FALSE")
+    (DRC_Check_Ports "FALSE")
+    (DRC_Check_Off-Page_Connectors "FALSE")
+    (DRC_Identical_References "TRUE")
+    (DRC_Type_Mismatch "TRUE")
+    (DRC_Report_Ports_and_Off-page_Connectors "FALSE")
+    (DRC_SDT_Compatibility "FALSE")
+    (DRC_Report_Off-grid_Objects "FALSE")
+    (DRC_Check_Unconnected_Nets "TRUE")
+    (DRC_Check_for_Misleading_TAP "FALSE")
+    (DRC_Visible_Power_pins "FALSE")
+    (DRC_Report_Netnames "FALSE")
+    (DRC_View_Output "FALSE")
+    (DRC_Report_File
+       "D:\PROJECT\IRISKING\IKEMB001\PROJECT\HARDWARE\DM642\DM642.DRC")
+    (BOM_Scope "0")
+    (BOM_Mode "0")
+    (BOM_Report_File
+       "e:\project\irisking\ikemb-0001\project\hardware\dm642\bom.BOM")
+    (BOM_Merge_Include "FALSE")
+    (BOM_Property_Combine_7.0
+       "{Item}\t{Quantity}\t{Reference}\t{Value}\t{PCB Footprint}")
+    (BOM_Header "Item\tQuantity\tReference\tPart\tPCB Footprint")
+    (BOM_Include_File
+       "D:\PROJECT\IRISKING\IKEMB001\PROJECT\HARDWARE\DM642\DM642.INC")
+    (BOM_Include_File_Combine_7.0 "{Item}\t{Quantity}\t{Reference}\t{Value}")
+    (BOM_One_Part_Per_Line "FALSE")
+    (Open_BOM_in_Excel "TRUE")
+    (BOM_View_Output "FALSE")
+    ("Create Allegro Netlist" "TRUE")
+    ("Allegro Netlist Directory" "allegro")
+    ("View Allegro Netlist Files" "FALSE")
+    ("Update Allegro Board" "FALSE")
+    ("Allegro Netlist Output Board File" "allegro\dm642.brd")
+    ("Allegro Netlist Remove Etch" "FALSE")
+    ("Allegro Netlist Place Changed Component" "ALWAYS_REPLACE")
+    ("Allegro Netlist Open Board in Allegro" "ALLEGRO")
+    ("Allegro Setup Configuration File"
+       "C:\Cadence\SPB_15.7\tools\capture\allegro.cfg")
+    ("Allegro Setup Backup Versions" "3")
+    ("Allegro Netlist Combine Property String" "PCB Footprint")
+    ("Allegro Netlist Ignore Fixed Property" "FALSE")
+    ("Allegro Netlist User Defined Property" "FALSE"))
+  (Folder "Outputs"
+    (File ".\dm642.drc"
+      (Type "Report"))
+    (File ".\dm642.bom"
+      (Type "Report"))
+    (File ".\allegro\pstxnet.dat"
+      (Type "Report")
+      (DisplayName "pstxnet.dat"))
+    (File ".\allegro\pstxprt.dat"
+      (Type "Report")
+      (DisplayName "pstxprt.dat"))
+    (File ".\allegro\pstchip.dat"
+      (Type "Report")
+      (DisplayName "pstchip.dat"))
+    (File ".\bom.bom"
+      (Type "Report")))
+  (Folder "Referenced Projects")
+  (PartMRUSelector
+    (DIODE
+      (FullPartName "DIODE.Normal")
+      (LibraryName "C:\CADENCE\SPB_15.7\TOOLS\CAPTURE\LIBRARY\DISCRETE.OLB")
+      (DeviceIndex "0"))
+    (PCA9540
+      (FullPartName "PCA9540.Normal")
+      (LibraryName
+         "D:\PROJECT\IRISKING\IKEMB001\PROJECT\HARDWARE\DM642\DM642.OLB")
+      (DeviceIndex "0"))
+    (PS2501-1
+      (FullPartName "PS2501-1.Normal")
+      (LibraryName "C:\CADENCE\SPB_15.7\TOOLS\CAPTURE\LIBRARY\DISCRETE.OLB")
+      (DeviceIndex "0"))
+    (BZX84C36/SOT
+      (FullPartName "BZX84C36/SOT.Normal")
+      (LibraryName "C:\CADENCE\SPB_15.7\TOOLS\CAPTURE\LIBRARY\DISCRETE.OLB")
+      (DeviceIndex "0"))
+    (MAX489
+      (FullPartName "MAX489.Normal")
+      (LibraryName
+         "D:\PROJECT\IRISKING\IKEMB001\PROJECT\HARDWARE\DM642\DM642.OLB")
+      (DeviceIndex "0"))
+    ("HEADER 6"
+      (FullPartName "HEADER 6.Normal")
+      (LibraryName "C:\CADENCE\SPB_15.7\TOOLS\CAPTURE\LIBRARY\CONNECTOR.OLB")
+      (DeviceIndex "0"))
+    ("HEADER 4"
+      (FullPartName "HEADER 4.Normal")
+      (LibraryName "C:\CADENCE\SPB_15.7\TOOLS\CAPTURE\LIBRARY\CONNECTOR.OLB")
+      (DeviceIndex "0"))
+    ("NPN BCE"
+      (FullPartName "NPN BCE.Normal")
+      (LibraryName "C:\CADENCE\SPB_15.7\TOOLS\CAPTURE\LIBRARY\TRANSISTOR.OLB")
+      (DeviceIndex "0"))
+    (TPS3307
+      (FullPartName "TPS3307.Normal")
+      (LibraryName
+         "D:\PROJECT\IRISKING\IKEMB001\PROJECT\HARDWARE\DM642\DM642.OLB")
+      (DeviceIndex "0"))
+    ("PNP BCE"
+      (FullPartName "PNP BCE.Normal")
+      (LibraryName "C:\CADENCE\SPB_15.7\TOOLS\CAPTURE\LIBRARY\TRANSISTOR.OLB")
+      (DeviceIndex "0"))
+    (tps79718
+      (FullPartName "tps79718.Normal")
+      (LibraryName
+         "D:\PROJECT\IRISKING\IKEMB001\PROJECT\HARDWARE\DM642\DM642.OLB")
+      (DeviceIndex "0"))
+    (MPQ3906
+      (FullPartName "MPQ3906.Normal")
+      (LibraryName "C:\CADENCE\SPB_15.7\TOOLS\CAPTURE\LIBRARY\DISCRETE.OLB")
+      (DeviceIndex "0"))
+    ("HEADER 4X2"
+      (FullPartName "HEADER 4X2.Normal")
+      (LibraryName "C:\CADENCE\SPB_15.7\TOOLS\CAPTURE\LIBRARY\CONNECTOR.OLB")
+      (DeviceIndex "0"))
+    ("LAMP NEON"
+      (FullPartName "LAMP NEON.Normal")
+      (LibraryName "C:\CADENCE\SPB_15.7\TOOLS\CAPTURE\LIBRARY\DISCRETE.OLB")
+      (DeviceIndex "0"))
+    (GND_EARTH
+      (LibraryName "C:\CADENCE\SPB_15.7\TOOLS\CAPTURE\LIBRARY\CAPSYM.OLB")
+      (DeviceIndex "0"))
+    (DIODE_T_CK_1
+      (FullPartName "DIODE_T_CK_1.Normal")
+      (LibraryName "C:\CADENCE\SPB_15.7\TOOLS\CAPTURE\LIBRARY\DISCRETE.OLB")
+      (DeviceIndex "0"))
+    (P0720
+      (FullPartName "P0720.Normal")
+      (LibraryName "C:\CADENCE\SPB_15.7\TOOLS\CAPTURE\LIBRARY\DISCRETE.OLB")
+      (DeviceIndex "0"))
+    ("DIODE TAZ LC"
+      (FullPartName "DIODE TAZ LC.Normal")
+      (LibraryName "C:\CADENCE\SPB_15.7\TOOLS\CAPTURE\LIBRARY\DISCRETE.OLB")
+      (DeviceIndex "0"))
+    (BATTERY
+      (FullPartName "BATTERY.Normal")
+      (LibraryName "C:\CADENCE\SPB_15.7\TOOLS\CAPTURE\LIBRARY\DISCRETE.OLB")
+      (DeviceIndex "0"))
+    (74HC04
+      (FullPartName "74HC04.Normal")
+      (LibraryName "C:\CADENCE\SPB_15.7\TOOLS\CAPTURE\LIBRARY\GATE.OLB")
+      (DeviceIndex "0"))
+    (sp3485
+      (FullPartName "sp3485.Normal")
+      (LibraryName
+         "D:\PROJECT\IRISKING\IKEMB001\PROJECT\HARDWARE\DM642\DM642.OLB")
+      (DeviceIndex "0"))
+    ("HEADER 2"
+      (FullPartName "HEADER 2.Normal")
+      (LibraryName "C:\CADENCE\SPB_15.7\TOOLS\CAPTURE\LIBRARY\CONNECTOR.OLB")
+      (DeviceIndex "0"))
+    ("CONNECTOR DB15"
+      (FullPartName "CONNECTOR DB15.Normal")
+      (LibraryName "C:\CADENCE\SPB_15.7\TOOLS\CAPTURE\LIBRARY\CONNECTOR.OLB")
+      (DeviceIndex "0"))
+    (max1818
+      (FullPartName "max1818.Normal")
+      (LibraryName
+         "D:\PROJECT\IRISKING\IKEMB001\PROJECT\HARDWARE\DM642\DM642.OLB")
+      (DeviceIndex "0"))
+    (MAX811
+      (FullPartName "MAX811.Normal")
+      (LibraryName
+         "D:\PROJECT\IRISKING\IKEMB001\PROJECT\HARDWARE\DM642\DM642.OLB")
+      (DeviceIndex "0")))
+  (GlobalState
+    (FileView
+      (Path "Design Resources")
+      (Path "Design Resources"
+         "E:\project\IRISking\ikemb-0001\project\hardware\DM642\v3\dm642.dsn")
+      (Path "Design Resources"
+         "E:\project\IRISking\ikemb-0001\project\hardware\DM642\v3\dm642.dsn"
+         "SCHEMATIC1")
+      (Path "Design Resources" "Library")
+      (Path "Outputs")
+      (Select "Design Resources"
+         "E:\project\IRISking\ikemb-0001\project\hardware\DM642\v3\dm642.dsn"
+         "SCHEMATIC1" "POWER"))
+    (HierarchyView)
+    (Doc
+      (Type "COrCapturePMDoc")
+      (Frame
+        (Placement "44 0 1 0 859 -4 -31 110 504 283 868"))
+      (Tab 0))
+    (Doc
+      (Type "COrSchematicDoc")
+      (Frame
+        (Placement "44 0 1 -1 -1 -4 -31 88 1170 120 741")
+        (Scroll "79 405")
+        (Zoom "100")
+        (Occurrence "/"))
+      (Path
+         "E:\PROJECT\IRISKING\IKEMB-0001\PROJECT\HARDWARE\DM642\V3\DM642.DSN")
+      (Schematic "SCHEMATIC1")
+      (Page "POWER"))
+    (Doc
+      (Type "COrSchematicDoc")
+      (Frame
+        (Placement "44 0 1 -1 -1 -4 -31 132 1214 180 801")
+        (Scroll "467 122")
+        (Zoom "100")
+        (Occurrence "/"))
+      (Path
+         "E:\PROJECT\IRISKING\IKEMB-0001\PROJECT\HARDWARE\DM642\V3\DM642.DSN")
+      (Schematic "SCHEMATIC1")
+      (Page "ARM-CPLD"))
+    (Doc
+      (Type "COrSchematicDoc")
+      (Frame
+        (Placement "44 2 3 -1 -1 -4 -31 154 1236 210 831")
+        (Scroll "140 30")
+        (Zoom "100")
+        (Occurrence "/"))
+      (Path
+         "E:\PROJECT\IRISKING\IKEMB-0001\PROJECT\HARDWARE\DM642\V3\DM642.DSN")
+      (Schematic "SCHEMATIC1")
+      (Page "ARM-(ADDR/DATA/ADC/CLK/...)")))
+  (MPSSessionName "Administrator")
+  (LastUsedLibraryBrowseDirectory "C:\cadence\spb_15.7\tools\capture\library"))

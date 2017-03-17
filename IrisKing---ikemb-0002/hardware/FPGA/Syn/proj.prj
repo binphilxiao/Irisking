@@ -1,0 +1,62 @@
+#-- Synplicity, Inc.
+#-- Version 7.7       
+#-- Project file D:\project\IRISking\ikemb-0002\project\hardware\FPGA\Syn\proj.prj
+#-- Written on Wed Nov 11 16:32:59 2009
+
+
+#add_file options
+add_file -verilog "D:/project/IRISking/ikemb-0002/project/hardware/FPGA/Keyboard.v"
+add_file -verilog "D:/project/IRISking/ikemb-0002/project/hardware/FPGA/pld.v"
+add_file -verilog "D:/project/IRISking/ikemb-0002/project/hardware/FPGA/Wigend_in.v"
+add_file -verilog "D:/project/IRISking/ikemb-0002/project/hardware/FPGA/wigend_out.v"
+add_file -verilog "D:/project/IRISking/ikemb-0002/project/hardware/FPGA/adc.v"
+add_file -verilog "D:/project/IRISking/ikemb-0002/project/hardware/FPGA/button.v"
+
+
+#implementation: "fpga"
+impl -add fpga
+
+#device options
+set_option -technology CYCLONEII
+set_option -part EP2C5
+set_option -package TC144
+set_option -speed_grade -8
+
+#compilation/mapping options
+set_option -default_enum_encoding onehot
+set_option -symbolic_fsm_compiler 1
+set_option -resource_sharing 1
+set_option -use_fsm_explorer 0
+
+#map options
+set_option -frequency auto
+set_option -fanout_limit 30
+set_option -disable_io_insertion 0
+set_option -pipe 1
+set_option -update_models_cp 0
+set_option -retiming 0
+set_option -fixgatedclocks 0
+set_option -verification_mode 0
+
+#simulation options
+set_option -write_verilog 1
+set_option -write_vhdl 0
+
+#automatic place and route (vendor) options
+set_option -write_apr_constraint 1
+
+#set result format/file last
+project -result_file "fpga/pld.vqm"
+
+#implementation attributes
+set_option -vlog_std v2001
+
+#implementation attributes
+set_option -run_prop_extract 1
+set_option -no_sequential_opt 0
+set_option -quartus_version 5.0
+set_option -write_vif 1
+set_option -dup 0
+set_option -project_relative_includes 1
+set_option -job 0
+impl -active "fpga"

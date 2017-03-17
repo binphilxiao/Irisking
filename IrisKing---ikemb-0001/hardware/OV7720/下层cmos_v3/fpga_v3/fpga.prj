@@ -1,0 +1,49 @@
+#-- Synplicity, Inc.
+#-- Version 7.7       
+#-- Project file E:\project\IRISking\ikemb-0001\project\hardware\int\fpga.prj
+#-- Written on Thu Dec 21 11:58:10 2006
+
+
+#add_file options
+add_file -verilog "fpga.v"
+
+
+#implementation: "rev_1"
+impl -add rev_1
+
+#device options
+set_option -technology CYCLONEII
+set_option -part EP2C5
+set_option -package TC144
+set_option -speed_grade -7
+
+#compilation/mapping options
+set_option -default_enum_encoding onehot
+set_option -symbolic_fsm_compiler 1
+set_option -resource_sharing 1
+set_option -use_fsm_explorer 0
+
+#map options
+set_option -frequency 1.000
+set_option -fanout_limit 30
+set_option -disable_io_insertion 0
+set_option -pipe 0
+set_option -update_models_cp 0
+set_option -retiming 0
+set_option -fixgatedclocks 0
+set_option -verification_mode 0
+
+#simulation options
+set_option -write_verilog 1
+set_option -write_vhdl 0
+
+#automatic place and route (vendor) options
+set_option -write_apr_constraint 1
+
+#set result format/file last
+project -result_file "rev_1/fpga.vqm"
+
+#implementation attributes
+set_option -vlog_std v2001
+set_option -auto_constrain_io 0
+impl -active "rev_1"

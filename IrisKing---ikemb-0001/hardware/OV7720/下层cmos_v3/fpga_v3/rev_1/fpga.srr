@@ -1,0 +1,97 @@
+$ Start of Compile
+#Thu Jun 02 13:33:12 2011
+
+Synplicity Verilog Compiler, version Compilers 2.8.1, Build 015R, built Sep  2 2004
+Copyright (C) 1994-2004, Synplicity Inc.  All Rights Reserved
+
+@I::"E:\project\IRISking\ikemb-0001\project\hardware\OV7720\fpga_v3\fpga.v"
+Verilog syntax check successful!
+File E:\project\IRISking\ikemb-0001\project\hardware\OV7720\fpga_v3\fpga.v changed - recompiling
+Selecting top level module FPGA
+Synthesizing module FPGA
+@W:"E:\project\IRISking\ikemb-0001\project\hardware\OV7720\fpga_v3\fpga.v":5:14:5:20|Input port bit <2> of vpctlin[2:0] is unused
+
+@W: CL159 :"E:\project\IRISking\ikemb-0001\project\hardware\OV7720\fpga_v3\fpga.v":2:8:2:10|Input clk is unused
+@W: CL159 :"E:\project\IRISking\ikemb-0001\project\hardware\OV7720\fpga_v3\fpga.v":2:12:2:17|Input nReset is unused
+@END
+Process took 0h:0m:0s realtime, 0h:0m:0s cputime
+###########################################################[
+Synplicity Altera Technology Mapper, version 7.7.0, Build 033R, built Sep  9 2004
+Copyright (C) 1994-2004, Synplicity Inc.  All Rights Reserved
+
+
+
+Writing Analyst data base E:\project\IRISking\ikemb-0001\project\hardware\OV7720\fpga_v3\rev_1\fpga.srm
+Writing Verilog Netlist and constraint files
+Writing .vqm output for Quartus
+Writing Cross reference file for Quartus to E:\project\IRISking\ikemb-0001\project\hardware\OV7720\fpga_v3\rev_1\fpga.xrf
+Writing Verilog Simulation files
+
+
+##### START OF TIMING REPORT #####[
+# Timing Report written on Thu Jun 02 13:33:14 2011
+#
+
+
+Top view:               FPGA
+Requested Frequency:    1.0 MHz
+Wire load mode:         top
+Paths requested:        5
+Constraint File(s):    
+@N: MT195 |This timing report estimates place and route data. Please look at the place and route timing report for final timing..
+
+@N: MT197 |Clock constraints cover only FF-to-FF paths associated with the clock..
+
+
+
+Performance Summary 
+*******************
+
+
+Worst slack in design: NA
+
+
+
+
+
+
+Interface Information 
+*********************
+
+		No IO constraint found 
+
+
+##### END OF TIMING REPORT #####]
+
+
+##### START OF AREA REPORT #####[
+Design view:work.FPGA(verilog)
+Selecting part EP2C5T144C7
+@N: FA174 |The following device usage report estimates place and route data. Please look at the place and route report for final resource usage..
+
+I/O ATOMs:       28
+
+Cyclone II_lcell_comb:  0 ATOMs of 4608 
+Cyclone II_lcell_ff:  0 ATOMs of 4608
+ATOM count by mode:
+  normal:       0
+  arithmetic:   0
+  pure sequential: 0
+
+
+DSP Blocks:     0  (0 nine-bit DSP elements).
+DSP Utilization: 0.00% of available 13 blocks (104 nine-bit).
+ShiftTap:       0  (0 registers)
+Total ESB:      0 bits 
+
+Sequential atoms using regout pin: 0
+  also using enable pin: 0
+ATOMs using combout pin: 0
+Number of Inputs on ATOMs: 0
+Number of Nets:   61
+
+##### END OF AREA REPORT #####]
+
+Mapper successful!
+Process took 0h:0m:0s realtime, 0h:0m:0s cputime
+###########################################################]

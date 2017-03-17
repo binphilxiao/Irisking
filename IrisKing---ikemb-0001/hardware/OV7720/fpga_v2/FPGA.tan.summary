@@ -1,0 +1,76 @@
+--------------------------------------------------------------------------------------
+Timing Analyzer Summary
+--------------------------------------------------------------------------------------
+
+Type           : Worst-case tsu
+Slack          : N/A
+Required Time  : None
+Actual Time    : 0.406 ns
+From           : vpctlin[0]
+To             : pix_counter[9]
+From Clock     : --
+To Clock       : vpclkin[0]
+Failed Paths   : 0
+
+Type           : Worst-case tco
+Slack          : N/A
+Required Time  : None
+Actual Time    : 19.652 ns
+From           : frame_counter[5]
+To             : vpdout[7]
+From Clock     : vpclkin[0]
+To Clock       : --
+Failed Paths   : 0
+
+Type           : Worst-case tpd
+Slack          : N/A
+Required Time  : None
+Actual Time    : 11.661 ns
+From           : vpdin[9]
+To             : vpdout[9]
+From Clock     : --
+To Clock       : --
+Failed Paths   : 0
+
+Type           : Worst-case th
+Slack          : N/A
+Required Time  : None
+Actual Time    : 0.151 ns
+From           : vpctlin[0]
+To             : sse_counter[12]
+From Clock     : --
+To Clock       : vpclkin[0]
+Failed Paths   : 0
+
+Type           : Clock Setup: 'vpclkin[0]'
+Slack          : N/A
+Required Time  : None
+Actual Time    : 196.12 MHz ( period = 5.099 ns )
+From           : frame_counter[0]
+To             : frame_counter[7]
+From Clock     : vpclkin[0]
+To Clock       : vpclkin[0]
+Failed Paths   : 0
+
+Type           : Clock Hold: 'vpclkin[0]'
+Slack          : Not operational: Clock Skew > Data Delay
+Required Time  : None
+Actual Time    : N/A
+From           : frame_counter[0]
+To             : frame_counter[0]
+From Clock     : vpclkin[0]
+To Clock       : vpclkin[0]
+Failed Paths   : 36
+
+Type           : Total number of failed paths
+Slack          : 
+Required Time  : 
+Actual Time    : 
+From           : 
+To             : 
+From Clock     : 
+To Clock       : 
+Failed Paths   : 36
+
+--------------------------------------------------------------------------------------
+

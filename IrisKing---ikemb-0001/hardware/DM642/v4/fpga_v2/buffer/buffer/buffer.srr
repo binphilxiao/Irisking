@@ -1,0 +1,470 @@
+$ Start of Compile
+#Thu Nov 03 12:46:57 2011
+
+Synplicity Verilog Compiler, version Compilers 2.8.1, Build 015R, built Sep  2 2004
+Copyright (C) 1994-2004, Synplicity Inc.  All Rights Reserved
+
+@I::"E:\project\IRISking\ikemb-0001\project\hardware\DM642\v4\fpga_v2\buffer\buffer.v"
+@I::"E:\project\IRISking\ikemb-0001\project\hardware\DM642\v4\fpga_v2\buffer\Wigend_in.v"
+@I::"E:\project\IRISking\ikemb-0001\project\hardware\DM642\v4\fpga_v2\buffer\wigend_out.v"
+Verilog syntax check successful!
+File E:\project\IRISking\ikemb-0001\project\hardware\DM642\v4\fpga_v2\buffer\buffer.v changed - recompiling
+Selecting top level module buffer
+Synthesizing module Wigend_In
+Synthesizing module Wigend_Out
+Synthesizing module buffer
+@W: CL118 :"E:\project\IRISking\ikemb-0001\project\hardware\DM642\v4\fpga_v2\buffer\buffer.v":85:2:85:3|Latch generated from always block for signal wdata[7:0], probably caused by a missing assignment in an if or case stmt
+@W:"E:\project\IRISking\ikemb-0001\project\hardware\DM642\v4\fpga_v2\buffer\buffer.v":62:13:62:16|Input port bit <0> of nGCS[5:0] is unused
+
+@W: CL159 :"E:\project\IRISking\ikemb-0001\project\hardware\DM642\v4\fpga_v2\buffer\buffer.v":63:12:63:15|Input nFWE is unused
+@END
+Process took 0h:0m:0s realtime, 0h:0m:0s cputime
+###########################################################[
+Synplicity Altera Technology Mapper, version 7.7.0, Build 033R, built Sep  9 2004
+Copyright (C) 1994-2004, Synplicity Inc.  All Rights Reserved
+
+
+@N:"e:\project\irisking\ikemb-0001\project\hardware\dm642\v4\fpga_v2\buffer\wigend_in.v":61:4:61:9|Found counter in view:work.Wigend_In(verilog) inst wilclk_cnt[12:0]
+@N:"e:\project\irisking\ikemb-0001\project\hardware\dm642\v4\fpga_v2\buffer\wigend_out.v":23:1:23:6|Found counter in view:work.Wigend_Out(verilog) inst counter[16:0]
+@W: BN116 :"e:\project\irisking\ikemb-0001\project\hardware\dm642\v4\fpga_v2\buffer\wigend_in.v":121:1:121:6|Removing sequential instance wigend_in.wigend_buf[24] of view:PrimLib.dffr(prim) because there are no references to its outputs 
+@W: BN116 :"e:\project\irisking\ikemb-0001\project\hardware\dm642\v4\fpga_v2\buffer\wigend_in.v":121:1:121:6|Removing sequential instance wigend_in.wigend_buf[23] of view:PrimLib.dffr(prim) because there are no references to its outputs 
+@W: BN116 :"e:\project\irisking\ikemb-0001\project\hardware\dm642\v4\fpga_v2\buffer\wigend_in.v":121:1:121:6|Removing sequential instance wigend_in.wigend_buf[22] of view:PrimLib.dffr(prim) because there are no references to its outputs 
+@W: BN116 :"e:\project\irisking\ikemb-0001\project\hardware\dm642\v4\fpga_v2\buffer\wigend_in.v":121:1:121:6|Removing sequential instance wigend_in.wigend_buf[21] of view:PrimLib.dffr(prim) because there are no references to its outputs 
+@W: BN116 :"e:\project\irisking\ikemb-0001\project\hardware\dm642\v4\fpga_v2\buffer\wigend_in.v":121:1:121:6|Removing sequential instance wigend_in.wigend_buf[20] of view:PrimLib.dffr(prim) because there are no references to its outputs 
+@W: BN116 :"e:\project\irisking\ikemb-0001\project\hardware\dm642\v4\fpga_v2\buffer\wigend_in.v":121:1:121:6|Removing sequential instance wigend_in.wigend_buf[19] of view:PrimLib.dffr(prim) because there are no references to its outputs 
+@W: BN116 :"e:\project\irisking\ikemb-0001\project\hardware\dm642\v4\fpga_v2\buffer\wigend_in.v":121:1:121:6|Removing sequential instance wigend_in.wigend_buf[18] of view:PrimLib.dffr(prim) because there are no references to its outputs 
+@W: BN116 :"e:\project\irisking\ikemb-0001\project\hardware\dm642\v4\fpga_v2\buffer\wigend_in.v":121:1:121:6|Removing sequential instance wigend_in.wigend_buf[17] of view:PrimLib.dffr(prim) because there are no references to its outputs 
+@W: BN116 :"e:\project\irisking\ikemb-0001\project\hardware\dm642\v4\fpga_v2\buffer\wigend_in.v":121:1:121:6|Removing sequential instance wigend_in.wigend_buf[16] of view:PrimLib.dffr(prim) because there are no references to its outputs 
+@W: BN116 :"e:\project\irisking\ikemb-0001\project\hardware\dm642\v4\fpga_v2\buffer\wigend_in.v":121:1:121:6|Removing sequential instance wigend_in.wigend_buf[15] of view:PrimLib.dffr(prim) because there are no references to its outputs 
+@W: BN116 :"e:\project\irisking\ikemb-0001\project\hardware\dm642\v4\fpga_v2\buffer\wigend_in.v":121:1:121:6|Removing sequential instance wigend_in.wigend_buf[14] of view:PrimLib.dffr(prim) because there are no references to its outputs 
+@W: BN116 :"e:\project\irisking\ikemb-0001\project\hardware\dm642\v4\fpga_v2\buffer\wigend_in.v":121:1:121:6|Removing sequential instance wigend_in.wigend_buf[13] of view:PrimLib.dffr(prim) because there are no references to its outputs 
+@W: BN116 :"e:\project\irisking\ikemb-0001\project\hardware\dm642\v4\fpga_v2\buffer\wigend_in.v":121:1:121:6|Removing sequential instance wigend_in.wigend_buf[12] of view:PrimLib.dffr(prim) because there are no references to its outputs 
+@W: BN116 :"e:\project\irisking\ikemb-0001\project\hardware\dm642\v4\fpga_v2\buffer\wigend_in.v":121:1:121:6|Removing sequential instance wigend_in.wigend_buf[11] of view:PrimLib.dffr(prim) because there are no references to its outputs 
+@W: BN116 :"e:\project\irisking\ikemb-0001\project\hardware\dm642\v4\fpga_v2\buffer\wigend_in.v":121:1:121:6|Removing sequential instance wigend_in.wigend_buf[10] of view:PrimLib.dffr(prim) because there are no references to its outputs 
+@W: BN116 :"e:\project\irisking\ikemb-0001\project\hardware\dm642\v4\fpga_v2\buffer\wigend_in.v":121:1:121:6|Removing sequential instance wigend_in.wigend_buf[9] of view:PrimLib.dffr(prim) because there are no references to its outputs 
+@W: BN116 :"e:\project\irisking\ikemb-0001\project\hardware\dm642\v4\fpga_v2\buffer\wigend_in.v":121:1:121:6|Removing sequential instance wigend_in.wigend_buf[8] of view:PrimLib.dffr(prim) because there are no references to its outputs 
+@W: BN116 :"e:\project\irisking\ikemb-0001\project\hardware\dm642\v4\fpga_v2\buffer\wigend_in.v":121:1:121:6|Removing sequential instance wigend_in.wigend_buf[7] of view:PrimLib.dffr(prim) because there are no references to its outputs 
+@W: BN116 :"e:\project\irisking\ikemb-0001\project\hardware\dm642\v4\fpga_v2\buffer\wigend_in.v":121:1:121:6|Removing sequential instance wigend_in.wigend_buf[6] of view:PrimLib.dffr(prim) because there are no references to its outputs 
+@W: BN116 :"e:\project\irisking\ikemb-0001\project\hardware\dm642\v4\fpga_v2\buffer\wigend_in.v":121:1:121:6|Removing sequential instance wigend_in.wigend_buf[5] of view:PrimLib.dffr(prim) because there are no references to its outputs 
+@W: BN116 :"e:\project\irisking\ikemb-0001\project\hardware\dm642\v4\fpga_v2\buffer\wigend_in.v":121:1:121:6|Removing sequential instance wigend_in.wigend_buf[4] of view:PrimLib.dffr(prim) because there are no references to its outputs 
+@W: BN116 :"e:\project\irisking\ikemb-0001\project\hardware\dm642\v4\fpga_v2\buffer\wigend_in.v":121:1:121:6|Removing sequential instance wigend_in.wigend_buf[3] of view:PrimLib.dffr(prim) because there are no references to its outputs 
+@W: BN116 :"e:\project\irisking\ikemb-0001\project\hardware\dm642\v4\fpga_v2\buffer\wigend_in.v":121:1:121:6|Removing sequential instance wigend_in.wigend_buf[2] of view:PrimLib.dffr(prim) because there are no references to its outputs 
+@W: BN116 :"e:\project\irisking\ikemb-0001\project\hardware\dm642\v4\fpga_v2\buffer\wigend_in.v":121:1:121:6|Removing sequential instance wigend_in.wigend_buf[1] of view:PrimLib.dffr(prim) because there are no references to its outputs 
+@W: BN116 :"e:\project\irisking\ikemb-0001\project\hardware\dm642\v4\fpga_v2\buffer\wigend_in.v":121:1:121:6|Removing sequential instance wigend_in.wigend_buf[0] of view:PrimLib.dffr(prim) because there are no references to its outputs 
+@W: BN116 :"e:\project\irisking\ikemb-0001\project\hardware\dm642\v4\fpga_v2\buffer\wigend_in.v":121:1:121:6|Removing sequential instance wigend_in.data[25] of view:PrimLib.dffr(prim) because there are no references to its outputs 
+@W: BN116 :"e:\project\irisking\ikemb-0001\project\hardware\dm642\v4\fpga_v2\buffer\wigend_in.v":121:1:121:6|Removing sequential instance wigend_in.data[24] of view:PrimLib.dffr(prim) because there are no references to its outputs 
+@W: BN116 :"e:\project\irisking\ikemb-0001\project\hardware\dm642\v4\fpga_v2\buffer\wigend_in.v":121:1:121:6|Removing sequential instance wigend_in.data[23] of view:PrimLib.dffr(prim) because there are no references to its outputs 
+@W: BN116 :"e:\project\irisking\ikemb-0001\project\hardware\dm642\v4\fpga_v2\buffer\wigend_in.v":121:1:121:6|Removing sequential instance wigend_in.data[22] of view:PrimLib.dffr(prim) because there are no references to its outputs 
+@W: BN116 :"e:\project\irisking\ikemb-0001\project\hardware\dm642\v4\fpga_v2\buffer\wigend_in.v":121:1:121:6|Removing sequential instance wigend_in.data[21] of view:PrimLib.dffr(prim) because there are no references to its outputs 
+@W: BN116 :"e:\project\irisking\ikemb-0001\project\hardware\dm642\v4\fpga_v2\buffer\wigend_in.v":121:1:121:6|Removing sequential instance wigend_in.data[20] of view:PrimLib.dffr(prim) because there are no references to its outputs 
+@W: BN116 :"e:\project\irisking\ikemb-0001\project\hardware\dm642\v4\fpga_v2\buffer\wigend_in.v":121:1:121:6|Removing sequential instance wigend_in.data[19] of view:PrimLib.dffr(prim) because there are no references to its outputs 
+@W: BN116 :"e:\project\irisking\ikemb-0001\project\hardware\dm642\v4\fpga_v2\buffer\wigend_in.v":121:1:121:6|Removing sequential instance wigend_in.data[18] of view:PrimLib.dffr(prim) because there are no references to its outputs 
+@W: BN116 :"e:\project\irisking\ikemb-0001\project\hardware\dm642\v4\fpga_v2\buffer\wigend_in.v":121:1:121:6|Removing sequential instance wigend_in.data[17] of view:PrimLib.dffr(prim) because there are no references to its outputs 
+@W: BN116 :"e:\project\irisking\ikemb-0001\project\hardware\dm642\v4\fpga_v2\buffer\wigend_in.v":121:1:121:6|Removing sequential instance wigend_in.data[16] of view:PrimLib.dffr(prim) because there are no references to its outputs 
+@W: BN116 :"e:\project\irisking\ikemb-0001\project\hardware\dm642\v4\fpga_v2\buffer\wigend_in.v":121:1:121:6|Removing sequential instance wigend_in.data[15] of view:PrimLib.dffr(prim) because there are no references to its outputs 
+@W: BN116 :"e:\project\irisking\ikemb-0001\project\hardware\dm642\v4\fpga_v2\buffer\wigend_in.v":121:1:121:6|Removing sequential instance wigend_in.data[14] of view:PrimLib.dffr(prim) because there are no references to its outputs 
+@W: BN116 :"e:\project\irisking\ikemb-0001\project\hardware\dm642\v4\fpga_v2\buffer\wigend_in.v":121:1:121:6|Removing sequential instance wigend_in.data[13] of view:PrimLib.dffr(prim) because there are no references to its outputs 
+@W: BN116 :"e:\project\irisking\ikemb-0001\project\hardware\dm642\v4\fpga_v2\buffer\wigend_in.v":121:1:121:6|Removing sequential instance wigend_in.data[12] of view:PrimLib.dffr(prim) because there are no references to its outputs 
+@W: BN116 :"e:\project\irisking\ikemb-0001\project\hardware\dm642\v4\fpga_v2\buffer\wigend_in.v":121:1:121:6|Removing sequential instance wigend_in.data[11] of view:PrimLib.dffr(prim) because there are no references to its outputs 
+@W: BN116 :"e:\project\irisking\ikemb-0001\project\hardware\dm642\v4\fpga_v2\buffer\wigend_in.v":121:1:121:6|Removing sequential instance wigend_in.data[10] of view:PrimLib.dffr(prim) because there are no references to its outputs 
+@W: BN116 :"e:\project\irisking\ikemb-0001\project\hardware\dm642\v4\fpga_v2\buffer\wigend_in.v":121:1:121:6|Removing sequential instance wigend_in.data[9] of view:PrimLib.dffr(prim) because there are no references to its outputs 
+@W: BN116 :"e:\project\irisking\ikemb-0001\project\hardware\dm642\v4\fpga_v2\buffer\wigend_in.v":121:1:121:6|Removing sequential instance wigend_in.data[8] of view:PrimLib.dffr(prim) because there are no references to its outputs 
+@W: BN116 :"e:\project\irisking\ikemb-0001\project\hardware\dm642\v4\fpga_v2\buffer\wigend_in.v":121:1:121:6|Removing sequential instance wigend_in.data[7] of view:PrimLib.dffr(prim) because there are no references to its outputs 
+@W: BN116 :"e:\project\irisking\ikemb-0001\project\hardware\dm642\v4\fpga_v2\buffer\wigend_in.v":121:1:121:6|Removing sequential instance wigend_in.data[6] of view:PrimLib.dffr(prim) because there are no references to its outputs 
+@W: BN116 :"e:\project\irisking\ikemb-0001\project\hardware\dm642\v4\fpga_v2\buffer\wigend_in.v":121:1:121:6|Removing sequential instance wigend_in.data[5] of view:PrimLib.dffr(prim) because there are no references to its outputs 
+@W: BN116 :"e:\project\irisking\ikemb-0001\project\hardware\dm642\v4\fpga_v2\buffer\wigend_in.v":121:1:121:6|Removing sequential instance wigend_in.data[4] of view:PrimLib.dffr(prim) because there are no references to its outputs 
+@W: BN116 :"e:\project\irisking\ikemb-0001\project\hardware\dm642\v4\fpga_v2\buffer\wigend_in.v":121:1:121:6|Removing sequential instance wigend_in.data[3] of view:PrimLib.dffr(prim) because there are no references to its outputs 
+@W: BN116 :"e:\project\irisking\ikemb-0001\project\hardware\dm642\v4\fpga_v2\buffer\wigend_in.v":121:1:121:6|Removing sequential instance wigend_in.data[2] of view:PrimLib.dffr(prim) because there are no references to its outputs 
+@W: BN116 :"e:\project\irisking\ikemb-0001\project\hardware\dm642\v4\fpga_v2\buffer\wigend_in.v":121:1:121:6|Removing sequential instance wigend_in.data[1] of view:PrimLib.dffr(prim) because there are no references to its outputs 
+@W: BN116 :"e:\project\irisking\ikemb-0001\project\hardware\dm642\v4\fpga_v2\buffer\wigend_in.v":121:1:121:6|Removing sequential instance wigend_in.data[0] of view:PrimLib.dffr(prim) because there are no references to its outputs 
+@W: BN116 :"e:\project\irisking\ikemb-0001\project\hardware\dm642\v4\fpga_v2\buffer\wigend_in.v":35:1:35:6|Removing sequential instance wigend_in.wil1 of view:PrimLib.dffs(prim) because there are no references to its outputs 
+@W: BN116 :"e:\project\irisking\ikemb-0001\project\hardware\dm642\v4\fpga_v2\buffer\wigend_in.v":35:1:35:6|Removing sequential instance wigend_in.wil0 of view:PrimLib.dffs(prim) because there are no references to its outputs 
+@W: BN132 :"e:\project\irisking\ikemb-0001\project\hardware\dm642\v4\fpga_v2\buffer\wigend_out.v":40:2:40:3|Removing instance wigend_out.wigend_59_iv_i_i_0_a3_7_a[1],  because it is equivalent to instance wigend_out.wigend_59_iv_0_a3_9_a[0]
+@W: BN132 :"e:\project\irisking\ikemb-0001\project\hardware\dm642\v4\fpga_v2\buffer\wigend_out.v":40:2:40:3|Removing instance wigend_out.wigend_59_iv_i_i_0_a3_13_a[1],  because it is equivalent to instance wigend_out.wigend_59_iv_0_a3_15_a[0]
+@W: BN132 :"e:\project\irisking\ikemb-0001\project\hardware\dm642\v4\fpga_v2\buffer\wigend_out.v":40:2:40:3|Removing instance wigend_out.wigend_59_iv_0_o3_3_4_i_o2_i_a14_7_2_a[0],  because it is equivalent to instance wigend_out.wigend_59_iv_i_i_0_o3_33_a[1]
+@W: BN132 :"e:\project\irisking\ikemb-0001\project\hardware\dm642\v4\fpga_v2\buffer\wigend_out.v":40:2:40:3|Removing instance wigend_out.wigend_59_iv_0_o3_3_4_i_o2_i_o14_6_a[0],  because it is equivalent to instance wigend_out.wigend_59_iv_i_i_0_o3_33_a[1]
+@W: BN132 :"e:\project\irisking\ikemb-0001\project\hardware\dm642\v4\fpga_v2\buffer\buffer.v":85:2:85:3|Removing instance un1_nGCS_4_3,  because it is equivalent to instance un1_nGCS_3_3
+@W: BN132 :"e:\project\irisking\ikemb-0001\project\hardware\dm642\v4\fpga_v2\buffer\wigend_out.v":40:2:40:3|Removing instance wigend_out.wigend_59_iv_0_a3_23_a[0],  because it is equivalent to instance wigend_out.wigend_59_iv_i_i_0_a2_0_a[1]
+@W: BN132 :"e:\project\irisking\ikemb-0001\project\hardware\dm642\v4\fpga_v2\buffer\wigend_in.v":33:15:33:52|Removing instance wigend_in.int_1_0_a2,  because it is equivalent to instance un1_wil_in_irq_flag11_1_0_0_a
+@W: BN132 :"e:\project\irisking\ikemb-0001\project\hardware\dm642\v4\fpga_v2\buffer\wigend_out.v":40:2:40:3|Removing instance wigend_out.wigend_59_iv_0_a3_8_a[0],  because it is equivalent to instance wigend_out.wigend_59_iv_i_i_0_a3_6_a[1]
+@W: BN132 :"e:\project\irisking\ikemb-0001\project\hardware\dm642\v4\fpga_v2\buffer\buffer.v":85:2:85:3|Removing instance wdata_1_i_0_3_a[0],  because it is equivalent to instance wdata_1_i_0_1_a[1]
+@W: BN132 :"e:\project\irisking\ikemb-0001\project\hardware\dm642\v4\fpga_v2\buffer\buffer.v":85:2:85:3|Removing instance un1_addr_24_0_0_a2_1_1,  because it is equivalent to instance wigend_reg_out12_0_a2_3_a2_1_a
+@W: BN132 :"e:\project\irisking\ikemb-0001\project\hardware\dm642\v4\fpga_v2\buffer\wigend_out.v":40:2:40:3|Removing instance wigend_out.wigend_59_iv_i_i_0_o3_51_a[1],  because it is equivalent to instance wigend_out.wigend_59_iv_i_i_0_o3_55_a[1]
+@W: BN132 :"e:\project\irisking\ikemb-0001\project\hardware\dm642\v4\fpga_v2\buffer\wigend_out.v":40:2:40:3|Removing instance wigend_out.wigend_59_iv_i_i_0_a3_38_a[1],  because it is equivalent to instance wigend_out.wigend_59_iv_i_i_0_a3_31_a[1]
+@W: BN132 :"e:\project\irisking\ikemb-0001\project\hardware\dm642\v4\fpga_v2\buffer\wigend_out.v":40:2:40:3|Removing instance wigend_out.wigend_59_iv_i_i_0_a3_1_a[1],  because it is equivalent to instance wigend_out.wigend_59_iv_0_a3_3_a[0]
+@W: BN132 :"e:\project\irisking\ikemb-0001\project\hardware\dm642\v4\fpga_v2\buffer\wigend_out.v":40:2:40:3|Removing instance wigend_out.wigend_59_iv_0_a3_20_a[0],  because it is equivalent to instance wigend_out.wigend_59_iv_i_i_0_a3_18_a[1]
+@W: BN132 :"e:\project\irisking\ikemb-0001\project\hardware\dm642\v4\fpga_v2\buffer\wigend_out.v":40:2:40:3|Removing instance wigend_out.wigend_59_iv_i_i_0_a3_28_1[1],  because it is equivalent to instance wigend_out.wigend_59_iv_i_i_0_a3_28_a[1]
+
+Writing Analyst data base E:\project\IRISking\ikemb-0001\project\hardware\DM642\v4\fpga_v2\buffer\buffer\buffer.srm
+Writing Verilog Netlist and constraint files
+Writing .vqm output for Quartus
+Writing Cross reference file for Quartus to E:\project\IRISking\ikemb-0001\project\hardware\DM642\v4\fpga_v2\buffer\buffer\buffer.xrf
+Writing Verilog Simulation files
+Found clock buffer|clk with period 10.00ns 
+Found clock buffer|nWE with period 10.00ns 
+Found clock buffer|wigend_in.wil_clk_inferred_clock with period 10.00ns 
+
+
+##### START OF TIMING REPORT #####[
+# Timing Report written on Thu Nov 03 12:47:00 2011
+#
+
+
+Top view:               buffer
+Requested Frequency:    100.0 MHz
+Wire load mode:         top
+Paths requested:        5
+Constraint File(s):    
+@N: MT195 |This timing report estimates place and route data. Please look at the place and route timing report for final timing..
+
+@N: MT197 |Clock constraints cover only FF-to-FF paths associated with the clock..
+
+
+
+Performance Summary 
+*******************
+
+
+Worst slack in design: 2.047
+
+                                            Requested     Estimated     Requested     Estimated               Clock        Clock              
+Starting Clock                              Frequency     Frequency     Period        Period        Slack     Type         Group              
+----------------------------------------------------------------------------------------------------------------------------------------------
+buffer|clk                                  100.0 MHz     125.7 MHz     10.000        7.953         2.047     inferred     Inferred_clkgroup_0
+buffer|nWE                                  100.0 MHz     375.0 MHz     10.000        2.666         7.334     inferred     Inferred_clkgroup_2
+buffer|wigend_in.wil_clk_inferred_clock     100.0 MHz     451.6 MHz     10.000        2.214         7.786     inferred     Inferred_clkgroup_1
+==============================================================================================================================================
+
+
+
+
+
+Clock Relationships
+*******************
+
+Clocks                                                                            |    rise  to  rise   |    fall  to  fall   |    rise  to  fall   |    fall  to  rise 
+------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+Starting                                 Ending                                   |  constraint  slack  |  constraint  slack  |  constraint  slack  |  constraint  slack
+------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+buffer|nWE                               buffer|nWE                               |  No paths    -      |  10.000      7.334  |  No paths    -      |  No paths    -    
+buffer|nWE                               buffer|clk                               |  No paths    -      |  No paths    -      |  No paths    -      |  Diff grp    -    
+buffer|wigend_in.wil_clk_inferred_clock  buffer|wigend_in.wil_clk_inferred_clock  |  No paths    -      |  10.000      7.786  |  No paths    -      |  No paths    -    
+buffer|wigend_in.wil_clk_inferred_clock  buffer|clk                               |  No paths    -      |  No paths    -      |  No paths    -      |  Diff grp    -    
+buffer|clk                               buffer|nWE                               |  No paths    -      |  No paths    -      |  Diff grp    -      |  No paths    -    
+buffer|clk                               buffer|wigend_in.wil_clk_inferred_clock  |  No paths    -      |  No paths    -      |  Diff grp    -      |  No paths    -    
+buffer|clk                               buffer|clk                               |  10.000      2.047  |  No paths    -      |  No paths    -      |  No paths    -    
+========================================================================================================================================================================
+ Note: 'No paths' indicates there are no paths in the design for that pair of clock edges.
+       'Diff grp' indicates that paths exist but the starting clock and ending clock are in different clock groups.
+
+
+
+Interface Information 
+*********************
+
+		No IO constraint found 
+
+
+
+====================================
+Detailed Report for Clock: buffer|clk
+====================================
+
+
+
+Starting Points with Worst Slack
+********************************
+
+                           Starting                                                         Arrival          
+Instance                   Reference      Type                   Pin        Net             Time        Slack
+                           Clock                                                                             
+-------------------------------------------------------------------------------------------------------------
+wigend_out.counter[9]      buffer|clk     cycloneii_lcell_ff     regout     counter[9]      0.173       2.047
+wigend_out.counter[10]     buffer|clk     cycloneii_lcell_ff     regout     counter[10]     0.173       2.159
+wigend_out.counter[8]      buffer|clk     cycloneii_lcell_ff     regout     counter[8]      0.173       2.253
+wigend_out.counter[11]     buffer|clk     cycloneii_lcell_ff     regout     counter[11]     0.173       2.259
+wigend_out.counter[5]      buffer|clk     cycloneii_lcell_ff     regout     counter[5]      0.173       2.614
+wigend_out.counter[6]      buffer|clk     cycloneii_lcell_ff     regout     counter[6]      0.173       2.663
+wigend_out.counter[7]      buffer|clk     cycloneii_lcell_ff     regout     counter[7]      0.173       2.746
+wigend_out.counter[12]     buffer|clk     cycloneii_lcell_ff     regout     counter[12]     0.173       2.756
+wigend_out.counter[4]      buffer|clk     cycloneii_lcell_ff     regout     counter[4]      0.173       3.236
+wigend_out.counter[3]      buffer|clk     cycloneii_lcell_ff     regout     counter[3]      0.173       3.498
+=============================================================================================================
+
+
+Ending Points with Worst Slack
+******************************
+
+                          Starting                                                                   Required          
+Instance                  Reference      Type                   Pin        Net                       Time         Slack
+                          Clock                                                                                        
+-----------------------------------------------------------------------------------------------------------------------
+wigend_out.wigend[1]      buffer|clk     cycloneii_lcell_ff     datain     wigend_59_iv_i_i_0[1]     9.838        2.047
+wigend_out.wigend[0]      buffer|clk     cycloneii_lcell_ff     datain     wigend_59_iv_0[0]         9.838        2.641
+wil_out_irq_flag          buffer|clk     cycloneii_lcell_ff     ena        N_930_i                   9.304        3.947
+wigend_out.counter[0]     buffer|clk     cycloneii_lcell_ff     sload      N_870_i                   9.028        4.607
+wigend_out.counter[1]     buffer|clk     cycloneii_lcell_ff     sload      N_870_i                   9.028        4.607
+wigend_out.counter[2]     buffer|clk     cycloneii_lcell_ff     sload      N_870_i                   9.028        4.607
+wigend_out.counter[3]     buffer|clk     cycloneii_lcell_ff     sload      N_870_i                   9.028        4.607
+wigend_out.counter[4]     buffer|clk     cycloneii_lcell_ff     sload      N_870_i                   9.028        4.607
+wigend_out.counter[5]     buffer|clk     cycloneii_lcell_ff     sload      N_870_i                   9.028        4.607
+wigend_out.counter[6]     buffer|clk     cycloneii_lcell_ff     sload      N_870_i                   9.028        4.607
+=======================================================================================================================
+
+
+
+Worst Path Information
+***********************
+
+
+Path information for path number 1: 
+    Requested Period:                        10.000
+    - Setup time:                            0.162
+    = Required time:                         9.838
+
+    - Propagation time:                      7.790
+    = Slack (critical) :                     2.047
+
+    Number of logic level(s):                11
+    Starting point:                          wigend_out.counter[9] / regout
+    Ending point:                            wigend_out.wigend[1] / datain
+    The start point is clocked by            buffer|clk [rising] on pin clk
+    The end   point is clocked by            buffer|clk [rising] on pin clk
+
+Instance / Net                                                          Pin         Pin               Arrival     No. of    
+Name                                           Type                     Name        Dir     Delay     Time        Fan Out(s)
+----------------------------------------------------------------------------------------------------------------------------
+wigend_out.counter[9]                          cycloneii_lcell_ff       regout      Out     0.173     0.173       -         
+counter[9]                                     Net                      -           -       1.370     -           41        
+wigend_out.wigend_59_iv_i_i_0_a3_64_0_a[1]     cycloneii_lcell_comb     datab       In      -         1.543       -         
+wigend_out.wigend_59_iv_i_i_0_a3_64_0_a[1]     cycloneii_lcell_comb     combout     Out     0.340     1.883       -         
+wigend_59_iv_i_i_0_a3_64_0_a[1]                Net                      -           -       0.140     -           1         
+wigend_out.wigend_59_iv_i_i_0_a3_64_0[1]       cycloneii_lcell_comb     dataa       In      -         2.023       -         
+wigend_out.wigend_59_iv_i_i_0_a3_64_0[1]       cycloneii_lcell_comb     combout     Out     0.454     2.477       -         
+wigend_59_iv_i_i_0_a3_64_0[1]                  Net                      -           -       0.140     -           1         
+wigend_out.wigend_59_iv_i_i_0_a3_64[1]         cycloneii_lcell_comb     dataa       In      -         2.617       -         
+wigend_out.wigend_59_iv_i_i_0_a3_64[1]         cycloneii_lcell_comb     combout     Out     0.454     3.071       -         
+wigend_59_iv_i_i_0_a3_64[1]                    Net                      -           -       0.140     -           1         
+wigend_out.wigend_59_iv_i_i_0_o3_25_0[1]       cycloneii_lcell_comb     dataa       In      -         3.211       -         
+wigend_out.wigend_59_iv_i_i_0_o3_25_0[1]       cycloneii_lcell_comb     combout     Out     0.454     3.665       -         
+wigend_59_iv_i_i_0_o3_25_0[1]                  Net                      -           -       0.140     -           1         
+wigend_out.wigend_59_iv_i_i_0_o3_25[1]         cycloneii_lcell_comb     dataa       In      -         3.805       -         
+wigend_out.wigend_59_iv_i_i_0_o3_25[1]         cycloneii_lcell_comb     combout     Out     0.454     4.259       -         
+wigend_59_iv_i_i_0_o3_25[1]                    Net                      -           -       0.194     -           2         
+wigend_out.wigend_59_iv_i_i_0_o3_0_0[1]        cycloneii_lcell_comb     datab       In      -         4.453       -         
+wigend_out.wigend_59_iv_i_i_0_o3_0_0[1]        cycloneii_lcell_comb     combout     Out     0.340     4.793       -         
+wigend_59_iv_i_i_0_o3_0_0[1]                   Net                      -           -       0.140     -           1         
+wigend_out.wigend_59_iv_i_i_0_o3_0[1]          cycloneii_lcell_comb     dataa       In      -         4.933       -         
+wigend_out.wigend_59_iv_i_i_0_o3_0[1]          cycloneii_lcell_comb     combout     Out     0.454     5.387       -         
+wigend_59_iv_i_i_0_o3_0[1]                     Net                      -           -       0.140     -           1         
+wigend_out.wigend_59_iv_i_i_0_a7_1_a[1]        cycloneii_lcell_comb     dataa       In      -         5.528       -         
+wigend_out.wigend_59_iv_i_i_0_a7_1_a[1]        cycloneii_lcell_comb     combout     Out     0.454     5.982       -         
+wigend_59_iv_i_i_0_a7_1_a[1]                   Net                      -           -       0.140     -           1         
+wigend_out.wigend_59_iv_i_i_0_a7_1[1]          cycloneii_lcell_comb     dataa       In      -         6.122       -         
+wigend_out.wigend_59_iv_i_i_0_a7_1[1]          cycloneii_lcell_comb     combout     Out     0.454     6.576       -         
+wigend_59_iv_i_i_0_a7_1[1]                     Net                      -           -       0.140     -           1         
+wigend_out.wigend_59_iv_i_i_0_0[1]             cycloneii_lcell_comb     datab       In      -         6.716       -         
+wigend_out.wigend_59_iv_i_i_0_0[1]             cycloneii_lcell_comb     combout     Out     0.340     7.056       -         
+wigend_59_iv_i_i_0_0[1]                        Net                      -           -       0.140     -           1         
+wigend_out.wigend_59_iv_i_i_0[1]               cycloneii_lcell_comb     dataa       In      -         7.196       -         
+wigend_out.wigend_59_iv_i_i_0[1]               cycloneii_lcell_comb     combout     Out     0.454     7.650       -         
+wigend_59_iv_i_i_0[1]                          Net                      -           -       0.140     -           1         
+wigend_out.wigend[1]                           cycloneii_lcell_ff       datain      In      -         7.790       -         
+============================================================================================================================
+Total path delay (propagation time + setup) of 7.953 is 4.987(62.7%) logic and 2.965(37.3%) route.
+
+
+
+
+====================================
+Detailed Report for Clock: buffer|nWE
+====================================
+
+
+
+Starting Points with Worst Slack
+********************************
+
+                       Starting                                                                Arrival          
+Instance               Reference      Type                   Pin        Net                    Time        Slack
+                       Clock                                                                                    
+----------------------------------------------------------------------------------------------------------------
+wigend_reg_out[11]     buffer|nWE     cycloneii_lcell_ff     regout     wigend_reg_out[11]     0.173       7.334
+wigend_reg_out[1]      buffer|nWE     cycloneii_lcell_ff     regout     wigend_reg_out[1]      0.173       7.448
+wigend_reg_out[16]     buffer|nWE     cycloneii_lcell_ff     regout     wigend_reg_out[16]     0.173       7.448
+wigend_reg_out[19]     buffer|nWE     cycloneii_lcell_ff     regout     wigend_reg_out[19]     0.173       7.448
+wigend_reg_out[0]      buffer|nWE     cycloneii_lcell_ff     regout     wigend_reg_out[0]      0.173       7.562
+wigend_reg_out[10]     buffer|nWE     cycloneii_lcell_ff     regout     wigend_reg_out[10]     0.173       7.928
+wigend_reg_out[12]     buffer|nWE     cycloneii_lcell_ff     regout     wigend_reg_out[12]     0.173       7.928
+wigend_reg_out[13]     buffer|nWE     cycloneii_lcell_ff     regout     wigend_reg_out[13]     0.173       7.928
+wigend_reg_out[14]     buffer|nWE     cycloneii_lcell_ff     regout     wigend_reg_out[14]     0.173       7.928
+wigend_reg_out[15]     buffer|nWE     cycloneii_lcell_ff     regout     wigend_reg_out[15]     0.173       7.928
+================================================================================================================
+
+
+Ending Points with Worst Slack
+******************************
+
+             Starting                                                          Required          
+Instance     Reference      Type              Pin         Net                  Time         Slack
+             Clock                                                                               
+-------------------------------------------------------------------------------------------------
+wdata[3]     buffer|nWE     SYNLPM_LATR1      DATA[0]     wdata_1_i_0[3]       9.838        7.334
+wdata[0]     buffer|nWE     SYNLPM_LATR1      DATA[0]     wdata_1_i_0_x[0]     9.838        7.448
+wdata[1]     buffer|nWE     SYNLPM_LATR1      DATA[0]     wdata_1_i_0[1]       9.838        7.448
+wdata[2]     buffer|nWE     SYNLPM_LATRS1     DATA[0]     wdata_1_i_0[2]       9.838        7.928
+wdata[4]     buffer|nWE     SYNLPM_LATRS1     DATA[0]     wdata_1_i_0_0[4]     9.838        7.928
+wdata[5]     buffer|nWE     SYNLPM_LATRS1     DATA[0]     wdata_1_i_0[5]       9.838        7.928
+wdata[6]     buffer|nWE     SYNLPM_LATRS1     DATA[0]     wdata_1_i_0[6]       9.838        7.928
+wdata[7]     buffer|nWE     SYNLPM_LATR1      DATA[0]     wdata_1_i_0[7]       9.838        7.928
+=================================================================================================
+
+
+
+Worst Path Information
+***********************
+
+
+Path information for path number 1: 
+    Requested Period:                        10.000
+    - Setup time:                            0.162
+    = Required time:                         9.838
+
+    - Propagation time:                      2.504
+    = Slack (non-critical) :                 7.334
+
+    Number of logic level(s):                3
+    Starting point:                          wigend_reg_out[11] / regout
+    Ending point:                            wdata[3] / DATA[0]
+    The start point is clocked by            buffer|nWE [falling] on pin clk
+    The end   point is clocked by            buffer|nWE [falling] on pin GATE
+
+Instance / Net                                  Pin         Pin               Arrival     No. of    
+Name                   Type                     Name        Dir     Delay     Time        Fan Out(s)
+----------------------------------------------------------------------------------------------------
+wigend_reg_out[11]     cycloneii_lcell_ff       regout      Out     0.173     0.173       -         
+wigend_reg_out[11]     Net                      -           -       0.548     -           3         
+wdata_1_i_0_3_a[3]     cycloneii_lcell_comb     dataa       In      -         0.721       -         
+wdata_1_i_0_3_a[3]     cycloneii_lcell_comb     combout     Out     0.454     1.175       -         
+wdata_1_i_0_3_a[3]     Net                      -           -       0.140     -           1         
+wdata_1_i_0_3[3]       cycloneii_lcell_comb     dataa       In      -         1.315       -         
+wdata_1_i_0_3[3]       cycloneii_lcell_comb     combout     Out     0.454     1.770       -         
+wdata_1_i_0_3[3]       Net                      -           -       0.140     -           1         
+wdata_1_i_0[3]         cycloneii_lcell_comb     dataa       In      -         1.910       -         
+wdata_1_i_0[3]         cycloneii_lcell_comb     combout     Out     0.454     2.364       -         
+wdata_1_i_0[3]         Net                      -           -       0.140     -           1         
+wdata[3]               SYNLPM_LATR1             DATA[0]     In      -         2.504       -         
+====================================================================================================
+Total path delay (propagation time + setup) of 2.666 is 1.697(63.7%) logic and 0.969(36.3%) route.
+
+
+
+
+====================================
+Detailed Report for Clock: buffer|wigend_in.wil_clk_inferred_clock
+====================================
+
+
+
+Starting Points with Worst Slack
+********************************
+
+                               Starting                                                                                           Arrival          
+Instance                       Reference                                   Type                   Pin        Net                  Time        Slack
+                               Clock                                                                                                               
+---------------------------------------------------------------------------------------------------------------------------------------------------
+wigend_in.wigend_bitcnt[3]     buffer|wigend_in.wil_clk_inferred_clock     cycloneii_lcell_ff     regout     wigend_bitcnt_3      0.173       7.786
+wigend_in.wigend_bitcnt[2]     buffer|wigend_in.wil_clk_inferred_clock     cycloneii_lcell_ff     regout     wigend_bitcnt_2      0.173       7.900
+wigend_in.wigend_bitcnt[4]     buffer|wigend_in.wil_clk_inferred_clock     cycloneii_lcell_ff     regout     wigend_bitcnt_4      0.173       7.928
+wigend_in.wigend_bitcnt[0]     buffer|wigend_in.wil_clk_inferred_clock     cycloneii_lcell_ff     regout     wigend_bitcnt[0]     0.173       8.042
+wigend_in.wigend_bitcnt[1]     buffer|wigend_in.wil_clk_inferred_clock     cycloneii_lcell_ff     regout     wigend_bitcnt_1      0.173       8.617
+===================================================================================================================================================
+
+
+Ending Points with Worst Slack
+******************************
+
+                               Starting                                                                                                  Required          
+Instance                       Reference                                   Type                   Pin        Net                         Time         Slack
+                               Clock                                                                                                                       
+-----------------------------------------------------------------------------------------------------------------------------------------------------------
+wigend_in.wigend_bitcnt[0]     buffer|wigend_in.wil_clk_inferred_clock     cycloneii_lcell_ff     datain     wigend_bitcnt_7_f0_i[0]     9.838        7.786
+wigend_in.wigend_bitcnt[1]     buffer|wigend_in.wil_clk_inferred_clock     cycloneii_lcell_ff     datain     wigend_bitcnt_7_i[1]        9.838        7.786
+wigend_in.wigend_bitcnt[2]     buffer|wigend_in.wil_clk_inferred_clock     cycloneii_lcell_ff     datain     wigend_bitcnt_7_i[2]        9.838        7.928
+wigend_in.wigend_bitcnt[3]     buffer|wigend_in.wil_clk_inferred_clock     cycloneii_lcell_ff     datain     wigend_bitcnt_7_i[3]        9.838        7.928
+wigend_in.wigend_bitcnt[4]     buffer|wigend_in.wil_clk_inferred_clock     cycloneii_lcell_ff     datain     wigend_bitcnt_7_i[4]        9.838        7.928
+===========================================================================================================================================================
+
+
+
+Worst Path Information
+***********************
+
+
+Path information for path number 1: 
+    Requested Period:                        10.000
+    - Setup time:                            0.162
+    = Required time:                         9.838
+
+    - Propagation time:                      2.052
+    = Slack (non-critical) :                 7.786
+
+    Number of logic level(s):                2
+    Starting point:                          wigend_in.wigend_bitcnt[3] / regout
+    Ending point:                            wigend_in.wigend_bitcnt[0] / datain
+    The start point is clocked by            buffer|wigend_in.wil_clk_inferred_clock [falling] on pin clk
+    The end   point is clocked by            buffer|wigend_in.wil_clk_inferred_clock [falling] on pin clk
+
+Instance / Net                                                 Pin         Pin               Arrival     No. of    
+Name                                  Type                     Name        Dir     Delay     Time        Fan Out(s)
+-------------------------------------------------------------------------------------------------------------------
+wigend_in.wigend_bitcnt[3]            cycloneii_lcell_ff       regout      Out     0.173     0.173       -         
+wigend_bitcnt_3                       Net                      -           -       0.548     -           6         
+un1_wil_in_irq_flag11_1_0_0_a         cycloneii_lcell_comb     dataa       In      -         0.721       -         
+un1_wil_in_irq_flag11_1_0_0_a         cycloneii_lcell_comb     combout     Out     0.454     1.175       -         
+un1_wil_in_irq_flag11_1_0_0_a         Net                      -           -       0.282     -           3         
+wigend_in.wigend_bitcnt_7_f0_i[0]     cycloneii_lcell_comb     dataa       In      -         1.458       -         
+wigend_in.wigend_bitcnt_7_f0_i[0]     cycloneii_lcell_comb     combout     Out     0.454     1.912       -         
+wigend_bitcnt_7_f0_i[0]               Net                      -           -       0.140     -           1         
+wigend_in.wigend_bitcnt[0]            cycloneii_lcell_ff       datain      In      -         2.052       -         
+===================================================================================================================
+Total path delay (propagation time + setup) of 2.214 is 1.243(56.2%) logic and 0.971(43.8%) route.
+
+
+
+##### END OF TIMING REPORT #####]
+
+
+##### START OF AREA REPORT #####[
+Design view:work.buffer(verilog)
+Selecting part EP2C5T144C7
+@N: FA174 |The following device usage report estimates place and route data. Please look at the place and route report for final resource usage..
+
+I/O ATOMs:       43
+
+Cyclone II_lcell_comb:  341 ATOMs of 4608 
+Cyclone II_lcell_ff:  74 ATOMs of 4608
+ATOM count by mode:
+  normal:       341
+  arithmetic:   0
+  pure sequential: 74
+
+
+DSP Blocks:     0  (0 nine-bit DSP elements).
+DSP Utilization: 0.00% of available 13 blocks (104 nine-bit).
+ShiftTap:       0  (0 registers)
+Total ESB:      0 bits 
+
+LPM latches:    8
+
+Sequential atoms using regout pin: 74
+  also using enable pin: 31
+ATOMs using combout pin: 341
+Number of Inputs on ATOMs: 0
+Number of Nets:   636
+
+##### END OF AREA REPORT #####]
+
+Mapper successful!
+Process took 0h:0m:3s realtime, 0h:0m:3s cputime
+###########################################################]

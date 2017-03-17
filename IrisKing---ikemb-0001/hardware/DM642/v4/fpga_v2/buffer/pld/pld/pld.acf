@@ -1,0 +1,72 @@
+
+GLOBAL_PROJECT_SYNTHESIS_ASSIGNMENT_OPTIONS
+BEGIN
+	DEVICE_FAMILY = MAX7000;
+END;
+
+CHIP pld
+BEGIN
+	DEVICE = EPM7128AETC100-10;
+END;
+
+TIMING_POINT
+BEGIN
+	FREQUENCY = 100.0MHz;
+	|clk :	FREQUENCY = 100.0MHz;
+	|nEXTBUS :	TCO = 9.9ns;
+	|BUFDIR :	TCO = 9.9ns;
+	|BUFDIR1 :	TCO = 9.9ns;
+	|data0 :	TCO = 9.9ns;
+	|data1 :	TCO = 9.9ns;
+	|data2 :	TCO = 9.9ns;
+	|data3 :	TCO = 9.9ns;
+	|data4 :	TCO = 9.9ns;
+	|data5 :	TCO = 9.9ns;
+	|data6 :	TCO = 9.9ns;
+	|data7 :	TCO = 9.9ns;
+	|eint11_i_i :	TCO = 9.9ns;
+	|clkout :	TCO = 9.9ns;
+	|vp2clk1_i :	TCO = 9.9ns;
+	|Hs :	TCO = 9.9ns;
+	|Vs :	TCO = 9.9ns;
+	|De :	TCO = 9.9ns;
+	|hpirdy_i :	TCO = 9.9ns;
+	|clock :	TSU = 9.9ns;
+	|clk :	TSU = 9.9ns;
+	|nReset :	TSU = 9.9ns;
+	|hpirdy :	TSU = 9.9ns;
+	|nFCE :	TSU = 9.9ns;
+	|nOE :	TSU = 9.9ns;
+	|nWE :	TSU = 9.9ns;
+	|nGCS0 :	TSU = 9.9ns;
+	|nGCS1 :	TSU = 9.9ns;
+	|nGCS2 :	TSU = 9.9ns;
+	|nGCS3 :	TSU = 9.9ns;
+	|nGCS4 :	TSU = 9.9ns;
+	|nGCS5 :	TSU = 9.9ns;
+	|nFWE :	TSU = 9.9ns;
+	|nFRE :	TSU = 9.9ns;
+	|addr2 :	TSU = 9.9ns;
+	|addr3 :	TSU = 9.9ns;
+	|addr4 :	TSU = 9.9ns;
+	|addr5 :	TSU = 9.9ns;
+	|addr6 :	TSU = 9.9ns;
+	|addr7 :	TSU = 9.9ns;
+	|addr8 :	TSU = 9.9ns;
+	|wil0 :	TSU = 9.9ns;
+	|wil1 :	TSU = 9.9ns;
+	|vp2clk0 :	TSU = 9.9ns;
+	|vp2clk1 :	TSU = 9.9ns;
+	|vp2ctl0 :	TSU = 9.9ns;
+	|vp2ctl1 :	TSU = 9.9ns;
+	|vp2ctl2 :	TSU = 9.9ns;
+	|overtime_i_0_i :	TCO = 9.9ns;
+END;
+
+COMPILER_INTERFACES_CONFIGURATION
+BEGIN
+	EDIF_INPUT_GND = GND;
+	EDIF_INPUT_VCC = VCC;
+	EDIF_INPUT_LMF1 = synplcty.lmf;
+	EDIF_INPUT_USE_LMF1 = ON;
+END;

@@ -1,0 +1,100 @@
+# Copyright (C) 1991-2005 Altera Corporation
+# Your use of Altera Corporation's design tools, logic functions 
+# and other software and tools, and its AMPP partner logic       
+# functions, and any output files any of the foregoing           
+# (including device programming or simulation files), and any    
+# associated documentation or information are expressly subject  
+# to the terms and conditions of the Altera Program License      
+# Subscription Agreement, Altera MegaCore Function License       
+# Agreement, or other applicable license agreement, including,   
+# without limitation, that your use is for the sole purpose of   
+# programming logic devices manufactured by Altera and sold by   
+# Altera or its authorized distributors.  Please refer to the    
+# applicable agreement for further details.
+
+
+# The default values for assignments are stored in the file
+#		buffer_assignment_defaults.qdf
+# If this file doesn't exist, and for assignments not listed, see file
+#		assignment_defaults.qdf
+
+# Altera recommends that you do not modify this file. This
+# file is updated automatically by the Quartus II software
+# and any changes you make may be lost or overwritten.
+
+
+# Project-Wide Assignments
+# ========================
+set_global_assignment -name ORIGINAL_QUARTUS_VERSION "5.0 SP2"
+set_global_assignment -name PROJECT_CREATION_TIME_DATE "10:12:38  AUGUST 04, 2007"
+set_global_assignment -name LAST_QUARTUS_VERSION 6.0
+
+# Pin & Location Assignments
+# ==========================
+set_location_assignment PIN_59 -to addr[2]
+set_location_assignment PIN_60 -to addr[3]
+set_location_assignment PIN_63 -to addr[4]
+set_location_assignment PIN_64 -to addr[5]
+set_location_assignment PIN_58 -to addr[6]
+set_location_assignment PIN_57 -to addr[7]
+set_location_assignment PIN_53 -to addr[8]
+set_location_assignment PIN_142 -to nReset
+set_location_assignment PIN_41 -to data[0]
+set_location_assignment PIN_42 -to data[1]
+set_location_assignment PIN_24 -to data[2]
+set_location_assignment PIN_25 -to data[3]
+set_location_assignment PIN_26 -to data[4]
+set_location_assignment PIN_27 -to data[5]
+set_location_assignment PIN_28 -to data[6]
+set_location_assignment PIN_30 -to data[7]
+set_location_assignment PIN_52 -to nWE
+set_location_assignment PIN_51 -to nOE
+set_location_assignment PIN_86 -to nEXTBUS
+set_location_assignment PIN_9 -to nFRE
+set_location_assignment PIN_8 -to nFWE
+set_location_assignment PIN_71 -to nGCS[0]
+set_location_assignment PIN_70 -to nGCS[1]
+set_location_assignment PIN_43 -to nGCS[5]
+set_location_assignment PIN_65 -to nGCS[4]
+set_location_assignment PIN_67 -to nGCS[3]
+set_location_assignment PIN_69 -to nGCS[2]
+set_location_assignment PIN_7 -to nFCE
+set_location_assignment PIN_91 -to clk
+set_location_assignment PIN_32 -to eint11
+set_location_assignment PIN_75 -to BUFDIR
+set_location_assignment PIN_74 -to BUFDIR1
+
+# Analysis & Synthesis Assignments
+# ================================
+set_global_assignment -name DEVICE_FILTER_PACKAGE TQFP
+set_global_assignment -name DEVICE_FILTER_PIN_COUNT 144
+set_global_assignment -name DEVICE_FILTER_SPEED_GRADE 8
+set_global_assignment -name FAMILY "Cyclone II"
+set_global_assignment -name TOP_LEVEL_ENTITY buffer
+
+# Fitter Assignments
+# ==================
+set_global_assignment -name DEVICE EP2C5T144C8
+set_global_assignment -name ERROR_CHECK_FREQUENCY_DIVISOR 1
+
+set_global_assignment -name OPTIMIZE_HOLD_TIMING OFF
+set_global_assignment -name FITTER_EFFORT "STANDARD FIT"
+set_location_assignment PIN_55 -to addr[0]
+set_location_assignment PIN_72 -to addr[1]
+set_location_assignment PIN_118 -to eint0
+set_location_assignment PIN_119 -to eint1
+set_location_assignment PIN_120 -to eint2
+set_location_assignment PIN_121 -to eint3
+set_location_assignment PIN_31 -to G5V_IO
+set_location_assignment PIN_104 -to FPGA_IO
+set_location_assignment PIN_103 -to wil_out[0]
+set_location_assignment PIN_101 -to wil_out[1]
+set_location_assignment PIN_100 -to wil_in[0]
+set_location_assignment PIN_99 -to wil_in[1]
+set_global_assignment -name STRATIX_CONFIGURATION_DEVICE EPCS1
+set_global_assignment -name RESERVE_ASDO_AFTER_CONFIGURATION "AS INPUT TRI-STATED"
+set_global_assignment -name VQM_FILE buffer.vqm
+set_location_assignment PIN_139 -to test[0]
+set_location_assignment PIN_141 -to test[1]
+set_location_assignment PIN_73 -to test[2]
+set_location_assignment PIN_144 -to test[3]

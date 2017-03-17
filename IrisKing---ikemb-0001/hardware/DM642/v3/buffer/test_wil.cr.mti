@@ -1,0 +1,8 @@
+D:/buffer/buffer.v {1 {vlog -work work D:/buffer/buffer.v
+Model Technology ModelSim PE vlog 6.1b Compiler 2005.09 Sep  8 2005
+-- Compiling module buffer
+
+Top level modules:
+	buffer
+
+} {} {}}

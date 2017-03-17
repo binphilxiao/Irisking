@@ -1,0 +1,18 @@
+Selecting top level module pld
+Synthesizing module Keyboard
+@N: CL201 :"D:\project\IRISking\ikemb-0002\project\hardware\buffer\pld\Keyboard.v":31:1:31:6|Trying to extract state machine for register out
+Extracted state machine for register out
+State machine has 4 reachable states with original encodings of:
+   0001
+   0010
+   0100
+   1000
+Synthesizing module Wigend_Out
+Synthesizing module Wigend_In
+Synthesizing module pld
+@W:"D:\project\IRISking\ikemb-0002\project\hardware\buffer\pld\pld.v":48:13:48:16|Input port bit <5> of nGCS[5:0] is unused
+
+@W: CL159 :"D:\project\IRISking\ikemb-0002\project\hardware\buffer\pld\pld.v":109:7:109:12|Input hpirdy is unused
+@W: CL159 :"D:\project\IRISking\ikemb-0002\project\hardware\buffer\pld\pld.v":124:7:124:13|Input vp2clk0 is unused
+@W: CL159 :"D:\project\IRISking\ikemb-0002\project\hardware\buffer\pld\pld.v":124:31:124:37|Input vp2ctl1 is unused
+@W: CL159 :"D:\project\IRISking\ikemb-0002\project\hardware\buffer\pld\pld.v":124:39:124:45|Input vp2ctl2 is unused

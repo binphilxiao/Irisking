@@ -1,0 +1,64 @@
+{ Using PSTWRITER 16.0.0 p001Aug-08-2011 at 10:22:06 }
+
+#1 Warning [ALG0047] "No_connect" property on Pin "U56.1" ignored for U56: SCHEMATIC1, ARM-(LCD/DMA/JTAG/UART/USB) (302.26, 210.82). Connecting pin to net "N29872710".
+#2 Warning [ALG0047] "No_connect" property on Pin "U33.14" ignored for U33: SCHEMATIC1, DSP_LCD (5.80, 3.30). Connecting pin to net "GND".
+#3 Warning [ALG0047] "No_connect" property on Pin "RP19.4" ignored for RP19: SCHEMATIC1, DSP-CLOCKS/RESET/IIC (139.70, 33.02). Connecting pin to net "V3.3V".
+#4 Warning [ALG0047] "No_connect" property on Pin "RP19.5" ignored for RP19: SCHEMATIC1, DSP-CLOCKS/RESET/IIC (139.70, 33.02). Connecting pin to net "LED4".
+#5 Warning [ALG0047] "No_connect" property on Pin "U7.65" ignored for U7: SCHEMATIC1, ARM-ETHERNET (2.10, 2.60). Connecting pin to net "N27333518".
+#6 Warning [ALG0047] "No_connect" property on Pin "U7.79" ignored for U7: SCHEMATIC1, ARM-ETHERNET (2.10, 2.60). Connecting pin to net "N27351458".
+#7 Warning [ALG0047] "No_connect" property on Pin "U7.52" ignored for U7: SCHEMATIC1, ARM-ETHERNET (2.10, 2.60). Connecting pin to net "N27362583".
+#8 Warning [ALG0047] "No_connect" property on Pin "U7.51" ignored for U7: SCHEMATIC1, ARM-ETHERNET (2.10, 2.60). Connecting pin to net "N27366342".
+#9 Warning [ALG0047] "No_connect" property on Pin "U7.50" ignored for U7: SCHEMATIC1, ARM-ETHERNET (2.10, 2.60). Connecting pin to net "N29391000".
+#10 Warning [ALG0047] "No_connect" property on Pin "U7.53" ignored for U7: SCHEMATIC1, ARM-ETHERNET (2.10, 2.60). Connecting pin to net "N29439255".
+#11 Warning [ALG0047] "No_connect" property on Pin "RP36.6" ignored for RP36: SCHEMATIC1, DSP_LCD (2.20, 1.80). Connecting pin to net "TDE".
+#12 Warning [ALG0047] "No_connect" property on Pin "U6.8" ignored for U6: SCHEMATIC1, ARM-IIS(AUDIO) (3.00, 5.90). Connecting pin to net "GAIN2".
+#13 Warning [ALG0047] "No_connect" property on Pin "RP36.3" ignored for RP36: SCHEMATIC1, DSP_LCD (2.20, 1.80). Connecting pin to net "D_DE".
+#14 Warning [ALG0047] "No_connect" property on Pin "U6.1" ignored for U6: SCHEMATIC1, ARM-IIS(AUDIO) (3.00, 5.90). Connecting pin to net "GAIN1".
+#15 Warning [ALG0047] "No_connect" property on Pin "U50.1" ignored for U50: SCHEMATIC1, DSP-VIDEO PORT (8.50, 7.90). Connecting pin to net "N29684360".
+#16 Warning [ALG0047] "No_connect" property on Pin "U50.2" ignored for U50: SCHEMATIC1, DSP-VIDEO PORT (8.50, 7.90). Connecting pin to net "N29693329".
+#17 Warning [ALG0047] "No_connect" property on Pin "U50.3" ignored for U50: SCHEMATIC1, DSP-VIDEO PORT (8.50, 7.90). Connecting pin to net "N29695167".
+#18 Warning [ALG0047] "No_connect" property on Pin "U50.7" ignored for U50: SCHEMATIC1, DSP-VIDEO PORT (8.50, 7.90). Connecting pin to net "N29699269".
+#19 Warning [ALG0016] Part Name "CONN JACK PWR_POWER_POWER CONNECTOR" is renamed to "CONN JACK PWR_POWER_POWER CONNE".
+#20 Warning [ALG0016] Part Name "SIPSOC-26_CMOS26_CABLE CONNECTOR 26*1" is renamed to "SIPSOC-26_CMOS26_CABLE CONNECTO".
+#21 Warning [ALG0016] Part Name "AUDIO_JACK_0_AUDIO-JACK_AUDIO CONNECTOR" is renamed to "AUDIO_JACK_0_AUDIO-JACK_AUDIO C".
+#22 Warning [ALG0016] Part Name "HEADER 7X2_0_IDC-14_DSP_JTAG_IDC-14" is renamed to "HEADER 7X2_0_IDC-14_DSP_JTAG_ID".
+#23 Warning [ALG0016] Part Name "TEST POINT_0_GND_HOLE_PROBE UCLK" is renamed to "TEST POINT_0_GND_HOLE_PROBE UCL".
+#24 Warning [ALG0016] Part Name "S3C2410X_1_FBGA-272_S3C2410AL-20A0640" is renamed to "S3C2410X_1_FBGA-272_S3C2410AL-2".
+#25 Warning [ALG0051] Pin "VDDalive" is renamed to "VDDALIVE#G6" after substituting illegal characters in Package S3C2410X_1C , U1A: SCHEMATIC1, ARM-(ADDR/DATA/ADC/CLK/...) (88.90, 86.36).
+#26 Warning [ALG0051] Pin "VDDalive" is renamed to "VDDALIVE#J14" after substituting illegal characters in Package S3C2410X_1C , U1A: SCHEMATIC1, ARM-(ADDR/DATA/ADC/CLK/...) (88.90, 86.36).
+#27 Warning [ALG0016] Part Name "OSCILLATION_OSC-4_1MHZ(3.3V) OSCILLATOR" is renamed to "OSCILLATION_OSC-4_1MHZ(3.3V) OS".
+#28 Warning [ALG0016] Part Name "K4S561632C_0_TSOP-54_K4S561632C-TC75 (32MB)" is renamed to "K4S561632C_0_TSOP-54_K4S561632C".
+#29 Warning [ALG0016] Part Name "OSCILLATION_OSC-2_OSCILLATOR 50MHZ 3.3V" is renamed to "OSCILLATION_OSC-2_OSCILLATOR 50".
+#30 Warning [ALG0016] Part Name "DM642_2_FCBGA-548_(S1+S2+S3+S4+S5+S6)_TMS320DM642AZDK6" is renamed to "DM642_2_FCBGA-548_(S1+S2+S3+S4+".
+#31 Warning [ALG0051] Pin "A\A\R\E\/A\S\D\C\A\S\/A\S\A\D\S\/A\S\R\E\" is renamed to "A\A\R\E\/A\S\D\C\A\S\/A\S\A\D\S" after substituting illegal characters in Package DM642_2AA , U18A: SCHEMATIC1, DSP-EMIF (6.10, 1.20).
+#32 Warning [ALG0016] Part Name "74LVCH162245/SO_2_TSSOP-48_74LVTH162245MTD" is renamed to "74LVCH162245/SO_2_TSSOP-48_74LV".
+#33 Warning [ALG0051] Pin "VCC" is renamed to "VCC#7" after substituting illegal characters in Package 74LVCH162245/SO_2 , U19: SCHEMATIC1, ARM-BUFFER (5.60, 3.80).
+#34 Warning [ALG0051] Pin "VCC" is renamed to "VCC#18" after substituting illegal characters in Package 74LVCH162245/SO_2 , U19: SCHEMATIC1, ARM-BUFFER (5.60, 3.80).
+#35 Warning [ALG0051] Pin "VCC" is renamed to "VCC#31" after substituting illegal characters in Package 74LVCH162245/SO_2 , U19: SCHEMATIC1, ARM-BUFFER (5.60, 3.80).
+#36 Warning [ALG0051] Pin "VCC" is renamed to "VCC#42" after substituting illegal characters in Package 74LVCH162245/SO_2 , U19: SCHEMATIC1, ARM-BUFFER (5.60, 3.80).
+#37 Warning [ALG0016] Part Name "OSCILLATION_OSC-2_OSCILLATOR 25MHZ / 3.3V" is renamed to "OSCILLATION_OSC-2_OSCILLATOR 25".
+#38 Warning [ALG0016] Part Name "MT48LC4M32B2_0_TSOP-86_MT48LC8M32B2" is renamed to "MT48LC4M32B2_0_TSOP-86_MT48LC8M".
+#39 Warning [ALG0051] Pin "PGND" is renamed to "PGND#11" after substituting illegal characters in Package TPS54310_0 , U44: SCHEMATIC1, POWER (13.20, 1.90).
+#40 Warning [ALG0051] Pin "PGND" is renamed to "PGND#12" after substituting illegal characters in Package TPS54310_0 , U44: SCHEMATIC1, POWER (13.20, 1.90).
+#41 Warning [ALG0051] Pin "PGND" is renamed to "PGND#13" after substituting illegal characters in Package TPS54310_0 , U44: SCHEMATIC1, POWER (13.20, 1.90).
+#42 Warning [ALG0051] Pin "VIN" is renamed to "VIN#14" after substituting illegal characters in Package TPS54310_0 , U44: SCHEMATIC1, POWER (13.20, 1.90).
+#43 Warning [ALG0051] Pin "VIN" is renamed to "VIN#15" after substituting illegal characters in Package TPS54310_0 , U44: SCHEMATIC1, POWER (13.20, 1.90).
+#44 Warning [ALG0051] Pin "VIN" is renamed to "VIN#16" after substituting illegal characters in Package TPS54310_0 , U44: SCHEMATIC1, POWER (13.20, 1.90).
+#45 Warning [ALG0051] Pin "DGND" is renamed to "DGND#63" after substituting illegal characters in Package DM9000 , U7: SCHEMATIC1, ARM-ETHERNET (2.10, 2.60).
+#46 Warning [ALG0051] Pin "DGND" is renamed to "DGND#81" after substituting illegal characters in Package DM9000 , U7: SCHEMATIC1, ARM-ETHERNET (2.10, 2.60).
+#47 Warning [ALG0051] Pin "VSS" is renamed to "VSS#36" after substituting illegal characters in Package K9F1208 , U8: SCHEMATIC1, ARM-FLASH(NAND) (5.20, 1.90).
+#48 Warning [ALG0051] Pin "VCC" is renamed to "VCC#37" after substituting illegal characters in Package K9F1208 , U8: SCHEMATIC1, ARM-FLASH(NAND) (5.20, 1.90).
+#49 Warning [ALG0051] Pin "VCC" is renamed to "VCC#12" after substituting illegal characters in Package K9F1208 , U8: SCHEMATIC1, ARM-FLASH(NAND) (5.20, 1.90).
+#50 Warning [ALG0051] Pin "VSS" is renamed to "VSS#13" after substituting illegal characters in Package K9F1208 , U8: SCHEMATIC1, ARM-FLASH(NAND) (5.20, 1.90).
+#51 Warning [ALG0016] Part Name "AAT3216_SOT23-5_AAT3216IGV-1.2-T1" is renamed to "AAT3216_SOT23-5_AAT3216IGV-1.2-".
+#52 Warning [ALG0016] Part Name "CRYSTAL_CRYSTAL_CRYSTAL 14.31818MHZ" is renamed to "CRYSTAL_CRYSTAL_CRYSTAL 14.3181".
+Scanning netlist files ...
+
+Loading... e:\project\irisking\ikemb-0001\project\hardware\dm642\v4\allegro/pstchip.dat
+
+Loading... e:\project\irisking\ikemb-0001\project\hardware\dm642\v4\allegro/pstchip.dat
+
+Loading... e:\project\irisking\ikemb-0001\project\hardware\dm642\v4\allegro/pstxprt.dat
+
+Loading... e:\project\irisking\ikemb-0001\project\hardware\dm642\v4\allegro/pstxnet.dat
+packaging the design view...

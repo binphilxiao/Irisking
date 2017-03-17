@@ -1,0 +1,10 @@
+Flow Status : Successful - Wed Apr 30 12:48:10 2008
+Quartus II Version : 5.0 Build 171 11/03/2005 SP 2 SJ Full Version
+Revision Name : buffer
+Top-level Entity Name : buffer
+Family : MAX7000AE
+Device : EPM7128AETC100-10
+Timing Models : Final
+Met timing requirements : N/A
+Total macrocells : 112 / 128 ( 87 % )
+Total pins : 55 / 84 ( 65 % )

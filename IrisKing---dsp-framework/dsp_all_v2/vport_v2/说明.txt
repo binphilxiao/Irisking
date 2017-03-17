@@ -1,0 +1,1 @@
+1、适用于OV7725的vport.l64工程，配合framework_v4使用

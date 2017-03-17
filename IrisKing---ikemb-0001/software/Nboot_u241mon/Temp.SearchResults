@@ -1,0 +1,3 @@
+---- ReadEbootFromNand Matches (2 in 1 files) ----
+2410loader.c:DWORD ReadEbootFromNand()
+2410loader.c:	    return ReadEbootFromNand();

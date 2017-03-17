@@ -1,0 +1,174 @@
+#### START OF AREA REPORT #####[
+
+Part:			EP2C5TC144-7 (Altera)
+
+----------------------------------------------------------------------
+########   Utilization report for  Top level view:   buffer   ########
+======================================================================
+
+SEQUENTIAL ATOMS
+****************
+
+Name          Total elements     Utilization     Notes
+------------------------------------------------------
+REGISTERS     74                 100 %                
+======================================================
+Total SEQUENTIAL ATOMS in the block buffer:	74 (13.94 % Utilization)
+
+
+COMBINATIONAL ATOMS
+*******************
+
+Name                Total elements     Utilization     Notes
+------------------------------------------------------------
+ATOMS               311                100 %                
+ARITHMETIC MODE     0                  0.0 %                
+============================================================
+Total COMBINATIONAL ATOMS in the block buffer:	311 (58.57 % Utilization)
+
+
+RAMS
+****
+
+Name          Total elements     Number of bits     Utilization     Notes
+-------------------------------------------------------------------------
+SYNC RAMS     0                  0                  0.0 %                
+LPMs          8                  8                  100 %                
+=========================================================================
+Total RAMS in the block buffer:	8 (1.51 % Utilization)
+
+
+DSPs
+****
+
+Name     Total elements     Utilization     Notes
+-------------------------------------------------
+MACs     0                  0.0 %                
+=================================================
+Total DSPs in the block buffer:	0 (0.00 % Utilization)
+
+
+Black Boxes
+***********
+
+Name            Total elements     Utilization     Notes
+--------------------------------------------------------
+BLACK BOXES     0                  0.0 %                
+========================================================
+Total Black Boxes in the block buffer:	0 (0.00 % Utilization)
+
+---------------------------------------------------------------
+########   Utilization report for  cell:   Wigend_In   ########
+Instance path:   buffer.Wigend_In                              
+===============================================================
+
+SEQUENTIAL ATOMS
+****************
+
+Name          Total elements     Utilization     Notes
+------------------------------------------------------
+REGISTERS     24                 32.4 %               
+======================================================
+Total SEQUENTIAL ATOMS in the block buffer.Wigend_In:	24 (4.52 % Utilization)
+
+
+COMBINATIONAL ATOMS
+*******************
+
+Name                Total elements     Utilization     Notes
+------------------------------------------------------------
+ATOMS               16                 5.14 %               
+ARITHMETIC MODE     0                  0.0 %                
+============================================================
+Total COMBINATIONAL ATOMS in the block buffer.Wigend_In:	16 (3.01 % Utilization)
+
+
+RAMS
+****
+
+Name          Total elements     Number of bits     Utilization     Notes
+-------------------------------------------------------------------------
+SYNC RAMS     0                  0                  0.0 %                
+LPMs          0                  0                  0.0 %                
+=========================================================================
+Total RAMS in the block buffer.Wigend_In:	0 (0.00 % Utilization)
+
+
+DSPs
+****
+
+Name     Total elements     Utilization     Notes
+-------------------------------------------------
+MACs     0                  0.0 %                
+=================================================
+Total DSPs in the block buffer.Wigend_In:	0 (0.00 % Utilization)
+
+
+Black Boxes
+***********
+
+Name            Total elements     Utilization     Notes
+--------------------------------------------------------
+BLACK BOXES     0                  0.0 %                
+========================================================
+Total Black Boxes in the block buffer.Wigend_In:	0 (0.00 % Utilization)
+
+----------------------------------------------------------------
+########   Utilization report for  cell:   Wigend_Out   ########
+Instance path:   buffer.Wigend_Out                              
+================================================================
+
+SEQUENTIAL ATOMS
+****************
+
+Name          Total elements     Utilization     Notes
+------------------------------------------------------
+REGISTERS     19                 25.7 %               
+======================================================
+Total SEQUENTIAL ATOMS in the block buffer.Wigend_Out:	19 (3.58 % Utilization)
+
+
+COMBINATIONAL ATOMS
+*******************
+
+Name                Total elements     Utilization     Notes
+------------------------------------------------------------
+ATOMS               211                67.8 %               
+ARITHMETIC MODE     0                  0.0 %                
+============================================================
+Total COMBINATIONAL ATOMS in the block buffer.Wigend_Out:	211 (39.74 % Utilization)
+
+
+RAMS
+****
+
+Name          Total elements     Number of bits     Utilization     Notes
+-------------------------------------------------------------------------
+SYNC RAMS     0                  0                  0.0 %                
+LPMs          0                  0                  0.0 %                
+=========================================================================
+Total RAMS in the block buffer.Wigend_Out:	0 (0.00 % Utilization)
+
+
+DSPs
+****
+
+Name     Total elements     Utilization     Notes
+-------------------------------------------------
+MACs     0                  0.0 %                
+=================================================
+Total DSPs in the block buffer.Wigend_Out:	0 (0.00 % Utilization)
+
+
+Black Boxes
+***********
+
+Name            Total elements     Utilization     Notes
+--------------------------------------------------------
+BLACK BOXES     0                  0.0 %                
+========================================================
+Total Black Boxes in the block buffer.Wigend_Out:	0 (0.00 % Utilization)
+
+
+##### END OF AREA REPORT #####]
+

@@ -1,0 +1,35 @@
+(ExpressProject "keyboard"
+  (ProjectVersion "19981106")
+  (ProjectType "PCB")
+  (Folder "Design Resources"
+    (Folder "Library")
+    (NoModify)
+    (File ".\keyboard.dsn"
+      (Type "Schematic Design"))
+    (BuildFileAddedOrDeleted "x")
+    (CompileFileAddedOrDeleted "x"))
+  (Folder "Outputs")
+  (Folder "Referenced Projects")
+  (PartMRUSelector
+    (R
+      (FullPartName "R.Normal")
+      (LibraryName "C:\CADENCE\SPB_15.7\TOOLS\CAPTURE\LIBRARY\DISCRETE.OLB")
+      (DeviceIndex "0")))
+  (LastUsedLibraryBrowseDirectory "C:\Cadence\SPB_15.7\tools\capture\library")
+  (GlobalState
+    (FileView
+      (Path "Design Resources")
+      (Path "Design Resources"
+         "D:\project\IRISking\ikemb-0002\project\hardware\keyboard\keyboard.dsn")
+      (Path "Design Resources"
+         "D:\project\IRISking\ikemb-0002\project\hardware\keyboard\keyboard.dsn"
+         "SCHEMATIC1")
+      (Select "Design Resources"
+         "D:\project\IRISking\ikemb-0002\project\hardware\keyboard\keyboard.dsn"
+         "SCHEMATIC1" "PAGE1"))
+    (HierarchyView)
+    (Doc
+      (Type "COrCapturePMDoc")
+      (Frame
+        (Placement "44 2 3 -1 -1 -4 -30 0 200 0 567"))
+      (Tab 0))))

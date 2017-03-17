@@ -1,0 +1,13 @@
+      .sect ".boot_load"
+	  .ref _c_int00
+      .global _boot
+
+COPY_TABLE .equ 0x90000400
+_boot:
+    mvkl _c_int00,b0         ; load destination function address to b0
+	mvkh _c_int00,b0
+	b b0                     ; start branch to destination function
+	nop 5   
+
+
+

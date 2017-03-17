@@ -1,0 +1,11 @@
+Selecting top level module pld
+Synthesizing module Wigend_Out
+Synthesizing module Wigend_In
+Synthesizing module pld
+@W:"D:\project\IRISking\ikemb-0002\project\hardware\buffer\pld\pld.v":48:13:48:16|Input port bit <5> of nGCS[5:0] is unused
+
+@W: CL157 :"D:\project\IRISking\ikemb-0002\project\hardware\buffer\pld\pld.v":169:14:169:20|*Output key_out has undriven bits - a simulation mismatch is possible 
+@W: CL159 :"D:\project\IRISking\ikemb-0002\project\hardware\buffer\pld\pld.v":110:7:110:13|Input vp2clk0 is unused
+@W: CL159 :"D:\project\IRISking\ikemb-0002\project\hardware\buffer\pld\pld.v":110:31:110:37|Input vp2ctl1 is unused
+@W: CL159 :"D:\project\IRISking\ikemb-0002\project\hardware\buffer\pld\pld.v":110:39:110:45|Input vp2ctl2 is unused
+@W: CL159 :"D:\project\IRISking\ikemb-0002\project\hardware\buffer\pld\pld.v":168:13:168:18|Input key_in is unused

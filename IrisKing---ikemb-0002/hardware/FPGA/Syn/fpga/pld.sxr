@@ -1,0 +1,1186 @@
+
+BeginView pld NoName
+Inst: wigend_reg_out[25]   wigend_reg_out_25__Z cycloneii_lcell_ff 
+Inst: wigend_reg_out[24]   wigend_reg_out_24__Z cycloneii_lcell_ff 
+Inst: wigend_reg_out[23]   wigend_reg_out_23__Z cycloneii_lcell_ff 
+Inst: wigend_reg_out[22]   wigend_reg_out_22__Z cycloneii_lcell_ff 
+Inst: wigend_reg_out[21]   wigend_reg_out_21__Z cycloneii_lcell_ff 
+Inst: wigend_reg_out[20]   wigend_reg_out_20__Z cycloneii_lcell_ff 
+Inst: wigend_reg_out[19]   wigend_reg_out_19__Z cycloneii_lcell_ff 
+Inst: wigend_reg_out[18]   wigend_reg_out_18__Z cycloneii_lcell_ff 
+Inst: wigend_reg_out[17]   wigend_reg_out_17__Z cycloneii_lcell_ff 
+Inst: wigend_reg_out[16]   wigend_reg_out_16__Z cycloneii_lcell_ff 
+Inst: wigend_reg_out[15]   wigend_reg_out_15__Z cycloneii_lcell_ff 
+Inst: wigend_reg_out[14]   wigend_reg_out_14__Z cycloneii_lcell_ff 
+Inst: wigend_reg_out[13]   wigend_reg_out_13__Z cycloneii_lcell_ff 
+Inst: wigend_reg_out[12]   wigend_reg_out_12__Z cycloneii_lcell_ff 
+Inst: wigend_reg_out[11]   wigend_reg_out_11__Z cycloneii_lcell_ff 
+Inst: wigend_reg_out[10]   wigend_reg_out_10__Z cycloneii_lcell_ff 
+Inst: wigend_reg_out[9]   wigend_reg_out_9__Z cycloneii_lcell_ff 
+Inst: wigend_reg_out[8]   wigend_reg_out_8__Z cycloneii_lcell_ff 
+Inst: wigend_reg_out[7]   wigend_reg_out_7__Z cycloneii_lcell_ff 
+Inst: wigend_reg_out[6]   wigend_reg_out_6__Z cycloneii_lcell_ff 
+Inst: wigend_reg_out[5]   wigend_reg_out_5__Z cycloneii_lcell_ff 
+Inst: wigend_reg_out[4]   wigend_reg_out_4__Z cycloneii_lcell_ff 
+Inst: wigend_reg_out[3]   wigend_reg_out_3__Z cycloneii_lcell_ff 
+Inst: wigend_reg_out[2]   wigend_reg_out_2__Z cycloneii_lcell_ff 
+Inst: wigend_reg_out[1]   wigend_reg_out_1__Z cycloneii_lcell_ff 
+Inst: wigend_reg_out[0]   wigend_reg_out_0__Z cycloneii_lcell_ff 
+Inst: configure[4]   configure_4__Z cycloneii_lcell_ff 
+Inst: configure[3]   configure_3__Z cycloneii_lcell_ff 
+Inst: SW_LCD   SW_LCD_0_Z cycloneii_lcell_ff 
+Inst: SW_CCD1   SW_CCD1_0_Z cycloneii_lcell_ff 
+Inst: SW_CCD2   SW_CCD2_0_Z cycloneii_lcell_ff 
+Inst: SW_CCD3   SW_CCD3_0_Z cycloneii_lcell_ff 
+Inst: GIO1   GIO1_0_Z cycloneii_lcell_ff 
+Inst: GIO2   GIO2_0_Z cycloneii_lcell_ff 
+Inst: GIO3   GIO3_0_Z cycloneii_lcell_ff 
+Inst: GIO4   GIO4_0_Z cycloneii_lcell_ff 
+Inst: configure[7]   configure_7__Z cycloneii_lcell_ff 
+Inst: configure[6]   configure_6__Z cycloneii_lcell_ff 
+Inst: configure[5]   configure_5__Z cycloneii_lcell_ff 
+Inst: configure[2]   configure_2__Z cycloneii_lcell_ff 
+Inst: configure[1]   configure_1__Z cycloneii_lcell_ff 
+Inst: configure[0]   configure_0__Z cycloneii_lcell_ff 
+Inst: rst_irq_reg_0_a2_0   rst_irq_reg_0_a2_0_cZ cycloneii_lcell_comb 
+Inst: wdata_3_i_m2[0]   wdata_3_i_m2_0_ cycloneii_lcell_comb 
+Inst: data_1_0_a2   data_1_0_a2_cZ cycloneii_lcell_comb 
+Inst: wdata_3_i_m2[1]   wdata_3_i_m2_1_ cycloneii_lcell_comb 
+Inst: wdata_11_a[0]   wdata_11_a_0_ cycloneii_lcell_comb 
+Inst: wdata_11[0]   wdata_11_0_ cycloneii_lcell_comb 
+Inst: wdata_9_i_m2_a[0]   wdata_9_i_m2_a_0_ cycloneii_lcell_comb 
+Inst: wdata_9_i_m2[0]   wdata_9_i_m2_0_ cycloneii_lcell_comb 
+Inst: wdata_9_i_m2_a[7]   wdata_9_i_m2_a_7_ cycloneii_lcell_comb 
+Inst: wdata_9_i_m2[7]   wdata_9_i_m2_7_ cycloneii_lcell_comb 
+Inst: wdata_9_i_m2_a[6]   wdata_9_i_m2_a_6_ cycloneii_lcell_comb 
+Inst: wdata_9_i_m2[6]   wdata_9_i_m2_6_ cycloneii_lcell_comb 
+Inst: wdata_9_i_m2_a[5]   wdata_9_i_m2_a_5_ cycloneii_lcell_comb 
+Inst: wdata_9_i_m2[5]   wdata_9_i_m2_5_ cycloneii_lcell_comb 
+Inst: wdata_9_i_m2_a[2]   wdata_9_i_m2_a_2_ cycloneii_lcell_comb 
+Inst: wdata_9_i_m2[2]   wdata_9_i_m2_2_ cycloneii_lcell_comb 
+Inst: wdata_9_i_m2_a[1]   wdata_9_i_m2_a_1_ cycloneii_lcell_comb 
+Inst: wdata_9_i_m2[1]   wdata_9_i_m2_1_ cycloneii_lcell_comb 
+Inst: wdata_11_a[1]   wdata_11_a_1_ cycloneii_lcell_comb 
+Inst: wdata_11[1]   wdata_11_1_ cycloneii_lcell_comb 
+Inst: wdata_9_a[4]   wdata_9_a_4_ cycloneii_lcell_comb 
+Inst: wdata_9[4]   wdata_9_4_ cycloneii_lcell_comb 
+Inst: wdata_9_a[3]   wdata_9_a_3_ cycloneii_lcell_comb 
+Inst: wdata_9[3]   wdata_9_3_ cycloneii_lcell_comb 
+Inst: wdata_sn_m11_0   wdata_sn_m11_0_cZ cycloneii_lcell_comb 
+Inst: test_1[0]   test_1_0_ cycloneii_lcell_comb 
+Inst: test_1[1]   test_1_1_ cycloneii_lcell_comb 
+Inst: wdata_sn_m6_0_a2_0_a2_0   wdata_sn_m6_0_a2_0_a2_0_cZ cycloneii_lcell_comb 
+Inst: wdata_sn_m13_0   wdata_sn_m13_0_cZ cycloneii_lcell_comb 
+Inst: wdata_13[3]   wdata_13_3_ cycloneii_lcell_comb 
+Inst: wdata_13[2]   wdata_13_2_ cycloneii_lcell_comb 
+Inst: wdata_13[1]   wdata_13_1_ cycloneii_lcell_comb 
+Inst: wdata_13[0]   wdata_13_0_ cycloneii_lcell_comb 
+Inst: wigend_reg_out70_0_a2_0   wigend_reg_out70_0_a2_0_cZ cycloneii_lcell_comb 
+Inst: wdata_sn_m17_a   wdata_sn_m17_a_cZ cycloneii_lcell_comb 
+Inst: wdata_sn_m17   wdata_sn_m17_cZ cycloneii_lcell_comb 
+Inst: wdata_14_a[7]   wdata_14_a_7_ cycloneii_lcell_comb 
+Inst: wdata_14[7]   wdata_14_7_ cycloneii_lcell_comb 
+Inst: wdata_14_a[6]   wdata_14_a_6_ cycloneii_lcell_comb 
+Inst: wdata_14[6]   wdata_14_6_ cycloneii_lcell_comb 
+Inst: wdata_14_a[5]   wdata_14_a_5_ cycloneii_lcell_comb 
+Inst: wdata_14[5]   wdata_14_5_ cycloneii_lcell_comb 
+Inst: wdata_14_a[4]   wdata_14_a_4_ cycloneii_lcell_comb 
+Inst: wdata_14[4]   wdata_14_4_ cycloneii_lcell_comb 
+Inst: wdata_14_a[3]   wdata_14_a_3_ cycloneii_lcell_comb 
+Inst: wdata_14[3]   wdata_14_3_ cycloneii_lcell_comb 
+Inst: wdata_14_a[1]   wdata_14_a_1_ cycloneii_lcell_comb 
+Inst: wdata_14[1]   wdata_14_1_ cycloneii_lcell_comb 
+Inst: wigend_reg_out12_0_a2   wigend_reg_out12_0_a2_cZ cycloneii_lcell_comb 
+Inst: wdata[7]   wdata_7_ cycloneii_lcell_comb 
+Inst: wdata[5]   wdata_5_ cycloneii_lcell_comb 
+Inst: wdata_a[2]   wdata_a_2_ cycloneii_lcell_comb 
+Inst: wdata[2]   wdata_2_ cycloneii_lcell_comb 
+Inst: wdata_a[0]   wdata_a_0_ cycloneii_lcell_comb 
+Inst: wdata[0]   wdata_0_ cycloneii_lcell_comb 
+Inst: wdata_a[6]   wdata_a_6_ cycloneii_lcell_comb 
+Inst: wdata[6]   wdata_6_ cycloneii_lcell_comb 
+Inst: wdata[4]   wdata_4_ cycloneii_lcell_comb 
+Inst: wdata[3]   wdata_3_ cycloneii_lcell_comb 
+Inst: wdata[1]   wdata_1_ cycloneii_lcell_comb 
+Inst: SW_LCD7_0_a2   SW_LCD7_0_a2_cZ cycloneii_lcell_comb 
+Inst: wigend_reg_out70_0_a2   wigend_reg_out70_0_a2_cZ cycloneii_lcell_comb 
+Inst: wigend_reg_out51_0_a2   wigend_reg_out51_0_a2_cZ cycloneii_lcell_comb 
+Inst: wigend_reg_out31_0_a2   wigend_reg_out31_0_a2_cZ cycloneii_lcell_comb 
+Inst: un1_rst_irq_reg_0_2_a   un1_rst_irq_reg_0_2_a_cZ cycloneii_lcell_comb 
+Inst: un1_rst_irq_reg_0_2   un1_rst_irq_reg_0_2_cZ cycloneii_lcell_comb 
+Inst: rst_irq_reg_0_a2_a   rst_irq_reg_0_a2_a_cZ cycloneii_lcell_comb 
+Inst: rst_irq_reg_0_a2   rst_irq_reg_0_a2_cZ cycloneii_lcell_comb 
+Inst: un1_rst_irq_reg_0_3_a   un1_rst_irq_reg_0_3_a_cZ cycloneii_lcell_comb 
+Inst: un1_rst_irq_reg_0_3   un1_rst_irq_reg_0_3_cZ cycloneii_lcell_comb 
+Inst: IRQ_a   IRQ_a_cZ cycloneii_lcell_comb 
+Inst: IRQ   IRQ_0 cycloneii_lcell_comb 
+Inst: un1_rst_irq_reg_0_a   un1_rst_irq_reg_0_a_cZ cycloneii_lcell_comb 
+Inst: wdata_8_i_m2_c[5]   wdata_8_i_m2_c_5_ cycloneii_lcell_comb 
+Inst: wdata_8_i_m2[5]   wdata_8_i_m2_5_ cycloneii_lcell_comb 
+Inst: wdata_10_c[1]   wdata_10_c_1_ cycloneii_lcell_comb 
+Inst: wdata_10[1]   wdata_10_1_ cycloneii_lcell_comb 
+Inst: wdata_10_c[0]   wdata_10_c_0_ cycloneii_lcell_comb 
+Inst: wdata_10[0]   wdata_10_0_ cycloneii_lcell_comb 
+Inst: wdata_8_i_m2_c[7]   wdata_8_i_m2_c_7_ cycloneii_lcell_comb 
+Inst: wdata_8_i_m2[7]   wdata_8_i_m2_7_ cycloneii_lcell_comb 
+Inst: wdata_8_i_m2_c[6]   wdata_8_i_m2_c_6_ cycloneii_lcell_comb 
+Inst: wdata_8_i_m2[6]   wdata_8_i_m2_6_ cycloneii_lcell_comb 
+Inst: wdata_8_i_m2_c[4]   wdata_8_i_m2_c_4_ cycloneii_lcell_comb 
+Inst: wdata_8_i_m2[4]   wdata_8_i_m2_4_ cycloneii_lcell_comb 
+Inst: wdata_8_i_m2_c[0]   wdata_8_i_m2_c_0_ cycloneii_lcell_comb 
+Inst: wdata_8_i_m2[0]   wdata_8_i_m2_0_ cycloneii_lcell_comb 
+Inst: wdata_10_c[7]   wdata_10_c_7_ cycloneii_lcell_comb 
+Inst: wdata_10[7]   wdata_10_7_ cycloneii_lcell_comb 
+Inst: wdata_10_c[2]   wdata_10_c_2_ cycloneii_lcell_comb 
+Inst: wdata_10[2]   wdata_10_2_ cycloneii_lcell_comb 
+Inst: wdata_10_c[6]   wdata_10_c_6_ cycloneii_lcell_comb 
+Inst: wdata_10[6]   wdata_10_6_ cycloneii_lcell_comb 
+Inst: wdata_8_i_m2_c[1]   wdata_8_i_m2_c_1_ cycloneii_lcell_comb 
+Inst: wdata_8_i_m2[1]   wdata_8_i_m2_1_ cycloneii_lcell_comb 
+Inst: wdata_10_c[3]   wdata_10_c_3_ cycloneii_lcell_comb 
+Inst: wdata_10[3]   wdata_10_3_ cycloneii_lcell_comb 
+Inst: wdata_8_i_m2_c[3]   wdata_8_i_m2_c_3_ cycloneii_lcell_comb 
+Inst: wdata_8_i_m2[3]   wdata_8_i_m2_3_ cycloneii_lcell_comb 
+Inst: wdata_8_i_m2_c[2]   wdata_8_i_m2_c_2_ cycloneii_lcell_comb 
+Inst: wdata_8_i_m2[2]   wdata_8_i_m2_2_ cycloneii_lcell_comb 
+Inst: wdata_10_c[4]   wdata_10_c_4_ cycloneii_lcell_comb 
+Inst: wdata_10[4]   wdata_10_4_ cycloneii_lcell_comb 
+Inst: wdata_10_c[5]   wdata_10_c_5_ cycloneii_lcell_comb 
+Inst: wdata_10[5]   wdata_10_5_ cycloneii_lcell_comb 
+Inst: I_335_x   I_335_x_cZ cycloneii_lcell_comb 
+Inst: I_329_x   I_329_x_cZ cycloneii_lcell_comb 
+Inst: I_323_x   I_323_x_cZ cycloneii_lcell_comb 
+Inst: DSP_LED1_c_i   DSP_LED1_c_i_cZ inv 
+Inst: DSP_LED2_c_i   DSP_LED2_c_i_cZ inv 
+Inst: KEYin_in[3]   KEYin_in_3_ stratix_io 
+Inst: KEYin_in[2]   KEYin_in_2_ stratix_io 
+Inst: KEYin_in[1]   KEYin_in_1_ stratix_io 
+Inst: KEYin_in[0]   KEYin_in_0_ stratix_io 
+Inst: WIL_IN_B_in[1]   WIL_IN_B_in_1_ stratix_io 
+Inst: WIL_IN_B_in[0]   WIL_IN_B_in_0_ stratix_io 
+Inst: WIL_IN_A_in[1]   WIL_IN_A_in_1_ stratix_io 
+Inst: WIL_IN_A_in[0]   WIL_IN_A_in_0_ stratix_io 
+Inst: WIL_IN_in[1]   WIL_IN_in_1_ stratix_io 
+Inst: WIL_IN_in[0]   WIL_IN_in_0_ stratix_io 
+Inst: addr_in[7]   addr_in_7_ stratix_io 
+Inst: addr_in[6]   addr_in_6_ stratix_io 
+Inst: addr_in[5]   addr_in_5_ stratix_io 
+Inst: addr_in[4]   addr_in_4_ stratix_io 
+Inst: addr_in[3]   addr_in_3_ stratix_io 
+Inst: addr_in[2]   addr_in_2_ stratix_io 
+Inst: addr_in[1]   addr_in_1_ stratix_io 
+Inst: addr_in[0]   addr_in_0_ stratix_io 
+Inst: test_out[1]   test_out_1_ stratix_io 
+Inst: test_out[0]   test_out_0_ stratix_io 
+Inst: KEYout_out[3]   KEYout_out_3_ stratix_io 
+Inst: KEYout_out[2]   KEYout_out_2_ stratix_io 
+Inst: KEYout_out[1]   KEYout_out_1_ stratix_io 
+Inst: KEYout_out[0]   KEYout_out_0_ stratix_io 
+Inst: WIL_OUT_out[1]   WIL_OUT_out_1_ stratix_io 
+Inst: WIL_OUT_out[0]   WIL_OUT_out_0_ stratix_io 
+Inst: data_tri[7]   data_tri_7_ stratix_io 
+Inst: data_tri[6]   data_tri_6_ stratix_io 
+Inst: data_tri[5]   data_tri_5_ stratix_io 
+Inst: data_tri[4]   data_tri_4_ stratix_io 
+Inst: data_tri[3]   data_tri_3_ stratix_io 
+Inst: data_tri[2]   data_tri_2_ stratix_io 
+Inst: data_tri[1]   data_tri_1_ stratix_io 
+Inst: data_tri[0]   data_tri_0_ stratix_io 
+Inst: nWE_i   nWE_i_cZ inv 
+Inst: clk_i   clk_i_cZ inv 
+Inst: rst_c_i   rst_c_i_cZ inv 
+Net:  Button_FQ.irq_1_0_a2_0   Button_FQ_irq_1_0_a2_0 
+Net:  Button_FW.irq_1_0_a2_0   Button_FW_irq_1_0_a2_0 
+Net:  Keyboard0.irq_1_0_a2_0   Keyboard0_irq_1_0_a2_0 
+Net:  wigend_in3.int_1_0_a3   wigend_in3_int_1_0_a3 
+Net:  wigend_in2.int_1_0_a3_0   wigend_in2_int_1_0_a3_0 
+Net:  wigend_in1.int_1_0_a3_0   wigend_in1_int_1_0_a3_0 
+Net:  Keyboard0.Keyboard_data[0]   Keyboard0_Keyboard_data[0] 
+Net:  wigend_in3.data[24]   wigend_in3_data[24] 
+Net:  Keyboard0.Keyboard_data[1]   Keyboard0_Keyboard_data[1] 
+Net:  wigend_in3.data[25]   wigend_in3_data[25] 
+Net:  wigend_in2.data[24]   wigend_in2_data[24] 
+Net:  wigend_in1.data[24]   wigend_in1_data[24] 
+Net:  wigend_in1.data[0]   wigend_in1_data[0] 
+Net:  wigend_in2.data[0]   wigend_in2_data[0] 
+Net:  wigend_in1.data[7]   wigend_in1_data[7] 
+Net:  wigend_in2.data[7]   wigend_in2_data[7] 
+Net:  wigend_in1.data[6]   wigend_in1_data[6] 
+Net:  wigend_in2.data[6]   wigend_in2_data[6] 
+Net:  wigend_in1.data[5]   wigend_in1_data[5] 
+Net:  wigend_in2.data[5]   wigend_in2_data[5] 
+Net:  wigend_in1.data[2]   wigend_in1_data[2] 
+Net:  wigend_in2.data[2]   wigend_in2_data[2] 
+Net:  wigend_in1.data[1]   wigend_in1_data[1] 
+Net:  wigend_in2.data[1]   wigend_in2_data[1] 
+Net:  wigend_in2.data[25]   wigend_in2_data[25] 
+Net:  wigend_in1.data[25]   wigend_in1_data[25] 
+Net:  wigend_in1.data[4]   wigend_in1_data[4] 
+Net:  wigend_in2.data[4]   wigend_in2_data[4] 
+Net:  wigend_in1.data[3]   wigend_in1_data[3] 
+Net:  wigend_in2.data[3]   wigend_in2_data[3] 
+Net:  Keyboard0.Keyboard_data[3]   Keyboard0_Keyboard_data[3] 
+Net:  Keyboard0.Keyboard_data[2]   Keyboard0_Keyboard_data[2] 
+Net:  wigend_out0.int_1_i_0_i_0_a3   wigend_out0_int_1_i_0_i_0_a3 
+Net:  wigend_out0.int_1_i_0_i_0_o3   wigend_out0_int_1_i_0_i_0_o3 
+Net:  wigend_out0.counter[12]   wigend_out0_counter[12] 
+Net:  wigend_out0.counter[13]   wigend_out0_counter[13] 
+Net:  wigend_out0.counter[15]   wigend_out0_counter[15] 
+Net:  wigend_out0.counter[14]   wigend_out0_counter[14] 
+Net:  wigend_out0.counter[16]   wigend_out0_counter[16] 
+Net:  wigend_out0.counter[5]   wigend_out0_counter[5] 
+Net:  wigend_out0.counter[6]   wigend_out0_counter[6] 
+Net:  wigend_out0.counter[7]   wigend_out0_counter[7] 
+Net:  wigend_out0.int_1_i_0_i_0_a7_3_2   wigend_out0_int_1_i_0_i_0_a7_3_2 
+Net:  wigend_out0.counter[8]   wigend_out0_counter[8] 
+Net:  wigend_in3.int_1_0_a2   wigend_in3_int_1_0_a2 
+Net:  wigend_in1.int_1_0_a3   wigend_in1_int_1_0_a3 
+Net:  wigend_in2.int_1_0_a3   wigend_in2_int_1_0_a3 
+Net:  wigend_in3.wigend_bitcnt[1]   wigend_in3_wigend_bitcnt[1] 
+Net:  Keyboard0.irq_1_0_a2   Keyboard0_irq_1_0_a2 
+Net:  Button_FQ.irq_1_0_a2   Button_FQ_irq_1_0_a2 
+Net:  Button_FW.irq_1_0_a2   Button_FW_irq_1_0_a2 
+Net:  wigend_out0.int_1_i_0_i_0_a3_1   wigend_out0_int_1_i_0_i_0_a3_1 
+Net:  wigend_in1.data[21]   wigend_in1_data[21] 
+Net:  wigend_in3.data[21]   wigend_in3_data[21] 
+Net:  wigend_in1.data[13]   wigend_in1_data[13] 
+Net:  wigend_in3.data[13]   wigend_in3_data[13] 
+Net:  wigend_in3.data[1]   wigend_in3_data[1] 
+Net:  wigend_in2.data[17]   wigend_in2_data[17] 
+Net:  adc_m.ADdata[1]   adc_m_ADdata[1] 
+Net:  wigend_in2.data[9]   wigend_in2_data[9] 
+Net:  wigend_in3.data[0]   wigend_in3_data[0] 
+Net:  wigend_in2.data[16]   wigend_in2_data[16] 
+Net:  adc_m.ADdata[0]   adc_m_ADdata[0] 
+Net:  wigend_in2.data[8]   wigend_in2_data[8] 
+Net:  wigend_in1.data[23]   wigend_in1_data[23] 
+Net:  wigend_in3.data[23]   wigend_in3_data[23] 
+Net:  wigend_in1.data[15]   wigend_in1_data[15] 
+Net:  wigend_in3.data[15]   wigend_in3_data[15] 
+Net:  wigend_in1.data[22]   wigend_in1_data[22] 
+Net:  wigend_in3.data[22]   wigend_in3_data[22] 
+Net:  wigend_in1.data[14]   wigend_in1_data[14] 
+Net:  wigend_in3.data[14]   wigend_in3_data[14] 
+Net:  wigend_in1.data[20]   wigend_in1_data[20] 
+Net:  wigend_in3.data[20]   wigend_in3_data[20] 
+Net:  wigend_in1.data[12]   wigend_in1_data[12] 
+Net:  wigend_in3.data[12]   wigend_in3_data[12] 
+Net:  wigend_in1.data[16]   wigend_in1_data[16] 
+Net:  wigend_in3.data[16]   wigend_in3_data[16] 
+Net:  wigend_in1.data[8]   wigend_in1_data[8] 
+Net:  wigend_in3.data[8]   wigend_in3_data[8] 
+Net:  wigend_in3.data[7]   wigend_in3_data[7] 
+Net:  wigend_in2.data[23]   wigend_in2_data[23] 
+Net:  adc_m.ADdata[7]   adc_m_ADdata[7] 
+Net:  wigend_in2.data[15]   wigend_in2_data[15] 
+Net:  wigend_in3.data[2]   wigend_in3_data[2] 
+Net:  wigend_in2.data[18]   wigend_in2_data[18] 
+Net:  adc_m.ADdata[2]   adc_m_ADdata[2] 
+Net:  wigend_in2.data[10]   wigend_in2_data[10] 
+Net:  wigend_in3.data[6]   wigend_in3_data[6] 
+Net:  adc_m.ADdata[6]   adc_m_ADdata[6] 
+Net:  wigend_in2.data[22]   wigend_in2_data[22] 
+Net:  wigend_in2.data[14]   wigend_in2_data[14] 
+Net:  wigend_in1.data[17]   wigend_in1_data[17] 
+Net:  wigend_in3.data[17]   wigend_in3_data[17] 
+Net:  wigend_in1.data[9]   wigend_in1_data[9] 
+Net:  wigend_in3.data[9]   wigend_in3_data[9] 
+Net:  wigend_in3.data[3]   wigend_in3_data[3] 
+Net:  wigend_in2.data[19]   wigend_in2_data[19] 
+Net:  adc_m.ADdata[3]   adc_m_ADdata[3] 
+Net:  wigend_in2.data[11]   wigend_in2_data[11] 
+Net:  wigend_in1.data[19]   wigend_in1_data[19] 
+Net:  wigend_in3.data[19]   wigend_in3_data[19] 
+Net:  wigend_in1.data[11]   wigend_in1_data[11] 
+Net:  wigend_in3.data[11]   wigend_in3_data[11] 
+Net:  wigend_in1.data[18]   wigend_in1_data[18] 
+Net:  wigend_in3.data[18]   wigend_in3_data[18] 
+Net:  wigend_in1.data[10]   wigend_in1_data[10] 
+Net:  wigend_in3.data[10]   wigend_in3_data[10] 
+Net:  wigend_in3.data[4]   wigend_in3_data[4] 
+Net:  adc_m.ADdata[4]   adc_m_ADdata[4] 
+Net:  wigend_in2.data[20]   wigend_in2_data[20] 
+Net:  wigend_in2.data[12]   wigend_in2_data[12] 
+Net:  wigend_in3.data[5]   wigend_in3_data[5] 
+Net:  wigend_in2.data[21]   wigend_in2_data[21] 
+Net:  adc_m.ADdata[5]   adc_m_ADdata[5] 
+Net:  wigend_in2.data[13]   wigend_in2_data[13] 
+Net:  wigend_in3.overtime_delay3_i_0   wigend_in3_overtime_delay3_i_0 
+Net:  wigend_in3.wil1_i_0   wigend_in3_wil1_i_0 
+Net:  wigend_in2.overtime_delay3_i_0   wigend_in2_overtime_delay3_i_0 
+Net:  wigend_in2.wil1_i_0   wigend_in2_wil1_i_0 
+Net:  wigend_in1.overtime_delay3_i_0   wigend_in1_overtime_delay3_i_0 
+Net:  wigend_in1.wil1_i_0   wigend_in1_wil1_i_0 
+Net:  Keyboard0.Keyboard_out_1_s3_0_a2_0_a2   Keyboard0_Keyboard_out_1_s3_0_a2_0_a2 
+Net:  Keyboard0.Keyboard_out_1_s2_0_a2_0_a2   Keyboard0_Keyboard_out_1_s2_0_a2_0_a2 
+Net:  Keyboard0.Keyboard_out_1_s1_0_a2_0_a2   Keyboard0_Keyboard_out_1_s1_0_a2_0_a2 
+Net:  Keyboard0.Keyboard_out_1_s0_0_a2_0_a2   Keyboard0_Keyboard_out_1_s0_0_a2_0_a2 
+Net:  adc_m.AD_CS_1_0_0   adc_m_AD_CS_1_0_0 
+Net:  adc_m.un15_AD_CLK_0_a2_0_a2[0]   adc_m_un15_AD_CLK_0_a2_0_a2[0] 
+Net:  wigend_out0.wigend[1]   wigend_out0_wigend[1] 
+Net:  wigend_out0.wigend[0]   wigend_out0_wigend[0] 
+EndView pld NoName
+
+BeginView Wigend_In NoName
+Inst: wil_clk_tmp_i   wil_clk_tmp_i_Z cycloneii_lcell_ff 
+Inst: wilclk_cnt[0]   wilclk_cnt_0__Z cycloneii_lcell_ff 
+Inst: wilclk_cnt[1]   wilclk_cnt_1__Z cycloneii_lcell_ff 
+Inst: wilclk_cnt[2]   wilclk_cnt_2__Z cycloneii_lcell_ff 
+Inst: wilclk_cnt[3]   wilclk_cnt_3__Z cycloneii_lcell_ff 
+Inst: wilclk_cnt[4]   wilclk_cnt_4__Z cycloneii_lcell_ff 
+Inst: wilclk_cnt[5]   wilclk_cnt_5__Z cycloneii_lcell_ff 
+Inst: wilclk_cnt[6]   wilclk_cnt_6__Z cycloneii_lcell_ff 
+Inst: wilclk_cnt[7]   wilclk_cnt_7__Z cycloneii_lcell_ff 
+Inst: wilclk_cnt[8]   wilclk_cnt_8__Z cycloneii_lcell_ff 
+Inst: wilclk_cnt[9]   wilclk_cnt_9__Z cycloneii_lcell_ff 
+Inst: wilclk_cnt[10]   wilclk_cnt_10__Z cycloneii_lcell_ff 
+Inst: wilclk_cnt[11]   wilclk_cnt_11__Z cycloneii_lcell_ff 
+Inst: wilclk_cnt[12]   wilclk_cnt_12__Z cycloneii_lcell_ff 
+Inst: wigend_bitcnt[4]   wigend_bitcnt_4__Z cycloneii_lcell_ff 
+Inst: wigend_bitcnt[3]   wigend_bitcnt_3__Z cycloneii_lcell_ff 
+Inst: wigend_bitcnt[2]   wigend_bitcnt_2__Z cycloneii_lcell_ff 
+Inst: wigend_bitcnt[1]   wigend_bitcnt_1__Z cycloneii_lcell_ff 
+Inst: wigend_bitcnt[0]   wigend_bitcnt_0__Z cycloneii_lcell_ff 
+Inst: wigend_buf[24]   wigend_buf_24__Z cycloneii_lcell_ff 
+Inst: wigend_buf[23]   wigend_buf_23__Z cycloneii_lcell_ff 
+Inst: wigend_buf[22]   wigend_buf_22__Z cycloneii_lcell_ff 
+Inst: wigend_buf[21]   wigend_buf_21__Z cycloneii_lcell_ff 
+Inst: wigend_buf[20]   wigend_buf_20__Z cycloneii_lcell_ff 
+Inst: wigend_buf[19]   wigend_buf_19__Z cycloneii_lcell_ff 
+Inst: wigend_buf[18]   wigend_buf_18__Z cycloneii_lcell_ff 
+Inst: wigend_buf[17]   wigend_buf_17__Z cycloneii_lcell_ff 
+Inst: wigend_buf[16]   wigend_buf_16__Z cycloneii_lcell_ff 
+Inst: wigend_buf[15]   wigend_buf_15__Z cycloneii_lcell_ff 
+Inst: wigend_buf[14]   wigend_buf_14__Z cycloneii_lcell_ff 
+Inst: wigend_buf[13]   wigend_buf_13__Z cycloneii_lcell_ff 
+Inst: wigend_buf[12]   wigend_buf_12__Z cycloneii_lcell_ff 
+Inst: wigend_buf[11]   wigend_buf_11__Z cycloneii_lcell_ff 
+Inst: wigend_buf[10]   wigend_buf_10__Z cycloneii_lcell_ff 
+Inst: wigend_buf[9]   wigend_buf_9__Z cycloneii_lcell_ff 
+Inst: wigend_buf[8]   wigend_buf_8__Z cycloneii_lcell_ff 
+Inst: wigend_buf[7]   wigend_buf_7__Z cycloneii_lcell_ff 
+Inst: wigend_buf[6]   wigend_buf_6__Z cycloneii_lcell_ff 
+Inst: wigend_buf[5]   wigend_buf_5__Z cycloneii_lcell_ff 
+Inst: wigend_buf[4]   wigend_buf_4__Z cycloneii_lcell_ff 
+Inst: wigend_buf[3]   wigend_buf_3__Z cycloneii_lcell_ff 
+Inst: wigend_buf[2]   wigend_buf_2__Z cycloneii_lcell_ff 
+Inst: wigend_buf[1]   wigend_buf_1__Z cycloneii_lcell_ff 
+Inst: wigend_buf[0]   wigend_buf_0__Z cycloneii_lcell_ff 
+Inst: data[25]   data_25__Z cycloneii_lcell_ff 
+Inst: data[24]   data_24__Z cycloneii_lcell_ff 
+Inst: data[23]   data_23__Z cycloneii_lcell_ff 
+Inst: data[22]   data_22__Z cycloneii_lcell_ff 
+Inst: data[21]   data_21__Z cycloneii_lcell_ff 
+Inst: data[20]   data_20__Z cycloneii_lcell_ff 
+Inst: data[19]   data_19__Z cycloneii_lcell_ff 
+Inst: data[18]   data_18__Z cycloneii_lcell_ff 
+Inst: data[17]   data_17__Z cycloneii_lcell_ff 
+Inst: data[16]   data_16__Z cycloneii_lcell_ff 
+Inst: data[15]   data_15__Z cycloneii_lcell_ff 
+Inst: data[14]   data_14__Z cycloneii_lcell_ff 
+Inst: data[13]   data_13__Z cycloneii_lcell_ff 
+Inst: data[12]   data_12__Z cycloneii_lcell_ff 
+Inst: data[11]   data_11__Z cycloneii_lcell_ff 
+Inst: data[10]   data_10__Z cycloneii_lcell_ff 
+Inst: data[9]   data_9__Z cycloneii_lcell_ff 
+Inst: data[8]   data_8__Z cycloneii_lcell_ff 
+Inst: data[7]   data_7__Z cycloneii_lcell_ff 
+Inst: data[6]   data_6__Z cycloneii_lcell_ff 
+Inst: data[5]   data_5__Z cycloneii_lcell_ff 
+Inst: data[4]   data_4__Z cycloneii_lcell_ff 
+Inst: data[3]   data_3__Z cycloneii_lcell_ff 
+Inst: data[2]   data_2__Z cycloneii_lcell_ff 
+Inst: data[1]   data_1__Z cycloneii_lcell_ff 
+Inst: data[0]   data_0__Z cycloneii_lcell_ff 
+Inst: overtime_i   overtime_i_Z cycloneii_lcell_ff 
+Inst: wil_clk_i_0   wil_clk_i_0_Z cycloneii_lcell_ff 
+Inst: wil_clk_tmp_i_0   wil_clk_tmp_i_0_Z cycloneii_lcell_ff 
+Inst: wil1_i_0   wil1_i_0_0_Z cycloneii_lcell_ff 
+Inst: wil0_i_0   wil0_i_0_Z cycloneii_lcell_ff 
+Inst: overtime_delay2_i   overtime_delay2_i_Z cycloneii_lcell_ff 
+Inst: overtime_delay3_i_0   overtime_delay3_i_0_0_Z cycloneii_lcell_ff 
+Inst: overtime_delay1_i_0   overtime_delay1_i_0_Z cycloneii_lcell_ff 
+Inst: int_1_0_a3_0   int_1_0_a3_0_0 cycloneii_lcell_comb 
+Inst: wigend_buf_m_i[19]   wigend_buf_m_i_19_ cycloneii_lcell_comb 
+Inst: wigend_buf_m_i[20]   wigend_buf_m_i_20_ cycloneii_lcell_comb 
+Inst: wigend_buf_m_i[0]   wigend_buf_m_i_0_ cycloneii_lcell_comb 
+Inst: wigend_buf_m_i[1]   wigend_buf_m_i_1_ cycloneii_lcell_comb 
+Inst: wigend_buf_m_i[23]   wigend_buf_m_i_23_ cycloneii_lcell_comb 
+Inst: wigend_buf_m_i[22]   wigend_buf_m_i_22_ cycloneii_lcell_comb 
+Inst: wigend_buf_m_i[21]   wigend_buf_m_i_21_ cycloneii_lcell_comb 
+Inst: wigend_buf_m_i[18]   wigend_buf_m_i_18_ cycloneii_lcell_comb 
+Inst: wigend_buf_m_i[17]   wigend_buf_m_i_17_ cycloneii_lcell_comb 
+Inst: wigend_buf_m_i[16]   wigend_buf_m_i_16_ cycloneii_lcell_comb 
+Inst: wigend_buf_m_i[15]   wigend_buf_m_i_15_ cycloneii_lcell_comb 
+Inst: wigend_buf_m_i[14]   wigend_buf_m_i_14_ cycloneii_lcell_comb 
+Inst: wigend_buf_m_i[13]   wigend_buf_m_i_13_ cycloneii_lcell_comb 
+Inst: wigend_buf_m_i[12]   wigend_buf_m_i_12_ cycloneii_lcell_comb 
+Inst: wigend_buf_m_i[11]   wigend_buf_m_i_11_ cycloneii_lcell_comb 
+Inst: wigend_buf_m_i[10]   wigend_buf_m_i_10_ cycloneii_lcell_comb 
+Inst: wigend_buf_m_i[9]   wigend_buf_m_i_9_ cycloneii_lcell_comb 
+Inst: wigend_buf_m_i[8]   wigend_buf_m_i_8_ cycloneii_lcell_comb 
+Inst: wigend_buf_m_i[7]   wigend_buf_m_i_7_ cycloneii_lcell_comb 
+Inst: wigend_buf_m_i[6]   wigend_buf_m_i_6_ cycloneii_lcell_comb 
+Inst: wigend_buf_m_i[5]   wigend_buf_m_i_5_ cycloneii_lcell_comb 
+Inst: wigend_buf_m_i[4]   wigend_buf_m_i_4_ cycloneii_lcell_comb 
+Inst: wigend_buf_m_i[3]   wigend_buf_m_i_3_ cycloneii_lcell_comb 
+Inst: wigend_buf_m_i[2]   wigend_buf_m_i_2_ cycloneii_lcell_comb 
+Inst: un1_wilclk_cntlto11_0   un1_wilclk_cntlto11_0_cZ cycloneii_lcell_comb 
+Inst: un6_wigend_bitcnt_anc2   un6_wigend_bitcnt_anc2_cZ cycloneii_lcell_comb 
+Inst: int_1_0_a2   int_1_0_a2_cZ cycloneii_lcell_comb 
+Inst: un1_wigend_9_i   un1_wigend_9_i_cZ cycloneii_lcell_comb 
+Inst: int_1_0_a3   int_1_0_a3_1 cycloneii_lcell_comb 
+Inst: un1_wigend_buf51_i_a2   un1_wigend_buf51_i_a2_cZ cycloneii_lcell_comb 
+Inst: un1_wilclk_cntlto9_a   un1_wilclk_cntlto9_a_cZ cycloneii_lcell_comb 
+Inst: un1_wilclk_cntlto9   un1_wilclk_cntlto9_cZ cycloneii_lcell_comb 
+Inst: wigend_bitcnt_7_f0_i[0]   wigend_bitcnt_7_f0_i_0_ cycloneii_lcell_comb 
+Inst: wigend_buf_m_i_o3[0]   wigend_buf_m_i_o3_0_ cycloneii_lcell_comb 
+Inst: wigend_bitcnt_7_i[1]   wigend_bitcnt_7_i_1_ cycloneii_lcell_comb 
+Inst: wigend_bitcnt_7_i[2]   wigend_bitcnt_7_i_2_ cycloneii_lcell_comb 
+Inst: wigend_bitcnt_7_i[3]   wigend_bitcnt_7_i_3_ cycloneii_lcell_comb 
+Inst: wigend_bitcnt_7_i[4]   wigend_bitcnt_7_i_4_ cycloneii_lcell_comb 
+Inst: wigend_buf_16_0_f0_i[0]   wigend_buf_16_0_f0_i_0_ cycloneii_lcell_comb 
+Inst: un1_wilclk_cnt_2   un1_wilclk_cnt_2_cZ cycloneii_lcell_comb 
+Inst: un1_wigend_10   un1_wigend_10_cZ cycloneii_lcell_comb 
+Inst: wigend_bitcnt_7_i_o3_x[1]   wigend_bitcnt_7_i_o3_x_1_ cycloneii_lcell_comb 
+Inst: data_12_0_a3_x[4]   data_12_0_a3_x_4_ cycloneii_lcell_comb 
+Inst: data_12_0_a3_x[5]   data_12_0_a3_x_5_ cycloneii_lcell_comb 
+Inst: data_12_0_a3_x[6]   data_12_0_a3_x_6_ cycloneii_lcell_comb 
+Inst: data_12_0_a3_x[7]   data_12_0_a3_x_7_ cycloneii_lcell_comb 
+Inst: data_12_0_a3_x[8]   data_12_0_a3_x_8_ cycloneii_lcell_comb 
+Inst: data_12_0_a3_x[9]   data_12_0_a3_x_9_ cycloneii_lcell_comb 
+Inst: data_12_0_a3_x[10]   data_12_0_a3_x_10_ cycloneii_lcell_comb 
+Inst: data_12_0_a3_x[11]   data_12_0_a3_x_11_ cycloneii_lcell_comb 
+Inst: data_12_0_a3_x[12]   data_12_0_a3_x_12_ cycloneii_lcell_comb 
+Inst: data_12_0_a3_x[13]   data_12_0_a3_x_13_ cycloneii_lcell_comb 
+Inst: data_12_0_a3_x[14]   data_12_0_a3_x_14_ cycloneii_lcell_comb 
+Inst: data_12_0_a3_x[15]   data_12_0_a3_x_15_ cycloneii_lcell_comb 
+Inst: data_12_0_a3_x[16]   data_12_0_a3_x_16_ cycloneii_lcell_comb 
+Inst: data_12_0_a3_x[17]   data_12_0_a3_x_17_ cycloneii_lcell_comb 
+Inst: data_12_0_a3_x[18]   data_12_0_a3_x_18_ cycloneii_lcell_comb 
+Inst: data_12_0_a3_x[19]   data_12_0_a3_x_19_ cycloneii_lcell_comb 
+Inst: data_12_0_a3_x[20]   data_12_0_a3_x_20_ cycloneii_lcell_comb 
+Inst: data_12_0_a3_x[21]   data_12_0_a3_x_21_ cycloneii_lcell_comb 
+Inst: data_12_0_a3_x[22]   data_12_0_a3_x_22_ cycloneii_lcell_comb 
+Inst: data_12_0_a3_x[23]   data_12_0_a3_x_23_ cycloneii_lcell_comb 
+Inst: data_12_0_a3_x[24]   data_12_0_a3_x_24_ cycloneii_lcell_comb 
+Inst: data_12_0_a3_x[25]   data_12_0_a3_x_25_ cycloneii_lcell_comb 
+Inst: data_12_0_a3_x[3]   data_12_0_a3_x_3_ cycloneii_lcell_comb 
+Inst: data_12_0_a3_x[2]   data_12_0_a3_x_2_ cycloneii_lcell_comb 
+Inst: data_12_0_a3_x[1]   data_12_0_a3_x_1_ cycloneii_lcell_comb 
+Inst: wil_clk_i   wil_clk_i_cZ inv 
+Net:  wigend_in1.wil_clk   wigend_in1_wil_clk 
+Net:  wil_clk_i_i_x_i_n   wigend_in1_wil_clk 
+EndView Wigend_In NoName
+
+BeginView Wigend_In_1 NoName
+Inst: wil_clk_tmp_i   wil_clk_tmp_i_Z cycloneii_lcell_ff 
+Inst: wilclk_cnt[0]   wilclk_cnt_0__Z cycloneii_lcell_ff 
+Inst: wilclk_cnt[1]   wilclk_cnt_1__Z cycloneii_lcell_ff 
+Inst: wilclk_cnt[2]   wilclk_cnt_2__Z cycloneii_lcell_ff 
+Inst: wilclk_cnt[3]   wilclk_cnt_3__Z cycloneii_lcell_ff 
+Inst: wilclk_cnt[4]   wilclk_cnt_4__Z cycloneii_lcell_ff 
+Inst: wilclk_cnt[5]   wilclk_cnt_5__Z cycloneii_lcell_ff 
+Inst: wilclk_cnt[6]   wilclk_cnt_6__Z cycloneii_lcell_ff 
+Inst: wilclk_cnt[7]   wilclk_cnt_7__Z cycloneii_lcell_ff 
+Inst: wilclk_cnt[8]   wilclk_cnt_8__Z cycloneii_lcell_ff 
+Inst: wilclk_cnt[9]   wilclk_cnt_9__Z cycloneii_lcell_ff 
+Inst: wilclk_cnt[10]   wilclk_cnt_10__Z cycloneii_lcell_ff 
+Inst: wilclk_cnt[11]   wilclk_cnt_11__Z cycloneii_lcell_ff 
+Inst: wilclk_cnt[12]   wilclk_cnt_12__Z cycloneii_lcell_ff 
+Inst: wigend_bitcnt[4]   wigend_bitcnt_4__Z cycloneii_lcell_ff 
+Inst: wigend_bitcnt[3]   wigend_bitcnt_3__Z cycloneii_lcell_ff 
+Inst: wigend_bitcnt[2]   wigend_bitcnt_2__Z cycloneii_lcell_ff 
+Inst: wigend_bitcnt[1]   wigend_bitcnt_1__Z cycloneii_lcell_ff 
+Inst: wigend_bitcnt[0]   wigend_bitcnt_0__Z cycloneii_lcell_ff 
+Inst: wigend_buf[24]   wigend_buf_24__Z cycloneii_lcell_ff 
+Inst: wigend_buf[23]   wigend_buf_23__Z cycloneii_lcell_ff 
+Inst: wigend_buf[22]   wigend_buf_22__Z cycloneii_lcell_ff 
+Inst: wigend_buf[21]   wigend_buf_21__Z cycloneii_lcell_ff 
+Inst: wigend_buf[20]   wigend_buf_20__Z cycloneii_lcell_ff 
+Inst: wigend_buf[19]   wigend_buf_19__Z cycloneii_lcell_ff 
+Inst: wigend_buf[18]   wigend_buf_18__Z cycloneii_lcell_ff 
+Inst: wigend_buf[17]   wigend_buf_17__Z cycloneii_lcell_ff 
+Inst: wigend_buf[16]   wigend_buf_16__Z cycloneii_lcell_ff 
+Inst: wigend_buf[15]   wigend_buf_15__Z cycloneii_lcell_ff 
+Inst: wigend_buf[14]   wigend_buf_14__Z cycloneii_lcell_ff 
+Inst: wigend_buf[13]   wigend_buf_13__Z cycloneii_lcell_ff 
+Inst: wigend_buf[12]   wigend_buf_12__Z cycloneii_lcell_ff 
+Inst: wigend_buf[11]   wigend_buf_11__Z cycloneii_lcell_ff 
+Inst: wigend_buf[10]   wigend_buf_10__Z cycloneii_lcell_ff 
+Inst: wigend_buf[9]   wigend_buf_9__Z cycloneii_lcell_ff 
+Inst: wigend_buf[8]   wigend_buf_8__Z cycloneii_lcell_ff 
+Inst: wigend_buf[7]   wigend_buf_7__Z cycloneii_lcell_ff 
+Inst: wigend_buf[6]   wigend_buf_6__Z cycloneii_lcell_ff 
+Inst: wigend_buf[5]   wigend_buf_5__Z cycloneii_lcell_ff 
+Inst: wigend_buf[4]   wigend_buf_4__Z cycloneii_lcell_ff 
+Inst: wigend_buf[3]   wigend_buf_3__Z cycloneii_lcell_ff 
+Inst: wigend_buf[2]   wigend_buf_2__Z cycloneii_lcell_ff 
+Inst: wigend_buf[1]   wigend_buf_1__Z cycloneii_lcell_ff 
+Inst: wigend_buf[0]   wigend_buf_0__Z cycloneii_lcell_ff 
+Inst: data[25]   data_25__Z cycloneii_lcell_ff 
+Inst: data[24]   data_24__Z cycloneii_lcell_ff 
+Inst: data[23]   data_23__Z cycloneii_lcell_ff 
+Inst: data[22]   data_22__Z cycloneii_lcell_ff 
+Inst: data[21]   data_21__Z cycloneii_lcell_ff 
+Inst: data[20]   data_20__Z cycloneii_lcell_ff 
+Inst: data[19]   data_19__Z cycloneii_lcell_ff 
+Inst: data[18]   data_18__Z cycloneii_lcell_ff 
+Inst: data[17]   data_17__Z cycloneii_lcell_ff 
+Inst: data[16]   data_16__Z cycloneii_lcell_ff 
+Inst: data[15]   data_15__Z cycloneii_lcell_ff 
+Inst: data[14]   data_14__Z cycloneii_lcell_ff 
+Inst: data[13]   data_13__Z cycloneii_lcell_ff 
+Inst: data[12]   data_12__Z cycloneii_lcell_ff 
+Inst: data[11]   data_11__Z cycloneii_lcell_ff 
+Inst: data[10]   data_10__Z cycloneii_lcell_ff 
+Inst: data[9]   data_9__Z cycloneii_lcell_ff 
+Inst: data[8]   data_8__Z cycloneii_lcell_ff 
+Inst: data[7]   data_7__Z cycloneii_lcell_ff 
+Inst: data[6]   data_6__Z cycloneii_lcell_ff 
+Inst: data[5]   data_5__Z cycloneii_lcell_ff 
+Inst: data[4]   data_4__Z cycloneii_lcell_ff 
+Inst: data[3]   data_3__Z cycloneii_lcell_ff 
+Inst: data[2]   data_2__Z cycloneii_lcell_ff 
+Inst: data[1]   data_1__Z cycloneii_lcell_ff 
+Inst: data[0]   data_0__Z cycloneii_lcell_ff 
+Inst: overtime_i   overtime_i_Z cycloneii_lcell_ff 
+Inst: wil_clk_i_0   wil_clk_i_0_Z cycloneii_lcell_ff 
+Inst: wil_clk_tmp_i_0   wil_clk_tmp_i_0_Z cycloneii_lcell_ff 
+Inst: wil1_i_0   wil1_i_0_0_Z cycloneii_lcell_ff 
+Inst: wil0_i_0   wil0_i_0_Z cycloneii_lcell_ff 
+Inst: overtime_delay2_i   overtime_delay2_i_Z cycloneii_lcell_ff 
+Inst: overtime_delay3_i_0   overtime_delay3_i_0_0_Z cycloneii_lcell_ff 
+Inst: overtime_delay1_i_0   overtime_delay1_i_0_Z cycloneii_lcell_ff 
+Inst: int_1_0_a3_0   int_1_0_a3_0_0 cycloneii_lcell_comb 
+Inst: wigend_buf_m_i[23]   wigend_buf_m_i_23_ cycloneii_lcell_comb 
+Inst: wigend_buf_m_i[22]   wigend_buf_m_i_22_ cycloneii_lcell_comb 
+Inst: wigend_buf_m_i[21]   wigend_buf_m_i_21_ cycloneii_lcell_comb 
+Inst: wigend_buf_m_i[20]   wigend_buf_m_i_20_ cycloneii_lcell_comb 
+Inst: wigend_buf_m_i[19]   wigend_buf_m_i_19_ cycloneii_lcell_comb 
+Inst: wigend_buf_m_i[18]   wigend_buf_m_i_18_ cycloneii_lcell_comb 
+Inst: wigend_buf_m_i[17]   wigend_buf_m_i_17_ cycloneii_lcell_comb 
+Inst: wigend_buf_m_i[16]   wigend_buf_m_i_16_ cycloneii_lcell_comb 
+Inst: wigend_buf_m_i[15]   wigend_buf_m_i_15_ cycloneii_lcell_comb 
+Inst: wigend_buf_m_i[14]   wigend_buf_m_i_14_ cycloneii_lcell_comb 
+Inst: wigend_buf_m_i[13]   wigend_buf_m_i_13_ cycloneii_lcell_comb 
+Inst: wigend_buf_m_i[12]   wigend_buf_m_i_12_ cycloneii_lcell_comb 
+Inst: wigend_buf_m_i[11]   wigend_buf_m_i_11_ cycloneii_lcell_comb 
+Inst: wigend_buf_m_i[10]   wigend_buf_m_i_10_ cycloneii_lcell_comb 
+Inst: wigend_buf_m_i[9]   wigend_buf_m_i_9_ cycloneii_lcell_comb 
+Inst: wigend_buf_m_i[8]   wigend_buf_m_i_8_ cycloneii_lcell_comb 
+Inst: wigend_buf_m_i[7]   wigend_buf_m_i_7_ cycloneii_lcell_comb 
+Inst: wigend_buf_m_i[6]   wigend_buf_m_i_6_ cycloneii_lcell_comb 
+Inst: wigend_buf_m_i[5]   wigend_buf_m_i_5_ cycloneii_lcell_comb 
+Inst: wigend_buf_m_i[4]   wigend_buf_m_i_4_ cycloneii_lcell_comb 
+Inst: wigend_buf_m_i[3]   wigend_buf_m_i_3_ cycloneii_lcell_comb 
+Inst: wigend_buf_m_i[2]   wigend_buf_m_i_2_ cycloneii_lcell_comb 
+Inst: wigend_buf_m_i[1]   wigend_buf_m_i_1_ cycloneii_lcell_comb 
+Inst: wigend_buf_m_i[0]   wigend_buf_m_i_0_ cycloneii_lcell_comb 
+Inst: un1_wilclk_cntlto11_0   un1_wilclk_cntlto11_0_cZ cycloneii_lcell_comb 
+Inst: un6_wigend_bitcnt_anc2   un6_wigend_bitcnt_anc2_cZ cycloneii_lcell_comb 
+Inst: un1_wigend_9_i   un1_wigend_9_i_cZ cycloneii_lcell_comb 
+Inst: int_1_0_a3   int_1_0_a3_1 cycloneii_lcell_comb 
+Inst: un1_wigend_buf51_i_a2   un1_wigend_buf51_i_a2_cZ cycloneii_lcell_comb 
+Inst: un1_wilclk_cntlto9_a   un1_wilclk_cntlto9_a_cZ cycloneii_lcell_comb 
+Inst: un1_wilclk_cntlto9   un1_wilclk_cntlto9_cZ cycloneii_lcell_comb 
+Inst: wigend_bitcnt_7_f0_i_a[0]   wigend_bitcnt_7_f0_i_a_0_ cycloneii_lcell_comb 
+Inst: wigend_bitcnt_7_f0_i[0]   wigend_bitcnt_7_f0_i_0_ cycloneii_lcell_comb 
+Inst: wigend_bitcnt_7_i_o3_a[1]   wigend_bitcnt_7_i_o3_a_1_ cycloneii_lcell_comb 
+Inst: wigend_bitcnt_7_i_o3[1]   wigend_bitcnt_7_i_o3_1_ cycloneii_lcell_comb 
+Inst: wigend_buf_m_i_o3[0]   wigend_buf_m_i_o3_0_ cycloneii_lcell_comb 
+Inst: wigend_bitcnt_7_i[1]   wigend_bitcnt_7_i_1_ cycloneii_lcell_comb 
+Inst: wigend_bitcnt_7_i[2]   wigend_bitcnt_7_i_2_ cycloneii_lcell_comb 
+Inst: wigend_bitcnt_7_i[3]   wigend_bitcnt_7_i_3_ cycloneii_lcell_comb 
+Inst: wigend_bitcnt_7_i[4]   wigend_bitcnt_7_i_4_ cycloneii_lcell_comb 
+Inst: wigend_buf_16_0_f0_i[0]   wigend_buf_16_0_f0_i_0_ cycloneii_lcell_comb 
+Inst: un1_wilclk_cnt_2   un1_wilclk_cnt_2_cZ cycloneii_lcell_comb 
+Inst: un1_wigend_10   un1_wigend_10_cZ cycloneii_lcell_comb 
+Inst: data_12_0_a3_x[1]   data_12_0_a3_x_1_ cycloneii_lcell_comb 
+Inst: data_12_0_a3_x[2]   data_12_0_a3_x_2_ cycloneii_lcell_comb 
+Inst: data_12_0_a3_x[3]   data_12_0_a3_x_3_ cycloneii_lcell_comb 
+Inst: data_12_0_a3_x[4]   data_12_0_a3_x_4_ cycloneii_lcell_comb 
+Inst: data_12_0_a3_x[5]   data_12_0_a3_x_5_ cycloneii_lcell_comb 
+Inst: data_12_0_a3_x[6]   data_12_0_a3_x_6_ cycloneii_lcell_comb 
+Inst: data_12_0_a3_x[7]   data_12_0_a3_x_7_ cycloneii_lcell_comb 
+Inst: data_12_0_a3_x[8]   data_12_0_a3_x_8_ cycloneii_lcell_comb 
+Inst: data_12_0_a3_x[9]   data_12_0_a3_x_9_ cycloneii_lcell_comb 
+Inst: data_12_0_a3_x[10]   data_12_0_a3_x_10_ cycloneii_lcell_comb 
+Inst: data_12_0_a3_x[11]   data_12_0_a3_x_11_ cycloneii_lcell_comb 
+Inst: data_12_0_a3_x[12]   data_12_0_a3_x_12_ cycloneii_lcell_comb 
+Inst: data_12_0_a3_x[13]   data_12_0_a3_x_13_ cycloneii_lcell_comb 
+Inst: data_12_0_a3_x[14]   data_12_0_a3_x_14_ cycloneii_lcell_comb 
+Inst: data_12_0_a3_x[15]   data_12_0_a3_x_15_ cycloneii_lcell_comb 
+Inst: data_12_0_a3_x[16]   data_12_0_a3_x_16_ cycloneii_lcell_comb 
+Inst: data_12_0_a3_x[17]   data_12_0_a3_x_17_ cycloneii_lcell_comb 
+Inst: data_12_0_a3_x[18]   data_12_0_a3_x_18_ cycloneii_lcell_comb 
+Inst: data_12_0_a3_x[19]   data_12_0_a3_x_19_ cycloneii_lcell_comb 
+Inst: data_12_0_a3_x[20]   data_12_0_a3_x_20_ cycloneii_lcell_comb 
+Inst: data_12_0_a3_x[21]   data_12_0_a3_x_21_ cycloneii_lcell_comb 
+Inst: data_12_0_a3_x[22]   data_12_0_a3_x_22_ cycloneii_lcell_comb 
+Inst: data_12_0_a3_x[23]   data_12_0_a3_x_23_ cycloneii_lcell_comb 
+Inst: data_12_0_a3_x[24]   data_12_0_a3_x_24_ cycloneii_lcell_comb 
+Inst: data_12_0_a3_x[25]   data_12_0_a3_x_25_ cycloneii_lcell_comb 
+Inst: wil_clk_i   wil_clk_i_cZ inv 
+Net:  wigend_in2.wil_clk   wigend_in2_wil_clk 
+Net:  wil_clk_i_i_x_i_n_0   wigend_in2_wil_clk 
+EndView Wigend_In_1 NoName
+
+BeginView Wigend_In_2 NoName
+Inst: wil_clk_tmp_i   wil_clk_tmp_i_Z cycloneii_lcell_ff 
+Inst: wilclk_cnt[0]   wilclk_cnt_0__Z cycloneii_lcell_ff 
+Inst: wilclk_cnt[1]   wilclk_cnt_1__Z cycloneii_lcell_ff 
+Inst: wilclk_cnt[2]   wilclk_cnt_2__Z cycloneii_lcell_ff 
+Inst: wilclk_cnt[3]   wilclk_cnt_3__Z cycloneii_lcell_ff 
+Inst: wilclk_cnt[4]   wilclk_cnt_4__Z cycloneii_lcell_ff 
+Inst: wilclk_cnt[5]   wilclk_cnt_5__Z cycloneii_lcell_ff 
+Inst: wilclk_cnt[6]   wilclk_cnt_6__Z cycloneii_lcell_ff 
+Inst: wilclk_cnt[7]   wilclk_cnt_7__Z cycloneii_lcell_ff 
+Inst: wilclk_cnt[8]   wilclk_cnt_8__Z cycloneii_lcell_ff 
+Inst: wilclk_cnt[9]   wilclk_cnt_9__Z cycloneii_lcell_ff 
+Inst: wilclk_cnt[10]   wilclk_cnt_10__Z cycloneii_lcell_ff 
+Inst: wilclk_cnt[11]   wilclk_cnt_11__Z cycloneii_lcell_ff 
+Inst: wilclk_cnt[12]   wilclk_cnt_12__Z cycloneii_lcell_ff 
+Inst: wigend_bitcnt[4]   wigend_bitcnt_4__Z cycloneii_lcell_ff 
+Inst: wigend_bitcnt[3]   wigend_bitcnt_3__Z cycloneii_lcell_ff 
+Inst: wigend_bitcnt[2]   wigend_bitcnt_2__Z cycloneii_lcell_ff 
+Inst: wigend_bitcnt[1]   wigend_bitcnt_1__Z cycloneii_lcell_ff 
+Inst: wigend_bitcnt[0]   wigend_bitcnt_0__Z cycloneii_lcell_ff 
+Inst: wigend_buf[24]   wigend_buf_24__Z cycloneii_lcell_ff 
+Inst: wigend_buf[23]   wigend_buf_23__Z cycloneii_lcell_ff 
+Inst: wigend_buf[22]   wigend_buf_22__Z cycloneii_lcell_ff 
+Inst: wigend_buf[21]   wigend_buf_21__Z cycloneii_lcell_ff 
+Inst: wigend_buf[20]   wigend_buf_20__Z cycloneii_lcell_ff 
+Inst: wigend_buf[19]   wigend_buf_19__Z cycloneii_lcell_ff 
+Inst: wigend_buf[18]   wigend_buf_18__Z cycloneii_lcell_ff 
+Inst: wigend_buf[17]   wigend_buf_17__Z cycloneii_lcell_ff 
+Inst: wigend_buf[16]   wigend_buf_16__Z cycloneii_lcell_ff 
+Inst: wigend_buf[15]   wigend_buf_15__Z cycloneii_lcell_ff 
+Inst: wigend_buf[14]   wigend_buf_14__Z cycloneii_lcell_ff 
+Inst: wigend_buf[13]   wigend_buf_13__Z cycloneii_lcell_ff 
+Inst: wigend_buf[12]   wigend_buf_12__Z cycloneii_lcell_ff 
+Inst: wigend_buf[11]   wigend_buf_11__Z cycloneii_lcell_ff 
+Inst: wigend_buf[10]   wigend_buf_10__Z cycloneii_lcell_ff 
+Inst: wigend_buf[9]   wigend_buf_9__Z cycloneii_lcell_ff 
+Inst: wigend_buf[8]   wigend_buf_8__Z cycloneii_lcell_ff 
+Inst: wigend_buf[7]   wigend_buf_7__Z cycloneii_lcell_ff 
+Inst: wigend_buf[6]   wigend_buf_6__Z cycloneii_lcell_ff 
+Inst: wigend_buf[5]   wigend_buf_5__Z cycloneii_lcell_ff 
+Inst: wigend_buf[4]   wigend_buf_4__Z cycloneii_lcell_ff 
+Inst: wigend_buf[3]   wigend_buf_3__Z cycloneii_lcell_ff 
+Inst: wigend_buf[2]   wigend_buf_2__Z cycloneii_lcell_ff 
+Inst: wigend_buf[1]   wigend_buf_1__Z cycloneii_lcell_ff 
+Inst: wigend_buf[0]   wigend_buf_0__Z cycloneii_lcell_ff 
+Inst: data[25]   data_25__Z cycloneii_lcell_ff 
+Inst: data[24]   data_24__Z cycloneii_lcell_ff 
+Inst: data[23]   data_23__Z cycloneii_lcell_ff 
+Inst: data[22]   data_22__Z cycloneii_lcell_ff 
+Inst: data[21]   data_21__Z cycloneii_lcell_ff 
+Inst: data[20]   data_20__Z cycloneii_lcell_ff 
+Inst: data[19]   data_19__Z cycloneii_lcell_ff 
+Inst: data[18]   data_18__Z cycloneii_lcell_ff 
+Inst: data[17]   data_17__Z cycloneii_lcell_ff 
+Inst: data[16]   data_16__Z cycloneii_lcell_ff 
+Inst: data[15]   data_15__Z cycloneii_lcell_ff 
+Inst: data[14]   data_14__Z cycloneii_lcell_ff 
+Inst: data[13]   data_13__Z cycloneii_lcell_ff 
+Inst: data[12]   data_12__Z cycloneii_lcell_ff 
+Inst: data[11]   data_11__Z cycloneii_lcell_ff 
+Inst: data[10]   data_10__Z cycloneii_lcell_ff 
+Inst: data[9]   data_9__Z cycloneii_lcell_ff 
+Inst: data[8]   data_8__Z cycloneii_lcell_ff 
+Inst: data[7]   data_7__Z cycloneii_lcell_ff 
+Inst: data[6]   data_6__Z cycloneii_lcell_ff 
+Inst: data[5]   data_5__Z cycloneii_lcell_ff 
+Inst: data[4]   data_4__Z cycloneii_lcell_ff 
+Inst: data[3]   data_3__Z cycloneii_lcell_ff 
+Inst: data[2]   data_2__Z cycloneii_lcell_ff 
+Inst: data[1]   data_1__Z cycloneii_lcell_ff 
+Inst: data[0]   data_0__Z cycloneii_lcell_ff 
+Inst: overtime_i   overtime_i_Z cycloneii_lcell_ff 
+Inst: wil_clk_i_0   wil_clk_i_0_Z cycloneii_lcell_ff 
+Inst: wil_clk_tmp_i_0   wil_clk_tmp_i_0_Z cycloneii_lcell_ff 
+Inst: wil1_i_0   wil1_i_0_0_Z cycloneii_lcell_ff 
+Inst: wil0_i_0   wil0_i_0_Z cycloneii_lcell_ff 
+Inst: overtime_delay2_i   overtime_delay2_i_Z cycloneii_lcell_ff 
+Inst: overtime_delay3_i_0   overtime_delay3_i_0_0_Z cycloneii_lcell_ff 
+Inst: overtime_delay1_i_0   overtime_delay1_i_0_Z cycloneii_lcell_ff 
+Inst: wigend_buf_m_i[21]   wigend_buf_m_i_21_ cycloneii_lcell_comb 
+Inst: wigend_buf_m_i[22]   wigend_buf_m_i_22_ cycloneii_lcell_comb 
+Inst: wigend_buf_m_i[23]   wigend_buf_m_i_23_ cycloneii_lcell_comb 
+Inst: wigend_buf_m_i[20]   wigend_buf_m_i_20_ cycloneii_lcell_comb 
+Inst: wigend_buf_m_i[19]   wigend_buf_m_i_19_ cycloneii_lcell_comb 
+Inst: wigend_buf_m_i[18]   wigend_buf_m_i_18_ cycloneii_lcell_comb 
+Inst: wigend_buf_m_i[17]   wigend_buf_m_i_17_ cycloneii_lcell_comb 
+Inst: wigend_buf_m_i[16]   wigend_buf_m_i_16_ cycloneii_lcell_comb 
+Inst: wigend_buf_m_i[15]   wigend_buf_m_i_15_ cycloneii_lcell_comb 
+Inst: wigend_buf_m_i[14]   wigend_buf_m_i_14_ cycloneii_lcell_comb 
+Inst: wigend_buf_m_i[13]   wigend_buf_m_i_13_ cycloneii_lcell_comb 
+Inst: wigend_buf_m_i[12]   wigend_buf_m_i_12_ cycloneii_lcell_comb 
+Inst: wigend_buf_m_i[11]   wigend_buf_m_i_11_ cycloneii_lcell_comb 
+Inst: wigend_buf_m_i[10]   wigend_buf_m_i_10_ cycloneii_lcell_comb 
+Inst: wigend_buf_m_i[9]   wigend_buf_m_i_9_ cycloneii_lcell_comb 
+Inst: wigend_buf_m_i[8]   wigend_buf_m_i_8_ cycloneii_lcell_comb 
+Inst: wigend_buf_m_i[7]   wigend_buf_m_i_7_ cycloneii_lcell_comb 
+Inst: wigend_buf_m_i[6]   wigend_buf_m_i_6_ cycloneii_lcell_comb 
+Inst: wigend_buf_m_i[5]   wigend_buf_m_i_5_ cycloneii_lcell_comb 
+Inst: wigend_buf_m_i[4]   wigend_buf_m_i_4_ cycloneii_lcell_comb 
+Inst: wigend_buf_m_i[3]   wigend_buf_m_i_3_ cycloneii_lcell_comb 
+Inst: wigend_buf_m_i[2]   wigend_buf_m_i_2_ cycloneii_lcell_comb 
+Inst: wigend_buf_m_i[1]   wigend_buf_m_i_1_ cycloneii_lcell_comb 
+Inst: wigend_buf_m_i[0]   wigend_buf_m_i_0_ cycloneii_lcell_comb 
+Inst: un1_wilclk_cntlto11_0   un1_wilclk_cntlto11_0_cZ cycloneii_lcell_comb 
+Inst: int_1_0_a2   int_1_0_a2_0 cycloneii_lcell_comb 
+Inst: un1_wigend_9_i   un1_wigend_9_i_cZ cycloneii_lcell_comb 
+Inst: int_1_0_a3   int_1_0_a3_0 cycloneii_lcell_comb 
+Inst: un1_wilclk_cntlto9_a   un1_wilclk_cntlto9_a_cZ cycloneii_lcell_comb 
+Inst: un1_wilclk_cntlto9   un1_wilclk_cntlto9_cZ cycloneii_lcell_comb 
+Inst: wigend_bitcnt_7_f0_i[0]   wigend_bitcnt_7_f0_i_0_ cycloneii_lcell_comb 
+Inst: wigend_buf_m_i_o3[0]   wigend_buf_m_i_o3_0_ cycloneii_lcell_comb 
+Inst: wigend_bitcnt_7_i_a[4]   wigend_bitcnt_7_i_a_4_ cycloneii_lcell_comb 
+Inst: wigend_bitcnt_7_i[4]   wigend_bitcnt_7_i_4_ cycloneii_lcell_comb 
+Inst: wigend_bitcnt_7_i_a[3]   wigend_bitcnt_7_i_a_3_ cycloneii_lcell_comb 
+Inst: wigend_bitcnt_7_i[3]   wigend_bitcnt_7_i_3_ cycloneii_lcell_comb 
+Inst: wigend_bitcnt_7_i_a[2]   wigend_bitcnt_7_i_a_2_ cycloneii_lcell_comb 
+Inst: wigend_bitcnt_7_i[2]   wigend_bitcnt_7_i_2_ cycloneii_lcell_comb 
+Inst: wigend_bitcnt_7_i[1]   wigend_bitcnt_7_i_1_ cycloneii_lcell_comb 
+Inst: wigend_buf_16_0_f0_i_a[0]   wigend_buf_16_0_f0_i_a_0_ cycloneii_lcell_comb 
+Inst: wigend_buf_16_0_f0_i[0]   wigend_buf_16_0_f0_i_0_ cycloneii_lcell_comb 
+Inst: un1_wilclk_cnt_2   un1_wilclk_cnt_2_cZ cycloneii_lcell_comb 
+Inst: un1_wigend_10   un1_wigend_10_cZ cycloneii_lcell_comb 
+Inst: data_12_0_a3_x[1]   data_12_0_a3_x_1_ cycloneii_lcell_comb 
+Inst: data_12_0_a3_x[2]   data_12_0_a3_x_2_ cycloneii_lcell_comb 
+Inst: data_12_0_a3_x[3]   data_12_0_a3_x_3_ cycloneii_lcell_comb 
+Inst: data_12_0_a3_x[4]   data_12_0_a3_x_4_ cycloneii_lcell_comb 
+Inst: data_12_0_a3_x[5]   data_12_0_a3_x_5_ cycloneii_lcell_comb 
+Inst: data_12_0_a3_x[6]   data_12_0_a3_x_6_ cycloneii_lcell_comb 
+Inst: data_12_0_a3_x[7]   data_12_0_a3_x_7_ cycloneii_lcell_comb 
+Inst: data_12_0_a3_x[8]   data_12_0_a3_x_8_ cycloneii_lcell_comb 
+Inst: data_12_0_a3_x[9]   data_12_0_a3_x_9_ cycloneii_lcell_comb 
+Inst: data_12_0_a3_x[10]   data_12_0_a3_x_10_ cycloneii_lcell_comb 
+Inst: data_12_0_a3_x[11]   data_12_0_a3_x_11_ cycloneii_lcell_comb 
+Inst: data_12_0_a3_x[12]   data_12_0_a3_x_12_ cycloneii_lcell_comb 
+Inst: data_12_0_a3_x[13]   data_12_0_a3_x_13_ cycloneii_lcell_comb 
+Inst: data_12_0_a3_x[14]   data_12_0_a3_x_14_ cycloneii_lcell_comb 
+Inst: data_12_0_a3_x[15]   data_12_0_a3_x_15_ cycloneii_lcell_comb 
+Inst: data_12_0_a3_x[16]   data_12_0_a3_x_16_ cycloneii_lcell_comb 
+Inst: data_12_0_a3_x[17]   data_12_0_a3_x_17_ cycloneii_lcell_comb 
+Inst: data_12_0_a3_x[18]   data_12_0_a3_x_18_ cycloneii_lcell_comb 
+Inst: data_12_0_a3_x[19]   data_12_0_a3_x_19_ cycloneii_lcell_comb 
+Inst: data_12_0_a3_x[20]   data_12_0_a3_x_20_ cycloneii_lcell_comb 
+Inst: data_12_0_a3_x[21]   data_12_0_a3_x_21_ cycloneii_lcell_comb 
+Inst: data_12_0_a3_x[22]   data_12_0_a3_x_22_ cycloneii_lcell_comb 
+Inst: data_12_0_a3_x[24]   data_12_0_a3_x_24_ cycloneii_lcell_comb 
+Inst: data_12_0_a3_x[25]   data_12_0_a3_x_25_ cycloneii_lcell_comb 
+Inst: data_12_0_a3_x[23]   data_12_0_a3_x_23_ cycloneii_lcell_comb 
+Inst: wil_clk_i   wil_clk_i_cZ inv 
+Net:  wigend_in3.wil_clk   wigend_in3_wil_clk 
+Net:  wil_clk_i_i_x_i_n_1   wigend_in3_wil_clk 
+EndView Wigend_In_2 NoName
+
+BeginView Wigend_Out NoName
+Inst: counter[0]   counter_0__Z cycloneii_lcell_ff 
+Inst: counter[1]   counter_1__Z cycloneii_lcell_ff 
+Inst: counter[2]   counter_2__Z cycloneii_lcell_ff 
+Inst: counter[3]   counter_3__Z cycloneii_lcell_ff 
+Inst: counter[4]   counter_4__Z cycloneii_lcell_ff 
+Inst: counter[5]   counter_5__Z cycloneii_lcell_ff 
+Inst: counter[6]   counter_6__Z cycloneii_lcell_ff 
+Inst: counter[7]   counter_7__Z cycloneii_lcell_ff 
+Inst: counter[8]   counter_8__Z cycloneii_lcell_ff 
+Inst: counter[9]   counter_9__Z cycloneii_lcell_ff 
+Inst: counter[10]   counter_10__Z cycloneii_lcell_ff 
+Inst: counter[11]   counter_11__Z cycloneii_lcell_ff 
+Inst: counter[12]   counter_12__Z cycloneii_lcell_ff 
+Inst: counter[13]   counter_13__Z cycloneii_lcell_ff 
+Inst: counter[14]   counter_14__Z cycloneii_lcell_ff 
+Inst: counter[15]   counter_15__Z cycloneii_lcell_ff 
+Inst: counter[16]   counter_16__Z cycloneii_lcell_ff 
+Inst: wigend[1]   wigend_1__Z cycloneii_lcell_ff 
+Inst: wigend[0]   wigend_0__Z cycloneii_lcell_ff 
+Inst: wigend_59_iv_i_i_0_a2_3[1]   wigend_59_iv_i_i_0_a2_3_1_ cycloneii_lcell_comb 
+Inst: int_1_i_0_i_0_o3   int_1_i_0_i_0_o3_1 cycloneii_lcell_comb 
+Inst: wigend_59_iv_i_i_0_o2_7[1]   wigend_59_iv_i_i_0_o2_7_1_ cycloneii_lcell_comb 
+Inst: int_1_i_0_i_0_o3_3   int_1_i_0_i_0_o3_3_cZ cycloneii_lcell_comb 
+Inst: un1_en_i_0_o3   un1_en_i_0_o3_cZ cycloneii_lcell_comb 
+Inst: wigend_59_iv_i_i_0_o2_0[1]   wigend_59_iv_i_i_0_o2_0_1_ cycloneii_lcell_comb 
+Inst: int_1_i_0_i_0_a3   int_1_i_0_i_0_a3_0 cycloneii_lcell_comb 
+Inst: wigend_59_iv_i_i_0_a2_12[1]   wigend_59_iv_i_i_0_a2_12_1_ cycloneii_lcell_comb 
+Inst: wigend_59_iv_i_i_0_a2_37[1]   wigend_59_iv_i_i_0_a2_37_1_ cycloneii_lcell_comb 
+Inst: wigend_59_iv_i_i_0_a2_11[1]   wigend_59_iv_i_i_0_a2_11_1_ cycloneii_lcell_comb 
+Inst: wigend_59_iv_0_a2_8[0]   wigend_59_iv_0_a2_8_0_ cycloneii_lcell_comb 
+Inst: wigend_59_iv_0_o2_0[0]   wigend_59_iv_0_o2_0_0_ cycloneii_lcell_comb 
+Inst: wigend_59_iv_i_i_0_o3_34[1]   wigend_59_iv_i_i_0_o3_34_1_ cycloneii_lcell_comb 
+Inst: wigend_59_iv_i_i_0_a2_29[1]   wigend_59_iv_i_i_0_a2_29_1_ cycloneii_lcell_comb 
+Inst: wigend_59_iv_i_i_0_a3_26_1[1]   wigend_59_iv_i_i_0_a3_26_1_1_ cycloneii_lcell_comb 
+Inst: wigend_59_iv_i_i_0_a3_23_2[1]   wigend_59_iv_i_i_0_a3_23_2_1_ cycloneii_lcell_comb 
+Inst: wigend_59_iv_i_i_0_a3_25_0[1]   wigend_59_iv_i_i_0_a3_25_0_1_ cycloneii_lcell_comb 
+Inst: un1_en_i_0_a7_3   un1_en_i_0_a7_3_cZ cycloneii_lcell_comb 
+Inst: wigend_59_iv_i_i_0_a2_28_0[1]   wigend_59_iv_i_i_0_a2_28_0_1_ cycloneii_lcell_comb 
+Inst: int_1_i_0_i_0_o3_0   int_1_i_0_i_0_o3_0_cZ cycloneii_lcell_comb 
+Inst: wigend_59_iv_i_i_0_a2_42_a[1]   wigend_59_iv_i_i_0_a2_42_a_1_ cycloneii_lcell_comb 
+Inst: wigend_59_iv_i_i_0_a2_42[1]   wigend_59_iv_i_i_0_a2_42_1_ cycloneii_lcell_comb 
+Inst: wigend_59_iv_i_i_0_o2_15_a[1]   wigend_59_iv_i_i_0_o2_15_a_1_ cycloneii_lcell_comb 
+Inst: wigend_59_iv_i_i_0_o2_15[1]   wigend_59_iv_i_i_0_o2_15_1_ cycloneii_lcell_comb 
+Inst: wigend_59_iv_i_i_0_o3_41_a[1]   wigend_59_iv_i_i_0_o3_41_a_1_ cycloneii_lcell_comb 
+Inst: wigend_59_iv_i_i_0_o3_41[1]   wigend_59_iv_i_i_0_o3_41_1_ cycloneii_lcell_comb 
+Inst: wigend_59_iv_i_i_0_o3_39[1]   wigend_59_iv_i_i_0_o3_39_1_ cycloneii_lcell_comb 
+Inst: wigend_59_iv_i_i_0_o3_37[1]   wigend_59_iv_i_i_0_o3_37_1_ cycloneii_lcell_comb 
+Inst: wigend_59_iv_i_i_0_a2_36[1]   wigend_59_iv_i_i_0_a2_36_1_ cycloneii_lcell_comb 
+Inst: wigend_59_iv_i_i_0_a2_10[1]   wigend_59_iv_i_i_0_a2_10_1_ cycloneii_lcell_comb 
+Inst: wigend_59_iv_i_i_0_a3_22_a[1]   wigend_59_iv_i_i_0_a3_22_a_1_ cycloneii_lcell_comb 
+Inst: wigend_59_iv_i_i_0_a3_22[1]   wigend_59_iv_i_i_0_a3_22_1_ cycloneii_lcell_comb 
+Inst: wigend_59_iv_0_a2_5_a[0]   wigend_59_iv_0_a2_5_a_0_ cycloneii_lcell_comb 
+Inst: wigend_59_iv_0_a2_5[0]   wigend_59_iv_0_a2_5_0_ cycloneii_lcell_comb 
+Inst: wigend_59_iv_i_i_0_a3_28_a[1]   wigend_59_iv_i_i_0_a3_28_a_1_ cycloneii_lcell_comb 
+Inst: wigend_59_iv_i_i_0_a3_28[1]   wigend_59_iv_i_i_0_a3_28_1_ cycloneii_lcell_comb 
+Inst: wigend_59_iv_i_i_0_a3_37_a[1]   wigend_59_iv_i_i_0_a3_37_a_1_ cycloneii_lcell_comb 
+Inst: wigend_59_iv_i_i_0_a3_37[1]   wigend_59_iv_i_i_0_a3_37_1_ cycloneii_lcell_comb 
+Inst: wigend_59_iv_i_i_0_a2_23_1_a[1]   wigend_59_iv_i_i_0_a2_23_1_a_1_ cycloneii_lcell_comb 
+Inst: wigend_59_iv_i_i_0_a2_23_1[1]   wigend_59_iv_i_i_0_a2_23_1_1_ cycloneii_lcell_comb 
+Inst: wigend_59_iv_i_i_0_a2_27_0[1]   wigend_59_iv_i_i_0_a2_27_0_1_ cycloneii_lcell_comb 
+Inst: int_1_i_0_i_0_a7_3_2_a   int_1_i_0_i_0_a7_3_2_a_cZ cycloneii_lcell_comb 
+Inst: int_1_i_0_i_0_a7_3_2   int_1_i_0_i_0_a7_3_2_0 cycloneii_lcell_comb 
+Inst: wigend_59_iv_i_i_0_o3_3_1_277_1   wigend_59_iv_i_i_0_o3_3_1_277_1_cZ cycloneii_lcell_comb 
+Inst: wigend_59_iv_i_i_0_o3_45_a[1]   wigend_59_iv_i_i_0_o3_45_a_1_ cycloneii_lcell_comb 
+Inst: wigend_59_iv_i_i_0_o3_45[1]   wigend_59_iv_i_i_0_o3_45_1_ cycloneii_lcell_comb 
+Inst: wigend_59_iv_i_i_0_o2_11_a[1]   wigend_59_iv_i_i_0_o2_11_a_1_ cycloneii_lcell_comb 
+Inst: wigend_59_iv_i_i_0_o2_11[1]   wigend_59_iv_i_i_0_o2_11_1_ cycloneii_lcell_comb 
+Inst: wigend_59_iv_i_i_0_o3_42_a[1]   wigend_59_iv_i_i_0_o3_42_a_1_ cycloneii_lcell_comb 
+Inst: wigend_59_iv_i_i_0_o3_42[1]   wigend_59_iv_i_i_0_o3_42_1_ cycloneii_lcell_comb 
+Inst: wigend_59_iv_i_i_0_o3_56_a[1]   wigend_59_iv_i_i_0_o3_56_a_1_ cycloneii_lcell_comb 
+Inst: wigend_59_iv_i_i_0_o3_56[1]   wigend_59_iv_i_i_0_o3_56_1_ cycloneii_lcell_comb 
+Inst: wigend_59_iv_i_i_0_a3_49_a[1]   wigend_59_iv_i_i_0_a3_49_a_1_ cycloneii_lcell_comb 
+Inst: wigend_59_iv_i_i_0_a3_49[1]   wigend_59_iv_i_i_0_a3_49_1_ cycloneii_lcell_comb 
+Inst: wigend_59_iv_0_a3_21_1_a[0]   wigend_59_iv_0_a3_21_1_a_0_ cycloneii_lcell_comb 
+Inst: wigend_59_iv_0_a3_21_1[0]   wigend_59_iv_0_a3_21_1_0_ cycloneii_lcell_comb 
+Inst: wigend_59_iv_i_i_0_o3_53_a[1]   wigend_59_iv_i_i_0_o3_53_a_1_ cycloneii_lcell_comb 
+Inst: wigend_59_iv_i_i_0_o3_53[1]   wigend_59_iv_i_i_0_o3_53_1_ cycloneii_lcell_comb 
+Inst: wigend_59_iv_i_i_0_o3_50[1]   wigend_59_iv_i_i_0_o3_50_1_ cycloneii_lcell_comb 
+Inst: wigend_59_iv_i_i_0_o3_44_a[1]   wigend_59_iv_i_i_0_o3_44_a_1_ cycloneii_lcell_comb 
+Inst: wigend_59_iv_i_i_0_o3_44[1]   wigend_59_iv_i_i_0_o3_44_1_ cycloneii_lcell_comb 
+Inst: wigend_59_iv_i_i_0_o2_12_a[1]   wigend_59_iv_i_i_0_o2_12_a_1_ cycloneii_lcell_comb 
+Inst: wigend_59_iv_i_i_0_o2_12[1]   wigend_59_iv_i_i_0_o2_12_1_ cycloneii_lcell_comb 
+Inst: wigend_59_iv_i_i_0_o3_40_a[1]   wigend_59_iv_i_i_0_o3_40_a_1_ cycloneii_lcell_comb 
+Inst: wigend_59_iv_i_i_0_o3_40[1]   wigend_59_iv_i_i_0_o3_40_1_ cycloneii_lcell_comb 
+Inst: wigend_59_iv_i_i_0_o3_32_a[1]   wigend_59_iv_i_i_0_o3_32_a_1_ cycloneii_lcell_comb 
+Inst: wigend_59_iv_i_i_0_o3_32[1]   wigend_59_iv_i_i_0_o3_32_1_ cycloneii_lcell_comb 
+Inst: wigend_59_iv_0_a2_0[0]   wigend_59_iv_0_a2_0_0_ cycloneii_lcell_comb 
+Inst: wigend_59_iv_i_i_0_a3_52_a[1]   wigend_59_iv_i_i_0_a3_52_a_1_ cycloneii_lcell_comb 
+Inst: wigend_59_iv_i_i_0_a3_52[1]   wigend_59_iv_i_i_0_a3_52_1_ cycloneii_lcell_comb 
+Inst: wigend_59_iv_i_i_0_a2_27_a[1]   wigend_59_iv_i_i_0_a2_27_a_1_ cycloneii_lcell_comb 
+Inst: wigend_59_iv_i_i_0_a2_27[1]   wigend_59_iv_i_i_0_a2_27_1_ cycloneii_lcell_comb 
+Inst: wigend_59_iv_i_i_0_o2_13_a[1]   wigend_59_iv_i_i_0_o2_13_a_1_ cycloneii_lcell_comb 
+Inst: wigend_59_iv_i_i_0_o2_13[1]   wigend_59_iv_i_i_0_o2_13_1_ cycloneii_lcell_comb 
+Inst: wigend_59_iv_i_i_0_a3_65_a[1]   wigend_59_iv_i_i_0_a3_65_a_1_ cycloneii_lcell_comb 
+Inst: wigend_59_iv_i_i_0_a3_65[1]   wigend_59_iv_i_i_0_a3_65_1_ cycloneii_lcell_comb 
+Inst: wigend_59_iv_i_i_0_a3_27_a[1]   wigend_59_iv_i_i_0_a3_27_a_1_ cycloneii_lcell_comb 
+Inst: wigend_59_iv_i_i_0_a3_27[1]   wigend_59_iv_i_i_0_a3_27_1_ cycloneii_lcell_comb 
+Inst: wigend_59_iv_i_i_0_a3_33[1]   wigend_59_iv_i_i_0_a3_33_1_ cycloneii_lcell_comb 
+Inst: wigend_59_iv_i_i_0_a3_35_a[1]   wigend_59_iv_i_i_0_a3_35_a_1_ cycloneii_lcell_comb 
+Inst: wigend_59_iv_i_i_0_a3_35[1]   wigend_59_iv_i_i_0_a3_35_1_ cycloneii_lcell_comb 
+Inst: wigend_59_iv_i_i_0_a3_39[1]   wigend_59_iv_i_i_0_a3_39_1_ cycloneii_lcell_comb 
+Inst: wigend_59_iv_i_i_0_a3_44_a[1]   wigend_59_iv_i_i_0_a3_44_a_1_ cycloneii_lcell_comb 
+Inst: wigend_59_iv_i_i_0_a3_44[1]   wigend_59_iv_i_i_0_a3_44_1_ cycloneii_lcell_comb 
+Inst: un1_en_i_0_a7_6_a   un1_en_i_0_a7_6_a_cZ cycloneii_lcell_comb 
+Inst: un1_en_i_0_a7_6   un1_en_i_0_a7_6_cZ cycloneii_lcell_comb 
+Inst: wigend_59_iv_i_i_0_a3_29_0_a[1]   wigend_59_iv_i_i_0_a3_29_0_a_1_ cycloneii_lcell_comb 
+Inst: wigend_59_iv_i_i_0_a3_29_0[1]   wigend_59_iv_i_i_0_a3_29_0_1_ cycloneii_lcell_comb 
+Inst: wigend_59_iv_i_i_0_o3_3_1_277_2_a   wigend_59_iv_i_i_0_o3_3_1_277_2_a_cZ cycloneii_lcell_comb 
+Inst: wigend_59_iv_i_i_0_o3_3_1_277_2   wigend_59_iv_i_i_0_o3_3_1_277_2_cZ cycloneii_lcell_comb 
+Inst: int_1_i_0_i_0_o3_2_a   int_1_i_0_i_0_o3_2_a_cZ cycloneii_lcell_comb 
+Inst: int_1_i_0_i_0_o3_2   int_1_i_0_i_0_o3_2_cZ cycloneii_lcell_comb 
+Inst: wigend_59_iv_i_i_0_o3_20[1]   wigend_59_iv_i_i_0_o3_20_1_ cycloneii_lcell_comb 
+Inst: wigend_59_iv_i_i_0_o3_10_a[1]   wigend_59_iv_i_i_0_o3_10_a_1_ cycloneii_lcell_comb 
+Inst: wigend_59_iv_i_i_0_o3_10[1]   wigend_59_iv_i_i_0_o3_10_1_ cycloneii_lcell_comb 
+Inst: wigend_59_iv_i_i_0_o3_55_a[1]   wigend_59_iv_i_i_0_o3_55_a_1_ cycloneii_lcell_comb 
+Inst: wigend_59_iv_i_i_0_o3_55[1]   wigend_59_iv_i_i_0_o3_55_1_ cycloneii_lcell_comb 
+Inst: wigend_59_iv_i_i_0_a3_55[1]   wigend_59_iv_i_i_0_a3_55_1_ cycloneii_lcell_comb 
+Inst: wigend_59_iv_i_i_0_a3_36_a[1]   wigend_59_iv_i_i_0_a3_36_a_1_ cycloneii_lcell_comb 
+Inst: wigend_59_iv_i_i_0_a3_36[1]   wigend_59_iv_i_i_0_a3_36_1_ cycloneii_lcell_comb 
+Inst: wigend_59_iv_i_i_0_a3_34_a[1]   wigend_59_iv_i_i_0_a3_34_a_1_ cycloneii_lcell_comb 
+Inst: wigend_59_iv_i_i_0_a3_34[1]   wigend_59_iv_i_i_0_a3_34_1_ cycloneii_lcell_comb 
+Inst: wigend_59_iv_i_i_0_a3_24_a[1]   wigend_59_iv_i_i_0_a3_24_a_1_ cycloneii_lcell_comb 
+Inst: wigend_59_iv_i_i_0_a3_24[1]   wigend_59_iv_i_i_0_a3_24_1_ cycloneii_lcell_comb 
+Inst: wigend_59_iv_0_a3_25_1_a[0]   wigend_59_iv_0_a3_25_1_a_0_ cycloneii_lcell_comb 
+Inst: wigend_59_iv_0_a3_25_1[0]   wigend_59_iv_0_a3_25_1_0_ cycloneii_lcell_comb 
+Inst: wigend_59_iv_0_a2_6[0]   wigend_59_iv_0_a2_6_0_ cycloneii_lcell_comb 
+Inst: wigend_59_iv_i_i_0_a3_23_a[1]   wigend_59_iv_i_i_0_a3_23_a_1_ cycloneii_lcell_comb 
+Inst: wigend_59_iv_i_i_0_a3_23[1]   wigend_59_iv_i_i_0_a3_23_1_ cycloneii_lcell_comb 
+Inst: wigend_59_iv_i_i_0_o3_25_0[1]   wigend_59_iv_i_i_0_o3_25_0_1_ cycloneii_lcell_comb 
+Inst: wigend_59_iv_0_o3_3_1_0_1_a[0]   wigend_59_iv_0_o3_3_1_0_1_a_0_ cycloneii_lcell_comb 
+Inst: wigend_59_iv_0_o3_3_1_0_1[0]   wigend_59_iv_0_o3_3_1_0_1_0_ cycloneii_lcell_comb 
+Inst: wigend_59_iv_i_i_0_o3_54_a[1]   wigend_59_iv_i_i_0_o3_54_a_1_ cycloneii_lcell_comb 
+Inst: wigend_59_iv_i_i_0_o3_54[1]   wigend_59_iv_i_i_0_o3_54_1_ cycloneii_lcell_comb 
+Inst: wigend_59_iv_i_i_0_o3_17_a[1]   wigend_59_iv_i_i_0_o3_17_a_1_ cycloneii_lcell_comb 
+Inst: wigend_59_iv_i_i_0_o3_17[1]   wigend_59_iv_i_i_0_o3_17_1_ cycloneii_lcell_comb 
+Inst: wigend_59_iv_i_i_0_o3_57[1]   wigend_59_iv_i_i_0_o3_57_1_ cycloneii_lcell_comb 
+Inst: wigend_59_iv_i_i_0_o3_60[1]   wigend_59_iv_i_i_0_o3_60_1_ cycloneii_lcell_comb 
+Inst: wigend_59_iv_i_i_0_o3_23[1]   wigend_59_iv_i_i_0_o3_23_1_ cycloneii_lcell_comb 
+Inst: wigend_59_iv_0_o3_8_a[0]   wigend_59_iv_0_o3_8_a_0_ cycloneii_lcell_comb 
+Inst: wigend_59_iv_0_o3_8[0]   wigend_59_iv_0_o3_8_0_ cycloneii_lcell_comb 
+Inst: wigend_59_iv_i_i_0_o3_22[1]   wigend_59_iv_i_i_0_o3_22_1_ cycloneii_lcell_comb 
+Inst: wigend_59_iv_i_i_0_o3_59[1]   wigend_59_iv_i_i_0_o3_59_1_ cycloneii_lcell_comb 
+Inst: wigend_59_iv_i_i_0_o3_13[1]   wigend_59_iv_i_i_0_o3_13_1_ cycloneii_lcell_comb 
+Inst: wigend_59_iv_i_i_0_o3_9_a[1]   wigend_59_iv_i_i_0_o3_9_a_1_ cycloneii_lcell_comb 
+Inst: wigend_59_iv_i_i_0_o3_9[1]   wigend_59_iv_i_i_0_o3_9_1_ cycloneii_lcell_comb 
+Inst: wigend_59_iv_i_i_0_o3_7_a[1]   wigend_59_iv_i_i_0_o3_7_a_1_ cycloneii_lcell_comb 
+Inst: wigend_59_iv_i_i_0_o3_7[1]   wigend_59_iv_i_i_0_o3_7_1_ cycloneii_lcell_comb 
+Inst: wigend_59_iv_i_i_0_o3_6[1]   wigend_59_iv_i_i_0_o3_6_1_ cycloneii_lcell_comb 
+Inst: int_1_i_0_i_0_a3_1   int_1_i_0_i_0_a3_1_0 cycloneii_lcell_comb 
+Inst: wigend_59_iv_i_i_0_o3_25[1]   wigend_59_iv_i_i_0_o3_25_1_ cycloneii_lcell_comb 
+Inst: un1_en_i_0_a7_a   un1_en_i_0_a7_a_cZ cycloneii_lcell_comb 
+Inst: un1_en_i_0_a7   un1_en_i_0_a7_cZ cycloneii_lcell_comb 
+Inst: wigend_59_iv_0_o3_7_0[0]   wigend_59_iv_0_o3_7_0_0_ cycloneii_lcell_comb 
+Inst: wigend_59_iv_i_i_0_o3_3_1_277_6_a   wigend_59_iv_i_i_0_o3_3_1_277_6_a_cZ cycloneii_lcell_comb 
+Inst: wigend_59_iv_i_i_0_o3_3_1_277_6   wigend_59_iv_i_i_0_o3_3_1_277_6_cZ cycloneii_lcell_comb 
+Inst: wigend_59_iv_i_i_0_a3_63[1]   wigend_59_iv_i_i_0_a3_63_1_ cycloneii_lcell_comb 
+Inst: wigend_59_iv_0_a3_12[0]   wigend_59_iv_0_a3_12_0_ cycloneii_lcell_comb 
+Inst: wigend_59_iv_i_i_0_a3_10[1]   wigend_59_iv_i_i_0_a3_10_1_ cycloneii_lcell_comb 
+Inst: wigend_59_iv_0_a2_3_a[0]   wigend_59_iv_0_a2_3_a_0_ cycloneii_lcell_comb 
+Inst: wigend_59_iv_0_a2_3[0]   wigend_59_iv_0_a2_3_0_ cycloneii_lcell_comb 
+Inst: wigend_59_iv_0_a3_3_1_a[0]   wigend_59_iv_0_a3_3_1_a_0_ cycloneii_lcell_comb 
+Inst: wigend_59_iv_0_a3_3_1[0]   wigend_59_iv_0_a3_3_1_0_ cycloneii_lcell_comb 
+Inst: wigend_59_iv_i_i_0_a3_50_a[1]   wigend_59_iv_i_i_0_a3_50_a_1_ cycloneii_lcell_comb 
+Inst: wigend_59_iv_i_i_0_a3_50[1]   wigend_59_iv_i_i_0_a3_50_1_ cycloneii_lcell_comb 
+Inst: wigend_59_iv_0_a3_8_1[0]   wigend_59_iv_0_a3_8_1_0_ cycloneii_lcell_comb 
+Inst: wigend_59_iv_i_i_0_o3_24[1]   wigend_59_iv_i_i_0_o3_24_1_ cycloneii_lcell_comb 
+Inst: wigend_59_iv_0_a3_4[0]   wigend_59_iv_0_a3_4_0_ cycloneii_lcell_comb 
+Inst: wigend_59_iv_0_a3_7[0]   wigend_59_iv_0_a3_7_0_ cycloneii_lcell_comb 
+Inst: wigend_59_iv_i_i_0_a3_2[1]   wigend_59_iv_i_i_0_a3_2_1_ cycloneii_lcell_comb 
+Inst: wigend_59_iv_0_o3_9[0]   wigend_59_iv_0_o3_9_0_ cycloneii_lcell_comb 
+Inst: wigend_59_iv_i_i_0_a3_5[1]   wigend_59_iv_i_i_0_a3_5_1_ cycloneii_lcell_comb 
+Inst: wigend_59_iv_0_o3_3_1_0_4[0]   wigend_59_iv_0_o3_3_1_0_4_0_ cycloneii_lcell_comb 
+Inst: wigend_59_iv_0_o3_1_0[0]   wigend_59_iv_0_o3_1_0_0_ cycloneii_lcell_comb 
+Inst: wigend_59_iv_i_i_0_o3_1_0[1]   wigend_59_iv_i_i_0_o3_1_0_1_ cycloneii_lcell_comb 
+Inst: wigend_59_iv_0_o3_0_2[0]   wigend_59_iv_0_o3_0_2_0_ cycloneii_lcell_comb 
+Inst: wigend_59_iv_i_i_0_o3_0_2[1]   wigend_59_iv_i_i_0_o3_0_2_1_ cycloneii_lcell_comb 
+Inst: wigend_59_iv_i_i_0_a2_1[1]   wigend_59_iv_i_i_0_a2_1_1_ cycloneii_lcell_comb 
+Inst: wigend_59_iv_0_a3_10_1[0]   wigend_59_iv_0_a3_10_1_0_ cycloneii_lcell_comb 
+Inst: wigend_59_iv_0_o3_3_1_0[0]   wigend_59_iv_0_o3_3_1_0_0_ cycloneii_lcell_comb 
+Inst: wigend_59_iv_0_o3_0_0[0]   wigend_59_iv_0_o3_0_0_0_ cycloneii_lcell_comb 
+Inst: wigend_59_iv_i_i_0_o3_0_0[1]   wigend_59_iv_i_i_0_o3_0_0_1_ cycloneii_lcell_comb 
+Inst: wigend_59_iv_0_o3_2_0[0]   wigend_59_iv_0_o3_2_0_0_ cycloneii_lcell_comb 
+Inst: wigend_59_iv_i_i_0_o3_2_0[1]   wigend_59_iv_i_i_0_o3_2_0_1_ cycloneii_lcell_comb 
+Inst: wigend_59_iv_i_i_0_o3_4[1]   wigend_59_iv_i_i_0_o3_4_1_ cycloneii_lcell_comb 
+Inst: wigend_59_iv_0_o3_4[0]   wigend_59_iv_0_o3_4_0_ cycloneii_lcell_comb 
+Inst: wigend_59_iv_0_o3_5_0_a[0]   wigend_59_iv_0_o3_5_0_a_0_ cycloneii_lcell_comb 
+Inst: wigend_59_iv_0_o3_5_0[0]   wigend_59_iv_0_o3_5_0_0_ cycloneii_lcell_comb 
+Inst: wigend_59_iv_i_i_0_o3_0[1]   wigend_59_iv_i_i_0_o3_0_1_ cycloneii_lcell_comb 
+Inst: wigend_59_iv_i_i_0_o3_3[1]   wigend_59_iv_i_i_0_o3_3_1_ cycloneii_lcell_comb 
+Inst: wigend_59_iv_0_o3_0[0]   wigend_59_iv_0_o3_0_0_ cycloneii_lcell_comb 
+Inst: wigend_59_iv_0_o3_3[0]   wigend_59_iv_0_o3_3_0_ cycloneii_lcell_comb 
+Inst: wigend_59_iv_i_i_0_o3_1[1]   wigend_59_iv_i_i_0_o3_1_1_ cycloneii_lcell_comb 
+Inst: wigend_59_iv_0_o3_1[0]   wigend_59_iv_0_o3_1_0_ cycloneii_lcell_comb 
+Inst: wigend_59_iv_i_i_0_o3_28_1[1]   wigend_59_iv_i_i_0_o3_28_1_1_ cycloneii_lcell_comb 
+Inst: wigend_59_iv_0_o3_5[0]   wigend_59_iv_0_o3_5_0_ cycloneii_lcell_comb 
+Inst: wigend_59_iv_0_a7_0_a[0]   wigend_59_iv_0_a7_0_a_0_ cycloneii_lcell_comb 
+Inst: wigend_59_iv_0_a7_0[0]   wigend_59_iv_0_a7_0_0_ cycloneii_lcell_comb 
+Inst: wigend_59_iv_i_i_0_a7_0_a[1]   wigend_59_iv_i_i_0_a7_0_a_1_ cycloneii_lcell_comb 
+Inst: wigend_59_iv_i_i_0_a7_0[1]   wigend_59_iv_i_i_0_a7_0_1_ cycloneii_lcell_comb 
+Inst: wigend_59_iv_0_o3_2[0]   wigend_59_iv_0_o3_2_0_ cycloneii_lcell_comb 
+Inst: wigend_59_iv_i_i_0_o3_2[1]   wigend_59_iv_i_i_0_o3_2_1_ cycloneii_lcell_comb 
+Inst: wigend_59_iv_0_0_a[0]   wigend_59_iv_0_0_a_0_ cycloneii_lcell_comb 
+Inst: wigend_59_iv_0_0[0]   wigend_59_iv_0_0_0_ cycloneii_lcell_comb 
+Inst: wigend_59_iv_i_i_0_0_a[1]   wigend_59_iv_i_i_0_0_a_1_ cycloneii_lcell_comb 
+Inst: wigend_59_iv_i_i_0_0[1]   wigend_59_iv_i_i_0_0_1_ cycloneii_lcell_comb 
+Inst: wigend_59_iv_0_m2_1[0]   wigend_59_iv_0_m2_1_0_ cycloneii_lcell_comb 
+Inst: wigend_59_iv_i_i_0_m2_1[1]   wigend_59_iv_i_i_0_m2_1_1_ cycloneii_lcell_comb 
+Inst: wigend_59_iv_0[0]   wigend_59_iv_0_0_ cycloneii_lcell_comb 
+Inst: wigend_59_iv_i_i_0[1]   wigend_59_iv_i_i_0_1_ cycloneii_lcell_comb 
+Inst: wigend_59_iv_i_i_0_m3_c[1]   wigend_59_iv_i_i_0_m3_c_1_ cycloneii_lcell_comb 
+Inst: wigend_59_iv_i_i_0_m3[1]   wigend_59_iv_i_i_0_m3_1_ cycloneii_lcell_comb 
+Inst: wigend_59_iv_i_i_0_o3_28_x[1]   wigend_59_iv_i_i_0_o3_28_x_1_ cycloneii_lcell_comb 
+Inst: wigend_59_iv_i_i_0_o3_1_2_x[1]   wigend_59_iv_i_i_0_o3_1_2_x_1_ cycloneii_lcell_comb 
+Inst: wigend_59_iv_0_o3_1_2_x[0]   wigend_59_iv_0_o3_1_2_x_0_ cycloneii_lcell_comb 
+Inst: wigend_59_iv_i_i_0_o3_4_1_x[1]   wigend_59_iv_i_i_0_o3_4_1_x_1_ cycloneii_lcell_comb 
+Inst: wigend_59_iv_0_o3_4_1_x[0]   wigend_59_iv_0_o3_4_1_x_0_ cycloneii_lcell_comb 
+Inst: wigend_59_iv_0_a3_22_x[0]   wigend_59_iv_0_a3_22_x_0_ cycloneii_lcell_comb 
+Inst: wigend_59_iv_i_i_0_a2_x[1]   wigend_59_iv_i_i_0_a2_x_1_ cycloneii_lcell_comb 
+Inst: wigend_59_iv_i_i_0_a2_1_a_x[1]   wigend_59_iv_i_i_0_a2_1_a_x_1_ cycloneii_lcell_comb 
+Inst: wigend_59_iv_i_i_0_o3_4_0_x[1]   wigend_59_iv_i_i_0_o3_4_0_x_1_ cycloneii_lcell_comb 
+Inst: wigend_59_iv_0_o3_4_0_x[0]   wigend_59_iv_0_o3_4_0_x_0_ cycloneii_lcell_comb 
+Inst: wigend_59_iv_0_a3_15_x[0]   wigend_59_iv_0_a3_15_x_0_ cycloneii_lcell_comb 
+Inst: wigend_59_iv_0_a3_14_x[0]   wigend_59_iv_0_a3_14_x_0_ cycloneii_lcell_comb 
+Inst: wigend_59_iv_i_i_0_a3_13_x[1]   wigend_59_iv_i_i_0_a3_13_x_1_ cycloneii_lcell_comb 
+Inst: wigend_59_iv_i_i_0_a3_12_x[1]   wigend_59_iv_i_i_0_a3_12_x_1_ cycloneii_lcell_comb 
+Inst: wigend_59_iv_0_a3_21_x[0]   wigend_59_iv_0_a3_21_x_0_ cycloneii_lcell_comb 
+Inst: wigend_59_iv_i_i_0_a3_19_x[1]   wigend_59_iv_i_i_0_a3_19_x_1_ cycloneii_lcell_comb 
+EndView Wigend_Out NoName
+
+BeginView adc NoName
+Inst: ADO_reg[7]   ADO_reg_7__Z cycloneii_lcell_ff 
+Inst: ADO_reg[6]   ADO_reg_6__Z cycloneii_lcell_ff 
+Inst: ADO_reg[5]   ADO_reg_5__Z cycloneii_lcell_ff 
+Inst: ADO_reg[4]   ADO_reg_4__Z cycloneii_lcell_ff 
+Inst: ADO_reg[3]   ADO_reg_3__Z cycloneii_lcell_ff 
+Inst: ADO_reg[2]   ADO_reg_2__Z cycloneii_lcell_ff 
+Inst: ADO_reg[1]   ADO_reg_1__Z cycloneii_lcell_ff 
+Inst: ADO_reg[0]   ADO_reg_0__Z cycloneii_lcell_ff 
+Inst: ADcnt[4]   ADcnt_4__Z cycloneii_lcell_ff 
+Inst: ADcnt[3]   ADcnt_3__Z cycloneii_lcell_ff 
+Inst: ADcnt[2]   ADcnt_2__Z cycloneii_lcell_ff 
+Inst: ADcnt[1]   ADcnt_1__Z cycloneii_lcell_ff 
+Inst: ADcnt[0]   ADcnt_0__Z cycloneii_lcell_ff 
+Inst: ADdata[7]   ADdata_7__Z cycloneii_lcell_ff 
+Inst: ADdata[6]   ADdata_6__Z cycloneii_lcell_ff 
+Inst: ADdata[5]   ADdata_5__Z cycloneii_lcell_ff 
+Inst: ADdata[4]   ADdata_4__Z cycloneii_lcell_ff 
+Inst: ADdata[3]   ADdata_3__Z cycloneii_lcell_ff 
+Inst: ADdata[2]   ADdata_2__Z cycloneii_lcell_ff 
+Inst: ADdata[1]   ADdata_1__Z cycloneii_lcell_ff 
+Inst: ADdata[0]   ADdata_0__Z cycloneii_lcell_ff 
+Inst: ADcnt_6[0]   ADcnt_6_0_ cycloneii_lcell_comb 
+Inst: AD_CS_1_0_0   AD_CS_1_0_0_0 cycloneii_lcell_comb 
+Inst: un15_AD_CLK_0_a2_0_a2[0]   un15_AD_CLK_0_a2_0_a2_0_ cycloneii_lcell_comb 
+Inst: ADcnt_6[1]   ADcnt_6_1_ cycloneii_lcell_comb 
+Inst: un6_ADcnt_anc2   un6_ADcnt_anc2_cZ cycloneii_lcell_comb 
+Inst: un16_AD_CS_0_a2_0_a2   un16_AD_CS_0_a2_0_a2_cZ cycloneii_lcell_comb 
+Inst: ADcnt_6[2]   ADcnt_6_2_ cycloneii_lcell_comb 
+Inst: ADdata6_0_a2_0_a2_a   ADdata6_0_a2_0_a2_a_cZ cycloneii_lcell_comb 
+Inst: ADdata6_0_a2_0_a2   ADdata6_0_a2_0_a2_cZ cycloneii_lcell_comb 
+Inst: ADcnt_6[3]   ADcnt_6_3_ cycloneii_lcell_comb 
+Inst: ADcnt_6[4]   ADcnt_6_4_ cycloneii_lcell_comb 
+EndView adc NoName
+
+BeginView Keyboard NoName
+Inst: counter17_0_a2_1   counter17_0_a2_1_cZ cycloneii_lcell_comb 
+Inst: counter[0]   counter_0__Z cycloneii_lcell_ff 
+Inst: counter[1]   counter_1__Z cycloneii_lcell_ff 
+Inst: counter[2]   counter_2__Z cycloneii_lcell_ff 
+Inst: counter[3]   counter_3__Z cycloneii_lcell_ff 
+Inst: counter[4]   counter_4__Z cycloneii_lcell_ff 
+Inst: counter[5]   counter_5__Z cycloneii_lcell_ff 
+Inst: counter[6]   counter_6__Z cycloneii_lcell_ff 
+Inst: counter[7]   counter_7__Z cycloneii_lcell_ff 
+Inst: counter[8]   counter_8__Z cycloneii_lcell_ff 
+Inst: counter[9]   counter_9__Z cycloneii_lcell_ff 
+Inst: counter[10]   counter_10__Z cycloneii_lcell_ff 
+Inst: counter[11]   counter_11__Z cycloneii_lcell_ff 
+Inst: counter[12]   counter_12__Z cycloneii_lcell_ff 
+Inst: counter[13]   counter_13__Z cycloneii_lcell_ff 
+Inst: counter[14]   counter_14__Z cycloneii_lcell_ff 
+Inst: counter[15]   counter_15__Z cycloneii_lcell_ff 
+Inst: counter[16]   counter_16__Z cycloneii_lcell_ff 
+Inst: counter[17]   counter_17__Z cycloneii_lcell_ff 
+Inst: counter[18]   counter_18__Z cycloneii_lcell_ff 
+Inst: Keyboard_out_1[1]   Keyboard_out_1_1__Z cycloneii_lcell_ff 
+Inst: Keyboard_out_1[0]   Keyboard_out_1_0__Z cycloneii_lcell_ff 
+Inst: Keyboard_data[3]   Keyboard_data_3__Z cycloneii_lcell_ff 
+Inst: Keyboard_data[2]   Keyboard_data_2__Z cycloneii_lcell_ff 
+Inst: Keyboard_data[1]   Keyboard_data_1__Z cycloneii_lcell_ff 
+Inst: Keyboard_data[0]   Keyboard_data_0__Z cycloneii_lcell_ff 
+Inst: irq_1_0_a2_0   irq_1_0_a2_0_0 cycloneii_lcell_comb 
+Inst: counter17_0_a2_0   counter17_0_a2_0_cZ cycloneii_lcell_comb 
+Inst: Keyboard_out_1_ns_0_x2_0_x2[1]   Keyboard_out_1_ns_0_x2_0_x2_1_ cycloneii_lcell_comb 
+Inst: Keyboard_out_1_s2_0_a2_0_a2   Keyboard_out_1_s2_0_a2_0_a2_0 cycloneii_lcell_comb 
+Inst: Keyboard_out_1_s1_0_a2_0_a2   Keyboard_out_1_s1_0_a2_0_a2_0 cycloneii_lcell_comb 
+Inst: Keyboard_out_1_s0_0_a2_0_a2   Keyboard_out_1_s0_0_a2_0_a2_0 cycloneii_lcell_comb 
+Inst: Keyboard_out_1_s3_0_a2_0_a2   Keyboard_out_1_s3_0_a2_0_a2_0 cycloneii_lcell_comb 
+Inst: Keyboard_data_36_0[1]   Keyboard_data_36_0_1_ cycloneii_lcell_comb 
+Inst: un1_Keyboard_data101_1_i_a2_2_2   un1_Keyboard_data101_1_i_a2_2_2_cZ cycloneii_lcell_comb 
+Inst: Keyboard_data_36_0[0]   Keyboard_data_36_0_0_ cycloneii_lcell_comb 
+Inst: un1_Keyboard_data101_1_i_a2_5_0   un1_Keyboard_data101_1_i_a2_5_0_cZ cycloneii_lcell_comb 
+Inst: un1_Keyboard_data101_1_i_a2_2_0   un1_Keyboard_data101_1_i_a2_2_0_cZ cycloneii_lcell_comb 
+Inst: counter17_0_a2   counter17_0_a2_cZ cycloneii_lcell_comb 
+Inst: Keyboard_out_1se   Keyboard_out_1se_cZ cycloneii_lcell_comb 
+Inst: un1_Keyboard_data101_1_i_a2_2_a   un1_Keyboard_data101_1_i_a2_2_a_cZ cycloneii_lcell_comb 
+Inst: un1_Keyboard_data101_1_i_a2_2   un1_Keyboard_data101_1_i_a2_2_cZ cycloneii_lcell_comb 
+Inst: un1_Keyboard_data101_1_i_a2_1   un1_Keyboard_data101_1_i_a2_1_cZ cycloneii_lcell_comb 
+Inst: un1_Keyboard_data101_1_i_a2   un1_Keyboard_data101_1_i_a2_cZ cycloneii_lcell_comb 
+Inst: irq_1_0_a2_a   irq_1_0_a2_a_cZ cycloneii_lcell_comb 
+Inst: irq_1_0_a2   irq_1_0_a2_1 cycloneii_lcell_comb 
+Inst: Keyboard_out_1[3:0]   Keyboard_out_1_3_0_ ghost 
+EndView Keyboard NoName
+
+BeginView Button NoName
+Inst: counter_1k[0]   counter_1k_0__Z cycloneii_lcell_ff 
+Inst: counter_1k[1]   counter_1k_1__Z cycloneii_lcell_ff 
+Inst: counter_1k[2]   counter_1k_2__Z cycloneii_lcell_ff 
+Inst: counter_1k[3]   counter_1k_3__Z cycloneii_lcell_ff 
+Inst: counter_1k[4]   counter_1k_4__Z cycloneii_lcell_ff 
+Inst: counter_1k[5]   counter_1k_5__Z cycloneii_lcell_ff 
+Inst: counter_1k[6]   counter_1k_6__Z cycloneii_lcell_ff 
+Inst: counter_1k[7]   counter_1k_7__Z cycloneii_lcell_ff 
+Inst: counter_1k[8]   counter_1k_8__Z cycloneii_lcell_ff 
+Inst: counter[0]   counter_0__Z cycloneii_lcell_ff 
+Inst: counter[1]   counter_1__Z cycloneii_lcell_ff 
+Inst: counter[2]   counter_2__Z cycloneii_lcell_ff 
+Inst: counter[3]   counter_3__Z cycloneii_lcell_ff 
+Inst: counter[4]   counter_4__Z cycloneii_lcell_ff 
+Inst: counter[5]   counter_5__Z cycloneii_lcell_ff 
+Inst: counter[6]   counter_6__Z cycloneii_lcell_ff 
+Inst: counter[7]   counter_7__Z cycloneii_lcell_ff 
+Inst: counter[8]   counter_8__Z cycloneii_lcell_ff 
+Inst: counter[9]   counter_9__Z cycloneii_lcell_ff 
+Inst: counter_pressed[0]   counter_pressed_0__Z cycloneii_lcell_ff 
+Inst: counter_pressed[1]   counter_pressed_1__Z cycloneii_lcell_ff 
+Inst: counter_pressed[2]   counter_pressed_2__Z cycloneii_lcell_ff 
+Inst: counter_pressed[3]   counter_pressed_3__Z cycloneii_lcell_ff 
+Inst: counter_pressed[4]   counter_pressed_4__Z cycloneii_lcell_ff 
+Inst: counter_pressed[5]   counter_pressed_5__Z cycloneii_lcell_ff 
+Inst: counter_pressed[6]   counter_pressed_6__Z cycloneii_lcell_ff 
+Inst: counter_pressed[7]   counter_pressed_7__Z cycloneii_lcell_ff 
+Inst: counter_pressed[8]   counter_pressed_8__Z cycloneii_lcell_ff 
+Inst: counter_pressed[9]   counter_pressed_9__Z cycloneii_lcell_ff 
+Inst: counter_pressed[10]   counter_pressed_10__Z cycloneii_lcell_ff 
+Inst: clk_1k   clk_1k_Z cycloneii_lcell_ff 
+Inst: irq_1_0_a2_0   irq_1_0_a2_0_0 cycloneii_lcell_comb 
+Inst: irq_1_0_a2_6   irq_1_0_a2_6_cZ cycloneii_lcell_comb 
+Inst: clk_1k7_0_a2_5   clk_1k7_0_a2_5_cZ cycloneii_lcell_comb 
+Inst: irq_1_0_a2_a   irq_1_0_a2_a_cZ cycloneii_lcell_comb 
+Inst: irq_1_0_a2   irq_1_0_a2_1 cycloneii_lcell_comb 
+Inst: clk_1k_1_a   clk_1k_1_a_cZ cycloneii_lcell_comb 
+Inst: clk_1k_1   clk_1k_1_cZ cycloneii_lcell_comb 
+Inst: un4_pressed_0_a2_5_a   un4_pressed_0_a2_5_a_cZ cycloneii_lcell_comb 
+Inst: un4_pressed_0_a2_5   un4_pressed_0_a2_5_cZ cycloneii_lcell_comb 
+Inst: un4_pressed_0_a2   un4_pressed_0_a2_cZ cycloneii_lcell_comb 
+Net:  Button_FQ.clk_1k   Button_FQ_clk_1k 
+Net:  clk_1k_i   Button_FQ_clk_1k 
+EndView Button NoName
+
+BeginView Button_1 NoName
+Inst: counter_1k[0]   counter_1k_0__Z cycloneii_lcell_ff 
+Inst: counter_1k[1]   counter_1k_1__Z cycloneii_lcell_ff 
+Inst: counter_1k[2]   counter_1k_2__Z cycloneii_lcell_ff 
+Inst: counter_1k[3]   counter_1k_3__Z cycloneii_lcell_ff 
+Inst: counter_1k[4]   counter_1k_4__Z cycloneii_lcell_ff 
+Inst: counter_1k[5]   counter_1k_5__Z cycloneii_lcell_ff 
+Inst: counter_1k[6]   counter_1k_6__Z cycloneii_lcell_ff 
+Inst: counter_1k[7]   counter_1k_7__Z cycloneii_lcell_ff 
+Inst: counter_1k[8]   counter_1k_8__Z cycloneii_lcell_ff 
+Inst: counter[0]   counter_0__Z cycloneii_lcell_ff 
+Inst: counter[1]   counter_1__Z cycloneii_lcell_ff 
+Inst: counter[2]   counter_2__Z cycloneii_lcell_ff 
+Inst: counter[3]   counter_3__Z cycloneii_lcell_ff 
+Inst: counter[4]   counter_4__Z cycloneii_lcell_ff 
+Inst: counter[5]   counter_5__Z cycloneii_lcell_ff 
+Inst: counter[6]   counter_6__Z cycloneii_lcell_ff 
+Inst: counter[7]   counter_7__Z cycloneii_lcell_ff 
+Inst: counter[8]   counter_8__Z cycloneii_lcell_ff 
+Inst: counter[9]   counter_9__Z cycloneii_lcell_ff 
+Inst: counter_pressed[0]   counter_pressed_0__Z cycloneii_lcell_ff 
+Inst: counter_pressed[1]   counter_pressed_1__Z cycloneii_lcell_ff 
+Inst: counter_pressed[2]   counter_pressed_2__Z cycloneii_lcell_ff 
+Inst: counter_pressed[3]   counter_pressed_3__Z cycloneii_lcell_ff 
+Inst: counter_pressed[4]   counter_pressed_4__Z cycloneii_lcell_ff 
+Inst: counter_pressed[5]   counter_pressed_5__Z cycloneii_lcell_ff 
+Inst: counter_pressed[6]   counter_pressed_6__Z cycloneii_lcell_ff 
+Inst: counter_pressed[7]   counter_pressed_7__Z cycloneii_lcell_ff 
+Inst: counter_pressed[8]   counter_pressed_8__Z cycloneii_lcell_ff 
+Inst: counter_pressed[9]   counter_pressed_9__Z cycloneii_lcell_ff 
+Inst: counter_pressed[10]   counter_pressed_10__Z cycloneii_lcell_ff 
+Inst: clk_1k   clk_1k_Z cycloneii_lcell_ff 
+Inst: irq_1_0_a2_0   irq_1_0_a2_0_0 cycloneii_lcell_comb 
+Inst: clk_1k7_0_a2_5   clk_1k7_0_a2_5_cZ cycloneii_lcell_comb 
+Inst: irq_1_0_a2_6   irq_1_0_a2_6_cZ cycloneii_lcell_comb 
+Inst: irq_1_0_a2_a   irq_1_0_a2_a_cZ cycloneii_lcell_comb 
+Inst: irq_1_0_a2   irq_1_0_a2_1 cycloneii_lcell_comb 
+Inst: clk_1k_1_a   clk_1k_1_a_cZ cycloneii_lcell_comb 
+Inst: clk_1k_1   clk_1k_1_cZ cycloneii_lcell_comb 
+Inst: un4_pressed_0_a2_5_a   un4_pressed_0_a2_5_a_cZ cycloneii_lcell_comb 
+Inst: un4_pressed_0_a2_5   un4_pressed_0_a2_5_cZ cycloneii_lcell_comb 
+Inst: un4_pressed_0_a2   un4_pressed_0_a2_cZ cycloneii_lcell_comb 
+Net:  Button_FW.clk_1k   Button_FW_clk_1k 
+Net:  clk_1k_i   Button_FW_clk_1k 
+EndView Button_1 NoName

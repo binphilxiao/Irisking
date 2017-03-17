@@ -1,0 +1,42 @@
+----------------------------------------------------------------------
+Report for cell buffer.verilog
+                                          Cell usage:
+                               cell       count     area    count*area
+                               IB33        15       0.0        0.0
+                               DFFC         8       1.0        8.0
+                              MUX2H         8       1.0        8.0
+                            IOB33PH         8       0.0        0.0
+                            OTB33PH         4       0.0        0.0
+                             OB33PH         3       0.0        0.0
+                                OR3         2       1.0        2.0
+                                OR2         1       1.0        1.0
+                                INV         1       1.0        1.0
+                               NOR2         1       1.0        1.0
+                            BUFCTRL         1       4.0        4.0
+                             BUFDIR         1       1.0        1.0
+                                PWR         1       0.0        0.0
+                                GND         1       0.0        0.0
+                            
+                         TOTAL             55                 26.0
+----------------------------------------------------------------------
+Report for cell BUFDIR.netlist
+     Instance path:  b1
+                                          Cell usage:
+                               cell       count     area    count*area
+                              NAND2         1       1.0        1.0
+                                PWR         1       0.0        0.0
+                                GND         1       0.0        0.0
+                            
+                         TOTAL              3                  1.0
+----------------------------------------------------------------------
+Report for cell BUFCTRL.netlist
+     Instance path:  b0
+                                          Cell usage:
+                               cell       count     area    count*area
+                           NAND3FTT         2       1.0        2.0
+                            AND3FTT         1       1.0        1.0
+                              NAND2         1       1.0        1.0
+                                PWR         1       0.0        0.0
+                                GND         1       0.0        0.0
+                            
+                         TOTAL              6                  4.0

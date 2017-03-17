@@ -1,0 +1,39 @@
+(ExpressProject ""
+  (ProjectType "UNKNOWN")
+  (Folder "Design Resources"
+    (Folder "Library")
+    (File ".\8139dl-minipci.dsn"
+      (Type "Schematic Design"))
+    (BuildFileAddedOrDeleted "x")
+    (CompileFileAddedOrDeleted "x")
+    (NoModify))
+  (Folder "Outputs")
+  (Folder "Referenced Projects")
+  (Folder "Simulation Resources"
+    (Folder "In Design")
+    (Folder "Compiled")
+    (Folder "Timed"))
+  (GlobalState
+    (Physical 0)
+    (FileView
+      (Path "Design Resources")
+      (Path "Design Resources" ".\8139dl-minipci.dsn")
+      (Path "Design Resources" ".\8139dl-minipci.dsn" "8139DL-MiniPCI")
+      (Select "Design Resources" ".\8139dl-minipci.dsn" "8139DL-MiniPCI"
+         "PAGE4"))
+    (HierarchyView)
+    (Document
+      (Type "COrCapturePMDoc")
+      (Frame
+        (Placement "44 2 3 -1 -1 -4 -23 0 200 0 430"))
+      (Tab 0))
+    (Document
+      (Type "COrSchematicDoc")
+      (Frame
+        (Placement "44 0 1 -1 -1 -4 -23 44 846 44 501")
+        (Scroll "654 515")
+        (Zoom "100"))
+      (Path
+         "J:\MY DOCUMENTS\REALTEK\市場推廣\產品\RTL8139D(L)\011108\HW\8139DLMINIPCIDEMO\1.10\8139DL-MINIPCI.DSN")
+      (Schematic "8139DL-MiniPCI")
+      (Page "PAGE1"))))

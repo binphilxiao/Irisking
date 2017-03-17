@@ -1,0 +1,274 @@
+/*
+WARNING: Do NOT edit the input and output ports in this file in a text
+editor if you plan to continue editing the block that represents it in
+the Block Editor! File corruption is VERY likely to occur.
+*/
+/*
+Copyright (C) 1991-2005 Altera Corporation
+Your use of Altera Corporation's design tools, logic functions 
+and other software and tools, and its AMPP partner logic       
+functions, and any output files any of the foregoing           
+(including device programming or simulation files), and any    
+associated documentation or information are expressly subject  
+to the terms and conditions of the Altera Program License      
+Subscription Agreement, Altera MegaCore Function License       
+Agreement, or other applicable license agreement, including,   
+without limitation, that your use is for the sole purpose of   
+programming logic devices manufactured by Altera and sold by   
+Altera or its authorized distributors.  Please refer to the    
+applicable agreement for further details.
+*/
+(header "symbol" (version "1.1"))
+(symbol
+	(rect 16 16 208 560)
+	(text "Wigend_In" (rect 5 0 56 12)(font "Arial" ))
+	(text "inst" (rect 8 528 25 540)(font "Arial" ))
+	(port
+		(pt 0 32)
+		(input)
+		(text "WIL_IN_c_0" (rect 0 0 61 12)(font "Arial" ))
+		(text "WIL_IN_c_0" (rect 21 27 82 39)(font "Arial" ))
+		(line (pt 0 32)(pt 16 32)(line_width 1))
+	)
+	(port
+		(pt 0 48)
+		(input)
+		(text "WIL_IN_c_1" (rect 0 0 61 12)(font "Arial" ))
+		(text "WIL_IN_c_1" (rect 21 43 82 55)(font "Arial" ))
+		(line (pt 0 48)(pt 16 48)(line_width 1))
+	)
+	(port
+		(pt 0 64)
+		(input)
+		(text "CLK_c" (rect 0 0 33 12)(font "Arial" ))
+		(text "CLK_c" (rect 21 59 54 71)(font "Arial" ))
+		(line (pt 0 64)(pt 16 64)(line_width 1))
+	)
+	(port
+		(pt 0 80)
+		(input)
+		(text "nHRESET_c" (rect 0 0 61 12)(font "Arial" ))
+		(text "nHRESET_c" (rect 21 75 82 87)(font "Arial" ))
+		(line (pt 0 80)(pt 16 80)(line_width 1))
+	)
+	(port
+		(pt 192 32)
+		(output)
+		(text "data_25" (rect 0 0 38 12)(font "Arial" ))
+		(text "data_25" (rect 133 27 171 39)(font "Arial" ))
+		(line (pt 192 32)(pt 176 32)(line_width 1))
+	)
+	(port
+		(pt 192 48)
+		(output)
+		(text "data_24" (rect 0 0 38 12)(font "Arial" ))
+		(text "data_24" (rect 133 43 171 55)(font "Arial" ))
+		(line (pt 192 48)(pt 176 48)(line_width 1))
+	)
+	(port
+		(pt 192 64)
+		(output)
+		(text "data_23" (rect 0 0 38 12)(font "Arial" ))
+		(text "data_23" (rect 133 59 171 71)(font "Arial" ))
+		(line (pt 192 64)(pt 176 64)(line_width 1))
+	)
+	(port
+		(pt 192 80)
+		(output)
+		(text "data_22" (rect 0 0 38 12)(font "Arial" ))
+		(text "data_22" (rect 133 75 171 87)(font "Arial" ))
+		(line (pt 192 80)(pt 176 80)(line_width 1))
+	)
+	(port
+		(pt 192 96)
+		(output)
+		(text "data_21" (rect 0 0 38 12)(font "Arial" ))
+		(text "data_21" (rect 133 91 171 103)(font "Arial" ))
+		(line (pt 192 96)(pt 176 96)(line_width 1))
+	)
+	(port
+		(pt 192 112)
+		(output)
+		(text "data_20" (rect 0 0 38 12)(font "Arial" ))
+		(text "data_20" (rect 133 107 171 119)(font "Arial" ))
+		(line (pt 192 112)(pt 176 112)(line_width 1))
+	)
+	(port
+		(pt 192 128)
+		(output)
+		(text "data_19" (rect 0 0 38 12)(font "Arial" ))
+		(text "data_19" (rect 133 123 171 135)(font "Arial" ))
+		(line (pt 192 128)(pt 176 128)(line_width 1))
+	)
+	(port
+		(pt 192 144)
+		(output)
+		(text "data_18" (rect 0 0 38 12)(font "Arial" ))
+		(text "data_18" (rect 133 139 171 151)(font "Arial" ))
+		(line (pt 192 144)(pt 176 144)(line_width 1))
+	)
+	(port
+		(pt 192 160)
+		(output)
+		(text "data_17" (rect 0 0 38 12)(font "Arial" ))
+		(text "data_17" (rect 133 155 171 167)(font "Arial" ))
+		(line (pt 192 160)(pt 176 160)(line_width 1))
+	)
+	(port
+		(pt 192 176)
+		(output)
+		(text "data_16" (rect 0 0 38 12)(font "Arial" ))
+		(text "data_16" (rect 133 171 171 183)(font "Arial" ))
+		(line (pt 192 176)(pt 176 176)(line_width 1))
+	)
+	(port
+		(pt 192 192)
+		(output)
+		(text "data_15" (rect 0 0 38 12)(font "Arial" ))
+		(text "data_15" (rect 133 187 171 199)(font "Arial" ))
+		(line (pt 192 192)(pt 176 192)(line_width 1))
+	)
+	(port
+		(pt 192 208)
+		(output)
+		(text "data_14" (rect 0 0 38 12)(font "Arial" ))
+		(text "data_14" (rect 133 203 171 215)(font "Arial" ))
+		(line (pt 192 208)(pt 176 208)(line_width 1))
+	)
+	(port
+		(pt 192 224)
+		(output)
+		(text "data_13" (rect 0 0 38 12)(font "Arial" ))
+		(text "data_13" (rect 133 219 171 231)(font "Arial" ))
+		(line (pt 192 224)(pt 176 224)(line_width 1))
+	)
+	(port
+		(pt 192 240)
+		(output)
+		(text "data_12" (rect 0 0 38 12)(font "Arial" ))
+		(text "data_12" (rect 133 235 171 247)(font "Arial" ))
+		(line (pt 192 240)(pt 176 240)(line_width 1))
+	)
+	(port
+		(pt 192 256)
+		(output)
+		(text "data_11" (rect 0 0 38 12)(font "Arial" ))
+		(text "data_11" (rect 133 251 171 263)(font "Arial" ))
+		(line (pt 192 256)(pt 176 256)(line_width 1))
+	)
+	(port
+		(pt 192 272)
+		(output)
+		(text "data_10" (rect 0 0 38 12)(font "Arial" ))
+		(text "data_10" (rect 133 267 171 279)(font "Arial" ))
+		(line (pt 192 272)(pt 176 272)(line_width 1))
+	)
+	(port
+		(pt 192 288)
+		(output)
+		(text "data_9" (rect 0 0 33 12)(font "Arial" ))
+		(text "data_9" (rect 138 283 171 295)(font "Arial" ))
+		(line (pt 192 288)(pt 176 288)(line_width 1))
+	)
+	(port
+		(pt 192 304)
+		(output)
+		(text "data_8" (rect 0 0 33 12)(font "Arial" ))
+		(text "data_8" (rect 138 299 171 311)(font "Arial" ))
+		(line (pt 192 304)(pt 176 304)(line_width 1))
+	)
+	(port
+		(pt 192 320)
+		(output)
+		(text "data_7" (rect 0 0 33 12)(font "Arial" ))
+		(text "data_7" (rect 138 315 171 327)(font "Arial" ))
+		(line (pt 192 320)(pt 176 320)(line_width 1))
+	)
+	(port
+		(pt 192 336)
+		(output)
+		(text "data_6" (rect 0 0 33 12)(font "Arial" ))
+		(text "data_6" (rect 138 331 171 343)(font "Arial" ))
+		(line (pt 192 336)(pt 176 336)(line_width 1))
+	)
+	(port
+		(pt 192 352)
+		(output)
+		(text "data_5" (rect 0 0 33 12)(font "Arial" ))
+		(text "data_5" (rect 138 347 171 359)(font "Arial" ))
+		(line (pt 192 352)(pt 176 352)(line_width 1))
+	)
+	(port
+		(pt 192 368)
+		(output)
+		(text "data_4" (rect 0 0 33 12)(font "Arial" ))
+		(text "data_4" (rect 138 363 171 375)(font "Arial" ))
+		(line (pt 192 368)(pt 176 368)(line_width 1))
+	)
+	(port
+		(pt 192 384)
+		(output)
+		(text "data_3" (rect 0 0 33 12)(font "Arial" ))
+		(text "data_3" (rect 138 379 171 391)(font "Arial" ))
+		(line (pt 192 384)(pt 176 384)(line_width 1))
+	)
+	(port
+		(pt 192 400)
+		(output)
+		(text "data_2" (rect 0 0 33 12)(font "Arial" ))
+		(text "data_2" (rect 138 395 171 407)(font "Arial" ))
+		(line (pt 192 400)(pt 176 400)(line_width 1))
+	)
+	(port
+		(pt 192 416)
+		(output)
+		(text "data_1" (rect 0 0 33 12)(font "Arial" ))
+		(text "data_1" (rect 138 411 171 423)(font "Arial" ))
+		(line (pt 192 416)(pt 176 416)(line_width 1))
+	)
+	(port
+		(pt 192 432)
+		(output)
+		(text "data_0" (rect 0 0 33 12)(font "Arial" ))
+		(text "data_0" (rect 138 427 171 439)(font "Arial" ))
+		(line (pt 192 432)(pt 176 432)(line_width 1))
+	)
+	(port
+		(pt 192 448)
+		(output)
+		(text "wigend_bitcnt_4" (rect 0 0 77 12)(font "Arial" ))
+		(text "wigend_bitcnt_4" (rect 94 443 171 455)(font "Arial" ))
+		(line (pt 192 448)(pt 176 448)(line_width 1))
+	)
+	(port
+		(pt 192 464)
+		(output)
+		(text "wigend_bitcnt_3" (rect 0 0 77 12)(font "Arial" ))
+		(text "wigend_bitcnt_3" (rect 94 459 171 471)(font "Arial" ))
+		(line (pt 192 464)(pt 176 464)(line_width 1))
+	)
+	(port
+		(pt 192 480)
+		(output)
+		(text "wigend_bitcnt_2" (rect 0 0 77 12)(font "Arial" ))
+		(text "wigend_bitcnt_2" (rect 94 475 171 487)(font "Arial" ))
+		(line (pt 192 480)(pt 176 480)(line_width 1))
+	)
+	(port
+		(pt 192 496)
+		(output)
+		(text "wigend_bitcnt_1" (rect 0 0 77 12)(font "Arial" ))
+		(text "wigend_bitcnt_1" (rect 94 491 171 503)(font "Arial" ))
+		(line (pt 192 496)(pt 176 496)(line_width 1))
+	)
+	(port
+		(pt 192 512)
+		(output)
+		(text "wigend_bitcnt_0" (rect 0 0 77 12)(font "Arial" ))
+		(text "wigend_bitcnt_0" (rect 94 507 171 519)(font "Arial" ))
+		(line (pt 192 512)(pt 176 512)(line_width 1))
+	)
+	(drawing
+		(rectangle (rect 16 16 176 528)(line_width 1))
+	)
+)

@@ -1,0 +1,12 @@
+Analysis & Synthesis Status : Successful - Tue Nov 01 13:02:54 2011
+Quartus II Version : 6.0 Build 178 04/27/2006 SJ Full Version
+Revision Name : buffer
+Top-level Entity Name : buffer
+Family : Cyclone II
+Total logic elements : 349
+Total registers : 74
+Total pins : 48
+Total virtual pins : 0
+Total memory bits : 0
+Embedded Multiplier 9-bit elements : 0
+Total PLLs : 0

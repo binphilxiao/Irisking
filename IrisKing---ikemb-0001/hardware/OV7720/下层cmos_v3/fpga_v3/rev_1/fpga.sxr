@@ -1,0 +1,45 @@
+
+BeginView FPGA NoName
+Inst: vpclkin_in[1]   vpclkin_in_1_ stratix_io 
+Inst: vpclkin_in[0]   vpclkin_in_0_ stratix_io 
+Inst: vpctlin_in[1]   vpctlin_in_1_ stratix_io 
+Inst: vpctlin_in[0]   vpctlin_in_0_ stratix_io 
+Inst: vpdin_in[9]   vpdin_in_9_ stratix_io 
+Inst: vpdin_in[8]   vpdin_in_8_ stratix_io 
+Inst: vpdin_in[7]   vpdin_in_7_ stratix_io 
+Inst: vpdin_in[6]   vpdin_in_6_ stratix_io 
+Inst: vpdin_in[5]   vpdin_in_5_ stratix_io 
+Inst: vpdin_in[4]   vpdin_in_4_ stratix_io 
+Inst: vpdin_in[3]   vpdin_in_3_ stratix_io 
+Inst: vpdin_in[2]   vpdin_in_2_ stratix_io 
+Inst: vpdin_in[1]   vpdin_in_1_ stratix_io 
+Inst: vpdin_in[0]   vpdin_in_0_ stratix_io 
+Inst: vpclkout_out[1]   vpclkout_out_1_ stratix_io 
+Inst: vpclkout_out[0]   vpclkout_out_0_ stratix_io 
+Inst: vpctlout_out[1]   vpctlout_out_1_ stratix_io 
+Inst: vpctlout_out[0]   vpctlout_out_0_ stratix_io 
+Inst: vpdout_out[9]   vpdout_out_9_ stratix_io 
+Inst: vpdout_out[8]   vpdout_out_8_ stratix_io 
+Inst: vpdout_out[7]   vpdout_out_7_ stratix_io 
+Inst: vpdout_out[6]   vpdout_out_6_ stratix_io 
+Inst: vpdout_out[5]   vpdout_out_5_ stratix_io 
+Inst: vpdout_out[4]   vpdout_out_4_ stratix_io 
+Inst: vpdout_out[3]   vpdout_out_3_ stratix_io 
+Inst: vpdout_out[2]   vpdout_out_2_ stratix_io 
+Inst: vpdout_out[1]   vpdout_out_1_ stratix_io 
+Inst: vpdout_out[0]   vpdout_out_0_ stratix_io 
+Net:  vpclkin_c[1]   G_14 
+Net:  vpclkin_c[0]   G_13 
+Net:  vpctlin_c[1]   G_12 
+Net:  vpctlin_c[0]   G_11 
+Net:  vpdin_c[9]   G_10 
+Net:  vpdin_c[8]   G_9 
+Net:  vpdin_c[7]   G_8 
+Net:  vpdin_c[6]   G_7 
+Net:  vpdin_c[5]   G_6 
+Net:  vpdin_c[4]   G_5 
+Net:  vpdin_c[3]   G_4 
+Net:  vpdin_c[2]   G_3 
+Net:  vpdin_c[1]   G_2 
+Net:  vpdin_c[0]   G_1 
+EndView FPGA NoName

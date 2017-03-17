@@ -1,0 +1,1197 @@
+//
+// Written by Synplify
+// Synplify 8.6.2, Build 027R.
+// Fri Mar 21 15:49:03 2008
+//
+// Source file index table:
+// Object locations will have the form <file>:<line>
+// file 0 "noname"
+// file 1 "\c:\program files\synplicity\fpga_862\lib\altera\altera.v "
+// file 2 "\e:\emb002\project\hardware\cpld\pld.v "
+
+// VQM4.1+ 
+module pld (
+  clk,
+  nCPLDCE,
+  nNANDFWE,
+  nOE_nFRE,
+  nHRESET,
+  wil,
+  addr,
+  data,
+  IRQ4,
+  AD_CS,
+  AD_CLK,
+  AD_DOO,
+  test
+);
+input clk ;
+input nCPLDCE ;
+input nNANDFWE ;
+input nOE_nFRE ;
+input nHRESET ;
+input [1:0] wil ;
+input [6:0] addr ;
+input [7:0] data ;
+output IRQ4 ;
+output AD_CS ;
+output AD_CLK ;
+input AD_DOO ;
+output [3:0] test ;
+wire clk ;
+wire nCPLDCE ;
+wire nNANDFWE ;
+wire nOE_nFRE ;
+wire nHRESET ;
+wire IRQ4 ;
+wire AD_CS ;
+wire AD_CLK ;
+wire AD_DOO ;
+wire [4:0] wigend_bitcnt;
+wire [3:0] wigend_bitcnt_cout;
+wire [4:0] ADcnt;
+wire [3:0] ADcnt_cout;
+wire [12:0] wilclk_cnt1;
+wire [11:0] wilclk_cnt1_cout;
+wire [2:0] wigend_buf;
+wire [3:0] wigend_reg;
+wire [1:0] wil_c;
+wire [0:0] un15_AD_CLK_x;
+wire VCC ;
+wire GND ;
+wire wil_clk_x_i ;
+wire nCPLDCE_c ;
+wire wigend_bitcnt52 ;
+wire clk_c_i ;
+wire ADcnt19_i ;
+wire clk_c ;
+wire un1_wilclk_cnt124_i ;
+wire overtime_i ;
+wire wil0_i ;
+wire wigend_bitcnt53 ;
+wire wil1_i ;
+wire wilclk_cnt125_x ;
+wire un1_wilclk_cnt1_1_6 ;
+wire un1_wilclk_cnt1_1_7 ;
+wire un1_wilclk_cnt124_a ;
+wire un11_IRQ4 ;
+wire un11_IRQ4_a ;
+wire AD_CS_1_i ;
+wire nCPLDCE_c_i ;
+wire un1_wilclk_cnt124_i_i ;
+wire ADcnt19_i_i ;
+wire wigend_bitcnt52_i ;
+//@1:1
+  assign VCC = 1'b1;
+//@1:1
+  assign GND = 1'b0;
+// @2:101
+  maxii_lcell wigend_bitcnt_0__Z (
+	.regout(wigend_bitcnt[0]),
+	.cout(wigend_bitcnt_cout[0]),
+	.clk(wil_clk_x_i),
+	.dataa(wigend_bitcnt[0]),
+	.datab(VCC),
+	.datac(VCC),
+	.datad(VCC),
+	.aclr(nCPLDCE_c_i),
+	.sclr(wigend_bitcnt52_i),
+	.sload(GND),
+	.ena(VCC),
+	.inverta(GND),
+	.aload(GND),
+	.regcascin(GND)
+);
+defparam wigend_bitcnt_0__Z.operation_mode="arithmetic";
+defparam wigend_bitcnt_0__Z.output_mode="reg_only";
+defparam wigend_bitcnt_0__Z.lut_mask="55aa";
+defparam wigend_bitcnt_0__Z.synch_mode="on";
+defparam wigend_bitcnt_0__Z.sum_lutc_input="datac";
+// @2:101
+  maxii_lcell wigend_bitcnt_1__Z (
+	.regout(wigend_bitcnt[1]),
+	.cout(wigend_bitcnt_cout[1]),
+	.clk(wil_clk_x_i),
+	.dataa(wigend_bitcnt[1]),
+	.datab(VCC),
+	.datac(VCC),
+	.datad(VCC),
+	.aclr(nCPLDCE_c_i),
+	.sclr(wigend_bitcnt52_i),
+	.sload(GND),
+	.ena(VCC),
+	.cin(wigend_bitcnt_cout[0]),
+	.inverta(GND),
+	.aload(GND),
+	.regcascin(GND)
+);
+defparam wigend_bitcnt_1__Z.cin_used="true";
+defparam wigend_bitcnt_1__Z.operation_mode="arithmetic";
+defparam wigend_bitcnt_1__Z.output_mode="reg_only";
+defparam wigend_bitcnt_1__Z.lut_mask="5aa0";
+defparam wigend_bitcnt_1__Z.synch_mode="on";
+defparam wigend_bitcnt_1__Z.sum_lutc_input="cin";
+// @2:101
+  maxii_lcell wigend_bitcnt_2__Z (
+	.regout(wigend_bitcnt[2]),
+	.cout(wigend_bitcnt_cout[2]),
+	.clk(wil_clk_x_i),
+	.dataa(wigend_bitcnt[2]),
+	.datab(VCC),
+	.datac(VCC),
+	.datad(VCC),
+	.aclr(nCPLDCE_c_i),
+	.sclr(wigend_bitcnt52_i),
+	.sload(GND),
+	.ena(VCC),
+	.cin(wigend_bitcnt_cout[1]),
+	.inverta(GND),
+	.aload(GND),
+	.regcascin(GND)
+);
+defparam wigend_bitcnt_2__Z.cin_used="true";
+defparam wigend_bitcnt_2__Z.operation_mode="arithmetic";
+defparam wigend_bitcnt_2__Z.output_mode="reg_only";
+defparam wigend_bitcnt_2__Z.lut_mask="5aa0";
+defparam wigend_bitcnt_2__Z.synch_mode="on";
+defparam wigend_bitcnt_2__Z.sum_lutc_input="cin";
+// @2:101
+  maxii_lcell wigend_bitcnt_3__Z (
+	.regout(wigend_bitcnt[3]),
+	.cout(wigend_bitcnt_cout[3]),
+	.clk(wil_clk_x_i),
+	.dataa(wigend_bitcnt[3]),
+	.datab(VCC),
+	.datac(VCC),
+	.datad(VCC),
+	.aclr(nCPLDCE_c_i),
+	.sclr(wigend_bitcnt52_i),
+	.sload(GND),
+	.ena(VCC),
+	.cin(wigend_bitcnt_cout[2]),
+	.inverta(GND),
+	.aload(GND),
+	.regcascin(GND)
+);
+defparam wigend_bitcnt_3__Z.cin_used="true";
+defparam wigend_bitcnt_3__Z.operation_mode="arithmetic";
+defparam wigend_bitcnt_3__Z.output_mode="reg_only";
+defparam wigend_bitcnt_3__Z.lut_mask="5aa0";
+defparam wigend_bitcnt_3__Z.synch_mode="on";
+defparam wigend_bitcnt_3__Z.sum_lutc_input="cin";
+// @2:101
+  maxii_lcell wigend_bitcnt_4__Z (
+	.regout(wigend_bitcnt[4]),
+	.clk(wil_clk_x_i),
+	.dataa(wigend_bitcnt[4]),
+	.datab(VCC),
+	.datac(VCC),
+	.datad(VCC),
+	.aclr(nCPLDCE_c_i),
+	.sclr(wigend_bitcnt52_i),
+	.sload(GND),
+	.ena(VCC),
+	.cin(wigend_bitcnt_cout[3]),
+	.inverta(GND),
+	.aload(GND),
+	.regcascin(GND)
+);
+defparam wigend_bitcnt_4__Z.cin_used="true";
+defparam wigend_bitcnt_4__Z.operation_mode="normal";
+defparam wigend_bitcnt_4__Z.output_mode="reg_only";
+defparam wigend_bitcnt_4__Z.lut_mask="5a5a";
+defparam wigend_bitcnt_4__Z.synch_mode="on";
+defparam wigend_bitcnt_4__Z.sum_lutc_input="cin";
+// @2:185
+  maxii_lcell ADcnt_0__Z (
+	.regout(ADcnt[0]),
+	.cout(ADcnt_cout[0]),
+	.clk(clk_c_i),
+	.dataa(ADcnt[0]),
+	.datab(VCC),
+	.datac(VCC),
+	.datad(VCC),
+	.aclr(nCPLDCE_c_i),
+	.sclr(ADcnt19_i_i),
+	.sload(GND),
+	.ena(VCC),
+	.inverta(GND),
+	.aload(GND),
+	.regcascin(GND)
+);
+defparam ADcnt_0__Z.operation_mode="arithmetic";
+defparam ADcnt_0__Z.output_mode="reg_only";
+defparam ADcnt_0__Z.lut_mask="55aa";
+defparam ADcnt_0__Z.synch_mode="on";
+defparam ADcnt_0__Z.sum_lutc_input="datac";
+// @2:185
+  maxii_lcell ADcnt_1__Z (
+	.regout(ADcnt[1]),
+	.cout(ADcnt_cout[1]),
+	.clk(clk_c_i),
+	.dataa(ADcnt[1]),
+	.datab(VCC),
+	.datac(VCC),
+	.datad(VCC),
+	.aclr(nCPLDCE_c_i),
+	.sclr(ADcnt19_i_i),
+	.sload(GND),
+	.ena(VCC),
+	.cin(ADcnt_cout[0]),
+	.inverta(GND),
+	.aload(GND),
+	.regcascin(GND)
+);
+defparam ADcnt_1__Z.cin_used="true";
+defparam ADcnt_1__Z.operation_mode="arithmetic";
+defparam ADcnt_1__Z.output_mode="reg_only";
+defparam ADcnt_1__Z.lut_mask="5aa0";
+defparam ADcnt_1__Z.synch_mode="on";
+defparam ADcnt_1__Z.sum_lutc_input="cin";
+// @2:185
+  maxii_lcell ADcnt_2__Z (
+	.regout(ADcnt[2]),
+	.cout(ADcnt_cout[2]),
+	.clk(clk_c_i),
+	.dataa(ADcnt[2]),
+	.datab(VCC),
+	.datac(VCC),
+	.datad(VCC),
+	.aclr(nCPLDCE_c_i),
+	.sclr(ADcnt19_i_i),
+	.sload(GND),
+	.ena(VCC),
+	.cin(ADcnt_cout[1]),
+	.inverta(GND),
+	.aload(GND),
+	.regcascin(GND)
+);
+defparam ADcnt_2__Z.cin_used="true";
+defparam ADcnt_2__Z.operation_mode="arithmetic";
+defparam ADcnt_2__Z.output_mode="reg_only";
+defparam ADcnt_2__Z.lut_mask="5aa0";
+defparam ADcnt_2__Z.synch_mode="on";
+defparam ADcnt_2__Z.sum_lutc_input="cin";
+// @2:185
+  maxii_lcell ADcnt_3__Z (
+	.regout(ADcnt[3]),
+	.cout(ADcnt_cout[3]),
+	.clk(clk_c_i),
+	.dataa(ADcnt[3]),
+	.datab(VCC),
+	.datac(VCC),
+	.datad(VCC),
+	.aclr(nCPLDCE_c_i),
+	.sclr(ADcnt19_i_i),
+	.sload(GND),
+	.ena(VCC),
+	.cin(ADcnt_cout[2]),
+	.inverta(GND),
+	.aload(GND),
+	.regcascin(GND)
+);
+defparam ADcnt_3__Z.cin_used="true";
+defparam ADcnt_3__Z.operation_mode="arithmetic";
+defparam ADcnt_3__Z.output_mode="reg_only";
+defparam ADcnt_3__Z.lut_mask="5aa0";
+defparam ADcnt_3__Z.synch_mode="on";
+defparam ADcnt_3__Z.sum_lutc_input="cin";
+// @2:185
+  maxii_lcell ADcnt_4__Z (
+	.regout(ADcnt[4]),
+	.clk(clk_c_i),
+	.dataa(ADcnt[4]),
+	.datab(VCC),
+	.datac(VCC),
+	.datad(VCC),
+	.aclr(nCPLDCE_c_i),
+	.sclr(ADcnt19_i_i),
+	.sload(GND),
+	.ena(VCC),
+	.cin(ADcnt_cout[3]),
+	.inverta(GND),
+	.aload(GND),
+	.regcascin(GND)
+);
+defparam ADcnt_4__Z.cin_used="true";
+defparam ADcnt_4__Z.operation_mode="normal";
+defparam ADcnt_4__Z.output_mode="reg_only";
+defparam ADcnt_4__Z.lut_mask="5a5a";
+defparam ADcnt_4__Z.synch_mode="on";
+defparam ADcnt_4__Z.sum_lutc_input="cin";
+// @2:68
+  maxii_lcell wilclk_cnt1_0__Z (
+	.regout(wilclk_cnt1[0]),
+	.cout(wilclk_cnt1_cout[0]),
+	.clk(clk_c),
+	.dataa(wilclk_cnt1[0]),
+	.datab(VCC),
+	.datac(VCC),
+	.datad(VCC),
+	.aclr(nCPLDCE_c_i),
+	.sclr(un1_wilclk_cnt124_i_i),
+	.sload(GND),
+	.ena(VCC),
+	.inverta(GND),
+	.aload(GND),
+	.regcascin(GND)
+);
+defparam wilclk_cnt1_0__Z.operation_mode="arithmetic";
+defparam wilclk_cnt1_0__Z.output_mode="reg_only";
+defparam wilclk_cnt1_0__Z.lut_mask="55aa";
+defparam wilclk_cnt1_0__Z.synch_mode="on";
+defparam wilclk_cnt1_0__Z.sum_lutc_input="datac";
+// @2:68
+  maxii_lcell wilclk_cnt1_1__Z (
+	.regout(wilclk_cnt1[1]),
+	.cout(wilclk_cnt1_cout[1]),
+	.clk(clk_c),
+	.dataa(wilclk_cnt1[1]),
+	.datab(VCC),
+	.datac(VCC),
+	.datad(VCC),
+	.aclr(nCPLDCE_c_i),
+	.sclr(un1_wilclk_cnt124_i_i),
+	.sload(GND),
+	.ena(VCC),
+	.cin(wilclk_cnt1_cout[0]),
+	.inverta(GND),
+	.aload(GND),
+	.regcascin(GND)
+);
+defparam wilclk_cnt1_1__Z.cin_used="true";
+defparam wilclk_cnt1_1__Z.operation_mode="arithmetic";
+defparam wilclk_cnt1_1__Z.output_mode="reg_only";
+defparam wilclk_cnt1_1__Z.lut_mask="5aa0";
+defparam wilclk_cnt1_1__Z.synch_mode="on";
+defparam wilclk_cnt1_1__Z.sum_lutc_input="cin";
+// @2:68
+  maxii_lcell wilclk_cnt1_2__Z (
+	.regout(wilclk_cnt1[2]),
+	.cout(wilclk_cnt1_cout[2]),
+	.clk(clk_c),
+	.dataa(wilclk_cnt1[2]),
+	.datab(VCC),
+	.datac(VCC),
+	.datad(VCC),
+	.aclr(nCPLDCE_c_i),
+	.sclr(un1_wilclk_cnt124_i_i),
+	.sload(GND),
+	.ena(VCC),
+	.cin(wilclk_cnt1_cout[1]),
+	.inverta(GND),
+	.aload(GND),
+	.regcascin(GND)
+);
+defparam wilclk_cnt1_2__Z.cin_used="true";
+defparam wilclk_cnt1_2__Z.operation_mode="arithmetic";
+defparam wilclk_cnt1_2__Z.output_mode="reg_only";
+defparam wilclk_cnt1_2__Z.lut_mask="5aa0";
+defparam wilclk_cnt1_2__Z.synch_mode="on";
+defparam wilclk_cnt1_2__Z.sum_lutc_input="cin";
+// @2:68
+  maxii_lcell wilclk_cnt1_3__Z (
+	.regout(wilclk_cnt1[3]),
+	.cout(wilclk_cnt1_cout[3]),
+	.clk(clk_c),
+	.dataa(wilclk_cnt1[3]),
+	.datab(VCC),
+	.datac(VCC),
+	.datad(VCC),
+	.aclr(nCPLDCE_c_i),
+	.sclr(un1_wilclk_cnt124_i_i),
+	.sload(GND),
+	.ena(VCC),
+	.cin(wilclk_cnt1_cout[2]),
+	.inverta(GND),
+	.aload(GND),
+	.regcascin(GND)
+);
+defparam wilclk_cnt1_3__Z.cin_used="true";
+defparam wilclk_cnt1_3__Z.operation_mode="arithmetic";
+defparam wilclk_cnt1_3__Z.output_mode="reg_only";
+defparam wilclk_cnt1_3__Z.lut_mask="5aa0";
+defparam wilclk_cnt1_3__Z.synch_mode="on";
+defparam wilclk_cnt1_3__Z.sum_lutc_input="cin";
+// @2:68
+  maxii_lcell wilclk_cnt1_4__Z (
+	.regout(wilclk_cnt1[4]),
+	.cout(wilclk_cnt1_cout[4]),
+	.clk(clk_c),
+	.dataa(wilclk_cnt1[4]),
+	.datab(VCC),
+	.datac(VCC),
+	.datad(VCC),
+	.aclr(nCPLDCE_c_i),
+	.sclr(un1_wilclk_cnt124_i_i),
+	.sload(GND),
+	.ena(VCC),
+	.cin(wilclk_cnt1_cout[3]),
+	.inverta(GND),
+	.aload(GND),
+	.regcascin(GND)
+);
+defparam wilclk_cnt1_4__Z.cin_used="true";
+defparam wilclk_cnt1_4__Z.operation_mode="arithmetic";
+defparam wilclk_cnt1_4__Z.output_mode="reg_only";
+defparam wilclk_cnt1_4__Z.lut_mask="5aa0";
+defparam wilclk_cnt1_4__Z.synch_mode="on";
+defparam wilclk_cnt1_4__Z.sum_lutc_input="cin";
+// @2:68
+  maxii_lcell wilclk_cnt1_5__Z (
+	.regout(wilclk_cnt1[5]),
+	.cout(wilclk_cnt1_cout[5]),
+	.clk(clk_c),
+	.dataa(wilclk_cnt1[5]),
+	.datab(VCC),
+	.datac(VCC),
+	.datad(VCC),
+	.aclr(nCPLDCE_c_i),
+	.sclr(un1_wilclk_cnt124_i_i),
+	.sload(GND),
+	.ena(VCC),
+	.cin(wilclk_cnt1_cout[4]),
+	.inverta(GND),
+	.aload(GND),
+	.regcascin(GND)
+);
+defparam wilclk_cnt1_5__Z.cin_used="true";
+defparam wilclk_cnt1_5__Z.operation_mode="arithmetic";
+defparam wilclk_cnt1_5__Z.output_mode="reg_only";
+defparam wilclk_cnt1_5__Z.lut_mask="5aa0";
+defparam wilclk_cnt1_5__Z.synch_mode="on";
+defparam wilclk_cnt1_5__Z.sum_lutc_input="cin";
+// @2:68
+  maxii_lcell wilclk_cnt1_6__Z (
+	.regout(wilclk_cnt1[6]),
+	.cout(wilclk_cnt1_cout[6]),
+	.clk(clk_c),
+	.dataa(wilclk_cnt1[6]),
+	.datab(VCC),
+	.datac(VCC),
+	.datad(VCC),
+	.aclr(nCPLDCE_c_i),
+	.sclr(un1_wilclk_cnt124_i_i),
+	.sload(GND),
+	.ena(VCC),
+	.cin(wilclk_cnt1_cout[5]),
+	.inverta(GND),
+	.aload(GND),
+	.regcascin(GND)
+);
+defparam wilclk_cnt1_6__Z.cin_used="true";
+defparam wilclk_cnt1_6__Z.operation_mode="arithmetic";
+defparam wilclk_cnt1_6__Z.output_mode="reg_only";
+defparam wilclk_cnt1_6__Z.lut_mask="5aa0";
+defparam wilclk_cnt1_6__Z.synch_mode="on";
+defparam wilclk_cnt1_6__Z.sum_lutc_input="cin";
+// @2:68
+  maxii_lcell wilclk_cnt1_7__Z (
+	.regout(wilclk_cnt1[7]),
+	.cout(wilclk_cnt1_cout[7]),
+	.clk(clk_c),
+	.dataa(wilclk_cnt1[7]),
+	.datab(VCC),
+	.datac(VCC),
+	.datad(VCC),
+	.aclr(nCPLDCE_c_i),
+	.sclr(un1_wilclk_cnt124_i_i),
+	.sload(GND),
+	.ena(VCC),
+	.cin(wilclk_cnt1_cout[6]),
+	.inverta(GND),
+	.aload(GND),
+	.regcascin(GND)
+);
+defparam wilclk_cnt1_7__Z.cin_used="true";
+defparam wilclk_cnt1_7__Z.operation_mode="arithmetic";
+defparam wilclk_cnt1_7__Z.output_mode="reg_only";
+defparam wilclk_cnt1_7__Z.lut_mask="5aa0";
+defparam wilclk_cnt1_7__Z.synch_mode="on";
+defparam wilclk_cnt1_7__Z.sum_lutc_input="cin";
+// @2:68
+  maxii_lcell wilclk_cnt1_8__Z (
+	.regout(wilclk_cnt1[8]),
+	.cout(wilclk_cnt1_cout[8]),
+	.clk(clk_c),
+	.dataa(wilclk_cnt1[8]),
+	.datab(VCC),
+	.datac(VCC),
+	.datad(VCC),
+	.aclr(nCPLDCE_c_i),
+	.sclr(un1_wilclk_cnt124_i_i),
+	.sload(GND),
+	.ena(VCC),
+	.cin(wilclk_cnt1_cout[7]),
+	.inverta(GND),
+	.aload(GND),
+	.regcascin(GND)
+);
+defparam wilclk_cnt1_8__Z.cin_used="true";
+defparam wilclk_cnt1_8__Z.operation_mode="arithmetic";
+defparam wilclk_cnt1_8__Z.output_mode="reg_only";
+defparam wilclk_cnt1_8__Z.lut_mask="5aa0";
+defparam wilclk_cnt1_8__Z.synch_mode="on";
+defparam wilclk_cnt1_8__Z.sum_lutc_input="cin";
+// @2:68
+  maxii_lcell wilclk_cnt1_9__Z (
+	.regout(wilclk_cnt1[9]),
+	.cout(wilclk_cnt1_cout[9]),
+	.clk(clk_c),
+	.dataa(wilclk_cnt1[9]),
+	.datab(VCC),
+	.datac(VCC),
+	.datad(VCC),
+	.aclr(nCPLDCE_c_i),
+	.sclr(un1_wilclk_cnt124_i_i),
+	.sload(GND),
+	.ena(VCC),
+	.cin(wilclk_cnt1_cout[8]),
+	.inverta(GND),
+	.aload(GND),
+	.regcascin(GND)
+);
+defparam wilclk_cnt1_9__Z.cin_used="true";
+defparam wilclk_cnt1_9__Z.operation_mode="arithmetic";
+defparam wilclk_cnt1_9__Z.output_mode="reg_only";
+defparam wilclk_cnt1_9__Z.lut_mask="5aa0";
+defparam wilclk_cnt1_9__Z.synch_mode="on";
+defparam wilclk_cnt1_9__Z.sum_lutc_input="cin";
+// @2:68
+  maxii_lcell wilclk_cnt1_10__Z (
+	.regout(wilclk_cnt1[10]),
+	.cout(wilclk_cnt1_cout[10]),
+	.clk(clk_c),
+	.dataa(wilclk_cnt1[10]),
+	.datab(VCC),
+	.datac(VCC),
+	.datad(VCC),
+	.aclr(nCPLDCE_c_i),
+	.sclr(un1_wilclk_cnt124_i_i),
+	.sload(GND),
+	.ena(VCC),
+	.cin(wilclk_cnt1_cout[9]),
+	.inverta(GND),
+	.aload(GND),
+	.regcascin(GND)
+);
+defparam wilclk_cnt1_10__Z.cin_used="true";
+defparam wilclk_cnt1_10__Z.operation_mode="arithmetic";
+defparam wilclk_cnt1_10__Z.output_mode="reg_only";
+defparam wilclk_cnt1_10__Z.lut_mask="5aa0";
+defparam wilclk_cnt1_10__Z.synch_mode="on";
+defparam wilclk_cnt1_10__Z.sum_lutc_input="cin";
+// @2:68
+  maxii_lcell wilclk_cnt1_11__Z (
+	.regout(wilclk_cnt1[11]),
+	.cout(wilclk_cnt1_cout[11]),
+	.clk(clk_c),
+	.dataa(wilclk_cnt1[11]),
+	.datab(VCC),
+	.datac(VCC),
+	.datad(VCC),
+	.aclr(nCPLDCE_c_i),
+	.sclr(un1_wilclk_cnt124_i_i),
+	.sload(GND),
+	.ena(VCC),
+	.cin(wilclk_cnt1_cout[10]),
+	.inverta(GND),
+	.aload(GND),
+	.regcascin(GND)
+);
+defparam wilclk_cnt1_11__Z.cin_used="true";
+defparam wilclk_cnt1_11__Z.operation_mode="arithmetic";
+defparam wilclk_cnt1_11__Z.output_mode="reg_only";
+defparam wilclk_cnt1_11__Z.lut_mask="5aa0";
+defparam wilclk_cnt1_11__Z.synch_mode="on";
+defparam wilclk_cnt1_11__Z.sum_lutc_input="cin";
+// @2:68
+  maxii_lcell wilclk_cnt1_12__Z (
+	.regout(wilclk_cnt1[12]),
+	.clk(clk_c),
+	.dataa(wilclk_cnt1[12]),
+	.datab(VCC),
+	.datac(VCC),
+	.datad(VCC),
+	.aclr(nCPLDCE_c_i),
+	.sclr(un1_wilclk_cnt124_i_i),
+	.sload(GND),
+	.ena(VCC),
+	.cin(wilclk_cnt1_cout[11]),
+	.inverta(GND),
+	.aload(GND),
+	.regcascin(GND)
+);
+defparam wilclk_cnt1_12__Z.cin_used="true";
+defparam wilclk_cnt1_12__Z.operation_mode="normal";
+defparam wilclk_cnt1_12__Z.output_mode="reg_only";
+defparam wilclk_cnt1_12__Z.lut_mask="5a5a";
+defparam wilclk_cnt1_12__Z.synch_mode="on";
+defparam wilclk_cnt1_12__Z.sum_lutc_input="cin";
+// @2:101
+  maxii_lcell wigend_buf_2__Z (
+	.regout(wigend_buf[2]),
+	.clk(wil_clk_x_i),
+	.dataa(wigend_buf[1]),
+	.datab(overtime_i),
+	.datac(VCC),
+	.datad(VCC),
+	.aclr(nCPLDCE_c_i),
+	.sclr(GND),
+	.sload(GND),
+	.ena(VCC),
+	.inverta(GND),
+	.aload(GND),
+	.regcascin(GND)
+);
+defparam wigend_buf_2__Z.operation_mode="normal";
+defparam wigend_buf_2__Z.output_mode="reg_only";
+defparam wigend_buf_2__Z.lut_mask="2222";
+defparam wigend_buf_2__Z.synch_mode="off";
+defparam wigend_buf_2__Z.sum_lutc_input="datac";
+// @2:101
+  maxii_lcell wigend_buf_1__Z (
+	.regout(wigend_buf[1]),
+	.clk(wil_clk_x_i),
+	.dataa(wigend_buf[0]),
+	.datab(overtime_i),
+	.datac(VCC),
+	.datad(VCC),
+	.aclr(nCPLDCE_c_i),
+	.sclr(GND),
+	.sload(GND),
+	.ena(VCC),
+	.inverta(GND),
+	.aload(GND),
+	.regcascin(GND)
+);
+defparam wigend_buf_1__Z.operation_mode="normal";
+defparam wigend_buf_1__Z.output_mode="reg_only";
+defparam wigend_buf_1__Z.lut_mask="2222";
+defparam wigend_buf_1__Z.synch_mode="off";
+defparam wigend_buf_1__Z.sum_lutc_input="datac";
+// @2:101
+  maxii_lcell wigend_buf_0__Z (
+	.regout(wigend_buf[0]),
+	.clk(wil_clk_x_i),
+	.dataa(wil0_i),
+	.datab(overtime_i),
+	.datac(VCC),
+	.datad(VCC),
+	.aclr(nCPLDCE_c_i),
+	.sclr(GND),
+	.sload(GND),
+	.ena(VCC),
+	.inverta(GND),
+	.aload(GND),
+	.regcascin(GND)
+);
+defparam wigend_buf_0__Z.operation_mode="normal";
+defparam wigend_buf_0__Z.output_mode="reg_only";
+defparam wigend_buf_0__Z.lut_mask="1111";
+defparam wigend_buf_0__Z.synch_mode="off";
+defparam wigend_buf_0__Z.sum_lutc_input="datac";
+// @2:101
+  maxii_lcell wigend_reg_3__Z (
+	.regout(wigend_reg[3]),
+	.clk(wil_clk_x_i),
+	.dataa(VCC),
+	.datab(VCC),
+	.datac(VCC),
+	.datad(wigend_buf[2]),
+	.aclr(nCPLDCE_c_i),
+	.sclr(GND),
+	.sload(GND),
+	.ena(wigend_bitcnt53),
+	.inverta(GND),
+	.aload(GND),
+	.regcascin(GND)
+);
+defparam wigend_reg_3__Z.operation_mode="normal";
+defparam wigend_reg_3__Z.output_mode="reg_only";
+defparam wigend_reg_3__Z.lut_mask="ff00";
+defparam wigend_reg_3__Z.synch_mode="off";
+defparam wigend_reg_3__Z.sum_lutc_input="datac";
+// @2:101
+  maxii_lcell wigend_reg_2__Z (
+	.regout(wigend_reg[2]),
+	.clk(wil_clk_x_i),
+	.dataa(VCC),
+	.datab(VCC),
+	.datac(VCC),
+	.datad(wigend_buf[1]),
+	.aclr(nCPLDCE_c_i),
+	.sclr(GND),
+	.sload(GND),
+	.ena(wigend_bitcnt53),
+	.inverta(GND),
+	.aload(GND),
+	.regcascin(GND)
+);
+defparam wigend_reg_2__Z.operation_mode="normal";
+defparam wigend_reg_2__Z.output_mode="reg_only";
+defparam wigend_reg_2__Z.lut_mask="ff00";
+defparam wigend_reg_2__Z.synch_mode="off";
+defparam wigend_reg_2__Z.sum_lutc_input="datac";
+// @2:101
+  maxii_lcell wigend_reg_1__Z (
+	.regout(wigend_reg[1]),
+	.clk(wil_clk_x_i),
+	.dataa(VCC),
+	.datab(VCC),
+	.datac(VCC),
+	.datad(wigend_buf[0]),
+	.aclr(nCPLDCE_c_i),
+	.sclr(GND),
+	.sload(GND),
+	.ena(wigend_bitcnt53),
+	.inverta(GND),
+	.aload(GND),
+	.regcascin(GND)
+);
+defparam wigend_reg_1__Z.operation_mode="normal";
+defparam wigend_reg_1__Z.output_mode="reg_only";
+defparam wigend_reg_1__Z.lut_mask="ff00";
+defparam wigend_reg_1__Z.synch_mode="off";
+defparam wigend_reg_1__Z.sum_lutc_input="datac";
+// @2:101
+  maxii_lcell wigend_reg_0__Z (
+	.regout(wigend_reg[0]),
+	.clk(wil_clk_x_i),
+	.dataa(wil0_i),
+	.datab(VCC),
+	.datac(VCC),
+	.datad(VCC),
+	.aclr(nCPLDCE_c_i),
+	.sclr(GND),
+	.sload(GND),
+	.ena(wigend_bitcnt53),
+	.inverta(GND),
+	.aload(GND),
+	.regcascin(GND)
+);
+defparam wigend_reg_0__Z.operation_mode="normal";
+defparam wigend_reg_0__Z.output_mode="reg_only";
+defparam wigend_reg_0__Z.lut_mask="5555";
+defparam wigend_reg_0__Z.synch_mode="off";
+defparam wigend_reg_0__Z.sum_lutc_input="datac";
+// @2:68
+  maxii_lcell wil1_i_Z (
+	.regout(wil1_i),
+	.clk(clk_c),
+	.dataa(wil_c[1]),
+	.datab(VCC),
+	.datac(VCC),
+	.datad(VCC),
+	.aclr(nCPLDCE_c_i),
+	.sclr(GND),
+	.sload(GND),
+	.ena(VCC),
+	.inverta(GND),
+	.aload(GND),
+	.regcascin(GND)
+);
+defparam wil1_i_Z.operation_mode="normal";
+defparam wil1_i_Z.output_mode="reg_only";
+defparam wil1_i_Z.lut_mask="5555";
+defparam wil1_i_Z.synch_mode="off";
+defparam wil1_i_Z.sum_lutc_input="datac";
+// @2:68
+  maxii_lcell wil0_i_Z (
+	.regout(wil0_i),
+	.clk(clk_c),
+	.dataa(wil_c[0]),
+	.datab(VCC),
+	.datac(VCC),
+	.datad(VCC),
+	.aclr(nCPLDCE_c_i),
+	.sclr(GND),
+	.sload(GND),
+	.ena(VCC),
+	.inverta(GND),
+	.aload(GND),
+	.regcascin(GND)
+);
+defparam wil0_i_Z.operation_mode="normal";
+defparam wil0_i_Z.output_mode="reg_only";
+defparam wil0_i_Z.lut_mask="5555";
+defparam wil0_i_Z.synch_mode="off";
+defparam wil0_i_Z.sum_lutc_input="datac";
+// @2:68
+  maxii_lcell overtime_i_Z (
+	.regout(overtime_i),
+	.clk(clk_c),
+	.dataa(un1_wilclk_cnt124_i),
+	.datab(wilclk_cnt125_x),
+	.datac(overtime_i),
+	.datad(VCC),
+	.aclr(nCPLDCE_c_i),
+	.sclr(GND),
+	.sload(GND),
+	.ena(VCC),
+	.inverta(GND),
+	.aload(GND),
+	.regcascin(GND)
+);
+defparam overtime_i_Z.operation_mode="normal";
+defparam overtime_i_Z.output_mode="reg_only";
+defparam overtime_i_Z.lut_mask="e4e4";
+defparam overtime_i_Z.synch_mode="off";
+defparam overtime_i_Z.sum_lutc_input="datac";
+// @2:35
+  maxii_lcell wil_clk_x (
+	.combout(wil_clk_x_i),
+	.clk(GND),
+	.dataa(wil1_i),
+	.datab(wil0_i),
+	.datac(VCC),
+	.datad(VCC),
+	.aclr(GND),
+	.sclr(GND),
+	.sload(GND),
+	.ena(VCC),
+	.inverta(GND),
+	.aload(GND),
+	.regcascin(GND)
+);
+defparam wil_clk_x.operation_mode="normal";
+defparam wil_clk_x.output_mode="comb_only";
+defparam wil_clk_x.lut_mask="eeee";
+defparam wil_clk_x.synch_mode="off";
+defparam wil_clk_x.sum_lutc_input="datac";
+// @2:78
+  maxii_lcell wilclk_cnt125_x_cZ (
+	.combout(wilclk_cnt125_x),
+	.clk(GND),
+	.dataa(wil_c[1]),
+	.datab(wil_c[0]),
+	.datac(VCC),
+	.datad(VCC),
+	.aclr(GND),
+	.sclr(GND),
+	.sload(GND),
+	.ena(VCC),
+	.inverta(GND),
+	.aload(GND),
+	.regcascin(GND)
+);
+defparam wilclk_cnt125_x_cZ.operation_mode="normal";
+defparam wilclk_cnt125_x_cZ.output_mode="comb_only";
+defparam wilclk_cnt125_x_cZ.lut_mask="8888";
+defparam wilclk_cnt125_x_cZ.synch_mode="off";
+defparam wilclk_cnt125_x_cZ.sum_lutc_input="datac";
+// @2:39
+  maxii_lcell un15_AD_CLK_x_0_ (
+	.combout(un15_AD_CLK_x[0]),
+	.clk(GND),
+	.dataa(clk_c),
+	.datab(ADcnt[3]),
+	.datac(ADcnt[4]),
+	.datad(VCC),
+	.aclr(GND),
+	.sclr(GND),
+	.sload(GND),
+	.ena(VCC),
+	.inverta(GND),
+	.aload(GND),
+	.regcascin(GND)
+);
+defparam un15_AD_CLK_x_0_.operation_mode="normal";
+defparam un15_AD_CLK_x_0_.output_mode="comb_only";
+defparam un15_AD_CLK_x_0_.lut_mask="0202";
+defparam un15_AD_CLK_x_0_.synch_mode="off";
+defparam un15_AD_CLK_x_0_.sum_lutc_input="datac";
+// @2:78
+  maxii_lcell un1_wilclk_cnt124 (
+	.combout(un1_wilclk_cnt124_i),
+	.clk(GND),
+	.dataa(wilclk_cnt125_x),
+	.datab(un1_wilclk_cnt1_1_6),
+	.datac(un1_wilclk_cnt1_1_7),
+	.datad(un1_wilclk_cnt124_a),
+	.aclr(GND),
+	.sclr(GND),
+	.sload(GND),
+	.ena(VCC),
+	.inverta(GND),
+	.aload(GND),
+	.regcascin(GND)
+);
+defparam un1_wilclk_cnt124.operation_mode="normal";
+defparam un1_wilclk_cnt124.output_mode="comb_only";
+defparam un1_wilclk_cnt124.lut_mask="aa2a";
+defparam un1_wilclk_cnt124.synch_mode="off";
+defparam un1_wilclk_cnt124.sum_lutc_input="datac";
+// @2:78
+  maxii_lcell un1_wilclk_cnt124_a_cZ (
+	.combout(un1_wilclk_cnt124_a),
+	.clk(GND),
+	.dataa(wilclk_cnt1[3]),
+	.datab(wilclk_cnt1[7]),
+	.datac(wilclk_cnt1[8]),
+	.datad(wilclk_cnt1[9]),
+	.aclr(GND),
+	.sclr(GND),
+	.sload(GND),
+	.ena(VCC),
+	.inverta(GND),
+	.aload(GND),
+	.regcascin(GND)
+);
+defparam un1_wilclk_cnt124_a_cZ.operation_mode="normal";
+defparam un1_wilclk_cnt124_a_cZ.output_mode="comb_only";
+defparam un1_wilclk_cnt124_a_cZ.lut_mask="7fff";
+defparam un1_wilclk_cnt124_a_cZ.synch_mode="off";
+defparam un1_wilclk_cnt124_a_cZ.sum_lutc_input="datac";
+// @2:109
+  maxii_lcell wigend_bitcnt52_cZ (
+	.combout(wigend_bitcnt52),
+	.clk(GND),
+	.dataa(overtime_i),
+	.datab(un11_IRQ4),
+	.datac(VCC),
+	.datad(VCC),
+	.aclr(GND),
+	.sclr(GND),
+	.sload(GND),
+	.ena(VCC),
+	.inverta(GND),
+	.aload(GND),
+	.regcascin(GND)
+);
+defparam wigend_bitcnt52_cZ.operation_mode="normal";
+defparam wigend_bitcnt52_cZ.output_mode="comb_only";
+defparam wigend_bitcnt52_cZ.lut_mask="4444";
+defparam wigend_bitcnt52_cZ.synch_mode="off";
+defparam wigend_bitcnt52_cZ.sum_lutc_input="datac";
+// @2:109
+  maxii_lcell wigend_bitcnt53_cZ (
+	.combout(wigend_bitcnt53),
+	.clk(GND),
+	.dataa(overtime_i),
+	.datab(un11_IRQ4),
+	.datac(VCC),
+	.datad(VCC),
+	.aclr(GND),
+	.sclr(GND),
+	.sload(GND),
+	.ena(VCC),
+	.inverta(GND),
+	.aload(GND),
+	.regcascin(GND)
+);
+defparam wigend_bitcnt53_cZ.operation_mode="normal";
+defparam wigend_bitcnt53_cZ.output_mode="comb_only";
+defparam wigend_bitcnt53_cZ.lut_mask="1111";
+defparam wigend_bitcnt53_cZ.synch_mode="off";
+defparam wigend_bitcnt53_cZ.sum_lutc_input="datac";
+// @2:37
+  maxii_lcell un11_IRQ4_cZ (
+	.combout(un11_IRQ4),
+	.clk(GND),
+	.dataa(wigend_bitcnt[4]),
+	.datab(wigend_bitcnt[3]),
+	.datac(wigend_bitcnt[1]),
+	.datad(un11_IRQ4_a),
+	.aclr(GND),
+	.sclr(GND),
+	.sload(GND),
+	.ena(VCC),
+	.inverta(GND),
+	.aload(GND),
+	.regcascin(GND)
+);
+defparam un11_IRQ4_cZ.operation_mode="normal";
+defparam un11_IRQ4_cZ.output_mode="comb_only";
+defparam un11_IRQ4_cZ.lut_mask="f7ff";
+defparam un11_IRQ4_cZ.synch_mode="off";
+defparam un11_IRQ4_cZ.sum_lutc_input="datac";
+// @2:37
+  maxii_lcell un11_IRQ4_a_cZ (
+	.combout(un11_IRQ4_a),
+	.clk(GND),
+	.dataa(wigend_bitcnt[0]),
+	.datab(wigend_bitcnt[2]),
+	.datac(VCC),
+	.datad(VCC),
+	.aclr(GND),
+	.sclr(GND),
+	.sload(GND),
+	.ena(VCC),
+	.inverta(GND),
+	.aload(GND),
+	.regcascin(GND)
+);
+defparam un11_IRQ4_a_cZ.operation_mode="normal";
+defparam un11_IRQ4_a_cZ.output_mode="comb_only";
+defparam un11_IRQ4_a_cZ.lut_mask="2222";
+defparam un11_IRQ4_a_cZ.synch_mode="off";
+defparam un11_IRQ4_a_cZ.sum_lutc_input="datac";
+// @2:197
+  maxii_lcell AD_CS_1 (
+	.combout(AD_CS_1_i),
+	.clk(GND),
+	.dataa(ADcnt[1]),
+	.datab(ADcnt[2]),
+	.datac(ADcnt[3]),
+	.datad(ADcnt[4]),
+	.aclr(GND),
+	.sclr(GND),
+	.sload(GND),
+	.ena(VCC),
+	.inverta(GND),
+	.aload(GND),
+	.regcascin(GND)
+);
+defparam AD_CS_1.operation_mode="normal";
+defparam AD_CS_1.output_mode="comb_only";
+defparam AD_CS_1.lut_mask="7ff0";
+defparam AD_CS_1.synch_mode="off";
+defparam AD_CS_1.sum_lutc_input="datac";
+// @2:86
+  maxii_lcell un1_wilclk_cnt1_1_7_cZ (
+	.combout(un1_wilclk_cnt1_1_7),
+	.clk(GND),
+	.dataa(wilclk_cnt1[10]),
+	.datab(wilclk_cnt1[11]),
+	.datac(wilclk_cnt1[5]),
+	.datad(wilclk_cnt1[6]),
+	.aclr(GND),
+	.sclr(GND),
+	.sload(GND),
+	.ena(VCC),
+	.inverta(GND),
+	.aload(GND),
+	.regcascin(GND)
+);
+defparam un1_wilclk_cnt1_1_7_cZ.operation_mode="normal";
+defparam un1_wilclk_cnt1_1_7_cZ.output_mode="comb_only";
+defparam un1_wilclk_cnt1_1_7_cZ.lut_mask="0001";
+defparam un1_wilclk_cnt1_1_7_cZ.synch_mode="off";
+defparam un1_wilclk_cnt1_1_7_cZ.sum_lutc_input="datac";
+// @2:86
+  maxii_lcell un1_wilclk_cnt1_1_6_cZ (
+	.combout(un1_wilclk_cnt1_1_6),
+	.clk(GND),
+	.dataa(wilclk_cnt1[2]),
+	.datab(wilclk_cnt1[4]),
+	.datac(wilclk_cnt1[12]),
+	.datad(wilclk_cnt1[1]),
+	.aclr(GND),
+	.sclr(GND),
+	.sload(GND),
+	.ena(VCC),
+	.inverta(GND),
+	.aload(GND),
+	.regcascin(GND)
+);
+defparam un1_wilclk_cnt1_1_6_cZ.operation_mode="normal";
+defparam un1_wilclk_cnt1_1_6_cZ.output_mode="comb_only";
+defparam un1_wilclk_cnt1_1_6_cZ.lut_mask="0010";
+defparam un1_wilclk_cnt1_1_6_cZ.synch_mode="off";
+defparam un1_wilclk_cnt1_1_6_cZ.sum_lutc_input="datac";
+// @2:189
+  maxii_lcell ADcnt19 (
+	.combout(ADcnt19_i),
+	.clk(GND),
+	.dataa(ADcnt[1]),
+	.datab(ADcnt[2]),
+	.datac(ADcnt[3]),
+	.datad(ADcnt[4]),
+	.aclr(GND),
+	.sclr(GND),
+	.sload(GND),
+	.ena(VCC),
+	.inverta(GND),
+	.aload(GND),
+	.regcascin(GND)
+);
+defparam ADcnt19.operation_mode="normal";
+defparam ADcnt19.output_mode="comb_only";
+defparam ADcnt19.lut_mask="7fff";
+defparam ADcnt19.synch_mode="off";
+defparam ADcnt19.sum_lutc_input="datac";
+  assign  clk_c_i = ~ clk_c;
+// @2:9
+  maxii_io wil_in_1_ (
+	.padio(wil[1]),
+	.combout(wil_c[1]),
+	.oe(GND)
+);
+defparam wil_in_1_.operation_mode = "input";
+// @2:9
+  maxii_io wil_in_0_ (
+	.padio(wil[0]),
+	.combout(wil_c[0]),
+	.oe(GND)
+);
+defparam wil_in_0_.operation_mode = "input";
+// @2:3
+  maxii_io nCPLDCE_in (
+	.padio(nCPLDCE),
+	.combout(nCPLDCE_c),
+	.oe(GND)
+);
+defparam nCPLDCE_in.operation_mode = "input";
+// @2:2
+  maxii_io clk_in (
+	.padio(clk),
+	.combout(clk_c),
+	.oe(GND)
+);
+defparam clk_in.operation_mode = "input";
+// @2:19
+  maxii_io test_out_3_ (
+	.padio(test[3]),
+	.datain(wigend_reg[3]),
+	.oe(VCC)
+);
+defparam test_out_3_.operation_mode = "output";
+// @2:19
+  maxii_io test_out_2_ (
+	.padio(test[2]),
+	.datain(wigend_reg[2]),
+	.oe(VCC)
+);
+defparam test_out_2_.operation_mode = "output";
+// @2:19
+  maxii_io test_out_1_ (
+	.padio(test[1]),
+	.datain(wigend_reg[1]),
+	.oe(VCC)
+);
+defparam test_out_1_.operation_mode = "output";
+// @2:19
+  maxii_io test_out_0_ (
+	.padio(test[0]),
+	.datain(wigend_reg[0]),
+	.oe(VCC)
+);
+defparam test_out_0_.operation_mode = "output";
+// @2:18
+  maxii_io AD_CLK_out (
+	.padio(AD_CLK),
+	.datain(un15_AD_CLK_x[0]),
+	.oe(VCC)
+);
+defparam AD_CLK_out.operation_mode = "output";
+// @2:17
+  maxii_io AD_CS_out (
+	.padio(AD_CS),
+	.datain(AD_CS_1_i),
+	.oe(VCC)
+);
+defparam AD_CS_out.operation_mode = "output";
+// @2:16
+  maxii_io IRQ4_out (
+	.padio(IRQ4),
+	.datain(un11_IRQ4),
+	.oe(VCC)
+);
+defparam IRQ4_out.operation_mode = "output";
+  assign  nCPLDCE_c_i = ~ nCPLDCE_c;
+  assign  un1_wilclk_cnt124_i_i = ~ un1_wilclk_cnt124_i;
+  assign  ADcnt19_i_i = ~ ADcnt19_i;
+  assign  wigend_bitcnt52_i = ~ wigend_bitcnt52;
+endmodule /* pld */
+

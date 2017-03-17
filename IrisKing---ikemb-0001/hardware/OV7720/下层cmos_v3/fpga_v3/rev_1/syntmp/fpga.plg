@@ -1,0 +1,7 @@
+@P:  Part : EP2C5TC144-7
+@P:  Worst Slack : NA
+@P: FPGA Part : ep2c5tc144-7
+@P: FPGA I/O ATOMs : 28
+@P: FPGA Cyclone II_lcell_comb : 0 ATOMs of 4608
+@P: FPGA Cyclone II_lcell_ff : 0 ATOMs of 4608
+@P: FPGA DSP Blocks : 0 (0 nine bit DSP elements)

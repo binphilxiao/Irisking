@@ -1,0 +1,111 @@
+#
+# Synplicity Verification Interface File
+# Generated using Synplify-pro
+#
+# Copyright (c) 1996-2004 Synplicity, Inc.
+# All rights reserved
+#
+
+global env
+# Set logfile options
+vif_set_result_file  buffer.vlf
+
+# RTL and technology files
+vif_add_library -original $env(QUARTUS_ROOTDIR)/eda/fv_lib/verilog
+vif_add_file -original  -verilog ../buffer.v
+vif_add_file -original  -verilog ../Wigend_in.v
+vif_add_file -original  -verilog ../wigend_out.v
+vif_set_top_module -original -top buffer
+ 
+vif_add_library -translated $env(QUARTUS_ROOTDIR)/eda/fv_lib/verilog
+vif_add_file -translated -verilog buffer.vqm
+vif_set_top_module -translated -top buffer 
+
+
+# Read FSM encoding
+
+
+# Memory map points
+# Memory redundancies
+
+
+# SRL redundancies
+# SRL map points
+
+# Compiler merged registers
+
+# Compiler pruned constant registers
+
+
+# RTL sequential redundancies
+
+# Technology sequential redundancies
+
+# Inverted map points
+vif_set_map_point -register -inverted -original wigend_in/overtime_delay1 -translated wigend_in/overtime_delay1_i_0_Z
+vif_set_map_point -register -inverted -original wigend_in/overtime_delay3 -translated wigend_in/overtime_delay3_i_Z
+vif_set_map_point -register -inverted -original wigend_in/overtime_delay2 -translated wigend_in/overtime_delay2_i_Z
+vif_set_map_point -register -inverted -original wigend_in/wil_clk_tmp -translated wigend_in/wil_clk_tmp_i_0_Z
+vif_set_map_point -register -inverted -original wigend_in/wil_clk -translated wigend_in/wil_clk_i_0_Z
+vif_set_map_point -register -inverted -original wigend_in/overtime -translated wigend_in/overtime_i_Z
+
+# Port directions
+
+# Black box mapping
+
+
+# Register pruning
+vif_set_constant -original -1 wigend_in/wigend_buf[24]
+vif_set_constant -original -1 wigend_in/wigend_buf[23]
+vif_set_constant -original -1 wigend_in/wigend_buf[22]
+vif_set_constant -original -1 wigend_in/wigend_buf[21]
+vif_set_constant -original -1 wigend_in/wigend_buf[20]
+vif_set_constant -original -1 wigend_in/wigend_buf[19]
+vif_set_constant -original -1 wigend_in/wigend_buf[18]
+vif_set_constant -original -1 wigend_in/wigend_buf[17]
+vif_set_constant -original -1 wigend_in/wigend_buf[16]
+vif_set_constant -original -1 wigend_in/wigend_buf[15]
+vif_set_constant -original -1 wigend_in/wigend_buf[14]
+vif_set_constant -original -1 wigend_in/wigend_buf[13]
+vif_set_constant -original -1 wigend_in/wigend_buf[12]
+vif_set_constant -original -1 wigend_in/wigend_buf[11]
+vif_set_constant -original -1 wigend_in/wigend_buf[10]
+vif_set_constant -original -1 wigend_in/wigend_buf[9]
+vif_set_constant -original -1 wigend_in/wigend_buf[8]
+vif_set_constant -original -1 wigend_in/wigend_buf[7]
+vif_set_constant -original -1 wigend_in/wigend_buf[6]
+vif_set_constant -original -1 wigend_in/wigend_buf[5]
+vif_set_constant -original -1 wigend_in/wigend_buf[4]
+vif_set_constant -original -1 wigend_in/wigend_buf[3]
+vif_set_constant -original -1 wigend_in/wigend_buf[2]
+vif_set_constant -original -1 wigend_in/wigend_buf[1]
+vif_set_constant -original -1 wigend_in/wigend_buf[0]
+vif_set_constant -original -1 wigend_in/data[25]
+vif_set_constant -original -1 wigend_in/data[24]
+vif_set_constant -original -1 wigend_in/data[23]
+vif_set_constant -original -1 wigend_in/data[22]
+vif_set_constant -original -1 wigend_in/data[21]
+vif_set_constant -original -1 wigend_in/data[20]
+vif_set_constant -original -1 wigend_in/data[19]
+vif_set_constant -original -1 wigend_in/data[18]
+vif_set_constant -original -1 wigend_in/data[17]
+vif_set_constant -original -1 wigend_in/data[16]
+vif_set_constant -original -1 wigend_in/data[15]
+vif_set_constant -original -1 wigend_in/data[14]
+vif_set_constant -original -1 wigend_in/data[13]
+vif_set_constant -original -1 wigend_in/data[12]
+vif_set_constant -original -1 wigend_in/data[11]
+vif_set_constant -original -1 wigend_in/data[10]
+vif_set_constant -original -1 wigend_in/data[9]
+vif_set_constant -original -1 wigend_in/data[8]
+vif_set_constant -original -1 wigend_in/data[7]
+vif_set_constant -original -1 wigend_in/data[6]
+vif_set_constant -original -1 wigend_in/data[5]
+vif_set_constant -original -1 wigend_in/data[4]
+vif_set_constant -original -1 wigend_in/data[3]
+vif_set_constant -original -1 wigend_in/data[2]
+vif_set_constant -original -1 wigend_in/data[1]
+vif_set_constant -original -1 wigend_in/data[0]
+vif_set_constant -original -1 wigend_in/wil1
+vif_set_constant -original -1 wigend_in/wil0
+

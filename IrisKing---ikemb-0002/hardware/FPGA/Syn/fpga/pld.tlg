@@ -1,0 +1,15 @@
+Selecting top level module pld
+Synthesizing module Wigend_In
+Synthesizing module Wigend_Out
+Synthesizing module adc
+Synthesizing module Keyboard
+@N: CL201 :"D:\project\IRISking\ikemb-0002\project\hardware\FPGA\Keyboard.v":32:1:32:6|Trying to extract state machine for register Keyboard_out
+Extracted state machine for register Keyboard_out
+State machine has 4 reachable states with original encodings of:
+   0001
+   0010
+   0100
+   1000
+Synthesizing module Button
+Synthesizing module pld
+@W: CL157 :"D:\project\IRISking\ikemb-0002\project\hardware\FPGA\pld.v":204:13:204:16|*Output nWAIT has undriven bits - a simulation mismatch is possible 

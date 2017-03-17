@@ -1,0 +1,124 @@
+
+n work pld verilog;
+
+gi wil_clk;
+ai .clock "NONE";
+ai .clock_edge "rise";
+ai .async_set "n:un1_nReset";
+gp C;
+ap .is_clock 1;
+ap .clock "NONE";
+ap .clock_edge "rise";
+
+gi overtime_delay2;
+ai .clock "NONE";
+ai .clock_edge "rise";
+ai .async_set "n:un1_nReset";
+gp C;
+ap .is_clock 1;
+ap .clock "NONE";
+ap .clock_edge "rise";
+
+gi overtime_delay3;
+ai .clock "NONE";
+ai .clock_edge "rise";
+ai .async_set "n:un1_nReset";
+gp C;
+ap .is_clock 1;
+ap .clock "NONE";
+ap .clock_edge "rise";
+
+gi wil0;
+ai .clock "NONE";
+ai .clock_edge "rise";
+ai .async_set "n:un1_nReset";
+gp C;
+ap .is_clock 1;
+ap .clock "NONE";
+ap .clock_edge "rise";
+
+gi wil1;
+ai .clock "NONE";
+ai .clock_edge "rise";
+ai .async_set "n:un1_nReset";
+gp C;
+ap .is_clock 1;
+ap .clock "NONE";
+ap .clock_edge "rise";
+
+gi wil_clk_tmp;
+ai .clock "NONE";
+ai .clock_edge "rise";
+ai .async_set "n:un1_nReset";
+gp C;
+ap .is_clock 1;
+ap .clock "NONE";
+ap .clock_edge "rise";
+
+gi eint11;
+ai .clock "NONE";
+ai .clock_edge "rise";
+ai .clock_enable "n:un1_eint1113_1";
+ai .async_set "n:un1_nReset";
+gp C;
+ap .is_clock 1;
+ap .clock "NONE";
+ap .clock_edge "rise";
+
+gi wigend_reg[25:0];
+ai .clock "NONE";
+ai .clock_edge "rise";
+ai .clock_enable "n:un1_wigend_buf56_1";
+ai .async_reset "n:un1_nReset";
+gp C;
+ap .is_clock 1;
+ap .clock "NONE";
+ap .clock_edge "rise";
+
+gi overtime;
+ai .clock "NONE";
+ai .clock_edge "rise";
+ai .async_set "n:un1_nReset";
+gp C;
+ap .is_clock 1;
+ap .clock "NONE";
+ap .clock_edge "rise";
+
+gi overtime_delay1;
+ai .clock "NONE";
+ai .clock_edge "rise";
+ai .async_set "n:un1_nReset";
+gp C;
+ap .is_clock 1;
+ap .clock "NONE";
+ap .clock_edge "rise";
+
+gi wigend_bitcnt[4:0];
+ai .clock "NONE";
+ai .clock_edge "rise";
+ai .async_reset "n:un1_nReset";
+gp C;
+ap .is_clock 1;
+ap .clock "NONE";
+ap .clock_edge "rise";
+
+gi wigend_buf[24:0];
+ai .clock "NONE";
+ai .clock_edge "rise";
+ai .clock_enable "n:un1_wil_clk_tmp";
+ai .async_reset "n:un1_nReset";
+gp C;
+ap .is_clock 1;
+ap .clock "NONE";
+ap .clock_edge "rise";
+
+gi wilclk_cnt[12:0];
+ai .clock "NONE";
+ai .clock_edge "rise";
+ai .async_reset "n:un1_nReset";
+gp C;
+ap .is_clock 1;
+ap .clock "NONE";
+ap .clock_edge "rise";
+av .syn_compile_point 1;
+av .compile_point_name pld;

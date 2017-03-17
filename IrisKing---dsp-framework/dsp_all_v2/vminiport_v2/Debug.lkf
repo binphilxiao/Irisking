@@ -1,0 +1,6 @@
+-r
+"E:\project\IRISking\dsp"
+"E:\project\IRISking\dsp-framework\dsp_all_v2\vminiport_v2\Debug\atmel.o64"
+"E:\project\IRISking\dsp-framework\dsp_all_v2\vminiport_v2\Debug\atmel_gpa.o64"
+"E:\project\IRISking\dsp-framework\dsp_all_v2\vminiport_v2\Debug\gpio_i2c.o64"
+"E:\project\IRISking\dsp-framework\dsp_all_v2\vminiport_v2\Debug\verify.o64"

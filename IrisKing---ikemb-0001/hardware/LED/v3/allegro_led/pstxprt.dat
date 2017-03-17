@@ -1,0 +1,235 @@
+FILE_TYPE = EXPANDEDPARTLIST;
+{ Using PSTWRITER 16.0.0 p001Nov-17-2011 at 13:21:01 }
+DIRECTIVES
+ PST_VERSION='PST_HDL_CENTRIC_VERSION_0';
+ ROOT_DRAWING='LED';
+ POST_TIME='May 29 2007 22:04:31';
+ SOURCE_TOOL='CAPTURE_WRITER';
+END_DIRECTIVES;
+
+PART_NAME
+ D1 'DIODE_0_LED_780NM':;
+
+SECTION_NUMBER 1
+ '@LED.SCHEMATIC1(SCH_1):INS16616382@LED.DIODE_0.NORMAL(CHIPS)':
+ C_PATH='@led.schematic1(sch_1):ins16616382@led.\diode_0.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ D10 'DIODE PIN_LED_850NM':;
+
+SECTION_NUMBER 1
+ '@LED.SCHEMATIC1(SCH_1):INS16616574@DISCRETE.DIODE PIN.NORMAL(CHIPS)':
+ C_PATH='@led.schematic1(sch_1):ins16616574@discrete.\diode pin.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ D11 'DIODE PIN_LED_850NM':;
+
+SECTION_NUMBER 1
+ '@LED.SCHEMATIC1(SCH_1):INS16616590@DISCRETE.DIODE PIN.NORMAL(CHIPS)':
+ C_PATH='@led.schematic1(sch_1):ins16616590@discrete.\diode pin.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ D12 'DIODE PIN_LED_850NM':;
+
+SECTION_NUMBER 1
+ '@LED.SCHEMATIC1(SCH_1):INS16616614@DISCRETE.DIODE PIN.NORMAL(CHIPS)':
+ C_PATH='@led.schematic1(sch_1):ins16616614@discrete.\diode pin.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ D13 'DIODE_0_LED_780NM':;
+
+SECTION_NUMBER 1
+ '@LED.SCHEMATIC1(SCH_1):INS16616630@LED.DIODE_0.NORMAL(CHIPS)':
+ C_PATH='@led.schematic1(sch_1):ins16616630@led.\diode_0.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ D14 'DIODE_0_LED_850NM':;
+
+SECTION_NUMBER 1
+ '@LED.SCHEMATIC1(SCH_1):INS16616646@LED.DIODE_0.NORMAL(CHIPS)':
+ C_PATH='@led.schematic1(sch_1):ins16616646@led.\diode_0.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ D15 'DIODE PIN_LED_780NM':;
+
+SECTION_NUMBER 1
+ '@LED.SCHEMATIC1(SCH_1):INS16616662@DISCRETE.DIODE PIN.NORMAL(CHIPS)':
+ C_PATH='@led.schematic1(sch_1):ins16616662@discrete.\diode pin.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ D16 'DIODE PIN_LED_850NM':;
+
+SECTION_NUMBER 1
+ '@LED.SCHEMATIC1(SCH_1):INS16616678@DISCRETE.DIODE PIN.NORMAL(CHIPS)':
+ C_PATH='@led.schematic1(sch_1):ins16616678@discrete.\diode pin.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ D2 'DIODE_0_LED_780NM':;
+
+SECTION_NUMBER 1
+ '@LED.SCHEMATIC1(SCH_1):INS16616414@LED.DIODE_0.NORMAL(CHIPS)':
+ C_PATH='@led.schematic1(sch_1):ins16616414@led.\diode_0.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ D3 'DIODE_0_LED_780NM':;
+
+SECTION_NUMBER 1
+ '@LED.SCHEMATIC1(SCH_1):INS16616430@LED.DIODE_0.NORMAL(CHIPS)':
+ C_PATH='@led.schematic1(sch_1):ins16616430@led.\diode_0.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ D4 'DIODE PIN_LED_780NM':;
+
+SECTION_NUMBER 1
+ '@LED.SCHEMATIC1(SCH_1):INS16616398@DISCRETE.DIODE PIN.NORMAL(CHIPS)':
+ C_PATH='@led.schematic1(sch_1):ins16616398@discrete.\diode pin.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ D5 'DIODE PIN_LED_780NM':;
+
+SECTION_NUMBER 1
+ '@LED.SCHEMATIC1(SCH_1):INS16616494@DISCRETE.DIODE PIN.NORMAL(CHIPS)':
+ C_PATH='@led.schematic1(sch_1):ins16616494@discrete.\diode pin.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ D6 'DIODE PIN_LED_780NM':;
+
+SECTION_NUMBER 1
+ '@LED.SCHEMATIC1(SCH_1):INS16616510@DISCRETE.DIODE PIN.NORMAL(CHIPS)':
+ C_PATH='@led.schematic1(sch_1):ins16616510@discrete.\diode pin.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ D7 'DIODE_0_LED_810NM':;
+
+SECTION_NUMBER 1
+ '@LED.SCHEMATIC1(SCH_1):INS16616446@LED.DIODE_0.NORMAL(CHIPS)':
+ C_PATH='@led.schematic1(sch_1):ins16616446@led.\diode_0.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ D8 'DIODE_0_LED_850NM':;
+
+SECTION_NUMBER 1
+ '@LED.SCHEMATIC1(SCH_1):INS16616462@LED.DIODE_0.NORMAL(CHIPS)':
+ C_PATH='@led.schematic1(sch_1):ins16616462@led.\diode_0.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ D9 'DIODE_0_LED_850NM':;
+
+SECTION_NUMBER 1
+ '@LED.SCHEMATIC1(SCH_1):INS16616478@LED.DIODE_0.NORMAL(CHIPS)':
+ C_PATH='@led.schematic1(sch_1):ins16616478@led.\diode_0.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ J1 'CON3_SIP3_SIP2.54_3*1':;
+
+SECTION_NUMBER 1
+ '@LED.SCHEMATIC1(SCH_1):INS16617097@CONNECTOR.CON3.NORMAL(CHIPS)':
+ C_PATH='@led.schematic1(sch_1):ins16617097@connector.\con3.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ R124 'R_0603_300':;
+
+SECTION_NUMBER 1
+ '@LED.SCHEMATIC1(SCH_1):INS16606806@DISCRETE.R.NORMAL(CHIPS)':
+ C_PATH='@led.schematic1(sch_1):ins16606806@discrete.\r.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ R132 'R_1206_NOP':;
+
+SECTION_NUMBER 1
+ '@LED.SCHEMATIC1(SCH_1):INS16607372@DISCRETE.R.NORMAL(CHIPS)':
+ C_PATH='@led.schematic1(sch_1):ins16607372@discrete.\r.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ R89 'R_1206_82':;
+
+SECTION_NUMBER 1
+ '@LED.SCHEMATIC1(SCH_1):INS16607154@DISCRETE.R.NORMAL(CHIPS)':
+ C_PATH='@led.schematic1(sch_1):ins16607154@discrete.\r.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ R90 'R_1206_82':;
+
+SECTION_NUMBER 1
+ '@LED.SCHEMATIC1(SCH_1):INS16618907@DISCRETE.R.NORMAL(CHIPS)':
+ C_PATH='@led.schematic1(sch_1):ins16618907@discrete.\r.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ R91 'R_1206_82':;
+
+SECTION_NUMBER 1
+ '@LED.SCHEMATIC1(SCH_1):INS16619001@DISCRETE.R.NORMAL(CHIPS)':
+ C_PATH='@led.schematic1(sch_1):ins16619001@discrete.\r.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ R92 'R_1206_82':;
+
+SECTION_NUMBER 1
+ '@LED.SCHEMATIC1(SCH_1):INS16619062@DISCRETE.R.NORMAL(CHIPS)':
+ C_PATH='@led.schematic1(sch_1):ins16619062@discrete.\r.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ R93 'R_1206_82':;
+
+SECTION_NUMBER 1
+ '@LED.SCHEMATIC1(SCH_1):INS16619124@DISCRETE.R.NORMAL(CHIPS)':
+ C_PATH='@led.schematic1(sch_1):ins16619124@discrete.\r.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ U52 'PS2502-1_LBT4_PS2502-1':;
+
+SECTION_NUMBER 1
+ '@LED.SCHEMATIC1(SCH_1):INS16617765@DISCRETE.PS2502-1.NORMAL(CHIPS)':
+ C_PATH='@led.schematic1(sch_1):ins16617765@discrete.\ps2502-1.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+END.

@@ -1,0 +1,56 @@
+(------------------------------------------------------------)
+(                                                            )
+(                    NC DRILL LOG FILE                       )
+(                                                            )
+(        Drawing    : LED.brd                                )
+(        Date/Time  : Mon Nov 21 11:07:25 2011               )
+(                                                            )
+(------------------------------------------------------------)
+
+
+
+ Processing NC Parameters file ...
+
+ NC PARAMETERS
+ -------------
+
+ FORMAT   		2.3
+ MACHINE-OFFSET		x:0.000000	y:0.000000
+ FEEDRATE		1
+ COORDINATES		ABSOLUTE
+ OUTPUT-UNITS		ENGLISH
+ TOOL-ORDER		INCREASING
+ REPEAT-CODES		YES
+ SUPPRESS-LEAD-ZEROES	NO
+ SUPPRESS-TRAIL-ZEROES	NO
+ SUPPRESS-EQUAL		NO
+ TOOL-SELECT		NO
+ HEADER			none
+ LEADER			12
+ CODE			ASCII
+ SEPARATE		NO
+ OPTIMIZE_DRILLING	NO
+ ENHANCED_EXCELLON	NO
+ SCALE			1.000000
+
+ WARNING: Design precision is greater than that of the drill output file data.
+          Data rounding errors are very possible.
+
+
+ Drill files being output to directory '' ...
+
+
+
+     'LED-1-2.drl' created for holes connecting TOP and BOTTOM
+     ---------------------------------------------------------
+
+           Num     Size      +/- Tolerance     Plating   Quantity
+
+            1.  30.0000    0.0000/  0.0000      PLATED         32
+            2.  35.0000    0.0000/  0.0000      PLATED          3
+            3. 140.0000    0.0000/  0.0000      PLATED          2
+
+     ---- Total holes:                                         37
+
+     ---- Total head travel:              0.96 feet (0.29 meters)
+

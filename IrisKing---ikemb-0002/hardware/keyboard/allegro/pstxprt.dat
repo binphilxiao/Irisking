@@ -1,0 +1,874 @@
+FILE_TYPE = EXPANDEDPARTLIST;
+{ Using PSTWRITER 15.7.0 p001Dec-17-2009 at 10:23:19 }
+DIRECTIVES
+ PST_VERSION='PST_HDL_CENTRIC_VERSION_0';
+ ROOT_DRAWING='POWER_2679_V8';
+ POST_TIME='May 28 2006 22:05:31';
+ SOURCE_TOOL='CAPTURE_WRITER';
+END_DIRECTIVES;
+
+PART_NAME
+ C1 'CAP NP_0603_0.1UF':;
+
+SECTION_NUMBER 1
+ '@POWER_2679_V8.SCHEMATIC1(SCH_1):INS25079459@DISCRETE.CAP NP.NORMAL(CHIPS)':
+ C_PATH='@power_2679_v8.schematic1(sch_1):ins25079459@discrete.\cap np.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ C10 'CAP NP_0603_0.1UF':;
+
+SECTION_NUMBER 1
+ '@POWER_2679_V8.SCHEMATIC1(SCH_1):INS25244033@DISCRETE.CAP NP.NORMAL(CHIPS)':
+ C_PATH='@power_2679_v8.schematic1(sch_1):ins25244033@discrete.\cap np.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ C2 'CAP NP_0603_0.1UF':;
+
+SECTION_NUMBER 1
+ '@POWER_2679_V8.SCHEMATIC1(SCH_1):INS25244099@DISCRETE.CAP NP.NORMAL(CHIPS)':
+ C_PATH='@power_2679_v8.schematic1(sch_1):ins25244099@discrete.\cap np.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ C255 'CAP NP_0603_0.1UF':;
+
+SECTION_NUMBER 1
+ '@POWER_2679_V8.SCHEMATIC1(SCH_1):INS24897298@DISCRETE.CAP NP.NORMAL(CHIPS)':
+ C_PATH='@power_2679_v8.schematic1(sch_1):ins24897298@discrete.\cap np.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ C256 'CAP NP_0603_0.1UF':;
+
+SECTION_NUMBER 1
+ '@POWER_2679_V8.SCHEMATIC1(SCH_1):INS24923392@DISCRETE.CAP NP.NORMAL(CHIPS)':
+ C_PATH='@power_2679_v8.schematic1(sch_1):ins24923392@discrete.\cap np.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ C257 'CAP NP_0603_0.1UF':;
+
+SECTION_NUMBER 1
+ '@POWER_2679_V8.SCHEMATIC1(SCH_1):INS25253543@DISCRETE.CAP NP.NORMAL(CHIPS)':
+ C_PATH='@power_2679_v8.schematic1(sch_1):ins25253543@discrete.\cap np.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ C259 'CAP NP_0603_0.047UF':;
+
+SECTION_NUMBER 1
+ '@POWER_2679_V8.SCHEMATIC1(SCH_1):INS24897420@DISCRETE.CAP NP.NORMAL(CHIPS)':
+ C_PATH='@power_2679_v8.schematic1(sch_1):ins24897420@discrete.\cap np.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ C260 'CAP NP_0603_0.047UF':;
+
+SECTION_NUMBER 1
+ '@POWER_2679_V8.SCHEMATIC1(SCH_1):INS24923504@DISCRETE.CAP NP.NORMAL(CHIPS)':
+ C_PATH='@power_2679_v8.schematic1(sch_1):ins24923504@discrete.\cap np.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ C262 'CAP NP_0603_0.1UF':;
+
+SECTION_NUMBER 1
+ '@POWER_2679_V8.SCHEMATIC1(SCH_1):INS25034629@DISCRETE.CAP NP.NORMAL(CHIPS)':
+ C_PATH='@power_2679_v8.schematic1(sch_1):ins25034629@discrete.\cap np.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ C263 'CAP NP_0603_0.1UF':;
+
+SECTION_NUMBER 1
+ '@POWER_2679_V8.SCHEMATIC1(SCH_1):INS25053361@DISCRETE.CAP NP.NORMAL(CHIPS)':
+ C_PATH='@power_2679_v8.schematic1(sch_1):ins25053361@discrete.\cap np.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ C264 'CAP POL_7343_100UF/10V':;
+
+SECTION_NUMBER 1
+ '@POWER_2679_V8.SCHEMATIC1(SCH_1):INS24897252@DISCRETE.CAP POL.NORMAL(CHIPS)':
+ C_PATH='@power_2679_v8.schematic1(sch_1):ins24897252@discrete.\cap pol.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ C265 'CAP POL_7343_10UF/10V':;
+
+SECTION_NUMBER 1
+ '@POWER_2679_V8.SCHEMATIC1(SCH_1):INS24897274@DISCRETE.CAP POL.NORMAL(CHIPS)':
+ C_PATH='@power_2679_v8.schematic1(sch_1):ins24897274@discrete.\cap pol.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ C266 'CAP POL_7343_100UF/10V':;
+
+SECTION_NUMBER 1
+ '@POWER_2679_V8.SCHEMATIC1(SCH_1):INS24923346@DISCRETE.CAP POL.NORMAL(CHIPS)':
+ C_PATH='@power_2679_v8.schematic1(sch_1):ins24923346@discrete.\cap pol.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ C267 'CAP POL_7343_10UF/10V':;
+
+SECTION_NUMBER 1
+ '@POWER_2679_V8.SCHEMATIC1(SCH_1):INS24923362@DISCRETE.CAP POL.NORMAL(CHIPS)':
+ C_PATH='@power_2679_v8.schematic1(sch_1):ins24923362@discrete.\cap pol.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ C268 'CAP NP_0603_0.039UF':;
+
+SECTION_NUMBER 1
+ '@POWER_2679_V8.SCHEMATIC1(SCH_1):INS24897240@DISCRETE.CAP NP.NORMAL(CHIPS)':
+ C_PATH='@power_2679_v8.schematic1(sch_1):ins24897240@discrete.\cap np.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ C269 'CAP NP_0603_0.039UF':;
+
+SECTION_NUMBER 1
+ '@POWER_2679_V8.SCHEMATIC1(SCH_1):INS24923330@DISCRETE.CAP NP.NORMAL(CHIPS)':
+ C_PATH='@power_2679_v8.schematic1(sch_1):ins24923330@discrete.\cap np.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ C270 'CAP POL_7343_220UF/10V':;
+
+SECTION_NUMBER 1
+ '@POWER_2679_V8.SCHEMATIC1(SCH_1):INS24939181@DISCRETE.CAP POL.NORMAL(CHIPS)':
+ C_PATH='@power_2679_v8.schematic1(sch_1):ins24939181@discrete.\cap pol.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ C271 'CAP POL_7343_100UF/25V':;
+
+SECTION_NUMBER 1
+ '@POWER_2679_V8.SCHEMATIC1(SCH_1):INS25108928@DISCRETE.CAP POL.NORMAL(CHIPS)':
+ C_PATH='@power_2679_v8.schematic1(sch_1):ins25108928@discrete.\cap pol.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ C272 'CAP NP_0603_0.1UF':;
+
+SECTION_NUMBER 1
+ '@POWER_2679_V8.SCHEMATIC1(SCH_1):INS24897306@DISCRETE.CAP NP.NORMAL(CHIPS)':
+ C_PATH='@power_2679_v8.schematic1(sch_1):ins24897306@discrete.\cap np.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ C273 'CAP NP_0603_0.1UF':;
+
+SECTION_NUMBER 1
+ '@POWER_2679_V8.SCHEMATIC1(SCH_1):INS24923384@DISCRETE.CAP NP.NORMAL(CHIPS)':
+ C_PATH='@power_2679_v8.schematic1(sch_1):ins24923384@discrete.\cap np.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ C274 'CAP NP_1206_10UF':;
+
+SECTION_NUMBER 1
+ '@POWER_2679_V8.SCHEMATIC1(SCH_1):INS25198642@DISCRETE.CAP NP.NORMAL(CHIPS)':
+ C_PATH='@power_2679_v8.schematic1(sch_1):ins25198642@discrete.\cap np.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ C275 'CAP NP_1206_10UF':;
+
+SECTION_NUMBER 1
+ '@POWER_2679_V8.SCHEMATIC1(SCH_1):INS25198927@DISCRETE.CAP NP.NORMAL(CHIPS)':
+ C_PATH='@power_2679_v8.schematic1(sch_1):ins25198927@discrete.\cap np.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ C276 'CAP POL_7343_220UF/10V':;
+
+SECTION_NUMBER 1
+ '@POWER_2679_V8.SCHEMATIC1(SCH_1):INS25057161@DISCRETE.CAP POL.NORMAL(CHIPS)':
+ C_PATH='@power_2679_v8.schematic1(sch_1):ins25057161@discrete.\cap pol.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ C277 'CAP POL_7343_10UF/25V':;
+
+SECTION_NUMBER 1
+ '@POWER_2679_V8.SCHEMATIC1(SCH_1):INS25065770@DISCRETE.CAP POL.NORMAL(CHIPS)':
+ C_PATH='@power_2679_v8.schematic1(sch_1):ins25065770@discrete.\cap pol.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ C278 'CAP POL_7343_10UF/25V':;
+
+SECTION_NUMBER 1
+ '@POWER_2679_V8.SCHEMATIC1(SCH_1):INS25065778@DISCRETE.CAP POL.NORMAL(CHIPS)':
+ C_PATH='@power_2679_v8.schematic1(sch_1):ins25065778@discrete.\cap pol.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ C279 'CAP NP_0603_3300PF':;
+
+SECTION_NUMBER 1
+ '@POWER_2679_V8.SCHEMATIC1(SCH_1):INS24897210@DISCRETE.CAP NP.NORMAL(CHIPS)':
+ C_PATH='@power_2679_v8.schematic1(sch_1):ins24897210@discrete.\cap np.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ C280 'CAP NP_0603_0.01UF':;
+
+SECTION_NUMBER 1
+ '@POWER_2679_V8.SCHEMATIC1(SCH_1):INS24897384@DISCRETE.CAP NP.NORMAL(CHIPS)':
+ C_PATH='@power_2679_v8.schematic1(sch_1):ins24897384@discrete.\cap np.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ C281 'CAP NP_0603_560PF':;
+
+SECTION_NUMBER 1
+ '@POWER_2679_V8.SCHEMATIC1(SCH_1):INS24897428@DISCRETE.CAP NP.NORMAL(CHIPS)':
+ C_PATH='@power_2679_v8.schematic1(sch_1):ins24897428@discrete.\cap np.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ C282 'CAP NP_0603_3300PF':;
+
+SECTION_NUMBER 1
+ '@POWER_2679_V8.SCHEMATIC1(SCH_1):INS24923308@DISCRETE.CAP NP.NORMAL(CHIPS)':
+ C_PATH='@power_2679_v8.schematic1(sch_1):ins24923308@discrete.\cap np.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ C283 'CAP NP_0603_8200PF':;
+
+SECTION_NUMBER 1
+ '@POWER_2679_V8.SCHEMATIC1(SCH_1):INS24923466@DISCRETE.CAP NP.NORMAL(CHIPS)':
+ C_PATH='@power_2679_v8.schematic1(sch_1):ins24923466@discrete.\cap np.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ C284 'CAP NP_0603_330PF':;
+
+SECTION_NUMBER 1
+ '@POWER_2679_V8.SCHEMATIC1(SCH_1):INS24923512@DISCRETE.CAP NP.NORMAL(CHIPS)':
+ C_PATH='@power_2679_v8.schematic1(sch_1):ins24923512@discrete.\cap np.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ C285 'CAP POL_CAP300_680UF/25V':;
+
+SECTION_NUMBER 1
+ '@POWER_2679_V8.SCHEMATIC1(SCH_1):INS24923520@DISCRETE.CAP POL.NORMAL(CHIPS)':
+ C_PATH='@power_2679_v8.schematic1(sch_1):ins24923520@discrete.\cap pol.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ C286 'CAP NP_1206_0.1UF/20V':;
+
+SECTION_NUMBER 1
+ '@POWER_2679_V8.SCHEMATIC1(SCH_1):INS24923538@DISCRETE.CAP NP.NORMAL(CHIPS)':
+ C_PATH='@power_2679_v8.schematic1(sch_1):ins24923538@discrete.\cap np.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ C287 'CAP POL_CAP300_680UF/25V':;
+
+SECTION_NUMBER 1
+ '@POWER_2679_V8.SCHEMATIC1(SCH_1):INS25043081@DISCRETE.CAP POL.NORMAL(CHIPS)':
+ C_PATH='@power_2679_v8.schematic1(sch_1):ins25043081@discrete.\cap pol.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ C288 'CAP POL_7343_100UF/10V':;
+
+SECTION_NUMBER 1
+ '@POWER_2679_V8.SCHEMATIC1(SCH_1):INS25070453@DISCRETE.CAP POL.NORMAL(CHIPS)':
+ C_PATH='@power_2679_v8.schematic1(sch_1):ins25070453@discrete.\cap pol.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ C289 'CAP POL_7343_100UF/10V':;
+
+SECTION_NUMBER 1
+ '@POWER_2679_V8.SCHEMATIC1(SCH_1):INS25070461@DISCRETE.CAP POL.NORMAL(CHIPS)':
+ C_PATH='@power_2679_v8.schematic1(sch_1):ins25070461@discrete.\cap pol.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ C290 'CAP NP_1206_10UF':;
+
+SECTION_NUMBER 1
+ '@POWER_2679_V8.SCHEMATIC1(SCH_1):INS25155016@DISCRETE.CAP NP.NORMAL(CHIPS)':
+ C_PATH='@power_2679_v8.schematic1(sch_1):ins25155016@discrete.\cap np.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ C291 'CAP NP_1206_10UF':;
+
+SECTION_NUMBER 1
+ '@POWER_2679_V8.SCHEMATIC1(SCH_1):INS25155302@DISCRETE.CAP NP.NORMAL(CHIPS)':
+ C_PATH='@power_2679_v8.schematic1(sch_1):ins25155302@discrete.\cap np.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ C292 'CAP POL_7343_220UF/10V':;
+
+SECTION_NUMBER 1
+ '@POWER_2679_V8.SCHEMATIC1(SCH_1):INS25122907@DISCRETE.CAP POL.NORMAL(CHIPS)':
+ C_PATH='@power_2679_v8.schematic1(sch_1):ins25122907@discrete.\cap pol.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ C293 'CAP NP_0603_0.1UF':;
+
+SECTION_NUMBER 1
+ '@POWER_2679_V8.SCHEMATIC1(SCH_1):INS25126031@DISCRETE.CAP NP.NORMAL(CHIPS)':
+ C_PATH='@power_2679_v8.schematic1(sch_1):ins25126031@discrete.\cap np.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ C294 'CAP POL_7343_100UF/25V':;
+
+SECTION_NUMBER 1
+ '@POWER_2679_V8.SCHEMATIC1(SCH_1):INS25225994@DISCRETE.CAP POL.NORMAL(CHIPS)':
+ C_PATH='@power_2679_v8.schematic1(sch_1):ins25225994@discrete.\cap pol.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ C295 'CAP POL_7343_100UF/10V':;
+
+SECTION_NUMBER 1
+ '@POWER_2679_V8.SCHEMATIC1(SCH_1):INS25226002@DISCRETE.CAP POL.NORMAL(CHIPS)':
+ C_PATH='@power_2679_v8.schematic1(sch_1):ins25226002@discrete.\cap pol.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ C296 'CAP POL_7343_100UF/10V':;
+
+SECTION_NUMBER 1
+ '@POWER_2679_V8.SCHEMATIC1(SCH_1):INS25253523@DISCRETE.CAP POL.NORMAL(CHIPS)':
+ C_PATH='@power_2679_v8.schematic1(sch_1):ins25253523@discrete.\cap pol.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ C297 'CAP POL_7343_10UF/10V':;
+
+SECTION_NUMBER 1
+ '@POWER_2679_V8.SCHEMATIC1(SCH_1):INS25253535@DISCRETE.CAP POL.NORMAL(CHIPS)':
+ C_PATH='@power_2679_v8.schematic1(sch_1):ins25253535@discrete.\cap pol.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ C9 'CAP NP_0603_0.1UF':;
+
+SECTION_NUMBER 1
+ '@POWER_2679_V8.SCHEMATIC1(SCH_1):INS25079368@DISCRETE.CAP NP.NORMAL(CHIPS)':
+ C_PATH='@power_2679_v8.schematic1(sch_1):ins25079368@discrete.\cap np.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ D6 'DIODE SCHOTTKY_D2220_SCHOTTKY M':;
+
+SECTION_NUMBER 1
+ '@POWER_2679_V8.SCHEMATIC1(SCH_1):INS25090103@DISCRETE.DIODE SCHOTTKY.NORMAL(CHIPS)':
+ C_PATH='@power_2679_v8.schematic1(sch_1):ins25090103@discrete.\diode schottky.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ D7 'DIODE SCHOTTKY_D2220_SCHOTTKY M':;
+
+SECTION_NUMBER 1
+ '@POWER_2679_V8.SCHEMATIC1(SCH_1):INS25243999@DISCRETE.DIODE SCHOTTKY.NORMAL(CHIPS)':
+ C_PATH='@power_2679_v8.schematic1(sch_1):ins25243999@discrete.\diode schottky.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ J41 'HEADER 4_POWER_REC4_HEADER 4':;
+
+SECTION_NUMBER 1
+ '@POWER_2679_V8.SCHEMATIC1(SCH_1):INS24926322@CONNECTOR.HEADER 4.NORMAL(CHIPS)':
+ C_PATH='@power_2679_v8.schematic1(sch_1):ins24926322@connector.\header 4.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ J42 'HEADER 4_POWER4_HEADER 4':;
+
+SECTION_NUMBER 1
+ '@POWER_2679_V8.SCHEMATIC1(SCH_1):INS24924501@CONNECTOR.HEADER 4.NORMAL(CHIPS)':
+ C_PATH='@power_2679_v8.schematic1(sch_1):ins24924501@connector.\header 4.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ J45 'HEADER 2_SIP2_HEADER 2':;
+
+SECTION_NUMBER 1
+ '@POWER_2679_V8.SCHEMATIC1(SCH_1):INS25036453@CONNECTOR.HEADER 2.NORMAL(CHIPS)':
+ C_PATH='@power_2679_v8.schematic1(sch_1):ins25036453@connector.\header 2.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ J46 'HEADER 2_SIP2_HEADER 2':;
+
+SECTION_NUMBER 1
+ '@POWER_2679_V8.SCHEMATIC1(SCH_1):INS25037761@CONNECTOR.HEADER 2.NORMAL(CHIPS)':
+ C_PATH='@power_2679_v8.schematic1(sch_1):ins25037761@connector.\header 2.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ J47 'HEADER 2_SIP2_HEADER 2':;
+
+SECTION_NUMBER 1
+ '@POWER_2679_V8.SCHEMATIC1(SCH_1):INS25110893@CONNECTOR.HEADER 2.NORMAL(CHIPS)':
+ C_PATH='@power_2679_v8.schematic1(sch_1):ins25110893@connector.\header 2.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ J48 'HEADER 2_SIP2_HEADER 2':;
+
+SECTION_NUMBER 1
+ '@POWER_2679_V8.SCHEMATIC1(SCH_1):INS25225960@CONNECTOR.HEADER 2.NORMAL(CHIPS)':
+ C_PATH='@power_2679_v8.schematic1(sch_1):ins25225960@connector.\header 2.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ J49 'HEADER 2_SIP2_HEADER 2':;
+
+SECTION_NUMBER 1
+ '@POWER_2679_V8.SCHEMATIC1(SCH_1):INS25232282@CONNECTOR.HEADER 2.NORMAL(CHIPS)':
+ C_PATH='@power_2679_v8.schematic1(sch_1):ins25232282@connector.\header 2.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ J50 'HEADER 2_SIP2_HEADER 2':;
+
+SECTION_NUMBER 1
+ '@POWER_2679_V8.SCHEMATIC1(SCH_1):INS25237398@CONNECTOR.HEADER 2.NORMAL(CHIPS)':
+ C_PATH='@power_2679_v8.schematic1(sch_1):ins25237398@connector.\header 2.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ J51 'HEADER 2_SIP2_HEADER 2':;
+
+SECTION_NUMBER 1
+ '@POWER_2679_V8.SCHEMATIC1(SCH_1):INS25245117@CONNECTOR.HEADER 2.NORMAL(CHIPS)':
+ C_PATH='@power_2679_v8.schematic1(sch_1):ins25245117@connector.\header 2.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ J52 'HEADER 2_SIP2_HEADER 2':;
+
+SECTION_NUMBER 1
+ '@POWER_2679_V8.SCHEMATIC1(SCH_1):INS25271018@CONNECTOR.HEADER 2.NORMAL(CHIPS)':
+ C_PATH='@power_2679_v8.schematic1(sch_1):ins25271018@connector.\header 2.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ J53 'HEADER 2_SIP2_HEADER 2':;
+
+SECTION_NUMBER 1
+ '@POWER_2679_V8.SCHEMATIC1(SCH_1):INS25272584@CONNECTOR.HEADER 2.NORMAL(CHIPS)':
+ C_PATH='@power_2679_v8.schematic1(sch_1):ins25272584@connector.\header 2.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ J54 'HEADER 2_SIP2_HEADER 2':;
+
+SECTION_NUMBER 1
+ '@POWER_2679_V8.SCHEMATIC1(SCH_1):INS25272964@CONNECTOR.HEADER 2.NORMAL(CHIPS)':
+ C_PATH='@power_2679_v8.schematic1(sch_1):ins25272964@connector.\header 2.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ J55 'HEADER 2_SIP2_HEADER 2':;
+
+SECTION_NUMBER 1
+ '@POWER_2679_V8.SCHEMATIC1(SCH_1):INS25273344@CONNECTOR.HEADER 2.NORMAL(CHIPS)':
+ C_PATH='@power_2679_v8.schematic1(sch_1):ins25273344@connector.\header 2.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ L1 'INDUCTOR_IND-3A_22UH/3A':;
+
+SECTION_NUMBER 1
+ '@POWER_2679_V8.SCHEMATIC1(SCH_1):INS25079439@DISCRETE.INDUCTOR.NORMAL(CHIPS)':
+ C_PATH='@power_2679_v8.schematic1(sch_1):ins25079439@discrete.\inductor.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ L2 'INDUCTOR_IND-3A_BEAD 2220':;
+
+SECTION_NUMBER 1
+ '@POWER_2679_V8.SCHEMATIC1(SCH_1):INS25141532@DISCRETE.INDUCTOR.NORMAL(CHIPS)':
+ C_PATH='@power_2679_v8.schematic1(sch_1):ins25141532@discrete.\inductor.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ L25 'INDUCTOR_IND-15A_3.3UH/1.5A':;
+
+SECTION_NUMBER 1
+ '@POWER_2679_V8.SCHEMATIC1(SCH_1):INS24897282@DISCRETE.INDUCTOR.NORMAL(CHIPS)':
+ C_PATH='@power_2679_v8.schematic1(sch_1):ins24897282@discrete.\inductor.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ L26 'INDUCTOR_IND-15A_3.3UH/1.5A':;
+
+SECTION_NUMBER 1
+ '@POWER_2679_V8.SCHEMATIC1(SCH_1):INS24923376@DISCRETE.INDUCTOR.NORMAL(CHIPS)':
+ C_PATH='@power_2679_v8.schematic1(sch_1):ins24923376@discrete.\inductor.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ L3 'INDUCTOR_IND-3A_22UH/3A':;
+
+SECTION_NUMBER 1
+ '@POWER_2679_V8.SCHEMATIC1(SCH_1):INS25244087@DISCRETE.INDUCTOR.NORMAL(CHIPS)':
+ C_PATH='@power_2679_v8.schematic1(sch_1):ins25244087@discrete.\inductor.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ Q12 '2N7002_SOT-23_2N7000':;
+
+SECTION_NUMBER 1
+ '@POWER_2679_V8.SCHEMATIC1(SCH_1):INS25262631@TRANSISTOR.2N7002.NORMAL(CHIPS)':
+ C_PATH='@power_2679_v8.schematic1(sch_1):ins25262631@transistor.\2n7002.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ Q13 '2N7002_SOT-23_2N7000':;
+
+SECTION_NUMBER 1
+ '@POWER_2679_V8.SCHEMATIC1(SCH_1):INS25263133@TRANSISTOR.2N7002.NORMAL(CHIPS)':
+ C_PATH='@power_2679_v8.schematic1(sch_1):ins25263133@transistor.\2n7002.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ R130 'R_0402_NOP':;
+
+SECTION_NUMBER 1
+ '@POWER_2679_V8.SCHEMATIC1(SCH_1):INS25262621@DISCRETE.R.NORMAL(CHIPS)':
+ C_PATH='@power_2679_v8.schematic1(sch_1):ins25262621@discrete.\r.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ R131 'R_0402_NOP':;
+
+SECTION_NUMBER 1
+ '@POWER_2679_V8.SCHEMATIC1(SCH_1):INS25263123@DISCRETE.R.NORMAL(CHIPS)':
+ C_PATH='@power_2679_v8.schematic1(sch_1):ins25263123@discrete.\r.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ R132 'R_0402_10K':;
+
+SECTION_NUMBER 1
+ '@POWER_2679_V8.SCHEMATIC1(SCH_1):INS25262640@DISCRETE.R.NORMAL(CHIPS)':
+ C_PATH='@power_2679_v8.schematic1(sch_1):ins25262640@discrete.\r.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ R133 'R_0402_10K':;
+
+SECTION_NUMBER 1
+ '@POWER_2679_V8.SCHEMATIC1(SCH_1):INS25263142@DISCRETE.R.NORMAL(CHIPS)':
+ C_PATH='@power_2679_v8.schematic1(sch_1):ins25263142@discrete.\r.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ R176 'R_0603_71.5K 1%':;
+
+SECTION_NUMBER 1
+ '@POWER_2679_V8.SCHEMATIC1(SCH_1):INS24897314@DISCRETE.R.NORMAL(CHIPS)':
+ C_PATH='@power_2679_v8.schematic1(sch_1):ins24897314@discrete.\r.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ R177 'R_0603_71.5K 1%':;
+
+SECTION_NUMBER 1
+ '@POWER_2679_V8.SCHEMATIC1(SCH_1):INS24923406@DISCRETE.R.NORMAL(CHIPS)':
+ C_PATH='@power_2679_v8.schematic1(sch_1):ins24923406@discrete.\r.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ R187 'R_0603_107 1%':;
+
+SECTION_NUMBER 1
+ '@POWER_2679_V8.SCHEMATIC1(SCH_1):INS24897396@DISCRETE.R.NORMAL(CHIPS)':
+ C_PATH='@power_2679_v8.schematic1(sch_1):ins24897396@discrete.\r.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ R188 'R_0603_10K 1%':;
+
+SECTION_NUMBER 1
+ '@POWER_2679_V8.SCHEMATIC1(SCH_1):INS24897404@DISCRETE.R.NORMAL(CHIPS)':
+ C_PATH='@power_2679_v8.schematic1(sch_1):ins24897404@discrete.\r.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ R189 'R_0603_1.65K 1%':;
+
+SECTION_NUMBER 1
+ '@POWER_2679_V8.SCHEMATIC1(SCH_1):INS24897412@DISCRETE.R.NORMAL(CHIPS)':
+ C_PATH='@power_2679_v8.schematic1(sch_1):ins24897412@discrete.\r.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ R190 'R_0603_17.4K 1%':;
+
+SECTION_NUMBER 1
+ '@POWER_2679_V8.SCHEMATIC1(SCH_1):INS24897546@DISCRETE.R.NORMAL(CHIPS)':
+ C_PATH='@power_2679_v8.schematic1(sch_1):ins24897546@discrete.\r.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ R191 'R_0603_107 1%':;
+
+SECTION_NUMBER 1
+ '@POWER_2679_V8.SCHEMATIC1(SCH_1):INS24923478@DISCRETE.R.NORMAL(CHIPS)':
+ C_PATH='@power_2679_v8.schematic1(sch_1):ins24923478@discrete.\r.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ R192 'R_0603_10K 1%':;
+
+SECTION_NUMBER 1
+ '@POWER_2679_V8.SCHEMATIC1(SCH_1):INS24923486@DISCRETE.R.NORMAL(CHIPS)':
+ C_PATH='@power_2679_v8.schematic1(sch_1):ins24923486@discrete.\r.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ R193 'R_0603_2K 1%':;
+
+SECTION_NUMBER 1
+ '@POWER_2679_V8.SCHEMATIC1(SCH_1):INS24923494@DISCRETE.R.NORMAL(CHIPS)':
+ C_PATH='@power_2679_v8.schematic1(sch_1):ins24923494@discrete.\r.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ R194 'R_0603_3.64K 1%':;
+
+SECTION_NUMBER 1
+ '@POWER_2679_V8.SCHEMATIC1(SCH_1):INS24923584@DISCRETE.R.NORMAL(CHIPS)':
+ C_PATH='@power_2679_v8.schematic1(sch_1):ins24923584@discrete.\r.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ R197 'R_7343_NOP':;
+
+SECTION_NUMBER 1
+ '@POWER_2679_V8.SCHEMATIC1(SCH_1):INS24978772@DISCRETE.R.NORMAL(CHIPS)':
+ C_PATH='@power_2679_v8.schematic1(sch_1):ins24978772@discrete.\r.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ R198 'R_7343_R':;
+
+SECTION_NUMBER 1
+ '@POWER_2679_V8.SCHEMATIC1(SCH_1):INS25232876@DISCRETE.R.NORMAL(CHIPS)':
+ C_PATH='@power_2679_v8.schematic1(sch_1):ins25232876@discrete.\r.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ R4 'R_0603_5.1K':;
+
+SECTION_NUMBER 1
+ '@POWER_2679_V8.SCHEMATIC1(SCH_1):INS25079380@DISCRETE.R.NORMAL(CHIPS)':
+ C_PATH='@power_2679_v8.schematic1(sch_1):ins25079380@discrete.\r.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ R5 'R_0603_5.1K':;
+
+SECTION_NUMBER 1
+ '@POWER_2679_V8.SCHEMATIC1(SCH_1):INS25244045@DISCRETE.R.NORMAL(CHIPS)':
+ C_PATH='@power_2679_v8.schematic1(sch_1):ins25244045@discrete.\r.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ R6 'R_0603_5.1K':;
+
+SECTION_NUMBER 1
+ '@POWER_2679_V8.SCHEMATIC1(SCH_1):INS25248000@DISCRETE.R.NORMAL(CHIPS)':
+ C_PATH='@power_2679_v8.schematic1(sch_1):ins25248000@discrete.\r.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ R7 'R_0603_5.1K':;
+
+SECTION_NUMBER 1
+ '@POWER_2679_V8.SCHEMATIC1(SCH_1):INS25249015@DISCRETE.R.NORMAL(CHIPS)':
+ C_PATH='@power_2679_v8.schematic1(sch_1):ins25249015@discrete.\r.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ U2 'LM2678_2_TO263-7_LM2679-5V':;
+
+SECTION_NUMBER 1
+ '@POWER_2679_V8.SCHEMATIC1(SCH_1):INS25079410@DM642.LM2678_2.NORMAL(CHIPS)':
+ C_PATH='@power_2679_v8.schematic1(sch_1):ins25079410@dm642.\lm2678_2.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ U3 'LM2678_2_TO263-7_LM2679-5V':;
+
+SECTION_NUMBER 1
+ '@POWER_2679_V8.SCHEMATIC1(SCH_1):INS25244065@DM642.LM2678_2.NORMAL(CHIPS)':
+ C_PATH='@power_2679_v8.schematic1(sch_1):ins25244065@dm642.\lm2678_2.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ U42 'LD1117/DD_2_EMI_FILTER2_0*4 120':;
+
+SECTION_NUMBER 1
+ '@POWER_2679_V8.SCHEMATIC1(SCH_1):INS25090687@DM642.LD1117/DD_2.NORMAL(CHIPS)':
+ C_PATH='@power_2679_v8.schematic1(sch_1):ins25090687@dm642.\ld1117/dd_2.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ U43 'TPS54310_0_TSSOP-20_TPS54310':;
+
+SECTION_NUMBER 1
+ '@POWER_2679_V8.SCHEMATIC1(SCH_1):INS24897330@DM642.TPS54310_0.NORMAL(CHIPS)':
+ C_PATH='@power_2679_v8.schematic1(sch_1):ins24897330@dm642.\tps54310_0.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ U44 'TPS54310_0_TSSOP-20_TPS54310':;
+
+SECTION_NUMBER 1
+ '@POWER_2679_V8.SCHEMATIC1(SCH_1):INS24923416@DM642.TPS54310_0.NORMAL(CHIPS)':
+ C_PATH='@power_2679_v8.schematic1(sch_1):ins24923416@dm642.\tps54310_0.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ U45 'LD1117/DD_3_BATT_WIN_V_0*4 1206':;
+
+SECTION_NUMBER 1
+ '@POWER_2679_V8.SCHEMATIC1(SCH_1):INS25235611@POWER_2679.LD1117/DD_3.NORMAL(CHIPS)':
+ C_PATH='@power_2679_v8.schematic1(sch_1):ins25235611@power_2679.\ld1117/dd_3.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ U46 'LD1117/DD_2_EMI_FILTER2_BEAD 22':;
+
+SECTION_NUMBER 1
+ '@POWER_2679_V8.SCHEMATIC1(SCH_1):INS25090970@DM642.LD1117/DD_2.NORMAL(CHIPS)':
+ C_PATH='@power_2679_v8.schematic1(sch_1):ins25090970@dm642.\ld1117/dd_2.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ U47 'LD1117/DD_2_EMI_FILTER2_BEAD 22':;
+
+SECTION_NUMBER 1
+ '@POWER_2679_V8.SCHEMATIC1(SCH_1):INS25107323@DM642.LD1117/DD_2.NORMAL(CHIPS)':
+ C_PATH='@power_2679_v8.schematic1(sch_1):ins25107323@dm642.\ld1117/dd_2.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ U48 'ISO1205_ISO1205_HZD05B-12S05':;
+
+SECTION_NUMBER 1
+ '@POWER_2679_V8.SCHEMATIC1(SCH_1):INS25225944@PPC.ISO1205.NORMAL(CHIPS)':
+ C_PATH='@power_2679_v8.schematic1(sch_1):ins25225944@ppc.\iso1205.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+END.

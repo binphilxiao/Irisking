@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="US-ASCII" standalone="yes"?>
+<cof>
+	<eprom_name>EPCS1SI8</eprom_name>
+	<flash_loader_device>EP2C5T144</flash_loader_device>
+	<output_filename>fpga_v3.jic</output_filename>
+	<n_pages>1</n_pages>
+	<width>1</width>
+	<mode>7</mode>
+	<sof_data>
+		<user_name>Page_0</user_name>
+		<page_flags>1</page_flags>
+		<bit0>
+			<sof_filename>pld.sof</sof_filename>
+		</bit0>
+	</sof_data>
+	<version>3</version>
+	<options>
+	</options>
+</cof>

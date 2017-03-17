@@ -1,0 +1,58 @@
+# Cadence Design Systems, Inc.
+# Allegro PCB Router Automatic Router
+# Allegro PCB Router V15.7 made 2006/05/31 at 22:07:34
+# Running on host 
+# 
+#            Command Line Parameters
+#            -----------------------
+# Design File Name : D:/project/IRISking/ikemb-0002/project/hardware/keyboard\keyboard.dsn
+# Initialization options:
+#   -do pasde.do
+# Status File Name : D:/project/IRISking/ikemb-0002/project/hardware/keyboard\monitor.sts
+select_product  Allegro PCB SI GXL
+# Use Colormap In Design File.
+#
+#
+#
+#
+# do $/keyboard_rules.do
+rule PCB (width 10)
+rule PCB (clearance 10 (type wire_wire))
+rule PCB (clearance 10 (type wire_smd))
+rule PCB (clearance 10 (type wire_pin))
+rule PCB (clearance 10 (type wire_via))
+rule PCB (clearance 10 (type smd_smd))
+rule PCB (clearance 10 (type smd_pin))
+rule PCB (clearance 10 (type smd_via))
+rule PCB (clearance 10 (type pin_pin))
+rule PCB (clearance 10 (type pin_via))
+rule PCB (clearance 10 (type via_via))
+rule PCB (clearance 10 (type test_test))
+rule PCB (clearance 10 (type test_wire))
+rule PCB (clearance 10 (type test_smd))
+rule PCB (clearance 10 (type test_pin))
+rule PCB (clearance 10 (type test_via))
+rule PCB (clearance 10 (type buried_via_gap))
+rule PCB (clearance 0 (type area_wire))
+rule PCB (clearance 0 (type area_smd))
+rule PCB (clearance 0 (type area_area))
+rule PCB (clearance 0 (type area_pin))
+rule PCB (clearance 0 (type area_via))
+rule PCB (clearance 0 (type area_test))
+rule pcb (tjunction on)(junction_type all)
+rule pcb (staggered_via on (min_gap 10)(max_gap -0.0001))
+rule layer TOP (restricted_layer_length_factor 1)
+rule layer BOTTOM (restricted_layer_length_factor 1)
+defkey (q ) (write session D:/project/IRISking/ikemb-0002/project/hardware/keyboard/keyboard.ses;quit)
+quit)
+write colormap _notify.std
+smart_route (min_via_grid 0.0001) (min_wire_grid 0.0001) (auto_fanout on) (auto_fanout_via_share on) (auto_fanout_pin_share on) (auto_testpoint off) (auto_miter on)
+route 10
+route 10
+route 10
+miter
+miter
+quit -c
+write session D:/project/IRISking/ikemb-0002/project/hardware/keyboard\keyboard.ses
+ popdown save_quit
+quit -c

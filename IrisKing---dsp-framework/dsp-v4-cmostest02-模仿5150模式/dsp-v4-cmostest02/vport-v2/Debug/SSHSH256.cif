@@ -1,0 +1,150 @@
+
+<ci_XML compiler_version="5.1.0" cif_version="1.0">
+
+  <file_tbl>
+    <file_tbl_entry name="D:\aqiu\MyDSPProject\CMOSTesting\dsp-v4-cmostest02\rsalib\SSHSH256.C"></file_tbl_entry>
+  </file_tbl>
+
+  <func_tbl>
+    <func_tbl_entry  name="SHA256_Block" file_tbl_idx="0" first_ln="33" last_ln="86"></func_tbl_entry>
+    <func_tbl_entry  name="SHA256_Bytes" file_tbl_idx="0" first_ln="102" last_ln="142"></func_tbl_entry>
+    <func_tbl_entry  name="SHA256_Final" file_tbl_idx="0" first_ln="144" last_ln="179"></func_tbl_entry>
+  </func_tbl>
+
+  <sym_tbl>
+    <sym_tbl_entry  name="digest" file_tbl_idx="0" ln="144"></sym_tbl_entry>
+    <sym_tbl_entry  name="s" file_tbl_idx="0" ln="144"></sym_tbl_entry>
+  </sym_tbl>
+
+  <ref_tbl>
+    <ref_tbl_entry  name="((unsigned *)s)[i]" file_tbl_idx="0" ln="174"></ref_tbl_entry>
+    <ref_tbl_entry  name="((unsigned *)s)[0]" file_tbl_idx="0" ln="174"></ref_tbl_entry>
+  </ref_tbl>
+
+  <template_tbl>
+    <template_tbl_entry type="thruput" name="thruput_unroll"></template_tbl_entry>
+    <template_tbl_entry type="startup" name="startup"></template_tbl_entry>
+    <template_tbl_entry type="misc" name="rec_bnd"></template_tbl_entry>
+    <template_tbl_entry type="misc" name="unroll"></template_tbl_entry>
+    <template_tbl_entry type="thruput" name="thruput"></template_tbl_entry>
+    <template_tbl_entry type="misc" name="res_bnd"></template_tbl_entry>
+    <template_tbl_entry type="misc" name="aliased_loop"></template_tbl_entry>
+    <template_tbl_entry type="short_advice" name="restrict2"></template_tbl_entry>
+    <template_tbl_entry type="short_advice" name="align"></template_tbl_entry>
+    <template_tbl_entry type="misc" name="antialiased_loop"></template_tbl_entry>
+  </template_tbl>
+
+  <loop_tbl>
+    <sort column="LOOP" priority="0" type="file" order="ascending"></sort>
+    <sort column="LOOP" priority="1" type="int" order="ascending"></sort>
+    <sort column="LOOP" priority="2" type="int" order="ascending"></sort>
+    <sort column="FUNC" priority="0" type="file" order="ascending"></sort>
+    <sort column="FUNC" priority="1" type="func" order="ascending"></sort>
+    <sort column="FUNC" priority="2" type="int" order="ascending"></sort>
+    <sort column="FUNC" priority="3" type="int" order="ascending"></sort>
+    <sort column="THRUPUT" priority="0" type="int" order="descending"></sort>
+    <sort column="STARTUP" priority="0" type="int" order="descending"></sort>
+    <sort column="MISC" priority="0" type="int" order="ascending"></sort>
+    <sort column="MISC" priority="1" type="int" order="ascending"></sort>
+    <sort column="MISC" priority="2" type="string" order="ascending"></sort>
+    <sort column="MISC" priority="3" type="int" order="descending"></sort>
+    <sort column="ADVICE" priority="0" type="int" order="descending"></sort>
+
+    <loop_tbl_entry>
+      <sort_key column="LOOP" priority="0" value="0"></sort_key>
+      <sort_key column="LOOP" priority="1" value="60"></sort_key>
+      <sort_key column="LOOP" priority="2" value="61"></sort_key>
+      <sort_key column="FUNC" priority="0" value="0"></sort_key>
+      <sort_key column="FUNC" priority="1" value="33"></sort_key>
+      <sort_key column="FUNC" priority="2" value="86"></sort_key>
+      <sort_key column="THRUPUT" priority="0" value="15"></sort_key>
+      <sort_key column="STARTUP" priority="0" value="4"></sort_key>
+      <sort_key column="MISC" priority="0" value="19"></sort_key>
+      <sort_key column="MISC" priority="1" value="1009"></sort_key>
+      <sort_key column="MISC" priority="3" value="2"></sort_key>
+      <src id="D:\aqiu\MyDSPProject\CMOSTesting\dsp-v4-cmostest02\rsalib\SSHSH256.asm:L2:1:1301562228" func_tbl_idx="0" file_tbl_idx="0" first_ln="60" last_ln="61" lang="C"></src>
+      <thruput template_idx="0" s1="15" s2="7.5"></thruput>
+      <startup template_idx="1" s1="4"></startup>
+      <misc template_idx="2" s1="5" s2="14"></misc>
+      <misc template_idx="3" s1="2"></misc>
+    </loop_tbl_entry>
+
+    <loop_tbl_entry>
+      <sort_key column="LOOP" priority="0" value="0"></sort_key>
+      <sort_key column="LOOP" priority="1" value="66"></sort_key>
+      <sort_key column="LOOP" priority="2" value="82"></sort_key>
+      <sort_key column="FUNC" priority="0" value="0"></sort_key>
+      <sort_key column="FUNC" priority="1" value="33"></sort_key>
+      <sort_key column="FUNC" priority="2" value="86"></sort_key>
+      <sort_key column="THRUPUT" priority="0" value="80"></sort_key>
+      <sort_key column="MISC" priority="0" value="19"></sort_key>
+      <sort_key column="MISC" priority="1" value="1025"></sort_key>
+      <src id="D:\aqiu\MyDSPProject\CMOSTesting\dsp-v4-cmostest02\rsalib\SSHSH256.asm:L4:1:1301562228" func_tbl_idx="0" file_tbl_idx="0" first_ln="66" last_ln="82" lang="C"></src>
+      <thruput template_idx="4" s1="80"></thruput>
+      <startup template_idx="1" s1="0"></startup>
+      <misc template_idx="2" s1="47" s2="72"></misc>
+    </loop_tbl_entry>
+
+    <loop_tbl_entry>
+      <sort_key column="LOOP" priority="0" value="0"></sort_key>
+      <sort_key column="LOOP" priority="1" value="129"></sort_key>
+      <sort_key column="LOOP" priority="2" value="135"></sort_key>
+      <sort_key column="FUNC" priority="0" value="0"></sort_key>
+      <sort_key column="FUNC" priority="1" value="102"></sort_key>
+      <sort_key column="FUNC" priority="2" value="142"></sort_key>
+      <sort_key column="THRUPUT" priority="0" value="5"></sort_key>
+      <sort_key column="STARTUP" priority="0" value="8"></sort_key>
+      <sort_key column="MISC" priority="0" value="19"></sort_key>
+      <sort_key column="MISC" priority="1" value="2004"></sort_key>
+      <sort_key column="MISC" priority="3" value="2"></sort_key>
+      <src id="D:\aqiu\MyDSPProject\CMOSTesting\dsp-v4-cmostest02\rsalib\SSHSH256.asm:L7:2:1301562228" func_tbl_idx="1" file_tbl_idx="0" first_ln="129" last_ln="135" lang="C"></src>
+      <thruput template_idx="0" s1="5" s2="2.5"></thruput>
+      <startup template_idx="1" s1="8"></startup>
+      <misc template_idx="5" s1="5"></misc>
+      <misc template_idx="3" s1="2"></misc>
+    </loop_tbl_entry>
+
+    <loop_tbl_entry>
+      <sort_key column="LOOP" priority="0" value="0"></sort_key>
+      <sort_key column="LOOP" priority="1" value="173"></sort_key>
+      <sort_key column="LOOP" priority="2" value="178"></sort_key>
+      <sort_key column="FUNC" priority="0" value="0"></sort_key>
+      <sort_key column="FUNC" priority="1" value="144"></sort_key>
+      <sort_key column="FUNC" priority="2" value="179"></sort_key>
+      <sort_key column="THRUPUT" priority="0" value="27"></sort_key>
+      <sort_key column="MISC" priority="0" value="19"></sort_key>
+      <sort_key column="MISC" priority="1" value="1019"></sort_key>
+      <sort_key column="ADVICE" priority="0" value="2"></sort_key>
+      <src id="D:\aqiu\MyDSPProject\CMOSTesting\dsp-v4-cmostest02\rsalib\SSHSH256.asm:L12:1:1301562228" func_tbl_idx="2" file_tbl_idx="0" first_ln="173" last_ln="178" lang="C"></src>
+      <thruput template_idx="4" s1="27"></thruput>
+      <startup template_idx="1" s1="0"></startup>
+      <misc template_idx="2" s1="8" s2="27"></misc>
+      <misc template_idx="6"></misc>
+      <short_advice template_idx="7" v1="0" v2="1"></short_advice>
+      <short_advice template_idx="8" v1="1" r2="0" r3="1" s4="4" s5="8" s6="64"></short_advice>
+    </loop_tbl_entry>
+
+    <loop_tbl_entry>
+      <sort_key column="LOOP" priority="0" value="0"></sort_key>
+      <sort_key column="LOOP" priority="1" value="173"></sort_key>
+      <sort_key column="LOOP" priority="2" value="178"></sort_key>
+      <sort_key column="FUNC" priority="0" value="0"></sort_key>
+      <sort_key column="FUNC" priority="1" value="144"></sort_key>
+      <sort_key column="FUNC" priority="2" value="179"></sort_key>
+      <sort_key column="THRUPUT" priority="0" value="3"></sort_key>
+      <sort_key column="STARTUP" priority="0" value="6"></sort_key>
+      <sort_key column="MISC" priority="0" value="19"></sort_key>
+      <sort_key column="MISC" priority="1" value="2002"></sort_key>
+      <sort_key column="ADVICE" priority="0" value="2"></sort_key>
+      <src id="D:\aqiu\MyDSPProject\CMOSTesting\dsp-v4-cmostest02\rsalib\SSHSH256.asm:L16:1:1301562228" func_tbl_idx="2" file_tbl_idx="0" first_ln="173" last_ln="178" lang="C"></src>
+      <thruput template_idx="4" s1="3"></thruput>
+      <startup template_idx="1" s1="6"></startup>
+      <misc template_idx="5" s1="3"></misc>
+      <misc template_idx="9"></misc>
+      <short_advice template_idx="7" v1="0" v2="1"></short_advice>
+      <short_advice template_idx="8" v1="1" r2="0" r3="1" s4="4" s5="8" s6="64"></short_advice>
+    </loop_tbl_entry>
+
+  </loop_tbl>
+
+</ci_XML>

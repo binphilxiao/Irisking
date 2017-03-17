@@ -1,0 +1,82 @@
+Version 5.0 Build 171 11/03/2005 Service Pack 2 SJ Full Version
+27
+1367
+OFF
+OFF
+OFF
+OFF
+OFF
+FV_OFF
+VRSM_ON
+VHSM_ON
+0
+# entity
+s_or2
+# case_insensitive
+# source_file
+c:|altera|quartus50|libraries|others|maxplus2|s_or2.tdf
+1107580136
+6
+# storage
+db|pld.(1).cnf
+db|pld.(1).cnf
+# used_port {
+IN1
+IN2
+OUT
+}
+# hierarchies {
+s_or2:G_61_0
+s_or2:G_61_0_o2
+s_or2:un1_nGCS_i_o3_0_
+s_or2:un1_wigend_buf56_i_tz
+s_or2:un1_wigend_reg_3_i_a3_0_
+s_or2:un1_wigend_reg_3_i_a3_0_1_6_
+s_or2:un1_wigend_reg_3_i_a3_1_
+s_or2:un1_wigend_reg_3_i_a3_2_
+s_or2:un1_wigend_reg_3_i_a3_3_
+s_or2:un1_wigend_reg_3_i_a3_4_
+s_or2:un1_wigend_reg_3_i_a3_5_
+s_or2:un1_wilclk_cntlto11_0
+s_or2:wigend_bitcnt_n0_0
+s_or2:wigend_bitcnt_n0_0_a3
+s_or2:wigend_bitcnt_n1_i_a3
+s_or2:wigend_bitcnt_n2_i_a3
+s_or2:wigend_bitcnt_n3_i_a3
+s_or2:wigend_bitcnt_n4_i_a3
+s_or2:wilclk_cnt_n3_m4_e
+s_or2:wilclk_cnt_n7_m4_e
+s_or2:wilclk_cnt_n8_m4_e
+s_or2:wilclk_cnt_n9_m4_e
+}
+# end
+# entity
+21MUX
+# case_insensitive
+# source_file
+c:|altera|quartus50|libraries|others|maxplus2|21MUX.bdf
+1107569538
+23
+# storage
+db|pld.(2).cnf
+db|pld.(2).cnf
+# hierarchies {
+21MUX:eint11_0
+}
+# end
+# entity
+pld
+# case_insensitive
+# source_file
+pld|pld.edf
+1236928539
+8
+# storage
+db|pld.(0).cnf
+db|pld.(0).cnf
+# hierarchies {
+|
+}
+# end
+# complete
+

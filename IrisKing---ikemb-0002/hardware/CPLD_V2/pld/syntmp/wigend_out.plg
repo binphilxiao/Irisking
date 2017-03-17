@@ -1,0 +1,22 @@
+@P:  Part : EP2C5TC144-7
+@P:  Worst Slack : 2.071
+@P:  pld|clk - Estimated Frequency : 140.4 MHz
+@P:  pld|clk - Requested Frequency : 100.0 MHz
+@P:  pld|clk - Estimated Period : 7.122
+@P:  pld|clk - Requested Period : 10.000
+@P:  pld|clk - Slack : 2.878
+@P:  pld|wil_clk_inferred_clock - Estimated Frequency : 142.6 MHz
+@P:  pld|wil_clk_inferred_clock - Requested Frequency : 100.0 MHz
+@P:  pld|wil_clk_inferred_clock - Estimated Period : 7.011
+@P:  pld|wil_clk_inferred_clock - Requested Period : 10.000
+@P:  pld|wil_clk_inferred_clock - Slack : 2.989
+@P:  System - Estimated Frequency : 126.1 MHz
+@P:  System - Requested Frequency : 100.0 MHz
+@P:  System - Estimated Period : 7.929
+@P:  System - Requested Period : 10.000
+@P:  System - Slack : 2.071
+@P: pld Part : ep2c5tc144-7
+@P: pld I/O ATOMs : 57
+@P: pld Cyclone II_lcell_comb : 690 ATOMs of 4608
+@P: pld Cyclone II_lcell_ff : 220 ATOMs of 4608
+@P: pld DSP Blocks : 0 (0 nine bit DSP elements)
